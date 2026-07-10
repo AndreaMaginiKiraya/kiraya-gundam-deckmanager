@@ -1,0 +1,3170 @@
+[
+  {
+    "id": "GD03-001",
+    "name": "Gundam NT-1",
+    "rarity": "LR",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Christina Mackenzie] / [Amuro Ray]",
+    "effect": "<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.) 【When Paired】Choose 1 rested enemy Unit. Deal 1 damage to it. When this effect destroys an enemy Unit, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-001.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-001.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-002",
+    "name": "The-O",
+    "rarity": "LR",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Titans) (Jupitris)",
+    "link": "[Paptimus Scirocco]",
+    "effect": "<Repair 3> (At the end of your turn, this Unit recovers the specified number of HP.) 【During Pair】When one of your other Units with <Repair> attacks, choose 1 enemy Unit whose Lv. is equal to or lower than that Unit. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-002.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-002.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-003",
+    "name": "Messala",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Titans) (Jupitris)",
+    "link": "(Jupitris) Trait",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) <Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-003.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-003.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-004",
+    "name": "Hambrabi",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Titans)",
+    "link": "[Yazan Gable]",
+    "effect": "【Attack】If you have 2 or more other (Titans) Units in play, choose 1 enemy Unit with 5 or less HP. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-004.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-004.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-005",
+    "name": "Kshatriya Besserung",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Neo Zeon)",
+    "link": "[Marida Cruz]",
+    "effect": "<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.) 【Deploy】Draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-005.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-005.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-006",
+    "name": "Penelope (Middle Form)",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Lane Aim]",
+    "effect": "【Deploy】Choose 1 to 2 enemy Units with 3 or less HP. Rest them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-006.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-006.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-007",
+    "name": "Gundam NT-1 Full Armor",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Christina Mackenzie]",
+    "effect": "【Destroyed】Choose 1 enemy Unit with 3 or less HP. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-007.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-007.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-008",
+    "name": "Bolinoak Sammahn",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Titans) (Jupitris)",
+    "link": "(Jupitris) Trait",
+    "effect": "【During Pair】This Unit gains <Repair 2>. (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-008.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-008.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-009",
+    "name": "Palace Athene",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Titans) (Jupitris)",
+    "link": "[Reccoa Londe]",
+    "effect": "【Deploy】You may choose 2 (Titans) cards from your trash. Exile them from the game. If you do, choose 1 enemy Unit that is Lv.4 or lower. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-009.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-009.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-010",
+    "name": "Full Armor Unicorn Gundam (Destroy Mode)",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 6,
+    "ap": 6,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(Civilian)",
+    "link": "[Banagher Links]",
+    "effect": "<Repair 3> (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-010.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-010.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-011",
+    "name": "GM Sniper II",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-011.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-011.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-012",
+    "name": "Messala (MA Mode)",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Titans) (Jupitris)",
+    "link": "(Jupitris) Trait",
+    "effect": "<Repair 1> (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-012.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-012.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-013",
+    "name": "Hizack",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Titans) (Jupitris)",
+    "link": "",
+    "effect": "While you have another (Jupitris) Unit in play, this Unit gets AP+1 and <Repair 1>. (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-013.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-013.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-014",
+    "name": "Hizack Custom",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Titans)",
+    "link": "",
+    "effect": "While you have 2 or more (Titans) Units in play, this card in your hand gets cost -1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-014.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-014.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-015",
+    "name": "Baund Doc",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Titans)",
+    "link": "[Jerid Messa]",
+    "effect": "【Activate･Main】【Once per Turn】Exile 3 (Titans) cards from your trash: This Unit gains <Breach 4> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-015.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-015.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-016",
+    "name": "Full Armor Unicorn Gundam (Unicorn Mode)",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Civilian)",
+    "link": "[Banagher Links]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-016.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-016.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-017",
+    "name": "Kämpfer",
+    "rarity": "LR",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "[Mikhail Kaminsky]",
+    "effect": "【When Paired･(Cyclops Team) Pilot】All your (Cyclops Team) Units may choose an active enemy Unit with 5 or less AP as their attack target during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-017.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-017.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-018",
+    "name": "Altron Gundam",
+    "rarity": "LR",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 6,
+    "ap": 5,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(G Team)",
+    "link": "[Chang Wufei]",
+    "effect": "<Breach 5> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【Attack】Choose 1 enemy Unit with <Blocker>. Deal 5 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-018.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-018.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-019",
+    "name": "Gundam AGE-2 Normal",
+    "rarity": "LR",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation) (Age System)",
+    "link": "[Asemu Asuno]",
+    "effect": "【During Pair】Enemy Units choose this rested Unit as their attack target if possible when attacking. 【When Linked】Place 1 EX Resource.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-019.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-019.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-020",
+    "name": "Zaku Ⅱ FZ",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 1,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "[Bernard Wiseman]",
+    "effect": "【When Paired】If there are 4 or more (Cyclops Team) cards in your trash, deploy 2 rested [Ad Balloon]((Civilian)･AP0･HP1･This Unit can't be set as active or paired with a Pilot) Unit tokens. While you have a Unit with \"Ad Balloon\" in its card name in play, this Unit can't receive enemy battle damage.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-020.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-020.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-021",
+    "name": "Gundam Deathscythe Hell",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 6,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(G Team)",
+    "link": "[Duo Maxwell]",
+    "effect": "【Deploy】Choose 1 of your (Operation Meteor)/(G Team) Units. During this turn, it may choose an active enemy Unit as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-021.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-021.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-022",
+    "name": "Gundam Kyrios",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Allelujah Haptism] / [Hallelujah Haptism]",
+    "effect": "【During Link】During your turn, when this Unit destroys an enemy Unit with battle damage, deal 1 damage to all enemy Units that are Lv.3 or lower.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-022.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-022.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-023",
+    "name": "G-Bouncer",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "(Earth Federation) Trait",
+    "effect": "When you place an EX Resource, choose 1 of your (AGE System) Units. It gains <High-Maneuver> during this turn. (This Unit can't be blocked.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-023.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-023.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-024",
+    "name": "Hy-Gogg",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Earth",
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "(Cyclops Team) Trait",
+    "effect": "【When Linked】If you have another (Cyclops Team) Unit in play, deploy 1 rested [Hy-Gogg]((Cyclops Team)･AP2･HP1) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-024.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-024.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-025",
+    "name": "Gundam Sandrock Custom",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Team)",
+    "link": "[Quatre Raberba Winner]",
+    "effect": "Enemy Units choose one of your rested (Maganac Corps) Units as their attack target if possible when attacking.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-025.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-025.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-026",
+    "name": "Gundam Dynames",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Lockon Stratos]",
+    "effect": "<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-026.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-026.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-027",
+    "name": "Z’Gok E",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Earth",
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "(Cyclops Team) Trait",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-027.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-027.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-028",
+    "name": "Auda's Maganac",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Maganac Corps)",
+    "link": "(Maganac Corps) Trait",
+    "effect": "【Attack】If you are attacking an enemy Unit, this Unit gets AP+2 during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-028.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-028.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-029",
+    "name": "Gundam Heavyarms Custom",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(G Team)",
+    "link": "[Trowa Barton]",
+    "effect": "During your turn, when this Unit destroys an enemy Unit with battle damage, deal 2 damage to all enemy Units with <Blocker>.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-029.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-029.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-030",
+    "name": "Gundam Kyrios (Tail Unit Flight Mode)",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 3,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Allelujah Haptism] / [Hallelujah Haptism]",
+    "effect": "While you have a (CB) Link Unit in play, this card in your hand gets cost -1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-030.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-030.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-031",
+    "name": "Gundam AGE-1 Flat",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation) (Age System)",
+    "link": "(Asuno Family) Trait",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-031.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-031.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-032",
+    "name": "Zaku (Four Snake Eyes') [YETI] (GQ)",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 1,
+    "ap": 2,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Clan)",
+    "link": "",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-032.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-032.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-033",
+    "name": "Providence Gundam",
+    "rarity": "LR",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Zaft)",
+    "link": "[Rau Le Creuset]",
+    "effect": "【During Pair･(ZAFT) Pilot】During your turn, all your (ZAFT) Units get AP+2. 【Attack】Choose 1 enemy Unit. Deal 1 damage to it for each 4 AP this Unit has.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-033.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-033.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-034",
+    "name": "GQuuuuuuX (Omega Psycommu)",
+    "rarity": "LR",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 6,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Clan)",
+    "link": "[Amate Yuzuriha (Machu)] / [Nyaan]",
+    "effect": "<Suppression> (Damage to Shields by an attack is dealt to the first 2 cards simultaneously.) 【Deploy】Choose 1 enemy Unit. Deal 3 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-034.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-034.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-035",
+    "name": "GFreD",
+    "rarity": "LR",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Zeon)",
+    "link": "[Nyaan]",
+    "effect": "【Activate･Main】【Once per Turn】①, exile 1 Pilot card from your trash: Deal 1 damage to all enemy Units. 【When Linked】During this turn, this Unit may choose an active enemy Unit with AP equal to or less than this Unit as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-035.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-035.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-036",
+    "name": "Ξ Gundam (Flight Form)",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Mafty)",
+    "link": "[Hathaway Noa]",
+    "effect": "【When Linked】Deal 1 damage to all enemy Units.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-036.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-036.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-037",
+    "name": "Bertigo",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Sra)",
+    "link": "(Newtype) Trait",
+    "effect": "【During Link】During your turn, while this Unit is battling an enemy Unit with a 【Destroyed】 effect, it gains <First Strike>. (While this Unit is attacking, it deals damage before the enemy Unit.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-037.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-037.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-038",
+    "name": "GuAIZ (Commander Type)",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Zaft)",
+    "link": "[Rau Le Creuset]",
+    "effect": "【Activate･Main】<Support 1> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.) During your turn, when this Unit is rested by an effect, choose 1 of your (ZAFT) Units. It gets AP+2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-038.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-038.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-039",
+    "name": "Red Gundam",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 2,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Clan)",
+    "link": "(Clan) Trait",
+    "effect": "【Deploy】Choose 1 other active friendly (Clan) Unit. Rest it. If you do, choose 1 enemy Unit with 2 or less AP. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-039.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-039.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-040",
+    "name": "Gundam Virsago & Gundam Ashtaron",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 3,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(New Une)",
+    "link": "[Shagia Frost] / [Olba Frost]",
+    "effect": "【During Link】This Unit gains <High-Maneuver>. (This Unit can't be blocked.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-040.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-040.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-041",
+    "name": "Patulia",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 6,
+    "ap": 5,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(Sra)",
+    "link": "[Carris Nautilus]",
+    "effect": "【Deploy】Deal 3 damage to all Bases.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-041.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-041.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-042",
+    "name": "Duel Gundam (Assault Shroud)",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Zaft)",
+    "link": "[Yzak Jule]",
+    "effect": "While this Unit has 5 or more AP, it may choose an active enemy Unit that is Lv.5 or lower as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-042.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-042.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-043",
+    "name": "Messer Type-F02",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Mafty)",
+    "link": "(Mafty) Trait",
+    "effect": "【When Paired】Choose 1 enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-043.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-043.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-044",
+    "name": "Daughtress Flyer",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(New Une)",
+    "link": "",
+    "effect": "【Deploy】Deploy 1 rested [Daughtress]((New UNE)･AP0･HP1) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-044.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-044.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-045",
+    "name": "Balient",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(New Une)",
+    "link": "",
+    "effect": "While you have a Unit token in play, this Unit gets AP+1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-045.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-045.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-046",
+    "name": "CGUE",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Zaft)",
+    "link": "",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-046.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-046.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-047",
+    "name": "DINN (Commander Type)",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Zaft)",
+    "link": "[Rau Le Creuset]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-047.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-047.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-048",
+    "name": "GFreD",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 4,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Zeon)",
+    "link": "[Nyaan]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-048.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-048.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-049",
+    "name": "Gundam Exia (Trans-Am)",
+    "rarity": "LR",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 6,
+    "ap": 6,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Setsuna F. Seiei]",
+    "effect": "<Suppression> (Damage to Shields by an attack is dealt to the first 2 cards simultaneously.) When this Unit destroys an enemy shield area card with battle damage, if there are 10 or more (CB) cards in your trash, choose 1 enemy Unit with the lowest HP. Destroy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-049.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-049.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-050",
+    "name": "Gundam Barbatos Lupus",
+    "rarity": "LR",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 6,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Tekkadan) (Gundam Frame)",
+    "link": "[Mikazuki Augus]",
+    "effect": "【Activate･Main】Choose 3 (Tekkadan)/(Teiwaz) Unit cards from your trash. Exile them from the game. If you do, choose 1 enemy Unit. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-050.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-050.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-051",
+    "name": "Gundam X Divider",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Vulture)",
+    "link": "[Garrod Ran] / [Jamil Neate]",
+    "effect": "【When Linked】You may choose 1 Unit card that is Lv.4 or lower from your trash. Pay its cost to deploy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-051.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-051.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-052",
+    "name": "Gundam Virtue",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Tieria Erde]",
+    "effect": "【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.) When this Unit deals battle damage to an enemy Unit that is Lv.5 or lower, if you have a (CB) Pilot in play, destroy that enemy Unit.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-052.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-052.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-053",
+    "name": "Gundam Gusion Rebake Full City",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Tekkadan) (Gundam Frame)",
+    "link": "[Akihiro Altland]",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) 【During Pair】【Once per Turn】During your turn, when one of your (Tekkadan)/(Teiwaz) Units receives effect damage, choose 1 enemy Unit that is Lv.4 or lower. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-053.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-053.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-054",
+    "name": "Zeydra",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Vagan)",
+    "link": "[Zeheart Galette]",
+    "effect": "<High-Maneuver> (This Unit can't be blocked.) 【When Paired･(X-Rounder) Pilot】You may choose 4 (Vagan) cards from your trash. Exile them from the game. If you do, choose 1 enemy Unit that is Lv.4 or lower. Destroy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-054.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-054.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-055",
+    "name": "Gundam Hajiroboshi (2nd Form)",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Civilian) (Gundam Frame)",
+    "link": "[Wistario Afam]",
+    "effect": "【When Paired･Purple Pilot】Choose 1 enemy Unit that is Lv.2 or lower. Destroy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-055.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-055.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-056",
+    "name": "Gundam Barbatos Adapt",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 2,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Tekkadan) (Gundam Frame)",
+    "link": "[Mikazuki Augus]",
+    "effect": "【Deploy】Choose 1 of your Units and 1 enemy Unit. Deal 1 damage to them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-056.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-056.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-057",
+    "name": "GN Armor (Type-E)",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "(CB) Trait",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-057.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-057.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-058",
+    "name": "Farsia",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Ue) (Vagan)",
+    "link": "[Yurin L'Ciel]",
+    "effect": "This card in your trash gets cost -1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-058.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-058.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-059",
+    "name": "Zedas R",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Vagan)",
+    "link": "(X-Rounder) Trait",
+    "effect": "【Attack】You may choose 1 (Vagan) card from your trash. Exile it from the game. If you do, choose 1 of your (Vagan) Units. It gets AP+2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-059.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-059.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-060",
+    "name": "CGS Mobile Worker (Commander Type)",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 0,
+    "hp": 2,
+    "zone": "Earth",
+    "trait": "(Tekkadan)",
+    "link": "",
+    "effect": "【Once per Turn】During your turn, when this Unit receives effect damage, deploy 1 rested [CGS Mobile Worker]((Tekkadan)･AP1･HP1) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-060.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-060.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-061",
+    "name": "Gundam Barbatos 6th Form",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Tekkadan) (Gundam Frame)",
+    "link": "[Mikazuki Augus]",
+    "effect": "While this Unit has 1 HP, it gains <Repair 3>. (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-061.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-061.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-062",
+    "name": "GX-Bit",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Old Une) (Vulture)",
+    "link": "",
+    "effect": "【Deploy】If you deploy this Unit from your trash, choose 1 enemy Unit with 4 or less AP. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-062.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-062.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-063",
+    "name": "0 Gundam",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 1,
+    "ap": 2,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-063.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-063.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-064",
+    "name": "Defurse",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 2,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Ue) (Vagan)",
+    "link": "",
+    "effect": "【Deploy】You may choose 1 (X-Rounder) card from your trash and add it to your hand. If you do, discard 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-064.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-064.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-065",
+    "name": "Zedas M",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Vagan)",
+    "link": "(X-Rounder) Trait",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-065.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-065.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-066",
+    "name": "Gundam Barbatos 5th Form (Ground Type)",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Earth",
+    "trait": "(Tekkadan) (Gundam Frame)",
+    "link": "[Mikazuki Augus]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-066.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-066.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-067",
+    "name": "Rouei",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Earth",
+    "trait": "(Teiwaz) (Tekkadan)",
+    "link": "(Teiwaz) / (Tekkadan) Trait",
+    "effect": "【Deploy】You may choose 1 of your Units. Deal 1 damage to it. It gets AP+1 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-067.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-067.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-068",
+    "name": "Gundam Hajiroboshi",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Civilian) (Gundam Frame)",
+    "link": "[Wistario Afam]",
+    "effect": "While a friendly Base is in play, this Unit gains <Blocker>. (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-068.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-068.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-069",
+    "name": "Graham's Union Flag Custom",
+    "rarity": "LR",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Superpower Bloc)",
+    "link": "[Graham Aker]",
+    "effect": "<High-Maneuver> (This Unit can't be blocked.) 【During Link】At the end of the turn when this Unit is paired with a Pilot, set it as active.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-069.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-069.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-070",
+    "name": "Freedom Gundam",
+    "rarity": "LR",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Triple Ship Alliance)",
+    "link": "[Kira Yamato]",
+    "effect": "While this Unit is rested, friendly Shields can't receive battle damage from enemy Units.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-070.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-070.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-071",
+    "name": "Z Gundam (Biosensor)",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Aeug)",
+    "link": "[Kamille Bidan]",
+    "effect": "【Deploy】Choose 1 enemy Unit. For each (AEUG) Unit card in your trash, it gets AP-1 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-071.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-071.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-072",
+    "name": "Aile Strike Gundam",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Triple Ship Alliance)",
+    "link": "[Mu La Flaga]",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) 【Deploy】If you have another (Triple Ship Alliance) Unit in play, draw 1. Then, discard 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-072.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-072.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-073",
+    "name": "Graze Ein",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 6,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Gjallarhorn)",
+    "link": "[Ein Dalton]",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) 【During Link】【Activate･Action】【Once per Turn】If there are 6 or more (Gjallarhorn) cards in your trash, choose 1 enemy Unit battling this Unit. It gets AP-3 during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-073.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-073.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-074",
+    "name": "Tieren Taozi",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Superpower Bloc)",
+    "link": "(Super Soldier) Trait",
+    "effect": "【During Pair】While you have another (Superpower Bloc) Unit in play, enemy Units choose this rested Unit as their attack target if possible when attacking.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-074.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-074.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-075",
+    "name": "Super Gundam",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Aeug)",
+    "link": "(AEUG) Trait",
+    "effect": "【During Link】【Attack】Choose 1 enemy Unit with no paired Pilot. It gets AP-2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-075.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-075.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-076",
+    "name": "Freedom Gundam (METEOR)",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 6,
+    "ap": 6,
+    "hp": 6,
+    "zone": "Space",
+    "trait": "(Triple Ship Alliance)",
+    "link": "[Kira Yamato]",
+    "effect": "【Once per Turn】During your turn, when your (Triple Ship Alliance) Unit deals battle damage to an enemy Unit, you may return the enemy Unit to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-076.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-076.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-077",
+    "name": "Justice Gundam (METEOR)",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 6,
+    "hp": 6,
+    "zone": "Space",
+    "trait": "(Triple Ship Alliance)",
+    "link": "[Athrun Zala]",
+    "effect": "【When Linked】Choose 1 to 3 enemy Units with 3 or less HP. Return them to their owners' hands.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-077.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-077.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-078",
+    "name": "Tieren High Mobility Type",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 3,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Superpower Bloc)",
+    "link": "[Sergei Smirnov]",
+    "effect": "【During Link】【Destroyed】Return the card paired with this Unit to your hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-078.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-078.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-079",
+    "name": "G-Defenser",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Aeug)",
+    "link": "(AEUG) Trait",
+    "effect": "When you rest your Base with one of your Units' effects, you may rest this Unit instead.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-079.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-079.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-080",
+    "name": "Gundam Kimaris Trooper (Trooper Mode)",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Gjallarhorn) (Gundam Frame)",
+    "link": "[Gaelio Bauduin]",
+    "effect": "【When Linked】Choose 1 (Gjallarhorn) Command card from your trash. Add it to your hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-080.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-080.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-081",
+    "name": "AEU Enact Demonstration Color",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 1,
+    "ap": 2,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Superpower Bloc)",
+    "link": "(Superpower Bloc) Trait",
+    "effect": "This Unit can only attack during a turn when one of your (Superpower Bloc)/(UN) Units is deployed.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-081.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-081.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-082",
+    "name": "Union Flag",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 4,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Superpower Bloc)",
+    "link": "",
+    "effect": "While you have 2 or more (Superpower Bloc)/(UN) Units in play, this card in your hand gets cost -1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-082.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-082.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-083",
+    "name": "AEU Hellion",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 1,
+    "cost": 1,
+    "ap": 1,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Superpower Bloc)",
+    "link": "",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-083.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-083.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-084",
+    "name": "Paptimus Scirocco",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 5,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Titans) (Jupitris) (Newtype)",
+    "link": "",
+    "effect": "【When Linked】Choose 1 of your other Units. It gains <Repair 2> during this turn. Then, if it is a (Jupitris) Unit, draw 1. (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-084.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-084.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-085",
+    "name": "Christina Mackenzie",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Earth Federation)",
+    "link": "",
+    "effect": "When playing this card from your hand and pairing it with a Unit with \"Gundam NT-1\" in its card name, play this card as if it has 0 cost.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-085.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-085.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-086",
+    "name": "Yazan Gable",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Titans)",
+    "link": "",
+    "effect": "【Attack】Choose 1 of your (Titans) Units whose Lv. is equal to or lower than this Unit. It gets AP+1 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-086.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-086.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-087",
+    "name": "Sarah Zabiarov",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Titans) (Jupitris) (Newtype)",
+    "link": "",
+    "effect": "【When Linked】Choose 1 enemy Unit that is Lv.3 or lower. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-087.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-087.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-088",
+    "name": "Asemu Asuno",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Earth Federation) (Asuno Family)",
+    "link": "",
+    "effect": "【During Link】If this is an (AGE System) Unit, it gets AP+1 and <Breach 1>. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-088.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-088.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-089",
+    "name": "Bernard Wiseman",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "",
+    "effect": "Increase this Unit's AP by an amount equal to the number of (Cyclops Team) Pilot cards/Command cards with unique names in your trash.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-089.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-089.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-090",
+    "name": "Mikhail Kaminsky",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "",
+    "effect": "【Attack】Choose 1 of your (Cyclops Team) Units. It gains <Breach 1> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-090.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-090.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-091",
+    "name": "Rau Le Creuset",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zaft)",
+    "link": "",
+    "effect": "【When Linked】Choose 1 (ZAFT) Base card from your trash. Add it to your hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-091.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-091.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-092",
+    "name": "Nyaan",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zeon) (Newtype)",
+    "link": "",
+    "effect": "【When Linked】Place the top card of your deck into your trash. If you placed a (Zeon)/(Clan) card with this effect, choose 1 enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-092.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-092.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-093",
+    "name": "Carris Nautilus",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Sra) (Newtype)",
+    "link": "",
+    "effect": "While no enemy Base is in play, this Unit gets AP+1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-093.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-093.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-094",
+    "name": "Zeheart Galette",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 5,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Vagan) (X-rounder)",
+    "link": "",
+    "effect": "【When Paired】Place the top 2 cards of your deck into your trash. If you placed a (Vagan) card with this effect, choose 1 enemy Unit. It gets AP-2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-094.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-094.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-095",
+    "name": "Azee Gurumin",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Teiwaz)",
+    "link": "",
+    "effect": "【Once per Turn】When this Unit receives effect damage, choose 1 enemy Unit. It gets AP-1 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-095.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-095.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-096",
+    "name": "Jamil Neate",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Vulture) (Newtype)",
+    "link": "",
+    "effect": "【During Link】【Attack】You may discard 1. If you do, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-096.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-096.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-097",
+    "name": "Wistario Afam",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Civilian)",
+    "link": "",
+    "effect": "【During Link】【Once per Turn】During your turn, when this Unit destroys an enemy Unit with battle damage, look at the top 2 cards of your deck and return 1 to the top. Place the remaining card into your trash.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-097.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-097.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-098",
+    "name": "Graham Aker",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Superpower Bloc) (Un)",
+    "link": "",
+    "effect": "【During Link】When this rested Unit is set as active by an effect, choose 1 enemy Unit with 3 or less HP. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-098.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-098.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-099",
+    "name": "Emma Sheen",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Aeug)",
+    "link": "",
+    "effect": "【During Link】【Destroyed】If a friendly white Base is in play, choose 1 enemy Unit whose Lv. is equal to or lower than this Unit. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-099.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-099.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-100",
+    "name": "Soma Peries",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Superpower Bloc) (Un) (Super Soldier)",
+    "link": "",
+    "effect": "【Destroyed】Choose 1 enemy Unit. It gets AP-3 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-100.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-100.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-101",
+    "name": "A Healthy Curiosity",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】Draw 1. Then, if there are 2 or more cards with \"A Healthy Curiosity\" in their card name in your trash, choose 1 enemy Unit with 4 or less HP. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-101.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-101.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-102",
+    "name": "Privileged Position",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 6,
+    "cost": 2,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Action】Choose 1 of your (Titans) Link Units battling an enemy Unit. Set it as active.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-102.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-102.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-103",
+    "name": "Field Directive",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】If 3 or more enemy Units are in play, choose 1 rested enemy Unit. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-103.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-103.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-104",
+    "name": "Reccoa's Shadow",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Titans) (Jupitris)",
+    "link": "",
+    "effect": "【Main】/【Action】Choose 1 enemy Unit with 3 or less HP. Rest it. If a friendly (Jupitris) Link Unit is in play, choose 1 to 2 enemy Units with 3 or less HP instead. 【Pilot】[Reccoa Londe]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-104.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-104.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-105",
+    "name": "Bridge Crew",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】Choose 1 friendly Unit. During this turn, it may choose an active enemy Unit that has no Pilot paired with it as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-105.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-105.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-106",
+    "name": "M.A.V. Tactics",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 6,
+    "cost": 4,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】Deploy 1 rested [GQuuuuuuX (Omega Psycommu)]((Clan)･AP3･HP2) Unit token and 1 rested [Red Gundam]((Clan)･AP2･HP3) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-106.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-106.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-107",
+    "name": "Over the River and Through the Woods",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "",
+    "effect": "【Main】Choose 1 enemy Unit that is Lv.5 or lower. Deal damage to it equal to the number of friendly Unit tokens in play. 【Pilot】[Hardie Steiner]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-107.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-107.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-108",
+    "name": "How Many Miles to the Battlefield?",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "",
+    "effect": "【Main】Deploy 1 [Hy-Gogg]((Cyclops Team)･AP2･HP1) Unit token. 【Pilot】[Gabriel Ramirez Garcia]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-108.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-108.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-109",
+    "name": "Improved Technique",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 3,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】/【Action】Choose 1 enemy Unit that is Lv.4 or lower. Deal 3 damage to it. If there are 2 or more cards with \"Improved Technique\" in their card name in your trash, choose 1 enemy Unit instead.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-109.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-109.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-110",
+    "name": "Eliminate Target",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 6,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】/【Action】Choose 1 Pilot paired with an enemy Unit that is Lv.5 or lower. Destroy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-110.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-110.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-111",
+    "name": "Infiltrator Present",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Mafty)",
+    "link": "",
+    "effect": "【Main】/【Action】Choose 1 friendly (Mafty) Unit. It gets AP+3 during this turn. 【Pilot】[Emeralda Zubin]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-111.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-111.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-112",
+    "name": "Warped Intent",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】/【Action】During this turn, all Units paired with a Pilot get AP+2.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-112.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-112.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-113",
+    "name": "Human Karma",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 2,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】/【Action】Choose 1 active friendly Unit. Rest it. If you do, choose 1 enemy Unit whose Lv. is equal to or lower than the Unit rested with this ability. Deal 3 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-113.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-113.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-114",
+    "name": "Look of Determination",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 2,
+    "cost": 2,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Action】Choose 1 active enemy Unit that is Lv.2 or lower. Destroy it. If there are 10 or more cards in your trash, choose 1 active enemy Unit that is Lv.4 or lower instead.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-114.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-114.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-115",
+    "name": "Distant Reunion",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Civilian) (Vagan) (X-rounder)",
+    "link": "",
+    "effect": "【Action】Choose 1 friendly Unit paired with an (X-Rounder) Pilot. It can't receive battle damage from enemy Units with 2 or less AP during this battle. If you are Lv.7 or higher, it can't receive battle damage from enemy Units with 5 or less AP instead. 【Pilot】[Yurin L'Ciel]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-115.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-115.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-116",
+    "name": "Towards Destiny",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】/【Action】Choose 1 friendly (Vagan) Unit and 1 enemy Unit. Deal 2 damage to them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-116.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-116.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-117",
+    "name": "Orga's Order",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】If 1 to 4 enemy Units are in play, deploy 1 [Graze Custom]((Tekkadan)･AP2･HP2) Unit token. If 5 or more are in play, deploy 1 [Gundam Barbatos 4th Form]((Tekkadan)･AP4･HP4) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-117.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-117.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-118",
+    "name": "Awakened Potential",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Action】Choose 1 rested enemy Unit that is Lv.4 or lower. Return it to its owner's hand. Then, if there are 2 or more cards with \"Awakened Potential\" in their card name in your trash, you may choose 1 friendly Unit. It gains <Blocker> during this turn. (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-118.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-118.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-119",
+    "name": "Awkward Approach",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】Choose 1 rested friendly Base. Set it as active. If you do, all enemy Units get AP-1 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-119.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-119.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-120",
+    "name": "Immortal Colasour",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Superpower Bloc) (Un)",
+    "link": "",
+    "effect": "【Main】During this turn, if a friendly (Superpower Bloc)/(UN) Unit destroys an enemy Unit with battle damage, choose 1 rested friendly (Superpower Bloc)/(UN) Unit. Set it as active. It can't attack during this turn. 【Pilot】[Patrick Colasour]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-120.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-120.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-121",
+    "name": "Unheralded Attack",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 1,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Aeug) (Newtype)",
+    "link": "",
+    "effect": "【Action】Choose 1 friendly Base and 1 enemy Unit with 3 or less HP. Rest them. 【Pilot】[Katz Kobayashi]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-121.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-121.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-122",
+    "name": "Veteran Tactics",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Superpower Bloc) (Un)",
+    "link": "",
+    "effect": "【Action】Choose 1 enemy Unit that is Lv.3 or lower. Return it to its owner's hand. 【Pilot】[Sergei Smirnov]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-122.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-122.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-123",
+    "name": "Jupitris",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Titans) (Jupitris) (Warship)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, if a friendly (Jupitris) Unit is in play, choose 1 enemy Unit that is Lv.3 or lower. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-123.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-123.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-124",
+    "name": "Ribo Colony",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Earth Federation) (Stronghold)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Once per Turn】When you pair a Pilot that is Lv.3 or lower with one of your Units, choose 1 enemy Unit with 3 or less HP. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-124.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-124.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-125",
+    "name": "Peacemillion",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "BASE",
+    "level": 6,
+    "cost": 1,
+    "ap": 0,
+    "hp": 6,
+    "zone": "Space",
+    "trait": "(G Team) (Warship)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Once per Turn】During your turn, when a friendly (Operation Meteor)/(G Team) Unit that is Lv.6 or higher destroys an enemy Unit with battle damage, that friendly Unit may recover 2 HP.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-125.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-125.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-126",
+    "name": "Cyclops Team",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Earth",
+    "trait": "(Zeon) (Cyclops Team)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. All friendly Unit tokens get AP+1 during your opponent's turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-126.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-126.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-127",
+    "name": "Jachin Due",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "BASE",
+    "level": 6,
+    "cost": 1,
+    "ap": 0,
+    "hp": 6,
+    "zone": "Space",
+    "trait": "(Zaft) (Stronghold)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, Choose 1 friendly (ZAFT) Unit. It gets AP+3 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-127.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-127.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-128",
+    "name": "Doritea",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Earth",
+    "trait": "(New Une) (Warship)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Once per Turn】During your opponent's turn, when one of your Units is rested by one of your opponent's effects, choose 1 enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-128.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-128.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-129",
+    "name": "Hotarubi",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Tekkadan) (Warship)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. During your turn, when one of your friendly (Tekkadan)/(Teiwaz) Units receives effect damage, you may rest this Base. If you do, place the top card of your deck into your trash.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-129.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-129.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-130",
+    "name": "Downes",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "BASE",
+    "level": 5,
+    "cost": 2,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Vagan) (Stronghold)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, you may choose 1 (Vagan) Unit card that is Lv.4 or lower from your trash. Pay its cost to deploy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-130.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-130.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-131",
+    "name": "Eternal",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "BASE",
+    "level": 5,
+    "cost": 2,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Triple Ship Alliance) (Warship)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, if you have 2 or more (Triple Ship Alliance) Units in play, choose 1 enemy Unit that is Lv.4 or lower. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-131.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-131.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  },
+  {
+    "id": "GD03-132",
+    "name": "Radish",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "BASE",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Aeug) (Warship)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Destroyed】If you have an (AEUG) Link Unit in play, choose 1 enemy Unit with 4 or less HP. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-132.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD03-132.webp"
+    },
+    "set": {
+      "id": "gd03",
+      "name": "Steel Requiem [GD03]"
+    }
+  }
+]

@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "GD04-001",
+    "name": "Gundam",
+    "rarity": "LR",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 6,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation) (White Base Team)",
+    "link": "[Amuro Ray]",
+    "effect": "【During Link】【Attack】If you are attacking an enemy Unit, you may return a blue Pilot paired with this Unit to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-001.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-001.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-002",
+    "name": "Penelope (Flight Form)",
+    "rarity": "LR",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 3,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Lane Aim]",
+    "effect": "During your turn, all your (Earth Federation) Units get AP+1. 【Deploy】During this turn, when one of your (Earth Federation) Units destroys an enemy Unit with battle damage, choose 1 enemy Unit with 5 or less HP. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-002.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-002.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-003",
+    "name": "Victory Gundam",
+    "rarity": "LR",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(League Militaire) (Victory Type)",
+    "link": "(League Militaire) Trait",
+    "effect": "【Attack】If you have 3 or more (League Militaire) Units in play, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-003.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-003.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-004",
+    "name": "Psycho Gundam Mk-Ⅱ",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 4,
+    "hp": 7,
+    "zone": "Space / Earth",
+    "trait": "(Titans)",
+    "link": "[Rosamia Badam]",
+    "effect": "<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.) 【Once per Turn】When you pair a (Cyber-Newtype) Pilot with one of your blue Units, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-004.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-004.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-005",
+    "name": "GM III",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-005.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-005.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-006",
+    "name": "V-Dash Gundam",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(League Militaire) (Victory Type)",
+    "link": "[Üso Ewin]",
+    "effect": "<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【Activate･Main】【Once per Turn】Rest 1 of your other (League Militaire) Units：Choose 1 enemy Unit with 4 or less HP. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-006.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-006.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-007",
+    "name": "Victory Gundam Hexa",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(League Militaire) (Victory Type)",
+    "link": "(League Militaire) Trait",
+    "effect": "【During Pair】【Attack】Deploy 1 [Parts]((League Militaire)･AP1･HP1･This Unit can't choose the enemy player as its attack target) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-007.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-007.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-008",
+    "name": "Gundam",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation) (White Base Team)",
+    "link": "[Amuro Ray]",
+    "effect": "【During Link】This Unit gains <High-Maneuver>. (This Unit can't be blocked.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-008.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-008.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-009",
+    "name": "Guncannon (108) & Guncannon (109)",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation) (White Base Team)",
+    "link": "[Kai Shiden] / [Hayato Kobayashi]",
+    "effect": "【When Linked】Choose 1 of your other (White Base Team) Units that is Lv.4 or higher. Set it as active.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-009.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-009.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-010",
+    "name": "Gaplant",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Titans)",
+    "link": "(Titans) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-010.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-010.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-011",
+    "name": "Victory Gundam",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(League Militaire) (Victory Type)",
+    "link": null,
+    "effect": "【Destroyed】If another friendly (League Militaire) Unit is in play, deploy 1 [Parts]((League Militaire)･AP1･HP1･This Unit can't choose the enemy player as its attack target) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-011.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-011.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-012",
+    "name": "Core Booster (005) & Core Booster (006)",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation) (White Base Team)",
+    "link": "[Sleggar Law] / [Sayla Mass]",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-012.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-012.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-013",
+    "name": "Core Fighter",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(League Militaire) (Victory Type)",
+    "link": "(League Militaire) Trait",
+    "effect": "While this Unit is rested, all your (League Militaire) Unit tokens gain <Blocker>. (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-013.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-013.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-014",
+    "name": "Shokew",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Earth",
+    "trait": "(League Militaire) (Zanscare)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-014.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-014.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-015",
+    "name": "Gun EZ",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(League Militaire) (Shrike Team)",
+    "link": "(Shrike Team) Trait",
+    "effect": "【Deploy】Choose 1 of your active (League Militaire) Units and 1 enemy Unit that is Lv.3 or lower. Rest them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-015.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-015.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-016",
+    "name": "Zoloat (League Militaire)",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space",
+    "trait": "(League Militaire)",
+    "link": null,
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) This Unit can't choose the enemy player as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-016.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-016.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-017",
+    "name": "Zeong",
+    "rarity": "LR",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space",
+    "trait": "(Zeon)",
+    "link": "[Char Aznable]",
+    "effect": "【When Paired･(Newtype) Pilot】Deploy 2 [Wire-Guided Arm]((Zeon)･AP2･HP1・This Unit can't be paired with a Pilot) Unit tokens. 【Destroyed】Deploy 1 rested [Zeong (Head)]((Zeon)･AP3･HP1) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-017.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-017.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-018",
+    "name": "Gundam Pharact",
+    "rarity": "LR",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Academy)",
+    "link": "[Elan Ceres]",
+    "effect": "<Breach 5> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【Once per Turn】During your turn, when one of your other (Academy) Units receives damage from an enemy, place 1 EX Resource.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-018.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-018.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-019",
+    "name": "GN Armor Type-D (Trans-Am)",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Lockon Stratos]",
+    "effect": "<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【Destroyed】Look at the top 3 cards of your deck. You may reveal 1 (CB) Unit card that is Lv.5 or lower among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-019.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-019.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-020",
+    "name": "Gundam Lfrith Ur",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Dawn Of Fold) (Academy)",
+    "link": "[Sophie Pulone]",
+    "effect": "【Once per Turn】During your turn, when you play and activate a (Dawn of Fold) Command card using an EX Resource, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-020.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-020.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-021",
+    "name": "Gundam Lfrith Thorn",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Dawn Of Fold) (Academy)",
+    "link": "[Norea Du Noc]",
+    "effect": "<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) During your turn, when you play and activate a (Dawn of Fold) Command card using an EX Resource, you may pair that card from your trash with one of your Units with \"Gundam Lfrith\" in its card name.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-021.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-021.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-022",
+    "name": "Kikeroga (MS Mode) (GQ)",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 4,
+    "ap": 3,
+    "hp": 6,
+    "zone": "Space",
+    "trait": "(Zeon)",
+    "link": "[Challia Bull]",
+    "effect": "All your Unit tokens gain <Breach 1>. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【During Link】All Units that are Lv.3 or lower other than Unit tokens are deployed rested.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-022.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-022.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-023",
+    "name": "Gundam Kyrios (Tail Booster)",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Allelujah Haptism] / [Hallelujah Haptism]",
+    "effect": "【Deploy】Choose 1 of your Units paired with a (Super Soldier) Pilot. During this turn, it may choose an active enemy Unit that is Lv.4 or lower as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-023.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-023.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-024",
+    "name": "Gundam Aerial Rebuild",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Academy)",
+    "link": "[Suletta Mercury]",
+    "effect": "【Deploy】Look at the top 3 cards of your deck. You may reveal 1 (Academy) Unit card/Command card among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-024.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-024.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-025",
+    "name": "Gundvölva",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Dawn Of Fold) (Academy)",
+    "link": null,
+    "effect": "【Destroyed】During your turn, if you have another (Dawn of Fold) Unit in play, place 1 EX Resource.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-025.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-025.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-026",
+    "name": "Garma's Dopp",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 1,
+    "ap": 1,
+    "hp": 1,
+    "zone": "Earth",
+    "trait": "(Zeon)",
+    "link": "[Garma Zabi]",
+    "effect": "【Deploy】Look at the top card of your deck. Return it to the top of your deck or place it into your trash.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-026.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-026.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-027",
+    "name": "Bigro",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space",
+    "trait": "(Zeon)",
+    "link": "[Tokwan]",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-027.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-027.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-028",
+    "name": "Zakrello",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 1,
+    "ap": 4,
+    "hp": 1,
+    "zone": "Space",
+    "trait": "(Zeon)",
+    "link": null,
+    "effect": "【Attack】Choose 1 active enemy Unit. It gains <Blocker> during this turn. (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-028.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-028.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-029",
+    "name": "Gundam Dynames (GN Full Shield)",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Lockon Stratos]",
+    "effect": "【Once per Turn】If you have a (CB) Pilot in play, when this Unit receives damage from an enemy, reduce it by 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-029.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-029.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-030",
+    "name": "Chuchu's Demi Trainer",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Academy)",
+    "link": "(Academy) Trait",
+    "effect": "【Attack】Choose 1 of your other (Academy) Units. During this turn, it may choose an active enemy Unit that is Lv.3 or lower as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-030.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-030.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-031",
+    "name": "Heindree",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Academy)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-031.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-031.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-032",
+    "name": "Xavier's Gyan Hakuji-Packs (GQ)",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Zeon)",
+    "link": "[Xavier Olivette]",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-032.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-032.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-033",
+    "name": "Neo Zeong",
+    "rarity": "LR",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 9,
+    "cost": 8,
+    "ap": 6,
+    "hp": 7,
+    "zone": "Space",
+    "trait": "(Neo Zeon)",
+    "link": "[Full Frontal]",
+    "effect": "When this Unit or one of your (Neo Zeon) Units is deployed, choose 1 enemy Unit. Deal 3 damage to it. 【During Link】All your Units gain (Neo Zeon).",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-033.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-033.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-034",
+    "name": "Gundam Kyrios",
+    "rarity": "LR",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 1,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Allelujah Haptism] / [Hallelujah Haptism]",
+    "effect": "<First Strike> (While this Unit is attacking, it deals damage before the enemy Unit.) 【During Link】This Unit gets AP+2 for each of your rested (CB) Units.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-034.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-034.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-035",
+    "name": "Ξ Gundam",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Mafty)",
+    "link": "[Hathaway Noa]",
+    "effect": "【Deploy】Choose 1 of your (Mafty) Units. When it destroys an enemy Unit with battle damage during this turn, if you have 3 or less cards in your hand, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-035.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-035.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-036",
+    "name": "Gundam Throne Eins",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 5,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Trinity)",
+    "link": "(Trinity) Trait",
+    "effect": "【Deploy】You may choose 1 to 2 of your other active (CB) Units. Rest them. If you do, deal damage equal to the number of Units rested with this effect to all enemy Units that are Lv.6 or lower.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-036.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-036.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-037",
+    "name": "Gundam Kyrios (Trans-Am)",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Allelujah Haptism] / [Hallelujah Haptism]",
+    "effect": "While you have a red (Super Soldier) Pilot in play, this Unit gains <First Strike>. (While this Unit is attacking, it deals damage before the enemy Unit.) While you have a green (Super Soldier) Pilot in play, this Unit gains <Breach 3>. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-037.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-037.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-038",
+    "name": "Gundam Exia",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Setsuna F. Seiei]",
+    "effect": "【Deploy】If 2 or more enemy Units are in play, choose 1 enemy Unit that is Lv.2 or lower. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-038.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-038.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-039",
+    "name": "Rozen Zulu",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 6,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Neo Zeon)",
+    "link": "[Angelo Sauper]",
+    "effect": "If there are 8 or more (Neo Zeon) cards in your trash, this card in your hand gets cost -4. 【Deploy】Choose 1 enemy Unit. Deal 1 damage to it. If it has <Repair>, deal 3 damage instead.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-039.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-039.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-040",
+    "name": "Schuzrum-Galluss",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Neo Zeon)",
+    "link": "(Neo Zeon) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-040.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-040.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-041",
+    "name": "Gundam Throne Drei",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Trinity)",
+    "link": "(Trinity) Trait",
+    "effect": "【Once per Turn】When this Unit is rested by an effect, set it as active.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-041.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-041.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-042",
+    "name": "Psycho Gundam (GQ)",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Deux Murasame]",
+    "effect": "【During Link】【Once per Turn】When damage from one of your Units paired with a (Cyber-Newtype) Pilot destroys an enemy shield area card, choose 1 enemy Unit with 5 or less AP. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-042.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-042.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-043",
+    "name": "Zssa (Sleeves)",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Neo Zeon)",
+    "link": null,
+    "effect": "【Deploy】Choose 1 enemy Base. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-043.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-043.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-044",
+    "name": "Gadeel",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Earth",
+    "trait": "(New Une)",
+    "link": null,
+    "effect": "【Attack】If you are attacking a damaged enemy Unit, this Unit gains <Breach 3> during this battle. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-044.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-044.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-045",
+    "name": "Gundam Throne Zwei",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Trinity)",
+    "link": "(Trinity) Trait / [Ali al-Saachez]",
+    "effect": "【When Linked】Choose 1 of your (CB) Units. During this turn, it may choose a damaged active enemy Unit as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-045.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-045.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-046",
+    "name": "Gundam Dynames",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Lockon Stratos]",
+    "effect": "【Deploy】You may rest this Unit. If you do, choose 1 enemy Unit that is Lv.3 or lower. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-046.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-046.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-047",
+    "name": "Gundam Virtue",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 1,
+    "ap": 3,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Tieria Erde]",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-047.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-047.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-048",
+    "name": "Hambrabi (GQ)",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "(Earth Federation) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-048.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-048.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-049",
+    "name": "Gundam DX",
+    "rarity": "LR",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 6,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(Vulture)",
+    "link": "[Garrod Ran]",
+    "effect": "<Suppression> (Damage to Shields by an attack is dealt to the first 2 cards simultaneously.) 【During Pair】【Attack】If you are attacking the enemy player, you may choose 7 (Vulture) cards from your trash. Exile them from the game. If you do, choose 1 enemy Unit/Base that is Lv.8 or lower. Destroy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-049.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-049.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-050",
+    "name": "Destiny Gundam",
+    "rarity": "LR",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Zaft) (Minerva Squad)",
+    "link": "[Shinn Asuka]",
+    "effect": "<High-Maneuver> (This Unit can't be blocked.) 【During Pair】【Attack】You may choose 1 (Minerva Squad) Unit card from your trash. Pay its cost to deploy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-050.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-050.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-051",
+    "name": "Gundam Airmaster Burst",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Vulture)",
+    "link": "[Witz Sou]",
+    "effect": "【During Pair･(Vulture) Pilot】If there are 7 or more cards in your trash, this Unit may choose an active enemy Unit with a keyword effect as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-051.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-051.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-052",
+    "name": "Gundam Leopard Destroy",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 4,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Vulture)",
+    "link": "(Vulture) Trait",
+    "effect": "【During Pair】【Attack】You may choose 1 enemy Unit. Deal 2 damage to it and this Unit.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-052.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-052.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-053",
+    "name": "Rey's Blaze Zaku Phantom",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Zaft) (Minerva Squad)",
+    "link": "(Minerva Squad) Trait",
+    "effect": "【During Link】【Once per Turn】When this Unit receives damage from an enemy, reduce it by 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-053.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-053.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-054",
+    "name": "Gundam Virtue (Trans-Am)",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 2,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Tieria Erde]",
+    "effect": "When this Unit deals battle damage to an enemy Unit, destroy that enemy Unit.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-054.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-054.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-055",
+    "name": "Heine's Gouf Ignited",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Zaft) (Minerva Squad)",
+    "link": "[Heine Westenfluss]",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-055.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-055.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-056",
+    "name": "Sword Impulse Gundam",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Zaft) (Minerva Squad)",
+    "link": "[Shinn Asuka] / [Lunamaria Hawke]",
+    "effect": "【Deploy】Deal 1 damage to this Unit. If you do, choose 1 enemy Unit with 3 or less AP. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-056.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-056.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-057",
+    "name": "Gundam Nadleeh",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Tieria Erde]",
+    "effect": "【Deploy】Choose 1 enemy Unit that is Lv.6 or lower. During this turn, reduce its AP by an amount equal to the number of Unit cards with \"Gundam Virtue\" in their card names in your trash.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-057.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-057.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-058",
+    "name": "Jamil's Gundam X",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Old Une)",
+    "link": null,
+    "effect": "【During Pair･(Vulture) Pilot】【Destroyed】If it is your turn, return this Unit's paired Pilot to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-058.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-058.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-059",
+    "name": "Daughtress High Mobility Command Wise Wallaby",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 2,
+    "zone": "Earth",
+    "trait": "(Vulture)",
+    "link": "(Vulture) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-059.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-059.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-060",
+    "name": "Esperansa",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 1,
+    "hp": 4,
+    "zone": "Earth",
+    "trait": "(Vulture)",
+    "link": "[Ennil El]",
+    "effect": "【Deploy】If you deploy this Unit from your trash, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-060.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-060.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-061",
+    "name": "G-Falcon",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 3,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Vulture)",
+    "link": "[Pala Sys]",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) This Unit can't attack while there are 6 or less cards in your trash.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-061.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-061.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-062",
+    "name": "Lunamaria's Gunner Zaku Warrior",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Zaft) (Minerva Squad)",
+    "link": "(Minerva Squad) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-062.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-062.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-063",
+    "name": "GN Armor Type-E",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Setsuna F. Seiei]",
+    "effect": "【Deploy】Choose 1 enemy Unit that is Lv.1 or lower or has 1 or less AP. Destroy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-063.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-063.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-064",
+    "name": "Gundam Exia",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-064.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-064.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-065",
+    "name": "Unicorn Gundam 02 Banshee Norn (Destroy Mode)",
+    "rarity": "LR",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Riddhe Marcenas]",
+    "effect": "【During Link】【Activate･Main】Exile 3 blue cards from your trash：Set this Unit as active. It can't choose the enemy player as its attack target during this turn. 【Attack】All enemy Units get AP-1 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-065.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-065.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-066",
+    "name": "Unicorn Gundam (Awakened)",
+    "rarity": "LR",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 4,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(Civilian)",
+    "link": "[Banagher Links]",
+    "effect": "<Suppression> (Damage to Shields by an attack is dealt to the first 2 cards simultaneously.) When you activate a Command's 【Main】/【Action】 effect, choose 1 enemy Unit. It gets AP-2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-066.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-066.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-067",
+    "name": "∀ Gundam",
+    "rarity": "LR",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Militia)",
+    "link": "[Loran Cehack]",
+    "effect": "【Activate･Main】【Once per Turn】①：Choose 1 Unit card with <Repair>/<Breach>/<First Strike>/<Support>/<High-Maneuver>/<Suppression>/<Blocker> from your trash. During this turn, this Unit gets AP+1 and all <Repair>/<Breach>/<First Strike>/<Support>/<High-Maneuver>/<Suppression>/<Blocker> on that Unit card.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-067.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-067.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-068",
+    "name": "Silver Bullet",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Civilian)",
+    "link": "[Gael Chan]",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) When this Unit receives effect damage from an enemy, reduce it by 3.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-068.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-068.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-069",
+    "name": "∀ Gundam",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Militia)",
+    "link": "[Loran Cehack]",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) 【During Link】At the end of a turn where you have paid ① or more for one of your other (Militia)/(Dianna Counter) Units' effects, choose 1 of your (Militia) Units. Set it as active.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-069.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-069.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-070",
+    "name": "Al-Saachez's AEU Enact Custom Moralia Development Experiment Type",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 3,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Superpower Bloc)",
+    "link": "[Ali al-Saachez]",
+    "effect": "【Deploy】You may pair 1 Pilot card with \"Ali al-Saachez\" in its card name from your hand with this Unit.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-070.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-070.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-071",
+    "name": "Graham's Union Flag Custom Ⅱ (GN Flag)",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Un)",
+    "link": "[Graham Aker]",
+    "effect": "【Activate･Main】Choose 1 (Superpower Bloc) card and 1 (UN) card from your trash. Exile them from the game. If you do, set this Unit as active. It can't attack during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-071.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-071.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-072",
+    "name": "Unicorn Gundam 02 Banshee Norn (Unicorn Mode)",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Riddhe Marcenas]",
+    "effect": "【When Linked】Choose 1 enemy Unit with 3 or less HP. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-072.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-072.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-073",
+    "name": "∀ Gundam",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Militia)",
+    "link": "(Militia) Trait / (Moonrace) Trait",
+    "effect": "【Activate･Main】【Once per Turn】①：This Unit gets AP+2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-073.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-073.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-074",
+    "name": "Kapool",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Militia)",
+    "link": "(Militia) Trait",
+    "effect": "【Attack】You may pay ①. If you do, draw 1. Then, discard 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-074.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-074.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-075",
+    "name": "GN-X",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 6,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Un)",
+    "link": "(UN) Trait",
+    "effect": "Reduce the cost of this card in your hand by an amount equal to the number of (UN)/(Superpower Bloc) Command cards in your trash.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-075.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-075.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-076",
+    "name": "Hipheavy",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 1,
+    "cost": 1,
+    "ap": 1,
+    "hp": 2,
+    "zone": "Earth",
+    "trait": "(Militia)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-076.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-076.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-077",
+    "name": "Flat (Militia)",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Militia)",
+    "link": null,
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-077.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-077.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-078",
+    "name": "Borjarnon",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 1,
+    "ap": 2,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(Militia)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-078.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-078.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-079",
+    "name": "Agrissa",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Earth",
+    "trait": "(Superpower Bloc)",
+    "link": "[Ali al-Saachez]",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-079.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-079.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-080",
+    "name": "Alvatore",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space",
+    "trait": "(Un)",
+    "link": "[Alejandro Corner]",
+    "effect": "【Destroyed】If you have another (UN)/(Superpower Bloc) Unit in play, deploy 1 rested [Alvaaron]((UN)･AP4･HP1) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-080.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-080.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-081",
+    "name": "Üso Ewin",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(League Militaire) (Newtype)",
+    "link": null,
+    "effect": "【When Paired】If this is a (League Militaire) Unit, deploy 1 [Parts]((League Militaire)･AP1･HP1･This Unit can't choose the enemy player as its attack target) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-081.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-081.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-082",
+    "name": "Rosamia Badam",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Titans) (Cyber-newtype)",
+    "link": null,
+    "effect": "【When Linked】Choose 1 rested Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-082.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-082.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-083",
+    "name": "Marbet Fingerhat",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(League Militaire)",
+    "link": null,
+    "effect": "All your (League Militaire) Unit tokens get AP+1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-083.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-083.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-084",
+    "name": "Sleggar Law",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Earth Federation) (White Base Team)",
+    "link": null,
+    "effect": "【Attack】Choose 1 of your (White Base Team) Units. It gets AP+1 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-084.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-084.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-085",
+    "name": "Suletta Mercury",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 5,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Academy)",
+    "link": null,
+    "effect": "【During Link】【Once per Turn】When you play and activate an (Academy) Command card using an EX Resource, if you have no remaining EX Resources, place 1 rested EX Resource.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-085.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-085.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-086",
+    "name": "Garma Zabi",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zeon)",
+    "link": null,
+    "effect": "【During Link】【Destroyed】If you have no EX Resources, place 1 EX Resource.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-086.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-086.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-087",
+    "name": "Elan Ceres (Enhanced Person Number 5)",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Academy)",
+    "link": null,
+    "effect": "【During Link】【Attack】You may choose 1 of your (Academy) Units. During this battle, battle damage this Unit would receive is dealt to that Unit instead.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-087.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-087.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-088",
+    "name": "Tokwan",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zeon)",
+    "link": null,
+    "effect": "When this Unit is blocked by an enemy Unit that is Lv.4 or lower, it can't receive battle damage during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-088.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-088.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-089",
+    "name": "Nena Trinity",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Cb) (Trinity)",
+    "link": null,
+    "effect": "【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-089.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-089.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-090",
+    "name": "Hallelujah Haptism",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Cb) (Super Soldier)",
+    "link": null,
+    "effect": "【During Link】【Once per Turn】During your turn, when this Unit destroys an enemy Unit with battle damage, look at the top card of your deck. If it is a (CB) card, you may reveal it and add it to your hand. Return any remaining card to the bottom of your deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-090.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-090.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-091",
+    "name": "Deux Murasame",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Earth Federation) (Cyber-newtype)",
+    "link": null,
+    "effect": "【Destroyed】Choose 1 undamaged enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-091.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-091.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-092",
+    "name": "Michael Trinity",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Cb) (Trinity)",
+    "link": null,
+    "effect": "【When Linked】Choose 1 damaged enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-092.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-092.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-093",
+    "name": "Rey Za Burrel",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zaft) (Minerva Squad)",
+    "link": null,
+    "effect": "【When Linked】Choose 1 of your (ZAFT) Link Units. During this turn, reduce the next damage it receives by 2.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-093.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-093.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-094",
+    "name": "Pala Sys",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Satyricon) (Vulture)",
+    "link": null,
+    "effect": "【When Linked】Choose 1 purple Unit card with <Suppression> from your trash. Add it to your hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-094.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-094.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-095",
+    "name": "Lunamaria Hawke",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zaft) (Minerva Squad) (Coordinator)",
+    "link": null,
+    "effect": "【When Linked】Choose 1 of your (Minerva Squad) Units. During this turn, battle damage it would receive is dealt to this Unit instead.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-095.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-095.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-096",
+    "name": "Ennil El",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Vulture)",
+    "link": null,
+    "effect": "【During Link】When this Unit deals battle damage to an enemy Unit that is Lv.5 or lower, destroy that enemy Unit.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-096.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-096.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-097",
+    "name": "Loran Cehack",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Militia) (Moonrace)",
+    "link": null,
+    "effect": "【When Linked】Choose 1 enemy Unit with 3 or less HP. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-097.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-097.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-098",
+    "name": "Riddhe Marcenas",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Earth Federation) (Newtype)",
+    "link": null,
+    "effect": "【During Link】When this Unit receives effect damage from an enemy, reduce it by 2.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-098.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-098.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-099",
+    "name": "Ali al-Saachez",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Superpower Bloc) (Un)",
+    "link": null,
+    "effect": "【During Link】【Attack】You may choose 1 enemy Pilot. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-099.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-099.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-100",
+    "name": "Sochie Heim",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Militia)",
+    "link": null,
+    "effect": "【Once per Turn】When you pay ① or more cost for one of your Units' effects, you may increase this Unit's AP during this turn by an amount equal to the cost paid.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-100.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-100.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-101",
+    "name": "Kindhearted",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】/【Action】During this turn, friendly Units can't be destroyed by enemy effects. Then, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-101.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-101.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-102",
+    "name": "Moment of Rest",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】Choose 1 rested enemy Unit that is Lv.5 or lower. It won't be set as active during the start phase of your opponent's next turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-102.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-102.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-103",
+    "name": "Spiritual Support",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】Choose 1 of your Units. It gains <Repair 2> during this turn. (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-103.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-103.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-104",
+    "name": "Shrike Team's Bulwark",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(League Militaire) (Shrike Team)",
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 to 2 enemy Units that are Lv.2 or lower. Rest them. 【Pilot】[Junko Jenko]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-104.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-104.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-105",
+    "name": "Encounter",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 5,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】Look at the top 5 cards of your deck. You may reveal 1 Pilot card among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-105.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-105.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-106",
+    "name": "Indiscriminate Violence",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 5,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Academy) (Dawn Of Fold)",
+    "link": null,
+    "effect": "【Main】Choose 1 friendly (Academy) Unit. During this turn, it may choose an active enemy Unit with 5 or less AP as its attack target. If you use an EX Resource to play this card, choose 1 to 2 friendly (Academy) Units instead. 【Pilot】[Norea Du Noc]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-106.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-106.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-107",
+    "name": "Destined Battle",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Action】Choose 1 of your rested Units. During this turn, all enemy Units must choose that Unit as their attack target when attacking.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-107.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-107.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-108",
+    "name": "Witches from Earth",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Academy) (Dawn Of Fold)",
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 friendly (Academy) Unit. During this turn, reduce the next damage it receives by 2. If you use an EX Resource to play this card, reduce by 4 instead. 【Pilot】[Sophie Pulone]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-108.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-108.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-109",
+    "name": "Overwhelming Pressure",
+    "rarity": "R",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 5,
+    "cost": 3,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 enemy Unit that is Lv.6 or lower. Deal 4 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-109.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-109.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-110",
+    "name": "Financier",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 6,
+    "cost": 3,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】/【Action】Deploy 1 EX Base.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-110.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-110.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-111",
+    "name": "Trinity",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Cb) (Trinity)",
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 to 3 of your (CB) Units. They get AP+2 during this turn. 【Pilot】[Johann Trinity]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-111.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-111.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-112",
+    "name": "Inspector",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Earth Federation) (Cyber-newtype)",
+    "link": null,
+    "effect": "【Main】Deal 1 damage to all Units that are Lv.2 or lower. 【Pilot】[Gates Capa]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-112.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-112.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-113",
+    "name": "Damage Control",
+    "rarity": "R",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Action】Choose 1 of your Units. During this battle, reduce battle damage it receives by 3.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-113.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-113.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-114",
+    "name": "Reformationist",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 of your Units and 1 enemy Unit. Deal 1 damage to them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-114.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-114.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-115",
+    "name": "Backup",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】Choose 1 of your Units. When it deals battle damage to an enemy Unit that is Lv.5 or lower during this turn, destroy that enemy Unit.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-115.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-115.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-116",
+    "name": "Reliable Big Brother",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Zaft) (Minerva Squad) (Coordinator)",
+    "link": null,
+    "effect": "【Main】Place the top 2 cards of your deck into your trash. If you do, choose 1 enemy Unit with 4 or less AP. Deal an amount of damage equal to the number of (Minerva Squad) cards placed with this effect to that enemy Unit. 【Pilot】[Heine Westenfluss]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-116.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-116.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-117",
+    "name": "Graceful Demeanor",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 2,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Action】Choose 1 to 2 enemy Units that are Lv.3 or lower. Return them to their owners' hands.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-117.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-117.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-118",
+    "name": "World Distortion",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Un)",
+    "link": null,
+    "effect": "【Main】/【Action】If 2 or more friendly (UN) Units are in play, choose 1 enemy Unit with 5 or less HP. Return it to its owner's hand. 【Pilot】[Alejandro Corner]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-118.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-118.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-119",
+    "name": "Fighting Alone",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Civilian)",
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 friendly Unit paired with a (Newtype) Pilot. It can't receive effect damage from enemy Units during this turn. 【Pilot】[Gael Chan]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-119.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-119.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-120",
+    "name": "Machine Doll Squad",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Militia)",
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 friendly (Militia)/(Dianna Counter) Unit. It gets AP+2 during this turn. 【Pilot】[Miashei Kune]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-120.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-120.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-121",
+    "name": "Reineforce Jr.",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(League Militaire) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, during your turn, if a friendly (League Militaire) Unit is in play, deploy 1 [Parts]((League Militaire)･AP1･HP1･This Unit can't choose the enemy player as its attack target) Unit token.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-121.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-121.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-122",
+    "name": "Jaburo",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Earth",
+    "trait": "(Earth Federation) (Stronghold)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】Rest 1 of your (Earth Federation) Units：Choose 1 enemy Unit that is Lv.3 or lower. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-122.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-122.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-123",
+    "name": "A Baoa Qu",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "BASE",
+    "level": 5,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Zeon) (Stronghold)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. While you have a rested (Zeon) Unit in play, this Base can't receive battle damage from enemy Units that are Lv.4 or lower.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-123.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-123.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-124",
+    "name": "9th Tactical Testing Sector",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Academy) (Stronghold)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. When you place an EX Resource, choose 1 friendly (Academy) Unit. It gets AP+2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-124.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-124.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-125",
+    "name": "Trinity Warship",
+    "rarity": "U",
+    "color": "Red",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Cb) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】①, rest 1 friendly (CB) Unit：Choose 1 enemy Unit that is Lv.5 or lower. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-125.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-125.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-126",
+    "name": "Izuma Colony",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "BASE",
+    "level": 1,
+    "cost": 1,
+    "ap": 0,
+    "hp": 4,
+    "zone": "Space",
+    "trait": "(Clan) (Stronghold)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. When this Base receives battle damage from an enemy Unit with 3 or less AP, deal 1 damage to that Unit.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-126.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-126.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-127",
+    "name": "Freeden Ⅱ",
+    "rarity": "U",
+    "color": "Purple",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Vulture) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, if there are 7 or more (Vulture) cards in your trash, choose 1 enemy Unit with 2 or less AP. Destroy it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-127.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-127.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-128",
+    "name": "Armory One",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 6,
+    "zone": "Space",
+    "trait": "(Zaft) (Stronghold)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Destroyed】All players draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-128.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-128.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-129",
+    "name": "Willgem",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 7,
+    "zone": "Space / Earth",
+    "trait": "(Militia) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, deal 3 damage to this Base. 【Once per Turn】During your turn, when you pay ① or more for a friendly Unit's effect, this Base recovers 2 HP.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-129.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-129.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  },
+  {
+    "id": "GD04-130",
+    "name": "Industrial 7",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Civilian) (Stronghold)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】Exile 1 Command card from your trash：Choose 1 enemy Unit. It gets AP-1 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-130.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/GD04-130.webp"
+    },
+    "set": {
+      "id": "gd04",
+      "name": "Phantom Aria [GD04]"
+    }
+  }
+]

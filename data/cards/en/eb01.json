@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "EB01-001",
+    "name": "Gundam Astray Red Frame Custom (EX)",
+    "rarity": "LR",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Lowe Guele]",
+    "effect": "【Activate･Main】【Once per Turn】Exile 2 Command cards from your trash from the game：Choose 1 damaged enemy Unit that is Lv.7 or lower. Rest it. It won't be set as active during the start phase of your opponent's next turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-001.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-001.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-002",
+    "name": "Hi-Nu Gundam (EX)",
+    "rarity": "LR",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 6,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "【Deploy】If another friendly (G Generation) Unit is in play, choose 1 Unit belonging to each enemy player. Rest them. 【During Link】【Attack】【Once per Turn】If 3 or more other rested Units are in play, set this Unit as active.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-002.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-002.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-003",
+    "name": "Narrative Gundam A-Packs (EX)",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space",
+    "trait": "(G Generation)",
+    "link": "[Jona Basta]",
+    "effect": "<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.) At the end of your turn, if this Unit is rested, rest all Units. If this effect rested 3 or more Units, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-003.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-003.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-004",
+    "name": "Gundam Barbatos Lupus Rex (EX)",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 3,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Attack) Trait",
+    "effect": "<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.) 【Once per Turn】During your turn, when this Unit recovers HP, choose 1 rested enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-004.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-004.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-005",
+    "name": "Zeta Gundam Ⅲ P2 Type",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 6,
+    "ap": 6,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Support) Trait",
+    "effect": "【Deploy】Choose 1 rested Unit belonging to another player. Set it as active. Draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-005.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-005.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-006",
+    "name": "Gundam Astray Gold Frame Amatsu",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Attack) Trait",
+    "effect": "【Deploy】Choose 1 of your Units. It gains <Repair 1> during this turn. (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-006.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-006.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-007",
+    "name": "Gundam TR-1 \"Hazel-Rah\"",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Attack) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-007.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-007.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-008",
+    "name": "Gundam Delta Kai",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "【Deploy・Development 1】You may exile the specified number of (G Generation) cards in your trash from the game. If you do, activate the following effect: ■Choose 1 friendly Unit. It recovers 2 HP.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-008.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-008.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-009",
+    "name": "Gundam Full Armor (Thunderbolt) (EX)",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Io Fleming]",
+    "effect": "【Deploy】All enemy players each choose 1 of their active Units. Rest them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-009.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-009.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-010",
+    "name": "Gundam Barbatos 6th Form",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 5,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Deploy・Development 3】You may exile the specified number of (G Generation) cards in your trash from the game. If you do, activate the following effect: ■Choose 1 rested enemy Unit. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-010.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-010.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-011",
+    "name": "Beginning Gundam",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 1,
+    "cost": 1,
+    "ap": 1,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-011.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-011.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-012",
+    "name": "Dom Bein Nichts",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Support) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-012.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-012.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-013",
+    "name": "Red Gundam(0085)",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 0,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Attack】If an enemy player has 6 or more cards in their hand, this Unit gets AP+2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-013.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-013.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-014",
+    "name": "Gouf Vijayanta",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "During your opponent's turn, this Unit can't receive effect damage from enemy Units that are Lv.5 or lower.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-014.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-014.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-015",
+    "name": "Prototype Asshimar TR-3 \"Kehaar\"",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 1,
+    "hp": 4,
+    "zone": "Space",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Destroyed】If there are 2 or more other rested Units in play, choose 1 rested enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-015.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-015.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-016",
+    "name": "Tornado Gundam",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-016.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-016.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-017",
+    "name": "Haro",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 3,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Destroyed】If this Unit is destroyed with battle damage, you and the player who destroyed this Unit draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-017.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-017.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-018",
+    "name": "Gundam Astray Blue Frame Second L",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Attack】Choose 1 friendly Unit. It recovers 1 HP.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-018.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-018.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-019",
+    "name": "Gundam Pixy",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 2,
+    "hp": 4,
+    "zone": "Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "【Attack】If there are 2 or more other rested Units in play, this Unit gains <High-Maneuver> during this battle. (This Unit can't be blocked.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-019.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-019.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-020",
+    "name": "Gundam Mk-Ⅲ",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Durability) Trait",
+    "effect": "【During Link】【Activate･Action】【Once per Turn】Choose 1 Unit. It recovers 1 HP.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-020.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-020.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-021",
+    "name": "Build Strike Gundam (Full Package) (EX)",
+    "rarity": "LR",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Reiji]",
+    "effect": "<Breach 4> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【When Paired･(G Generation) Pilot】If there are 2 or more (G Generation) Unit cards in your trash, place 1 rested Resource.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-021.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-021.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-022",
+    "name": "Gundam Exia (EX)",
+    "rarity": "LR",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 6,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Attack) Trait",
+    "effect": "<Breach 5> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【During Pair･(G Generation) Pilot】At the end of your turn, you may destroy this Unit. If you do, deploy 3 [Gundam Exia]((G Generation)･AP2･HP2) Unit tokens.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-022.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-022.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-023",
+    "name": "Le Cygne (EX)",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Asuna Elmarit]",
+    "effect": "【Attack】All players each look at the top card of their deck. If it is a card that is Lv.5 or higher, they may reveal it and add it to their hand. They return any remaining card to the top or bottom of their deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-023.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-023.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-024",
+    "name": "GQuuuuuuX (Omega Psycommu)",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Attack) Trait",
+    "effect": "<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.) 【Attack】Choose 1 enemy Unit with <Blocker> that is Lv.5 or lower. Deal 2 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-024.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-024.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-025",
+    "name": "Tallgeese Ⅱ",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "【Deploy・Development 2】You may exile the specified number of (G Generation) cards in your trash from the game. If you do, activate the following effect: ■All players place 1 EX Resource. 【During Pair】While your opponent has an EX Resource, this Unit can't receive battle damage from enemy Units that are Lv.5 or lower.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-025.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-025.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-026",
+    "name": "Gundam Astaroth Origin",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Durability) Trait",
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-026.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-026.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-027",
+    "name": "Tallgeese",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "【Deploy・Development 2】You may exile the specified number of (G Generation) cards in your trash from the game. If you do, activate the following effect: ■Choose 1 friendly (G Generation) Unit. It gains <Breach 1> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-027.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-027.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-028",
+    "name": "Gundam Plutone",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Chall Acustica]",
+    "effect": "【Once per Turn】When another Unit attacks an enemy Unit, if this Unit is rested, the attacking Unit gains <Breach 2> during this battle. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-028.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-028.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-029",
+    "name": "Gundam Astaroth Rinascimento (EX)",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Support) Trait",
+    "effect": "【Deploy】If 5 or more enemy Units are in play, deal 2 damage to all Units with <Blocker> that are Lv.4 or lower.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-029.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-029.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-030",
+    "name": "Big-Rang",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Space",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Deploy】Look at the top 3 cards of your deck. You may reveal 1 (G Generation) Unit card that is Lv.3 among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-030.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-030.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-031",
+    "name": "Oggo",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 1,
+    "ap": 1,
+    "hp": 2,
+    "zone": "Space",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "This Unit may choose an active enemy Unit that is Lv.3 or lower as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-031.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-031.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-032",
+    "name": "Gundam Ez8 High Mobility Custom",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-032.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-032.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-033",
+    "name": "Taurus (Sanc Kingdom)",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Activate･Action】【Once per Turn】①：Choose 1 other Unit that is being attacked. It gets AP+1 during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-033.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-033.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-034",
+    "name": "Gundam Lfrith Ur",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "【When Linked】Look at the top 3 cards of your deck. You may reveal 1 (G Generation) Unit card that is Lv.3 among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-034.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-034.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-035",
+    "name": "Gundam Lfrith Thorn",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Support) Trait",
+    "effect": "When another friendly (G Generation) Unit that is Lv.3 is deployed, this Unit gains <Breach 1> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-035.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-035.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-036",
+    "name": "Darilbalde",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "During your turn, all other (G Generation) Units that are Lv.3 get AP+1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-036.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-036.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-037",
+    "name": "Zudah Unit 1",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Jean Luc Duvall]",
+    "effect": "During your turn, while this Unit is battling an enemy Unit with <Blocker>, this Unit can't receive battle damage.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-037.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-037.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-038",
+    "name": "G-Self",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Deploy】Place 1 EX Resource.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-038.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-038.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-039",
+    "name": "Rising Freedom Gundam",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Support) Trait",
+    "effect": "When playing this card from your hand, if 3 or more enemy Units are in play, play it as if it has 3 Lv. and cost.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-039.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-039.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-040",
+    "name": "Gundam Epyon",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 6,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Attack) Trait",
+    "effect": "【Deploy】If there are 2 or more enemy players, choose 1 to 3 friendly Units. They gain <Breach 3> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-040.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-040.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-041",
+    "name": "Strike Freedom Gundam (EX)",
+    "rarity": "LR",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 6,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Attack) Trait",
+    "effect": "<High-Maneuver> (This Unit can't be blocked.) 【Deploy】Choose 1 Unit with 4 or less HP belonging to each enemy player. Return them to their owners' hands.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-041.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-041.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-042",
+    "name": "Psycho Haro (EX)",
+    "rarity": "LR",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 8,
+    "cost": 7,
+    "ap": 6,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "While this Unit is rested, all Units gain <Blocker>. (Rest this Unit to change the attack target to it.) 【Attack】Units that are Lv.7 or lower can't activate <Blocker> during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-042.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-042.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-043",
+    "name": "Blue Destiny Unit-1 (EX)",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 3,
+    "zone": "Earth",
+    "trait": "(G Generation)",
+    "link": "[Yuu Kajima]",
+    "effect": "【Attack】If a friendly Unit with <Blocker> is in play, choose 1 enemy Unit that is Lv.5 or lower. It gets AP-2 during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-043.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-043.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-044",
+    "name": "Justice Gundam (EX)",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 5,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Durability) Trait",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.) 【Deploy】If there are 2 or more enemy players, choose 1 Unit belonging to an enemy player with the most Units. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-044.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-044.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-045",
+    "name": "Psycho Zaku (EX)",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 5,
+    "ap": 4,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Daryl Lorenz]",
+    "effect": "<Suppression> (Damage to Shields by an attack is dealt to the first 2 cards simultaneously.) 【When Paired】Choose 1 enemy Unit with <Repair>. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-045.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-045.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-046",
+    "name": "Striker Custom (EX)",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Ittou Tsurugi]",
+    "effect": "【During Pair】【Attack】Choose 1 enemy Unit that is Lv.4 or higher. It gets AP-2 during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-046.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-046.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-047",
+    "name": "Casval's Gundam",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "【When Paired・Development 1】You may exile the specified number of (G Generation) cards in your trash from the game. If you do, activate the following effect: ■This Unit gains <High-Maneuver> during this turn. (This Unit can't be blocked.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-047.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-047.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-048",
+    "name": "S Gundam",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Attack) Trait",
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-048.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-048.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-049",
+    "name": "Pale Rider (Ground Heavy Equipment Type)",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 4,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "While a friendly (G Generation) Unit with <Blocker> is in play, this Unit gains <Suppression>. (Damage to Shields by an attack is dealt to the first 2 cards simultaneously.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-049.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-049.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-050",
+    "name": "Saikoro Gundam",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 6,
+    "cost": 6,
+    "ap": 5,
+    "hp": 6,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Attack】Place the top card of your deck into your trash. If you placed a card that is Lv.3 or higher with this effect, choose 1 enemy Unit. It gets AP-2 during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-050.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-050.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-051",
+    "name": "Ze'Gok",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 1,
+    "cost": 1,
+    "ap": 1,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-051.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-051.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-052",
+    "name": "Hildolfr",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 0,
+    "hp": 2,
+    "zone": "Earth",
+    "trait": "(G Generation)",
+    "link": "(G Generation) Trait",
+    "effect": "【Deploy】If 3 or more enemy Units are in play, choose 1 enemy Unit with 2 or less HP. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-052.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-052.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-053",
+    "name": "Gundam GP00",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 3,
+    "hp": 2,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-053.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-053.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-054",
+    "name": "Gaplant TR-5 \"Hrairoo\" Unit 1",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "<Blocker> (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-054.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-054.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-055",
+    "name": "Dom Gross Beil",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "If there are 2 or more enemy players and this Unit is rested, friendly Shields can't receive battle damage from enemy Units.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-055.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-055.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-056",
+    "name": "Gundam Geminass 01",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": null,
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-056.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-056.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-057",
+    "name": "Gundam Geminass 02",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "【Deploy】You may choose 1 active friendly Unit that is Lv.3. Rest it. If you do, choose 1 enemy Unit that is Lv.2 or lower. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-057.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-057.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-058",
+    "name": "Extreme Gundam",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": null,
+    "effect": "If there are 2 or more enemy players, this Unit gains <Blocker>. (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-058.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-058.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-059",
+    "name": "Psycho Zaku",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "[Daryl Lorenz]",
+    "effect": "【During Link】【Attack】【Once per Turn】All players each choose 1 of their Resources. Set them as active.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-059.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-059.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-060",
+    "name": "Gundam Aquarius",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(G Generation)",
+    "link": "(Support) Trait",
+    "effect": "【When Paired・Development 3】You may exile the specified number of (G Generation) cards in your trash from the game. If you do, activate the following effect: ■Choose 1 enemy Unit that is Lv.4 or lower. Return it to its owner's hand.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-060.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-060.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-061",
+    "name": "Ellis Claude",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Support)",
+    "link": null,
+    "effect": "【When Paired】If a friendly (G Generation) Unit is in play, choose 1 enemy Unit that is Lv.3 or lower. Rest it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-061.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-061.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-062",
+    "name": "Jona Basta",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Durability)",
+    "link": null,
+    "effect": "【Attack】【Once per Turn】Choose 1 enemy player. They may draw 1. If they draw with this effect, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-062.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-062.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-063",
+    "name": "Io Fleming",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Durability)",
+    "link": null,
+    "effect": "If there are 2 or more other rested Units in play, this Unit gains <Repair 2>. (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-063.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-063.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-064",
+    "name": "Rondo Gina Sahaku",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Attack)",
+    "link": null,
+    "effect": "While this Unit has <Repair>, it gains <Breach 1>. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-064.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-064.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-065",
+    "name": "Meir Siva",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Attack)",
+    "link": null,
+    "effect": "【When Linked】Choose 1 friendly (G Generation) Unit. It gains <Breach 1> during this turn. (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-065.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-065.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-066",
+    "name": "Reiji",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Support)",
+    "link": null,
+    "effect": "【When Paired】Choose 1 friendly (G Generation) Unit. During this turn, it may choose an active enemy Unit with <Blocker> as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-066.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-066.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-067",
+    "name": "Asuna Elmarit",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Support)",
+    "link": null,
+    "effect": "【When Paired】Look at the top 3 cards of your deck. You may reveal 1 (G Generation) Unit card among them and return it to the top of your deck. Return the remaining cards randomly to the bottom of your deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-067.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-067.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-068",
+    "name": "Chall Acustica",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Attack)",
+    "link": null,
+    "effect": "【During Link】【Destroyed】You may return the card paired with this Unit to the top of its owner's deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-068.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-068.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-069",
+    "name": "Beside Pain",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Durability)",
+    "link": null,
+    "effect": "【Attack】Choose 1 friendly Unit with <Blocker>. It gets AP+2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-069.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-069.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-070",
+    "name": "Daryl Lorenz",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Support)",
+    "link": null,
+    "effect": "【During Link】【Activate･Action】【Once per Turn】①：If it is your opponent's turn, choose 1 Unit. It gets AP+1 during this battle.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-070.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-070.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-071",
+    "name": "Ittou Tsurugi",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Attack)",
+    "link": null,
+    "effect": "【During Link】This Unit gets AP+1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-071.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-071.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-072",
+    "name": "Yuu Kajima",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Attack)",
+    "link": null,
+    "effect": "【When Paired】Choose 1 active friendly Unit with <Blocker> and 1 enemy Unit that is Lv.4 or lower. Rest them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-072.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-072.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-073",
+    "name": "Character Requests",
+    "rarity": "R",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 6,
+    "cost": 2,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】If there are 6 or more rested Units in play, draw 2.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-073.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-073.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-074",
+    "name": "Eternal Road",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 active friendly (G Generation) Unit. Rest it. If you do, all enemy players each choose 1 of their active Units. Rest them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-074.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-074.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-075",
+    "name": "Fierce Enemy Assault",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 to 2 enemy Units with 2 or less HP. Rest them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-075.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-075.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-076",
+    "name": "Gerbera Straight",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Durability)",
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 friendly (G Generation) Unit. It recovers 3 HP. 【Pilot】[Lowe Guele]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-076.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-076.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-077",
+    "name": "Master League Begins",
+    "rarity": "R",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Action】Choose 1 rested friendly (G Generation) Unit. Change a battling enemy Unit's attack target to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-077.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-077.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-078",
+    "name": "Premium Unit Assembly",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 1,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】All players each look at the top card of their deck. If it is a Unit card, they may reveal it and add it to their hand. They return any remaining card to the top or bottom of their deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-078.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-078.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-079",
+    "name": "Modification",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】Choose 1 friendly (G Generation) Unit. It can't receive battle damage from enemy Units that are Lv.3 or lower during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-079.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-079.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-080",
+    "name": "Sturm Faust",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Support)",
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 (G Generation) Unit. During this turn, it may choose an active enemy Unit as its attack target. 【Pilot】[Jean Luc Duvall]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-080.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-080.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-081",
+    "name": "MAP Weapon",
+    "rarity": "R",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 2,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 to 2 enemy Units with 2 or less HP. Return them to their owners' hands.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-081.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-081.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-082",
+    "name": "Warship Cruise",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Action】Choose 1 Unit that is Lv.3 or lower belonging to each enemy player. Return them to their owners' hands.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-082.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-082.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-083",
+    "name": "SP Conversion Chips",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": null,
+    "effect": "【Action】If it is your opponent's turn, choose 1 Unit. It gets AP+3 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-083.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-083.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-084",
+    "name": "30cm Cannon (APFSDS Round)",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(G Generation) (Attack)",
+    "link": null,
+    "effect": "【Main】/【Action】Choose 1 Unit with <Blocker>. Set it as active. It can't attack during this turn. 【Pilot】[Demeziere Sonnen]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-084.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-084.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-085",
+    "name": "Kudelia Aina Bernstein & Isaribi",
+    "rarity": "U",
+    "color": "Blue",
+    "cardType": "BASE",
+    "level": 5,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(G Generation) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, you may choose 1 active friendly blue (G Generation) Unit and 1 enemy Unit. Rest them.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-085.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-085.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-086",
+    "name": "Kycilia Zabi & Gwazine",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "BASE",
+    "level": 4,
+    "cost": 2,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(G Generation) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Once per Turn】When a friendly (G Generation) Unit links, it gains <Repair 2> during this turn. (At the end of your turn, this Unit recovers the specified number of HP.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-086.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-086.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-087",
+    "name": "Marina Ismail & Ptolemaios 2",
+    "rarity": "U",
+    "color": "Green",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 2,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(G Generation) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Once per Turn】During your turn, when a friendly green (G Generation) Unit destroys an enemy Unit with battle damage, choose 1 friendly Unit. It recovers 2 HP.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-087.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-087.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-088",
+    "name": "Miorine Rembran & Academy Ship",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(G Generation) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. All friendly (G Generation) Units that are Lv.3 get AP+1 during your opponent's turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-088.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-088.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-089",
+    "name": "Lacus Clyne & Eternal",
+    "rarity": "U",
+    "color": "White",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 2,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(G Generation) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, choose 1 rested friendly white (G Generation) Unit. Set it as active. It can't attack during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-089.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-089.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  },
+  {
+    "id": "EB01-090",
+    "name": "Tiffa Adill & Freeden",
+    "rarity": "C",
+    "color": "White",
+    "cardType": "BASE",
+    "level": 2,
+    "cost": 2,
+    "ap": 0,
+    "hp": 4,
+    "zone": "Earth",
+    "trait": "(G Generation) (Warship)",
+    "link": null,
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, choose 1 Unit with 2 or less HP belonging to each enemy player. Return them to their owners' hands.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-090.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EB01-090.webp"
+    },
+    "set": {
+      "id": "eb01",
+      "name": "Eternal Nexus [EB01]"
+    }
+  }
+]

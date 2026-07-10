@@ -1,0 +1,55 @@
+{
+  "_comment": "Official banned/restricted list. See banned_restricted_list.md for full context/reasoning. Keep this file and the .md in sync when a new list is published.",
+  "published_date": "2026-07-10",
+  "effective_date": "2026-07-24",
+  "banned": {
+    "GD01-020": "Anksha"
+  },
+  "restricted": {
+    "ST02-016": { "limit": 2, "name": "Corsica Base" }
+  },
+  "banned_pairs": [
+    {
+      "a": "GD01-008",
+      "a_name": "Guntank",
+      "b": "GD05-015",
+      "b_name": "M1 Astray Shrike"
+    },
+    {
+      "a": "ST01-010",
+      "a_name": "Amuro Ray",
+      "b": "ST05-010",
+      "b_name": "Mikazuki Augus"
+    }
+  ],
+  "banned_pair_groups": [
+    {
+      "description": "Unit cards that are Lv.2, cost 1, 2 AP, 2 HP, with no effects. Only one distinct card number from this group may be used per deck (still capped at 4 copies of that one number). Future GD05+ cards matching the description are added automatically per the official ruling.",
+      "members": {
+        "GD01-035": "Zaku II",
+        "GD01-060": "Zaku Mariner",
+        "GD01-085": "Demi Garrison",
+        "GD02-013": "Hizack",
+        "GD02-080": "Nemo",
+        "GD03-032": "Zaku (Four Snake Eyes') [YETI] (GQ)",
+        "GD03-063": "0 Gundam",
+        "GD04-078": "Borjarnon",
+        "GD05-014": "Javelin",
+        "GD05-027": "Jegan",
+        "GD05-042": "Shining Gundam",
+        "GD05-062": "Hobby Hizack",
+        "GD05-077": "Leo",
+        "ST01-005": "GM",
+        "ST04-008": "Ginn",
+        "ST05-004": "Graze Custom",
+        "ST05-009": "Graze",
+        "ST06-004": "Gelgoog (GQ)",
+        "ST09-005": "Zaku Warrior",
+        "ST10-005": "Nemo"
+      },
+      "exempt_decks": [
+        "ST05 Iron Blooded Orphans starter deck (stock lineup, unmodified)"
+      ]
+    }
+  ]
+}

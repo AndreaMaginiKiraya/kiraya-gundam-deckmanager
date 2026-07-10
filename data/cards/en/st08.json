@@ -1,0 +1,362 @@
+[
+  {
+    "id": "ST08-001",
+    "name": "Ξ Gundam",
+    "rarity": "LR",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 9,
+    "cost": 8,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Mafty)",
+    "link": "[Hathaway Noa]",
+    "effect": "While you have no Units that are Lv.6 or higher in play, this card in your hand gets Lv. -1 and cost -1 for each enemy Unit in play. 【When Paired】Choose 1 enemy Unit with the highest Lv. Deal 3 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-001.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-001.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-002",
+    "name": "Ξ Gundam",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Mafty)",
+    "link": "[Hathaway Noa]",
+    "effect": "【Deploy】Choose 1 enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-002.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-002.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-003",
+    "name": "Messer (Type-F Naked) (Commander Type)",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Mafty)",
+    "link": "(Mafty) Trait",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-003.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-003.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-004",
+    "name": "Messer Type-F01",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 2,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Mafty)",
+    "link": "(Mafty) Trait",
+    "effect": "【Attack】If this Unit is attacking an enemy Unit, choose 1 enemy Unit. Deal 1 damage to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-004.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-004.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-005",
+    "name": "Messer Type-F02 Minelayer",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Mafty)",
+    "link": "",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-005.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-005.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-006",
+    "name": "Penelope",
+    "rarity": "LR",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 7,
+    "cost": 6,
+    "ap": 5,
+    "hp": 5,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Lane Aim]",
+    "effect": "【During Pair】【Attack】【Once per Turn】If this Unit is attacking the enemy player, reveal 1 (Earth Federation) Unit card from your hand. Return it to the bottom of your deck. If you do, draw 2.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-006.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-006.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-007",
+    "name": "Penelope",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "[Lane Aim]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-007.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-007.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-008",
+    "name": "Gustav Karl Type-00",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 3,
+    "ap": 3,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Earth Federation)",
+    "link": "",
+    "effect": "While 3 or more enemy Units are in play, this Unit gains <Blocker>. (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-008.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-008.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-009",
+    "name": "Jegan Ground Type-A (Man Hunter)",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "UNIT",
+    "level": 1,
+    "cost": 1,
+    "ap": 0,
+    "hp": 1,
+    "zone": "Earth",
+    "trait": "(Earth Federation)",
+    "link": "",
+    "effect": "【Deploy】Choose 1 rested enemy Unit that is Lv.2 or lower. It won' t be set as active during the start phase of your opponent' s next turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-009.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-009.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-010",
+    "name": "Hathaway Noa",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Mafty) (Newtype)",
+    "link": "",
+    "effect": "【When Paired】If this is a (Mafty) Unit, choose 1 of your (Mafty) Units. During this turn, it may choose a damaged active enemy Unit as its attack target.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-010.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-010.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-011",
+    "name": "Lane Aim",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Earth Federation)",
+    "link": "",
+    "effect": "When you draw with an effect, if this is a blue Unit, it gains <High-Maneuver> during this turn. (This Unit can' t be blocked.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-011.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-011.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-012",
+    "name": "Words for Hathaway",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Mafty)",
+    "link": "",
+    "effect": "【Main】Choose 1 friendly Link Unit. It gains <Breach 1> during this turn. (When this Unit' s attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent' s shield area.) 【Pilot】[Gawman Nobile]",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-012.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-012.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-013",
+    "name": "Lady Luck",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "COMMAND",
+    "level": 5,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】/【Action】Choose 1 enemy Unit. Deal 1 damage to it. If a friendly (Mafty) Link Unit is in play, deal 2 damage instead.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-013.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-013.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-014",
+    "name": "Valiant",
+    "rarity": "C",
+    "color": "Red",
+    "cardType": "BASE",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Earth",
+    "trait": "(Mafty) (Warship)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. Then, choose 1 of your Units. It gets AP+2 during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-014.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-014.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  },
+  {
+    "id": "ST08-015",
+    "name": "Davao",
+    "rarity": "C",
+    "color": "Blue",
+    "cardType": "BASE",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Earth",
+    "trait": "(Earth Federation) (Stronghold)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. 【Activate･Main】【Once per Turn】②：Choose 1 of your Units. It recovers 2 HP.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-015.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST08-015.webp"
+    },
+    "set": {
+      "id": "st08",
+      "name": "Flash of Radiance [ST08]"
+    }
+  }
+]

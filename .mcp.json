@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "kiraya-gundam-deckmanager": {
+      "type": "stdio",
+      "command": "/Users/Kiraya/dev/kiraya-gundam-deckmanager-mcp/.venv/bin/python",
+      "args": ["-m", "kiraya_gundam_deckmanager"],
+      "env": {
+        "PYTHONUTF8": "1"
+      }
+    }
+  }
+}

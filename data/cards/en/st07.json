@@ -1,0 +1,362 @@
+[
+  {
+    "id": "ST07-001",
+    "name": "Gundam Exia",
+    "rarity": "LR",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 4,
+    "ap": 4,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Setsuna F. Seiei]",
+    "effect": "At the end of your turn, if there are 7 or more (CB) cards in your trash, choose 1 of your Resources. Set it as active. 【When Paired】Place the top 2 cards of your deck into your trash. If you place a (CB) card with this effect, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-001.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-001.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-002",
+    "name": "Gundam Exia",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 2,
+    "ap": 4,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Setsuna F. Seiei]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-002.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-002.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-003",
+    "name": "Gundam Virtue",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 5,
+    "cost": 3,
+    "ap": 5,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Tieria Erde]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-003.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-003.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-004",
+    "name": "Gundam Virtue",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Tieria Erde]",
+    "effect": "While you have a (CB) Pilot in play, this Unit gains <Blocker>. (Rest this Unit to change the attack target to it.)",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-004.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-004.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-005",
+    "name": "Gundam Dynames",
+    "rarity": "LR",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 4,
+    "cost": 3,
+    "ap": 2,
+    "hp": 4,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Lockon Stratos]",
+    "effect": "During your turn, when this Unit destroys an enemy Unit with battle damage, this Unit recovers 2 HP. 【During Link】This Unit gets AP+2.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-005.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-005.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-006",
+    "name": "Gundam Dynames",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 3,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Lockon Stratos]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-006.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-006.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-007",
+    "name": "Gundam Kyrios",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 3,
+    "cost": 2,
+    "ap": 2,
+    "hp": 3,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Allelujah Haptism] / [Hallelujah Haptism]",
+    "effect": "During your turn, while you have a (CB) Pilot in play, this Unit gets AP+2.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-007.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-007.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-008",
+    "name": "Gundam Kyrios (Flight Mode)",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "UNIT",
+    "level": 2,
+    "cost": 2,
+    "ap": 3,
+    "hp": 1,
+    "zone": "Space / Earth",
+    "trait": "(Cb) (Gn Drive)",
+    "link": "[Allelujah Haptism] / [Hallelujah Haptism]",
+    "effect": "",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-008.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-008.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-009",
+    "name": "Setsuna F. Seiei",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Cb)",
+    "link": "",
+    "effect": "【Attack】This Unit gets AP+1 during this turn. If there are 7 or more (CB) cards in your trash, all your (CB) Units get AP+1 instead.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-009.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-009.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-010",
+    "name": "Tieria Erde",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Cb) (Innovade)",
+    "link": "",
+    "effect": "【Destroyed】If it is your opponent's turn and this is a (CB) Unit, draw 1.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-010.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-010.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-011",
+    "name": "Lockon Stratos (Neil)",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Cb)",
+    "link": "",
+    "effect": "【When Paired】If this is a (CB) Unit, it may choose an active enemy Unit whose Lv. is equal to or lower than this Unit as its attack target during this turn.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-011.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-011.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-012",
+    "name": "Allelujah Haptism",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "PILOT",
+    "level": 3,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": "(Cb) (Super Soldier)",
+    "link": "",
+    "effect": "During your turn, while you have a (CB) Link Unit in play, this Unit can't receive battle damage from enemy Units with 3 or less AP.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-012.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-012.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-013",
+    "name": "Armed Intervention",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "COMMAND",
+    "level": 4,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Action】Choose 1 rested friendly (CB) Unit. Change the attack target of the battling enemy Unit to it.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-013.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-013.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-014",
+    "name": "Tactical Visionary",
+    "rarity": "C",
+    "color": "Green",
+    "cardType": "COMMAND",
+    "level": 1,
+    "cost": 1,
+    "ap": 0,
+    "hp": 0,
+    "zone": null,
+    "trait": null,
+    "link": "",
+    "effect": "【Main】Look at the top 3 cards of your deck. You may reveal 1 (CB) Unit card/Pilot card among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-014.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-014.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  },
+  {
+    "id": "ST07-015",
+    "name": "Ptolemaios",
+    "rarity": "C",
+    "color": "Purple",
+    "cardType": "BASE",
+    "level": 2,
+    "cost": 1,
+    "ap": 0,
+    "hp": 5,
+    "zone": "Space",
+    "trait": "(Cb) (Warship)",
+    "link": "",
+    "effect": "【Deploy】Add 1 of your Shields to your hand. While a rested friendly (CB) Unit is in play, this Base can't receive damage from enemy Units that are Lv.3 or lower, other than Unit tokens.",
+    "sourceTitle": null,
+    "images": {
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-015.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST07-015.webp"
+    },
+    "set": {
+      "id": "st07",
+      "name": "Celestial Drive [ST07]"
+    }
+  }
+]
