@@ -18,7 +18,7 @@ from . import data, tools
 
 # Disk cache of downloaded card art, keyed by card id, so re-renders across
 # process restarts don't re-fetch images over the network.
-_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
 _IMAGE_CACHE_DIR = _PROJECT_ROOT / "data" / "cards" / "images"
 
 # ~5:7 card aspect ratio; source art is 600x838, this stays legible without upsampling

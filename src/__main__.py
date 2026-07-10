@@ -1,4 +1,4 @@
-"""Entrypoint: `python -m kiraya_gundam_deckmanager` or the
+"""Entrypoint: `python -m src` or the
 `kiraya-gundam-deckmanager-mcp` console script."""
 from __future__ import annotations
 

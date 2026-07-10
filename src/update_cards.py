@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""CLI wrapper around kiraya_gundam_deckmanager.sync.sync_all().
+"""CLI wrapper around src.sync.sync_all().
 
 Run:
-    python scripts/update_cards.py                # refresh every set
-    python scripts/update_cards.py --only gd05     # refresh just one set
-    python scripts/update_cards.py --dump          # save the raw egmanevents response and exit
+    python -m src.update_cards            # refresh every set
+    python -m src.update_cards --only gd05
+    python -m src.update_cards --dump     # save raw egmanevents response
 
 The same refresh is also available as the `update_card_data` MCP tool for
 use from within a running session.
@@ -16,10 +16,8 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
-
-from kiraya_gundam_deckmanager.config import configure_logging  # noqa: E402
-from kiraya_gundam_deckmanager.sync import fetch_egman_raw, sync_all  # noqa: E402
+from .config import configure_logging
+from .sync import fetch_egman_raw, sync_all
 
 _DUMP_PATH = (
     Path(__file__).resolve().parent.parent / "data" / "egman_dump" / "api_cards_gundam.json"

@@ -22,8 +22,8 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 
 # Populate/refresh the card database (data/cards/en/*.json)
-python scripts/update_cards.py               # merges apitcg + egmanevents
-python scripts/update_cards.py --only gd05   # scope to one set
+python -m src.update_cards               # merges apitcg + egmanevents
+python -m src.update_cards --only gd05   # scope to one set
 
 # Tests
 pytest                              # full suite
@@ -34,7 +34,7 @@ ruff check .
 
 # Run/inspect the server
 mcp dev server.py                    # MCP Inspector, interactive
-python -m kiraya_gundam_deckmanager   # raw stdio server (what .mcp.json launches)
+python -m src   # raw stdio server (what .mcp.json launches)
 ```
 
 ## Architecture
@@ -75,15 +75,20 @@ python -m kiraya_gundam_deckmanager   # raw stdio server (what .mcp.json launche
   providers have a set. Always rebuilds card art URLs as
   `<card_code>.webp` against `gundam-gcg.com` directly regardless of what
   either source suggests (see data quirks below). Backs both
-  `scripts/update_cards.py` (CLI) and the `update_card_data` MCP tool —
+  `update_cards.py` (CLI) and the `update_card_data` MCP tool —
   same function, two entrypoints.
+- `update_cards.py` — thin CLI wrapper over `sync.sync_all()`, runnable as
+  `python -m src.update_cards` (also exposed as the
+  `update-cards` console script via `pyproject.toml`). `--only SET_ID` scopes
+  to one set; `--dump` saves the raw egmanevents API response instead of
+  syncing.
 - `config.py` — env-driven `Settings` (currently just `log_level`) plus
   `configure_logging()`, called once at process startup
-  (`__main__.py`, `scripts/update_cards.py`) to wire `LOG_LEVEL` to the
+  (`__main__.py`, `update_cards.py`) to wire `LOG_LEVEL` to the
   root logger.
 
 **Remember to reconnect the MCP server (`/mcp` in Claude Code) after editing
-`src/kiraya_gundam_deckmanager/*.py`** — the running server subprocess
+`src/*.py`** — the running server subprocess
 doesn't hot-reload, so tool schema/behavior changes are invisible until
 reconnected. (Card *data* changes are the one exception once
 `update_card_data` exists — that tool clears caches in-process, no

@@ -1,5 +1,5 @@
 """Smoke tests for data layer + tool layer."""
-from kiraya_gundam_deckmanager import data, render, tools
+from src import data, render, tools
 
 
 def test_parse_decklist_text_reads_count_and_id_ignores_name():

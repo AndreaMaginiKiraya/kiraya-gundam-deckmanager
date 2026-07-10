@@ -47,7 +47,7 @@ source .venv/bin/activate
 pip install -e ".[dev]"
 
 # Populate the card database (data/cards/en/*.json)
-python scripts/update_cards.py
+python -m src.update_cards
 
 # Run tests
 pytest
@@ -59,7 +59,7 @@ ruff check .
 mcp dev server.py
 
 # Or run the server directly (waits for an MCP client on stdio)
-python -m kiraya_gundam_deckmanager
+python -m src
 ```
 
 ## Connecting to an MCP client
@@ -73,7 +73,7 @@ To register it globally (available from any directory):
 
 ```bash
 claude mcp add kiraya-gundam-deckmanager --scope user \
-  /path/to/kiraya-gundam-deckmanager-mcp/.venv/bin/python -- -m kiraya_gundam_deckmanager
+  /path/to/kiraya-gundam-deckmanager-mcp/.venv/bin/python -- -m src
 ```
 
 ## Layout
@@ -81,19 +81,19 @@ claude mcp add kiraya-gundam-deckmanager --scope user \
 ```
 .mcp.json                     # how an MCP client spawns the server
 pyproject.toml                # project metadata + deps
-scripts/
-  update_cards.py             # CLI wrapper over sync.sync_all() (also an MCP tool)
+server.py                     # thin `mcp dev` entrypoint wrapper
 data/
   cards/en/                   # synced card JSON, one file per set
   cards/images/                # on-disk card-art cache (gitignored, regenerable)
   rules/                       # official rules + banned/restricted list
   decks/                       # saved decklists (plain text) + rendered PNGs
-src/kiraya_gundam_deckmanager/
+src/
   __main__.py                  # entrypoint
   server.py                    # FastMCP instance + @mcp.tool() registrations
   tools.py                     # tool implementations (pure functions, JSON-serializable)
   render.py                    # deck image rendering (returns PNG bytes, not JSON)
   sync.py                      # merges the two upstream card-data sources
+  update_cards.py              # CLI wrapper over sync.sync_all() (also an MCP tool)
   data.py                      # data loading, parsing, queries, disk-cache
   config.py                    # env-driven settings + logging setup
 tests/

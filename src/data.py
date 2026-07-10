@@ -9,7 +9,7 @@ from functools import lru_cache
 from pathlib import Path
 
 # data/cards/en/ relative to the project root (two parents up from this file)
-_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
 _DATA_DIR = _PROJECT_ROOT / "data" / "cards" / "en"
 _BANLIST_PATH = _PROJECT_ROOT / "data" / "rules" / "banlist.json"
 _DECKS_DIR = _PROJECT_ROOT / "data" / "decks"
