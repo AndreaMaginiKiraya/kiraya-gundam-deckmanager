@@ -56,7 +56,7 @@ pytest
 ruff check .
 
 # Try it interactively with the MCP Inspector
-mcp dev dev_server.py
+mcp dev server.py
 
 # Or run the server directly (waits for an MCP client on stdio)
 python -m kiraya_gundam_deckmanager

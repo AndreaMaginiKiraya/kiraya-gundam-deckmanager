@@ -5,8 +5,8 @@
     "rarity": "LR",
     "name": "Aile Strike Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-001.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-001.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-001.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-001.webp"
     },
     "level": "5",
     "cost": "4",
@@ -31,8 +31,8 @@
     "rarity": "LR                +",
     "name": "Aile Strike Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-001_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-001_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-001-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-001-p1.webp"
     },
     "level": "5",
     "cost": "4",
@@ -57,8 +57,8 @@
     "rarity": "C",
     "name": "Strike Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-002.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-002.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-002.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-002.webp"
     },
     "level": "4",
     "cost": "2",
@@ -83,8 +83,8 @@
     "rarity": "C                +",
     "name": "Strike Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-002_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-002_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-002-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-002-p1.webp"
     },
     "level": "4",
     "cost": "2",
@@ -109,8 +109,8 @@
     "rarity": "C",
     "name": "Moebius Zero",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-003.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-003.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-003.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-003.webp"
     },
     "level": "3",
     "cost": "2",
@@ -135,8 +135,8 @@
     "rarity": "C                +",
     "name": "Moebius Zero",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-003_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-003_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-003-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-003-p1.webp"
     },
     "level": "3",
     "cost": "2",
@@ -161,8 +161,8 @@
     "rarity": "C",
     "name": "Moebius",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-004.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-004.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-004.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-004.webp"
     },
     "level": "1",
     "cost": "1",
@@ -187,8 +187,8 @@
     "rarity": "C                +",
     "name": "Moebius",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-004_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-004_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-004-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-004-p1.webp"
     },
     "level": "1",
     "cost": "1",
@@ -213,8 +213,8 @@
     "rarity": "C",
     "name": "Strike Dagger",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-005.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-005.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-005.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-005.webp"
     },
     "level": "2",
     "cost": "2",
@@ -239,8 +239,8 @@
     "rarity": "C                +",
     "name": "Strike Dagger",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-005_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-005_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-005-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-005-p1.webp"
     },
     "level": "2",
     "cost": "2",
@@ -265,8 +265,8 @@
     "rarity": "LR",
     "name": "Aegis Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-006.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-006.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-006.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-006.webp"
     },
     "level": "4",
     "cost": "3",
@@ -291,8 +291,8 @@
     "rarity": "LR                +",
     "name": "Aegis Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-006_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-006_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-006-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-006-p1.webp"
     },
     "level": "4",
     "cost": "3",
@@ -317,8 +317,8 @@
     "rarity": "C",
     "name": "Aegis Gundam (MA Mode)",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-007.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-007.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-007.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-007.webp"
     },
     "level": "4",
     "cost": "3",
@@ -343,8 +343,8 @@
     "rarity": "C                +",
     "name": "Aegis Gundam (MA Mode)",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-007_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-007_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-007-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-007-p1.webp"
     },
     "level": "4",
     "cost": "3",
@@ -369,8 +369,8 @@
     "rarity": "C",
     "name": "Ginn",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-008.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-008.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-008.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-008.webp"
     },
     "level": "2",
     "cost": "1",
@@ -395,8 +395,8 @@
     "rarity": "C                +",
     "name": "Ginn",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-008_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-008_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-008-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-008-p1.webp"
     },
     "level": "2",
     "cost": "1",
@@ -421,8 +421,8 @@
     "rarity": "C",
     "name": "Miguel's Ginn",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-009.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-009.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-009.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-009.webp"
     },
     "level": "2",
     "cost": "2",
@@ -447,8 +447,8 @@
     "rarity": "C                +",
     "name": "Miguel's Ginn",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-009_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-009_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-009-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-009-p1.webp"
     },
     "level": "2",
     "cost": "2",
@@ -473,8 +473,8 @@
     "rarity": "C",
     "name": "Kira Yamato",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-010.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-010.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-010.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-010.webp"
     },
     "level": "4",
     "cost": "1",
@@ -499,8 +499,8 @@
     "rarity": "C                +",
     "name": "Kira Yamato",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-010_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-010_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-010-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-010-p1.webp"
     },
     "level": "4",
     "cost": "1",
@@ -525,8 +525,8 @@
     "rarity": "C",
     "name": "Athrun Zala",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-011.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-011.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-011.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-011.webp"
     },
     "level": "4",
     "cost": "1",
@@ -551,8 +551,8 @@
     "rarity": "C                +",
     "name": "Athrun Zala",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-011_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-011_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-011-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-011-p1.webp"
     },
     "level": "4",
     "cost": "1",
@@ -577,8 +577,8 @@
     "rarity": "C",
     "name": "Striker Pack",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-012.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-012.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-012.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-012.webp"
     },
     "level": "4",
     "cost": "2",
@@ -603,8 +603,8 @@
     "rarity": "C                +",
     "name": "Striker Pack",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-012_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-012_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-012-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-012-p1.webp"
     },
     "level": "4",
     "cost": "2",
@@ -629,8 +629,8 @@
     "rarity": "C",
     "name": "Hawk of Endymion",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-013.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-013.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-013.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-013.webp"
     },
     "level": "2",
     "cost": "1",
@@ -655,8 +655,8 @@
     "rarity": "C                +",
     "name": "Hawk of Endymion",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-013_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-013_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-013-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-013-p1.webp"
     },
     "level": "2",
     "cost": "1",
@@ -681,8 +681,8 @@
     "rarity": "C",
     "name": "The Magic Bullet of Dusk",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-014.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-014.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-014.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-014.webp"
     },
     "level": "3",
     "cost": "1",
@@ -707,8 +707,8 @@
     "rarity": "C                +",
     "name": "The Magic Bullet of Dusk",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-014_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-014_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-014-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-014-p1.webp"
     },
     "level": "3",
     "cost": "1",
@@ -733,8 +733,8 @@
     "rarity": "C",
     "name": "Archangel",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-015.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-015.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-015.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-015.webp"
     },
     "level": "3",
     "cost": "1",
@@ -759,8 +759,8 @@
     "rarity": "C                +",
     "name": "Archangel",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-015_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-015_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-015-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-015-p1.webp"
     },
     "level": "3",
     "cost": "1",
@@ -785,8 +785,8 @@
     "rarity": "C",
     "name": "Vesalius",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-016.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-016.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-016.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-016.webp"
     },
     "level": "3",
     "cost": "1",
@@ -811,8 +811,8 @@
     "rarity": "C                +",
     "name": "Vesalius",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-016_p1.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-016_p1.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-016-p1.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/ST04-016-p1.webp"
     },
     "level": "3",
     "cost": "1",
@@ -837,8 +837,8 @@
     "rarity": "C",
     "name": "Aile Strike Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-008.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-008.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-008.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-008.webp"
     },
     "level": "-",
     "cost": "-",
@@ -863,8 +863,8 @@
     "rarity": "C",
     "name": "Launcher Strike Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-009.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-009.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-009.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-009.webp"
     },
     "level": "-",
     "cost": "-",
@@ -889,8 +889,8 @@
     "rarity": "C",
     "name": "Sword Strike Gundam",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-010.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-010.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-010.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/T-010.webp"
     },
     "level": "-",
     "cost": "-",
@@ -915,8 +915,8 @@
     "rarity": "C",
     "name": "Resource",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/R-001_p3.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/R-001_p3.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/R-001-p3.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/R-001-p3.webp"
     },
     "level": "-",
     "cost": "-",
@@ -941,8 +941,8 @@
     "rarity": "C",
     "name": "EX Base",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EXB-001_p3.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EXB-001_p3.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EXB-001-p3.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EXB-001-p3.webp"
     },
     "level": "-",
     "cost": "-",
@@ -967,8 +967,8 @@
     "rarity": "C",
     "name": "EX Resource",
     "images": {
-      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EXR-001_p3.webp?250711",
-      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EXR-001_p3.webp?250711"
+      "large": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EXR-001-p3.webp",
+      "small": "https://images.weserv.nl/?url=www.gundam-gcg.com/en/images/cards/card/EXR-001-p3.webp"
     },
     "level": "-",
     "cost": "-",

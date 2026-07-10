@@ -360,6 +360,16 @@ def save_deck(name: str, deck: dict[str, int]) -> Path:
     return path
 
 
+def save_deck_image(name: str, png_bytes: bytes) -> Path:
+    """Write PNG bytes to data/decks/<name>.png, overwriting if it already
+    exists. Mirrors save_deck's naming convention so the matching
+    decklist (<name>.txt) and rendered image (<name>.png) stay paired."""
+    _DECKS_DIR.mkdir(parents=True, exist_ok=True)
+    path = _DECKS_DIR / f"{name}.png"
+    path.write_bytes(png_bytes)
+    return path
+
+
 def clear_cache() -> None:
     """Clear every lru_cache in this module so the next call re-reads from
     disk. Call after writing new data (e.g. sync.sync_all()) so a running

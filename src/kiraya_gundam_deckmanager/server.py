@@ -132,6 +132,7 @@ def render_deck_image(
     resource_deck: dict[str, int] | None = None,
     title: str | None = None,
     show_stats: bool = False,
+    save_as: str | None = None,
 ) -> Image:
     """Render a deck as a PNG image for quick visual review.
 
@@ -149,10 +150,18 @@ def render_deck_image(
         show_stats: If True, draw a row of 4 compact histograms below the
                     card grid: cost curve (with average cost in the title),
                     colors, types, and top 5 traits.
+        save_as: Optional deck name. If given, also writes the PNG to
+                 data/decks/<save_as>.png (overwriting if it already
+                 exists) alongside the inline image returned below --
+                 matches the saved-decklist naming convention, so passing
+                 the same name used with save_deck keeps the .txt/.png
+                 pair together.
     """
     png_bytes = render.render_deck_image(
         main_deck, resource_deck, title=title, show_stats=show_stats
     )
+    if save_as is not None:
+        data.save_deck_image(save_as, png_bytes)
     return Image(data=png_bytes, format="png")
 
 

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__kiraya-gundam-deckmanager__search_cards",
+      "mcp__kiraya-gundam-deckmanager__get_card",
+      "mcp__kiraya-gundam-deckmanager__list_decks",
+      "mcp__kiraya-gundam-deckmanager__get_deck",
+      "mcp__kiraya-gundam-deckmanager__list_card_types",
+      "mcp__kiraya-gundam-deckmanager__list_colors",
+      "mcp__kiraya-gundam-deckmanager__list_sets",
+      "mcp__kiraya-gundam-deckmanager__list_traits",
+      "mcp__kiraya-gundam-deckmanager__ping",
+      "mcp__kiraya-gundam-deckmanager__analyze_deck",
+      "mcp__kiraya-gundam-deckmanager__validate_deck",
+      "mcp__kiraya-gundam-deckmanager__suggest_synergies",
+      "mcp__kiraya-gundam-deckmanager__render_deck_image"
+    ]
+  }
+}

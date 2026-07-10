@@ -33,7 +33,7 @@ pytest tests/test_smoke.py::test_validate_deck_rejects_more_than_two_colors  # s
 ruff check .
 
 # Run/inspect the server
-mcp dev dev_server.py                # MCP Inspector, interactive
+mcp dev server.py                    # MCP Inspector, interactive
 python -m kiraya_gundam_deckmanager   # raw stdio server (what .mcp.json launches)
 ```
 
