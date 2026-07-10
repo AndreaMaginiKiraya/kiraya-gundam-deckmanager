@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
@@ -56,11 +57,31 @@ def _image_url(card_code: str) -> dict[str, str]:
     return {"large": f"{_IMG_BASE}/{path}", "small": f"{_IMG_BASE}/{path}"}
 
 
+def _github_headers() -> dict[str, str]:
+    """Auth header for GitHub if GITHUB_TOKEN is set in the environment.
+
+    Unauthenticated GitHub API calls are limited to 60/hour per IP; a full
+    sync makes ~1 listing call (raw.githubusercontent.com downloads don't
+    count), but repeated syncs plus other tooling on the same IP can still
+    exhaust it. A token raises the limit to 5000/hour."""
+    token = os.getenv("GITHUB_TOKEN")
+    return {"Authorization": f"Bearer {token}"} if token else {}
+
+
 def _fetch_apitcg_sets() -> dict[str, list[dict]]:
     """Fetch every per-set JSON file from the apitcg GitHub repo."""
     url = f"https://api.github.com/repos/{_APITCG_REPO}/contents/cards/{_LANG}?ref={_APITCG_BRANCH}"
-    resp = httpx.get(url, timeout=30.0)
-    resp.raise_for_status()
+    try:
+        resp = httpx.get(url, timeout=30.0, headers=_github_headers())
+        resp.raise_for_status()
+    except httpx.HTTPStatusError as e:
+        if e.response.status_code in (403, 429):
+            raise RuntimeError(
+                "GitHub API rate limit hit while listing apitcg sets. "
+                "Wait for the limit to reset, or set GITHUB_TOKEN in the "
+                "environment (see .env.example) to raise it to 5000/hour."
+            ) from e
+        raise
     filenames = [item["name"] for item in resp.json() if item["name"].endswith(".json")]
 
     sets: dict[str, list[dict]] = {}

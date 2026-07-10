@@ -15,8 +15,8 @@ def test_parse_decklist_text_reads_count_and_id_ignores_name():
 
 def test_load_deck_reads_saved_file():
     names = data.list_deck_files()
-    assert "blue_purple_rush" in names
-    deck = data.load_deck("blue_purple_rush")
+    assert "meta/blue_purple_rush" in names  # reference decks live in data/decks/meta/
+    deck = data.load_deck("meta/blue_purple_rush")
     assert sum(deck.values()) == 50
     assert deck["GD01-020"] == 3
 
@@ -256,7 +256,7 @@ def test_render_deck_image_produces_valid_png(monkeypatch, tmp_path):
     this stays fast, deterministic, and doesn't touch data/cards/images/."""
     monkeypatch.setattr(render, "_fetch_image_bytes", lambda url: None)
     monkeypatch.setattr(render, "_IMAGE_CACHE_DIR", tmp_path)
-    deck = data.load_deck("blue_purple_rush")
+    deck = data.load_deck("meta/blue_purple_rush")
     png_bytes = render.render_deck_image(deck)
     assert png_bytes[:8] == b"\x89PNG\r\n\x1a\n"
     assert len(png_bytes) > 1000
@@ -265,7 +265,7 @@ def test_render_deck_image_produces_valid_png(monkeypatch, tmp_path):
 def test_render_deck_image_with_stats_is_taller(monkeypatch, tmp_path):
     monkeypatch.setattr(render, "_fetch_image_bytes", lambda url: None)
     monkeypatch.setattr(render, "_IMAGE_CACHE_DIR", tmp_path)
-    deck = data.load_deck("blue_purple_rush")
+    deck = data.load_deck("meta/blue_purple_rush")
 
     plain = render.render_deck_image(deck)
     with_stats = render.render_deck_image(deck, show_stats=True)
@@ -277,3 +277,183 @@ def test_render_deck_image_with_stats_is_taller(monkeypatch, tmp_path):
     h_plain = PILImage.open(io.BytesIO(plain)).height
     h_stats = PILImage.open(io.BytesIO(with_stats)).height
     assert h_stats > h_plain
+
+
+# --- validate_deck happy paths -------------------------------------------------
+
+
+def _legal_main_deck() -> dict[str, int]:
+    """Build a legal 50-card main deck from the real dataset: 1-2 colors,
+    no RESOURCE cards, max 4 copies per card number (1 each is safest)."""
+    main: dict[str, int] = {}
+    for c in data.get_all_cards():
+        if len(main) >= 50:
+            break
+        if (c.card_type or "").upper() == "RESOURCE":
+            continue
+        if c.color not in ("Blue", "Green"):
+            continue
+        if "-p" in c.id.lower():  # skip parallels so numbers stay unique
+            continue
+        main[c.id] = 1
+    assert len(main) == 50, "dataset should have 50+ distinct Blue/Green cards"
+    return main
+
+
+def test_validate_deck_accepts_legal_deck():
+    result = tools.validate_deck_impl(_legal_main_deck())
+    assert result["is_legal"] is True, result["errors"]
+    assert result["errors"] == []
+    assert result["main_count"] == 50
+    assert result["resource_count"] is None  # resource deck not passed -> skipped
+
+
+def test_validate_deck_rejects_non_resource_in_resource_deck():
+    main = _legal_main_deck()
+    non_resource = next(iter(main))  # any main-deck card is not a RESOURCE
+    result = tools.validate_deck_impl(main, {non_resource: 10})
+    assert result["is_legal"] is False
+    assert any("cannot be in the resource deck" in e for e in result["errors"])
+
+
+# --- search: new filters and normalization -------------------------------------
+
+
+def test_search_by_effect_text():
+    blockers = tools.search_cards_impl(effect="Blocker", limit=200)
+    assert len(blockers) > 0
+    assert all("blocker" in (r["effect"] or "").casefold() for r in blockers)
+
+
+def test_search_normalizes_roman_numerals():
+    ascii_query = tools.search_cards_impl(query="Zaku II", limit=50)
+    assert len(ascii_query) > 0, "ASCII 'II' should match the printed roman numeral 'Ⅱ'"
+    assert any("Zaku" in r["name"] for r in ascii_query)
+
+
+def test_search_by_level_and_stat_bounds():
+    lv5_or_less = tools.search_cards_impl(card_type="UNIT", level_max=5, limit=300)
+    assert len(lv5_or_less) > 0
+    assert all(r["level"] is not None and r["level"] <= 5 for r in lv5_or_less)
+
+    beefy = tools.search_cards_impl(card_type="UNIT", ap_min=5, hp_min=5, limit=300)
+    assert len(beefy) > 0
+    assert all(r["ap"] >= 5 and r["hp"] >= 5 for r in beefy)
+
+
+def test_search_by_set_id():
+    st05_cards = tools.search_cards_impl(set_id="st05", limit=100)
+    assert len(st05_cards) > 0
+    assert all(r["set_id"] == "st05" for r in st05_cards)
+
+
+def test_list_colors_non_empty():
+    colors = tools.list_colors_impl()
+    assert {"Blue", "Green", "Red", "White", "Purple"}.issubset(set(colors))
+
+
+def test_rarity_has_no_upstream_padding():
+    assert not any("  " in (c.rarity or "") for c in data.get_all_cards())
+
+
+def test_zone_is_normalized():
+    zones = {c.zone for c in data.get_all_cards() if c.zone}
+    assert "Space Earth" not in zones  # apitcg spelling folded to 'Space / Earth'
+
+
+# --- suggest_synergies: parallel prints ----------------------------------------
+
+
+def test_suggest_synergies_excludes_parallel_prints():
+    res = tools.suggest_synergies_impl(["GD02-054"], limit=10)
+    ids = [r["id"] for r in res]
+    assert "GD02-054-p1" not in ids and "GD02-054-p2" not in ids  # seed's own reprints
+    assert not any(i.lower().rsplit("-p", 1)[-1].isdigit() for i in ids)  # no parallels at all
+
+
+# --- deck files: subfolders, traversal guard, delete/rename ---------------------
+
+
+def test_deck_name_traversal_rejected(tmp_path, monkeypatch):
+    monkeypatch.setattr(data, "_DECKS_DIR", tmp_path)
+    import pytest
+
+    with pytest.raises(ValueError):
+        data.save_deck("../evil", {"ST01-001": 4})
+    with pytest.raises(ValueError):
+        data.load_deck("../../etc/passwd")
+
+
+def test_save_load_list_deck_with_subfolder(tmp_path, monkeypatch):
+    monkeypatch.setattr(data, "_DECKS_DIR", tmp_path)
+    data.save_deck("meta/sample", {"ST01-001": 4, "ST01-005": 2})
+    assert data.list_deck_files() == ["meta/sample"]
+    assert data.load_deck("meta/sample") == {"ST01-001": 4, "ST01-005": 2}
+
+
+def test_save_deck_image_roundtrip(tmp_path, monkeypatch):
+    monkeypatch.setattr(data, "_DECKS_DIR", tmp_path)
+    payload = b"\x89PNG\r\n\x1a\nfake"
+    path = data.save_deck_image("sample", payload)
+    assert path.read_bytes() == payload
+
+
+def test_delete_and_rename_deck(tmp_path, monkeypatch):
+    monkeypatch.setattr(data, "_DECKS_DIR", tmp_path)
+    import pytest
+
+    data.save_deck("one", {"ST01-001": 1})
+    data.save_deck_image("one", b"png")
+    moved = data.rename_deck("one", "meta/two")
+    assert len(moved) == 2 and data.list_deck_files() == ["meta/two"]
+
+    with pytest.raises(FileExistsError):
+        data.save_deck("three", {"ST01-001": 1}) and data.rename_deck("three", "meta/two")
+
+    removed = data.delete_deck("meta/two")
+    assert len(removed) == 2 and data.list_deck_files() == ["three"]
+
+    with pytest.raises(FileNotFoundError):
+        data.delete_deck("nope")
+
+
+# --- new tools: banlist, compare, odds, rules -----------------------------------
+
+
+def test_get_banlist_structure():
+    banlist = tools.get_banlist_impl()
+    assert "banned" in banlist and "restricted" in banlist
+    assert "GD01-020" in banlist["banned"]
+
+
+def test_compare_decks_diff_and_summaries():
+    a = {"ST01-001": 4, "ST01-005": 4, "GD01-030": 2}
+    b = {"ST01-001": 4, "ST01-005": 2, "ST03-008": 4}
+    result = tools.compare_decks_impl(a, b, label_a="mine", label_b="meta")
+    assert result["deck_a"]["label"] == "mine"
+    assert [e["id"] for e in result["only_in_a"]] == ["GD01-030"]
+    assert [e["id"] for e in result["only_in_b"]] == ["ST03-008"]
+    assert [e["id"] for e in result["count_differs"]] == ["ST01-005"]
+    assert [e["id"] for e in result["shared_same_count"]] == ["ST01-001"]
+
+
+def test_opening_hand_odds_exact_value():
+    # P(>=1 of 4 copies in a 5-card hand from 50) = 1 - C(46,5)/C(50,5) ~= 0.3531
+    odds = tools.opening_hand_odds_impl({"A": 4, "B": 46}, ["A"])
+    assert odds["deck_size"] == 50 and odds["target_copies_in_deck"] == 4
+    assert abs(odds["probability_at_least"] - 0.3531) < 0.001
+    assert abs(sum(odds["distribution"].values()) - 1.0) < 0.01
+
+
+def test_opening_hand_odds_rejects_bad_input():
+    import pytest
+
+    with pytest.raises(ValueError):
+        tools.opening_hand_odds_impl({}, ["A"])
+    with pytest.raises(ValueError):
+        tools.opening_hand_odds_impl({"A": 4}, ["A"], hand_size=10)
+
+
+def test_search_rules_finds_redraw_rule():
+    hits = tools.search_rules_impl("redraw", limit=5)
+    assert hits and any("6-2-1-6" in h for h in hits)

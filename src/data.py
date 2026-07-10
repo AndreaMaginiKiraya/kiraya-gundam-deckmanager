@@ -4,6 +4,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import unicodedata
 from dataclasses import asdict, dataclass
 from functools import lru_cache
 from pathlib import Path
@@ -12,7 +13,15 @@ from pathlib import Path
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 _DATA_DIR = _PROJECT_ROOT / "data" / "cards" / "en"
 _BANLIST_PATH = _PROJECT_ROOT / "data" / "rules" / "banlist.json"
+_RULES_PATH = _PROJECT_ROOT / "data" / "rules" / "comprehensive_rules.md"
 _DECKS_DIR = _PROJECT_ROOT / "data" / "decks"
+
+
+def search_fold(s: str) -> str:
+    """Fold a string for search comparison: NFKC-normalize (so the roman
+    numeral 'Ⅱ' in card names matches an ASCII 'II' query and vice versa),
+    then casefold."""
+    return unicodedata.normalize("NFKC", s).casefold()
 
 
 @dataclass(frozen=True)
@@ -67,6 +76,27 @@ def _normalize_color(raw) -> str | None:
     return s.title() if s.replace(" ", "").isalpha() else s
 
 
+def _clean_rarity(raw) -> str | None:
+    """Strip upstream padding: 'C                +' -> 'C+'. Every observed
+    rarity is a single token plus an optional '+'/'++' parallel-print
+    suffix, so removing all internal whitespace is safe."""
+    if not raw:
+        return None
+    return re.sub(r"\s+", "", str(raw)) or None
+
+
+def _normalize_zone(raw) -> str | None:
+    """Fold the two upstream zone spellings ('Space Earth' from apitcg,
+    'Space / Earth' from egmanevents) into one canonical 'Space / Earth'."""
+    if not raw:
+        return None
+    s = str(raw).strip()
+    if not s or s == "-":
+        return None
+    tokens = [t for t in re.split(r"[\s/]+", s) if t]
+    return " / ".join(tokens) if tokens else None
+
+
 def _parse_card(raw: dict) -> Card:
     set_obj = raw.get("set") or {}
     images = raw.get("images") or {}
@@ -75,14 +105,14 @@ def _parse_card(raw: dict) -> Card:
         name=raw.get("name", ""),
         set_id=set_obj.get("id", ""),
         set_name=set_obj.get("name", ""),
-        rarity=raw.get("rarity") or None,
+        rarity=_clean_rarity(raw.get("rarity")),
         color=_normalize_color(raw.get("color")),
         card_type=raw.get("cardType") or None,
         level=_to_int(raw.get("level")),
         cost=_to_int(raw.get("cost")),
         ap=_to_int(raw.get("ap")),
         hp=_to_int(raw.get("hp")),
-        zone=raw.get("zone") or None,
+        zone=_normalize_zone(raw.get("zone")),
         trait=raw.get("trait") or None,
         link=raw.get("link") or None,
         effect=_clean_effect(raw.get("effect")),
@@ -123,31 +153,51 @@ def card_to_dict(card: Card) -> dict:
 def find_cards(
     *,
     query: str | None = None,
+    effect: str | None = None,
     color: str | None = None,
     card_type: str | None = None,
     cost: int | None = None,
     cost_min: int | None = None,
     cost_max: int | None = None,
+    level: int | None = None,
+    level_min: int | None = None,
+    level_max: int | None = None,
+    ap_min: int | None = None,
+    ap_max: int | None = None,
+    hp_min: int | None = None,
+    hp_max: int | None = None,
     trait: str | None = None,
     set_id: str | None = None,
     limit: int = 50,
 ) -> list[Card]:
     """Filter cards by any combination of criteria.
 
-    `query` matches against name (case-insensitive substring).
-    `trait` matches as substring (e.g. "Earth Federation").
-    Returns up to `limit` cards.
+    `query` matches against name, `effect` against effect text (both
+    case-insensitive substrings, NFKC-folded so 'Zaku II' matches the
+    dataset's roman-numeral 'Zaku Ⅱ'). `trait` matches as substring
+    (e.g. "Earth Federation"). Numeric min/max bounds are inclusive; cards
+    missing that stat (None) never match a bound. Returns up to `limit`.
     """
     cards = _load_all()
-    needle = query.casefold() if query else None
+    needle = search_fold(query) if query else None
+    effect_l = search_fold(effect) if effect else None
     color_l = color.casefold() if color else None
     type_l = card_type.casefold() if card_type else None
     trait_l = trait.casefold() if trait else None
     set_l = set_id.casefold() if set_id else None
 
+    def _in_bounds(value: int | None, lo: int | None, hi: int | None) -> bool:
+        if lo is None and hi is None:
+            return True
+        if value is None:
+            return False
+        return (lo is None or value >= lo) and (hi is None or value <= hi)
+
     out: list[Card] = []
     for c in cards:
-        if needle and needle not in c.name.casefold():
+        if needle and needle not in search_fold(c.name):
+            continue
+        if effect_l and (not c.effect or effect_l not in search_fold(c.effect)):
             continue
         if color_l and (not c.color or c.color.casefold() != color_l):
             continue
@@ -155,9 +205,15 @@ def find_cards(
             continue
         if cost is not None and c.cost != cost:
             continue
-        if cost_min is not None and (c.cost is None or c.cost < cost_min):
+        if not _in_bounds(c.cost, cost_min, cost_max):
             continue
-        if cost_max is not None and (c.cost is None or c.cost > cost_max):
+        if level is not None and c.level != level:
+            continue
+        if not _in_bounds(c.level, level_min, level_max):
+            continue
+        if not _in_bounds(c.ap, ap_min, ap_max):
+            continue
+        if not _in_bounds(c.hp, hp_min, hp_max):
             continue
         if trait_l and (not c.trait or trait_l not in c.trait.casefold()):
             continue
@@ -329,16 +385,34 @@ def parse_decklist_text(text: str) -> dict[str, int]:
     return deck
 
 
+def _deck_path(name: str, suffix: str) -> Path:
+    """Resolve a deck name (optionally with subfolders, e.g. 'meta/bg_oyw')
+    to a path under data/decks/, rejecting anything that would escape it
+    ('../evil', absolute paths). The name comes from the MCP client, so it
+    can't be trusted to stay inside the decks directory on its own."""
+    decks_root = _DECKS_DIR.resolve()
+    path = (decks_root / f"{name}{suffix}").resolve()
+    if not path.is_relative_to(decks_root):
+        raise ValueError(f"Invalid deck name {name!r}: must stay inside data/decks/")
+    return path
+
+
 def list_deck_files() -> list[str]:
-    """List available deck names (filename without extension) in data/decks/."""
+    """List available deck names in data/decks/, recursing into subfolders
+    (e.g. 'meta/bg_oyw' for data/decks/meta/bg_oyw.txt). Names are relative
+    posix-style paths without the .txt extension, usable directly with
+    load_deck/save_deck."""
     if not _DECKS_DIR.exists():
         return []
-    return sorted(p.stem for p in _DECKS_DIR.glob("*.txt"))
+    return sorted(
+        p.relative_to(_DECKS_DIR).with_suffix("").as_posix()
+        for p in _DECKS_DIR.rglob("*.txt")
+    )
 
 
 def load_deck(name: str) -> dict[str, int]:
     """Load and parse a plain-text decklist by name from data/decks/<name>.txt."""
-    path = _DECKS_DIR / f"{name}.txt"
+    path = _deck_path(name, ".txt")
     if not path.exists():
         raise FileNotFoundError(f"No deck file named '{name}.txt' in {_DECKS_DIR}")
     return parse_decklist_text(path.read_text(encoding="utf-8"))
@@ -347,15 +421,16 @@ def load_deck(name: str) -> dict[str, int]:
 def save_deck(name: str, deck: dict[str, int]) -> Path:
     """Write {card_id: count} to data/decks/<name>.txt in the plain
     '<count> <card_id> <name...>' format (matches egmanevents.com's
-    deckbuilder export/import format). Overwrites if the file already
-    exists. Returns the written path."""
-    _DECKS_DIR.mkdir(parents=True, exist_ok=True)
+    deckbuilder export/import format). Subfolder names ('meta/x') are
+    created as needed. Overwrites if the file already exists. Returns the
+    written path."""
+    path = _deck_path(name, ".txt")
+    path.parent.mkdir(parents=True, exist_ok=True)
     lines = []
     for card_id, count in deck.items():
         card = get_card_by_id(card_id)
         label = card.name if card else card_id
         lines.append(f"{count} {card_id} {label}")
-    path = _DECKS_DIR / f"{name}.txt"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return path
 
@@ -364,10 +439,56 @@ def save_deck_image(name: str, png_bytes: bytes) -> Path:
     """Write PNG bytes to data/decks/<name>.png, overwriting if it already
     exists. Mirrors save_deck's naming convention so the matching
     decklist (<name>.txt) and rendered image (<name>.png) stay paired."""
-    _DECKS_DIR.mkdir(parents=True, exist_ok=True)
-    path = _DECKS_DIR / f"{name}.png"
+    path = _deck_path(name, ".png")
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(png_bytes)
     return path
+
+
+def delete_deck(name: str) -> list[str]:
+    """Delete data/decks/<name>.txt and its paired <name>.png if present.
+    Returns the paths that were actually removed; raises FileNotFoundError
+    if not even the .txt exists (so typos don't silently 'succeed')."""
+    txt = _deck_path(name, ".txt")
+    if not txt.exists():
+        raise FileNotFoundError(f"No deck file named '{name}.txt' in {_DECKS_DIR}")
+    removed = []
+    for path in (txt, _deck_path(name, ".png")):
+        if path.exists():
+            path.unlink()
+            removed.append(str(path))
+    return removed
+
+
+def rename_deck(old_name: str, new_name: str) -> list[str]:
+    """Rename a saved deck (and its paired .png, if any) from old_name to
+    new_name. Refuses to overwrite an existing target. Returns the new
+    paths written."""
+    old_txt = _deck_path(old_name, ".txt")
+    if not old_txt.exists():
+        raise FileNotFoundError(f"No deck file named '{old_name}.txt' in {_DECKS_DIR}")
+    new_txt = _deck_path(new_name, ".txt")
+    if new_txt.exists():
+        raise FileExistsError(f"Deck '{new_name}' already exists; delete or pick another name")
+    new_txt.parent.mkdir(parents=True, exist_ok=True)
+    moved = []
+    old_txt.rename(new_txt)
+    moved.append(str(new_txt))
+    old_png = _deck_path(old_name, ".png")
+    if old_png.exists():
+        new_png = _deck_path(new_name, ".png")
+        old_png.rename(new_png)
+        moved.append(str(new_png))
+    return moved
+
+
+@lru_cache(maxsize=1)
+def load_rules_text() -> str:
+    """Full text of the Comprehensive Rules (data/rules/comprehensive_rules.md).
+    Empty string if the file is missing."""
+    if not _RULES_PATH.exists():
+        return ""
+    return _RULES_PATH.read_text(encoding="utf-8")
 
 
 def clear_cache() -> None:
@@ -381,3 +502,4 @@ def clear_cache() -> None:
     list_unique_card_types.cache_clear()
     load_banlist.cache_clear()
     list_unique_colors.cache_clear()
+    load_rules_text.cache_clear()

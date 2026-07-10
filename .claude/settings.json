@@ -13,7 +13,11 @@
       "mcp__kiraya-gundam-deckmanager__analyze_deck",
       "mcp__kiraya-gundam-deckmanager__validate_deck",
       "mcp__kiraya-gundam-deckmanager__suggest_synergies",
-      "mcp__kiraya-gundam-deckmanager__render_deck_image"
+      "mcp__kiraya-gundam-deckmanager__render_deck_image",
+      "mcp__kiraya-gundam-deckmanager__get_banlist",
+      "mcp__kiraya-gundam-deckmanager__compare_decks",
+      "mcp__kiraya-gundam-deckmanager__opening_hand_odds",
+      "mcp__kiraya-gundam-deckmanager__search_rules"
     ]
   }
 }

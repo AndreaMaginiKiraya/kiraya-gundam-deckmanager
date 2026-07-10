@@ -5,6 +5,7 @@ Tools should be thin: parse args, delegate to data.py, return JSON-serializable 
 """
 from __future__ import annotations
 
+import math
 import re
 from collections import Counter
 
@@ -37,22 +38,38 @@ def _canonical_card_number(card_id: str) -> str:
 
 def search_cards_impl(
     query: str | None = None,
+    effect: str | None = None,
     color: str | None = None,
     card_type: str | None = None,
     cost: int | None = None,
     cost_min: int | None = None,
     cost_max: int | None = None,
+    level: int | None = None,
+    level_min: int | None = None,
+    level_max: int | None = None,
+    ap_min: int | None = None,
+    ap_max: int | None = None,
+    hp_min: int | None = None,
+    hp_max: int | None = None,
     trait: str | None = None,
     set_id: str | None = None,
     limit: int = 50,
 ) -> list[dict]:
     results = data.find_cards(
         query=query,
+        effect=effect,
         color=color,
         card_type=card_type,
         cost=cost,
         cost_min=cost_min,
         cost_max=cost_max,
+        level=level,
+        level_min=level_min,
+        level_max=level_max,
+        ap_min=ap_min,
+        ap_max=ap_max,
+        hp_min=hp_min,
+        hp_max=hp_max,
         trait=trait,
         set_id=set_id,
         limit=limit,
@@ -308,10 +325,13 @@ def suggest_synergies_impl(card_ids: list[str], limit: int = 10) -> list[dict]:
     """Suggest cards that share traits with the given card list.
 
     Ranking: cards are scored by the number of distinct traits they share
-    with the input set. Cards already in `card_ids` are excluded.
+    with the input set. Seeds are excluded by *card number*, and results
+    are deduped by card number too — parallel/alt-art printings (-p1/-p2)
+    are the same card as their base print, so suggesting them adds noise,
+    not options.
     """
     seed_traits: set[str] = set()
-    seed_ids = {cid.casefold() for cid in card_ids}
+    seed_numbers = {_canonical_card_number(cid).casefold() for cid in card_ids}
     for cid in card_ids:
         c = data.get_card_by_id(cid)
         if c:
@@ -319,17 +339,141 @@ def suggest_synergies_impl(card_ids: list[str], limit: int = 10) -> list[dict]:
     if not seed_traits:
         return []
 
-    scored: list[tuple[int, data.Card]] = []
+    # One candidate per card number, preferring the base (non-parallel) print.
+    by_number: dict[str, tuple[int, data.Card]] = {}
     for c in data.get_all_cards():
-        if c.id.casefold() in seed_ids:
+        number = _canonical_card_number(c.id).casefold()
+        if number in seed_numbers:
             continue
         card_traits = {t.casefold() for t in data.extract_traits(c.trait)}
         overlap = len(card_traits & seed_traits)
-        if overlap > 0:
-            scored.append((overlap, c))
+        if overlap <= 0:
+            continue
+        current = by_number.get(number)
+        if current is None or len(c.id) < len(current[1].id):
+            by_number[number] = (overlap, c)
 
-    scored.sort(key=lambda x: (-x[0], x[1].id))
+    scored = sorted(by_number.values(), key=lambda x: (-x[0], x[1].id))
     return [
         {**data.card_to_dict(card), "shared_trait_count": score}
         for score, card in scored[:limit]
     ]
+
+
+def get_banlist_impl() -> dict:
+    """Return the current official banned/restricted/banned-pair list as
+    parsed from data/rules/banlist.json (empty structure if missing)."""
+    return dict(data.load_banlist())
+
+
+def compare_decks_impl(
+    deck_a: dict[str, int],
+    deck_b: dict[str, int],
+    label_a: str = "deck_a",
+    label_b: str = "deck_b",
+) -> dict:
+    """Diff two decks card-by-card and side-by-side on the analytics that
+    matter for archetype comparison (curve, colors, types, traits)."""
+
+    def _entry(card_id: str) -> dict:
+        card = data.get_card_by_id(card_id)
+        return {"id": card_id, "name": card.name if card else "?"}
+
+    only_a = [
+        {**_entry(cid), "count": n} for cid, n in sorted(deck_a.items()) if cid not in deck_b
+    ]
+    only_b = [
+        {**_entry(cid), "count": n} for cid, n in sorted(deck_b.items()) if cid not in deck_a
+    ]
+    shared_ids = sorted(set(deck_a) & set(deck_b))
+    count_differs = [
+        {**_entry(cid), "count_a": deck_a[cid], "count_b": deck_b[cid]}
+        for cid in shared_ids
+        if deck_a[cid] != deck_b[cid]
+    ]
+    shared_same_count = [
+        {**_entry(cid), "count": deck_a[cid]} for cid in shared_ids if deck_a[cid] == deck_b[cid]
+    ]
+
+    def _summary(label: str, deck: dict[str, int]) -> dict:
+        stats = analyze_deck_impl(deck)
+        return {
+            "label": label,
+            "total_cards": stats["total_cards"],
+            "average_cost": stats["average_cost"],
+            "cost_curve": stats["cost_curve"],
+            "color_breakdown": stats["color_breakdown"],
+            "type_breakdown": stats["type_breakdown"],
+            "top_traits": stats["top_traits"][:5],
+        }
+
+    return {
+        "deck_a": _summary(label_a, deck_a),
+        "deck_b": _summary(label_b, deck_b),
+        "only_in_a": only_a,
+        "only_in_b": only_b,
+        "count_differs": count_differs,
+        "shared_same_count": shared_same_count,
+    }
+
+
+def opening_hand_odds_impl(
+    main_deck: dict[str, int],
+    target_card_ids: list[str],
+    min_copies: int = 1,
+    hand_size: int = 5,
+) -> dict:
+    """Exact hypergeometric odds of drawing the target cards in the opening
+    hand.
+
+    `target_card_ids` defines the success group (e.g. every cost-1 Unit in
+    the deck); copies of all listed ids are pooled together. Returns
+    P(at least `min_copies` of the group in a `hand_size`-card hand) plus
+    the full probability distribution. Deck size is whatever the deck sums
+    to (no 50-card assumption), so this also works mid-build.
+    """
+    deck_size = sum(main_deck.values())
+    if deck_size <= 0:
+        raise ValueError("main_deck is empty")
+    if hand_size <= 0 or hand_size > deck_size:
+        raise ValueError(f"hand_size must be between 1 and deck size ({deck_size})")
+
+    target_set = {cid.casefold() for cid in target_card_ids}
+    successes = sum(n for cid, n in main_deck.items() if cid.casefold() in target_set)
+
+    total_hands = math.comb(deck_size, hand_size)
+    distribution: dict[int, float] = {}
+    for k in range(0, min(successes, hand_size) + 1):
+        ways = math.comb(successes, k) * math.comb(deck_size - successes, hand_size - k)
+        distribution[k] = round(ways / total_hands, 4)
+
+    p_at_least = sum(
+        p for k, p in distribution.items() if k >= min_copies
+    )
+    return {
+        "deck_size": deck_size,
+        "target_copies_in_deck": successes,
+        "hand_size": hand_size,
+        "min_copies": min_copies,
+        "probability_at_least": round(p_at_least, 4),
+        "distribution": distribution,
+    }
+
+
+def search_rules_impl(query: str, limit: int = 10) -> list[str]:
+    """Search the Comprehensive Rules text for paragraphs containing `query`
+    (case-insensitive, NFKC-folded). Returns up to `limit` matching
+    paragraphs, each with its rule numbering intact, so answers can cite
+    the exact rule."""
+    text = data.load_rules_text()
+    if not text:
+        return []
+    needle = data.search_fold(query)
+    matches = []
+    for paragraph in re.split(r"\n\s*\n", text):
+        paragraph = paragraph.strip()
+        if paragraph and needle in data.search_fold(paragraph):
+            matches.append(paragraph)
+            if len(matches) >= limit:
+                break
+    return matches

@@ -10,14 +10,18 @@ manage saved decklists — all as tools callable from an MCP client.
 | Tool | Purpose |
 |------|---------|
 | `ping` | health check |
-| `search_cards` | filter by name, color, type, cost, trait, set |
+| `search_cards` | filter by name, effect text, color, type, cost/level/AP/HP bounds, trait, set |
 | `get_card` | fetch a single card by id |
 | `list_sets` / `list_traits` / `list_card_types` / `list_colors` | discovery |
 | `validate_deck` | enforce official construction rules (50/10, 1-2 colors, max 4 copies per card number, optional banned/restricted list) |
+| `get_banlist` | the current banned/restricted/banned-pair list as structured data |
 | `analyze_deck` | cost curve, color/type breakdown, top traits, pilot-to-linkable-Unit counts |
-| `suggest_synergies` | trait-overlap-based card suggestions |
-| `render_deck_image` | PNG render of a deck (card grid + optional stat panels) |
-| `list_decks` / `get_deck` / `save_deck` | manage saved decklists under `data/decks/` |
+| `compare_decks` | card-level diff + side-by-side analytics of two decks |
+| `opening_hand_odds` | exact hypergeometric odds of seeing target cards in the opening hand |
+| `suggest_synergies` | trait-overlap-based card suggestions (deduped by card number) |
+| `render_deck_image` | PNG render of a deck (card grid + optional stat panels; `save_as` writes the PNG next to the decklist) |
+| `list_decks` / `get_deck` / `save_deck` / `delete_deck` / `rename_deck` | manage saved decklists under `data/decks/` (subfolders like `meta/` supported) |
+| `search_rules` | full-text search over the official Comprehensive Rules |
 | `update_card_data` | refresh the local card database from upstream sources, live |
 
 ## Card data
@@ -86,6 +90,7 @@ data/
   cards/images/                # on-disk card-art cache (gitignored, regenerable)
   rules/                       # official rules + banned/restricted list
   decks/                       # saved decklists (plain text) + rendered PNGs
+    meta/                      # reference decks (official showcases, meta lists)
 src/
   __main__.py                  # entrypoint
   server.py                    # FastMCP instance + @mcp.tool() registrations;

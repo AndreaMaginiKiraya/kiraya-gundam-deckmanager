@@ -5,14 +5,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## What this is
 
 An MCP server (`kiraya-gundam-deckmanager-mcp`) that exposes card search,
-deck validation, deck analysis, deck image rendering, saved-decklist
-management, and live card-database refresh for the Gundam Card Game (GCG),
-backed by a local JSON dataset merged from two upstream sources. It's
-registered with this Claude Code instance already (see `.mcp.json`) —
-`search_cards`, `get_card`, `validate_deck`, `analyze_deck`,
-`suggest_synergies`, `render_deck_image`, `list_decks`/`get_deck`/`save_deck`,
-`update_card_data`, etc. are available as tools directly, no need to grep
-the data files by hand.
+deck validation, deck analysis, deck comparison, opening-hand odds, deck
+image rendering, saved-decklist management, rules-text search, and live
+card-database refresh for the Gundam Card Game (GCG), backed by a local
+JSON dataset merged from two upstream sources. It's registered with this
+Claude Code instance already (see `.mcp.json`) — `search_cards` (name,
+effect text, cost/level/AP/HP bounds...), `get_card`, `validate_deck`,
+`get_banlist`, `analyze_deck`, `compare_decks`, `opening_hand_odds`,
+`suggest_synergies`, `render_deck_image`,
+`list_decks`/`get_deck`/`save_deck`/`delete_deck`/`rename_deck`,
+`search_rules`, `update_card_data`, etc. are available as tools directly,
+no need to grep the data files by hand. Prefer these MCP tools over
+reading `data/` directly for any Gundam-related request.
 
 ## Commands
 
@@ -42,10 +46,17 @@ python -m src   # raw stdio server (what .mcp.json launches)
 - `data.py` — loads every `data/cards/en/*.json` set file into a single
   deduped-by-id tuple of `Card` dataclasses (`_load_all()`, `lru_cache`d).
   Owns all raw-field parsing/cleanup (HTML-escaped effect text, `"-"` →
-  `None` for absent stats, color title-casing) and all filtering/lookup
-  logic (`find_cards`, `get_card_by_id`, `list_unique_*`). `clear_cache()`
-  drops every `lru_cache` in the module — called by the `update_card_data`
-  tool after a sync so the running server sees fresh data immediately.
+  `None` for absent stats, color title-casing, rarity padding stripped to
+  `C+`/`LR++`, zone folded to canonical `Space / Earth`) and all
+  filtering/lookup logic (`find_cards`, `get_card_by_id`, `list_unique_*`).
+  Name/effect search goes through `search_fold()` (NFKC + casefold) so an
+  ASCII "Zaku II" query matches the printed roman-numeral "Zaku Ⅱ" — keep
+  any new text matching on that path. Deck-file access goes through
+  `_deck_path()`, which allows subfolder names (`meta/x`) but rejects
+  anything escaping `data/decks/` (the name comes from the MCP client).
+  `clear_cache()` drops every `lru_cache` in the module — called by the
+  `update_card_data` tool after a sync so the running server sees fresh
+  data immediately.
 - `tools.py` — pure functions implementing each MCP tool (`search_cards_impl`,
   `validate_deck_impl`, `analyze_deck_impl`, `suggest_synergies_impl`, ...).
   This is where GCG deck-construction rules live (see below). No MCP-specific
@@ -80,7 +91,9 @@ python -m src   # raw stdio server (what .mcp.json launches)
   `<card_code>.webp` against `gundam-gcg.com` directly regardless of what
   either source suggests (see data quirks below). Backs both
   `update_cards.py` (CLI) and the `update_card_data` MCP tool —
-  same function, two entrypoints.
+  same function, two entrypoints. GitHub's anonymous API limit is
+  60 req/hour per IP; on a 403/429 the sync raises a clear RuntimeError —
+  set `GITHUB_TOKEN` (see `.env.example`) to raise the limit to 5000/hour.
 - `update_cards.py` — thin CLI wrapper over `sync.sync_all()`, runnable as
   `python -m src.update_cards` (also exposed as the
   `update-cards` console script via `pyproject.toml`). `--only SET_ID` scopes
@@ -157,9 +170,15 @@ sections/headers). Only count and id are parsed (`data.parse_decklist_text`,
 `data.load_deck`); the trailing name is for human readability. No resource
 deck section — resource-deck validation is opt-in via `validate_deck`'s
 `resource_deck` param and isn't tracked in these files. Matching `.png`
-files alongside each `.txt` are `render_deck_image` output, saved manually
-(the MCP `Image` return type isn't visible in every client's chat UI — save
-to disk when the user needs to actually see it).
+files alongside each `.txt` are `render_deck_image` output (pass
+`save_as=<deck name>` to write the PNG next to the decklist — the MCP
+`Image` return type isn't visible in every client's chat UI).
+
+Subfolders are supported everywhere deck names are accepted:
+`data/decks/meta/` holds reference decks (official Bandai showcase lists,
+meta decks transcribed from tournament sites) as `meta/<name>`, kept apart
+from the user's own brews at the top level. `list_decks` recurses;
+`rename_deck` moves between folders.
 
 ## Rules reference
 
@@ -175,7 +194,10 @@ data alone):
 Consult these before asserting how a rule works instead of guessing from TCG
 conventions in general — this game's specifics (e.g. no color-restricted
 resource cards, 1-2 color deck limit, card-number-based copy limit) don't
-all match other trading card games.
+all match other trading card games. The `search_rules` MCP tool does a
+paragraph-level full-text search over `comprehensive_rules.md` and keeps
+rule numbering in the results — prefer it over grepping the file by hand;
+`get_banlist` returns `banlist.json` parsed.
 
 ## Testing conventions
 
