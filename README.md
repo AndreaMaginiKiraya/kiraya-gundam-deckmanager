@@ -56,7 +56,7 @@ pytest
 ruff check .
 
 # Try it interactively with the MCP Inspector
-mcp dev server.py
+mcp dev src/server.py
 
 # Or run the server directly (waits for an MCP client on stdio)
 python -m src
@@ -81,7 +81,6 @@ claude mcp add kiraya-gundam-deckmanager --scope user \
 ```
 .mcp.json                     # how an MCP client spawns the server
 pyproject.toml                # project metadata + deps
-server.py                     # thin `mcp dev` entrypoint wrapper
 data/
   cards/en/                   # synced card JSON, one file per set
   cards/images/                # on-disk card-art cache (gitignored, regenerable)
@@ -89,7 +88,9 @@ data/
   decks/                       # saved decklists (plain text) + rendered PNGs
 src/
   __main__.py                  # entrypoint
-  server.py                    # FastMCP instance + @mcp.tool() registrations
+  server.py                    # FastMCP instance + @mcp.tool() registrations;
+                                # dual-mode imports so `mcp dev src/server.py`
+                                # also works standalone (see Setup below)
   tools.py                     # tool implementations (pure functions, JSON-serializable)
   render.py                    # deck image rendering (returns PNG bytes, not JSON)
   sync.py                      # merges the two upstream card-data sources

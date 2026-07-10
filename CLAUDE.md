@@ -33,7 +33,7 @@ pytest tests/test_smoke.py::test_validate_deck_rejects_more_than_two_colors  # s
 ruff check .
 
 # Run/inspect the server
-mcp dev server.py                    # MCP Inspector, interactive
+mcp dev src/server.py                # MCP Inspector, interactive
 python -m src   # raw stdio server (what .mcp.json launches)
 ```
 
@@ -54,7 +54,11 @@ python -m src   # raw stdio server (what .mcp.json launches)
 - `server.py` — `FastMCP` instance; each `@mcp.tool()` function is a thin
   wrapper that calls the matching `tools.py`/`sync.py` impl. Docstrings here
   are what the MCP client (and its LLM) sees, so keep them accurate when the
-  underlying rules change.
+  underlying rules change. Imports are dual-mode (`if __package__:` branch)
+  so `mcp dev src/server.py` can load the file standalone (no parent
+  package) as well as `python -m src`/the console script importing it
+  normally — see the comment at the top of the file before changing its
+  imports.
 - `render.py` — the one exception to "tools.py does everything": deck image
   rendering (`render_deck_image`) returns PNG bytes, not JSON, so it lives in
   its own module and is wired into `server.py` via `mcp.server.fastmcp.Image`

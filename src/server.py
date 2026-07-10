@@ -3,7 +3,20 @@ from __future__ import annotations
 
 from mcp.server.fastmcp import FastMCP, Image
 
-from . import data, render, sync, tools
+if __package__:
+    # Normal case: imported as part of the `src` package (`python -m src`,
+    # the installed console script, or any other module importing us).
+    from . import data, render, sync, tools
+else:
+    # `mcp dev src/server.py` loads this file standalone via
+    # importlib.util.spec_from_file_location, with no parent package, so
+    # the relative import above would fail. Fall back to an absolute import
+    # after putting the repo root on sys.path.
+    import sys
+    from pathlib import Path
+
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    from src import data, render, sync, tools
 
 mcp = FastMCP("kiraya-gundam-deckmanager")
 
