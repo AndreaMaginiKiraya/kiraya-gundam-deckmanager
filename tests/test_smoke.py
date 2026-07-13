@@ -457,3 +457,34 @@ def test_opening_hand_odds_rejects_bad_input():
 def test_search_rules_finds_redraw_rule():
     hits = tools.search_rules_impl("redraw", limit=5)
     assert hits and any("6-2-1-6" in h for h in hits)
+
+
+def test_sort_deck_canonical_order():
+    """Type order UNIT -> PILOT -> COMMAND -> BASE, ascending level then
+    cost within each type; unknown ids go last."""
+    deck = {
+        "ST05-015": 4,   # BASE Lv3
+        "ST05-010": 4,   # PILOT Lv4
+        "GD03-050": 2,   # UNIT Lv7 cost 6
+        "GD05-117": 1,   # COMMAND Lv3
+        "ST05-004": 4,   # UNIT Lv2 cost 1
+        "GD02-054": 4,   # UNIT Lv3 cost 2
+        "FAKE-999": 1,   # unknown -> last
+        "ST05-011": 1,   # PILOT Lv3
+    }
+    ordered = list(data.sort_deck(deck))
+    assert ordered == [
+        "ST05-004", "GD02-054", "GD03-050",  # UNITs by level
+        "ST05-011", "ST05-010",              # PILOTs by level
+        "GD05-117",                          # COMMAND
+        "ST05-015",                          # BASE
+        "FAKE-999",                          # unknown last
+    ]
+
+
+def test_save_deck_writes_canonical_order(tmp_path, monkeypatch):
+    monkeypatch.setattr(data, "_DECKS_DIR", tmp_path)
+    data.save_deck("ordered", {"ST05-015": 4, "ST05-010": 4, "ST05-004": 4})
+    lines = (tmp_path / "ordered.txt").read_text().strip().splitlines()
+    ids = [line.split()[1] for line in lines]
+    assert ids == ["ST05-004", "ST05-010", "ST05-015"]  # UNIT, PILOT, BASE

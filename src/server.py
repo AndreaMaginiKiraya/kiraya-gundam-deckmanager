@@ -167,9 +167,10 @@ def render_deck_image(
 ) -> Image:
     """Render a deck as a PNG image for quick visual review.
 
-    Cards are shown as one continuous grid, in the same order as the input
-    dict (no grouping by type), each with a red circular badge in the
-    top-right corner giving the copy count.
+    Cards are shown as one continuous grid in canonical deck order —
+    UNIT → PILOT → COMMAND → BASE, ascending level then cost within each
+    type — each with a red circular badge in the top-right corner giving
+    the copy count.
 
     Args:
         main_deck: Mapping of card id -> count.
@@ -223,8 +224,9 @@ def save_deck(name: str, main_deck: dict[str, int]) -> str:
 
     Subfolder names are allowed and created as needed (e.g. 'meta/x').
     Uses the plain '<count> <card_id> <name...>' format (matches
-    egmanevents.com's deckbuilder export/import format). Returns the saved
-    file path.
+    egmanevents.com's deckbuilder export/import format), with lines in
+    canonical deck order (UNIT → PILOT → COMMAND → BASE, ascending
+    level/cost). Returns the saved file path.
     """
     path = data.save_deck(name, main_deck)
     return str(path)

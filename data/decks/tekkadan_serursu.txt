@@ -1,5 +1,5 @@
-4 ST05-004 Graze Custom
 4 GD05-050 Gundam Exia Repair
+4 ST05-004 Graze Custom
 4 GD02-054 Gundam Barbatos 1st Form
 2 GD02-058 Ryusei-Go (Graze Custom Ⅱ)
 4 GD03-056 Gundam Barbatos Adapt

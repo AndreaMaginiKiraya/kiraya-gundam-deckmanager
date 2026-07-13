@@ -385,6 +385,41 @@ def parse_decklist_text(text: str) -> dict[str, int]:
     return deck
 
 
+_TYPE_ORDER = {"UNIT": 0, "PILOT": 1, "COMMAND": 2, "BASE": 3, "RESOURCE": 4}
+
+
+def deck_sort_key(card: Card) -> tuple:
+    """Canonical in-deck ordering key: card type (UNIT → PILOT → COMMAND →
+    BASE → RESOURCE → anything else), then ascending level, then ascending
+    cost, then id as a stable tiebreak. Cards missing level/cost sort after
+    the ones that have it within their type group."""
+    type_rank = _TYPE_ORDER.get((card.card_type or "").upper(), 5)
+    return (
+        type_rank,
+        card.level if card.level is not None else 999,
+        card.cost if card.cost is not None else 999,
+        card.id,
+    )
+
+
+def sort_deck(deck: dict[str, int]) -> dict[str, int]:
+    """Return a new {card_id: count} dict in canonical order (see
+    deck_sort_key). Unknown card ids keep their input order, after all
+    known cards — they can't be ranked without type/level data."""
+    known: list[tuple[Card, str, int]] = []
+    unknown: list[tuple[str, int]] = []
+    for card_id, count in deck.items():
+        card = get_card_by_id(card_id)
+        if card is None:
+            unknown.append((card_id, count))
+        else:
+            known.append((card, card_id, count))
+    known.sort(key=lambda entry: deck_sort_key(entry[0]))
+    out = {card_id: count for _, card_id, count in known}
+    out.update(dict(unknown))
+    return out
+
+
 def _deck_path(name: str, suffix: str) -> Path:
     """Resolve a deck name (optionally with subfolders, e.g. 'meta/bg_oyw')
     to a path under data/decks/, rejecting anything that would escape it
@@ -421,13 +456,14 @@ def load_deck(name: str) -> dict[str, int]:
 def save_deck(name: str, deck: dict[str, int]) -> Path:
     """Write {card_id: count} to data/decks/<name>.txt in the plain
     '<count> <card_id> <name...>' format (matches egmanevents.com's
-    deckbuilder export/import format). Subfolder names ('meta/x') are
-    created as needed. Overwrites if the file already exists. Returns the
-    written path."""
+    deckbuilder export/import format). Lines are written in canonical
+    order (sort_deck: UNIT → PILOT → COMMAND → BASE, then ascending
+    level/cost). Subfolder names ('meta/x') are created as needed.
+    Overwrites if the file already exists. Returns the written path."""
     path = _deck_path(name, ".txt")
     path.parent.mkdir(parents=True, exist_ok=True)
     lines = []
-    for card_id, count in deck.items():
+    for card_id, count in sort_deck(deck).items():
         card = get_card_by_id(card_id)
         label = card.name if card else card_id
         lines.append(f"{count} {card_id} {label}")

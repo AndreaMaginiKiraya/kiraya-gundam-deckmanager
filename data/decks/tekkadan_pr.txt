@@ -1,17 +1,17 @@
 4 ST05-004 Graze Custom
+2 GD01-054 Duel Gundam
 4 GD02-054 Gundam Barbatos 1st Form
-4 GD03-056 Gundam Barbatos Adapt
-3 GD02-068 Gundam Barbatos 3rd Form
 3 ST05-006 Hyakuren
+3 GD02-068 Gundam Barbatos 3rd Form
+4 GD03-056 Gundam Barbatos Adapt
 4 GD03-066 Gundam Barbatos 5th Form (Ground Type)
 2 GD05-060 Gundam Flauros (Ryusei-Go)
 2 ST05-001 Gundam Barbatos 4th Form
 1 GD03-061 Gundam Barbatos 6th Form
 4 GD05-051 Gundam Barbatos Lupus Rex
-4 ST05-010 Mikazuki Augus
 2 ST05-011 Akihiro Altland
+4 ST05-010 Mikazuki Augus
+3 GD01-116 Stealth Stratagem
+2 GD01-111 Battle of Aces
 3 ST05-015 Isaribi
 3 GD03-129 Hotarubi
-2 GD01-111 Battle of Aces
-3 GD01-116 Stealth Stratagem
-2 GD01-054 Duel Gundam

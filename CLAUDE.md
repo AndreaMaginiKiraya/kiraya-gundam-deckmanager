@@ -73,8 +73,10 @@ python -m src   # raw stdio server (what .mcp.json launches)
 - `render.py` — the one exception to "tools.py does everything": deck image
   rendering (`render_deck_image`) returns PNG bytes, not JSON, so it lives in
   its own module and is wired into `server.py` via `mcp.server.fastmcp.Image`
-  instead of through `tools.py`. Renders one continuous grid in input-dict
-  order (no grouping by card type) with an optional centered title. Card art
+  instead of through `tools.py`. Renders one continuous grid in canonical
+  deck order (`data.deck_sort_key`: UNIT → PILOT → COMMAND → BASE, then
+  ascending level, then cost — same order `save_deck` writes decklist
+  lines in) with an optional centered title. Card art
   is disk-cached under `data/cards/images/<card_id>.png` (gitignored,
   regenerable) so re-renders across process restarts don't re-hit the
   network; falls back to a drawn placeholder tile if a fetch/cache miss

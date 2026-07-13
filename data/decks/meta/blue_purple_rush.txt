@@ -1,9 +1,9 @@
+4 GD01-008 Guntank
 4 ST01-005 GM
 4 ST05-004 Graze Custom
-4 GD01-008 Guntank
 2 ST09-005 Zaku Warrior
-4 GD02-054 Gundam Barbatos 1st Form
 3 GD01-018 ReZEL
+4 GD02-054 Gundam Barbatos 1st Form
 3 GD01-020 Anksha
 4 GD03-056 Gundam Barbatos Adapt
 3 GD04-056 Sword Impulse Gundam

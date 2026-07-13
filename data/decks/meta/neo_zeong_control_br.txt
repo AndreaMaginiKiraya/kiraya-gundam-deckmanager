@@ -1,7 +1,7 @@
-3 GD04-077 Flat (Militia)
 4 GD01-086 Gundam Lfrith
-2 ST08-005 Messer Type-F02 Minelayer
 4 GD02-079 Rick Dias
+3 GD04-077 Flat (Militia)
+2 ST08-005 Messer Type-F02 Minelayer
 3 GD01-051 Kshatriya
 2 GD04-068 Silver Bullet
 4 GD01-044 Kshatriya
