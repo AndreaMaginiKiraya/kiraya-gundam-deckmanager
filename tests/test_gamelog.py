@@ -257,6 +257,35 @@ def test_pilot_mode_command_resolves_and_subfolder_name(tmp_path, monkeypatch):
     assert doc["cards"]["Ride Mass"]["note"] == "pilot mode of the COMMAND card 'Become a Shield'"
 
 
+def test_set_active_and_repair_lines_recognized():
+    # V2 Gundam's engine (rest 2 Parts -> set itself active) and end-phase
+    # Repair lines, plus back-to-back setup choices with no actor line
+    # between them (the same player chose first AND mulliganed).
+    snippet = """Game started!
+A
+Choose to play first
+Choose to mulligan starting hand
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+V2 Gundam deployed
+Activated: V2 Gundam
+Rested unit: Parts
+Set Active: V2 Gundam
+Turn end phase started
+V2 Gundam repaired 1 from [Repair 2]
+Turn ended!"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["players"] == ["A", "B"]
+    assert parsed["mulligans"] == {"A": True, "B": False}
+    assert parsed["unparsed"] == []
+    activate = parsed["turns"][0]["actions"][1]
+    assert activate["action"] == "activate"
+    assert "Set Active: V2 Gundam" in activate["effects"]
+    assert any("repaired 1" in e for e in activate["effects"])
+
+
 def test_zero_width_chars_in_card_names_still_resolve():
     # GD05-111 is printed as "Airframe​ Seizure" upstream (zero-width
     # space); a log says "Airframe Seizure" and must still match.

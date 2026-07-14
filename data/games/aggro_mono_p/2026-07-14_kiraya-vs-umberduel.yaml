@@ -1,0 +1,681 @@
+game:
+  id: "aggro_mono_p/2026-07-14_kiraya-vs-umberduel"
+  date_imported: "2026-07-14"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:umberduel"
+  players:
+    umberduel:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "umberduel"
+    seen:
+      - "discarded"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "umberduel"
+    seen:
+      - "command"
+  "Akihiro Altland":
+    id: "ST05-011"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "umberduel"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "returned"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "probabilmente ENTRAMBE le stampe (come nel mazzo di 0622): il Burst 'add to hand' (t8) = ST04-010; il 'Draw a card' al link su Strike Freedom (t15) = GD05-081"
+    owner: "umberduel"
+    seen:
+      - "pilot"
+      - "shield"
+  Kshatriya:
+    id: "GD01-044"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    note: "pinned (stesse evidenze della partita vs waxtrax): When Paired con Marida ping 1 a 2 unità (t9), 7 danni a Hyakuren (AP5 + Marida 2) e riceve 4 restando a 1 (HP4+1 pilota)"
+    owner: "umberduel"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "umberduel"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Parts:
+    id: null
+    note: "Unit token (League Militaire, AP1/HP1) creato dal Destroyed di Victory Gundam GD04-011 e dai pilotaggi di Üso Ewin; il dataset non ha una carta token 'Parts'"
+    owner: "umberduel"
+    seen:
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "umberduel"
+    seen:
+      - "base"
+      - "discarded"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "umberduel"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "umberduel"
+    seen:
+      - "discarded"
+  "V2 Gundam":
+    id: "GD05-001"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "umberduel"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Victory Gundam":
+    id: null
+    candidates:
+      - "GD04-003"
+      - "GD04-011"
+    note: "ENTRAMBE le stampe nel mazzo: le copie dei t5/t7 deployano Parts alla morte (Destroyed di GD04-011; infatti al t9, senza altre unità League Militaire, il token non esce); la copia del t13 pesca all'attacco con 3+ LM in gioco e regge 4 danni con Üso = GD04-003 (HP4+1)"
+    owner: "umberduel"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "umberduel"
+    seen:
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "umberduel"
+    seen:
+      - "pilot"
+setup:
+  - player: "umberduel"
+    action: "choose_first_player"
+  - player: "umberduel"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "umberduel"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "umberduel"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Akihiro Altland"
+        unit: "Gundam Exia Repair"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "umberduel"
+            card: "Close Combat"
+            effects:
+              - "Close Combat: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+              - "Gundam Exia Repair milled 2: Gundam Gusion Rebake and Gundam Barbatos Adapt moved to trash"
+  - turn: 5
+    active_player: "umberduel"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 7
+    active_player: "umberduel"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "Victory Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Victory Gundam received 4 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Hyakuren and Parts"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Victory Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Victory Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "play_base"
+        card: "Reineforce Jr."
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Reineforce Jr. revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 9
+    active_player: "umberduel"
+    actions:
+      - action: "attack"
+        player: "umberduel"
+        attacker: "Victory Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Victory Gundam received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Kshatriya"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Kshatriya"
+        linked: true
+        effects:
+          - "Kshatriya: Dealt 1 damage to: Hyakuren and Graze Custom"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "Kshatriya"
+        declared_target: "Hyakuren"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Graze Custom, now destroyed"
+          - "Hyakuren received 7 damage, now destroyed"
+          - "Kshatriya received 4 damage, leaving 1 HP remaining"
+        blockers: "none"
+        final_target: "Hyakuren"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Kshatriya"
+  - turn: 11
+    active_player: "umberduel"
+    actions:
+      - action: "deploy"
+        card: "V2 Gundam"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced_ex_base: true
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and V2 Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 6 damage, now destroyed"
+  - turn: 13
+    active_player: "umberduel"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "Victory Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "Victory Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Victory Gundam received 4 damage, leaving 1 HP remaining"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "V2 Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "V2 Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "activate"
+        card: "V2 Gundam"
+        effects:
+          - "Rested unit: Parts"
+          - "Rested unit: Parts"
+          - "Set Active: V2 Gundam"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "V2 Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+        effects:
+          - "V2 Gundam repaired 1 from [Repair 2]"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Zoloat (League Militaire), now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Victory Gundam, now destroyed"
+  - turn: 15
+    active_player: "umberduel"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose V2 Gundam and Strike Freedom Gundam"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "V2 Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "activate"
+        card: "V2 Gundam"
+        effects:
+          - "Rested unit: Parts"
+          - "Rested unit: Parts"
+          - "Set Active: V2 Gundam"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "V2 Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_command"
+        player: "umberduel"
+        card: "Airframe Seizure"
+        effects:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        outcome:
+          - "Kshatriya and A Show of Resolve discarded"
+          - "Gundam Barbatos Lupus returned to deck"
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+        blockers: "none"
+        final_target: "shield"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos 1st Form and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Parts, now destroyed"
+  - turn: 17
+    active_player: "umberduel"
+    actions:
+      - action: "attack"
+        player: "umberduel"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        outcome:
+          - "Reineforce Jr. and Reineforce Jr. discarded"
+          - "Gundam Barbatos Lupus returned to deck"
+          - "Isaribi received 7 damage, now destroyed"
+        blockers: "none"
+        final_target: "Isaribi"
+      - action: "attack"
+        player: "umberduel"
+        attacker: "V2 Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  umberduel:
+    - card: "Victory Gundam"
+      turn: 7
+    - card: "Victory Gundam"
+      turn: 9
+    - card: "Reineforce Jr."
+      turn: 12
+    - card: "Zoloat (League Militaire)"
+      turn: 14
+    - card: "Victory Gundam"
+      turn: 14
+    - card: "Parts"
+      turn: 16
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 4
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Isaribi"
+      turn: 13
+    - card: "Isaribi"
+      turn: 15
+    - card: "Isaribi"
+      turn: 17
+shields_tally:
+  umberduel:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 3
+  Kiraya:
+    ex_base: "replaced with a base (turn 12)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Sconfitta netta di Kiraya (aggro_mono_p) in 17 turni contro umberduel: League Militaire (Victory/V2/Üso/Parts) con splash Strike Freedom+Kira. La statistica che dice tutto: umberduel ha chiuso con 3 shield intatte e 0 shield distrutte — in 17 turni Kiraya non ha mai rotto una shield avversaria (solo 2 finite in mano ai Burst e la Reineforce Jr. abbattuta)."
+  - "Il blowout del t4 ha segnato la partita: Exia+Akihiro (2 carte investite) ha attaccato con l'avversario a risorse aperte e mano piena -> Close Combat in action step l'ha ucciso a metà battaglia. Zero danni, due carte perse. Contro mano/risorse aperte, il primo attacco di un'unità appena pilotata va pesato: meglio attaccare prima di pairare, o aspettare."
+  - "Il motore del V2 Gundam è il problema centrale del matchup: attacca, poi Activate (resta 2 Parts) -> Set Active -> attacca DI NUOVO, con Repair 2 che lo ricuce. Due attacchi a turno da 6+ hanno mangiato 3 Isaribi (19 danni) e le shield. Il punto debole è il carburante: i Parts (AP1/HP1). Vanno uccisi i token, non inseguito il V2 — i ping di Mikazuki/Adapt/Gusion li spengono gratis. Lupus l'ha capito solo al t16."
+  - "Strike Freedom conferma la lezione della partita vs 0622: ha rimbalzato Lupus nel mazzo DUE volte (t15 e t17, dopo il redeploy). Terza partita in cui il bounce nega il piano B: contro mazzi con Strike Freedom, Lupus va calato solo nel turno in cui le sue attivazioni chiudono qualcosa, non prima."
+  - "Turni 9-11 buttati: t10 un deploy e passa, t11 niente. La solita mano vuota, ma qui è costata la finestra in cui il V2 non era ancora online. Le tre Isaribi consecutive (t12/t14/t16) sono state usate come muri, mai come tempo per contrattaccare."
+  - "Dettaglio tecnico dal log: umberduel gioca ENTRAMBE le stampe di Victory Gundam (GD04-011 che lascia Parts morendo, GD04-003 che pesca attaccando) — il mazzo è costruito per perdere le Victory con profitto. Ucciderle conviene solo se poi si uccide anche il token."
+  - "Confronto con le vittorie: nelle 3 partite vinte l'EX Base nemica cadeva entro il t7 e la pressione non si fermava; qui dopo il t8 tutti gli attacchi di Kiraya sono finiti su una base. Quando il piano A (corsa alle shield) si spegne e il piano B (Lupus) viene rimbalzato, il mazzo non ha un piano C: la partita era persa strutturalmente, non per una singola giocata."
