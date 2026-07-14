@@ -1,0 +1,1333 @@
+Mobile Suit Arena - Battle logs
+
+Game started!
+
+Tonii
+
+Choose to play first
+
+Kiraya
+
+Choose to keep starting hand
+
+Tonii
+
+Choose to mulligan starting hand
+
+Turn 1 started!
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 2 started!
+
+Kiraya
+
+Gundam Exia Repair deployed
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 3 started!
+
+Tonii
+
+Zaku Ⅱ deployed
+
+Jegan deployed
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 4 started!
+
+Kiraya
+
+Ryusei-Go (Graze Custom Ⅱ) deployed
+
+Selecting target for Ryusei-Go (Graze Custom Ⅱ)
+
+Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining
+
+Ryusei-Go (Graze Custom Ⅱ): Draw a card
+
+Selecting target for Ryusei-Go (Graze Custom Ⅱ)
+
+Sword Impulse Gundam discarded
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 5 started!
+
+Battle initiated
+
+Tonii
+
+Battle declared: Zaku Ⅱ against Enemy Player
+
+Zaku Ⅱ: Modifier applied to: Zaku Ⅱ
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Zaku Ⅱ against EX Base
+
+Kiraya
+
+EX Base received 3 damage, now destroyed
+
+Battle ended
+
+Battle initiated
+
+Tonii
+
+Battle declared: Jegan against Enemy Player
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Jegan against Enemy Shield
+
+Kiraya
+
+Shield card: Hyakuren revealed and discarded
+
+Battle ended
+
+Tonii
+
+Re-GZ BWS deployed
+
+Placed 1 Resource EX
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 6 started!
+
+Kiraya
+
+Gundam Barbatos Adapt deployed
+
+Selecting target for Gundam Barbatos Adapt
+
+Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ BWS
+
+Linked pilot: Mikazuki Augus on unit Gundam Barbatos Adapt
+
+Selecting target for Mikazuki Augus
+
+Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ BWS
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Gundam Barbatos Adapt against Enemy Player
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Gundam Barbatos Adapt against EX Base
+
+Tonii
+
+EX Base received 4 damage, now destroyed
+
+Battle ended
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Gundam Exia Repair against Jegan
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Gundam Exia Repair against Jegan
+
+Tonii
+
+Jegan received 2 damage, now destroyed
+
+Kiraya
+
+Gundam Exia Repair received 2 damage, now destroyed
+
+Gundam Exia Repair milled 2: Shiden Custom (Ryusei-Go) and Mikazuki Augus moved to trash
+
+Battle ended
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Ryusei-Go (Graze Custom Ⅱ) against Zaku Ⅱ
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Ryusei-Go (Graze Custom Ⅱ) against Zaku Ⅱ
+
+Tonii
+
+Zaku Ⅱ received 2 damage, now destroyed
+
+Kiraya
+
+Ryusei-Go (Graze Custom Ⅱ) received 1 damage, now destroyed
+
+Battle ended
+
+Kiraya
+
+Played base: Isaribi
+
+Shield card added to hand
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 7 started!
+
+Tonii
+
+Nu Gundam deployed
+
+Placed 1 Resource EX
+
+Linked pilot: Amuro Ray on unit Nu Gundam
+
+Selecting target for Amuro Ray
+
+Already rested unit: Gundam Barbatos Adapt
+
+Battle initiated
+
+Tonii
+
+Battle declared: Nu Gundam against Gundam Barbatos Adapt
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Nu Gundam against Gundam Barbatos Adapt
+
+Kiraya
+
+Gundam Barbatos Adapt received 6 damage, now destroyed
+
+Tonii
+
+Nu Gundam received 4 damage, leaving 1 HP remaining
+
+Kiraya
+
+Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining
+
+Battle ended
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 8 started!
+
+Kiraya
+
+Shiden Custom (Ryusei-Go) deployed
+
+Linked pilot: Mikazuki Augus on unit Shiden Custom (Ryusei-Go)
+
+Selecting target for Mikazuki Augus
+
+Mikazuki Augus: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Nu Gundam
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Shiden Custom (Ryusei-Go) against Enemy Player
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Shiden Custom (Ryusei-Go) against Enemy Shield
+
+Tonii
+
+Shield card: Amuro Ray revealed
+
+Shield card added to hand: Amuro Ray
+
+Battle ended
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 9 started!
+
+Tonii
+
+Nu Gundam deployed
+
+Placed 1 Resource EX
+
+Linked pilot: Amuro Ray on unit Nu Gundam
+
+Selecting target for Amuro Ray
+
+Already rested unit: Shiden Custom (Ryusei-Go)
+
+Battle initiated
+
+Tonii
+
+Battle declared: Nu Gundam against Shiden Custom (Ryusei-Go)
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Nu Gundam against Shiden Custom (Ryusei-Go)
+
+Kiraya
+
+Shiden Custom (Ryusei-Go) received 6 damage, now destroyed
+
+Tonii
+
+Nu Gundam received 6 damage, now destroyed
+
+Kiraya
+
+Breach 3: : Isaribi received 3 damage, now destroyed
+
+Battle ended
+
+Tonii
+
+Zaku Ⅱ deployed
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 10 started!
+
+Kiraya
+
+Gundam Barbatos Adapt deployed
+
+Selecting target for Gundam Barbatos Adapt
+
+Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ
+
+Linked pilot: Mikazuki Augus on unit Gundam Barbatos Adapt
+
+Selecting target for Mikazuki Augus
+
+Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Gundam Barbatos Adapt against Enemy Player
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Gundam Barbatos Adapt against Enemy Shield
+
+Tonii
+
+Shield card: Kayra's Re-GZ revealed and discarded
+
+Battle ended
+
+Kiraya
+
+Graze Custom deployed
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 11 started!
+
+Tonii
+
+Guntank deployed
+
+Selecting target for Guntank
+
+Guntank: Dealt 1 damage to Gundam Barbatos Adapt, leaving 2 HP remaining
+
+Zaku Ⅱ deployed
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 12 started!
+
+Kiraya
+
+Gundam Barbatos 1st Form deployed
+
+Gundam Gusion Rebake deployed
+
+Selecting target for Gundam Gusion Rebake
+
+Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Zaku Ⅱ
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Graze Custom against Enemy Player
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Graze Custom against Enemy Shield
+
+Tonii
+
+Shield card: Kayra's Jegan revealed and discarded
+
+Battle ended
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Gundam Barbatos Adapt against Enemy Player
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Gundam Barbatos Adapt against Enemy Shield
+
+Tonii
+
+Shield card: Jegan revealed and discarded
+
+Battle ended
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 13 started!
+
+Tonii
+
+Nu Gundam deployed
+
+Placed 1 Resource EX
+
+Linked pilot: Amuro Ray on unit Nu Gundam
+
+Selecting target for Amuro Ray
+
+Rested unit: Gundam Barbatos 1st Form
+
+Battle initiated
+
+Tonii
+
+Battle declared: Zaku Ⅱ against Gundam Barbatos Adapt
+
+Zaku Ⅱ: Modifier applied to: Zaku Ⅱ
+
+Kiraya
+
+Assigned no blocker
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Zaku Ⅱ against Gundam Barbatos Adapt
+
+Kiraya
+
+Gundam Barbatos Adapt received 3 damage, now destroyed
+
+Tonii
+
+Zaku Ⅱ received 4 damage, now destroyed
+
+Battle ended
+
+Battle initiated
+
+Tonii
+
+Battle declared: Nu Gundam against Gundam Barbatos 1st Form
+
+Kiraya
+
+Assigned Gundam Gusion Rebake to block
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Nu Gundam against Gundam Gusion Rebake
+
+Kiraya
+
+Gundam Gusion Rebake received 6 damage, now destroyed
+
+Tonii
+
+Nu Gundam received 3 damage, leaving 2 HP remaining
+
+Kiraya
+
+Breach 3 Shield card: Gundam Barbatos Adapt revealed and discarded
+
+Battle ended
+
+Battle initiated
+
+Tonii
+
+Battle declared: Guntank against Gundam Barbatos 1st Form
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Guntank against Gundam Barbatos 1st Form
+
+Kiraya
+
+Gundam Barbatos 1st Form received 1 damage, now destroyed
+
+Tonii
+
+Guntank received 3 damage, now destroyed
+
+Battle ended
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 14 started!
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Graze Custom against Nu Gundam
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Graze Custom against Nu Gundam
+
+Tonii
+
+Nu Gundam received 2 damage, now destroyed
+
+Kiraya
+
+Graze Custom received 6 damage, now destroyed
+
+Battle ended
+
+Kiraya
+
+Gundam Exia Repair deployed
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 15 started!
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 16 started!
+
+Kiraya
+
+Sword Impulse Gundam deployed
+
+Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining
+
+No targets for Sword Impulse Gundam
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Gundam Exia Repair against Enemy Player
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Gundam Exia Repair against Enemy Shield
+
+Tonii
+
+Shield card: Re-GZ revealed and discarded
+
+Battle ended
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 17 started!
+
+Tonii
+
+Guntank deployed
+
+Selecting target for Guntank
+
+Guntank: Dealt 1 damage to Gundam Exia Repair, now destroyed
+
+Kiraya
+
+Gundam Exia Repair milled 2: Hyakuren and Gundam Barbatos 1st Form moved to trash
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 18 started!
+
+Battle initiated
+
+Kiraya
+
+Battle declared: Sword Impulse Gundam against Enemy Player
+
+Tonii
+
+No blockers available
+
+Action step
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Battle started: Sword Impulse Gundam against Enemy Shield
+
+Tonii
+
+Shield card: Amuro Ray revealed
+
+Shield card added to hand: Amuro Ray
+
+Battle ended
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 19 started!
+
+Tonii
+
+Paired pilot: Amuro Ray on unit Guntank
+
+Battle initiated
+
+Tonii
+
+Battle declared: Guntank against Sword Impulse Gundam
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Guntank against Sword Impulse Gundam
+
+Kiraya
+
+Sword Impulse Gundam received 3 damage, now destroyed
+
+Tonii
+
+Guntank received 3 damage, leaving 1 HP remaining
+
+Healed 2 damage to: Guntank
+
+Battle ended
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 20 started!
+
+Kiraya
+
+Gundam Exia Repair deployed
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 21 started!
+
+Tonii
+
+Jegan deployed
+
+Paired pilot: Amuro Ray on unit Jegan
+
+Selecting target for Amuro Ray
+
+Rested unit: Gundam Exia Repair
+
+Battle initiated
+
+Tonii
+
+Battle declared: Guntank against Gundam Exia Repair
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Guntank against Gundam Exia Repair
+
+Kiraya
+
+Gundam Exia Repair received 3 damage, now destroyed
+
+Tonii
+
+Guntank received 2 damage, leaving 1 HP remaining
+
+Healed 2 damage to: Guntank
+
+Kiraya
+
+Gundam Exia Repair milled 2: Gundam Gusion Rebake and Isaribi moved to trash
+
+Battle ended
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 22 started!
+
+Kiraya
+
+Gundam Barbatos 1st Form deployed
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 23 started!
+
+Tonii
+
+Kayra's Jegan deployed
+
+Selecting target for Kayra's Jegan
+
+Kayra's Jegan: Modifier applied to: Kayra's Jegan
+
+Linked pilot: Kayra Su on unit Kayra's Jegan
+
+Battle initiated
+
+Tonii
+
+Battle declared: Kayra's Jegan against Gundam Barbatos 1st Form
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Played action: Become a Shield
+
+Selecting target for Become a Shield
+
+Become a Shield: Dealt 1 damage to: Gundam Barbatos 1st Form and Kayra's Jegan
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Tonii
+
+Battle started: Kayra's Jegan against Gundam Barbatos 1st Form
+
+Kiraya
+
+Gundam Barbatos 1st Form received 3 damage, now destroyed
+
+Tonii
+
+Kayra's Jegan received 3 damage, now destroyed
+
+Battle ended
+
+Battle initiated
+
+Tonii
+
+Battle declared: Guntank against Enemy Player
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Guntank against Enemy Shield
+
+Kiraya
+
+Shield card: Gundam Barbatos Lupus revealed and discarded
+
+Battle ended
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 24 started!
+
+Kiraya
+
+Played base: Isaribi
+
+Shield card added to hand
+
+Sword Impulse Gundam deployed
+
+Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining
+
+Selecting target for Sword Impulse Gundam
+
+Already rested unit: Guntank
+
+Turn end phase started
+
+Tonii
+
+Passed
+
+Kiraya
+
+Passed
+
+Turn ended!
+
+Turn 25 started!
+
+Tonii
+
+Played base: Corsica Base
+
+No more Shield cards to add to hand
+
+Tallgeese deployed
+
+Battle initiated
+
+Tonii
+
+Battle declared: Jegan against Enemy Player
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Jegan against Isaribi
+
+Kiraya
+
+Isaribi received 4 damage, leaving 1 HP remaining
+
+Battle ended
+
+Battle initiated
+
+Tonii
+
+Battle declared: Guntank against Enemy Player
+
+Kiraya
+
+No blockers available
+
+Action step
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Battle started: Guntank against Isaribi
+
+Kiraya
+
+Isaribi received 3 damage, now destroyed
+
+Battle ended
+
+Turn end phase started
+
+Kiraya
+
+Passed
+
+Tonii
+
+Passed
+
+Turn ended!
+
+Turn 26 started!
+
+Kiraya
+
+Gundam Barbatos Lupus deployed
+
+Activated: Gundam Barbatos Lupus
+
+Gundam Gusion Rebake, Gundam Barbatos 1st Form and Gundam Barbatos Lupus exiled from the game
+
+Selecting target for Gundam Barbatos Lupus
+
+Gundam Barbatos Lupus: Dealt 2 damage to Tallgeese, now destroyed
+
+Activated: Gundam Barbatos Lupus
+
+Graze Custom, Hyakuren and Gundam Barbatos 1st Form exiled from the game
+
+Selecting target for Gundam Barbatos Lupus
+
+Winner!
+
+Game ended!

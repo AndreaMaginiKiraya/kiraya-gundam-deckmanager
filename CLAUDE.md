@@ -14,7 +14,8 @@ effect text, cost/level/AP/HP bounds...), `get_card`, `validate_deck`,
 `get_banlist`, `analyze_deck`, `compare_decks`, `opening_hand_odds`,
 `suggest_synergies`, `render_deck_image`,
 `list_decks`/`get_deck`/`save_deck`/`delete_deck`/`rename_deck`,
-`search_rules`, `update_card_data`, etc. are available as tools directly,
+`search_rules`, `update_card_data`, `import_game_log`/`list_games`
+(played-games knowledge base), etc. are available as tools directly,
 no need to grep the data files by hand. Prefer these MCP tools over
 reading `data/` directly for any Gundam-related request.
 
@@ -87,6 +88,28 @@ python -m src   # raw stdio server (what .mcp.json launches)
   — this is the one place `render.py` depends on `tools.py` rather than the
   reverse. Tests must monkeypatch both `render._fetch_image_bytes` and
   `render._IMAGE_CACHE_DIR` (to a tmp dir) to stay hermetic.
+- `gamelog.py` — pure text processing for the played-games knowledge base
+  (`data/games/`): `parse_game_log()` turns a chat-exported play-by-play
+  (Mobile Suit Arena format: "Turn 3 started!", "X deployed", "Battle
+  declared: ...") into structured dicts — setup choices, per-turn action
+  lists, battles with blockers/action-step plays/outcomes, per-player
+  shield tallies and casualties, winner — collecting unrecognized lines
+  under `unparsed` instead of dropping them (a nonempty `unparsed_lines`
+  in a saved record means the parser needs a new pattern here, plus
+  fixture coverage; the raw log is kept as `data/games/<name>.log`
+  precisely so records can be regenerated afterwards). `dump_yaml()` is a
+  minimal YAML emitter (string scalars JSON-quoted). Card-name→id
+  resolution and file writing live in `tools.import_game_log_impl` (names
+  shared by multiple printings are saved with `id: null` + `candidates`
+  for a human/LLM to pin afterwards — a log can't tell a vanilla Zaku Ⅱ
+  from the AP+2 one, though the observed effects usually can);
+  `data.save_game_file` guards the path like `_deck_path` and refuses
+  overwrites unless asked. Re-importing with `overwrite=True` reads the
+  old record back (PyYAML — this is why it's a runtime dependency) and
+  carries hand annotations over: pinned ids (stats re-derived from the
+  DB), custom card notes, study_notes, result, deck names. See
+  `data/games/README.md` for the record schema and the import→pin
+  ids→study_notes workflow.
 - `sync.py` — merges the two upstream card-data sources into
   `data/cards/en/*.json` (`sync_all(only=None)`). apitcg wins where both
   providers have a set. Always rebuilds card art URLs as

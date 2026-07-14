@@ -8,8 +8,11 @@ from __future__ import annotations
 import math
 import re
 from collections import Counter
+from datetime import date
 
-from . import data
+import yaml
+
+from . import data, gamelog
 
 # Official Gundam Card Game rules (Comprehensive Rules v1.8.0 / 2026-06-12,
 # see data/rules/comprehensive_rules.md, section 6 "Preparing to Play")
@@ -457,6 +460,200 @@ def opening_hand_odds_impl(
         "min_copies": min_copies,
         "probability_at_least": round(p_at_least, 4),
         "distribution": distribution,
+    }
+
+
+_AMBIGUOUS_CARD_NOTE = (
+    "ambiguous: multiple printings share this name; "
+    "pin the id from the effects/stats observed in the log"
+)
+
+
+def _carry_over_annotations(old_doc: dict, doc: dict) -> list[str]:
+    """Copy hand-made annotations from a previous version of a game record
+    into a freshly imported one: pinned card ids (stats re-derived from the
+    database, so they stay consistent), custom evidence notes on cards that
+    remain ambiguous, study_notes, a result the parser couldn't detect, and
+    per-player deck names not re-passed to this import. Returns what was
+    carried, for the tool's summary."""
+    carried: list[str] = []
+
+    old_cards = old_doc.get("cards") or {}
+    for name, entry in doc["cards"].items():
+        old_entry = old_cards.get(name)
+        if not isinstance(old_entry, dict) or entry.get("id") is not None:
+            continue
+        if old_entry.get("id"):
+            card = data.get_card_by_id(old_entry["id"])
+            if card is None:
+                continue
+            entry["id"] = card.id
+            entry["type"] = card.card_type
+            for field in ("level", "cost", "ap", "hp"):
+                value = getattr(card, field)
+                if value is not None:
+                    entry[field] = value
+            entry.pop("candidates", None)
+            entry["note"] = old_entry.get("note") or "pinned in a previous import"
+            carried.append(f"cards[{name}].id")
+        else:
+            old_note = old_entry.get("note")
+            if old_note and old_note != _AMBIGUOUS_CARD_NOTE and old_note != entry.get("note"):
+                entry["note"] = old_note
+                carried.append(f"cards[{name}].note")
+
+    old_notes = old_doc.get("study_notes")
+    if old_notes:
+        doc["study_notes"] = old_notes
+        carried.append("study_notes")
+
+    if doc["game"]["result"] == "unknown":
+        old_result = (old_doc.get("game") or {}).get("result")
+        if old_result and old_result != "unknown":
+            doc["game"]["result"] = old_result
+            carried.append("game.result")
+
+    old_players = (old_doc.get("game") or {}).get("players") or {}
+    for player, meta in doc["game"]["players"].items():
+        old_meta = old_players.get(player)
+        if "deck" not in meta and isinstance(old_meta, dict) and old_meta.get("deck"):
+            meta["deck"] = old_meta["deck"]
+            carried.append(f"game.players[{player}].deck")
+
+    return carried
+
+
+def _resolve_log_card_name(name: str) -> list[data.Card]:
+    """Cards whose printed name exactly matches a name seen in a game log
+    (NFKC-folded, so the log's 'Zaku Ⅱ' and an ASCII 'Zaku II' both work).
+    Parallel prints and tokens are excluded: a log never distinguishes a
+    -p1 from its base print, and tokens aren't deck cards."""
+    folded = data.search_fold(name)
+    return [
+        c
+        for c in data.get_all_cards()
+        if data.search_fold(c.name) == folded
+        and not _PARALLEL_SUFFIX_RE.search(c.id)
+        and "TOKEN" not in (c.card_type or "").upper()
+    ]
+
+
+def import_game_log_impl(
+    log_text: str,
+    name: str,
+    result: str | None = None,
+    decks: dict[str, str] | None = None,
+    overwrite: bool = False,
+) -> dict:
+    """Convert a chat-exported game log into a YAML record in data/games/.
+
+    Parses the log (see gamelog.parse_game_log), resolves every card name
+    seen against the database, and writes data/games/<name>.yaml. Names
+    shared by multiple printings can't be auto-resolved from a log — they
+    get id: null plus a candidates list, reported back as cards_ambiguous
+    so a human (or LLM) can pin the right id by the effects/stats the log
+    shows. `decks` optionally maps player -> saved deck name (data/decks/)
+    to record which deck each player was on.
+    """
+    parsed = gamelog.parse_game_log(log_text)
+    players = parsed["players"]
+    if not players:
+        raise ValueError(
+            "No players detected in the log; expected setup lines like "
+            "'<player>' / 'Choose to play first'."
+        )
+
+    cards_index: dict[str, dict] = {}
+    ambiguous: dict[str, list[str]] = {}
+    not_found: list[str] = []
+    colors: dict[str, set[str]] = {p: set() for p in players}
+    for card_name, info in sorted(parsed["cards_seen"].items()):
+        matches = _resolve_log_card_name(card_name)
+        entry: dict = {}
+        if len(matches) == 1:
+            card = matches[0]
+            entry["id"] = card.id
+            entry["type"] = card.card_type
+            for field in ("level", "cost", "ap", "hp"):
+                value = getattr(card, field)
+                if value is not None:
+                    entry[field] = value
+            if card.color and len(info["owners"]) == 1:
+                colors[info["owners"][0]].add(card.color)
+        elif matches:
+            entry["id"] = None
+            entry["candidates"] = sorted(c.id for c in matches)
+            entry["note"] = _AMBIGUOUS_CARD_NOTE
+            ambiguous[card_name] = entry["candidates"]
+        else:
+            entry["id"] = None
+            entry["note"] = "not found in card database"
+            not_found.append(card_name)
+        if len(info["owners"]) == 1:
+            entry["owner"] = info["owners"][0]
+        elif info["owners"]:
+            entry["owner"] = info["owners"]
+        entry["seen"] = info["contexts"]
+        cards_index[card_name] = entry
+
+    if result is None:
+        result = f"win:{parsed['winner']}" if parsed["winner"] else "unknown"
+
+    doc: dict = {
+        "game": {
+            "id": name,
+            "date_imported": date.today().isoformat(),
+            "source": parsed["source_header"] or "chat log",
+            "result": result,
+            "players": {
+                p: {
+                    "first_player": p == parsed["first_player"],
+                    "mulligan": parsed["mulligans"].get(p, False),
+                    **({"colors": sorted(colors[p])} if colors[p] else {}),
+                    **({"deck": decks[p]} if decks and p in decks else {}),
+                }
+                for p in players
+            },
+        },
+        "cards": cards_index,
+        "setup": parsed["setup"],
+        "turns": parsed["turns"],
+        "casualties": parsed["casualties"],
+        "shields_tally": parsed["shields_tally"],
+        "study_notes": [],
+    }
+    if parsed["unparsed"]:
+        doc["unparsed_lines"] = parsed["unparsed"]
+
+    carried: list[str] = []
+    if overwrite:
+        old_text = data.load_game_text(name)
+        if old_text is not None:
+            try:
+                old_doc = yaml.safe_load(old_text)
+            except yaml.YAMLError:
+                old_doc = None
+            if isinstance(old_doc, dict):
+                carried = _carry_over_annotations(old_doc, doc)
+
+    path = data.save_game_file(name, gamelog.dump_yaml(doc), overwrite=overwrite)
+    log_path = data.save_game_log(name, log_text)
+    return {
+        "path": str(path),
+        "log_path": str(log_path),
+        "annotations_carried_over": carried,
+        "players": players,
+        "first_player": parsed["first_player"],
+        "result": result,
+        "turns": len(parsed["turns"]),
+        "actions": sum(len(t["actions"]) for t in parsed["turns"]),
+        "cards_resolved": {
+            n: e["id"] for n, e in cards_index.items() if e.get("id") is not None
+        },
+        "cards_ambiguous": ambiguous,
+        "cards_not_found": not_found,
+        "unparsed_lines": parsed["unparsed"],
+        "shields_tally": parsed["shields_tally"],
     }
 
 

@@ -1,0 +1,825 @@
+game:
+  id: "2026-07-14_kiraya-vs-tonii"
+  date_imported: "2026-07-14"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Tonii:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "probabilmente ENTRAMBE le stampe nel mazzo: Burst 'add to hand' (t8/t18) e When-Paired rest (t7/t9/t21) = ST01-010; la cura di 2 quando l'unità paired distrugge in battaglia (t19/t21 su Guntank) = GD05-085"
+    owner: "Tonii"
+    seen:
+      - "pilot"
+      - "shield"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Corsica Base":
+    id: "ST02-016"
+    type: "BASE"
+    level: 3
+    cost: 3
+    hp: 5
+    owner: "Tonii"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "pinned: AP3/HP2 (t13: colpisce per 3 e muore a 1 danno dopo il ping) = GD02-054; ST10-008 è AP4/HP3"
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "pinned: Activate·Main 'esilia 3 (Tekkadan)/(Teiwaz) dal trash → 2 danni' usato due volte al t26 = GD03-050; GD05-059 ha un effetto Attack diverso"
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "exiled"
+      - "shield"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "pinned: Deploy '1 danno a propria+nemica' (t12) e Blocker (t13) = GD02-055; ST05-005 non ha né il ping né Blocker"
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+  Guntank:
+    id: null
+    candidates:
+      - "GD01-008"
+      - "ST01-004"
+    note: "evidenze contrastanti: il Deploy '1 danno a unità nemica rested' (t11/t17) è di GD01-008, ma gli HP al t19 (riceve 3, resta a 1 → totale 4) tornano solo con ST01-004 (HP3) + pilota HP1; possibile discrepanza del client"
+    owner: "Tonii"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "milled"
+  Jegan:
+    id: "GD05-027"
+    note: "pinned: AP2/HP2 (scambio pari con Exia Repair t6) e deck Londo Bell verde = GD05-027; GD01-016 è la stampa blu Lv3 HP3"
+    owner: "Tonii"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+  "Kayra Su":
+    id: "GD05-086"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Tonii"
+    seen:
+      - "pilot"
+  "Kayra's Jegan":
+    id: "GD05-028"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "Tonii"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Tonii"
+    seen:
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-020"
+    note: "pinned: Deploy piazza 1 EX Resource + Breach 3 in pair (t7/t9/t13) = GD05-020 (R); la LR GD05-017 è Lv7 costo 5"
+    owner: "Tonii"
+    seen:
+      - "attacker"
+      - "deployed"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Tonii"
+    seen:
+      - "shield"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "Tonii"
+    seen:
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "pinned: Deploy '1 danno a sé + rest nemico ≤3 AP' (t16 'No targets', t24 su Guntank), HP3 (self-ping lascia 2 HP) e AP3 (t19) = GD04-056; ST09-006 è AP4/HP2"
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+  Tallgeese:
+    id: null
+    candidates:
+      - "EB01-027"
+      - "GD02-005"
+      - "ST02-006"
+    note: "irrisolvibile dal log: solo schierato (t25) e distrutto da 2 danni (t26) senza mostrare effetti; tutte le stampe hanno HP≥3"
+    owner: "Tonii"
+    seen:
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: il modifier 【Attack】AP+2 (t5/t13, 3 danni con AP base 1) è di ST03-008; GD01-035 è vanilla"
+    owner: "Tonii"
+    seen:
+      - "attacker"
+      - "deployed"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+setup:
+  - player: "Tonii"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Tonii"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Tonii"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "Tonii"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Sword Impulse Gundam discarded"
+  - turn: 5
+    active_player: "Tonii"
+    actions:
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ BWS"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ BWS"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Jegan"
+        blockers: "none"
+        final_target: "Jegan"
+        outcome:
+          - "Jegan received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Shiden Custom (Ryusei-Go) and Mikazuki Augus moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 1 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "Tonii"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Already rested unit: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 1 HP remaining"
+          - "Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+  - turn: 9
+    active_player: "Tonii"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Already rested unit: Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Nu Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+          - "Nu Gundam received 6 damage, now destroyed"
+          - "Breach 3: : Isaribi received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kayra's Re-GZ revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 11
+    active_player: "Tonii"
+    actions:
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Barbatos Adapt, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kayra's Jegan revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+  - turn: 13
+    active_player: "Tonii"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Zaku Ⅱ"
+        declared_target: "Gundam Barbatos Adapt"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 2 HP remaining"
+          - "Breach 3 Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Guntank"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 1 damage, now destroyed"
+          - "Guntank received 3 damage, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 2 damage, now destroyed"
+          - "Graze Custom received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 15
+    active_player: "Tonii"
+    actions: []
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "No targets for Sword Impulse Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ revealed and discarded"
+  - turn: 17
+    active_player: "Tonii"
+    actions:
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Hyakuren and Gundam Barbatos 1st Form moved to trash"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+  - turn: 19
+    active_player: "Tonii"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Guntank"
+        linked: false
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Guntank"
+        declared_target: "Sword Impulse Gundam"
+        blockers: "none"
+        final_target: "Sword Impulse Gundam"
+        outcome:
+          - "Sword Impulse Gundam received 3 damage, now destroyed"
+          - "Guntank received 3 damage, leaving 1 HP remaining"
+          - "Healed 2 damage to: Guntank"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 21
+    active_player: "Tonii"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Jegan"
+        linked: false
+        effects:
+          - "Rested unit: Gundam Exia Repair"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Guntank"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Guntank received 2 damage, leaving 1 HP remaining"
+          - "Healed 2 damage to: Guntank"
+          - "Gundam Exia Repair milled 2: Gundam Gusion Rebake and Isaribi moved to trash"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 23
+    active_player: "Tonii"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Jegan"
+        effects:
+          - "Kayra's Jegan: Modifier applied to: Kayra's Jegan"
+      - action: "pair_pilot"
+        pilot: "Kayra Su"
+        unit: "Kayra's Jegan"
+        linked: true
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Kayra's Jegan"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Kiraya"
+            card: "Become a Shield"
+            effects:
+              - "Become a Shield: Dealt 1 damage to: Gundam Barbatos 1st Form and Kayra's Jegan"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+          - "Kayra's Jegan received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 24
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Already rested unit: Guntank"
+  - turn: 25
+    active_player: "Tonii"
+    actions:
+      - action: "play_base"
+        card: "Corsica Base"
+        effects:
+          - "No more Shield cards to add to hand"
+      - action: "deploy"
+        card: "Tallgeese"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Tonii"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, now destroyed"
+  - turn: 26
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos 1st Form and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Tallgeese, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Gundam Barbatos 1st Form exiled from the game"
+casualties:
+  Tonii:
+    - card: "Jegan"
+      turn: 6
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Nu Gundam"
+      turn: 9
+    - card: "Zaku Ⅱ"
+      turn: 13
+    - card: "Guntank"
+      turn: 13
+    - card: "Nu Gundam"
+      turn: 14
+    - card: "Kayra's Jegan"
+      turn: 23
+    - card: "Tallgeese"
+      turn: 26
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 6
+    - card: "Gundam Barbatos Adapt"
+      turn: 7
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 9
+    - card: "Isaribi"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Gundam Barbatos 1st Form"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 14
+    - card: "Gundam Exia Repair"
+      turn: 17
+    - card: "Sword Impulse Gundam"
+      turn: 19
+    - card: "Gundam Exia Repair"
+      turn: 21
+    - card: "Gundam Barbatos 1st Form"
+      turn: 23
+    - card: "Isaribi"
+      turn: 25
+shields_tally:
+  Tonii:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_remaining: 1
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p, mono-Purple Tekkadan) in 26 turni: corsa alle shield stravinta — Tonii senza shield già dal t18 ('No more Shield cards' confermato al t25), Kiraya chiude con 1 shield e la seconda Isaribi consumata."
+  - "Pattern offensivo chiave di Kiraya: unità con self-ping (Ryusei-Go, Barbatos Adapt, Gusion Rebake, Sword Impulse) + il ping di Mikazuki al pair = rimozione gratuita delle unità piccole e corpi sempre 'damaged' per le sinergie Tekkadan. Barbatos Adapt + Mikazuki usato due volte (t6, t10)."
+  - "Piano di Tonii: Nu Gundam (GD05-020) + Amuro = rest della minaccia + attacco da 6 con Breach 3 (t7, t9, t13). Rimuove sempre la cima della curva di Kiraya ma muore o quasi in ogni scambio: tre Nu Gundam finiti 1-per-1. Il When Paired di Amuro è stato sprecato due volte su unità già rested dall'attacco del turno prima (t7, t9)."
+  - "Isaribi MVP difensivo: la prima copia assorbe i due Breach 3 (t7+t9), la seconda (t24) altri 7 danni al t25 — ~13 danni tenuti fuori dalle shield, più 2 shield convertite in carte in mano."
+  - "Il blocco con Gusion Rebake (t13) ha salvato Barbatos 1st Form dal Nu Gundam ma ha esposto una shield al Breach 3, e 1st Form è morto comunque al Guntank nello stesso turno: blocco a valore negativo col senno di poi."
+  - "Mid-game di logoramento (t14–t22) a mani vuote: Guntank + Amuro (GD05-085, cura 2 a ogni uccisione) ha vinto tre scambi di fila sopravvivendo sempre a 1 HP — il pilota-cura su un corpo economico è stato il miglior investimento di Tonii."
+  - "Chiusura: Barbatos Lupus (GD03-050) al t26 converte il trash accumulato dai sacrifici (6 carte esiliate in due attivazioni) in rimozione ripetuta; con Tonii a 0 shield la seconda attivazione chiude la partita ('Winner!' senza attacco registrato: resa o stato irrecuperabile)."
+  - "Corsica Base al t25 è arrivata troppo tardi: il suo Deploy non ha trovato shield da aggiungere alla mano; da giocare quando le shield esistono ancora."

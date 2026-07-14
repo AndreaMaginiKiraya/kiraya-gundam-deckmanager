@@ -314,6 +314,65 @@ def search_rules(query: str, limit: int = 10) -> list[str]:
 
 
 @mcp.tool()
+def import_game_log(
+    log_text: str,
+    name: str,
+    result: str | None = None,
+    decks: dict[str, str] | None = None,
+    overwrite: bool = False,
+) -> dict:
+    """Convert a plain-text game log (chat export from an online GCG client
+    like Mobile Suit Arena) into a structured YAML game record saved to
+    data/games/<name>.yaml, for the played-games knowledge base.
+
+    Parses setup (first player, mulligans), every turn's actions (deploys,
+    pilot pairings, bases, commands, activations) and battles (declared and
+    final target, blockers, action-step plays, damage, shield reveals,
+    Breach), tallies each player's EX Base / shields and explicit unit
+    destructions (casualties, per player with turn numbers), and resolves
+    card names against the local database. The raw log is saved alongside
+    as data/games/<name>.log so records can be regenerated when the parser
+    improves.
+
+    Card names shared by multiple printings can't be auto-resolved from a
+    log: they're saved with id: null plus a candidates list and reported in
+    cards_ambiguous — edit the YAML afterwards to pin the right id (pick by
+    the effects/stats the log shows). study_notes is saved empty, meant to
+    be filled in by hand (or by an LLM) after the import. Lines the parser
+    didn't understand are kept under unparsed_lines rather than dropped.
+
+    Args:
+        log_text: The raw log text ("Turn 1 started!", "X deployed", ...).
+        name: Record name; subfolders allowed (e.g. "2026-07/kiraya-vs-x").
+        result: Outcome to record, e.g. "win:Kiraya". Defaults to the
+                winner detected from the log's "Winner!" line, else
+                "unknown" (logs often stop before the end).
+        decks: Optional mapping of player name -> saved deck name (from
+               list_decks) to record which deck each player was on.
+        overwrite: Must be True to replace an existing record. Hand-made
+                   annotations in the old record survive the re-import:
+                   pinned card ids, custom card notes, study_notes, result,
+                   and deck names are carried over automatically (reported
+                   in annotations_carried_over).
+
+    Returns:
+        Summary: path, log_path, players, result, turn/action counts,
+        cards_resolved, cards_ambiguous, cards_not_found, unparsed_lines,
+        shields_tally, annotations_carried_over.
+    """
+    return tools.import_game_log_impl(
+        log_text, name, result=result, decks=decks, overwrite=overwrite
+    )
+
+
+@mcp.tool()
+def list_games() -> list[str]:
+    """List saved game-record names in data/games/ (the played-games
+    knowledge base written by import_game_log), including subfolders."""
+    return data.list_game_files()
+
+
+@mcp.tool()
 def update_card_data(only: str | None = None) -> dict:
     """Refresh the local card database from upstream sources and pick up
     the changes immediately (no reconnect needed).

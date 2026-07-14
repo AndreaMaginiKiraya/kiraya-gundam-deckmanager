@@ -1,0 +1,503 @@
+"""Parse chat-exported game logs into structured game records for data/games/.
+
+The input format is the plain-text play-by-play that online GCG clients
+(e.g. Mobile Suit Arena) produce: "Turn 3 started!", "Zaku Ⅱ deployed",
+"Battle declared: ...". `parse_game_log` turns that into plain dicts/lists;
+`dump_yaml` renders such a structure as YAML with no YAML library needed
+(string scalars are emitted JSON-quoted, and JSON is a YAML subset).
+
+This module is pure text processing: resolving card names against the card
+database and writing files lives in tools.import_game_log_impl, not here.
+"""
+from __future__ import annotations
+
+import json
+import re
+
+# Per the Comprehensive Rules (6-4-4/6-4-5): 6 shields + 1 EX Base each.
+STARTING_SHIELDS = 6
+
+_SETUP_CHOICES = {
+    "Choose to play first": "choose_first_player",
+    "Choose to keep starting hand": "keep_hand",
+    "Choose to mulligan starting hand": "mulligan",
+}
+# Flow markers that carry no information beyond what the structure already
+# captures (turn boundaries create turns; passes/priority are implicit).
+_MARKERS = {
+    "Game started!",
+    "Game ended!",
+    "Turn end phase started",
+    "Turn ended!",
+    "Action step",
+    "Passed",
+}
+
+_TURN_START_RE = re.compile(r"^Turn (\d+) started!$")
+_DEPLOYED_RE = re.compile(r"^(.+?) deployed$")
+_PLAYED_BASE_RE = re.compile(r"^Played base: (.+)$")
+_PLAYED_ACTION_RE = re.compile(r"^Played action: (.+)$")
+_ACTIVATED_RE = re.compile(r"^Activated: (.+)$")
+# "Linked" = the unit's link condition is met; "Paired" = a plain pairing.
+_PAIR_PILOT_RE = re.compile(r"^(Linked|Paired) pilot: (.+?) on unit (.+)$")
+_BATTLE_DECLARED_RE = re.compile(r"^Battle declared: (.+?) against (.+)$")
+_BATTLE_STARTED_RE = re.compile(r"^Battle started: (.+?) against (.+)$")
+_ASSIGNED_BLOCKER_RE = re.compile(r"^Assigned (.+?) to block$")
+_SHIELD_DISCARDED_RE = re.compile(r"^Shield card: (.+?) revealed and discarded$")
+_SHIELD_REVEALED_RE = re.compile(r"^Shield card: (.+?) revealed$")
+_SHIELD_TO_HAND_RE = re.compile(r"^Shield card added to hand(?:: (.+))?$")
+# "Breach 3: : Isaribi received ..." (base hit, doubled colon as observed) or
+# "Breach 3 Shield card: X revealed and discarded" (shield hit, no colon).
+_BREACH_RE = re.compile(r"^Breach \d+\s*:?\s*:?\s*(.+)$")
+_RECEIVED_RE = re.compile(
+    r"^(.+?) received \d+ damage, (?:now destroyed|leaving \d+ HP remaining)$"
+)
+_DEALT_RE = re.compile(
+    r"^(.+?): Dealt \d+ damage to:? .+?(?:, (?:now destroyed|leaving \d+ HP remaining))?$"
+)
+# Single-target effect damage that kills ("Guntank: Dealt 1 damage to X, now
+# destroyed"). The multi-target form uses "to:" and never carries a
+# destroyed suffix, so requiring a non-colon after "to" keeps them apart.
+_DEALT_DESTROYED_RE = re.compile(r"^.+?: Dealt \d+ damage to ([^:].*?), now destroyed$")
+_DRAW_RE = re.compile(r"^.+?: Draw a card$")
+_MODIFIER_RE = re.compile(r"^.+?: Modifier applied to: .+$")
+_MILLED_RE = re.compile(r"^(.+?) milled \d+: (.+?) moved to trash$")
+_EXILED_RE = re.compile(r"^(.+?) exiled from the game$")
+_HEALED_RE = re.compile(r"^Healed \d+ damage to: .+$")
+_RESTED_RE = re.compile(r"^(?:Already rested|Rested) unit: .+$")
+_RESOURCE_EX_RE = re.compile(r"^Placed \d+ Resource EX$")
+_NO_TARGETS_RE = re.compile(r"^No targets for .+$")
+_NO_MORE_SHIELDS_RE = re.compile(r"^No more Shield cards to add to hand$")
+_SELECTING_RE = re.compile(r"^Selecting target for .+$")
+_DISCARDED_RE = re.compile(r"^(.+?) discarded$")
+
+_NAME_LIST_SPLIT_RE = re.compile(r",\s+|\s+and\s+")
+
+
+def _split_names(joined: str) -> list[str]:
+    """Split an 'A, B and C' card-name list. Best effort: a card name that
+    itself contains ' and ' would be split wrongly, but none exist today."""
+    return [n.strip() for n in _NAME_LIST_SPLIT_RE.split(joined) if n.strip()]
+
+
+def parse_game_log(text: str) -> dict:
+    """Parse a chat-exported game log into a structured dict.
+
+    Returns players, first_player, mulligans, setup choices, per-turn action
+    lists, every card name seen (with owners/contexts, for later database
+    resolution), a per-player shield tally, the detected winner (if the log
+    reaches "Winner!"), and any lines that didn't match a known pattern
+    (`unparsed`) so nothing gets dropped silently.
+    """
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+
+    # Anything before "Game started!" is the client's header banner.
+    source_header = None
+    if "Game started!" in lines:
+        start = lines.index("Game started!")
+        if start > 0:
+            source_header = " / ".join(lines[:start])
+        lines = lines[start:]
+
+    # Player names are the lines immediately preceding a setup-choice line.
+    players: list[str] = []
+    for i, ln in enumerate(lines):
+        if ln in _SETUP_CHOICES and i > 0:
+            prev = lines[i - 1]
+            if prev not in _SETUP_CHOICES and prev not in _MARKERS and prev not in players:
+                players.append(prev)
+
+    def other(player: str | None) -> str | None:
+        for p in players:
+            if p != player:
+                return p
+        return None
+
+    setup: list[dict] = []
+    turns: list[dict] = []
+    unparsed: list[str] = []
+    deaths: list[tuple[str, int]] = []
+    seen_cards: dict[str, dict] = {}
+    mulligans: dict[str, bool] = {p: False for p in players}
+    tally = {
+        p: {"ex_base_destroyed_turn": None, "shields_lost": 0, "shields_to_hand": 0}
+        for p in players
+    }
+    first_player: str | None = None
+    winner: str | None = None
+
+    actor: str | None = None
+    turn: dict | None = None
+    last_action: dict | None = None
+    battle: dict | None = None
+    # Command played during a battle's action step: its effect lines attach
+    # here instead of the battle outcome until the damage step starts.
+    action_step_play: dict | None = None
+
+    def note_card(name: str, owner: str | None = None, context: str | None = None) -> None:
+        entry = seen_cards.setdefault(name, {"owners": set(), "contexts": set()})
+        if owner:
+            entry["owners"].add(owner)
+        if context:
+            entry["contexts"].add(context)
+
+    def add_action(action: dict) -> None:
+        nonlocal last_action
+        if turn is None:
+            unparsed.append(json.dumps(action, ensure_ascii=False))
+            return
+        turn["actions"].append(action)
+        last_action = action
+
+    def add_effect(raw: str) -> None:
+        if action_step_play is not None:
+            action_step_play.setdefault("effects", []).append(raw)
+        elif battle is not None:
+            battle.setdefault("outcome", []).append(raw)
+        elif last_action is not None:
+            last_action.setdefault("effects", []).append(raw)
+        elif turn is not None:
+            turn["actions"].append({"action": "event", "player": actor, "text": raw})
+        else:
+            unparsed.append(raw)
+
+    def defender() -> str | None:
+        if battle is not None and battle.get("player"):
+            return other(battle["player"])
+        return actor
+
+    def record_death(name: str) -> None:
+        """Explicitly-logged destructions only: units killed by cumulative
+        pings without a 'now destroyed' line stay implicit here too."""
+        if name != "EX Base" and turn is not None:
+            deaths.append((name, turn["turn"]))
+
+    def handle_shield_line(raw: str, inner: str) -> bool:
+        """Shield reveals/discards/to-hand; `raw` may carry a Breach prefix."""
+        m = _SHIELD_DISCARDED_RE.match(inner)
+        if m:
+            owner = defender()
+            if owner in tally:
+                tally[owner]["shields_lost"] += 1
+            note_card(m.group(1), owner=owner, context="shield")
+            add_effect(raw)
+            return True
+        m = _SHIELD_TO_HAND_RE.match(inner)
+        if m:
+            owner = defender()
+            if owner in tally:
+                tally[owner]["shields_to_hand"] += 1
+            if m.group(1):
+                note_card(m.group(1), owner=owner, context="shield")
+            add_effect(raw)
+            return True
+        m = _SHIELD_REVEALED_RE.match(inner)
+        if m:
+            # Reveal only; the following line says where the card went.
+            note_card(m.group(1), owner=defender(), context="shield")
+            add_effect(raw)
+            return True
+        return False
+
+    for ln in lines:
+        if ln in players:
+            actor = ln
+            continue
+        choice = _SETUP_CHOICES.get(ln)
+        if choice:
+            setup.append({"player": actor, "action": choice})
+            if choice == "choose_first_player":
+                first_player = actor
+            elif choice == "mulligan" and actor in mulligans:
+                mulligans[actor] = True
+            continue
+        m = _TURN_START_RE.match(ln)
+        if m:
+            turn = {"turn": int(m.group(1)), "active_player": None, "actions": []}
+            turns.append(turn)
+            last_action = None
+            battle = None
+            action_step_play = None
+            continue
+        if ln == "Winner!":
+            winner = actor
+            continue
+        if ln in _MARKERS:
+            continue
+        if _SELECTING_RE.match(ln):
+            continue
+
+        # --- battle flow ---
+        if ln == "Battle initiated":
+            battle = {"action": "attack"}
+            action_step_play = None
+            continue
+        m = _BATTLE_DECLARED_RE.match(ln)
+        if m and battle is not None:
+            battle["player"] = actor
+            battle["attacker"] = m.group(1)
+            target = m.group(2)
+            battle["declared_target"] = "player" if target == "Enemy Player" else target
+            note_card(m.group(1), owner=actor, context="attacker")
+            continue
+        if ln in ("No blockers available", "Assigned no blocker"):
+            if battle is not None:
+                battle["blockers"] = "none"
+            continue
+        m = _ASSIGNED_BLOCKER_RE.match(ln)
+        if m and battle is not None:
+            battle["blockers"] = m.group(1)
+            note_card(m.group(1), owner=defender(), context="blocker")
+            continue
+        m = _BATTLE_STARTED_RE.match(ln)
+        if m and battle is not None:
+            target = m.group(2)
+            battle["final_target"] = {"Enemy Player": "player", "Enemy Shield": "shield"}.get(
+                target, target
+            )
+            action_step_play = None
+            continue
+        if ln == "Battle ended":
+            if battle is not None:
+                add_action(battle)
+                battle = None
+                action_step_play = None
+            continue
+
+        # --- actions ---
+        m = _PLAYED_ACTION_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="command")
+            play = {"action": "play_command", "player": actor, "card": m.group(1)}
+            if battle is not None:
+                battle.setdefault("action_step", []).append(play)
+                action_step_play = play
+            else:
+                add_action(play)
+            continue
+        m = _ACTIVATED_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="activated")
+            add_action({"action": "activate", "card": m.group(1)})
+            continue
+        m = _DEPLOYED_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="deployed")
+            add_action({"action": "deploy", "card": m.group(1)})
+            continue
+        m = _PLAYED_BASE_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="base")
+            add_action({"action": "play_base", "card": m.group(1)})
+            continue
+        m = _PAIR_PILOT_RE.match(ln)
+        if m:
+            note_card(m.group(2), owner=actor, context="pilot")
+            add_action(
+                {
+                    "action": "pair_pilot",
+                    "pilot": m.group(2),
+                    "unit": m.group(3),
+                    "linked": m.group(1) == "Linked",
+                }
+            )
+            continue
+
+        # --- effects / damage / shields ---
+        if handle_shield_line(ln, ln):
+            continue
+        m = _BREACH_RE.match(ln)
+        if m and ln.startswith("Breach"):
+            inner = m.group(1)
+            if not handle_shield_line(ln, inner):
+                inner_m = _RECEIVED_RE.match(inner)
+                if inner_m and inner.endswith("now destroyed"):
+                    record_death(inner_m.group(1))
+                add_effect(ln)
+            continue
+        m = _RECEIVED_RE.match(ln)
+        if m:
+            if ln.endswith("now destroyed"):
+                if m.group(1) == "EX Base":
+                    owner = defender()
+                    if owner in tally and turn is not None:
+                        tally[owner]["ex_base_destroyed_turn"] = turn["turn"]
+                else:
+                    record_death(m.group(1))
+            add_effect(ln)
+            continue
+        m = _DEALT_DESTROYED_RE.match(ln)
+        if m:
+            record_death(m.group(1))
+            add_effect(ln)
+            continue
+        m = _MILLED_RE.match(ln)
+        if m:
+            for name in _split_names(m.group(2)):
+                note_card(name, owner=actor, context="milled")
+            add_effect(ln)
+            continue
+        m = _EXILED_RE.match(ln)
+        if m:
+            for name in _split_names(m.group(1)):
+                note_card(name, owner=actor, context="exiled")
+            add_effect(ln)
+            continue
+        if _MODIFIER_RE.match(ln):
+            if battle is not None and action_step_play is None:
+                battle.setdefault("modifiers", []).append(ln)
+            else:
+                add_effect(ln)
+            continue
+        if (
+            _DEALT_RE.match(ln)
+            or _DRAW_RE.match(ln)
+            or _HEALED_RE.match(ln)
+            or _RESTED_RE.match(ln)
+            or _RESOURCE_EX_RE.match(ln)
+            or _NO_TARGETS_RE.match(ln)
+            or _NO_MORE_SHIELDS_RE.match(ln)
+        ):
+            add_effect(ln)
+            continue
+        m = _DISCARDED_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="discarded")
+            add_effect(ln)
+            continue
+
+        unparsed.append(ln)
+
+    # A log truncated mid-battle still keeps what the battle recorded so far.
+    if battle is not None:
+        add_action(battle)
+
+    if first_player in players:
+        start = players.index(first_player)
+        for t in turns:
+            t["active_player"] = players[(start + t["turn"] - 1) % len(players)]
+
+    # Attribute explicit destructions to the card's owner (known once the
+    # whole log is read); names both players used end up unattributed.
+    casualties: dict[str, list[dict]] = {p: [] for p in players}
+    unattributed: list[dict] = []
+    for name, turn_no in deaths:
+        owners = seen_cards.get(name, {}).get("owners", set())
+        entry = {"card": name, "turn": turn_no}
+        if len(owners) == 1:
+            casualties[next(iter(owners))].append(entry)
+        else:
+            unattributed.append(entry)
+    if unattributed:
+        casualties["unattributed"] = unattributed
+
+    shields_tally: dict[str, dict] = {}
+    for p in players:
+        t = tally[p]
+        destroyed_turn = t["ex_base_destroyed_turn"]
+        shields_tally[p] = {
+            "ex_base": (
+                f"destroyed (turn {destroyed_turn})"
+                if destroyed_turn is not None
+                else "not destroyed in log"
+            ),
+            "shields_lost": t["shields_lost"],
+            "shields_to_hand": t["shields_to_hand"],
+            "shields_remaining": max(
+                STARTING_SHIELDS - t["shields_lost"] - t["shields_to_hand"], 0
+            ),
+        }
+
+    return {
+        "source_header": source_header,
+        "players": players,
+        "first_player": first_player,
+        "mulligans": mulligans,
+        "winner": winner,
+        "setup": setup,
+        "turns": turns,
+        "cards_seen": {
+            name: {"owners": sorted(info["owners"]), "contexts": sorted(info["contexts"])}
+            for name, info in seen_cards.items()
+        },
+        "casualties": casualties,
+        "shields_tally": shields_tally,
+        "unparsed": unparsed,
+    }
+
+
+# --- minimal YAML emitter -------------------------------------------------
+
+_PLAIN_KEY_RE = re.compile(r"^[A-Za-z0-9_]+$")
+
+
+def _scalar(value) -> str:
+    if value is None:
+        return "null"
+    if value is True:
+        return "true"
+    if value is False:
+        return "false"
+    if isinstance(value, (int, float)):
+        return str(value)
+    # JSON string quoting is valid YAML and sidesteps every YAML quoting rule.
+    return json.dumps(str(value), ensure_ascii=False)
+
+
+def _key(k) -> str:
+    s = str(k)
+    return s if _PLAIN_KEY_RE.match(s) else json.dumps(s, ensure_ascii=False)
+
+
+def _emit_mapping(mapping: dict, indent: int, lines: list[str]) -> None:
+    pad = "  " * indent
+    for k, v in mapping.items():
+        if isinstance(v, dict) and v:
+            lines.append(f"{pad}{_key(k)}:")
+            _emit_mapping(v, indent + 1, lines)
+        elif isinstance(v, list) and v:
+            lines.append(f"{pad}{_key(k)}:")
+            _emit_sequence(v, indent + 1, lines)
+        elif isinstance(v, dict):
+            lines.append(f"{pad}{_key(k)}: {{}}")
+        elif isinstance(v, list):
+            lines.append(f"{pad}{_key(k)}: []")
+        else:
+            lines.append(f"{pad}{_key(k)}: {_scalar(v)}")
+
+
+def _emit_sequence(seq: list, indent: int, lines: list[str]) -> None:
+    pad = "  " * indent
+    for item in seq:
+        if isinstance(item, dict) and item:
+            sub: list[str] = []
+            _emit_mapping(item, indent + 1, sub)
+            lines.append(f"{pad}- {sub[0].lstrip()}")
+            lines.extend(sub[1:])
+        elif isinstance(item, list) and item:
+            lines.append(f"{pad}-")
+            _emit_sequence(item, indent + 1, lines)
+        elif isinstance(item, dict):
+            lines.append(f"{pad}- {{}}")
+        elif isinstance(item, list):
+            lines.append(f"{pad}- []")
+        else:
+            lines.append(f"{pad}- {_scalar(item)}")
+
+
+def dump_yaml(value) -> str:
+    """Render nested dicts/lists/scalars as YAML text. Strings are emitted
+    JSON-quoted (valid YAML), so arbitrary card names are always safe."""
+    if isinstance(value, dict):
+        if not value:
+            return "{}\n"
+        lines: list[str] = []
+        _emit_mapping(value, 0, lines)
+    elif isinstance(value, list):
+        if not value:
+            return "[]\n"
+        lines = []
+        _emit_sequence(value, 0, lines)
+    else:
+        return _scalar(value) + "\n"
+    return "\n".join(lines) + "\n"

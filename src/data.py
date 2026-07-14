@@ -15,6 +15,7 @@ _DATA_DIR = _PROJECT_ROOT / "data" / "cards" / "en"
 _BANLIST_PATH = _PROJECT_ROOT / "data" / "rules" / "banlist.json"
 _RULES_PATH = _PROJECT_ROOT / "data" / "rules" / "comprehensive_rules.md"
 _DECKS_DIR = _PROJECT_ROOT / "data" / "decks"
+_GAMES_DIR = _PROJECT_ROOT / "data" / "games"
 
 
 def search_fold(s: str) -> str:
@@ -516,6 +517,63 @@ def rename_deck(old_name: str, new_name: str) -> list[str]:
         old_png.rename(new_png)
         moved.append(str(new_png))
     return moved
+
+
+def _game_path(name: str, suffix: str = ".yaml") -> Path:
+    """Resolve a game-record name (optionally with subfolders) to a path
+    under data/games/, rejecting anything that would escape it — same
+    guard as _deck_path, and for the same reason: the name comes from the
+    MCP client."""
+    games_root = _GAMES_DIR.resolve()
+    path = (games_root / f"{name}{suffix}").resolve()
+    if not path.is_relative_to(games_root):
+        raise ValueError(f"Invalid game name {name!r}: must stay inside data/games/")
+    return path
+
+
+def save_game_file(name: str, text: str, overwrite: bool = False) -> Path:
+    """Write a game-record YAML to data/games/<name>.yaml. Refuses to
+    replace an existing record unless overwrite=True — game records are a
+    knowledge base, often hand-annotated after import (pinned card ids,
+    study notes), so silent clobbering would lose work."""
+    path = _game_path(name)
+    if path.exists() and not overwrite:
+        raise FileExistsError(
+            f"Game record '{name}' already exists; pass overwrite=True to replace it"
+        )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    return path
+
+
+def save_game_log(name: str, text: str) -> Path:
+    """Write the raw source log next to the YAML record (<name>.log), so
+    records can be regenerated when the parser or record format evolves.
+    No overwrite guard: it's paired with save_game_file, which has one."""
+    path = _game_path(name, ".log")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    return path
+
+
+def load_game_text(name: str) -> str | None:
+    """Raw text of a saved game record (data/games/<name>.yaml), or None
+    if it doesn't exist."""
+    path = _game_path(name)
+    if not path.exists():
+        return None
+    return path.read_text(encoding="utf-8")
+
+
+def list_game_files() -> list[str]:
+    """List saved game-record names in data/games/, recursing into
+    subfolders — same naming convention as list_deck_files."""
+    if not _GAMES_DIR.exists():
+        return []
+    return sorted(
+        p.relative_to(_GAMES_DIR).with_suffix("").as_posix()
+        for p in _GAMES_DIR.rglob("*.yaml")
+    )
 
 
 @lru_cache(maxsize=1)

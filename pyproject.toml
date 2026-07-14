@@ -10,6 +10,7 @@ dependencies = [
     "mcp[cli]>=1.0",
     "httpx>=0.27",
     "Pillow>=10",
+    "PyYAML>=6.0",  # read game records back on re-import (annotation carry-over)
 ]
 
 [project.optional-dependencies]
