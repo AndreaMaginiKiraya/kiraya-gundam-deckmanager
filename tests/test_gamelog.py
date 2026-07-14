@@ -12,11 +12,17 @@ import yaml
 from src import data, gamelog, tools
 
 LOG = (Path(__file__).parent / "fixtures" / "sample_game_log.txt").read_text(encoding="utf-8")
+LOG2 = (Path(__file__).parent / "fixtures" / "sample_game_log2.txt").read_text(encoding="utf-8")
 
 
 @pytest.fixture(scope="module")
 def parsed():
     return gamelog.parse_game_log(LOG)
+
+
+@pytest.fixture(scope="module")
+def parsed2():
+    return gamelog.parse_game_log(LOG2)
 
 
 def test_players_setup_and_winner(parsed):
@@ -144,6 +150,70 @@ def test_cards_seen_owners(parsed):
     assert seen["Nu Gundam"]["owners"] == ["Tonii"]
     assert "shield" in seen["Hyakuren"]["contexts"]
     assert "blocker" in seen["Gundam Gusion Rebake"]["contexts"]
+
+
+def test_second_log_players_winner_and_full_coverage(parsed2):
+    assert parsed2["players"] == ["Kiraya", "0622"]
+    assert parsed2["first_player"] == "Kiraya"
+    assert parsed2["winner"] == "0622"
+    assert parsed2["unparsed"] == []
+    assert [t["turn"] for t in parsed2["turns"]] == list(range(1, 25))
+
+
+def test_main_phase_command_play(parsed2):
+    turn2 = parsed2["turns"][1]
+    play = turn2["actions"][0]
+    assert play["action"] == "play_command"
+    assert play["card"] == "Overflowing Affection"
+    assert any("Draw 2 cards" in e for e in play["effects"])
+    assert any("Rick Dias discarded" in e for e in play["effects"])
+
+
+def test_multi_name_discard_notes_each_card(parsed2):
+    seen = parsed2["cards_seen"]
+    # "Rick Dias and Gundam Lfrith discarded" (turn 16, Strike Freedom cost)
+    assert "discarded" in seen["Gundam Lfrith"]["contexts"]
+    assert "discarded" in seen["Rick Dias"]["contexts"]
+    assert "Rick Dias and Gundam Lfrith" not in seen
+    # "X returned to deck/hand" is recognized, not unparsed
+    assert "returned" in seen["Gundam Barbatos Lupus"]["contexts"]
+
+
+def test_burst_deployed_shield_counts_in_tally(parsed2):
+    tally = parsed2["shields_tally"]
+    # 0622: Nahel Argama Burst-deployed from shields (t9), 4 shields to hand
+    # (base deploys t6/t9 + Kira Yamato reveals t15/t17), Freedom discarded
+    # (t17) -> 0 left, matching "No more Shield cards to add to hand" (t20).
+    assert tally["0622"]["shields_deployed"] == 1
+    assert tally["0622"]["shields_to_hand"] == 4
+    assert tally["0622"]["shields_lost"] == 1
+    assert tally["0622"]["shields_remaining"] == 0
+    # Kiraya: 5 discarded + Mikazuki to hand -> lethal on turn 24.
+    assert tally["Kiraya"]["shields_lost"] == 5
+    assert tally["Kiraya"]["shields_to_hand"] == 1
+    assert tally["Kiraya"]["shields_remaining"] == 0
+    assert tally["Kiraya"]["ex_base"] == "destroyed (turn 18)"
+    assert tally["0622"]["ex_base"] == "destroyed (turn 5)"
+
+
+def test_numeric_player_name_stays_a_string_in_yaml():
+    text = gamelog.dump_yaml({"0622": {"first_player": False}})
+    assert yaml.safe_load(text) == {"0622": {"first_player": False}}
+
+
+def test_deck_resolves_ambiguous_printings(tmp_path, monkeypatch):
+    monkeypatch.setattr(data, "_GAMES_DIR", tmp_path)
+    summary = tools.import_game_log_impl(LOG2, "g2", decks={"Kiraya": "aggro_mono_p"})
+    # Multiple printings share these names, but only one is in the deck.
+    assert summary["cards_resolved"]["Gundam Barbatos 1st Form"] == "GD02-054"
+    assert summary["cards_resolved"]["Gundam Barbatos Lupus"] == "GD03-050"
+    assert summary["cards_resolved"]["Gundam Gusion Rebake"] == "GD02-055"
+    assert "Gundam Barbatos 1st Form" not in summary["cards_ambiguous"]
+    # Token-only names resolve to the token (deployed by Justice's effect).
+    assert summary["cards_resolved"]["Fatum-00"] == "T-011"
+    assert summary["cards_not_found"] == []
+    doc = yaml.safe_load(Path(summary["path"]).read_text(encoding="utf-8"))
+    assert "resolved via saved deck" in doc["cards"]["Gundam Barbatos 1st Form"]["note"]
 
 
 def test_dump_yaml_quotes_are_safe():

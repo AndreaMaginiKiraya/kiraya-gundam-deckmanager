@@ -36,7 +36,8 @@ _MARKERS = {
 _TURN_START_RE = re.compile(r"^Turn (\d+) started!$")
 _DEPLOYED_RE = re.compile(r"^(.+?) deployed$")
 _PLAYED_BASE_RE = re.compile(r"^Played base: (.+)$")
-_PLAYED_ACTION_RE = re.compile(r"^Played action: (.+)$")
+# "action" = played during a battle's action step, "command" = main phase.
+_PLAYED_ACTION_RE = re.compile(r"^Played (?:action|command): (.+)$")
 _ACTIVATED_RE = re.compile(r"^Activated: (.+)$")
 # "Linked" = the unit's link condition is met; "Paired" = a plain pairing.
 _PAIR_PILOT_RE = re.compile(r"^(Linked|Paired) pilot: (.+?) on unit (.+)$")
@@ -59,15 +60,18 @@ _DEALT_RE = re.compile(
 # destroyed"). The multi-target form uses "to:" and never carries a
 # destroyed suffix, so requiring a non-colon after "to" keeps them apart.
 _DEALT_DESTROYED_RE = re.compile(r"^.+?: Dealt \d+ damage to ([^:].*?), now destroyed$")
-_DRAW_RE = re.compile(r"^.+?: Draw a card$")
+_DRAW_RE = re.compile(r"^.+?: Draw (?:a card|\d+ cards?)$")
 _MODIFIER_RE = re.compile(r"^.+?: Modifier applied to: .+$")
+_CHOSE_RE = re.compile(r"^.+?: chose .+$")
 _MILLED_RE = re.compile(r"^(.+?) milled \d+: (.+?) moved to trash$")
 _EXILED_RE = re.compile(r"^(.+?) exiled from the game$")
+_RETURNED_RE = re.compile(r"^(.+?) returned to (?:hand|deck)$")
 _HEALED_RE = re.compile(r"^Healed \d+ damage to: .+$")
 _RESTED_RE = re.compile(r"^(?:Already rested|Rested) unit: .+$")
 _RESOURCE_EX_RE = re.compile(r"^Placed \d+ Resource EX$")
 _NO_TARGETS_RE = re.compile(r"^No targets for .+$")
 _NO_MORE_SHIELDS_RE = re.compile(r"^No more Shield cards to add to hand$")
+_GAME_OVER_RE = re.compile(r"^No more shields available, game is over!$")
 _SELECTING_RE = re.compile(r"^Selecting target for .+$")
 _DISCARDED_RE = re.compile(r"^(.+?) discarded$")
 
@@ -120,7 +124,12 @@ def parse_game_log(text: str) -> dict:
     seen_cards: dict[str, dict] = {}
     mulligans: dict[str, bool] = {p: False for p in players}
     tally = {
-        p: {"ex_base_destroyed_turn": None, "shields_lost": 0, "shields_to_hand": 0}
+        p: {
+            "ex_base_destroyed_turn": None,
+            "shields_lost": 0,
+            "shields_to_hand": 0,
+            "shields_deployed": 0,
+        }
         for p in players
     }
     first_player: str | None = None
@@ -133,6 +142,10 @@ def parse_game_log(text: str) -> dict:
     # Command played during a battle's action step: its effect lines attach
     # here instead of the battle outcome until the damage step starts.
     action_step_play: dict | None = None
+    # Shield revealed but not yet resolved: a following "Played base: <same
+    # name>" means it Burst-deployed out of the shield area (counted apart
+    # from discarded/added-to-hand shields).
+    pending_shield: tuple[str, str | None] | None = None
 
     def note_card(name: str, owner: str | None = None, context: str | None = None) -> None:
         entry = seen_cards.setdefault(name, {"owners": set(), "contexts": set()})
@@ -174,6 +187,7 @@ def parse_game_log(text: str) -> dict:
 
     def handle_shield_line(raw: str, inner: str) -> bool:
         """Shield reveals/discards/to-hand; `raw` may carry a Breach prefix."""
+        nonlocal pending_shield
         m = _SHIELD_DISCARDED_RE.match(inner)
         if m:
             owner = defender()
@@ -189,15 +203,28 @@ def parse_game_log(text: str) -> dict:
                 tally[owner]["shields_to_hand"] += 1
             if m.group(1):
                 note_card(m.group(1), owner=owner, context="shield")
+            pending_shield = None
             add_effect(raw)
             return True
         m = _SHIELD_REVEALED_RE.match(inner)
         if m:
-            # Reveal only; the following line says where the card went.
+            # Reveal only; the following line says where the card went
+            # (added to hand, or Burst-deployed via a "Played base" line).
             note_card(m.group(1), owner=defender(), context="shield")
+            pending_shield = (m.group(1), defender())
             add_effect(raw)
             return True
         return False
+
+    def resolve_pending_shield_deploy(card_name: str) -> None:
+        """A revealed shield that gets played was a Burst deploy: it left
+        the shield area without being discarded or added to hand."""
+        nonlocal pending_shield
+        if pending_shield is not None and pending_shield[0] == card_name:
+            owner = pending_shield[1]
+            if owner in tally:
+                tally[owner]["shields_deployed"] += 1
+            pending_shield = None
 
     for ln in lines:
         if ln in players:
@@ -218,6 +245,7 @@ def parse_game_log(text: str) -> dict:
             last_action = None
             battle = None
             action_step_play = None
+            pending_shield = None
             continue
         if ln == "Winner!":
             winner = actor
@@ -262,11 +290,13 @@ def parse_game_log(text: str) -> dict:
                 add_action(battle)
                 battle = None
                 action_step_play = None
+            pending_shield = None
             continue
 
         # --- actions ---
         m = _PLAYED_ACTION_RE.match(ln)
         if m:
+            resolve_pending_shield_deploy(m.group(1))
             note_card(m.group(1), owner=actor, context="command")
             play = {"action": "play_command", "player": actor, "card": m.group(1)}
             if battle is not None:
@@ -287,6 +317,7 @@ def parse_game_log(text: str) -> dict:
             continue
         m = _PLAYED_BASE_RE.match(ln)
         if m:
+            resolve_pending_shield_deploy(m.group(1))
             note_card(m.group(1), owner=actor, context="base")
             add_action({"action": "play_base", "card": m.group(1)})
             continue
@@ -343,6 +374,11 @@ def parse_game_log(text: str) -> dict:
                 note_card(name, owner=actor, context="exiled")
             add_effect(ln)
             continue
+        m = _RETURNED_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="returned")
+            add_effect(ln)
+            continue
         if _MODIFIER_RE.match(ln):
             if battle is not None and action_step_play is None:
                 battle.setdefault("modifiers", []).append(ln)
@@ -352,17 +388,21 @@ def parse_game_log(text: str) -> dict:
         if (
             _DEALT_RE.match(ln)
             or _DRAW_RE.match(ln)
+            or _CHOSE_RE.match(ln)
             or _HEALED_RE.match(ln)
             or _RESTED_RE.match(ln)
             or _RESOURCE_EX_RE.match(ln)
             or _NO_TARGETS_RE.match(ln)
             or _NO_MORE_SHIELDS_RE.match(ln)
+            or _GAME_OVER_RE.match(ln)
         ):
             add_effect(ln)
             continue
         m = _DISCARDED_RE.match(ln)
         if m:
-            note_card(m.group(1), owner=actor, context="discarded")
+            # Multiple cards can be discarded in one line ("A and B discarded").
+            for name in _split_names(m.group(1)):
+                note_card(name, owner=actor, context="discarded")
             add_effect(ln)
             continue
 
@@ -403,8 +443,13 @@ def parse_game_log(text: str) -> dict:
             ),
             "shields_lost": t["shields_lost"],
             "shields_to_hand": t["shields_to_hand"],
+            "shields_deployed": t["shields_deployed"],
             "shields_remaining": max(
-                STARTING_SHIELDS - t["shields_lost"] - t["shields_to_hand"], 0
+                STARTING_SHIELDS
+                - t["shields_lost"]
+                - t["shields_to_hand"]
+                - t["shields_deployed"],
+                0,
             ),
         }
 
@@ -428,7 +473,9 @@ def parse_game_log(text: str) -> dict:
 
 # --- minimal YAML emitter -------------------------------------------------
 
-_PLAIN_KEY_RE = re.compile(r"^[A-Za-z0-9_]+$")
+# A leading letter/underscore is required: purely numeric-looking keys
+# ("0622" as a player name) would otherwise be parsed back as integers.
+_PLAIN_KEY_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 
 
 def _scalar(value) -> str:

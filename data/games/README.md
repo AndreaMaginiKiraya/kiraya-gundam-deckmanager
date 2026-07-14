@@ -11,8 +11,11 @@ note personalizzate, `study_notes`, `result` e deck — vedi sotto).
 
 ## Flusso
 
-1. Incolla il log della chat a `import_game_log` (parametri utili:
-   `decks={"<player>": "<nome deck salvato>"}`, `result`, `overwrite`).
+1. Incolla il log della chat a `import_game_log`, passando sempre il mazzo
+   giocato dall'utente: `decks={"Kiraya": "<nome deck salvato>"}` (chiederlo
+   se non dichiarato). Oltre a registrarlo nel record, la lista del deck
+   risolve automaticamente le stampe ambigue delle carte di quel giocatore.
+   Altri parametri: `result`, `overwrite`.
 2. Il tool salva il record e riporta `cards_ambiguous`: i nomi condivisi da
    più stampe restano con `id: null` + `candidates`. Pinna a mano l'id
    giusto deducendolo da effetti/statistiche osservati nel log (aggiorna la
@@ -44,7 +47,8 @@ note personalizzate, `study_notes`, `result` e deck — vedi sotto).
   cronologiche): solo quelle che il log dichiara con "now destroyed" —
   le morti implicite da ping cumulativi non compaiono (come nel log).
 - `shields_tally` — EX Base e conteggio shield per giocatore a fine log
-  (6 shield + EX Base in partenza).
+  (6 shield + EX Base in partenza); `shields_deployed` conta le shield
+  uscite dall'area come Burst-deploy (es. basi come Nahel Argama).
 - `study_notes` — osservazioni strategiche, scritte a mano dopo l'import.
 
 I nomi carta nel log usano i numeri romani stampati (es. "Zaku Ⅱ"): la

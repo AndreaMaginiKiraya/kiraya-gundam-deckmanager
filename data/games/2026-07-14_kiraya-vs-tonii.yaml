@@ -60,17 +60,17 @@ cards:
       - "exiled"
   "Gundam Barbatos 1st Form":
     id: "GD02-054"
-    note: "pinned: AP3/HP2 (t13: colpisce per 3 e muore a 1 danno dopo il ping) = GD02-054; ST10-008 è AP4/HP3"
-    owner: "Kiraya"
-    seen:
-      - "deployed"
-      - "exiled"
-      - "milled"
+    note: "resolved via saved deck 'aggro_mono_p'"
     type: "UNIT"
     level: 3
     cost: 2
     ap: 3
     hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
   "Gundam Barbatos Adapt":
     id: "GD03-056"
     type: "UNIT"
@@ -85,18 +85,18 @@ cards:
       - "shield"
   "Gundam Barbatos Lupus":
     id: "GD03-050"
-    note: "pinned: Activate·Main 'esilia 3 (Tekkadan)/(Teiwaz) dal trash → 2 danni' usato due volte al t26 = GD03-050; GD05-059 ha un effetto Attack diverso"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
     owner: "Kiraya"
     seen:
       - "activated"
       - "deployed"
       - "exiled"
       - "shield"
-    type: "UNIT"
-    level: 7
-    cost: 6
-    ap: 5
-    hp: 5
   "Gundam Exia Repair":
     id: "GD05-050"
     type: "UNIT"
@@ -110,18 +110,18 @@ cards:
       - "deployed"
   "Gundam Gusion Rebake":
     id: "GD02-055"
-    note: "pinned: Deploy '1 danno a propria+nemica' (t12) e Blocker (t13) = GD02-055; ST05-005 non ha né il ping né Blocker"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
     owner: "Kiraya"
     seen:
       - "blocker"
       - "deployed"
       - "exiled"
       - "milled"
-    type: "UNIT"
-    level: 5
-    cost: 4
-    ap: 3
-    hp: 5
   Guntank:
     id: null
     candidates:
@@ -267,17 +267,17 @@ cards:
       - "milled"
   "Sword Impulse Gundam":
     id: "GD04-056"
-    note: "pinned: Deploy '1 danno a sé + rest nemico ≤3 AP' (t16 'No targets', t24 su Guntank), HP3 (self-ping lascia 2 HP) e AP3 (t19) = GD04-056; ST09-006 è AP4/HP2"
-    owner: "Kiraya"
-    seen:
-      - "attacker"
-      - "deployed"
-      - "discarded"
+    note: "resolved via saved deck 'aggro_mono_p'"
     type: "UNIT"
     level: 4
     cost: 2
     ap: 3
     hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
   Tallgeese:
     id: null
     candidates:
@@ -808,11 +808,13 @@ shields_tally:
     ex_base: "destroyed (turn 6)"
     shields_lost: 4
     shields_to_hand: 2
+    shields_deployed: 0
     shields_remaining: 0
   Kiraya:
     ex_base: "destroyed (turn 5)"
     shields_lost: 3
     shields_to_hand: 2
+    shields_deployed: 0
     shields_remaining: 1
 study_notes:
   - "Vittoria di Kiraya (aggro_mono_p, mono-Purple Tekkadan) in 26 turni: corsa alle shield stravinta — Tonii senza shield già dal t18 ('No more Shield cards' confermato al t25), Kiraya chiude con 1 shield e la seconda Isaribi consumata."

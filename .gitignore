@@ -24,6 +24,9 @@ env/
 
 # Logs
 *.log
+# ...except raw game logs: they're the source data/games/ records are
+# regenerated from (see data/games/README.md)
+!data/games/**/*.log
 
 # Caches
 .pytest_cache/

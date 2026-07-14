@@ -526,16 +526,18 @@ def _carry_over_annotations(old_doc: dict, doc: dict) -> list[str]:
 def _resolve_log_card_name(name: str) -> list[data.Card]:
     """Cards whose printed name exactly matches a name seen in a game log
     (NFKC-folded, so the log's 'Zaku Ⅱ' and an ASCII 'Zaku II' both work).
-    Parallel prints and tokens are excluded: a log never distinguishes a
-    -p1 from its base print, and tokens aren't deck cards."""
+    Parallel prints are excluded (a log never distinguishes a -p1 from its
+    base print). Real printings win over same-named tokens, but a
+    token-only name resolves to the token — tokens do hit the battlefield
+    (e.g. Fatum-00 deployed by Justice Gundam's effect)."""
     folded = data.search_fold(name)
-    return [
+    matches = [
         c
         for c in data.get_all_cards()
-        if data.search_fold(c.name) == folded
-        and not _PARALLEL_SUFFIX_RE.search(c.id)
-        and "TOKEN" not in (c.card_type or "").upper()
+        if data.search_fold(c.name) == folded and not _PARALLEL_SUFFIX_RE.search(c.id)
     ]
+    non_token = [c for c in matches if "TOKEN" not in (c.card_type or "").upper()]
+    return non_token or matches
 
 
 def import_game_log_impl(
@@ -563,16 +565,36 @@ def import_game_log_impl(
             "'<player>' / 'Choose to play first'."
         )
 
+    # A player's saved decklist can settle printings the log alone can't:
+    # if only one of the candidate ids is in the deck they played, that's it.
+    deck_ids: dict[str, set[str]] = {}
+    for player, deck_name in (decks or {}).items():
+        try:
+            deck_ids[player] = set(data.load_deck(deck_name))
+        except FileNotFoundError:
+            pass
+
     cards_index: dict[str, dict] = {}
-    ambiguous: dict[str, list[str]] = {}
     not_found: list[str] = []
     colors: dict[str, set[str]] = {p: set() for p in players}
     for card_name, info in sorted(parsed["cards_seen"].items()):
         matches = _resolve_log_card_name(card_name)
+        deck_note = None
+        if len(matches) > 1 and len(info["owners"]) == 1:
+            owner_deck = deck_ids.get(info["owners"][0])
+            if owner_deck:
+                in_deck = [c for c in matches if c.id in owner_deck]
+                if len(in_deck) == 1:
+                    matches = in_deck
+                    deck_note = (
+                        f"resolved via saved deck '{decks[info['owners'][0]]}'"
+                    )
         entry: dict = {}
         if len(matches) == 1:
             card = matches[0]
             entry["id"] = card.id
+            if deck_note:
+                entry["note"] = deck_note
             entry["type"] = card.card_type
             for field in ("level", "cost", "ap", "hp"):
                 value = getattr(card, field)
@@ -584,7 +606,6 @@ def import_game_log_impl(
             entry["id"] = None
             entry["candidates"] = sorted(c.id for c in matches)
             entry["note"] = _AMBIGUOUS_CARD_NOTE
-            ambiguous[card_name] = entry["candidates"]
         else:
             entry["id"] = None
             entry["note"] = "not found in card database"
@@ -650,7 +671,13 @@ def import_game_log_impl(
         "cards_resolved": {
             n: e["id"] for n, e in cards_index.items() if e.get("id") is not None
         },
-        "cards_ambiguous": ambiguous,
+        # Computed after annotation carry-over, so re-imports report only
+        # the names that are still genuinely unresolved.
+        "cards_ambiguous": {
+            n: e["candidates"]
+            for n, e in cards_index.items()
+            if e.get("id") is None and e.get("candidates")
+        },
         "cards_not_found": not_found,
         "unparsed_lines": parsed["unparsed"],
         "shields_tally": parsed["shields_tally"],
