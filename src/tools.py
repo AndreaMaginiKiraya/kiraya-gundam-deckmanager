@@ -537,7 +537,18 @@ def _resolve_log_card_name(name: str) -> list[data.Card]:
         if data.search_fold(c.name) == folded and not _PARALLEL_SUFFIX_RE.search(c.id)
     ]
     non_token = [c for c in matches if "TOKEN" not in (c.card_type or "").upper()]
-    return non_token or matches
+    if non_token or matches:
+        return non_token or matches
+    # Last resort: COMMAND cards paired in Pilot mode show up in logs under
+    # their pilot name ("Linked pilot: Ride Mass ..." = Become a Shield).
+    return [
+        c
+        for c in data.get_all_cards()
+        if not _PARALLEL_SUFFIX_RE.search(c.id)
+        and (identity := data.pilot_identity(c)) is not None
+        and data.search_fold(identity[0]) == folded
+        and (c.card_type or "").upper() == "COMMAND"
+    ]
 
 
 def import_game_log_impl(
@@ -595,6 +606,8 @@ def import_game_log_impl(
             entry["id"] = card.id
             if deck_note:
                 entry["note"] = deck_note
+            elif data.search_fold(card.name) != data.search_fold(card_name):
+                entry["note"] = f"pilot mode of the COMMAND card '{card.name}'"
             entry["type"] = card.card_type
             for field in ("level", "cost", "ap", "hp"):
                 value = getattr(card, field)

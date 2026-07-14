@@ -1,0 +1,692 @@
+game:
+  id: "aggro_mono_p/2026-07-14_kiraya-vs-fjfnc"
+  date_imported: "2026-07-14"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+    Fjfnc:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Green"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Fjfnc"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "probabilmente ENTRAMBE le stampe: il rest al pair (t8/t20/t22) e l'AP+2 nei conti dei danni = ST01-010; la 'Healed 2' su Re-GZ (t12, dopo la distruzione — anomalia del client già vista col Guntank della partita vs Tonii) = pattern GD05-085"
+    owner: "Fjfnc"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Gundam:
+    id: "ST01-001"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned: i 6 danni a Isaribi al t20 tornano solo con ST01-001 (AP3 + Amuro 2 + il suo During Pair 'all your Units get AP+1'); AP3/HP4 combaciano anche coi trade t9"
+    owner: "Fjfnc"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  "Kayra Su":
+    id: "GD05-086"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Fjfnc"
+    seen:
+      - "pilot"
+  "Kayra's Jegan":
+    id: "GD05-028"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "Fjfnc"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-020"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    note: "pinned: Breach 3 in pair (t8) e Deploy EX Resource condizionale (assente al t8 col trash vuoto, presente ai t20/t22) = GD05-020; HP4+1 pilota combacia col t8"
+    owner: "Fjfnc"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Fjfnc"
+    seen:
+      - "base"
+      - "shield"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Fjfnc"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Fjfnc"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Ride Mass":
+    id: "GD05-117"
+    note: "pilot mode of the COMMAND card 'Become a Shield'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam Zero":
+    id: "GD01-024"
+    type: "UNIT"
+    level: 8
+    cost: 8
+    ap: 5
+    hp: 7
+    owner: "Fjfnc"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Fjfnc"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Fjfnc"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Fjfnc"
+    actions:
+      - action: "deploy"
+        card: "Rick Dom"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced_ex_base: true
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "Fjfnc"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Rick Dom"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Rick Dom received 2 damage, leaving 1 HP remaining"
+          - "Breach 2: : Isaribi received 2 damage, leaving 3 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Rested unit: Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Rick Dom"
+  - turn: 8
+    active_player: "Fjfnc"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Nu Gundam received 5 damage, now destroyed"
+          - "Breach 3: : Isaribi received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Sword Impulse Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 5 damage, now destroyed"
+          - "Sword Impulse Gundam received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 2nd Form"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 10
+    active_player: "Fjfnc"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Jegan"
+        effects:
+          - "Kayra's Jegan: Modifier applied to: Kayra's Jegan"
+      - action: "pair_pilot"
+        pilot: "Kayra Su"
+        unit: "Kayra's Jegan"
+        linked: true
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Kayra's Jegan"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Kayra's Jegan received 4 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "No targets for Sword Impulse Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+  - turn: 12
+    active_player: "Fjfnc"
+    actions:
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ"
+        linked: true
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Re-GZ"
+        declared_target: "Gundam Barbatos 2nd Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 6 damage, now destroyed"
+          - "Re-GZ received 4 damage, now destroyed"
+          - "Healed 2 damage to: Re-GZ"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos 2nd Form discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 3 damage, leaving 2 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Ride Mass"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 2 damage, now destroyed"
+  - turn: 14
+    active_player: "Fjfnc"
+    actions:
+      - action: "play_command"
+        player: "Fjfnc"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "Fjfnc"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Rick Dom revealed and discarded"
+      - action: "play_base"
+        card: "Ra Cailum"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ra Cailum revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "No targets for Sword Impulse Gundam"
+  - turn: 16
+    active_player: "Fjfnc"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to: Sword Impulse Gundam, Ryusei-Go (Graze Custom Ⅱ) and Sword Impulse Gundam"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos 2nd Form and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero, leaving 5 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos 1st Form and Gundam Barbatos 2nd Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 18
+    active_player: "Fjfnc"
+    actions:
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Wing Gundam Zero"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none (High-maneuver)"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 5 damage, now destroyed"
+          - "Wing Gundam Zero received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to Graze Custom, now destroyed"
+  - turn: 19
+    active_player: "Kiraya"
+    actions: []
+  - turn: 20
+    active_player: "Fjfnc"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Wing Gundam Zero"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none (High-maneuver)"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Wing Gundam Zero received 5 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "Fjfnc"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "deploy"
+        card: "Kayra's Jegan"
+        effects:
+          - "Kayra's Jegan: Modifier applied to: Kayra's Jegan"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 22
+    active_player: "Fjfnc"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Hyakuren"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Isaribi"
+      turn: 8
+    - card: "Sword Impulse Gundam"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 10
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 12
+    - card: "Gundam Barbatos Lupus"
+      turn: 18
+    - card: "Graze Custom"
+      turn: 18
+    - card: "Gundam Barbatos Lupus"
+      turn: 20
+    - card: "Isaribi"
+      turn: 20
+  Fjfnc:
+    - card: "Nu Gundam"
+      turn: 8
+    - card: "Gundam"
+      turn: 9
+    - card: "Kayra's Jegan"
+      turn: 10
+    - card: "Re-GZ"
+      turn: 12
+    - card: "Ra Cailum"
+      turn: 13
+    - card: "Ra Cailum"
+      turn: 17
+    - card: "Wing Gundam Zero"
+      turn: 18
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 1
+  Fjfnc:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 1
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) in 22 turni contro un Londo Bell Blu/Verde di Fjfnc (Gundam ST01-001, Nu Gundam, Wing Zero): l'avversario ha concesso al t22 con le shield di Kiraya ancora quasi intatte (1 shield + Isaribi in gioco vs 1 shield)."
+  - "Mossa nuova a repertorio: al t5 Isaribi ha SOSTITUITO l'EX Base di Kiraya intatta — converte una difesa monouso in una base da 5 HP che pesca pure. Le Isaribi hanno assorbito 2+3 danni (t6/t8 Breach) e 6 dal Gundam al t20; con 4 copie il muro è praticamente permanente."
+  - "L'Activate di Isaribi usato per la prima volta nei log (t9): rest della base per AP+2 a Sword Impulse damaged -> 5 danni, uccide il Gundam nemico pulito. Il self-ping di Sword non è solo un costo: abilita proprio questo."
+  - "Ride Mass: Become a Shield giocato come pilota su Ryusei-Go (t13) per i +1/+1 — uso corretto della modalità alternativa quando il ping non serve, ha permesso a Ryusei di finire la Ra Cailum."
+  - "Wing Gundam Zero (GD01-024) è il problema tecnico della partita: High-Maneuver ignora i blocker e il Deploy da 3 spazza tutta la board sotto Lv.6 (t16 ha ucciso 3 unità in una riga, t18 il Graze). Ha ammazzato due Lupus di fila (t18/t20). aggro_mono_p non può bloccarlo: va corso più veloce o pingato prima che attacchi (il doppio Activate di Lupus al t17 lo aveva portato a 3)."
+  - "Anche qui l'Amuro avversario ha restato unità già esauste o irrilevanti in 2 casi su 3; e il pattern 'Healed 2' post-distruzione (t12, Re-GZ) si ripete identico alla partita 1: da tenere d'occhio come possibile bug del client, non come carta da playare intorno."
+  - "Confronto con la sconfitta vs 0622: stesso avvio, ma qui i danni sono andati su EX Base (t5/t9) e shield vere, e le basi nemiche (2 Ra Cailum) sono state abbattute in 3 attacchi. Colpire il player e non i corpi resta la condizione di vittoria del mazzo."

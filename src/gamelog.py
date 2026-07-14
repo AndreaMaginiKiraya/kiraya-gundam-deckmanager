@@ -36,6 +36,7 @@ _MARKERS = {
 _TURN_START_RE = re.compile(r"^Turn (\d+) started!$")
 _DEPLOYED_RE = re.compile(r"^(.+?) deployed$")
 _PLAYED_BASE_RE = re.compile(r"^Played base: (.+)$")
+_REPLACED_EX_BASE_RE = re.compile(r"^Replaced EX Base base: (.+)$")
 # "action" = played during a battle's action step, "command" = main phase.
 _PLAYED_ACTION_RE = re.compile(r"^Played (?:action|command): (.+)$")
 _ACTIVATED_RE = re.compile(r"^Activated: (.+)$")
@@ -44,6 +45,7 @@ _PAIR_PILOT_RE = re.compile(r"^(Linked|Paired) pilot: (.+?) on unit (.+)$")
 _BATTLE_DECLARED_RE = re.compile(r"^Battle declared: (.+?) against (.+)$")
 _BATTLE_STARTED_RE = re.compile(r"^Battle started: (.+?) against (.+)$")
 _ASSIGNED_BLOCKER_RE = re.compile(r"^Assigned (.+?) to block$")
+_CANT_BLOCK_RE = re.compile(r"^Can't block (.+)$")
 _SHIELD_DISCARDED_RE = re.compile(r"^Shield card: (.+?) revealed and discarded$")
 _SHIELD_REVEALED_RE = re.compile(r"^Shield card: (.+?) revealed$")
 _SHIELD_TO_HAND_RE = re.compile(r"^Shield card added to hand(?:: (.+))?$")
@@ -57,9 +59,11 @@ _DEALT_RE = re.compile(
     r"^(.+?): Dealt \d+ damage to:? .+?(?:, (?:now destroyed|leaving \d+ HP remaining))?$"
 )
 # Single-target effect damage that kills ("Guntank: Dealt 1 damage to X, now
-# destroyed"). The multi-target form uses "to:" and never carries a
+# destroyed"; the "<source>: " prefix is absent on some deploy effects, e.g.
+# Wing Gundam Zero's). The multi-target form uses "to:" and never carries a
 # destroyed suffix, so requiring a non-colon after "to" keeps them apart.
-_DEALT_DESTROYED_RE = re.compile(r"^.+?: Dealt \d+ damage to ([^:].*?), now destroyed$")
+_DEALT_DESTROYED_RE = re.compile(r"^(?:.+?: )?Dealt \d+ damage to ([^:].*?), now destroyed$")
+_DEALT_NOSRC_RE = re.compile(r"^Dealt \d+ damage to:? .+$")
 _DRAW_RE = re.compile(r"^.+?: Draw (?:a card|\d+ cards?)$")
 _MODIFIER_RE = re.compile(r"^.+?: Modifier applied to: .+$")
 _CHOSE_RE = re.compile(r"^.+?: chose .+$")
@@ -68,6 +72,7 @@ _EXILED_RE = re.compile(r"^(.+?) exiled from the game$")
 _RETURNED_RE = re.compile(r"^(.+?) returned to (?:hand|deck)$")
 _HEALED_RE = re.compile(r"^Healed \d+ damage to: .+$")
 _RESTED_RE = re.compile(r"^(?:Already rested|Rested) unit: .+$")
+_RESTED_BASE_RE = re.compile(r"^Rested base: .+$")
 _RESOURCE_EX_RE = re.compile(r"^Placed \d+ Resource EX$")
 _NO_TARGETS_RE = re.compile(r"^No targets for .+$")
 _NO_MORE_SHIELDS_RE = re.compile(r"^No more Shield cards to add to hand$")
@@ -126,6 +131,7 @@ def parse_game_log(text: str) -> dict:
     tally = {
         p: {
             "ex_base_destroyed_turn": None,
+            "ex_base_replaced_turn": None,
             "shields_lost": 0,
             "shields_to_hand": 0,
             "shields_deployed": 0,
@@ -272,6 +278,10 @@ def parse_game_log(text: str) -> dict:
             if battle is not None:
                 battle["blockers"] = "none"
             continue
+        m = _CANT_BLOCK_RE.match(ln)
+        if m and battle is not None:
+            battle["blockers"] = f"none ({m.group(1)})"
+            continue
         m = _ASSIGNED_BLOCKER_RE.match(ln)
         if m and battle is not None:
             battle["blockers"] = m.group(1)
@@ -320,6 +330,13 @@ def parse_game_log(text: str) -> dict:
             resolve_pending_shield_deploy(m.group(1))
             note_card(m.group(1), owner=actor, context="base")
             add_action({"action": "play_base", "card": m.group(1)})
+            continue
+        m = _REPLACED_EX_BASE_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="base")
+            add_action({"action": "play_base", "card": m.group(1), "replaced_ex_base": True})
+            if actor in tally and turn is not None:
+                tally[actor]["ex_base_replaced_turn"] = turn["turn"]
             continue
         m = _PAIR_PILOT_RE.match(ln)
         if m:
@@ -387,10 +404,12 @@ def parse_game_log(text: str) -> dict:
             continue
         if (
             _DEALT_RE.match(ln)
+            or _DEALT_NOSRC_RE.match(ln)
             or _DRAW_RE.match(ln)
             or _CHOSE_RE.match(ln)
             or _HEALED_RE.match(ln)
             or _RESTED_RE.match(ln)
+            or _RESTED_BASE_RE.match(ln)
             or _RESOURCE_EX_RE.match(ln)
             or _NO_TARGETS_RE.match(ln)
             or _NO_MORE_SHIELDS_RE.match(ln)
@@ -435,12 +454,15 @@ def parse_game_log(text: str) -> dict:
     for p in players:
         t = tally[p]
         destroyed_turn = t["ex_base_destroyed_turn"]
+        replaced_turn = t["ex_base_replaced_turn"]
+        if destroyed_turn is not None:
+            ex_base = f"destroyed (turn {destroyed_turn})"
+        elif replaced_turn is not None:
+            ex_base = f"replaced with a base (turn {replaced_turn})"
+        else:
+            ex_base = "not destroyed in log"
         shields_tally[p] = {
-            "ex_base": (
-                f"destroyed (turn {destroyed_turn})"
-                if destroyed_turn is not None
-                else "not destroyed in log"
-            ),
+            "ex_base": ex_base,
             "shields_lost": t["shields_lost"],
             "shields_to_hand": t["shields_to_hand"],
             "shields_deployed": t["shields_deployed"],

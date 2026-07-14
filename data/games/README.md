@@ -2,8 +2,11 @@
 
 Un file YAML per partita, generato dal tool MCP `import_game_log` a partire
 dal log testuale del client di gioco (es. Mobile Suit Arena) e poi rifinito
-a mano. Nome file: `YYYY-MM-DD_<giocatore1>-vs-<giocatore2>.yaml`
-(sottocartelle ammesse). Accanto a ogni `.yaml` il tool salva il log
+a mano. I record sono indicizzati per mazzo dell'utente:
+`<nome deck>/YYYY-MM-DD_<giocatore1>-vs-<giocatore2>.yaml` (es.
+`aggro_mono_p/2026-07-14_kiraya-vs-tonii`), così tutte le partite di un
+mazzo stanno nella stessa cartella; il mazzo è comunque registrato anche
+dentro il record (`game.players.<utente>.deck`). Accanto a ogni `.yaml` il tool salva il log
 grezzo come `.log`: è la fonte per rigenerare il record quando parser o
 formato migliorano (`overwrite=True` riporta automaticamente id pinnati,
 note personalizzate, `study_notes`, `result` e deck — vedi sotto).

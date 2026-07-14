@@ -211,7 +211,9 @@ When the user pastes a game chat log to convert (Mobile Suit Arena
 play-by-play), import it with `import_game_log` into `data/games/` — and
 **always ask which saved deck they played** if they didn't say (the user
 plays as "Kiraya"; see `list_decks` for names, e.g. `aggro_mono_p`), then
-pass it as `decks={"Kiraya": "<deck name>"}`. The deck matters beyond
+pass it as `decks={"Kiraya": "<deck name>"}` and name the record
+`<deck name>/YYYY-MM-DD_kiraya-vs-<opponent>` — records are indexed by
+the user's deck, one folder per deck. The deck matters beyond
 bookkeeping: the importer intersects ambiguous card printings with the
 decklist to auto-pin ids. After importing: pin any remaining
 `cards_ambiguous` from observed effects/stats (update each `note` with

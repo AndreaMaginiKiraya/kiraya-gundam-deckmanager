@@ -13,6 +13,7 @@ from src import data, gamelog, tools
 
 LOG = (Path(__file__).parent / "fixtures" / "sample_game_log.txt").read_text(encoding="utf-8")
 LOG2 = (Path(__file__).parent / "fixtures" / "sample_game_log2.txt").read_text(encoding="utf-8")
+LOG3 = (Path(__file__).parent / "fixtures" / "sample_game_log3.txt").read_text(encoding="utf-8")
 
 
 @pytest.fixture(scope="module")
@@ -23,6 +24,11 @@ def parsed():
 @pytest.fixture(scope="module")
 def parsed2():
     return gamelog.parse_game_log(LOG2)
+
+
+@pytest.fixture(scope="module")
+def parsed3():
+    return gamelog.parse_game_log(LOG3)
 
 
 def test_players_setup_and_winner(parsed):
@@ -214,6 +220,41 @@ def test_deck_resolves_ambiguous_printings(tmp_path, monkeypatch):
     assert summary["cards_not_found"] == []
     doc = yaml.safe_load(Path(summary["path"]).read_text(encoding="utf-8"))
     assert "resolved via saved deck" in doc["cards"]["Gundam Barbatos 1st Form"]["note"]
+
+
+def test_third_log_new_formats(parsed3):
+    assert parsed3["winner"] == "Kiraya"
+    assert parsed3["unparsed"] == []
+    # "Replaced EX Base base: Isaribi" (turn 5)
+    replaced = next(
+        a for a in parsed3["turns"][4]["actions"] if a["action"] == "play_base"
+    )
+    assert replaced["card"] == "Isaribi"
+    assert replaced["replaced_ex_base"] is True
+    assert parsed3["shields_tally"]["Kiraya"]["ex_base"] == "replaced with a base (turn 5)"
+    # "Can't block High-maneuver" (turn 18)
+    attack = parsed3["turns"][17]["actions"][0]
+    assert attack["attacker"] == "Wing Gundam Zero"
+    assert attack["blockers"] == "none (High-maneuver)"
+    # Source-less "Dealt 3 damage to Graze Custom, now destroyed" (turn 18)
+    deaths = [(c["card"], c["turn"]) for c in parsed3["casualties"]["Kiraya"]]
+    assert ("Graze Custom", 18) in deaths
+    # "Rested base:" / "Activated: Isaribi" (turn 9)
+    activate = parsed3["turns"][8]["actions"][0]
+    assert activate["action"] == "activate"
+    assert any("Rested base: Isaribi" in e for e in activate["effects"])
+
+
+def test_pilot_mode_command_resolves_and_subfolder_name(tmp_path, monkeypatch):
+    monkeypatch.setattr(data, "_GAMES_DIR", tmp_path)
+    summary = tools.import_game_log_impl(
+        LOG3, "aggro_mono_p/g3", decks={"Kiraya": "aggro_mono_p"}
+    )
+    # "Linked pilot: Ride Mass" is Become a Shield played in Pilot mode.
+    assert summary["cards_resolved"]["Ride Mass"] == "GD05-117"
+    assert Path(summary["path"]) == tmp_path / "aggro_mono_p" / "g3.yaml"
+    doc = yaml.safe_load(Path(summary["path"]).read_text(encoding="utf-8"))
+    assert doc["cards"]["Ride Mass"]["note"] == "pilot mode of the COMMAND card 'Become a Shield'"
 
 
 def test_dump_yaml_quotes_are_safe():
