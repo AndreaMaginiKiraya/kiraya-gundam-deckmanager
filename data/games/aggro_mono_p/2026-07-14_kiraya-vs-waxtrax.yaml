@@ -1,0 +1,774 @@
+game:
+  id: "aggro_mono_p/2026-07-14_kiraya-vs-waxtrax"
+  date_imported: "2026-07-14"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+    waxtrax:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "waxtrax"
+    seen:
+      - "command"
+  "Akihiro Altland":
+    id: "ST05-011"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "waxtrax"
+    seen:
+      - "base"
+      - "milled"
+  "Char Aznable":
+    id: null
+    candidates:
+      - "GD05-093"
+      - "ST03-011"
+    note: "irrisolvibile dal log: solo millato da Sazabi (t14), mai giocato; nel contesto Neo Zeon/Axis la GD05-093 (When Linked: schiera una Base Neo Zeon dal trash) sarebbe la più sinergica, ma è una congettura"
+    owner: "waxtrax"
+    seen:
+      - "milled"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "waxtrax"
+    seen:
+      - "milled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gyunei's Jagd Doga":
+    id: "GD05-063"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    note: "pinned: al t20 il log dice 'Linked pilot: Quess Paraya' — la condizione di link soddisfatta è il trait (Neo Zeon) di GD05-063; GD05-057 linka solo [Gyunei Guss]"
+    owner: "waxtrax"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+      - "shield"
+  Kshatriya:
+    id: "GD01-044"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    note: "pinned: When Paired con Marida (ping 1 a 1-2 unità nemiche, t10), i 7 danni a 1st Form (AP5 + Marida 2) e HP4+1 pilota (riceve 4, resta a 1) = GD01-044; GD01-051 è vanilla AP3"
+    owner: "waxtrax"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "waxtrax"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Quess Paraya":
+    id: "GD05-094"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "waxtrax"
+    seen:
+      - "pilot"
+  "Quess's Jagd Doga":
+    id: "GD05-053"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "waxtrax"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+      - "returned"
+  "Rezin's Geara Doga":
+    id: "GD05-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "waxtrax"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+      - "returned"
+      - "shield"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Sazabi:
+    id: "GD05-052"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    note: "pinned: HP4+1 pilota — muore esattamente al terzo ping da 2 di Lupus al t15 (5 HP totali; GD05-049 ne avrebbe 6) — e il Deploy mill-3 + ritorno in mano combacia"
+    owner: "waxtrax"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "waxtrax"
+    seen:
+      - "command"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "waxtrax"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "waxtrax"
+    actions:
+      - action: "play_command"
+        player: "waxtrax"
+        card: "Airframe Seizure"
+        effects:
+          - "Sazabi discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "waxtrax"
+    actions:
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Flauros (Ryusei-Go) discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "waxtrax"
+    actions:
+      - action: "play_command"
+        player: "waxtrax"
+        card: "Airframe Seizure"
+        effects:
+          - "Kshatriya discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Rezin's Geara Doga"
+      - action: "attack"
+        player: "waxtrax"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Quess's Jagd Doga received 2 damage, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Rezin's Geara Doga"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+  - turn: 8
+    active_player: "waxtrax"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Rezin's Geara Doga"
+      - action: "attack"
+        player: "waxtrax"
+        attacker: "Rezin's Geara Doga"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+          - "Rezin's Geara Doga received 2 damage, leaving 1 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced_ex_base: true
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Isaribi discarded"
+      - action: "pair_pilot"
+        pilot: "Akihiro Altland"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Axis received 6 damage, now destroyed"
+        blockers: "none"
+        final_target: "Axis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Rezin's Geara Doga"
+        blockers: "none"
+        final_target: "Rezin's Geara Doga"
+        outcome:
+          - "Rezin's Geara Doga received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 10
+    active_player: "waxtrax"
+    actions:
+      - action: "deploy"
+        card: "Kshatriya"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Kshatriya"
+        linked: true
+        effects:
+          - "Kshatriya: Dealt 1 damage to: Gundam Barbatos Adapt and Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "waxtrax"
+        attacker: "Kshatriya"
+        declared_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Gusion Rebake and Gundam Barbatos 2nd Form moved to trash"
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+          - "Kshatriya received 4 damage, leaving 1 HP remaining"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos 1st Form discarded"
+  - turn: 12
+    active_player: "waxtrax"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "waxtrax"
+        card: "Widespread Annihilation"
+      - action: "attack"
+        player: "waxtrax"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        outcome:
+          - "No targets for Marida Cruz"
+          - "Isaribi received 7 damage, now destroyed"
+        blockers: "none"
+        final_target: "Isaribi"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Barbatos 1st Form and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Kshatriya, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 14
+    active_player: "waxtrax"
+    actions:
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "deploy"
+        card: "Sazabi"
+        effects:
+          - "Sazabi milled 3: Char Aznable and Close Combat and Quess's Jagd Doga moved to trash"
+          - "Quess's Jagd Doga returned to hand"
+          - "Quess's Jagd Doga returned to hand"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Sazabi"
+        linked: false
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Flauros (Ryusei-Go), Ryusei-Go (Graze Custom Ⅱ) and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 2nd Form, Graze Custom and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, now destroyed"
+  - turn: 16
+    active_player: "waxtrax"
+    actions:
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "deploy"
+        card: "Gyunei's Jagd Doga"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Rested unit: Quess's Jagd Doga"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Quess's Jagd Doga"
+        blockers: "none"
+        final_target: "Quess's Jagd Doga"
+        outcome:
+          - "Quess's Jagd Doga received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, now destroyed"
+  - turn: 18
+    active_player: "waxtrax"
+    actions:
+      - action: "attack"
+        player: "waxtrax"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 3 damage, now destroyed"
+          - "Quess's Jagd Doga received 5 damage, now destroyed"
+      - action: "play_command"
+        player: "waxtrax"
+        card: "Widespread Annihilation"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Sazabi revealed and discarded"
+  - turn: 20
+    active_player: "waxtrax"
+    actions:
+      - action: "deploy"
+        card: "Gyunei's Jagd Doga"
+      - action: "pair_pilot"
+        pilot: "Quess Paraya"
+        unit: "Gyunei's Jagd Doga"
+        linked: true
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "waxtrax"
+        attacker: "Gyunei's Jagd Doga"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Sazabi"
+        effects:
+          - "Sazabi milled 3: Rezin's Geara Doga and Axis and Close Combat moved to trash"
+          - "Rezin's Geara Doga returned to hand"
+          - "Quess Paraya: Modifier applied to: Sazabi"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Rezin's Geara Doga revealed and discarded"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Graze Custom and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kshatriya revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 10
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Barbatos Lupus"
+      turn: 18
+  waxtrax:
+    - card: "Quess's Jagd Doga"
+      turn: 6
+    - card: "Axis"
+      turn: 9
+    - card: "Rezin's Geara Doga"
+      turn: 9
+    - card: "Kshatriya"
+      turn: 13
+    - card: "Sazabi"
+      turn: 15
+    - card: "Axis"
+      turn: 15
+    - card: "Quess's Jagd Doga"
+      turn: 17
+    - card: "Axis"
+      turn: 17
+    - card: "Quess's Jagd Doga"
+      turn: 18
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 9)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 3
+  waxtrax:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) per abbandono al t21: waxtrax (Neo Zeon rosso, Kshatriya/Sazabi/Jagd Doga) ha conceduto a 0 shield e 0 EX Base contro una board di Lupus + Shiden appena schierato, con Kiraya ancora a 3 shield + Isaribi."
+  - "Miglior partita del campione finora sul piano del danno: EX Base nemica giù al t7, e le TRE Axis nemiche abbattute a colpi d'attacco (6+5+2+2+5 = 20 danni su basi) senza mai perdere il tempo — la differenza rispetto alla sconfitta vs 0622 è che qui la pressione non si è mai fermata per gestire la board."
+  - "Turno 15 da manuale del mazzo: TRIPLA attivazione di Lupus in un turno (9 carte esiliate, 6 danni) per uccidere il Sazabi appena pilotato prima che attaccasse mai. Il trash come risorsa: a fine partita ~12 carte esiliate su 4 attivazioni totali."
+  - "Il secondo replace dell'EX Base con Isaribi (t9, come vs Fjfnc) si conferma linea standard: l'EX Base intatta diventa 5 HP + pesca, e ha assorbito il colpo da 7 del Kshatriya al t12."
+  - "Akihiro Altland al primo uso nei log (t9, paired su 1st Form): con Isaribi rested per AP+2, 1st Form ha colpito la Axis per 6 e pescato con il suo Attack. La copia singola ha finalmente pagato."
+  - "Il piano di waxtrax (Airframe Seizure per scartare pezzi grossi e ripescarli? + Sazabi bounce-engine + Kshatriya) è rimasto sempre un tempo indietro: ogni minaccia (Kshatriya t13, Sazabi t15, Sazabi t21) è stata rimossa dai ping di Lupus il turno dopo essere apparsa, spesso prima di attaccare."
+  - "Nota di matchup: Widespread Annihilation giocato due volte (t12/t18) senza effetti registrati nel log — probabilmente AoE andato a vuoto contro la board larga e sacrificabile di Kiraya; il mazzo regge bene le sweep perché rigioca corpi da 1-2 costi all'infinito."

@@ -257,6 +257,13 @@ def test_pilot_mode_command_resolves_and_subfolder_name(tmp_path, monkeypatch):
     assert doc["cards"]["Ride Mass"]["note"] == "pilot mode of the COMMAND card 'Become a Shield'"
 
 
+def test_zero_width_chars_in_card_names_still_resolve():
+    # GD05-111 is printed as "Airframe​ Seizure" upstream (zero-width
+    # space); a log says "Airframe Seizure" and must still match.
+    matches = tools._resolve_log_card_name("Airframe Seizure")
+    assert [c.id for c in matches] == ["GD05-111"]
+
+
 def test_dump_yaml_quotes_are_safe():
     text = gamelog.dump_yaml({"Kayra's \"Jegan\" Ⅱ": [{"a": None, "b": True, "c": 3}]})
     assert yaml.safe_load(text) == {"Kayra's \"Jegan\" Ⅱ": [{"a": None, "b": True, "c": 3}]}

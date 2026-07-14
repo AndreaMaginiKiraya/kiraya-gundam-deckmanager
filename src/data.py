@@ -21,8 +21,11 @@ _GAMES_DIR = _PROJECT_ROOT / "data" / "games"
 def search_fold(s: str) -> str:
     """Fold a string for search comparison: NFKC-normalize (so the roman
     numeral 'Ⅱ' in card names matches an ASCII 'II' query and vice versa),
-    then casefold."""
-    return unicodedata.normalize("NFKC", s).casefold()
+    strip invisible format characters (upstream data has names like
+    'Airframe​Seizure' with a zero-width space baked in, which NFKC
+    keeps), then casefold."""
+    normalized = unicodedata.normalize("NFKC", s)
+    return "".join(ch for ch in normalized if unicodedata.category(ch) != "Cf").casefold()
 
 
 @dataclass(frozen=True)
