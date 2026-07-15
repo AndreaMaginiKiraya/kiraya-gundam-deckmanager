@@ -39,6 +39,9 @@ data/egman_dump/
 # Card art cache (downloaded on demand by render.py, regenerable)
 data/cards/images/
 
+# Scratch renders (regenerable from the decklists)
+data/decks/tmp/
+
 # Local Claude Code permission overrides (machine-specific)
 .claude/settings.local.json
 
