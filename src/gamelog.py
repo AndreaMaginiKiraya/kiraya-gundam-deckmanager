@@ -52,6 +52,10 @@ _CANT_BLOCK_RE = re.compile(r"^Can't block (.+)$")
 _SHIELD_DISCARDED_RE = re.compile(r"^Shield card: (.+?) revealed and discarded$")
 _SHIELD_REVEALED_RE = re.compile(r"^Shield card: (.+?) revealed$")
 _SHIELD_TO_HAND_RE = re.compile(r"^Shield card added to hand(?:: (.+))?$")
+# A non-shield card fetched to hand by an effect (e.g. Garrod Ran & Tiffa
+# Adill's When-Paired dig). Checked separately from shield lines since it
+# isn't tied to the shield-area/tally bookkeeping at all.
+_CARD_TO_HAND_RE = re.compile(r"^Card added to hand: (.+)$")
 # Two-line variant of a lost shield: "revealed" then "moved to trash"
 # (a Burst COMMAND resolves its effect before going to the trash).
 _SHIELD_TO_TRASH_RE = re.compile(r"^Shield card: (.+?) moved to trash$")
@@ -416,6 +420,11 @@ def parse_game_log(text: str) -> dict:
         m = _RETURNED_RE.match(ln)
         if m:
             note_card(m.group(1), owner=actor, context="returned")
+            add_effect(ln)
+            continue
+        m = _CARD_TO_HAND_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="added to hand")
             add_effect(ln)
             continue
         if _MODIFIER_RE.match(ln):

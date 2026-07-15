@@ -1,0 +1,748 @@
+game:
+  id: "aggro_mono_p/2026-07-15_kiraya-vs-komsanw"
+  date_imported: "2026-07-15"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+    Komsanw:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+cards:
+  "Awakened Potential":
+    id: "GD03-118"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Komsanw"
+    seen:
+      - "milled"
+  "Ennil El":
+    id: "GD04-096"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Komsanw"
+    seen:
+      - "discarded"
+      - "pilot"
+  Esperansa:
+    id: "GD04-060"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 1
+    hp: 4
+    owner: "Komsanw"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Familial Devotion":
+    id: "GD02-115"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 1
+    owner: "Komsanw"
+    seen:
+      - "command"
+  Freeden:
+    id: "GD02-127"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 5
+    owner: "Komsanw"
+    seen:
+      - "discarded"
+      - "milled"
+  "Freeden Ⅱ":
+    id: "GD04-127"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Komsanw"
+    seen:
+      - "milled"
+  "GX-Bit":
+    id: "GD03-062"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Komsanw"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Garrod Ran & Tiffa Adill":
+    id: "GD02-094"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Komsanw"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Airmaster":
+    id: "GD02-059"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Komsanw"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Airmaster (Fighter Mode)":
+    id: "GD02-063"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Komsanw"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam DX":
+    id: "GD04-049"
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 6
+    hp: 6
+    owner: "Komsanw"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "returned"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "Komsanw"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Gundam Leopard Destroy":
+    id: "GD04-052"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Komsanw"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "milled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Jamil Neate":
+    id: "GD03-096"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Komsanw"
+    seen:
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Komsanw"
+    seen:
+      - "command"
+      - "shield"
+  "Pala Sys":
+    id: "GD04-094"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Komsanw"
+    seen:
+      - "pilot"
+      - "shield"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Komsanw"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Komsanw"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Komsanw"
+    actions:
+      - action: "deploy"
+        card: "Esperansa"
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Komsanw"
+    actions:
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "Esperansa"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 1 damage, now destroyed"
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "deploy"
+        card: "GX-Bit"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Awakened Potential and Freeden Ⅱ moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Esperansa"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Komsanw"
+            card: "Familial Devotion"
+            effects:
+              - "Familial Devotion: Modifier applied to: Esperansa"
+        final_target: "Esperansa"
+        outcome:
+          - "Esperansa received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Pala Sys revealed"
+          - "Shield card added to hand: Pala Sys"
+        blockers: "none"
+        final_target: "shield"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 8
+    active_player: "Komsanw"
+    actions:
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "GX-Bit"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+          - "GX-Bit received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Airmaster"
+      - action: "pair_pilot"
+        pilot: "Garrod Ran & Tiffa Adill"
+        unit: "Gundam Airmaster"
+        linked: true
+        effects:
+          - "Jamil Neate discarded"
+          - "Card added to hand: Gundam Leopard Destroy"
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "Gundam Airmaster"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 5 damage, now destroyed"
+          - "Gundam Airmaster received 2 damage, leaving 3 HP remaining"
+          - "Gundam Exia Repair milled 2: Sword Impulse Gundam and Gundam Barbatos Lupus moved to trash"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Airmaster"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Airmaster"
+        blockers: "none"
+        final_target: "Gundam Airmaster"
+        outcome:
+          - "Gundam Airmaster received 2 damage, now destroyed"
+          - "Graze Custom received 5 damage, now destroyed"
+  - turn: 10
+    active_player: "Komsanw"
+    actions:
+      - action: "deploy"
+        card: "Gundam Leopard Destroy"
+      - action: "pair_pilot"
+        pilot: "Garrod Ran & Tiffa Adill"
+        unit: "Gundam Leopard Destroy"
+        linked: true
+        effects:
+          - "Gundam DX discarded"
+          - "Card added to hand: Gundam Airmaster (Fighter Mode)"
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "Gundam Leopard Destroy"
+        declared_target: "player"
+        outcome:
+          - "Gundam Leopard Destroy: Dealt 2 damage to: Graze Custom and Gundam Leopard Destroy"
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+        blockers: "none"
+        final_target: "shield"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Gundam Leopard Destroy"
+        blockers: "none"
+        final_target: "Gundam Leopard Destroy"
+        outcome:
+          - "Gundam Leopard Destroy received 5 damage, now destroyed"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 12
+    active_player: "Komsanw"
+    actions:
+      - action: "deploy"
+        card: "Gundam Leopard Destroy"
+      - action: "pair_pilot"
+        pilot: "Pala Sys"
+        unit: "Gundam Leopard Destroy"
+        linked: true
+        effects:
+          - "Gundam DX returned to hand"
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "Gundam Leopard Destroy"
+        declared_target: "player"
+        outcome:
+          - "Gundam Leopard Destroy: Dealt 2 damage to: Gundam Exia Repair and Gundam Leopard Destroy"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 2nd Form and Gundam Barbatos 1st Form moved to trash"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Gundam Leopard Destroy received 3 damage, leaving 1 HP remaining"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Leopard Destroy"
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Rested unit: Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 14
+    active_player: "Komsanw"
+    actions:
+      - action: "deploy"
+        card: "Gundam DX"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 2nd Form, Gundam Barbatos 1st Form and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam DX, leaving 4 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Flauros (Ryusei-Go) and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam DX, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Barbatos Lupus and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam DX, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Esperansa revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+  - turn: 16
+    active_player: "Komsanw"
+    actions:
+      - action: "deploy"
+        card: "Gundam Airmaster (Fighter Mode)"
+      - action: "deploy"
+        card: "Gundam Airmaster (Fighter Mode)"
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Sword Impulse Gundam"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 2 HP remaining"
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Freeden and Gundam Leopard Destroy moved to trash"
+      - action: "pair_pilot"
+        pilot: "Ennil El"
+        unit: "Gundam Airmaster (Fighter Mode)"
+        linked: true
+      - action: "attack"
+        player: "Komsanw"
+        attacker: "Gundam Airmaster (Fighter Mode)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Gundam Airmaster (Fighter Mode) received 3 damage, leaving 2 HP remaining"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Airmaster (Fighter Mode), now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Airmaster (Fighter Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Pala Sys revealed"
+          - "Shield card added to hand: Pala Sys"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 18
+    active_player: "Komsanw"
+    actions:
+      - action: "play_command"
+        player: "Komsanw"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Freeden discarded"
+      - action: "play_command"
+        player: "Komsanw"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Ennil El discarded"
+      - action: "pair_pilot"
+        pilot: "Pala Sys"
+        unit: "Gundam Airmaster (Fighter Mode)"
+        linked: true
+        effects:
+          - "Gundam DX returned to hand"
+      - action: "deploy"
+        card: "Gundam DX"
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+  Komsanw:
+    - card: "Esperansa"
+      turn: 7
+    - card: "GX-Bit"
+      turn: 8
+    - card: "Gundam Airmaster"
+      turn: 9
+    - card: "Gundam Leopard Destroy"
+      turn: 11
+    - card: "Gundam DX"
+      turn: 15
+    - card: "Gundam Airmaster (Fighter Mode)"
+      turn: 17
+  unattributed:
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 16
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 3
+  Komsanw:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) in 18 turni, punteggio finale stretto: 3 shield rimaste a Kiraya contro 1 a Komsanw. Primo avversario After War Gundam X del campione (Bianco/Viola: Garrod Ran & Tiffa Adill, Gundam Airmaster, Leopard Destroy, Gundam DX, Freeden/Freeden II come basi) — curiosamente un mirror match parziale, perché ANCHE Komsanw gioca Gundam Exia Repair (stessa carta, stesso self-mill), e infatti nel record le due copie distrutte di Exia Repair restano 'unattributed' perché il nome da solo non basta a distinguere il proprietario."
+  - "Partita quasi perfettamente simmetrica nei trade: 6 unità perse per parte, EX Base di entrambi giù entro il t7. La vittoria è arrivata sulla velocità di chiusura (corsa alle shield), non su un vantaggio di carte — a differenza della sconfitta vs アスファルトの雑草 dove il differenziale di card advantage era enorme, qui i due mazzi si sono scambiati colpo su colpo."
+  - "Sequenza da manuale al t9: il ping del Deploy di Gusion Rebake (1 danno, obbligato su un'unità propria+una nemica) ha colpito l'Airmaster nemico già a 3 HP, portandolo a 2; Graze Custom (appena schierato, AP2) lo ha poi finito esatto. Danno-parziale-poi-rifinitura con un corpo da 1 costo: esecuzione pulita, stesso principio del t15 della partita vs 4444."
+  - "Combo Isaribi ben eseguita al t11: Activate su un Gusion Rebake già danneggiato (dal proprio ping del t9) lo porta ad AP5, sufficiente per il kill esatto su un Leopard Destroy rested da 5 HP (trade reciproco). L'HP 'danneggiato' richiesto dall'abilità di Isaribi non è un limite se il self-ping precedente lo ha già soddisfatto."
+  - "La sequenza più sofisticata della partita, ai t12-13: contro un doppio minaccia (ping automatico di Leopard Destroy + il suo attacco), Kiraya ha bloccato con un Gusion Rebake sano invece di lasciar cadere Isaribi (che avrebbe assorbito il colpo intero senza intaccare Leopard Destroy). Il blocco ha ridotto Leopard Destroy a 1 HP; il turno dopo un NUOVO Gusion Rebake lo ha finito gratis col proprio ping da deploy. Sacrificare un'unità per azzoppare la minaccia e chiuderla il turno successivo a costo zero è la lettura corretta quando hai già un'altra copia della stessa unità in mano."
+  - "Buona prioritizzazione dei blocchi al t16: sotto doppio attacco nello stesso turno, Kiraya ha usato l'unico Gusion Rebake disponibile per salvare Sword Impulse Gundam (a 2 HP, sarebbe morto sicuro) dal primo colpo, accettando che Gusion stesso cadesse al secondo attacco (già rested, nessun blocco possibile) — la stessa identica logica di prioritizzazione delle minacce vista al t12 della partita vs 4444, applicata di nuovo con successo."
+  - "Nessun errore di sequenza o di targeting del self-ping rilevato in questa partita (a differenza della vittoria vs 4444): le lezioni di quella partita — ping mai sprecato su se stessi quando c'è un bersaglio migliore, finire un kill gratis prima di rischiare un'unità in combattimento — risultano applicate qui in modo consistente. Bilancio del campione aggro_mono_p dopo 9 partite: 6 vittorie, 3 sconfitte."

@@ -433,6 +433,28 @@ Turn end phase started"""
     assert parsed["shields_tally"]["B"]["ex_base"] == "not destroyed in log"
 
 
+def test_card_added_to_hand_line_recognized():
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Gundam Airmaster deployed
+Linked pilot: Garrod Ran & Tiffa Adill on unit Gundam Airmaster
+Selecting target for Garrod Ran & Tiffa Adill
+Jamil Neate discarded
+Selecting target for Garrod Ran & Tiffa Adill
+Card added to hand: Gundam Leopard Destroy
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    assert "Gundam Leopard Destroy" in parsed["cards_seen"]
+    assert parsed["cards_seen"]["Gundam Leopard Destroy"]["owners"] == ["A"]
+    assert parsed["cards_seen"]["Gundam Leopard Destroy"]["contexts"] == ["added to hand"]
+
+
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
     # Regression test: a color contributed ONLY by a card that starts
     # ambiguous and is pinned by hand must survive a re-import. Coloring
