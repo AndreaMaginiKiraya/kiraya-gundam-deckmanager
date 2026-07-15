@@ -230,7 +230,7 @@ def test_third_log_new_formats(parsed3):
         a for a in parsed3["turns"][4]["actions"] if a["action"] == "play_base"
     )
     assert replaced["card"] == "Isaribi"
-    assert replaced["replaced_ex_base"] is True
+    assert replaced["replaced"] == "EX Base"
     assert parsed3["shields_tally"]["Kiraya"]["ex_base"] == "replaced with a base (turn 5)"
     # "Can't block High-maneuver" (turn 18)
     attack = parsed3["turns"][17]["actions"][0]
@@ -386,6 +386,51 @@ def test_reimport_carries_over_hand_annotations(tmp_path, monkeypatch):
     assert doc2["game"]["players"]["Kiraya"]["deck"] == "aggro_mono_p"
     assert "study_notes" in summary["annotations_carried_over"]
     assert "cards[Zaku Ⅱ].id" in summary["annotations_carried_over"]
+
+
+def test_choose_second_and_base_replaced_by_itself():
+    snippet = """Game started!
+A
+Choose to play second
+B
+Choose to keep starting hand
+A
+Choose to keep starting hand
+Turn 1 started!
+Turn end phase started
+B
+Passed
+A
+Passed
+Turn ended!
+Turn 2 started!
+B
+Played base: Archangel
+Shield card added to hand
+Turn end phase started
+A
+Passed
+B
+Passed
+Turn ended!
+Turn 3 started!
+B
+Replaced Archangel base: Archangel
+Shield card added to hand
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    # A chose to play second -> B is first player -> B is active on turn 1.
+    assert parsed["first_player"] == "B"
+    assert parsed["turns"][0]["active_player"] == "B"
+    replace_action = next(
+        a for a in parsed["turns"][2]["actions"] if a["action"] == "play_base"
+    )
+    assert replace_action["card"] == "Archangel"
+    assert replace_action["replaced"] == "Archangel"
+    assert "Shield card added to hand" in replace_action["effects"]
+    # Replacing a plain Base (not "EX Base") doesn't touch the EX Base tally.
+    assert parsed["shields_tally"]["B"]["ex_base"] == "not destroyed in log"
 
 
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):

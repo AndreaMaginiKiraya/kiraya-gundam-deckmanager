@@ -1,0 +1,679 @@
+game:
+  id: "aggro_mono_p/2026-07-15_kiraya-vs-4444"
+  date_imported: "2026-07-15"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    "4444":
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "4444"
+    seen:
+      - "command"
+  "Akatsuki (Oowashi)":
+    id: "GD05-004"
+    type: "UNIT"
+    level: 6
+    cost: 6
+    ap: 4
+    hp: 4
+    owner: "4444"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Andrew Waldfeld":
+    id: "GD05-082"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "4444"
+    seen:
+      - "pilot"
+  Archangel:
+    id: "GD05-123"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 5
+    note: "pinned: il testo esatto 'During your opponent's turn, friendly (Orb) Units can't receive 2 or less enemy effect damage' spiega ogni 'prevented by Archangel' del log (ping da 1-2 di Gusion/Lupus/Mikazuki su Strike Rouge/Freedom, tutti nel turno di Kiraya) = GD05-123 (Blu); ST04-015 è bianca e non ha quell'effetto"
+    owner: "4444"
+    seen:
+      - "base"
+  "Freedom Gundam":
+    id: null
+    candidates:
+      - "GD03-070"
+      - "ST09-004"
+    note: "esclusa GD01-065: il suo 'During Pair, choose 1 enemy Unit AP-2' è un effetto con bersaglio (dovrebbe generare una riga 'Selecting target for...' come per Mikazuki/Kira altrove nel log) e al t12 il pair con Kira Yamato non ne genera nessuna; tra GD03-070/ST09-004 nessuna evidenza dirimente (nessun danno alle shield osservato per testare Breach 2)"
+    owner: "4444"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "4444"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "ENTRAMBE le stampe nel mazzo (terzo avversario di fila con questo pattern SEED): al t13 il combattimento Freedom Gundam vs Barbatos 2nd Form torna esatto (AP4+2=6) solo sommando l'AP2 di ST04-010; al t16 'Kira Yamato: Draw a card' al link su Akatsuki (Oowashi, Orb) è il When Linked di GD05-081"
+    owner: "4444"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Murasame (Andrew Waldfeld Unit)":
+    id: "GD05-003"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    note: "pinned: il client mostra 'Murasame (Andrew Waldfeld Unit)' come descrittore del link, ma il nome stampato è 'Waldfeld's Murasame' (link [Andrew Waldfeld], confermato dal 'Linked pilot: Andrew Waldfeld' subito dopo) = GD05-003; nome da tenere d'occhio per future partite con questa forma"
+    owner: "4444"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "4444"
+    seen:
+      - "command"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "returned"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "4444"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "4444"
+    seen:
+      - "command"
+setup:
+  - player: "4444"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "4444"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "4444"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "4444"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "4444"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Sword Impulse Gundam discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 4 damage, now destroyed"
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+  - turn: 8
+    active_player: "4444"
+    actions:
+      - action: "play_command"
+        player: "4444"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Akatsuki (Oowashi) discarded"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+      - action: "attack"
+        player: "4444"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 4 damage, leaving 1 HP remaining"
+        effects:
+          - "Strike Rouge (Ootori) repaired 2 from [Repair 2]"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "4444"
+    actions:
+      - action: "play_base"
+        card: "Archangel"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Murasame (Andrew Waldfeld Unit)"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Murasame (Andrew Waldfeld Unit)"
+        linked: true
+      - action: "attack"
+        player: "4444"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 3 damage, now destroyed"
+      - action: "attack"
+        player: "4444"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Murasame (Andrew Waldfeld Unit) received 4 damage, leaving 1 HP remaining"
+        effects:
+          - "Murasame (Andrew Waldfeld Unit) repaired 2 from [Repair 2]"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 2nd Form and Strike Rouge (Ootori) (prevented by Archangel)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, now destroyed"
+          - "Graze Custom received 3 damage, now destroyed"
+  - turn: 12
+    active_player: "4444"
+    actions:
+      - action: "deploy"
+        card: "Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Freedom Gundam"
+        linked: true
+      - action: "attack"
+        player: "4444"
+        attacker: "Freedom Gundam"
+        declared_target: "player"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "attack"
+        player: "4444"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, leaving 1 HP remaining"
+          - "Murasame (Andrew Waldfeld Unit) received 3 damage, now destroyed"
+          - "Murasame (Andrew Waldfeld Unit): Draw a card"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Freedom Gundam, which was prevented by Archangel"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 2nd Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 2nd Form and Freedom Gundam (prevented by Archangel)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "Freedom Gundam"
+        blockers: "none"
+        final_target: "Freedom Gundam"
+        outcome:
+          - "Freedom Gundam received 6 damage, now destroyed"
+          - "Gundam Barbatos 2nd Form received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 3 damage, leaving 2 HP remaining"
+  - turn: 14
+    active_player: "4444"
+    actions:
+      - action: "play_base"
+        card: "Archangel"
+        replaced: "Archangel"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "4444"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "4444"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Gundam Barbatos Lupus"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 3 damage, now destroyed"
+  - turn: 16
+    active_player: "4444"
+    actions:
+      - action: "deploy"
+        card: "Akatsuki (Oowashi)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Akatsuki (Oowashi)"
+        linked: true
+        effects:
+          - "Shiden Custom (Ryusei-Go) returned to hand"
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "4444"
+        attacker: "Akatsuki (Oowashi)"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Akatsuki (Oowashi) received 5 damage, leaving 1 HP remaining"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Flauros (Ryusei-Go) discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Akatsuki (Oowashi)"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "4444"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Graze Custom"
+        final_target: "Akatsuki (Oowashi)"
+        outcome:
+          - "Akatsuki (Oowashi) received 0 damage, leaving 1 HP remaining"
+          - "Graze Custom received 6 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Ryusei-Go (Graze Custom Ⅱ) and Akatsuki (Oowashi)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Gundam Lfrith revealed and discarded"
+        blockers: "none"
+        final_target: "shield"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Lfrith revealed and discarded"
+  - turn: 18
+    active_player: "4444"
+    actions:
+      - action: "play_command"
+        player: "4444"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Kira Yamato discarded"
+      - action: "play_base"
+        card: "Archangel"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "4444"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+casualties:
+  "4444":
+    - card: "Gundam Lfrith"
+      turn: 7
+    - card: "Strike Rouge (Ootori)"
+      turn: 10
+    - card: "Strike Rouge (Ootori)"
+      turn: 11
+    - card: "Murasame (Andrew Waldfeld Unit)"
+      turn: 12
+    - card: "Freedom Gundam"
+      turn: 13
+    - card: "Archangel"
+      turn: 15
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 11
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 13
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+    - card: "Graze Custom"
+      turn: 17
+shields_tally:
+  "4444":
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) in 18 turni contro 4444 (Blu/Bianco Orb: Archangel, Strike Rouge, Freedom, Akatsuki, entrambe le stampe di Kira Yamato — quarto avversario su sette con un mazzo SEED/Orb). 4444 ha scelto di giocare secondo. Kiraya chiude senza aver MAI perso una shield vera (0 shields_lost): tutto il danno subito è finito su Isaribi o sull'EX Base."
+  - "ERRORE #1 — self-ping mal indirizzato (t7): il Deploy di Ryusei-Go ha pingato SE STESSO invece di un'altra unità, lasciandolo a 1 HP per il resto della sua vita in gioco. Al t9 quell'1 HP lo ha reso un'attaccante usa-e-getta: ha attaccato Strike Rouge (già scesa a 1 HP il turno prima) ottenendo solo 2 danni (Strike Rouge sopravvive a 2 HP) e morendo lui stesso. Confronto diretto nello STESSO game: al t17 il ping di un secondo Ryusei-Go è andato su Barbatos 1st Form (che pesca se danneggiato quando attacca) — la scelta corretta, a riprova che è un'abitudine, non un caso. Regola pratica: il ping di Ryusei-Go va SEMPRE dirottato su un'altra unità a meno che non ci sia nulla di meglio in gioco."
+  - "ERRORE #2 (il più costoso) — sequenza sbagliata al t17: Graze Custom ha attaccato Akatsuki (Oowashi), già a 1 HP dal trade con Lupus del turno prima. 4444 ha risposto con Unforeseen Incident (azione, danno azzerato) e Graze Custom è morto per 6 danni di ritorno per ZERO guadagno. Subito DOPO, Kiraya ha pairato Mikazuki Augus su Barbatos 1st Form: il ping automatico di 1 danno ha colpito lo stesso Akatsuki (ancora a 1 HP) — uccidendolo comunque, gratis. Se il pair+ping fosse arrivato PRIMA dell'attacco, Akatsuki sarebbe morto senza spendere Graze Custom: la carta è stata buttata per un kill che era già disponibile a costo zero. Regola pratica: prima di attaccare un bersaglio già in kill-range, controlla se un ping/pair a disposizione lo finisce da solo."
+  - "Trick da tenere a mente per i prossimi incontri con questo avversario: Unforeseen Incident (azzera/riduce il danno in action step) è stato giocato DUE volte in questa partita, sempre in risposta a un attacco di Kiraya (t15 su Lupus, t17 su Graze Custom). Dopo la prima comparsa andava messo in conto un secondo copy: value la stessa lezione dell'errore #2, ma a livello di pianificazione pre-turno, non solo di sequenza."
+  - "Buona lettura al t12: Kira Yamato (ST04-010) ha applicato AP-2 a Gundam Gusion Rebake PRIMA dell'attacco di Freedom Gundam — un debuff preventivo per rendere inefficace un blocco. Kiraya non ha bloccato (lasciando morire Isaribi) e ha invece riservato Gusion Rebake sano per il SECONDO attacco dello stesso turno (Murasame), dove ha bloccato e sopravvissuto a 1 HP. Con due minacce nello stesso turno e un solo blocker, prioritizzare quale bloccare (anziché la prima che arriva) è stata la scelta giusta."
+  - "Lupus ancora protagonista ma stavolta caduto in combattimento, non per bounce: usato in attacco al t15 (dopo doppia Activate) per finire Archangel, è rimasto rested ed è morto al t16 sotto Akatsuki+Kira — rischio accettabile di un uso offensivo, non un errore (nessun bounce in questo mazzo avversario)."
+  - "Partenza lenta nonostante il mulligan: prima giocata di Kiraya solo al t5 (Hyakuren + replace Isaribi), turni 1-4 tutti passati. La pressione recuperata nella seconda metà (EX Base giù al t9, Archangel abbattuta due volte, Lupus+1st Form a chiudere) ha comunque bastato: bilancio del campione aggro_mono_p ora 4-3."

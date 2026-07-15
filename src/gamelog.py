@@ -19,6 +19,7 @@ STARTING_SHIELDS = 6
 
 _SETUP_CHOICES = {
     "Choose to play first": "choose_first_player",
+    "Choose to play second": "choose_second_player",
     "Choose to keep starting hand": "keep_hand",
     "Choose to mulligan starting hand": "mulligan",
 }
@@ -36,7 +37,9 @@ _MARKERS = {
 _TURN_START_RE = re.compile(r"^Turn (\d+) started!$")
 _DEPLOYED_RE = re.compile(r"^(.+?) deployed$")
 _PLAYED_BASE_RE = re.compile(r"^Played base: (.+)$")
-_REPLACED_EX_BASE_RE = re.compile(r"^Replaced EX Base base: (.+)$")
+# "Replaced EX Base base: X" (the starting EX Base) or "Replaced <old base>
+# base: <new base>" (an in-play Base refreshed by deploying another copy).
+_REPLACED_BASE_RE = re.compile(r"^Replaced (.+?) base: (.+)$")
 # "action" = played during a battle's action step, "command" = main phase.
 _PLAYED_ACTION_RE = re.compile(r"^Played (?:action|command): (.+)$")
 _ACTIVATED_RE = re.compile(r"^Activated: (.+)$")
@@ -257,6 +260,8 @@ def parse_game_log(text: str) -> dict:
             setup.append({"player": actor, "action": choice})
             if choice == "choose_first_player":
                 first_player = actor
+            elif choice == "choose_second_player":
+                first_player = other(actor)
             elif choice == "mulligan" and actor in mulligans:
                 mulligans[actor] = True
             continue
@@ -347,11 +352,12 @@ def parse_game_log(text: str) -> dict:
             note_card(m.group(1), owner=actor, context="base")
             add_action({"action": "play_base", "card": m.group(1)})
             continue
-        m = _REPLACED_EX_BASE_RE.match(ln)
+        m = _REPLACED_BASE_RE.match(ln)
         if m:
-            note_card(m.group(1), owner=actor, context="base")
-            add_action({"action": "play_base", "card": m.group(1), "replaced_ex_base": True})
-            if actor in tally and turn is not None:
+            replaced, new_card = m.group(1), m.group(2)
+            note_card(new_card, owner=actor, context="base")
+            add_action({"action": "play_base", "card": new_card, "replaced": replaced})
+            if replaced == "EX Base" and actor in tally and turn is not None:
                 tally[actor]["ex_base_replaced_turn"] = turn["turn"]
             continue
         m = _PAIR_PILOT_RE.match(ln)
