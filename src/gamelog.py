@@ -320,6 +320,23 @@ def parse_game_log(text: str) -> dict:
             )
             action_step_play = None
             continue
+        if m and battle is None:
+            # An ability jumps straight to the damage step with no normal
+            # declare/block flow (e.g. Nu Gundam LR's own When-Paired:
+            # exile 3, then battle the chosen enemy, damage step only).
+            target = m.group(2)
+            battle = {
+                "action": "attack",
+                "player": actor,
+                "attacker": m.group(1),
+                "trigger": "ability",
+                "final_target": {"Enemy Player": "player", "Enemy Shield": "shield"}.get(
+                    target, target
+                ),
+            }
+            note_card(m.group(1), owner=actor, context="attacker")
+            action_step_play = None
+            continue
         if ln == "Battle ended":
             if battle is not None:
                 add_action(battle)

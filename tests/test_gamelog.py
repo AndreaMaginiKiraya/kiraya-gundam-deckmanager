@@ -455,6 +455,41 @@ Turn end phase started"""
     assert parsed["cards_seen"]["Gundam Leopard Destroy"]["contexts"] == ["added to hand"]
 
 
+def test_ability_triggered_battle_with_no_declare_phase():
+    # Nu Gundam LR's own When-Paired ability jumps straight to "Battle
+    # started" with no "Battle initiated"/"Battle declared"/blocker step.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Nu Gundam deployed
+Linked pilot: Amuro Ray on unit Nu Gundam
+Selecting target for Nu Gundam
+Kayra Su, Jegan and Amuro Ray exiled from the game
+Selecting target for Nu Gundam
+Battle started: Nu Gundam against Graze Custom
+B
+Graze Custom received 7 damage, now destroyed
+A
+Nu Gundam received 2 damage, leaving 5 HP remaining
+Healed 2 damage to: Nu Gundam
+Battle ended
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    battle = next(a for a in parsed["turns"][0]["actions"] if a["action"] == "attack")
+    assert battle["player"] == "A"
+    assert battle["attacker"] == "Nu Gundam"
+    assert battle["trigger"] == "ability"
+    assert battle["final_target"] == "Graze Custom"
+    assert "declared_target" not in battle
+    assert "blockers" not in battle
+    assert any("now destroyed" in e for e in battle["outcome"])
+
+
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
     # Regression test: a color contributed ONLY by a card that starts
     # ambiguous and is pinned by hand must survive a re-import. Coloring

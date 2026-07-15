@@ -1,0 +1,583 @@
+game:
+  id: "aggro_mono_p/2026-07-15_kiraya-vs-pelumu"
+  date_imported: "2026-07-15"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Pelumu:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  "Akihiro Altland":
+    id: "ST05-011"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Amuro Ray":
+    id: "GD05-085"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    note: "pinned: 'Healed 2 damage to: Nu Gundam' compare due volte (t10, t12), sempre subito dopo che Nu Gundam ha distrutto un'unità in combattimento — esattamente il suo effetto ('this Unit recovers 2 HP' quando l'unità ospite distrugge in battaglia); ST01-010 non ha alcuna cura"
+    owner: "Pelumu"
+    seen:
+      - "exiled"
+      - "pilot"
+  Genoace:
+    id: "GD02-030"
+    type: "UNIT"
+    level: 1
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Pelumu"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  Jegan:
+    id: "GD05-027"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    note: "pinned per coerenza colore: tutte le altre carte confermate di Pelumu (Genoace, Kayra Su, Ra Cailum, Re-GZ, Re-GZ BWS, Amuro Ray, Turning Point of History) sono Verdi, nessuna Blu vista in 13 turni — GD01-016 è Blu, GD05-027 Verde"
+    owner: "Pelumu"
+    seen:
+      - "exiled"
+      - "shield"
+  "Kayra Su":
+    id: "GD05-086"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Pelumu"
+    seen:
+      - "exiled"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "ENTRAMBE le stampe confermate come copie DISTINTE nella stessa partita: quella del t10 piazza 1 Resource EX al Deploy e ottiene Breach 3 solo During Pair = GD05-020 (R); quella del t12 attiva 'esilia 3 carte Londo Bell dal trash, poi battaglia istantanea solo danno' = il When Paired testuale esatto di GD05-017 (LR), che ha anche Breach 5 intrinseco (coerente col valore diverso osservato)"
+    owner: "Pelumu"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Pelumu"
+    seen:
+      - "base"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Pelumu"
+    seen:
+      - "shield"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "Pelumu"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Turning Point of History":
+    id: "GD02-104"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    owner: "Pelumu"
+    seen:
+      - "command"
+setup:
+  - player: "Pelumu"
+    action: "choose_second_player"
+  - player: "Pelumu"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Pelumu"
+    actions:
+      - action: "deploy"
+        card: "Genoace"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Pelumu"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Kayra Su"
+        unit: "Re-GZ BWS"
+        linked: true
+      - action: "attack"
+        player: "Pelumu"
+        attacker: "Re-GZ BWS"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Pelumu"
+        attacker: "Genoace"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "Pelumu"
+    actions:
+      - action: "attack"
+        player: "Pelumu"
+        attacker: "Genoace"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "attack"
+        player: "Pelumu"
+        attacker: "Re-GZ BWS"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "play_base"
+        card: "Ra Cailum"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Re-GZ BWS"
+        blockers: "none"
+        final_target: "Re-GZ BWS"
+        outcome:
+          - "Re-GZ BWS received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Genoace"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Genoace"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+  - turn: 8
+    active_player: "Pelumu"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ BWS"
+        linked: true
+        effects:
+          - "Already rested unit: Gundam Barbatos Adapt"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "Pelumu"
+        attacker: "Re-GZ BWS"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Pelumu"
+        card: "Turning Point of History"
+        effects:
+          - "Turning Point of History: Draw a card"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Re-GZ BWS"
+        blockers: "none"
+        final_target: "Re-GZ BWS"
+        outcome:
+          - "Re-GZ BWS received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair received 4 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Gundam Barbatos 1st Form moved to trash"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Re-GZ BWS"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ BWS revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ revealed and discarded"
+  - turn: 10
+    active_player: "Pelumu"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "Pelumu"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 2 HP remaining"
+          - "Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Akihiro Altland"
+        unit: "Gundam Gusion Rebake"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 4 damage, now destroyed"
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Graze Custom returned to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 2nd Form"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 12
+    active_player: "Pelumu"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Kayra Su, Jegan and Amuro Ray exiled from the game"
+      - action: "attack"
+        player: "Pelumu"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 7 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 5 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "Pelumu"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 2nd Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5 Shield card: Isaribi revealed"
+          - "Healed 2 damage to: Nu Gundam"
+          - "No more Shield cards to add to hand"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Pelumu:
+    - card: "Re-GZ BWS"
+      turn: 7
+    - card: "Ra Cailum"
+      turn: 7
+    - card: "Nu Gundam"
+      turn: 11
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Exia Repair"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 12
+shields_tally:
+  Pelumu:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 4)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 2
+    shields_remaining: 0
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) in 13 turni contro un Londo Bell Verde di Pelumu (Genoace, Re-GZ BWS, Nu Gundam — ENTRAMBE le stampe usate, Amuro Ray, Kayra Su, Ra Cailum), ma con una statistica che salta all'occhio: Kiraya ha perso 7 unità contro le sole 3 di Pelumu, e l'EX Base di Kiraya è caduta al t4 contro il t6 di Pelumu. La partita è stata vinta sulla velocità della corsa, non sul vantaggio materiale — un percorso più rischioso delle vittorie pulite (partite 8 e 9)."
+  - "ERRORE #1 — turno 5 passato senza attaccare: Exia Repair e Graze Custom (entrambi schierati al t3, sani, attivi) non hanno attaccato affatto, nonostante il board di Pelumu fosse COMPLETAMENTE rested (Genoace e Re-GZ BWS avevano attaccato al t4 e non si sarebbero riattivati fino al t6 di Pelumu). Un turno intero di danno gratuito lasciato sul tavolo contro un avversario esposto — l'esatto contrario della disciplina 'attacca sempre quando puoi' che ha vinto le partite precedenti. Il primo vero attacco di Kiraya in tutta la partita arriva solo al t7, tardissimo per lo standard del mazzo (di solito t4-5)."
+  - "ERRORE #2 — Exia Repair speso su un bersaglio non urgente (t9): ha attaccato direttamente Re-GZ BWS (rested dal proprio attacco del t8, quindi NON poteva colpire di nuovo prima del t10 di Pelumu — nessuna urgenza reale di rimuoverlo subito), lasciandolo comunque vivo a 1 HP e morendo lui stesso. Il ping obbligato di Gusion Rebake schierato subito dopo lo ha poi finito, ma se Exia avesse invece colpito lo shield del player, la pressione sulle shield sarebbe stata maggiore e il ping di Gusion avrebbe comunque danneggiato Re-GZ BWS per il turno successivo. Coerente con la lezione già emersa più volte nel campione: 'colpisci il player, non i corpi che non minacciano nulla subito' — qui non è stata applicata. Nota a favore: il self-mill di Exia ha comunque messo Lupus e 1st Form nel trash, tornati utili più avanti."
+  - "Lettura corretta e ben eseguita al t11: Gusion Rebake (paired con Akihiro) ha attaccato direttamente Nu Gundam (rested, guarito a 4 HP dall'abilità di Amuro Ray il turno prima) per un trade esatto — rimuovendo la minaccia più pericolosa in campo (AP alto, Breach, autocura) al prezzo di un'unità che aveva già dato valore col proprio ping. Nello stesso turno Kiraya ha comunque trovato altri due attacchi alle shield: recupero di tempo reale dopo l'inizio lento."
+  - "Curiosità di regole scoperta in questa partita: il When Paired di Nu Gundam LR (GD05-017) — 'esilia 3 carte (Londo Bell) dal trash, poi inizia una battaglia con l'unità nemica scelta saltando dichiarazione e blocco, solo passo del danno' — bypassa completamente la possibilità di bloccare. Contro questa carta specifica non c'è difesa reattiva: l'unico modo per non subirla è non lasciare unità dell'avversario abbastanza in trash da alimentarla, o rimuovere Nu Gundam prima che possa pairare."
+  - "Il doppio Breach 5 di Nu Gundam LR nello stesso turno (t12, prima l'attacco-abilità istantaneo poi un secondo attacco normale) ha consumato la prima Isaribi e forzato il redeploy della seconda dalle shield, esaurendo lo stack fino a 'No more Shield cards to add to hand' — le basi hanno lavorato esattamente come devono (assorbire, non le shield vere), ma qui il prezzo è stato pagato interamente in un solo turno pesante."
+  - "Bilancio del campione aggro_mono_p dopo 10 partite: 7 vittorie, 3 sconfitte."
