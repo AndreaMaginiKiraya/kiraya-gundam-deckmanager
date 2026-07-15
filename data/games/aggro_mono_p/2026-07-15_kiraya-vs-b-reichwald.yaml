@@ -1,0 +1,311 @@
+game:
+  id: "aggro_mono_p/2026-07-15_kiraya-vs-b-reichwald"
+  date_imported: "2026-07-15"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    "B Reichwald":
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "B Reichwald"
+    seen:
+      - "base"
+  "Char Aznable":
+    id: "GD05-093"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    note: "pinned: (1) vincolo colore — il mazzo è già Bianco (Rick Dias, Launcher Strike) + Viola (Axis, Rezin's Geara Doga), ST03-011 è Verde e sarebbe un terzo colore illegale; (2) il suo When Linked 'schiera 1 Base (Neo Zeon) dal trash' spiega perfettamente 'Selecting target for Char Aznable' seguito da 'Played base: Axis' al t9 — la prima Axis era stata distrutta al t8, questa è la stessa carta richiamata dal cimitero, non una seconda copia dalla mano. Nota aperta: i 7 danni di Sazabi in combattimento (t9) non tornano con l'AP0 di questo pilota sommato ai 5 di Sazabi (5+0=5, non 7) — non ho trovato la fonte dei 2 danni extra, possibile bonus non tracciato"
+    owner: "B Reichwald"
+    seen:
+      - "pilot"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Launcher Strike Gundam":
+    id: "GD01-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "B Reichwald"
+    seen:
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Rezin's Geara Doga":
+    id: "GD05-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "B Reichwald"
+    seen:
+      - "shield"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "B Reichwald"
+    seen:
+      - "blocker"
+      - "deployed"
+  Sazabi:
+    id: null
+    candidates:
+      - "GD05-049"
+      - "GD05-052"
+    note: "irrisolvibile con certezza: stesso AP5 per entrambe le stampe. 'Selecting target for Sazabi' al deploy (t9) suggerirebbe il Deploy di GD05-052 ('distruggi 1 tua altra unità'), ma B Reichwald non aveva altre unità in gioco in quel momento (solo la base Axis) — con nessun bersaglio valido altrove il log usa 'No targets for X', non 'Selecting target', quindi l'evidenza resta ambigua"
+    owner: "B Reichwald"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "B Reichwald"
+    action: "choose_first_player"
+  - player: "B Reichwald"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "B Reichwald"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "B Reichwald"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 5
+    active_player: "B Reichwald"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Sazabi revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 2 damage, leaving 1 HP remaining"
+          - "Graze Custom received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Rick Dias"
+  - turn: 7
+    active_player: "B Reichwald"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Char Aznable revealed"
+          - "Shield card added to hand: Char Aznable"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Rezin's Geara Doga revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Launcher Strike Gundam revealed and discarded"
+  - turn: 9
+    active_player: "B Reichwald"
+    actions:
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "B Reichwald"
+        attacker: "Sazabi"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Sazabi received 6 damage, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  "B Reichwald":
+    - card: "Axis"
+      turn: 8
+    - card: "Sazabi"
+      turn: 9
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 9
+shields_tally:
+  "B Reichwald":
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+study_notes:
+  - "Vittoria schiacciante di Kiraya (aggro_mono_p) in soli 10 turni contro un mazzo Bianco/Viola Neo Zeon di B Reichwald (Rick Dias, Axis, Sazabi, Char Aznable). Kiraya chiude senza aver MAI subito danno alle shield o all'EX Base: 6 shield intatte, EX Base mai nemmeno scalfita. La partita più lopsided delle 8 analizzate finora."
+  - "MVP assoluto: Gundam Exia Repair (1 costo, HP1) ha attaccato 4 volte senza mai essere toccato — t4 (EX Base -1), t6 doppio (EX Base kill + 1 shield), t8 doppio ancora (2 shield). Un corpo da HP1 che regge un'intera partita è la controprova diretta di quanto sia letale la mano lenta di un avversario che non riesce mai a schierare un blocker o un attaccante prima del t5: contro un board vuoto, anche la carta più fragile del mazzo diventa un clock inarrestabile."
+  - "Il ping di Gundam Barbatos Adapt (t6, 'Dealt 1 damage to: Gundam Barbatos Adapt and Rick Dias') ha probabilmente ucciso Rick Dias in silenzio: era già a 1 HP dal blocco contro Graze Custom pochi secondi prima nello stesso turno, e il ping multi-bersaglio non riporta mai 'now destroyed' anche quando lo è (pattern già visto in altre partite) — Rick Dias infatti sparisce dal log per il resto della partita."
+  - "Char Aznable (GD05-093) ha richiamato Axis dal trash con il suo When Linked al t9 (Axis era stata distrutta al t8): la seconda 'Played base: Axis' non è una nuova copia dalla mano ma la stessa carta tornata in gioco — utile per non fraintendere il conteggio delle basi in mazzi Neo Zeon con questo pilota."
+  - "Sazabi ha chiuso in pareggio mortale con Shiden Custom (Ryusei-Go)+Mikazuki al t9 (7 danni contro 7), portando via l'ultima minaccia di Kiraya ma senza che bastasse: al t10 B Reichwald non ha più fatto nulla, Kiraya ha vinto senza bisogno di attaccare ancora — probabile resa con la board ormai persa."
+  - "Bilancio del campione aggro_mono_p dopo 8 partite: 5 vittorie, 3 sconfitte. Contro mazzi Neo Zeon/Sleeves (waxtrax, B Reichwald): 2-0. Le uniche sconfitte restano contro avversari con motori di pesca dedicati (0622, umberduel, アスファルトの雑草) — qui invece B Reichwald non ha mai attivato nulla del genere e la corsa si è chiusa prima che potesse iniziare."
