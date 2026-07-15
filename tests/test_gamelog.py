@@ -286,6 +286,34 @@ Turn ended!"""
     assert any("repaired 1" in e for e in activate["effects"])
 
 
+def test_burst_command_from_shield_and_prevention_lines():
+    snippet = """Game started!
+アスファルトの雑草
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+Battle initiated
+B
+Battle declared: Graze Custom against Enemy Player
+アスファルトの雑草
+No blockers available
+Battle started: Graze Custom against Enemy Shield
+Shield card: Close Combat revealed
+Shield card: Close Combat moved to trash
+Close Combat: Dealt 2 damage to Graze Custom, now destroyed
+Damage prevented
+Returned to deck bottom
+Battle ended"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["players"] == ["アスファルトの雑草", "B"]
+    assert parsed["unparsed"] == []
+    # Burst command counts as a lost shield for the defender.
+    assert parsed["shields_tally"]["アスファルトの雑草"]["shields_lost"] == 1
+    # Japanese player names survive a YAML round-trip as mapping keys.
+    assert yaml.safe_load(gamelog.dump_yaml(parsed["shields_tally"])) == parsed["shields_tally"]
+
+
 def test_zero_width_chars_in_card_names_still_resolve():
     # GD05-111 is printed as "Airframe​ Seizure" upstream (zero-width
     # space); a log says "Airframe Seizure" and must still match.

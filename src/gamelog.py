@@ -49,6 +49,9 @@ _CANT_BLOCK_RE = re.compile(r"^Can't block (.+)$")
 _SHIELD_DISCARDED_RE = re.compile(r"^Shield card: (.+?) revealed and discarded$")
 _SHIELD_REVEALED_RE = re.compile(r"^Shield card: (.+?) revealed$")
 _SHIELD_TO_HAND_RE = re.compile(r"^Shield card added to hand(?:: (.+))?$")
+# Two-line variant of a lost shield: "revealed" then "moved to trash"
+# (a Burst COMMAND resolves its effect before going to the trash).
+_SHIELD_TO_TRASH_RE = re.compile(r"^Shield card: (.+?) moved to trash$")
 # "Breach 3: : Isaribi received ..." (base hit, doubled colon as observed) or
 # "Breach 3 Shield card: X revealed and discarded" (shield hit, no colon).
 _BREACH_RE = re.compile(r"^Breach \d+\s*:?\s*:?\s*(.+)$")
@@ -77,6 +80,8 @@ _RESTED_BASE_RE = re.compile(r"^Rested base: .+$")
 _SET_ACTIVE_RE = re.compile(r"^Set Active: .+$")
 _RESOURCE_EX_RE = re.compile(r"^Placed \d+ Resource EX$")
 _NO_TARGETS_RE = re.compile(r"^No targets for .+$")
+_DAMAGE_PREVENTED_RE = re.compile(r"^Damage prevented$")
+_RETURNED_BOTTOM_RE = re.compile(r"^Returned to deck bottom$")
 _NO_MORE_SHIELDS_RE = re.compile(r"^No more Shield cards to add to hand$")
 _GAME_OVER_RE = re.compile(r"^No more shields available, game is over!$")
 _SELECTING_RE = re.compile(r"^Selecting target for .+$")
@@ -211,6 +216,15 @@ def parse_game_log(text: str) -> dict:
                 tally[owner]["shields_to_hand"] += 1
             if m.group(1):
                 note_card(m.group(1), owner=owner, context="shield")
+            pending_shield = None
+            add_effect(raw)
+            return True
+        m = _SHIELD_TO_TRASH_RE.match(inner)
+        if m:
+            owner = defender()
+            if owner in tally:
+                tally[owner]["shields_lost"] += 1
+            note_card(m.group(1), owner=owner, context="shield")
             pending_shield = None
             add_effect(raw)
             return True
@@ -416,6 +430,8 @@ def parse_game_log(text: str) -> dict:
             or _SET_ACTIVE_RE.match(ln)
             or _RESOURCE_EX_RE.match(ln)
             or _NO_TARGETS_RE.match(ln)
+            or _DAMAGE_PREVENTED_RE.match(ln)
+            or _RETURNED_BOTTOM_RE.match(ln)
             or _NO_MORE_SHIELDS_RE.match(ln)
             or _GAME_OVER_RE.match(ln)
         ):

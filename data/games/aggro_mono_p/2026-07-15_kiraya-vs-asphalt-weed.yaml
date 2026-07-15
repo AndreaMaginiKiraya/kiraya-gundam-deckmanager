@@ -1,0 +1,783 @@
+game:
+  id: "aggro_mono_p/2026-07-15_kiraya-vs-asphalt-weed"
+  date_imported: "2026-07-15"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:アスファルトの雑草"
+  players:
+    "アスファルトの雑草":
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "アスファルトの雑草"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "アスファルトの雑草"
+    seen:
+      - "command"
+      - "discarded"
+      - "shield"
+  "Battle of Aces":
+    id: "GD01-111"
+    type: "COMMAND"
+    level: 3
+    cost: 2
+    owner: "アスファルトの雑草"
+    seen:
+      - "command"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "アスファルトの雑草"
+    seen:
+      - "command"
+      - "discarded"
+      - "shield"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "アスファルトの雑草"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "returned"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "アスファルトの雑草"
+    seen:
+      - "command"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "probabilmente ENTRAMBE le stampe (pattern ricorrente nei mazzi SEED): il Burst 'add to hand' dalla shield (t18) = ST04-010; il 'Draw a card' ai link (t19) = GD05-081"
+    owner: "アスファルトの雑草"
+    seen:
+      - "pilot"
+      - "shield"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "アスファルトの雑草"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Overwhelming Pressure":
+    id: "GD04-109"
+    type: "COMMAND"
+    level: 5
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "アスファルトの雑草"
+    seen:
+      - "command"
+      - "discarded"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "アスファルトの雑草"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "アスファルトの雑草"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "アスファルトの雑草"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "アスファルトの雑草"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "アスファルトの雑草"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "アスファルトの雑草"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "アスファルトの雑草"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Isaribi discarded"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Ryusei-Go (Graze Custom Ⅱ), now destroyed"
+  - turn: 5
+    active_player: "アスファルトの雑草"
+    actions: []
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced_ex_base: true
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Shiden Custom (Ryusei-Go), now destroyed"
+  - turn: 7
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 9
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Overwhelming Pressure"
+        effects:
+          - "Overwhelming Pressure: Dealt 4 damage to Hyakuren, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Flauros (Ryusei-Go), leaving 1 HP remaining"
+  - turn: 11
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "EX Base received 5 damage, now destroyed"
+        blockers: "none"
+        final_target: "EX Base"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Battle of Aces"
+        effects:
+          - "Battle of Aces: Dealt 3 damage to Gundam Barbatos Adapt, now destroyed"
+  - turn: 13
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Battle of Aces"
+        effects:
+          - "Battle of Aces: Dealt 3 damage to Gundam Barbatos Adapt, now destroyed"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Overwhelming Pressure"
+        effects:
+          - "Overwhelming Pressure: Dealt 4 damage to Hyakuren, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Airframe Seizure revealed and discarded"
+        blockers: "none"
+        final_target: "shield"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 15
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Flauros (Ryusei-Go), now destroyed"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 2nd Form and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos 2nd Form, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Improved Technique revealed"
+          - "Shield card: Improved Technique moved to trash"
+          - "Improved Technique: Dealt 3 damage to Gundam Barbatos 2nd Form, now destroyed"
+  - turn: 17
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Marida Cruz: Dealt 1 damage to Gundam Gusion Rebake, leaving 4 HP remaining"
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Damage prevented"
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 0 damage, leaving 5 HP remaining"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Gusion Rebake, leaving 3 HP remaining"
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Damage prevented"
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 0 damage, leaving 5 HP remaining"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 2nd Form, Gundam Gusion Rebake and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Unicorn Gundam 02 Banshee (Destroy Mode), leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Graze Custom and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Unicorn Gundam 02 Banshee (Destroy Mode), leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Unicorn Gundam 02 Banshee (Destroy Mode), now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+  - turn: 19
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Strike Rouge (Ootori) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 2 damage, leaving 3 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        outcome:
+          - "Overwhelming Pressure and Airframe Seizure discarded"
+          - "Gundam Barbatos Lupus returned to deck"
+          - "Isaribi received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+        blockers: "none"
+        final_target: "Isaribi"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Airframe Seizure"
+        effects:
+          - "Close Combat discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Mikazuki Augus discarded"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 21
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Strike Rouge (Ootori) and Strike Freedom Gundam"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "アスファルトの雑草"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Ryusei-Go (Graze Custom Ⅱ), now destroyed"
+  - turn: 23
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Battle of Aces"
+        effects:
+          - "Battle of Aces: Dealt 3 damage to Gundam Gusion Rebake, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "アスファルトの雑草"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Strike Rouge (Ootori) and Strike Freedom Gundam"
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 24
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 25
+    active_player: "アスファルトの雑草"
+    actions:
+      - action: "attack"
+        player: "アスファルトの雑草"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  "アスファルトの雑草":
+    - card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      turn: 18
+  Kiraya:
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 4
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 14
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 15
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 16
+    - card: "Gundam Gusion Rebake"
+      turn: 17
+    - card: "Gundam Gusion Rebake"
+      turn: 17
+    - card: "Gundam Barbatos Adapt"
+      turn: 19
+    - card: "Isaribi"
+      turn: 19
+    - card: "Gundam Barbatos 1st Form"
+      turn: 20
+    - card: "Isaribi"
+      turn: 21
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 22
+    - card: "Gundam Gusion Rebake"
+      turn: 23
+shields_tally:
+  "アスファルトの雑草":
+    ex_base: "destroyed (turn 12)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Sconfitta pesante di Kiraya (aggro_mono_p) in 25 turni contro アスファルトの雑草: removal-control fatto quasi solo di Action giocate in end phase (Close Combat, Darkness Finger, Battle of Aces, Improved Technique, Overwhelming Pressure — ~12 rimozioni da 1-2 costi in tutta la partita) con Banshee, Strike Rouge e Strike Freedom a chiudere. Il matchup peggiore visto finora."
+  - "Il pattern che ha svuotato la partita: per ~10 turni OGNI unità di Kiraya è morta nella end phase del turno in cui era scesa (t4 Ryusei, t6 Shiden, t9 Hyakuren, t12/13 Adapt+Hyakuren, t14 Graze, t15 Flauros, t20 1st Form, t22 Ryusei, t23 Gusion). Le rimozioni da 2-4 danni tradano sempre in su contro corpi da 2-3 costi già auto-pingati."
+  - "Contro questo archetipo il self-ping è un costo vero: Ryusei a 1 HP muore a qualunque cosa, Shiden a 3 HP muore esatto a Improved Technique. Se il ping non attiva niente di concreto, contro i control va messo sul bersaglio col massimo degli HP di scorta (Gusion a 4 HP è l'unico sopravvissuto a una catena)."
+  - "L'unico modo per uscirne visto nel log: saturare. Ai t12/t14/t16 con 2-3 corpi calati nello stesso turno qualcosa è sopravvissuto e ha colpito (EX Base al t12, 2 shield + 2 Burst al t14-16). Una minaccia a turno = una rimozione a turno; due minacce = una passa."
+  - "Ottimo il t18: tripla attivazione di Lupus per uccidere il Banshee (che aveva 'Damage prevented' in battaglia e aveva rimbalzato Gusion in fondo al mazzo) senza mai combatterlo. Ma al t19 Strike Freedom ha rimbalzato Lupus nel mazzo — QUARTA partita col bounce che spegne il piano B."
+  - "Nota di lista avversaria: le shield contenevano Burst COMMAND offensivi (Close Combat e Improved Technique dalle shield hanno ucciso la 2nd Form al t16): attaccare le shield di questo mazzo ha un prezzo — altro argomento per chiudere in fretta invece di grattare."
+  - "Bilancio del campione dopo 6 partite (3-3): le tre sconfitte hanno la stessa radice — mano vuota dal t10 e nessuna interazione a velocità Action. Il mazzo vince solo le corse pulite; vedi proposte di modifica in NOTES della cartella."
