@@ -74,6 +74,10 @@ _DEALT_RE = re.compile(
 # destroyed suffix, so requiring a non-colon after "to" keeps them apart.
 _DEALT_DESTROYED_RE = re.compile(r"^(?:.+?: )?Dealt \d+ damage to ([^:].*?), now destroyed$")
 _DEALT_NOSRC_RE = re.compile(r"^Dealt \d+ damage to:? .+$")
+# Explicit battle-damage kill confirmation, distinct from "X received N
+# damage, now destroyed" (same event, alternate client phrasing observed).
+_DESTROYED_RE = re.compile(r"^(.+?): destroyed (.+)$")
+_RESOURCE_ACTIVE_RE = re.compile(r"^.+? turn end: \d+ resource set as active$")
 _DRAW_RE = re.compile(r"^.+?: Draw (?:a card|\d+ cards?)$")
 _MODIFIER_RE = re.compile(r"^.+?: Modifier applied to: .+$")
 _CHOSE_RE = re.compile(r"^.+?: chose .+$")
@@ -422,6 +426,12 @@ def parse_game_log(text: str) -> dict:
             record_death(m.group(1))
             add_effect(ln)
             continue
+        m = _DESTROYED_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="attacker")
+            record_death(m.group(2))
+            add_effect(ln)
+            continue
         m = _MILLED_RE.match(ln)
         if m:
             for name in _split_names(m.group(2)):
@@ -460,6 +470,7 @@ def parse_game_log(text: str) -> dict:
             or _RESTED_RE.match(ln)
             or _RESTED_BASE_RE.match(ln)
             or _SET_ACTIVE_RE.match(ln)
+            or _RESOURCE_ACTIVE_RE.match(ln)
             or _RESOURCE_EX_RE.match(ln)
             or _NO_TARGETS_RE.match(ln)
             or _DAMAGE_PREVENTED_RE.match(ln)

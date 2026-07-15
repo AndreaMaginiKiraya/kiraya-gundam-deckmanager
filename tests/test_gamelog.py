@@ -490,6 +490,46 @@ Turn end phase started"""
     assert any("now destroyed" in e for e in battle["outcome"])
 
 
+def test_explicit_destroyed_line_and_resource_active_note():
+    # Alternate client phrasing: an explicit "X: destroyed Y" kill
+    # confirmation (alongside "X received N damage, now destroyed" elsewhere)
+    # and an end-of-turn "X turn end: N resource set as active" note.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Gundam Exia Repair deployed
+B
+GN Armor Type-E deployed
+Battle initiated
+A
+Battle declared: Gundam Exia Repair against Enemy Player
+B
+No blockers available
+Battle started: Gundam Exia Repair against GN Armor Type-E
+B
+GN Armor Type-E received 2 damage, leaving 1 HP remaining
+A
+Gundam Exia Repair received 3 damage, now destroyed
+Gundam Exia Repair: destroyed GN Armor Type-E
+Battle ended
+Turn end phase started
+B
+Passed
+A
+Passed
+Gundam Exia turn end: 1 resource set as active
+Turn ended!"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    deaths = [c["card"] for c in parsed["casualties"]["B"]]
+    assert "GN Armor Type-E" in deaths
+    assert "attacker" in parsed["cards_seen"]["Gundam Exia Repair"]["contexts"]
+
+
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
     # Regression test: a color contributed ONLY by a card that starts
     # ambiguous and is pinned by hand must survive a re-import. Coloring
