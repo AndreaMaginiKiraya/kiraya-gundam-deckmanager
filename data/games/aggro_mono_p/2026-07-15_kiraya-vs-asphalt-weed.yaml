@@ -186,11 +186,11 @@ cards:
       - "base"
       - "discarded"
   "Kira Yamato":
-    id: null
-    candidates:
-      - "GD05-081"
-      - "ST04-010"
-    note: "probabilmente ENTRAMBE le stampe (pattern ricorrente nei mazzi SEED): il Burst 'add to hand' dalla shield (t18) = ST04-010; il 'Draw a card' ai link (t19) = GD05-081"
+    id: "GD05-081"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    note: "pinned per vincolo di colore: il mazzo è Blu/Rosso (7 command rossi + unità blu certe) e ST04-010 è BIANCA, quindi resta solo GD05-081 (blu, When Linked: draw — visto ai link del t19); l'add-to-hand dalla shield al t18 resta un'anomalia (GD05-081 non ha Burst)"
     owner: "アスファルトの雑草"
     seen:
       - "pilot"
@@ -781,3 +781,4 @@ study_notes:
   - "Ottimo il t18: tripla attivazione di Lupus per uccidere il Banshee (che aveva 'Damage prevented' in battaglia e aveva rimbalzato Gusion in fondo al mazzo) senza mai combatterlo. Ma al t19 Strike Freedom ha rimbalzato Lupus nel mazzo — QUARTA partita col bounce che spegne il piano B."
   - "Nota di lista avversaria: le shield contenevano Burst COMMAND offensivi (Close Combat e Improved Technique dalle shield hanno ucciso la 2nd Form al t16): attaccare le shield di questo mazzo ha un prezzo — altro argomento per chiudere in fretta invece di grattare."
   - "Bilancio del campione dopo 6 partite (3-3): le tre sconfitte hanno la stessa radice — mano vuota dal t10 e nessuna interazione a velocità Action. Il mazzo vince solo le corse pulite; vedi proposte di modifica in NOTES della cartella."
+  - "SCOPERTE dai testi delle carte (ricostruzione in decks/meta/hypo_asphalt_weed_control): Battle of Aces colpisce solo unità DANNEGGIATE — il self-ping di aggro_mono_p rende ogni corpo un bersaglio legale del loro removal migliore. Il bounce di Strike Freedom (GD05-002) rimanda in fondo al mazzo l'unità nemica DI LIVELLO PIÙ BASSO: tenere in gioco un corpo Lv1-2 protegge Lupus (Lv7) dal bounce. E il t17 del Banshee è spiegato: GD01-003 rimescola 12 carte dal trash nel mazzo, si riattiva e guadagna First Strike ('Damage prevented' = Gusion morto prima di rispondere)."
