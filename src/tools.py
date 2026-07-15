@@ -469,6 +469,24 @@ _AMBIGUOUS_CARD_NOTE = (
 )
 
 
+def _player_colors(cards_index: dict, players: list[str]) -> dict[str, set[str]]:
+    """Colors each player's cards use, derived from cards_index. Must be
+    called after any annotation carry-over (not from the raw per-card-name
+    resolution pass): a card pinned only via carry-over still has a real
+    color, and computing this too early would silently drop it from
+    game.players.<p>.colors on every re-import."""
+    colors: dict[str, set[str]] = {p: set() for p in players}
+    for entry in cards_index.values():
+        card_id = entry.get("id")
+        owner = entry.get("owner")
+        if not card_id or not isinstance(owner, str) or owner not in colors:
+            continue
+        card = data.get_card_by_id(card_id)
+        if card and card.color:
+            colors[owner].add(card.color)
+    return colors
+
+
 def _carry_over_annotations(old_doc: dict, doc: dict) -> list[str]:
     """Copy hand-made annotations from a previous version of a game record
     into a freshly imported one: pinned card ids (stats re-derived from the
@@ -587,7 +605,6 @@ def import_game_log_impl(
 
     cards_index: dict[str, dict] = {}
     not_found: list[str] = []
-    colors: dict[str, set[str]] = {p: set() for p in players}
     for card_name, info in sorted(parsed["cards_seen"].items()):
         matches = _resolve_log_card_name(card_name)
         deck_note = None
@@ -613,8 +630,6 @@ def import_game_log_impl(
                 value = getattr(card, field)
                 if value is not None:
                     entry[field] = value
-            if card.color and len(info["owners"]) == 1:
-                colors[info["owners"][0]].add(card.color)
         elif matches:
             entry["id"] = None
             entry["candidates"] = sorted(c.id for c in matches)
@@ -633,6 +648,7 @@ def import_game_log_impl(
     if result is None:
         result = f"win:{parsed['winner']}" if parsed["winner"] else "unknown"
 
+    colors = _player_colors(cards_index, players)
     doc: dict = {
         "game": {
             "id": name,
@@ -669,6 +685,11 @@ def import_game_log_impl(
                 old_doc = None
             if isinstance(old_doc, dict):
                 carried = _carry_over_annotations(old_doc, doc)
+                if any(c.startswith("cards[") and c.endswith("].id") for c in carried):
+                    colors = _player_colors(doc["cards"], players)
+                    for p in players:
+                        if colors[p]:
+                            doc["game"]["players"][p]["colors"] = sorted(colors[p])
 
     path = data.save_game_file(name, gamelog.dump_yaml(doc), overwrite=overwrite)
     log_path = data.save_game_log(name, log_text)

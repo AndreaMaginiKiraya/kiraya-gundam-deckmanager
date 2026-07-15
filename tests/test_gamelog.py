@@ -388,6 +388,43 @@ def test_reimport_carries_over_hand_annotations(tmp_path, monkeypatch):
     assert "cards[Zaku Ⅱ].id" in summary["annotations_carried_over"]
 
 
+def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
+    # Regression test: a color contributed ONLY by a card that starts
+    # ambiguous and is pinned by hand must survive a re-import. Coloring
+    # was previously computed before annotation carry-over ran, so a
+    # re-import silently dropped any color that had no other, already-
+    # unambiguous card to back it up.
+    monkeypatch.setattr(data, "_GAMES_DIR", tmp_path)
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Zaku Ⅱ deployed
+Turn end phase started
+B
+Passed
+A
+Passed
+Turn ended!
+Winner!
+Game ended!"""
+    tools.import_game_log_impl(snippet, "g")
+    record = tmp_path / "g.yaml"
+    doc = yaml.safe_load(record.read_text(encoding="utf-8"))
+    assert "colors" not in doc["game"]["players"]["A"]  # still ambiguous, no color yet
+
+    doc["cards"]["Zaku Ⅱ"]["id"] = "ST03-008"  # the Green printing
+    doc["cards"]["Zaku Ⅱ"].pop("candidates", None)
+    record.write_text(gamelog.dump_yaml(doc), encoding="utf-8")
+
+    tools.import_game_log_impl(snippet, "g", overwrite=True)
+    doc2 = yaml.safe_load(record.read_text(encoding="utf-8"))
+    assert doc2["game"]["players"]["A"]["colors"] == ["Green"]
+
+
 def test_game_path_rejects_escape():
     with pytest.raises(ValueError):
         data._game_path("../evil")

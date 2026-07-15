@@ -343,7 +343,10 @@ def import_game_log(
 
     Args:
         log_text: The raw log text ("Turn 1 started!", "X deployed", ...).
-        name: Record name; subfolders allowed (e.g. "2026-07/kiraya-vs-x").
+        name: Record name; conventionally "<user's deck>/<date>_<player1>-vs-
+              <player2>" (e.g. "aggro_mono_p/2026-07-14_kiraya-vs-tonii") so
+              every game played with a deck is indexed together — see
+              data/games/README.md.
         result: Outcome to record, e.g. "win:Kiraya". Defaults to the
                 winner detected from the log's "Winner!" line, else
                 "unknown" (logs often stop before the end).
