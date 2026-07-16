@@ -77,7 +77,10 @@ _DEALT_NOSRC_RE = re.compile(r"^Dealt \d+ damage to:? .+$")
 # Explicit battle-damage kill confirmation, distinct from "X received N
 # damage, now destroyed" (same event, alternate client phrasing observed).
 _DESTROYED_RE = re.compile(r"^(.+?): destroyed (.+)$")
-_RESOURCE_ACTIVE_RE = re.compile(r"^.+? turn end: \d+ resource set as active$")
+# "X turn end: N resource set as active" (end-of-turn refresh) or the
+# terser "X: N resource set as active" (seen mid-battle, e.g. a Deploy-cost
+# resource un-resting as part of declaring an attack).
+_RESOURCE_ACTIVE_RE = re.compile(r"^.+?: \d+ resource set as active$")
 _DRAW_RE = re.compile(r"^.+?: Draw (?:a card|\d+ cards?)$")
 _MODIFIER_RE = re.compile(r"^.+?: Modifier applied to: .+$")
 _CHOSE_RE = re.compile(r"^.+?: chose .+$")

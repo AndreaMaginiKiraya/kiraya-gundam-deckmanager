@@ -1,0 +1,892 @@
+game:
+  id: "aggro_mono_p/2026-07-15_kiraya-vs-yaakon"
+  date_imported: "2026-07-15"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:やーこん"
+  players:
+    "やーこん":
+      first_player: false
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  "Argo Gulskii":
+    id: "GD05-122"
+    note: "pilot mode of the COMMAND card 'Graviton Hammer'"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "pilot"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Chibodee Crocket":
+    id: "GD05-121"
+    note: "pilot mode of the COMMAND card 'Cyclone Punch'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "pilot"
+  "Cyclone Punch":
+    id: "GD05-121"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "command"
+      - "shield"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "command"
+      - "discarded"
+      - "returned"
+  "Domon Kasshu":
+    id: "GD05-097"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "pilot"
+      - "shield"
+  "Dragon Gundam":
+    id: "GD05-035"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "やーこん"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graviton Hammer":
+    id: "GD05-122"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "command"
+      - "discarded"
+      - "returned"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Fight":
+    id: "GD05-128"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "やーこん"
+    seen:
+      - "base"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Maxter":
+    id: "GD05-069"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "やーこん"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Hoka Kyoten Juzetsujin":
+    id: "GD05-112"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "added to hand"
+      - "command"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "milled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "やーこん"
+    seen:
+      - "command"
+  "Rising Gundam":
+    id: "GD05-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "やーこん"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Sai Saici":
+    id: "GD05-112"
+    note: "pilot mode of the COMMAND card 'Hoka Kyoten Juzetsujin'"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "pilot"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Shining Finger":
+    id: "GD05-120"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "やーこん"
+    seen:
+      - "discarded"
+  "Shining Gundam":
+    id: "GD05-066"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned: il suo Deploy ('esilia 2 unità MF dal trash, recupera 1 Special Move Command') spiega ESATTAMENTE le due sequenze osservate (t8: Rising+Shining esiliate -> Graviton Hammer in mano; t12: Shining+Maxter esiliate -> Darkness Finger in mano), e l'Attack 'riattiva 1 risorsa' spiega 'Shining Gundam: 1 resource set as active' (t8, t12); link [Domon Kasshu] combacia col pairing visto più volte. GD05-042 è vanilla, nessuna corrispondenza"
+    owner: "やーこん"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "shield"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+setup:
+  - player: "やーこん"
+    action: "choose_second_player"
+  - player: "やーこん"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "やーこん"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "やーこん"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "やーこん"
+    actions:
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Shining Gundam"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Shining Gundam received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Isaribi and Sword Impulse Gundam moved to trash"
+      - action: "deploy"
+        card: "Rising Gundam"
+      - action: "play_command"
+        player: "やーこん"
+        card: "Graviton Hammer"
+        effects:
+          - "Rested unit: Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Argo Gulskii"
+        unit: "Rising Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Graze Custom"
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Rising Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Rising Gundam received 4 damage, leaving 1 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Rising Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Domon Kasshu revealed"
+          - "Shield card added to hand: Domon Kasshu"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shining Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+  - turn: 8
+    active_player: "やーこん"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Rising Gundam and Shining Gundam exiled from the game"
+          - "Graviton Hammer returned to hand"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Darkness Finger discarded"
+          - "Darkness Finger: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Sword Impulse Gundam moved to trash"
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Shining Gundam"
+        declared_target: "Graze Custom"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Graze Custom received 5 damage, now destroyed"
+          - "Shining Gundam received 2 damage, leaving 3 HP remaining"
+        blockers: "none"
+        final_target: "Graze Custom"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Shining Gundam"
+        blockers: "none"
+        final_target: "Shining Gundam"
+        outcome:
+          - "Shining Gundam received 4 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Cyclone Punch revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "No targets for Sword Impulse Gundam"
+  - turn: 10
+    active_player: "やーこん"
+    actions:
+      - action: "play_base"
+        card: "Gundam Fight"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Maxter"
+      - action: "play_command"
+        player: "やーこん"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Chibodee Crocket"
+        unit: "Gundam Maxter"
+        linked: true
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Barbatos Adapt"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Hyakuren"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+          - "Gundam Maxter received 0 damage, leaving 3 HP remaining"
+          - "Card added to hand: Hoka Kyoten Juzetsujin"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "Gundam Maxter"
+        blockers: "none"
+        final_target: "Gundam Maxter"
+        outcome:
+          - "Gundam Maxter received 3 damage, now destroyed"
+          - "Sword Impulse Gundam received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Gundam Fight"
+        outcome:
+          - "Gundam Fight received 4 damage, leaving 1 HP remaining"
+  - turn: 12
+    active_player: "やーこん"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Shining Gundam and Gundam Maxter exiled from the game"
+          - "Darkness Finger returned to hand"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Shining Finger discarded"
+          - "Rested unit: Hyakuren"
+          - "Shining Finger: Modifier applied to: Shining Gundam"
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Shining Gundam"
+        declared_target: "Hyakuren"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Shining Gundam received 0 damage, leaving 5 HP remaining"
+        blockers: "none"
+        final_target: "Hyakuren"
+      - action: "deploy"
+        card: "Dragon Gundam"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Shining Gundam"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Gundam Barbatos Adapt and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Shining Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos 1st Form and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Shining Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Gundam Fight"
+        outcome:
+          - "Gundam Fight received 4 damage, now destroyed"
+  - turn: 14
+    active_player: "やーこん"
+    actions:
+      - action: "play_command"
+        player: "やーこん"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Graviton Hammer discarded"
+      - action: "play_base"
+        card: "Gundam Fight"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Maxter"
+      - action: "play_command"
+        player: "やーこん"
+        card: "Hoka Kyoten Juzetsujin"
+        effects:
+          - "Hoka Kyoten Juzetsujin: Modifier applied to: Dragon Gundam"
+      - action: "pair_pilot"
+        pilot: "Sai Saici"
+        unit: "Dragon Gundam"
+        linked: true
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Dragon Gundam"
+        declared_target: "player"
+        modifiers:
+          - "Hoka Kyoten Juzetsujin: Modifier applied to: Gundam Maxter"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Gundam Maxter"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Gundam Fight"
+        outcome:
+          - "Gundam Fight received 6 damage, now destroyed"
+  - turn: 16
+    active_player: "やーこん"
+    actions:
+      - action: "play_command"
+        player: "やーこん"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Shining Gundam discarded"
+      - action: "play_command"
+        player: "やーこん"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus, leaving 3 HP remaining"
+      - action: "play_command"
+        player: "やーこん"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "やーこん"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus, now destroyed"
+      - action: "play_command"
+        player: "やーこん"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Hyakuren, leaving 1 HP remaining"
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Dragon Gundam"
+        declared_target: "player"
+        modifiers:
+          - "Hoka Kyoten Juzetsujin: Modifier applied to: Gundam Maxter"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Gundam Maxter"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Gundam Maxter received 6 damage, now destroyed"
+          - "Breach 3 Shield card: Become a Shield revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Maxter"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 18
+    active_player: "やーこん"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Gundam Maxter"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Dragon Gundam"
+        declared_target: "player"
+        modifiers:
+          - "Hoka Kyoten Juzetsujin: Modifier applied to: Gundam Maxter"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+          - "Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Shiden Custom (Ryusei-Go) and Gundam Barbatos 2nd Form moved to trash"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Maxter"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Maxter"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Dragon Gundam"
+        blockers: "none"
+        final_target: "Dragon Gundam"
+        outcome:
+          - "Dragon Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+  - turn: 20
+    active_player: "やーこん"
+    actions:
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "deploy"
+        card: "Rising Gundam"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Shining Gundam"
+  - turn: 22
+    active_player: "やーこん"
+    actions:
+      - action: "attack"
+        player: "やーこん"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  "やーこん":
+    - card: "Shining Gundam"
+      turn: 6
+    - card: "Shining Gundam"
+      turn: 9
+    - card: "Gundam Maxter"
+      turn: 11
+    - card: "Shining Gundam"
+      turn: 13
+    - card: "Gundam Fight"
+      turn: 13
+    - card: "Gundam Fight"
+      turn: 15
+    - card: "Gundam Maxter"
+      turn: 16
+    - card: "Dragon Gundam"
+      turn: 19
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Sword Impulse Gundam"
+      turn: 11
+    - card: "Hyakuren"
+      turn: 12
+    - card: "Isaribi"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+    - card: "Hyakuren"
+      turn: 16
+    - card: "Gundam Exia Repair"
+      turn: 18
+    - card: "Gundam Barbatos Adapt"
+      turn: 19
+shields_tally:
+  "やーこん":
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "replaced with a base (turn 9)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Sconfitta di Kiraya (aggro_mono_p) in 22 turni contro un mazzo G Gundam/Mobile Fighter di やーこん (Domon Kasshu, Shining/Rising/Dragon Gundam, Gundam Maxter, Sai Saici, Chibodee Crocket, base Gundam Fight). A differenza delle tre sconfitte precedenti (0622, umberduel, アスファルトの雑草), QUI Strike Freedom non è mai apparso — eppure il risultato è identico: Kiraya a 0 shield contro 1 rimasta a やーこん."
+  - "La causa non è un errore isolato di Kiraya (a differenza delle partite vs 4444/pelumu, qui non ho trovato una sequenza scorretta di ping/attacco): è un motore avversario a cui il mazzo non ha risposta. Shining Gundam (GD05-066) ha un Deploy che esilia 2 unità MF dal trash per recuperare 1 Command 'Special Move' — usato TRE volte nella partita (t4/t8/t12), ha continuato a rimettere in mano Darkness Finger e Graviton Hammer già scartati, più il proprio Attack che riattiva 1 risorsa rested a turno."
+  - "Il turno decisivo è il 16: QUATTRO copie di Darkness Finger (2 danni ciascuna) giocate in sequenza hanno ucciso Barbatos Lupus (già a 4 HP dal ping di Mikazuki) e ridotto Hyakuren a 1 HP, spianando la strada al Gundam Maxter che lo ha finito nello stesso turno. Un singolo turno ha cancellato entrambe le minacce rimaste di Kiraya."
+  - "Pattern condiviso con la sconfitta vs アスファルトの雑草: rimozione economica ripetibile (lì Close Combat/Battle of Aces/Improved Technique/Overwhelming Pressure, qui Darkness Finger x6 in totale nella partita) che risponde alle minacce di Kiraya una alla volta più velocemente di quanto il mazzo possa svilupparne di nuove — senza bisogno del bounce di Strike Freedom. Darkness Finger, verificato sui log grezzi, compare SOLO in queste due sconfitte e in nessuna delle 8 vittorie."
+  - "Scoperta trasversale: le 4 sconfitte del campione hanno TUTTE almeno una tra Strike Freedom (0622, umberduel, アスファルトの雑草) e Darkness Finger (アスファルトの雑草, やーこん) — アスファルトの雑草 le aveva entrambe. Nessuna delle 8 vittorie ha nessuna delle due. Il filo comune non è la carta specifica ma il tipo di risposta: interazione ripetibile a basso costo (bounce o removal da 2 danni) contro cui il mazzo non ha contromisure strutturali, a differenza degli avversari che si limitano a correre o a rimuovere board senza quel tipo di strumenti."
+  - "Buona gestione nonostante la sconfitta: Isaribi-replace tempestiva al t9 (nessuna urgenza prima, やーこん non aveva mai attaccato l'EX Base di Kiraya), Activate di Isaribi usata per un kill esatto su Shining Gundam allo stesso turno, nessun self-ping sprecato rilevato. La partita si è persa per il motore avversario, non per l'esecuzione."

@@ -530,6 +530,27 @@ Turn ended!"""
     assert "attacker" in parsed["cards_seen"]["Gundam Exia Repair"]["contexts"]
 
 
+def test_resource_active_terse_mid_battle_phrasing():
+    # Same event as above but without "turn end:" -- seen mid-battle, e.g.
+    # a Deploy-cost resource un-resting as part of declaring an attack.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Battle initiated
+A
+Battle declared: Shining Gundam against Enemy Player
+Shining Gundam: 1 resource set as active
+B
+No blockers available
+Battle ended"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+
+
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
     # Regression test: a color contributed ONLY by a card that starts
     # ambiguous and is pinned by hand must survive a re-import. Coloring
