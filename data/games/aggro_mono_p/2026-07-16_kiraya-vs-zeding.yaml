@@ -1,0 +1,627 @@
+game:
+  id: "aggro_mono_p/2026-07-16_kiraya-vs-zeding"
+  date_imported: "2026-07-16"
+  source: "chat log"
+  result: "win:Kiraya"
+  players:
+    Zeding:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  "Chuatury Panlunch":
+    id: "GD01-119"
+    note: "pilot mode of the COMMAND card 'Iron-Fisted Discipline'"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 0
+    owner: "Zeding"
+    seen:
+      - "pilot"
+  "Chuchu's Demi Trainer":
+    id: "GD01-074"
+    note: "pinned: every attack in the log triggers 'Draw a card' then a discard, matching GD01-074's '[Attack] Draw 1. Then, discard 1.' exactly. GD04-030 (the other candidate) has an unrelated attack-redirect effect and no draw/discard text."
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 1
+    owner: "Zeding"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Demi Barding":
+    id: "GD05-025"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Zeding"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "First Contact":
+    id: "GD01-107"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    owner: "Zeding"
+    seen:
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Aerial Rebuild":
+    id: "GD04-024"
+    note: "pinned: Deploy line immediately adds Demi Barding (an (Academy) Unit) to hand, matching GD04-024's '[Deploy] Look at the top 3 cards of your deck. You may reveal 1 (Academy) Unit card/Command card among them and add it to your hand.' exactly - none of the other 3 candidates has a Deploy card-fetch effect. Unresolved: the turn 10/11 battle log shows this unit dealing 7 damage twice, one more than base AP5 + Suletta Mercury's +1 AP pairing bonus (=6) would predict; HP math (5 base + 2 from Suletta = 7) checks out exactly, so the AP discrepancy looks like a client-side quirk rather than a wrong id pin."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Zeding"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Pharact":
+    id: "GD04-018"
+    note: "pinned: turn 14 shows 'Gundam Pharact: Placed 1 EX Resource' right after Chuchu's Demi Trainer (another (Academy) Unit) took battle damage on Zeding's own turn - matches GD04-018's '[Once per Turn] During your turn, when one of your other (Academy) Units receives damage from an enemy, place 1 EX Resource.' exactly; also has <Breach 5>, matching the Breach 5 shield hit later that turn. Confirmed independently: pairing Suletta Mercury onto this unit is logged as 'Paired' (not 'Linked'), meaning its link condition wasn't met - rules out GD01-071 (link: any (Academy) trait pilot, which Suletta satisfies) and leaves only GD02-078/GD04-018 (link: [Elan Ceres] specifically)."
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Zeding"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Interwoven Blessings":
+    id: "GD05-107"
+    type: "COMMAND"
+    level: 10
+    cost: 10
+    ap: 0
+    hp: 0
+    owner: "Zeding"
+    seen:
+      - "added to hand"
+      - "discarded"
+  "Iron-Fisted Discipline":
+    id: "GD01-119"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 0
+    owner: "Zeding"
+    seen:
+      - "added to hand"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Zeding"
+    seen:
+      - "command"
+  "Quiet Zero":
+    id: "GD05-126"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Zeding"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Suletta Mercury":
+    id: "ST01-011"
+    note: "pinned via HP math: Gundam Pharact sat at 1 HP remaining after turn 14 combat, then absorbed the turn-15 Barbatos Lupus 2-damage ping while still 'leaving 1 HP remaining' instead of being destroyed - only consistent if Suletta's turn-14 pairing added +2 HP in between (1 + 2 - 2 = 1). ST01-011 carries a +1 AP/+2 HP pairing modifier; GD04-085 (the other candidate) is a flat +0/+0 'During Link' effect card and would have left Pharact dead."
+    seen:
+      - "pilot"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam (Bird Mode)":
+    id: "ST02-002"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "Zeding"
+    seen:
+      - "deployed"
+      - "discarded"
+setup:
+  - player: "Zeding"
+    action: "choose_second_player"
+  - player: "Zeding"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Zeding"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "Zeding"
+    actions:
+      - action: "deploy"
+        card: "Chuchu's Demi Trainer"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "Zeding"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam (Bird Mode)"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "attack"
+        player: "Zeding"
+        attacker: "Chuchu's Demi Trainer"
+        declared_target: "player"
+        outcome:
+          - "Chuchu's Demi Trainer: Draw a card"
+          - "Wing Gundam (Bird Mode) discarded"
+          - "EX Base received 3 damage, now destroyed"
+        blockers: "none"
+        final_target: "EX Base"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Rested unit: Wing Gundam (Bird Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Wing Gundam (Bird Mode)"
+        blockers: "none"
+        final_target: "Wing Gundam (Bird Mode)"
+        outcome:
+          - "Wing Gundam (Bird Mode) received 4 damage, now destroyed"
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 8
+    active_player: "Zeding"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam (Bird Mode)"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "play_command"
+        player: "Zeding"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "First Contact discarded"
+      - action: "attack"
+        player: "Zeding"
+        attacker: "Chuchu's Demi Trainer"
+        declared_target: "Hyakuren"
+        outcome:
+          - "Chuchu's Demi Trainer: Draw a card"
+          - "First Contact discarded"
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Chuchu's Demi Trainer received 4 damage, now destroyed"
+        blockers: "none"
+        final_target: "Hyakuren"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Gusion Rebake discarded"
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Rested unit: Wing Gundam (Bird Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "Wing Gundam (Bird Mode)"
+        blockers: "none"
+        final_target: "Wing Gundam (Bird Mode)"
+        outcome:
+          - "Wing Gundam (Bird Mode) received 3 damage, now destroyed"
+          - "Sword Impulse Gundam received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 3 damage, now destroyed"
+        blockers: "none"
+        final_target: "EX Base"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "Zeding"
+    actions:
+      - action: "deploy"
+        card: "Gundam Aerial Rebuild"
+        effects:
+          - "Card added to hand: Demi Barding"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Gundam Aerial Rebuild"
+        linked: true
+      - action: "attack"
+        player: "Zeding"
+        attacker: "Gundam Aerial Rebuild"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+          - "Gundam Aerial Rebuild received 3 damage, leaving 4 HP remaining"
+      - action: "play_base"
+        card: "Quiet Zero"
+        effects:
+          - "Shield card added to hand"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Aerial Rebuild"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "Gundam Aerial Rebuild"
+        blockers: "none"
+        final_target: "Gundam Aerial Rebuild"
+        outcome:
+          - "Gundam Aerial Rebuild received 3 damage, now destroyed"
+          - "Sword Impulse Gundam received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Quiet Zero"
+        outcome:
+          - "Quiet Zero received 2 damage, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Quiet Zero"
+        outcome:
+          - "Quiet Zero received 2 damage, leaving 2 HP remaining"
+  - turn: 12
+    active_player: "Zeding"
+    actions:
+      - action: "play_command"
+        player: "Zeding"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Wing Gundam (Bird Mode) discarded"
+      - action: "deploy"
+        card: "Demi Barding"
+        effects:
+          - "Card added to hand: Interwoven Blessings"
+      - action: "deploy"
+        card: "Gundam Pharact"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Gusion Rebake and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Demi Barding, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Pharact"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Quiet Zero"
+        outcome:
+          - "Quiet Zero received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Iron-Fisted Discipline revealed and discarded"
+        blockers: "none"
+        final_target: "shield"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Demi Barding revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Chuchu's Demi Trainer revealed and discarded"
+  - turn: 14
+    active_player: "Zeding"
+    actions:
+      - action: "deploy"
+        card: "Demi Barding"
+        effects:
+          - "Card added to hand: Iron-Fisted Discipline"
+      - action: "deploy"
+        card: "Chuchu's Demi Trainer"
+      - action: "pair_pilot"
+        pilot: "Chuatury Panlunch"
+        unit: "Chuchu's Demi Trainer"
+        linked: true
+      - action: "pair_pilot"
+        pilot: "Chuatury Panlunch"
+        unit: "Demi Barding"
+        linked: true
+      - action: "attack"
+        player: "Zeding"
+        attacker: "Chuchu's Demi Trainer"
+        declared_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Chuchu's Demi Trainer: Draw a card"
+          - "Interwoven Blessings discarded"
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Chuchu's Demi Trainer received 3 damage, now destroyed"
+          - "Gundam Pharact: Placed 1 EX Resource"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Zeding"
+        attacker: "Demi Barding"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Demi Barding received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Zeding"
+        attacker: "Gundam Pharact"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 5 damage, now destroyed"
+          - "Gundam Pharact received 2 damage, leaving 1 HP remaining"
+          - "Breach 5 Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Gundam Pharact"
+        linked: false
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos 1st Form and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Pharact, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 2nd Form and Gundam Pharact"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+casualties:
+  Zeding:
+    - card: "Wing Gundam (Bird Mode)"
+      turn: 7
+    - card: "Chuchu's Demi Trainer"
+      turn: 8
+    - card: "Wing Gundam (Bird Mode)"
+      turn: 9
+    - card: "Gundam Aerial Rebuild"
+      turn: 11
+    - card: "Demi Barding"
+      turn: 13
+    - card: "Quiet Zero"
+      turn: 13
+    - card: "Chuchu's Demi Trainer"
+      turn: 14
+    - card: "Demi Barding"
+      turn: 14
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Sword Impulse Gundam"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Sword Impulse Gundam"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Gundam Barbatos 1st Form"
+      turn: 14
+    - card: "Graze Custom"
+      turn: 14
+shields_tally:
+  Zeding:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) in 15 turni contro un mazzo Bianco/Verde di Zeding centrato su Suletta Mercury e le unità (Academy) — Chuchu's Demi Trainer, Gundam Aerial Rebuild, Gundam Pharact, Demi Barding, oltre a Wing Gundam (Bird Mode) come innesco di risorse EX. Prima partita di questo campione contro questo archetipo specifico."
+  - "Nota (non un errore netto): al t9 Kiraya pinga con Ryusei-Go il proprio Gundam Barbatos 1st Form portandolo a 1 HP PRIMA di attaccare col Barbatos stesso — combo corretta, visto che la sua abilità è '[Attack] Se questa unità è danneggiata, pesca 1' (coerente con la dinamica 'ping-prima-di-attaccare' già confermata nel campione). Il costo collaterale è che l'unità resta scoperta a 1 HP fino al turno successivo, e al t10 Zeding la elimina gratis con Gundam Aerial Rebuild appena schierato. Non è chiaro se ci fosse un modo migliore di sequenziare senza rinunciare alla pescata: da tenere d'occhio se il pattern si ripete in altre partite."
+  - "Turno 13 è il punto di svolta della partita: Gundam Barbatos Lupus deployato e attivato subito, esiliando 3 carte già morte/nel trash (Hyakuren, Gusion Rebake, Barbatos 1st Form) come costo — nessun valore reale sacrificato — per 2 danni che uccidono Demi Barding. Il pair immediato di Mikazuki Augus (link riuscito) piazza altro danno ad area (Gusion Rebake e Pharact insieme). Poi tre attacchi in fila al giocatore abbattono la base Quiet Zero e bruciano 3 shield di Zeding in un solo turno. Ottimo esempio di 'dinamica efficace' da ripetere: usare Barbatos Lupus quando il trash è già pieno di carte morte, non quando costerebbe carte vive."
+  - "Il contrattacco di Zeding al t14 (Chuchu's Demi Trainer + Demi Barding + Gundam Pharact tutti in scambio) costa a Kiraya tre unità in un turno solo (Gusion Rebake, un secondo Barbatos 1st Form, Graze Custom) — il momento più pericoloso della partita. Ma l'aggressione del t13 aveva già portato Zeding a sole 2 shield residue più EX Base perso: il margine accumulato prima ha assorbito lo swing e la partita si chiude comunque al t15."
+  - "Interwoven Blessings (COMMAND costo 10, Green, distrugge le prime 2 shield di un giocatore) pescata da Zeding al t12 non è mai stata giocata: la velocità del piano aggro di Kiraya (chiusura al t15) ha negato all'avversario il tempo/risorse per arrivare a un costo così alto. Conferma indiretta della validità del piano 'vinci prima che il tardo-gioco avversario diventi rilevante'."
+  - "Bilancio del campione aggro_mono_p dopo 14 partite: 10 vittorie, 4 sconfitte."

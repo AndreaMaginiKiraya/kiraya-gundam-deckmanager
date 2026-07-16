@@ -1,6 +1,6 @@
-# aggro_mono_p — analisi del campione (13 partite, 9-4)
+# aggro_mono_p — analisi del campione (14 partite, 10-4)
 
-Sintesi trasversale delle 13 partite giocate con `aggro_mono_p`, costruita
+Sintesi trasversale delle 14 partite giocate con `aggro_mono_p`, costruita
 incrociando le `study_notes` di ogni record in questa cartella. Obiettivo:
 non ripetere quello che è già scritto partita per partita, ma isolare i
 pattern che si vedono **solo** guardando le partite insieme — cosa
@@ -28,6 +28,7 @@ per vedere se conferma o smentisce i pattern sotto.
 | 11 | 07-15 | [Forlun](2026-07-15_kiraya-vs-forlun.yaml) | **W** | 14 | Viola/Rosso, Gundam 00/Celestial Being (Virtue, Kyrios, GN Armor) | 5 / 0 | 7 / 3 | 0 shield perse nonostante più unità perse: l'avversario non ha mai attaccato il player, solo i corpi |
 | 12 | 07-15 | [やーこん](2026-07-15_kiraya-vs-yaakon.yaml) | **L** | 22 | Rosso/Bianco, G Gundam/Mobile Fighter (Domon Kasshu, Shining/Dragon Gundam, Maxter) | 0 / 1 | 13 / 8 | Nessun errore isolato di Kiraya: sconfitta pulita contro un motore di recursion (Shining Gundam) + spam di Darkness Finger (4 copie in un turno) |
 | 13 | 07-16 | [big stan](2026-07-16_kiraya-vs-big-stan.yaml) | **W** | 11 | Blu/Rosso, Londo Bell (ReZEL, Gundam ST01-001, Amuro Ray, White Base) | 5 / 0 | 3 / 2 | Vittoria fulminea; turno 11 da manuale di saturazione (2 Adapt + Mikazuki nello stesso turno, poi 4 attacchi) |
+| 14 | 07-16 | [Zeding](2026-07-16_kiraya-vs-zeding.yaml) | **W** | 15 | Bianco/Verde, Academy/Suletta Mercury (Chuchu's Demi Trainer, Gundam Aerial Rebuild, Gundam Pharact, Wing Gundam Bird Mode) | 5 / 2 | 7 / 5 | Turno 13 da manuale (Lupus su trash morto + Mikazuki + 3 attacchi, brucia 3 shield); il contrattacco al t14 costa 3 unità ma il margine accumulato prima regge |
 
 **Bilancio per famiglia di mazzo avversario:**
 
@@ -38,6 +39,7 @@ per vedere se conferma o smentisce i pattern sotto.
 | SEED/Orb (Cosmic Era) | **1-1** | 4444 (W), 0622 (L) |
 | After War Gundam X | **1-0** | Komsanw |
 | Gundam 00 / Celestial Being | **1-0** | Forlun |
+| Academy / Suletta Mercury | **1-0** | Zeding |
 | League Militaire | **0-1** | umberduel |
 | Control/removal ibrido (SEED) | **0-1** | アスファルトの雑草 |
 | G Gundam / Mobile Fighter | **0-1** | やーこん |
@@ -104,7 +106,16 @@ carte puro — le due cause si sommano ma non sono la stessa cosa.
   turno (fino a 3, waxtrax t15) che convertono il trash accumulato dai
   sacrifici in rimozione ripetuta o danno diretto. Il pattern che chiude
   più partite del campione — ed è anche l'unico punto debole sfruttabile
-  (vedi sopra, bounce di Strike Freedom).
+  (vedi sopra, bounce di Strike Freedom). Esempio pulito: Zeding t13,
+  esiliate 3 carte già morte/nel trash (nessun valore vivo sacrificato)
+  per uccidere un'unità nemica, poi il pair di Mikazuki Augus piazza
+  altro danno ad area nello stesso turno.
+- **Ping-prima-di-attaccare per attivare l'abilità della stessa unità**
+  (non solo per finire un bersaglio): confermato anche con Gundam
+  Barbatos 1st Form (pesca se danneggiato in attacco) — Zeding t9,
+  Ryusei-Go lo pinga apposta prima che attacchi, pescando una carta in
+  più. Costo collaterale: l'unità resta scoperta a bassa HP fino al
+  turno successivo (vedi errori).
 - **Prioritizzazione dei blocchi sotto doppio attacco**: quando arrivano
   due minacce nello stesso turno con un solo blocker disponibile, salvare
   l'unità che morirebbe sicura (HP basso) e sacrificare quella che ha già

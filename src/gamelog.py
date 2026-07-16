@@ -92,7 +92,10 @@ _REPAIRED_RE = re.compile(r"^.+? repaired \d+ from .+$")
 _RESTED_RE = re.compile(r"^(?:Already rested|Rested) unit: .+$")
 _RESTED_BASE_RE = re.compile(r"^Rested base: .+$")
 _SET_ACTIVE_RE = re.compile(r"^Set Active: .+$")
-_RESOURCE_EX_RE = re.compile(r"^Placed \d+ Resource EX$")
+# "Placed N Resource EX" (a player's own resource-phase play) or the
+# "<source>: Placed N EX Resource" variant (a unit ability placing one,
+# reversed word order as observed, e.g. Gundam Pharact's Link effect).
+_RESOURCE_EX_RE = re.compile(r"^(?:.+?: )?Placed \d+ (?:Resource EX|EX Resource)$")
 _RESTED_RESOURCES_RE = re.compile(r"^Rested \d+ Resources?$")
 _NO_TARGETS_RE = re.compile(r"^No targets for .+$")
 _DAMAGE_PREVENTED_RE = re.compile(r"^Damage prevented$")
