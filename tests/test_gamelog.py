@@ -551,6 +551,23 @@ Battle ended"""
     assert parsed["unparsed"] == []
 
 
+def test_rested_resources_line_recognized():
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Played base: White Base
+Shield card added to hand
+Activated: White Base
+Rested 2 Resources
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+
+
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
     # Regression test: a color contributed ONLY by a card that starts
     # ambiguous and is pinned by hand must survive a re-import. Coloring
