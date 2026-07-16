@@ -1,9 +1,9 @@
-# aggro_mono_p — analisi del campione (11 partite, 8-3)
+# aggro_mono_p — analisi del campione (13 partite, 9-4)
 
-Sintesi trasversale delle 11 partite giocate con `aggro_mono_p`, costruita
+Sintesi trasversale delle 13 partite giocate con `aggro_mono_p`, costruita
 incrociando le `study_notes` di ogni record in questa cartella. Obiettivo:
 non ripetere quello che è già scritto partita per partita, ma isolare i
-pattern che si vedono **solo** guardando le 11 partite insieme — cosa
+pattern che si vedono **solo** guardando le partite insieme — cosa
 funziona sempre, cosa va storto sempre, contro cosa il mazzo fatica
 strutturalmente. Ultima sezione = checklist pratica per le prossime partite.
 
@@ -26,39 +26,67 @@ per vedere se conferma o smentisce i pattern sotto.
 | 9 | 07-15 | [Komsanw](2026-07-15_kiraya-vs-komsanw.yaml) | **W** | 18 | Bianco/Viola, After War Gundam X (Airmaster, Leopard Destroy, Gundam DX) | 3 / 1 | 6 / 6 | Trade quasi simmetrici; le lezioni della partita 7 (no self-ping sprecato, ping-prima-di-attaccare) applicate senza errori |
 | 10 | 07-15 | [Pelumu](2026-07-15_kiraya-vs-pelumu.yaml) | **W** | 13 | Verde, Londo Bell (Nu Gundam entrambe le stampe, Amuro, Re-GZ) | 0 / 0 | 7 / 3 | Vinta sulla velocità nonostante 7 unità perse contro 3, ed entrambi a 0 shield: race pericolosamente in parità |
 | 11 | 07-15 | [Forlun](2026-07-15_kiraya-vs-forlun.yaml) | **W** | 14 | Viola/Rosso, Gundam 00/Celestial Being (Virtue, Kyrios, GN Armor) | 5 / 0 | 7 / 3 | 0 shield perse nonostante più unità perse: l'avversario non ha mai attaccato il player, solo i corpi |
+| 12 | 07-15 | [やーこん](2026-07-15_kiraya-vs-yaakon.yaml) | **L** | 22 | Rosso/Bianco, G Gundam/Mobile Fighter (Domon Kasshu, Shining/Dragon Gundam, Maxter) | 0 / 1 | 13 / 8 | Nessun errore isolato di Kiraya: sconfitta pulita contro un motore di recursion (Shining Gundam) + spam di Darkness Finger (4 copie in un turno) |
+| 13 | 07-16 | [big stan](2026-07-16_kiraya-vs-big-stan.yaml) | **W** | 11 | Blu/Rosso, Londo Bell (ReZEL, Gundam ST01-001, Amuro Ray, White Base) | 5 / 0 | 3 / 2 | Vittoria fulminea; turno 11 da manuale di saturazione (2 Adapt + Mikazuki nello stesso turno, poi 4 attacchi) |
 
 **Bilancio per famiglia di mazzo avversario:**
 
 | Archetipo avversario | Record | Partite |
 |---|---|---|
-| Londo Bell (Amuro/Nu Gundam/Re-GZ) | **3-0** | Tonii, Fjfnc, Pelumu |
+| Londo Bell (Amuro/Nu Gundam/Re-GZ) | **4-0** | Tonii, Fjfnc, Pelumu, big stan |
 | Neo Zeon / Sleeves | **2-0** | waxtrax, B Reichwald |
 | SEED/Orb (Cosmic Era) | **1-1** | 4444 (W), 0622 (L) |
 | After War Gundam X | **1-0** | Komsanw |
 | Gundam 00 / Celestial Being | **1-0** | Forlun |
 | League Militaire | **0-1** | umberduel |
-| Control/removal ibrido | **0-1** | アスファルトの雑草 |
+| Control/removal ibrido (SEED) | **0-1** | アスファルトの雑草 |
+| G Gundam / Mobile Fighter | **0-1** | やーこん |
 
-## Il dato che spiega le tre sconfitte
+## Il dato che spiega le quattro sconfitte
 
-**Strike Freedom Gundam è presente in tutte e tre le sconfitte** (0622,
-umberduel, アスファルトの雑草) e in nessuna delle otto vittorie. Non è
-una coincidenza isolata: il suo bounce ("scarta 2, rimanda un'unità
-nemica nel mazzo — quella di livello più basso") è l'unica carta vista
-nel campione capace di annullare **Gundam Barbatos Lupus** senza
-combatterlo e senza alimentare né trash né esili — la sua controparte
-offensiva. Nelle tre sconfitte Lupus è stato rimbalzato nel mazzo un
+**Ogni singola sconfitta del campione ha in lista Strike Freedom Gundam
+o Darkness Finger (o entrambe)** — e **nessuna delle nove vittorie ha
+nessuna delle due**, verificato con un grep diretto sui log grezzi di
+tutte le 13 partite, non solo sulle note scritte partita per partita:
+
+| Sconfitta | Strike Freedom | Darkness Finger |
+|---|---|---|
+| 0622 | ✅ | — |
+| umberduel | ✅ | — |
+| アスファルトの雑草 | ✅ | ✅ |
+| やーこん | — | ✅ |
+
+Le due carte fanno cose diverse ma risolvono lo stesso problema per
+l'avversario: **Strike Freedom** rimanda nel mazzo l'unità nemica di
+livello più basso (bounce, senza combattere) — l'unica cosa vista nel
+campione capace di annullare **Gundam Barbatos Lupus** senza
+alimentare né trash né esili, la sua controparte offensiva. Nelle tre
+sconfitte con Strike Freedom, Lupus è stato rimbalzato nel mazzo un
 totale di **4 volte** (0622: 1×, umberduel: 2×, asphalt-weed: 1×,
-verificato riga per riga sui log grezzi), sempre azzerando in un colpo
-solo il piano B del mazzo in un momento chiave della partita.
+conteggio verificato sui log grezzi). **Darkness Finger** invece è pura
+rimozione ripetibile da 2 danni a basso costo: da sola non tocca Lupus,
+ma in quantità (asphalt-weed ne aveva 4 copie diverse osservate nel
+removal-package, やーこん ne ha giocate 4 nello stesso turno) risponde
+a qualsiasi minaccia economica del mazzo una alla volta, più in fretta
+di quanto Kiraya possa svilupparne di nuove.
 
-La seconda causa comune alle stesse tre sconfitte: **assenza di un
-motore di carte**. `aggro_mono_p` non ha nulla di equivalente a
-Overflowing Affection / A Show of Resolve / Strike Freedom-che-pesca-a-
-ogni-attacco. Contro avversari che pescano 10-15 carte extra a partita,
-il mazzo finisce regolarmente a mano vuota dal turno 10 (0622, umberduel,
+Il filo comune non è la carta specifica ma il tipo di risposta:
+**interazione ripetibile a basso costo** (bounce o removal da 1-2
+danni) contro cui il mazzo non ha contromisure strutturali — a
+differenza degli otto+ avversari vinti, che si limitano a correre o a
+rimuovere board senza quel tipo di strumenti.
+
+La seconda causa, presente in 3 delle 4 sconfitte (manca solo in
+やーこん, che vince comunque prima che serva): **assenza di un motore
+di carte**. `aggro_mono_p` non ha nulla di equivalente a Overflowing
+Affection / A Show of Resolve / Strike Freedom-che-pesca-a-ogni-attacco.
+Contro avversari che pescano 10-15 carte extra a partita, il mazzo
+finisce regolarmente a mano vuota dal turno 10 (0622, umberduel,
 asphalt-weed lo notano indipendentemente, con le stesse identiche
-parole: "mano vuota dal t10").
+parole: "mano vuota dal t10"). やーこん aveva comunque Overflowing
+Affection (6 pescate osservate), ma qui il colpo di grazia è arrivato
+per interazione diretta (Darkness Finger) più che per differenziale di
+carte puro — le due cause si sommano ma non sono la stessa cosa.
 
 ## Dinamiche efficaci (confermate su più partite)
 
@@ -88,10 +116,30 @@ parole: "mano vuota dal t10").
   giocato PRIMA di rischiare un'unità in combattimento per lo stesso
   kill. Violato una volta (4444 t17), poi mai più ripetuto — segno che è
   un'abitudine correggibile, non un limite del mazzo.
+- **Saturazione: 2+ minacce nello stesso turno chiudono la partita**.
+  Esempio più pulito: big stan t11, due Barbatos Adapt schierati nello
+  stesso turno (3 ping totali con Mikazuki) seguiti da 4 attacchi in
+  fila — partita finita lì su probabile resa. Stesso principio dietro
+  la tripla Activate di Lupus in un turno (waxtrax t15) e la
+  raccomandazione esplicita contro i mazzi control (vedi checklist).
+- **Amuro Ray spreca spesso il proprio When Paired** (rest di un'unità
+  nemica): in 4 partite su 4 in cui l'avversario lo ha giocato (Tonii,
+  Fjfnc, Pelumu, big stan) il bersaglio era già rested dall'attacco di
+  Kiraya del turno precedente — un pilota che sembra pericoloso ma il
+  cui effetto è quasi sempre già "consumato" prima di attivarsi. Non è
+  un'azione di Kiraya, ma utile saperlo: non è la minaccia che il nome
+  suggerisce se Kiraya ha già attaccato con tutto il turno prima.
 
 ## Errori ricorrenti lato Kiraya
 
-Elencati in ordine di frequenza osservata, con l'esempio più chiaro:
+Elencati in ordine di frequenza osservata, con l'esempio più chiaro.
+Nota preliminare: non tutte le sconfitte hanno un errore da correggere
+— やーこん è stata una sconfitta pulita contro un motore avversario
+(recursion + removal ripetuto) senza nessuna sequenza scorretta
+individuata lato Kiraya. Vale la pena distinguere "ho giocato male" da
+"l'avversario aveva in mano la risposta giusta": solo il primo caso è
+azionabile con più disciplina, il secondo richiede un piano diverso
+(vedi sezione successiva).
 
 1. **Self-ping sprecato su se stessi invece che su un'unità che ne
    beneficia** (1st Form pesca se danneggiato, 2nd Form ottiene AP+2).
@@ -114,18 +162,27 @@ Elencati in ordine di frequenza osservata, con l'esempio più chiaro:
    standard del mazzo (di solito t4-5).
 4. **Esporre Lupus troppo presto contro mazzi con Strike Freedom**,
    invece di calarlo solo nel turno in cui le sue attivazioni chiudono
-   qualcosa di concreto. Causa diretta di tutte e tre le sconfitte (vedi
-   sopra) — è la lezione più importante e ancora la meno "risolta" delle
-   quattro, perché dipende dal leggere in anticipo se l'avversario ha
-   Strike Freedom in lista, non solo dall'esecuzione nel turno.
+   qualcosa di concreto. Causa diretta di tutte e tre le sconfitte con
+   Strike Freedom (vedi sopra) — è la lezione più importante e ancora la
+   meno "risolta" del gruppo, perché dipende dal leggere in anticipo se
+   l'avversario ha Strike Freedom in lista, non solo dall'esecuzione nel
+   turno. Contro Darkness Finger/removal ripetuto (アスファルトの雑草,
+   やーこん) non c'è un equivalente "non fare X": è un problema di lista
+   avversaria, non di sequenza di gioco (vedi sotto).
 
 ## Problematiche strutturali del mazzo (non correggibili col solo gioco)
 
 - **Nessun motore di pesca/vantaggio carte.** Il mazzo compete sulla
   velocità pura; quando la corsa si allunga oltre il t10 (removal,
   stallo, doppio blocco) resta sistematicamente a corto di risorse
-  mentre l'avversario continua a pescare. Le tre sconfitte lo confermano
-  tutte.
+  mentre l'avversario continua a pescare. Presente in 3 sconfitte su 4
+  (manca in やーこん, dove il colpo di grazia è arrivato per
+  interazione diretta più che per differenziale di carte).
+- **Nessuna risposta a interazione ripetibile a basso costo** (bounce
+  tipo Strike Freedom, removal da 1-2 danni tipo Darkness Finger): è la
+  causa singola più consistente delle sconfitte (4 su 4, vedi sopra). Il
+  mazzo non ha counterplay strutturale — solo mitigazione tattica
+  (saturare, non esporre Lupus, ridurre il self-ping).
 - **Il self-ping è un'arma a doppio taglio contro il removal
   condizionale.** Diverse rimozioni osservate colpiscono solo unità
   *danneggiate* (es. Battle of Aces nell'archetipo control di
@@ -170,10 +227,18 @@ Punti azionabili, in ordine di impatto atteso sul win-rate:
    successivo. Se non sai ancora se l'avversario ha Strike Freedom,
    aspetta un segnale (un Kira Yamato in campo, uno scarto sospetto) prima
    di impegnarlo.
-6. **Contro mazzi che sembrano removal/control (tante Action da 1-2
-   costo, poca board avversaria)**: riduci il self-ping al minimo e punta
-   a saturare — calare 2-3 minacce nello stesso turno invece di una alla
-   volta, così almeno una sopravvive e colpisce.
+6. **Contro mazzi che sembrano removal/control (tante Action/Command da
+   1-2 costo, poca board avversaria — es. Darkness Finger, Close Combat,
+   Battle of Aces)**: riduci il self-ping al minimo e punta a saturare —
+   calare 2-3 minacce nello stesso turno invece di una alla volta, così
+   almeno una sopravvive e colpisce. Contro questi mazzi non esiste una
+   singola giocata che "risolve" il matchup: l'obiettivo è chiudere
+   prima che accumulino abbastanza copie per rispondere a tutto.
 7. **Isaribi-replace resta la giocata di default nei primi turni** quando
    disponibile: non aspettare che l'EX Base venga distrutta, sostituiscila
    appena hai 1 risorsa libera.
+8. **Se il tuo turno lascia 2+ unità sane in campo che possono attaccare,
+   fallo con tutte** — anche solo per portare via il pilota-rest
+   dell'avversario (Amuro Ray e simili) o costringerlo a decisioni. Le
+   partite più nette (b-reichwald, big stan) condividono proprio questo:
+   nessuna unità sana lasciata inattiva a fine turno.
