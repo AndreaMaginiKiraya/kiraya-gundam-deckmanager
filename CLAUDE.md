@@ -179,6 +179,21 @@ reconnect needed for those.)
   Unit copies in a deck each pilot can link with. It's a best-effort text
   match (bracket name / trait-in-parens), not strict rules enforcement —
   see the docstrings for the rare cases it can overcount.
+- **Game logs can display a Linked Unit under a different name than its
+  printed card name**: Mobile Suit Arena renders some Units as
+  `<base name> (<Pilot>'s Unit)` or `<base name> (<Pilot> Unit)` once a
+  Pilot's Link condition is met, instead of the actual printed name
+  (e.g. `Murasame (Andrew Waldfeld Unit)` is really "Waldfeld's Murasame",
+  and `Strike Rouge (Kira's Unit)` is really "Kira's Strike Rouge") — seen
+  in `data/games/aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-robotech.yaml`.
+  `import_game_log` reports these as `cards_not_found` since the display
+  name doesn't match any printed name; resolve them by hand from the
+  paired Pilot's name in the preceding `Linked pilot:` line (search
+  `search_cards` for the base name and check which printing's `link`
+  field names that Pilot). Not (yet) worth a general parser heuristic —
+  only two examples observed so far, and blindly stripping the
+  parenthetical would misfire on real printed names like
+  `Strike Rouge (Ootori)`.
 
 ### Deck legality rules (`validate_deck_impl`)
 

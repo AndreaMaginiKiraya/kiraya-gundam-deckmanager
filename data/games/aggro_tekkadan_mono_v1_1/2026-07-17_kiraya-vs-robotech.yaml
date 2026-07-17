@@ -1,0 +1,803 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-robotech"
+  date_imported: "2026-07-17"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Robotech"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    Robotech:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Robotech"
+    seen:
+      - "command"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: the log says 'Linked pilot: Kira Yamato' (Link condition met, not just Paired). GD03-072's link partner is [Mu La Flaga], which Kira Yamato can't satisfy; ST04-001's link partner is [Kira Yamato] directly. Also matches ST04-001's own When-Paired ability (t12: 'Hyakuren returned to hand', i.e. bounce an enemy Unit with 4 or less HP)."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Robotech"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Andrew Waldfeld":
+    id: "GD05-082"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Robotech"
+    seen:
+      - "pilot"
+      - "shield"
+  Archangel:
+    id: "ST04-015"
+    note: "pinned: revealed as a shield and immediately 'Played base: Archangel' (t11) - a Burst-deploy straight from the shield area. Only ST04-015 has 【Burst】Deploy this card; GD05-123 has no Burst keyword at all, so it could never trigger a deploy from a shield hit."
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Robotech"
+    seen:
+      - "base"
+      - "shield"
+  "Freedom Gundam":
+    id: null
+    candidates:
+      - "GD01-065"
+      - "GD03-070"
+      - "ST09-004"
+    note: "ambiguous: deployed as the very last action of the log ('Selecting target for Freedom Gundam' then 'Winner!') - no ability/stat evidence ever resolves before the game ends."
+    owner: "Robotech"
+    seen:
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to deck"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 5th Form (Ground Type)":
+    id: "GD03-066"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Robotech"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+      - "returned to hand"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "two distinct instances this game, can't be pinned to one id: the t12 copy (paired with Aile Strike Gundam) shows 'Kira Yamato: Modifier applied to: Graze Custom' at battle declare, matching ST04-010's own 【Attack】AP-2-to-target ability - that copy died with Aile Strike Gundam in the same battle. The t14 and t20 copies (paired with Strike Freedom Gundam, then Strike Rouge (Kira's Unit)) each show 'Kira Yamato: Draw a card' firing immediately on pairing, matching GD05-081's 【When Linked】draw ability instead. Left null because the record schema pins one id per card name and this game had both printings in play."
+    owner: "Robotech"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Murasame (Andrew Waldfeld Unit)":
+    id: "GD05-003"
+    note: "resolved by hand: the client displays this Unit's Link-paired name as '<name> (<Pilot>'s/Pilot Unit)' instead of its printed name once Linked. The actual printed card is 'Waldfeld's Murasame' (GD05-003, link [Andrew Waldfeld], matching the log's 'Linked pilot: Andrew Waldfeld on unit Murasame (Andrew Waldfeld Unit)'). Its HP4 also matches exactly ('received 4 damage, now destroyed' at t14). One open question: t12's 'Graze Custom received 4 damage' from this Murasame's attack doesn't match its printed AP2 - no modifier line explains the extra 2, left unresolved rather than guessed."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Robotech"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Robotech"
+    seen:
+      - "command"
+      - "discarded"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Robotech"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Robotech"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "resolved by hand: same Link-display naming quirk as Murasame (Andrew Waldfeld Unit) above - the printed card is literally 'Kira's Strike Rouge' (GD05-010, link [Kira Yamato]), matching 'Linked pilot: Kira Yamato on unit Strike Rouge (Kira's Unit)'."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Robotech"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Robotech"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Robotech"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Robotech"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Robotech"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 2 damage, leaving 1 HP remaining"
+          - "Graze Custom received 3 damage, now destroyed"
+  - turn: 6
+    active_player: "Robotech"
+    actions:
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Rick Dias"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Rick Dias received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Hyakuren moved to trash"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Rick Dias"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Rick Dias received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+  - turn: 8
+    active_player: "Robotech"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "play_command"
+        player: "Robotech"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Murasame (Andrew Waldfeld Unit) discarded"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "Robotech"
+    actions:
+      - action: "deploy"
+        card: "Murasame (Andrew Waldfeld Unit)"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Murasame (Andrew Waldfeld Unit)"
+        linked: true
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 2nd Form and Murasame (Andrew Waldfeld Unit)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Murasame (Andrew Waldfeld Unit)"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Rouge (Ootori) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Gundam Barbatos 2nd Form received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Andrew Waldfeld revealed"
+          - "Shield card added to hand: Andrew Waldfeld"
+      - action: "play_base"
+        card: "Archangel"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Archangel revealed"
+          - "Shield card added to hand"
+  - turn: 12
+    active_player: "Robotech"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Hyakuren returned to hand"
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Graze Custom"
+        blockers: "Gundam Gusion Rebake"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Graze Custom"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Murasame (Andrew Waldfeld Unit) received 2 damage, leaving 1 HP remaining"
+        effects:
+          - "Murasame (Andrew Waldfeld Unit) repaired 2 from [Repair 2]"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus Rex"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 4 damage, leaving 1 HP remaining"
+        effects:
+          - "Dealt 1 damage to Gundam Barbatos Lupus Rex, leaving 5 HP remaining"
+          - "Set Active: Gundam Barbatos Lupus Rex"
+  - turn: 14
+    active_player: "Robotech"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Murasame (Andrew Waldfeld Unit) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Murasame (Andrew Waldfeld Unit) received 4 damage, now destroyed"
+          - "Murasame (Andrew Waldfeld Unit): Draw a card"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Strike Rouge (Kira's Unit) and Murasame (Andrew Waldfeld Unit) discarded"
+          - "Gundam Barbatos Lupus Rex returned to deck"
+          - "Isaribi received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Freedom Gundam (prevented by Archangel)"
+      - action: "deploy"
+        card: "Gundam Barbatos 5th Form (Ground Type)"
+  - turn: 16
+    active_player: "Robotech"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+      - action: "play_command"
+        player: "Robotech"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Overflowing Affection and Overflowing Affection discarded"
+          - "Gundam Barbatos 1st Form returned to deck"
+          - "Isaribi received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 5th Form (Ground Type), leaving 3 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 3 HP remaining"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 5th Form (Ground Type)"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+          - "Gundam Barbatos 5th Form (Ground Type) received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 18
+    active_player: "Robotech"
+    actions:
+      - action: "play_command"
+        player: "Robotech"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Rick Dias"
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 2 damage, now destroyed"
+  - turn: 20
+    active_player: "Robotech"
+    actions:
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Gundam Lfrith"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Rick Dias"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "attack"
+        player: "Robotech"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Kira's Unit)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "deploy"
+        card: "Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Freedom Gundam"
+        linked: true
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 5
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Hyakuren"
+      turn: 14
+    - card: "Isaribi"
+      turn: 14
+    - card: "Isaribi"
+      turn: 16
+    - card: "Gundam Barbatos Adapt"
+      turn: 17
+    - card: "Gundam Barbatos 5th Form (Ground Type)"
+      turn: 17
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 19
+  Robotech:
+    - card: "Rick Dias"
+      turn: 6
+    - card: "Rick Dias"
+      turn: 7
+    - card: "Strike Rouge (Ootori)"
+      turn: 11
+    - card: "Aile Strike Gundam"
+      turn: 12
+    - card: "Murasame (Andrew Waldfeld Unit)"
+      turn: 14
+    - card: "Strike Rouge (Ootori)"
+      turn: 17
+    - card: "Archangel"
+      turn: 19
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Robotech:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 1
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 2
+study_notes:
+  - "Sesta partita con v1_1, quarta sconfitta (2-4). Robotech Blu/Bianco, SEED (Kira Yamato) + Orb/AEUG ibrido: Strike Freedom Gundam, Aile Strike Gundam, Strike Rouge (sia Ootori che Kira's Unit), Freedom Gundam, la famiglia Murasame/Andrew Waldfeld, Archangel come base Burst, Rick Dias, Gundam Lfrith, A Show of Resolve e Overflowing Affection per la pesca."
+  - "Strike Freedom Gundam torna a essere il problema strutturale numero 1 già documentato in aggro_mono_p/ANALISI.md: la sua abilità (scarta 2, rimanda in fondo al mazzo l'unità nemica di livello più basso) ha colpito Gundam Barbatos Lupus Rex al t14 - la singola copia del pezzo nuovo di v1_1 rimandata nel mazzo prima ancora di attaccare una volta - e Gundam Barbatos 1st Form al t16. Avere più copie totali di Lupus/Lupus Rex (5 in v1_1 contro 4 in aggro_mono_p) non risolve il problema: l'abilità colpisce comunque quella di livello più basso in campo in quel momento, a prescindere dal totale nel mazzo."
+  - "Isaribi colpita per 7 danni netti due volte di fila dallo stesso Strike Freedom Gundam (t14, t16) - enorme overkill su una base da 5 HP, ogni sostituzione ha bruciato un turno di risorsa senza guadagnare nulla in cambio."
+  - "Robotech ha accumulato vantaggio-carte pesante: A Show of Resolve (+2), più i 'Draw a card' ripetuti di Strike Freedom Gundam (Deploy/Attack, triggerati almeno 3 volte) e di Kira Yamato (When Linked, altre 2 volte) - lo stesso squilibrio di carte già segnalato come problema strutturale di aggro_mono_p, non ancora risolto in v1_1."
+  - "Turno decisivo t20: tre attacchi consecutivi (Gundam Lfrith, Rick Dias, Strike Rouge Ootori) colpiscono le ultime 3 shield di Kiraya nello stesso turno - una saturazione classica, stavolta subita invece che inflitta. Il Freedom Gundam calato a fine turno è arrivato a partita già decisa, mai sceso in azione."
+  - "Scoperta di formato: il client mostra alcuni Unit con Link attivo sotto un nome diverso da quello stampato, tipo '<nome base> (<Pilota>'s Unit)' - 'Murasame (Andrew Waldfeld Unit)' è in realtà 'Waldfeld's Murasame' (GD05-003), 'Strike Rouge (Kira's Unit)' è 'Kira's Strike Rouge' (GD05-010). Annotato anche in CLAUDE.md per le prossime importazioni."
+  - "Punto positivo: gli scambi centrali con Barbatos Adapt/5th Form/1st Form contro le copie di Strike Rouge (Ootori) sono stati onesti (t17, doppio trade), a dimostrazione che il mazzo tiene il ritmo a metà partita anche in questa sconfitta - il vero divario è nel motore di pesca e nel bounce ripetuto, non nei combattimenti diretti."

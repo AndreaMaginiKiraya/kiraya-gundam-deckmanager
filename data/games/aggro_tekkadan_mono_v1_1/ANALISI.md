@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (5 partite, 2-3)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (6 partite, 2-4)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **5 sole partite** è troppo presto per isolare pattern affidabili;
+Con **6 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -31,6 +31,7 @@ sottocontano.
 | 3 | 07-17 | [SaintAbbel](2026-07-17_kiraya-vs-saintabbel.yaml) | **W** | 14 | Blu/Bianco, League Militaire/UC (Rick Dias, Strike Rouge Ootori, Perfect Strike Gundam, Argama, A Show of Resolve) | 6 / 0 | 5 / 4 | Prima vittoria: 0 shield perse nonostante 5 unità perse contro 4; Barbatos 5th Form (Ground Type) mai calato, scartato al t5 per l'abilità di Ryusei-Go; Lupus/Lupus Rex ancora mai pescati (3 partite su 3) |
 | 4 | 07-17 | [iceberg](2026-07-17_kiraya-vs-iceberg.yaml) | **W** | 15 | Rosso/Viola, Earth Alliance/Phantom Pain (Chaos/Gaia/Abyss Gundam, Auel Neider, Sting Oakley, Stellar Loussier) + splash 0 Gundam | 2 / 0 | 6 / 8 | Prima vera prova di Barbatos Lupus: doppia attivazione t13 + kill al t15 chiudono la partita, nonostante Gaia Gundam/Abyss Gundam (MA Mode) abbiano scartato dalla mano (non dal campo) una copia di Lupus e una di Gusion Rebake |
 | 5 | 07-17 | [liko](2026-07-17_kiraya-vs-liko.yaml) | **L** | 20 | Verde/Bianco, Londo Bell + Operation Meteor (Re-GZ family, Nu Gundam x2 stampe, Wing Gundam/Zero/Zero EW, Heero Yuy, Amuro Ray, Ra Cailum) | 0 / 0 | 11 / 5 | Svolta al t14: Nu Gundam LR uccide Lupus e 2nd Form nella stessa turno via un'abilità che salta dichiarazione/blocco; chiusa al t20 da Wing Gundam Zero (High-Maneuver) - stesso buco di block-bypass già visto vs sgd |
+| 6 | 07-17 | [Robotech](2026-07-17_kiraya-vs-robotech.yaml) | **L** | 20 | Blu/Bianco, SEED (Kira Yamato) + Orb/AEUG (Strike Freedom Gundam, Aile Strike Gundam, Strike Rouge x2, Freedom Gundam, Murasame/Andrew Waldfeld, Archangel) | 0 / 2 | 12 / 9 | Strike Freedom Gundam rimanda Lupus Rex (t14) e 1st Form (t16) nel mazzo - stesso problema-chiave di aggro_mono_p, non risolto dalle 5 copie totali di v1_1; saturazione avversaria da 3 shield in un turno (t20) chiude la partita |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -117,6 +118,25 @@ sottocontano.
   una shield) mentre l'area shield di Kiraya era già vuota** (t20 vs
   liko) — interazione da verificare con le regole ufficiali prima di
   darla per assodata, non ancora confermata come comportamento atteso.
+- **Strike Freedom Gundam conferma di essere il problema strutturale
+  numero 1 già visto in `aggro_mono_p`, e le 5 copie totali di
+  Lupus/Lupus Rex in v1_1 non lo risolvono** (vs Robotech): la sua
+  abilità rimanda l'unità nemica di livello più basso in campo, non una
+  copia specifica — ha colpito Gundam Barbatos Lupus Rex al t14 (la
+  singola copia del pezzo nuovo, mai arrivata ad attaccare) e Gundam
+  Barbatos 1st Form al t16. Più copie nel mazzo non cambiano il fatto che
+  l'unità più economica in campo in quel momento è sempre a rischio — la
+  contromossa resta quella già in checklist (tenere un'unità ancora più
+  economica viva insieme a Lupus/Lupus Rex), non il numero di copie.
+- **Deficit di pesca ancora presente**: Robotech ha accumulato carte via
+  A Show of Resolve, i "Draw a card" ripetuti di Strike Freedom Gundam
+  (Deploy/Attack) e di Kira Yamato (When Linked) - lo stesso squilibrio
+  strutturale già documentato in `aggro_mono_p/ANALISI.md` ("nessun
+  motore di pesca/vantaggio carte"), non ancora affrontato in v1_1.
+- **Scoperta di formato per gli import futuri**: il client a volte mostra
+  un'unità Linked sotto un nome diverso da quello stampato
+  (`<nome> (<Pilota>'s Unit)`), es. "Murasame (Andrew Waldfeld Unit)" è
+  in realtà "Waldfeld's Murasame" — vedi CLAUDE.md, sezione data quirks.
 
 ## Checklist provvisoria
 
