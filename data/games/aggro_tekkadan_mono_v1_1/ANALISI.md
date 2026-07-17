@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (2 partite, 0-2)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (3 partite, 1-2)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — zona Earth-only, da testare con
 attenzione).
 
-Con **2 sole partite** è troppo presto per isolare pattern affidabili;
+Con **3 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -28,6 +28,7 @@ sottocontano.
 |---|------|-----------|-------|-------|-------------------|------------------------|------------------------|-------------|
 | 1 | 07-17 | [loklee](2026-07-17_kiraya-vs-loklee.yaml) | **L** | 20 | Verde/Viola, Zeon (Char's Zaku Ⅱ, Zeong, Sazabi, Rezin's/Quess's Jagd Doga) | 0 / 3 | 13 / 17 | Partita punto a punto persa sull'ultima shield; Sazabi (GD05-052) fa 1-per-3 col suo mill-and-recur, Isaribi muore 3 volte e apre finestre Breach ripetute |
 | 2 | 07-17 | [sgd](2026-07-17_kiraya-vs-sgd.yaml) | **L** | 13 | Blu/Rosso, Earth Alliance/Phantom Pain (Chaos/Gaia/Raider Gundam, Sting Oakley, Stellar Loussier) + splash OZ (Tallgeese, Corsica Base) | 0 / 4 | 6 / 4 | Persa nei primi 4 turni: doppio mulligan, primo deploy solo al t4 e ucciso subito da Close Combat; Chaos Gundam + Sting = High-Maneuver a ogni attacco, Lupus mai pescato |
+| 3 | 07-17 | [SaintAbbel](2026-07-17_kiraya-vs-saintabbel.yaml) | **W** | 14 | Blu/Bianco, League Militaire/UC (Rick Dias, Strike Rouge Ootori, Perfect Strike Gundam, Argama, A Show of Resolve) | 6 / 0 | 5 / 4 | Prima vittoria: 0 shield perse nonostante 5 unità perse contro 4; Barbatos 5th Form (Ground Type) mai calato, scartato al t5 per l'abilità di Ryusei-Go; Lupus/Lupus Rex ancora mai pescati (3 partite su 3) |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -46,11 +47,22 @@ sottocontano.
   (t6, t14, t18), ogni sostituzione riapre una finestra Breach fresca
   all'avversario — stesso problema strutturale già annotato per
   `aggro_mono_p` (nessuna seconda base su cui alternare).
-- **Gundam Barbatos Lupus Rex e Gundam Barbatos 5th Form (Ground Type)
-  non sono ancora apparsi in mano** in nessuna delle due partite: zero
-  dati sui due pezzi nuovi di v1_1. Vs sgd non è stato pescato nemmeno
-  Lupus base — l'intero piano-finisher è rimasto nel mazzo mentre la
-  partita si decideva sul tempo.
+- **Gundam Barbatos Lupus (e Lupus Rex) non sono ancora apparsi in mano
+  in nessuna delle 3 partite** — il dato più ricorrente del campione
+  finora, e il più preoccupante: l'intero piano-finisher del mazzo è
+  rimasto nel mazzo tre volte su tre, eppure il record è 1-2. Troppo
+  presto per dire se è varianza di pesca o se le 5 copie totali
+  (4 Lupus + 1 Lupus Rex su 50 carte) non bastano a garantirne una entro
+  metà partita — da tenere d'occhio.
+- **Primo dato su Gundam Barbatos 5th Form (Ground Type)** (vs
+  SaintAbbel): mai calato, scartato al t5 come costo dell'abilità di
+  Ryusei-Go (pesca 1/scarta 1) — cioè trattato come lo scarto meno
+  costoso in mano, non come una minaccia da giocare. Non prova ancora un
+  problema legato alla sua zona Earth-only (la partita non è mai arrivata
+  al punto di doverlo schierare), ma è un segnale da confermare: se
+  succede di nuovo, il sospetto è che l'essere Earth-only lo renda
+  sistematicamente il primo candidato allo scarto quando il board è in
+  zona Space.
 - **Il buco strutturale sul block-bypass si ripresenta identico** (già
   in `aggro_mono_p/ANALISI.md`): Chaos Gundam + Sting Oakley linkato
   guadagna High-Maneuver a ogni attacco ("Can't block High-maneuver" t5
@@ -62,6 +74,22 @@ sottocontano.
   rimosso da Close Combat in end phase prima di poter fare qualsiasi
   cosa. I trade da metà partita in poi erano alla pari — il buco dei
   primi 4 turni no.
+- **La vittoria vs SaintAbbel si è vinta sui numeri, non su un singolo
+  colpo decisivo**: 0 shield perse contro le 6 dell'avversario, pur
+  perdendo un'unità in più (5 vs 4) — lo stesso pattern "corsa alle
+  shield vinta nonostante trade sfavorevoli" già visto ripetutamente in
+  `aggro_mono_p`.
+- **Bounce ripetuto su un corpo economico come forma di disinnesco**:
+  SaintAbbel ha rimandato Gundam Exia Repair in mano 3 volte (t8, t11,
+  t12: Perfect Strike Gundam's ability x2 + Exclusively Defense-Oriented
+  Policy) invece di rimuoverlo. Effetto pratico identico al removal
+  diretto di Darkness Finger visto contro MMorelli (un corpo economico
+  che salta un turno intero di danno), ma via bounce invece che
+  rimozione — variante dello stesso tema di inefficienza da tracciare.
+- **Doppio pair/link di Mikazuki Augus nello stesso turno su due unità
+  diverse** (t11: Link su 1st Form + Pair su Gusion Rebake): 2 ping da 1
+  danno nello stesso turno per il solo costo del pilota, la linea di
+  danno-passivo più efficiente vista finora nel campione v1_1.
 
 ## Checklist provvisoria
 

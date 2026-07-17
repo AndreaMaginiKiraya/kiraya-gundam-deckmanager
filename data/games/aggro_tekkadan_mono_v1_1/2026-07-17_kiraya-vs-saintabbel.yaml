@@ -1,0 +1,539 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-saintabbel"
+  date_imported: "2026-07-17"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    SaintAbbel:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "SaintAbbel"
+    seen:
+      - "command"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "SaintAbbel"
+    seen:
+      - "base"
+      - "shield"
+  "Banagher Links":
+    id: "GD01-088"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "SaintAbbel"
+    seen:
+      - "shield"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Exclusively Defense-Oriented Policy":
+    id: "GD05-105"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "SaintAbbel"
+    seen:
+      - "command"
+  "Full Armor Unicorn Gundam (Destroy Mode)":
+    id: "GD03-010"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 6
+    hp: 6
+    owner: "SaintAbbel"
+    seen:
+      - "shield"
+  "Full Armor Unicorn Gundam (Unicorn Mode)":
+    id: "GD03-016"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "SaintAbbel"
+    seen:
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 5th Form (Ground Type)":
+    id: "GD03-066"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Perfect Strike Gundam":
+    id: "GD01-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "SaintAbbel"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "SaintAbbel"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "SaintAbbel"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Unicorn Gundam (Destroy Mode)":
+    id: "GD01-002"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 4
+    owner: "SaintAbbel"
+    seen:
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "SaintAbbel"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "SaintAbbel"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "SaintAbbel"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos 5th Form (Ground Type) discarded"
+  - turn: 6
+    active_player: "SaintAbbel"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 2 damage, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Full Armor Unicorn Gundam (Unicorn Mode) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Unicorn Gundam (Destroy Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Rick Dias"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Ootori)"
+  - turn: 8
+    active_player: "SaintAbbel"
+    actions:
+      - action: "deploy"
+        card: "Perfect Strike Gundam"
+        effects:
+          - "Gundam Exia Repair returned to hand"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Banagher Links revealed"
+          - "Shield card added to hand: Banagher Links"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "Perfect Strike Gundam"
+        final_target: "Perfect Strike Gundam"
+        outcome:
+          - "Perfect Strike Gundam received 2 damage, leaving 2 HP remaining"
+          - "Gundam Exia Repair received 4 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Isaribi and Graze Custom moved to trash"
+  - turn: 10
+    active_player: "SaintAbbel"
+    actions:
+      - action: "play_command"
+        player: "SaintAbbel"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Perfect Strike Gundam"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Perfect Strike Gundam"
+      - action: "play_base"
+        card: "Argama"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "SaintAbbel"
+            card: "Exclusively Defense-Oriented Policy"
+            effects:
+              - "Gundam Exia Repair returned to hand"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Argama revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Rick Dias received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 2 damage, leaving 3 HP remaining"
+  - turn: 12
+    active_player: "SaintAbbel"
+    actions:
+      - action: "deploy"
+        card: "Perfect Strike Gundam"
+        effects:
+          - "Gundam Exia Repair returned to hand"
+      - action: "play_command"
+        player: "SaintAbbel"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Perfect Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Perfect Strike Gundam"
+        final_target: "Perfect Strike Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Perfect Strike Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Full Armor Unicorn Gundam (Destroy Mode) revealed and discarded"
+  - turn: 14
+    active_player: "SaintAbbel"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 7
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Exia Repair"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 13
+  SaintAbbel:
+    - card: "Strike Rouge (Ootori)"
+      turn: 9
+    - card: "Rick Dias"
+      turn: 11
+    - card: "Perfect Strike Gundam"
+      turn: 13
+    - card: "Argama"
+      turn: 13
+shields_tally:
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+  SaintAbbel:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Terza partita con v1_1, prima vittoria (1-2). SaintAbbel Blu/Bianco League Militaire/UC (Rick Dias, Strike Rouge Ootori, Perfect Strike Gundam, Full Armor Unicorn come shield, Argama, A Show of Resolve)."
+  - "Vittoria netta sui numeri: 0 shield perse da Kiraya contro le 6 di SaintAbbel, nonostante 5 unità perse contro 4 - il mazzo ha macinato shield più veloce di quanto l'avversario riuscisse a stabilizzare, pattern già visto in altre partite del campione."
+  - "Primo dato su Gundam Barbatos 5th Form (Ground Type) (GD03-066, novita' v1_1): mai calato, scartato al t5 come costo dell'abilita' di Ryusei-Go (pesca 1/scarta 1). Non prova un problema di zona Earth-only in sé (non e' mai arrivato il turno per giocarlo), ma segnala che in mano puo' finire per essere il primo scarto 'sacrificabile' invece di un pezzo giocato - da confermare su altre partite se la zona Earth-only lo rende sistematicamente più spesso scartato che calato."
+  - "Gundam Barbatos Lupus/Lupus Rex di nuovo non pescati (terza partita su tre): con Adapt + 1st Form + Gusion Rebake + Mikazuki la vittoria e' arrivata comunque, ma resta il dato più ricorrente del campione v1_1 finora - zero informazioni sui due pezzi di punta del mazzo."
+  - "SaintAbbel ha speso 2 card-draw command (A Show of Resolve x2, +4 carte) e una Exclusively Defense-Oriented Policy per bouncing Gundam Exia Repair in mano 3 volte in totale (t8, t11, t12) - un modo diverso, ma imparentato, di 'disinnescare' Exia Repair rispetto al removal diretto visto contro MMorelli: qui il bounce lo tiene semplicemente fuori dal ritmo invece di sfruttarne il Mill 2, ma il risultato (un corpo economico che non produce danno per un turno intero) è lo stesso tema di inefficienza."
+  - "Mikazuki Augus pair/link ripetuto su corpi diversi nello stesso turno (t11: Link su 1st Form, poi Pair su Gusion Rebake) resta la linea di ping più efficiente vista finora in v1_1 - 2 ping da 1 danno nello stesso turno senza costo aggiuntivo oltre il pilota."
