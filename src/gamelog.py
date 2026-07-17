@@ -34,6 +34,9 @@ _MARKERS = {
     "Passed",
 }
 
+# A player running low on their clock gets an auto-pass warning
+# ("Timeout 1", "Timeout 2", ...) - no game information beyond that.
+_TIMEOUT_RE = re.compile(r"^Timeout \d+$")
 _TURN_START_RE = re.compile(r"^Turn (\d+) started!$")
 _DEPLOYED_RE = re.compile(r"^(.+?) deployed$")
 _PLAYED_BASE_RE = re.compile(r"^Played base: (.+)$")
@@ -292,7 +295,7 @@ def parse_game_log(text: str) -> dict:
         if ln == "Winner!":
             winner = actor
             continue
-        if ln in _MARKERS:
+        if ln in _MARKERS or _TIMEOUT_RE.match(ln):
             continue
         if _SELECTING_RE.match(ln):
             continue

@@ -596,6 +596,29 @@ Turn end phase started"""
     assert parsed["unparsed"] == []
 
 
+def test_timeout_warning_line_ignored():
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Battle initiated
+Battle declared: Gundam Pharact against Enemy Player
+B
+No blockers available
+Action step
+B
+Timeout 1
+Passed
+A
+Passed
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+
+
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
     # Regression test: a color contributed ONLY by a card that starts
     # ambiguous and is pinned by hand must survive a re-import. Coloring

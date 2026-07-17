@@ -1,6 +1,6 @@
-# aggro_mono_p — analisi del campione (15 partite, 11-4)
+# aggro_mono_p — analisi del campione (16 partite, 12-4)
 
-Sintesi trasversale delle 15 partite giocate con `aggro_mono_p`, costruita
+Sintesi trasversale delle 16 partite giocate con `aggro_mono_p`, costruita
 incrociando le `study_notes` di ogni record in questa cartella. Obiettivo:
 non ripetere quello che è già scritto partita per partita, ma isolare i
 pattern che si vedono **solo** guardando le partite insieme — cosa
@@ -30,12 +30,13 @@ per vedere se conferma o smentisce i pattern sotto.
 | 13 | 07-16 | [big stan](2026-07-16_kiraya-vs-big-stan.yaml) | **W** | 11 | Blu/Rosso, Londo Bell (ReZEL, Gundam ST01-001, Amuro Ray, White Base) | 5 / 0 | 3 / 2 | Vittoria fulminea; turno 11 da manuale di saturazione (2 Adapt + Mikazuki nello stesso turno, poi 4 attacchi) |
 | 14 | 07-16 | [Zeding](2026-07-16_kiraya-vs-zeding.yaml) | **W** | 15 | Bianco/Verde, Academy/Suletta Mercury (Chuchu's Demi Trainer, Gundam Aerial Rebuild, Gundam Pharact, Wing Gundam Bird Mode) | 5 / 2 | 7 / 5 | Turno 13 da manuale (Lupus su trash morto + Mikazuki + 3 attacchi, brucia 3 shield); il contrattacco al t14 costa 3 unità ma il margine accumulato prima regge |
 | 15 | 07-17 | [IAN](2026-07-17_kiraya-vs-ian.yaml) | **W** | 17 | Viola/Bianco, precon ST05 Destiny Ignition + Aile Strike Gundam (Impulse Gundam, Force Impulse Gundam, Shinn Asuka, Minerva) | 4 / 0 | 3 / 6 | Widespread Annihilation gioca 2 volte, azzera il board di Kiraya entrambe le volte; regge solo per la ridondanza a 4 copie e nutre Lupus col trash risultante |
+| 16 | 07-17 | [SSS](2026-07-17_kiraya-vs-sss.yaml) | **W** | 15 | Blu/Verde, Londo Bell (Jegan, Kayra's Re-GZ, Re-GZ BWS, Nu Gundam, Amuro Ray, Ra Cailum) + splash Strike Freedom Gundam | 4 / 0 | 8 / 7 | Prima vittoria con Strike Freedom in lista avversaria: il bounce colpisce Graze Custom (decoy economico) invece di Lupus, mai calato |
 
 **Bilancio per famiglia di mazzo avversario:**
 
 | Archetipo avversario | Record | Partite |
 |---|---|---|
-| Londo Bell (Amuro/Nu Gundam/Re-GZ) | **4-0** | Tonii, Fjfnc, Pelumu, big stan |
+| Londo Bell (Amuro/Nu Gundam/Re-GZ) | **5-0** | Tonii, Fjfnc, Pelumu, big stan, SSS |
 | Neo Zeon / Sleeves | **2-0** | waxtrax, B Reichwald |
 | SEED/Orb (Cosmic Era) | **1-1** | 4444 (W), 0622 (L) |
 | After War Gundam X | **1-0** | Komsanw |
@@ -49,9 +50,9 @@ per vedere se conferma o smentisce i pattern sotto.
 ## Il dato che spiega le quattro sconfitte
 
 **Ogni singola sconfitta del campione ha in lista Strike Freedom Gundam
-o Darkness Finger (o entrambe)** — e **nessuna delle undici vittorie ha
-nessuna delle due**, verificato con un grep diretto sui log grezzi di
-tutte le 15 partite, non solo sulle note scritte partita per partita:
+o Darkness Finger (o entrambe)**, verificato con un grep diretto sui log
+grezzi di tutte le 16 partite, non solo sulle note scritte partita per
+partita:
 
 | Sconfitta | Strike Freedom | Darkness Finger |
 |---|---|---|
@@ -60,25 +61,37 @@ tutte le 15 partite, non solo sulle note scritte partita per partita:
 | アスファルトの雑草 | ✅ | ✅ |
 | やーこん | — | ✅ |
 
-Le due carte fanno cose diverse ma risolvono lo stesso problema per
-l'avversario: **Strike Freedom** rimanda nel mazzo l'unità nemica di
-livello più basso (bounce, senza combattere) — l'unica cosa vista nel
-campione capace di annullare **Gundam Barbatos Lupus** senza
-alimentare né trash né esili, la sua controparte offensiva. Nelle tre
-sconfitte con Strike Freedom, Lupus è stato rimbalzato nel mazzo un
-totale di **4 volte** (0622: 1×, umberduel: 2×, asphalt-weed: 1×,
-conteggio verificato sui log grezzi). **Darkness Finger** invece è pura
-rimozione ripetibile da 2 danni a basso costo: da sola non tocca Lupus,
-ma in quantità (asphalt-weed ne aveva 4 copie diverse osservate nel
-removal-package, やーこん ne ha giocate 4 nello stesso turno) risponde
-a qualsiasi minaccia economica del mazzo una alla volta, più in fretta
-di quanto Kiraya possa svilupparne di nuove.
+Il contrario però **non è più vero da quando SSS (partita 16) ha vinto
+Kiraya con Strike Freedom Gundam in lista**: il bounce ha rimandato nel
+mazzo Graze Custom (Lv.2, una carta quasi gratis) invece di una
+minaccia reale, semplicemente perché **Gundam Barbatos Lupus non era
+mai stato calato** quella partita e Graze Custom era l'unità di livello
+più basso in campo. Questo corregge il modello: **Strike Freedom non è
+pericoloso di per sé — lo è solo se Lupus (o un'altra minaccia chiave)
+risulta essere l'unità di livello più basso di Kiraya in campo nel
+momento in cui l'abilità si attiva** ("Choose 1 enemy Unit with the
+lowest Lv."). Nelle tre sconfitte con Strike Freedom, Lupus è stato
+rimbalzato nel mazzo un totale di **4 volte** (0622: 1×, umberduel: 2×,
+asphalt-weed: 1×, conteggio verificato sui log grezzi) — sempre perché
+era l'unica/più economica unità rimasta in campo in quel momento. Avere
+sempre un'unità economica "sacrificabile" viva insieme a Lupus
+disinnesca l'effetto facendolo cadere a vuoto, come visto vs SSS.
+**Darkness Finger** invece è pura rimozione ripetibile da 2 danni a
+basso costo, che NON sceglie per livello più basso ma colpisce quello
+che vuole: da sola non tocca Lupus specificamente, ma in quantità
+(asphalt-weed ne aveva 4 copie diverse osservate nel removal-package,
+やーこん ne ha giocate 4 nello stesso turno) risponde a qualsiasi
+minaccia economica del mazzo una alla volta, più in fretta di quanto
+Kiraya possa svilupparne di nuove — e per questa resta una minaccia
+strutturale a prescindere da cosa sia in campo.
 
 Il filo comune non è la carta specifica ma il tipo di risposta:
 **interazione ripetibile a basso costo** (bounce o removal da 1-2
-danni) contro cui il mazzo non ha contromisure strutturali — a
-differenza degli otto+ avversari vinti, che si limitano a correre o a
-rimuovere board senza quel tipo di strumenti.
+danni) contro cui il mazzo non ha contromisure strutturali. Per
+Darkness Finger l'unica mitigazione è la saturazione (vedi checklist);
+per Strike Freedom, a differenza di quanto pensato in precedenza,
+**esiste una contromossa concreta**: non lasciare mai Lupus come
+l'unità più economica del board.
 
 La seconda causa, presente in 3 delle 4 sconfitte (manca solo in
 やーこん, che vince comunque prima che serva): **assenza di un motore
@@ -98,7 +111,10 @@ carte puro — le due cause si sommano ma non sono la stessa cosa.
   mano): converte una difesa monouso da 3 HP in una base da 5 HP che
   pesca. Diventata linea standard dalla partita 3 in poi (Fjfnc,
   waxtrax, 4444, forlun, komsanw, pelumu) — quando manca (Tonii, 0622,
-  umberduel, primi turni), la difesa regge di meno.
+  umberduel, primi turni), la difesa regge di meno. Beneficio extra
+  confermato vs SSS (t10, t12): finché è viva, una Base assorbe il
+  danno da `<Breach>` al posto delle shield (regola 13-1-2-4) — Isaribi
+  ha preso 3 e poi 5 danni da Breach ed è morta lei, non le shield.
 - **Danno-parziale-poi-rifinitura con un corpo da 1 costo**: ping
   obbligato (Gusion Rebake, Barbatos Adapt) che ammorbidisce un bersaglio,
   poi un attaccante economico lo finisce esatto. Visto pulito in almeno
@@ -173,15 +189,18 @@ azionabile con più disciplina, il secondo richiede un piano diverso
    completamente rested, zero attacchi dichiarati) — il primo vero
    attacco della partita è arrivato solo al t7, molto tardi per lo
    standard del mazzo (di solito t4-5).
-4. **Esporre Lupus troppo presto contro mazzi con Strike Freedom**,
-   invece di calarlo solo nel turno in cui le sue attivazioni chiudono
-   qualcosa di concreto. Causa diretta di tutte e tre le sconfitte con
-   Strike Freedom (vedi sopra) — è la lezione più importante e ancora la
-   meno "risolta" del gruppo, perché dipende dal leggere in anticipo se
-   l'avversario ha Strike Freedom in lista, non solo dall'esecuzione nel
-   turno. Contro Darkness Finger/removal ripetuto (アスファルトの雑草,
-   やーこん) non c'è un equivalente "non fare X": è un problema di lista
-   avversaria, non di sequenza di gioco (vedi sotto).
+4. **Lasciare Lupus come l'unica/più economica unità in campo contro
+   mazzi con Strike Freedom**. Causa diretta di tutte e tre le sconfitte
+   con Strike Freedom (vedi sopra) — ma ora è una lezione più precisa e
+   più risolvibile di quanto pensato: l'abilità sceglie l'unità nemica
+   di **livello più basso** in campo, non la più pericolosa. Vs SSS
+   (partita 16) l'effetto è caduto su Graze Custom invece che su Lupus
+   proprio perché quest'ultimo non era l'unità più economica presente.
+   Non serve quindi "non calare Lupus" in astratto: basta tenere in
+   campo anche solo un'unità economica viva insieme a lui. Contro
+   Darkness Finger/removal ripetuto (アスファルトの雑草, やーこん) non
+   c'è un equivalente "non fare X": è un problema di lista avversaria,
+   non di sequenza di gioco (vedi sotto).
 
 ## Problematiche strutturali del mazzo (non correggibili col solo gioco)
 
@@ -241,10 +260,14 @@ Punti azionabili, in ordine di impatto atteso sul win-rate:
    motivo di passare senza attaccare — è l'errore isolato più costoso
    visto nel campione (pelumu t5).
 5. **Contro un avversario Blu che gioca Strike Freedom Gundam (o
-   qualunque bounce che rimanda unità di livello basso), NON calare
-   Lupus in anticipo.** Tienilo in mano finché non puoi attivarlo per
-   chiudere la partita nello stesso turno o nel giro immediatamente
-   successivo. Se non sai ancora se l'avversario ha Strike Freedom,
+   qualunque bounce che rimanda l'unità di livello più basso)**: la
+   difesa non è "non calare Lupus", è **non lasciarlo come l'unità più
+   economica in campo**. Prima di attaccare/passare con Lupus in gioco,
+   controlla se hai anche un'unità a basso costo viva insieme a lui (un
+   Graze Custom, un Ryusei-Go già scoperto) che farebbe da bersaglio
+   "gratis" per il bounce al posto suo. Se il board è solo Lupus,
+   valuta se aspettare un turno o schierare qualcos'altro prima di
+   impegnarlo. Se non sai ancora se l'avversario ha Strike Freedom,
    aspetta un segnale (un Kira Yamato in campo, uno scarto sospetto) prima
    di impegnarlo.
 6. **Contro mazzi che sembrano removal/control (tante Action/Command da
