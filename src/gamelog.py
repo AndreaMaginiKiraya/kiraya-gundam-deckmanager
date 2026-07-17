@@ -89,7 +89,9 @@ _MODIFIER_RE = re.compile(r"^.+?: Modifier applied to: .+$")
 _CHOSE_RE = re.compile(r"^.+?: chose .+$")
 _MILLED_RE = re.compile(r"^(.+?) milled \d+: (.+?) moved to trash$")
 _EXILED_RE = re.compile(r"^(.+?) exiled from the game$")
-_RETURNED_RE = re.compile(r"^(.+?) returned to (?:hand|deck)$")
+# Destination captured: bounce-to-deck (Strike Freedom) and return-to-hand
+# (Sazabi's recursion) are opposite mechanics for cross-game analysis.
+_RETURNED_RE = re.compile(r"^(.+?) returned to (hand|deck)$")
 _HEALED_RE = re.compile(r"^Healed \d+ damage to: .+$")
 _REPAIRED_RE = re.compile(r"^.+? repaired \d+ from .+$")
 _RESTED_RE = re.compile(r"^(?:Already rested|Rested) unit: .+$")
@@ -115,11 +117,51 @@ _DISCARDED_RE = re.compile(r"^(.+?) discarded$")
 
 _NAME_LIST_SPLIT_RE = re.compile(r",\s+|\s+and\s+")
 
+# Multi-target effect damage ("SRC: Dealt N damage to: A and B"). Unlike the
+# single-target form, the client never appends "now destroyed" to these, so
+# lethal pings are invisible in the text — parse_multi_target_damage exposes
+# them for HP-based death inference in tools.import_game_log_impl.
+_MULTI_DEALT_RE = re.compile(r"^(?:.+?: )?Dealt (\d+) damage to: (.+)$")
+
+# Canonical key order for a finished attack dict: effect lines arriving
+# before "Battle started" would otherwise make `outcome` precede
+# `blockers`/`final_target` in the emitted YAML.
+_BATTLE_KEY_ORDER = (
+    "action",
+    "player",
+    "attacker",
+    "trigger",
+    "declared_target",
+    "blockers",
+    "action_step",
+    "modifiers",
+    "final_target",
+    "outcome",
+)
+
 
 def _split_names(joined: str) -> list[str]:
     """Split an 'A, B and C' card-name list. Best effort: a card name that
     itself contains ' and ' would be split wrongly, but none exist today."""
     return [n.strip() for n in _NAME_LIST_SPLIT_RE.split(joined) if n.strip()]
+
+
+def parse_multi_target_damage(line: str) -> tuple[int, list[str]] | None:
+    """'SRC: Dealt N damage to: A and B' -> (N, [A, B]); None otherwise."""
+    m = _MULTI_DEALT_RE.match(line)
+    if not m:
+        return None
+    return int(m.group(1)), _split_names(m.group(2))
+
+
+def _ordered_battle(battle: dict) -> dict:
+    """Reorder a finished attack dict into _BATTLE_KEY_ORDER (unknown keys
+    keep their arrival order at the end)."""
+    ordered = {k: battle[k] for k in _BATTLE_KEY_ORDER if k in battle}
+    for k, v in battle.items():
+        if k not in ordered:
+            ordered[k] = v
+    return ordered
 
 
 def parse_game_log(text: str) -> dict:
@@ -301,8 +343,13 @@ def parse_game_log(text: str) -> dict:
             continue
         m = _TURN_START_RE.match(ln)
         if m:
-            turn = {"turn": int(m.group(1)), "active_player": None, "actions": []}
-            turns.append(turn)
+            number = int(m.group(1))
+            if turn is None or turn["turn"] != number:
+                turn = {"turn": number, "active_player": None, "actions": []}
+                turns.append(turn)
+            # else: the client restarted the same turn ("Turn N started!"
+            # twice, seen after a mid-turn pass) — keep appending to the
+            # existing entry instead of creating a spurious duplicate.
             last_action = None
             battle = None
             action_step_play = None
@@ -369,7 +416,7 @@ def parse_game_log(text: str) -> dict:
             continue
         if ln == "Battle ended":
             if battle is not None:
-                add_action(battle)
+                add_action(_ordered_battle(battle))
                 battle = None
                 action_step_play = None
             pending_shield = None
@@ -428,7 +475,7 @@ def parse_game_log(text: str) -> dict:
         if handle_shield_line(ln, ln):
             continue
         m = _BREACH_RE.match(ln)
-        if m and ln.startswith("Breach"):
+        if m:
             inner = m.group(1)
             if not handle_shield_line(ln, inner):
                 inner_m = _RECEIVED_RE.match(inner)
@@ -467,7 +514,7 @@ def parse_game_log(text: str) -> dict:
             continue
         m = _RETURNED_RE.match(ln)
         if m:
-            note_card(m.group(1), owner=actor, context="returned")
+            note_card(m.group(1), owner=actor, context=f"returned to {m.group(2)}")
             add_effect(ln)
             continue
         m = _CARD_TO_HAND_RE.match(ln)
@@ -511,11 +558,13 @@ def parse_game_log(text: str) -> dict:
             add_effect(ln)
             continue
 
-        unparsed.append(ln)
+        # Turn context makes finding the line in the raw log (to design the
+        # missing pattern) immediate.
+        unparsed.append(ln if turn is None else f"[turn {turn['turn']}] {ln}")
 
     # A log truncated mid-battle still keeps what the battle recorded so far.
     if battle is not None:
-        add_action(battle)
+        add_action(_ordered_battle(battle))
 
     if first_player in players:
         start = players.index(first_player)

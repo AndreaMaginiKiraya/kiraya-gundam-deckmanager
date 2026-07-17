@@ -181,8 +181,10 @@ def test_multi_name_discard_notes_each_card(parsed2):
     assert "discarded" in seen["Gundam Lfrith"]["contexts"]
     assert "discarded" in seen["Rick Dias"]["contexts"]
     assert "Rick Dias and Gundam Lfrith" not in seen
-    # "X returned to deck/hand" is recognized, not unparsed
-    assert "returned" in seen["Gundam Barbatos Lupus"]["contexts"]
+    # "X returned to deck/hand" is recognized, with the destination kept
+    # apart (bounce-to-deck vs return-to-hand are opposite mechanics).
+    assert "returned to deck" in seen["Gundam Barbatos Lupus"]["contexts"]
+    assert "returned to hand" in seen["Gundam Barbatos 2nd Form"]["contexts"]
 
 
 def test_burst_deployed_shield_counts_in_tally(parsed2):
@@ -680,6 +682,155 @@ Turn end phase started"""
     parsed = gamelog.parse_game_log(snippet)
     assert parsed["unparsed"] == []
     assert parsed["shields_tally"]["B"]["ex_base"] == "destroyed (turn 1)"
+
+
+def test_duplicate_turn_start_merges_into_one_turn():
+    # The client sometimes restarts a turn ("Turn N started!" twice, seen
+    # after a mid-turn pass in the loklee game): the two blocks must land
+    # in a single turn entry, not a spurious empty duplicate.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Passed
+Turn ended!
+Turn 1 started!
+A
+Zaku Ⅱ deployed
+Turn end phase started
+B
+Passed
+A
+Passed
+Turn ended!"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert [t["turn"] for t in parsed["turns"]] == [1]
+    assert [a["card"] for a in parsed["turns"][0]["actions"]] == ["Zaku Ⅱ"]
+
+
+def test_battle_keys_ordered_with_pre_battle_effects():
+    # An effect line landing between the declare and the damage step (e.g.
+    # "No targets for X") must not push `outcome` ahead of `blockers` /
+    # `final_target` in the finished attack dict.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Battle initiated
+Battle declared: Gundam Flauros (Ryusei-Go) against Enemy Player
+No targets for Gundam Flauros (Ryusei-Go)
+B
+No blockers available
+Action step
+B
+Passed
+A
+Passed
+Battle started: Gundam Flauros (Ryusei-Go) against EX Base
+B
+EX Base received 2 damage, leaving 1 HP remaining
+Battle ended
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    attack = parsed["turns"][0]["actions"][0]
+    assert list(attack) == [
+        "action",
+        "player",
+        "attacker",
+        "declared_target",
+        "blockers",
+        "final_target",
+        "outcome",
+    ]
+    assert attack["outcome"][0] == "No targets for Gundam Flauros (Ryusei-Go)"
+
+
+def test_unparsed_lines_carry_turn_number():
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Some brand new line format
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == ["[turn 1] Some brand new line format"]
+
+
+def test_inferred_ping_casualties(tmp_path, monkeypatch):
+    # "SRC: Dealt N damage to: A and B" never logs a destruction, so a ping
+    # covering a unit's full printed HP (Zakrello: 1) must yield an
+    # inferred casualty — while the 5-HP source of the same ping must not.
+    monkeypatch.setattr(data, "_GAMES_DIR", tmp_path)
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Zakrello deployed
+Turn ended!
+Turn 2 started!
+B
+Gundam Gusion Rebake deployed
+Selecting target for Gundam Gusion Rebake
+Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Zakrello
+Turn end phase started
+A
+Passed
+B
+Passed
+Turn ended!"""
+    summary = tools.import_game_log_impl(
+        snippet, "g-ping", decks={"B": "aggro_mono_p"}
+    )
+    assert summary["casualties_inferred"] == {
+        "A": [{"card": "Zakrello", "turn": 2, "inferred": True}]
+    }
+    doc = yaml.safe_load(Path(summary["path"]).read_text(encoding="utf-8"))
+    assert {"card": "Zakrello", "turn": 2, "inferred": True} in doc["casualties"]["A"]
+    assert all(c["card"] != "Gundam Gusion Rebake" for c in doc["casualties"]["B"])
+
+
+def test_inferred_ping_skips_paired_units(tmp_path, monkeypatch):
+    # A pilot can raise HP past the printed value, so a unit ever seen
+    # paired is excluded from the inference even when the ping matches its
+    # printed HP.
+    monkeypatch.setattr(data, "_GAMES_DIR", tmp_path)
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Zakrello deployed
+Paired pilot: Char Aznable on unit Zakrello
+Turn ended!
+Turn 2 started!
+B
+Gundam Gusion Rebake deployed
+Selecting target for Gundam Gusion Rebake
+Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Zakrello
+Turn end phase started
+A
+Passed
+B
+Passed
+Turn ended!"""
+    summary = tools.import_game_log_impl(
+        snippet, "g-paired", decks={"B": "aggro_mono_p"}
+    )
+    assert summary["casualties_inferred"] == {}
 
 
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):

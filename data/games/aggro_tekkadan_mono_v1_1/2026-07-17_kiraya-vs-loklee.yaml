@@ -50,16 +50,16 @@ cards:
   "Char's Zaku Ⅱ":
     id: "ST03-006"
     note: "pinned: every destruction (turns 10, 12, 20) shows 'Selecting target' + 'Card added to hand' - matches ST03-006's Destroyed ability (look at top 3, reveal 1 Zeon/Neo Zeon Unit, add to hand). GD01-026 would instead silently deploy a rested token copy with no target selection or hand pickup, which never happened."
-    type: "UNIT"
-    level: 3
-    cost: 2
-    ap: 3
-    hp: 2
     owner: "loklee"
     seen:
       - "added to hand"
       - "attacker"
       - "deployed"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
   "Graze Custom":
     id: "ST05-004"
     type: "UNIT"
@@ -204,7 +204,7 @@ cards:
       - "attacker"
       - "deployed"
       - "milled"
-      - "returned"
+      - "returned to hand"
   "Rezin's Geara Doga":
     id: "GD05-056"
     type: "UNIT"
@@ -253,15 +253,15 @@ cards:
   Sazabi:
     id: "GD05-052"
     note: "pinned: turn 16 deploy shows 'Sazabi milled 3: ... moved to trash' followed by a Neo Zeon unit 'returned to hand' - matches GD05-052's Deploy ability (destroy 1 other Unit, mill 3, add 1 milled (Neo Zeon) Unit card to hand). GD05-049's ability triggers on Attack (mutual-destruction effect) and never fires on deploy, which rules it out."
+    owner: "loklee"
+    seen:
+      - "attacker"
+      - "deployed"
     type: "UNIT"
     level: 5
     cost: 4
     ap: 5
     hp: 4
-    owner: "loklee"
-    seen:
-      - "attacker"
-      - "deployed"
   "Shiden Custom (Ryusei-Go)":
     id: "GD05-058"
     type: "UNIT"
@@ -502,11 +502,11 @@ turns:
         player: "Kiraya"
         attacker: "Gundam Flauros (Ryusei-Go)"
         declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
         outcome:
           - "No targets for Gundam Flauros (Ryusei-Go)"
           - "Axis received 7 damage, now destroyed"
-        blockers: "none"
-        final_target: "Axis"
       - action: "attack"
         player: "Kiraya"
         attacker: "Graze Custom"
@@ -549,9 +549,6 @@ turns:
           - "Shield card added to hand"
       - action: "deploy"
         card: "Zeong"
-  - turn: 13
-    active_player: "Kiraya"
-    actions: []
   - turn: 13
     active_player: "Kiraya"
     actions:
@@ -614,12 +611,12 @@ turns:
         player: "loklee"
         attacker: "Sazabi"
         declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
         outcome:
           - "Quess's Jagd Doga returned to hand"
           - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
           - "Sazabi received 4 damage, leaving 1 HP remaining"
-        blockers: "Shiden Custom (Ryusei-Go)"
-        final_target: "Shiden Custom (Ryusei-Go)"
       - action: "activate"
         card: "Axis"
         effects:
@@ -788,6 +785,9 @@ casualties:
       turn: 7
     - card: "Rick Dom"
       turn: 8
+    - card: "Zakrello"
+      turn: 9
+      inferred: true
     - card: "Char's Zaku Ⅱ"
       turn: 10
     - card: "Hobby Hizack"
@@ -800,6 +800,9 @@ casualties:
       turn: 12
     - card: "Zeong"
       turn: 13
+    - card: "Zakrello"
+      turn: 15
+      inferred: true
     - card: "Sazabi"
       turn: 17
     - card: "Hobby Hizack"

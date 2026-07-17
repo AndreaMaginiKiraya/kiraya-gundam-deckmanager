@@ -46,9 +46,15 @@ note personalizzate, `study_notes`, `result` e deck — vedi sotto).
   `modifiers`, `blockers`, `final_target`, `action_step` per i comandi
   giocati in risposta, `outcome`), `event`. Le righe di effetto restano
   testuali in `effects`/`outcome`, fedeli al log.
-- `casualties` — distruzioni esplicite per giocatore (`{card, turn}`,
-  cronologiche): solo quelle che il log dichiara con "now destroyed" —
-  le morti implicite da ping cumulativi non compaiono (come nel log).
+- `casualties` — distruzioni per giocatore (`{card, turn}`, cronologiche):
+  quelle che il log dichiara con "now destroyed", più le kill da ping
+  multi-target inferite dall'import (`{card, turn, inferred: true}`): il
+  client non logga mai la distruzione sulla forma "Dealt N damage to: A
+  and B", quindi l'importer la deduce quando il singolo colpo copre gli
+  HP stampati di una unità mai vista con un pilota abbinato (un pilota
+  può alzare gli HP). Un'inferenza sbagliata (buff non visto nel log) va
+  semplicemente cancellata a mano. Le morti da ping *cumulativi* su più
+  eventi restano non tracciate.
 - `shields_tally` — EX Base e conteggio shield per giocatore a fine log
   (6 shield + EX Base in partenza); `shields_deployed` conta le shield
   uscite dall'area come Burst-deploy (es. basi come Nahel Argama).

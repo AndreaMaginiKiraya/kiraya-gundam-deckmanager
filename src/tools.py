@@ -569,6 +569,57 @@ def _resolve_log_card_name(name: str) -> list[data.Card]:
     ]
 
 
+def _iter_effect_lines(action: dict):
+    """Every raw effect/outcome line attached to one parsed action, in order."""
+    yield from action.get("effects", ())
+    yield from action.get("outcome", ())
+    for play in action.get("action_step", ()):
+        yield from play.get("effects", ())
+    if action.get("action") == "event":
+        yield action.get("text", "")
+
+
+def _inferred_ping_casualties(turns: list[dict], cards: dict[str, dict]) -> dict[str, list[dict]]:
+    """Deaths the log never states: multi-target effect damage ("SRC: Dealt
+    N damage to: A and B") carries no "now destroyed" line, so a ping that
+    matches a unit's full printed HP kills silently (e.g. any 1-HP body hit
+    by a deploy ping). Infer those deaths only where it's safe: the name
+    resolved to a single UNIT printing with known HP and one owner, the
+    single hit is >= that HP, and the unit was never seen paired (a pilot
+    can raise HP past the printed value). Cumulative damage across separate
+    events is deliberately not tracked — heals and unseen buffs would make
+    it guesswork. Entries are flagged inferred: true so a wrong guess can
+    be pruned by hand."""
+    paired_units: set[str] = set()
+    inferred: dict[str, list[dict]] = {}
+    for turn in turns:
+        for action in turn["actions"]:
+            if action.get("action") == "pair_pilot":
+                paired_units.add(action["unit"])
+            for line in _iter_effect_lines(action):
+                hit = gamelog.parse_multi_target_damage(line)
+                if hit is None:
+                    continue
+                damage, targets = hit
+                for name in targets:
+                    entry = cards.get(name)
+                    if entry is None or entry.get("id") is None:
+                        continue
+                    hp = entry.get("hp")
+                    owner = entry.get("owner")
+                    if (
+                        entry.get("type") == "UNIT"
+                        and isinstance(hp, int)
+                        and damage >= hp
+                        and isinstance(owner, str)
+                        and name not in paired_units
+                    ):
+                        inferred.setdefault(owner, []).append(
+                            {"card": name, "turn": turn["turn"], "inferred": True}
+                        )
+    return inferred
+
+
 def import_game_log_impl(
     log_text: str,
     name: str,
@@ -691,6 +742,14 @@ def import_game_log_impl(
                         if colors[p]:
                             doc["game"]["players"][p]["colors"] = sorted(colors[p])
 
+    # After carry-over, so ids pinned by hand in a previous import (with
+    # their re-derived HP) participate in the inference too.
+    casualties_inferred = _inferred_ping_casualties(doc["turns"], doc["cards"])
+    for owner, entries in casualties_inferred.items():
+        merged = doc["casualties"].setdefault(owner, []) + entries
+        merged.sort(key=lambda e: e["turn"])
+        doc["casualties"][owner] = merged
+
     path = data.save_game_file(name, gamelog.dump_yaml(doc), overwrite=overwrite)
     log_path = data.save_game_log(name, log_text)
     return {
@@ -713,6 +772,7 @@ def import_game_log_impl(
             if e.get("id") is None and e.get("candidates")
         },
         "cards_not_found": not_found,
+        "casualties_inferred": casualties_inferred,
         "unparsed_lines": parsed["unparsed"],
         "shields_tally": parsed["shields_tally"],
     }

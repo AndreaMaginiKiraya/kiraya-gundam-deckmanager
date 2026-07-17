@@ -1,0 +1,552 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-sgd"
+  date_imported: "2026-07-17"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:sgd"
+  players:
+    sgd:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Chaos Gundam":
+    id: "GD05-039"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 2
+    owner: "sgd"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "sgd"
+    seen:
+      - "command"
+  "Corsica Base":
+    id: "ST02-016"
+    type: "BASE"
+    level: 3
+    cost: 3
+    hp: 5
+    owner: "sgd"
+    seen:
+      - "base"
+  Exass:
+    id: "GD05-047"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 2
+    owner: "sgd"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gaia Gundam":
+    id: "GD05-034"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "sgd"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gaia Gundam (MA Mode)":
+    id: "GD05-041"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "sgd"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Raider Gundam":
+    id: "GD02-010"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "sgd"
+    seen:
+      - "deployed"
+  "Raider Gundam (MA Mode)":
+    id: "GD02-019"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "sgd"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Stellar Loussier":
+    id: "GD05-090"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "sgd"
+    seen:
+      - "pilot"
+      - "shield"
+  "Sting Oakley":
+    id: "GD05-091"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "sgd"
+    seen:
+      - "pilot"
+  Tallgeese:
+    id: null
+    candidates:
+      - "GD02-005"
+      - "ST02-006"
+    note: "narrowed: EB01-027 (Green) ruled out by the 1-2-color deck rule (sgd's resolved cards are Blue/Red). Between the two Blue OZ printings there is no decisive evidence - Tallgeese only attacked a shield (t11, discarded regardless of AP) and never took damage or used an ability."
+    owner: "sgd"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "sgd"
+    action: "choose_first_player"
+  - player: "sgd"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "sgd"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "sgd"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_command"
+        player: "sgd"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 5
+    active_player: "sgd"
+    actions:
+      - action: "deploy"
+        card: "Chaos Gundam"
+      - action: "pair_pilot"
+        pilot: "Sting Oakley"
+        unit: "Chaos Gundam"
+        linked: true
+      - action: "attack"
+        player: "sgd"
+        attacker: "Chaos Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Chaos Gundam: Modifier applied to: Chaos Gundam"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 5 damage, now destroyed"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 2nd Form and Chaos Gundam"
+  - turn: 7
+    active_player: "sgd"
+    actions:
+      - action: "attack"
+        player: "sgd"
+        attacker: "Chaos Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Chaos Gundam: Modifier applied to: Chaos Gundam"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "deploy"
+        card: "Chaos Gundam"
+      - action: "deploy"
+        card: "Raider Gundam (MA Mode)"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 2nd Form, leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Chaos Gundam"
+        blockers: "none"
+        final_target: "Chaos Gundam"
+        outcome:
+          - "Chaos Gundam received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 9
+    active_player: "sgd"
+    actions:
+      - action: "play_base"
+        card: "Corsica Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Tallgeese"
+      - action: "deploy"
+        card: "Exass"
+      - action: "attack"
+        player: "sgd"
+        attacker: "Chaos Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Chaos Gundam"
+          - "Shield card: Become a Shield revealed and discarded"
+      - action: "attack"
+        player: "sgd"
+        attacker: "Raider Gundam (MA Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Chaos Gundam"
+        blockers: "none"
+        final_target: "Chaos Gundam"
+        outcome:
+          - "Chaos Gundam received 2 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "Raider Gundam (MA Mode)"
+        blockers: "none"
+        final_target: "Raider Gundam (MA Mode)"
+        outcome:
+          - "Raider Gundam (MA Mode) received 4 damage, now destroyed"
+          - "Gundam Barbatos 2nd Form received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 4 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 11
+    active_player: "sgd"
+    actions:
+      - action: "attack"
+        player: "sgd"
+        attacker: "Tallgeese"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+      - action: "attack"
+        player: "sgd"
+        attacker: "Exass"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Exass received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gaia Gundam"
+      - action: "deploy"
+        card: "Gaia Gundam"
+      - action: "deploy"
+        card: "Exass"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Stellar Loussier revealed"
+          - "Shield card added to hand: Stellar Loussier"
+  - turn: 13
+    active_player: "sgd"
+    actions:
+      - action: "attack"
+        player: "sgd"
+        attacker: "Exass"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "sgd"
+        attacker: "Gaia Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Isaribi revealed"
+          - "No more Shield cards to add to hand"
+      - action: "deploy"
+        card: "Gaia Gundam (MA Mode)"
+      - action: "pair_pilot"
+        pilot: "Stellar Loussier"
+        unit: "Gaia Gundam (MA Mode)"
+        linked: true
+      - action: "attack"
+        player: "sgd"
+        attacker: "Gaia Gundam (MA Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Raider Gundam"
+      - action: "attack"
+        player: "sgd"
+        attacker: "Gaia Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  sgd:
+    - card: "Chaos Gundam"
+      turn: 8
+    - card: "Chaos Gundam"
+      turn: 10
+    - card: "Raider Gundam (MA Mode)"
+      turn: 10
+    - card: "Exass"
+      turn: 11
+    - card: "Corsica Base"
+      turn: 12
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 4
+    - card: "Gundam Barbatos Adapt"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 10
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Isaribi"
+      turn: 13
+shields_tally:
+  sgd:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 5
+    shields_to_hand: 0
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Second game with v1_1, second loss (0-2). sgd played Blue/Red Earth Alliance/Phantom Pain (SEED Destiny package: Chaos/Gaia/Raider Gundam, Exass, Sting Oakley, Stellar Loussier) with an OZ splash (Tallgeese, Corsica Base)."
+  - "The game was lost in the first 4 turns, not at the end: double mulligan, then zero deploys until t4 - and that first deploy (Barbatos 1st Form) died immediately to Close Combat in the end phase. Kiraya's board existed only from t6 onward while sgd's Chaos Gundam was already attacking freely from t5."
+  - "Chaos Gundam + Sting Oakley linked = <High-Maneuver> on every attack ('Can't block High-maneuver' t5, t7): killed the EX Base and 2 shields with zero counterplay. Same structural hole as Wing Zero/Nu Gundam LR already noted in aggro_mono_p's ANALISI: the deck has no answer to block-bypass."
+  - "Mid-game trades were actually fine (Adapt for Chaos #1 t8, Ryusei-Go for Chaos #2 t10, 2nd Form for Raider MA t10, Shiden blocking Exass t11), but sgd redeployed 2-3 fresh units per turn (2x Gaia + Exass t11; Gaia MA + Raider t13) and Kiraya never caught up on board count."
+  - "Gundam Barbatos Lupus never appeared in hand all game - the deck's whole finisher plan (and both new v1_1 pieces, Lupus Rex and 5th Form) sat in the deck while the game was decided on tempo."
+  - "Isaribi Burst-deployed from shields at t13 (nice free base) but was immediately killed by Gaia Gundam (MA Mode) + Stellar Loussier linked hitting for 6 - at that point 0 shields were left and the next attack ended it."
