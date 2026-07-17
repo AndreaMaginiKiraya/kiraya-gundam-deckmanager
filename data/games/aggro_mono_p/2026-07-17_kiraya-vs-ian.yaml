@@ -1,0 +1,587 @@
+game:
+  id: "aggro_mono_p/2026-07-17_kiraya-vs-ian"
+  date_imported: "2026-07-17"
+  source: "chat log"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+    IAN:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: at t11 it deals exactly 4 damage to Ryusei-Go while blocking - matches ST04-001's AP4 exactly (the other candidate, GD03-072, has AP3). ST04-001 also carries <Blocker>, consistent with being validly 'Assigned to block' in that same battle."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "IAN"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Blast Impulse Gundam":
+    id: "ST09-007"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 3
+    owner: "IAN"
+    seen:
+      - "discarded"
+  "Destiny Gundam":
+    id: null
+    candidates:
+      - "GD04-050"
+      - "GD05-055"
+    note: "still ambiguous: this copy was only ever seen as a shield card (revealed and discarded), never deployed, so no combat/effect evidence distinguishes GD04-050 (cost 5, can't be blocked) from GD05-055 (cost 7, damages first, reduces incoming damage). No ST09 printing of Destiny Gundam exists in the DB at all, so IAN's otherwise ST09 'Destiny Ignition'-precon-based deck (Impulse Gundam ST09-001, Force Impulse Gundam ST09-002, Blast Impulse Gundam ST09-007, Shinn Asuka ST09-008, Minerva ST09-010) must be running one of these two as a supplemental top-end - pin later if it ever gets deployed."
+    owner: "IAN"
+    seen:
+      - "shield"
+  "Force Impulse Gundam":
+    id: "ST09-002"
+    note: "pinned: destroyed at t15, it immediately fetches 'Impulse Gundam' to hand - matches ST09-002's '[Destroyed] Choose 1 (Minerva Squad) Unit card without \"Force Impulse Gundam\" in its card name from your trash. Add it to your hand.' exactly. GD05-064 (the other candidate) has no Destroyed ability at all, only a conditional Deploy-from-trash effect that never triggered here. Unresolved: this unit dealt 8 battle damage at t14, more than its own AP5 + Shinn Asuka's +0/+0 pairing bonus would predict - same unexplained-AP-bump pattern noted on Gundam Aerial Rebuild in the vs-Zeding game, likely a client quirk rather than a wrong id pin."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "IAN"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Impulse Gundam":
+    id: "ST09-001"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "IAN"
+    seen:
+      - "deployed"
+      - "returned"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "IAN"
+    seen:
+      - "base"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "IAN"
+    seen:
+      - "command"
+  "Ride Mass":
+    id: "GD05-117"
+    note: "pilot mode of the COMMAND card 'Become a Shield'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shinn Asuka":
+    id: "ST09-008"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "IAN"
+    seen:
+      - "pilot"
+      - "shield"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    note: "'[Main] Destroy all Units that are Lv.4 or lower.' Played twice (t10, t16). Neither cast shows explicit per-unit 'received damage, now destroyed' lines for Kiraya's side - inferred from context instead: at t10 the only visible trace is Gundam Exia Repair's own [Destroyed] mill-2 trigger firing, and every one of Kiraya's Lv4-or-lower units from that turn (Hyakuren, Gundam Barbatos 2nd Form, Graze Custom, both Gundam Barbatos Adapt copies) later turns up as trash fuel for Gundam Barbatos Lupus's Activate (t13, t15) - consistent with all of them having been destroyed by the wipe rather than surviving. IAN's own Aile Strike Gundam (Lv5) is unaffected both times, as expected."
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "IAN"
+    seen:
+      - "command"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "IAN"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "IAN"
+    actions:
+      - action: "play_command"
+        player: "IAN"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Blast Impulse Gundam discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "IAN"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "IAN"
+    actions: []
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 8
+    active_player: "IAN"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 2nd Form and Aile Strike Gundam"
+      - action: "play_base"
+        card: "Minerva"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Minerva revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Hyakuren and Aile Strike Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Impulse Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shinn Asuka revealed"
+          - "Shield card added to hand: Shinn Asuka"
+  - turn: 10
+    active_player: "IAN"
+    actions:
+      - action: "play_command"
+        player: "IAN"
+        card: "Widespread Annihilation"
+        effects:
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Gundam Barbatos Lupus moved to trash"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos 1st Form discarded"
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "No targets for Sword Impulse Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Sword Impulse Gundam and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 4 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 4 damage, now destroyed"
+  - turn: 12
+    active_player: "IAN"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "play_base"
+        card: "Minerva"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "IAN"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Force Impulse Gundam discarded"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos 1st Form and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos Lupus and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Sword Impulse Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 5 damage, now destroyed"
+  - turn: 14
+    active_player: "IAN"
+    actions:
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+      - action: "pair_pilot"
+        pilot: "Shinn Asuka"
+        unit: "Force Impulse Gundam"
+        linked: true
+      - action: "attack"
+        player: "IAN"
+        attacker: "Force Impulse Gundam"
+        declared_target: "Sword Impulse Gundam"
+        outcome:
+          - "Shinn Asuka: 1 resource set as active"
+          - "Sword Impulse Gundam received 8 damage, now destroyed"
+          - "Force Impulse Gundam received 3 damage, leaving 1 HP remaining"
+        blockers: "none"
+        final_target: "Sword Impulse Gundam"
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos 2nd Form and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Force Impulse Gundam, now destroyed"
+          - "Impulse Gundam returned to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Sword Impulse Gundam discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Destiny Gundam revealed and discarded"
+  - turn: 16
+    active_player: "IAN"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Shinn Asuka"
+        unit: "Force Impulse Gundam"
+        linked: false
+      - action: "attack"
+        player: "IAN"
+        attacker: "Force Impulse Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Shinn Asuka: 1 resource set as active"
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Force Impulse Gundam received 5 damage, now destroyed"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+      - action: "play_command"
+        player: "IAN"
+        card: "Widespread Annihilation"
+      - action: "deploy"
+        card: "Impulse Gundam"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Isaribi discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Ride Mass"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 11
+    - card: "Sword Impulse Gundam"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+  IAN:
+    - card: "Minerva"
+      turn: 9
+    - card: "Aile Strike Gundam"
+      turn: 11
+    - card: "Aile Strike Gundam"
+      turn: 13
+    - card: "Minerva"
+      turn: 13
+    - card: "Force Impulse Gundam"
+      turn: 15
+    - card: "Force Impulse Gundam"
+      turn: 16
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+  IAN:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) in 17 turni contro il mazzo Viola/Bianco di IAN, basato quasi interamente sul precon ST05 'Destiny Ignition' (Impulse Gundam, Force Impulse Gundam, Shinn Asuka, Minerva) più Aile Strike Gundam e due copie di Widespread Annihilation come tech. Prima partita di questo campione contro questo archetipo."
+  - "Trovata la carta più pericolosa vista finora contro questo mazzo: Widespread Annihilation ('[Main] Distruggi tutte le unità Lv.4 o inferiore') gioca DUE volte (t10 e t16) e ogni volta rade al suolo l'intero board di Kiraya (tutte le sue unità in questa partita sono Lv.4 o meno). Il mazzo ha retto solo per la ridondanza: 4 copie ciascuna di quasi tutte le unità chiave permettono di ridispiegare subito dopo. Contro un mazzo con più copie di un board wipe economico, il piano deve assumere che il board verrà azzerato più volte e non investire tutto in un solo turno."
+  - "Effetto collaterale positivo del primo wipe (t10): ha riempito il trash di Kiraya con esattamente il carburante che Gundam Barbatos Lupus ha usato nelle due Activate del t13 (Barbatos Adapt x2, Barbatos 1st Form, Ryusei-Go, due copie extra di Lupus stesso finite nel trash per mill). Nessun valore vivo perso nell'attivazione: la stessa dinamica 'Lupus si nutre di carte già morte' vista nelle partite precedenti, qui amplificata dal wipe avversario."
+  - "Isaribi (la base che sostituisce l'EX Base) ha dato valore concreto due volte in questa partita: Activate su Hyakuren al t9 (Modifier +AP prima di un attacco decisivo su Minerva) e su Sword Impulse Gundam al t13 (stesso pattern). Linea di gioco confermata ancora una volta: sostituire l'EX Base con Isaribi appena possibile resta la giocata di default."
+  - "Nessun errore isolato di Kiraya individuato in questa partita: le uniche perdite (Ryusei-Go t11 in blocco, Sword Impulse Gundam t14, Gundam Barbatos Lupus t16) sono tutte scambi netti o subiti dal board wipe, non sequenze scorrette."
+  - "Bilancio del campione aggro_mono_p dopo 15 partite: 11 vittorie, 4 sconfitte."

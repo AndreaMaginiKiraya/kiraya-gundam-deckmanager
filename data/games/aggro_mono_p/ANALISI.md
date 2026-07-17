@@ -1,6 +1,6 @@
-# aggro_mono_p — analisi del campione (14 partite, 10-4)
+# aggro_mono_p — analisi del campione (15 partite, 11-4)
 
-Sintesi trasversale delle 14 partite giocate con `aggro_mono_p`, costruita
+Sintesi trasversale delle 15 partite giocate con `aggro_mono_p`, costruita
 incrociando le `study_notes` di ogni record in questa cartella. Obiettivo:
 non ripetere quello che è già scritto partita per partita, ma isolare i
 pattern che si vedono **solo** guardando le partite insieme — cosa
@@ -29,6 +29,7 @@ per vedere se conferma o smentisce i pattern sotto.
 | 12 | 07-15 | [やーこん](2026-07-15_kiraya-vs-yaakon.yaml) | **L** | 22 | Rosso/Bianco, G Gundam/Mobile Fighter (Domon Kasshu, Shining/Dragon Gundam, Maxter) | 0 / 1 | 13 / 8 | Nessun errore isolato di Kiraya: sconfitta pulita contro un motore di recursion (Shining Gundam) + spam di Darkness Finger (4 copie in un turno) |
 | 13 | 07-16 | [big stan](2026-07-16_kiraya-vs-big-stan.yaml) | **W** | 11 | Blu/Rosso, Londo Bell (ReZEL, Gundam ST01-001, Amuro Ray, White Base) | 5 / 0 | 3 / 2 | Vittoria fulminea; turno 11 da manuale di saturazione (2 Adapt + Mikazuki nello stesso turno, poi 4 attacchi) |
 | 14 | 07-16 | [Zeding](2026-07-16_kiraya-vs-zeding.yaml) | **W** | 15 | Bianco/Verde, Academy/Suletta Mercury (Chuchu's Demi Trainer, Gundam Aerial Rebuild, Gundam Pharact, Wing Gundam Bird Mode) | 5 / 2 | 7 / 5 | Turno 13 da manuale (Lupus su trash morto + Mikazuki + 3 attacchi, brucia 3 shield); il contrattacco al t14 costa 3 unità ma il margine accumulato prima regge |
+| 15 | 07-17 | [IAN](2026-07-17_kiraya-vs-ian.yaml) | **W** | 17 | Viola/Bianco, precon ST05 Destiny Ignition + Aile Strike Gundam (Impulse Gundam, Force Impulse Gundam, Shinn Asuka, Minerva) | 4 / 0 | 3 / 6 | Widespread Annihilation gioca 2 volte, azzera il board di Kiraya entrambe le volte; regge solo per la ridondanza a 4 copie e nutre Lupus col trash risultante |
 
 **Bilancio per famiglia di mazzo avversario:**
 
@@ -40,6 +41,7 @@ per vedere se conferma o smentisce i pattern sotto.
 | After War Gundam X | **1-0** | Komsanw |
 | Gundam 00 / Celestial Being | **1-0** | Forlun |
 | Academy / Suletta Mercury | **1-0** | Zeding |
+| Destiny Ignition (Impulse/Shinn Asuka) | **1-0** | IAN |
 | League Militaire | **0-1** | umberduel |
 | Control/removal ibrido (SEED) | **0-1** | アスファルトの雑草 |
 | G Gundam / Mobile Fighter | **0-1** | やーこん |
@@ -47,9 +49,9 @@ per vedere se conferma o smentisce i pattern sotto.
 ## Il dato che spiega le quattro sconfitte
 
 **Ogni singola sconfitta del campione ha in lista Strike Freedom Gundam
-o Darkness Finger (o entrambe)** — e **nessuna delle nove vittorie ha
+o Darkness Finger (o entrambe)** — e **nessuna delle undici vittorie ha
 nessuna delle due**, verificato con un grep diretto sui log grezzi di
-tutte le 13 partite, non solo sulle note scritte partita per partita:
+tutte le 15 partite, non solo sulle note scritte partita per partita:
 
 | Sconfitta | Strike Freedom | Darkness Finger |
 |---|---|---|
@@ -210,6 +212,13 @@ azionabile con più disciplina, il secondo richiede un piano diverso
   (Lupus) viene neutralizzato.** Lo dice esplicitamente la nota della
   partita vs umberduel: quando entrambi falliscono, la partita è persa
   strutturalmente, non per una singola giocata sbagliabile diversamente.
+- **Zero risposta a un board wipe generico** (tipo Widespread
+  Annihilation, "distruggi tutte le unità Lv.4 o inferiore" — quasi
+  ogni unità del mazzo rientra in quella soglia). Vista due volte nella
+  stessa partita (IAN, t10 e t16): il mazzo l'ha retta solo grazie alla
+  ridondanza a 4 copie quasi ovunque, non per una contromossa reale.
+  Con un avversario meno generoso di risorse o un secondo wipe più
+  tempestivo, lo stesso schema potrebbe non reggere.
 
 ## Checklist pratica per le prossime partite
 
@@ -253,3 +262,8 @@ Punti azionabili, in ordine di impatto atteso sul win-rate:
    dell'avversario (Amuro Ray e simili) o costringerlo a decisioni. Le
    partite più nette (b-reichwald, big stan) condividono proprio questo:
    nessuna unità sana lasciata inattiva a fine turno.
+9. **Contro un board wipe generico (es. Widespread Annihilation)**: non
+   c'è modo di prevenirlo, ma il mazzo lo assorbe bene grazie alle 4
+   copie — non esitare a schierare tutto anche se "rischioso", e usa il
+   trash che ne risulta come carburante immediato per Lupus nel turno
+   successivo (visto funzionare due volte nella partita vs IAN).
