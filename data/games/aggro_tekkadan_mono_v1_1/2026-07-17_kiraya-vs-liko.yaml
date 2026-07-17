@@ -1,0 +1,705 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-liko"
+  date_imported: "2026-07-17"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:liko"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    liko:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+cards:
+  "Amuro Ray":
+    id: "GD05-085"
+    note: "pinned: ST01-010 is Blue, ruled out by the 1-2-color deck rule (liko's other resolved cards are all Green/White)."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "liko"
+    seen:
+      - "pilot"
+      - "shield"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 5th Form (Ground Type)":
+    id: "GD03-066"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Heero Yuy":
+    id: null
+    candidates:
+      - "GD05-098"
+      - "ST02-010"
+    note: "ambiguous: both printings are colors already in liko's deck (White/Green), so the 1-2-color rule can't narrow it; no 'Heero Yuy: ...' effect line ever fired to distinguish GD05-098's shield-destroy AP-2 from ST02-010's During-Link AP+1/HP+1."
+    owner: "liko"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Interwoven Blessings":
+    id: "GD05-107"
+    type: "COMMAND"
+    level: 10
+    cost: 10
+    ap: 0
+    hp: 0
+    owner: "liko"
+    seen:
+      - "command"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Jegan:
+    id: "GD05-027"
+    note: "pinned: GD01-016 is Blue, ruled out by the 1-2-color deck rule (liko's other resolved cards are all Green/White)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "liko"
+    seen:
+      - "exiled"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "liko"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "two distinct instances this game, can't be pinned to one id: the t8 copy is almost certainly GD05-020 (its 'Placed 1 Resource EX' deploy effect fired, and it dealt exactly 4 damage to Hyakuren at t10, matching its AP4); the t14 copy is almost certainly GD05-017 (its own When-Paired ability fired verbatim: exile 3 Londo Bell cards from trash, then begin a damage-step-only battle against a chosen enemy Unit). Left null because the record schema pins one id per card name and this game had both printings in play."
+    owner: "liko"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "liko"
+    seen:
+      - "command"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "liko"
+    seen:
+      - "base"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "liko"
+    seen:
+      - "deployed"
+      - "shield"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "liko"
+    seen:
+      - "exiled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Wing Gundam":
+    id: null
+    candidates:
+      - "GD01-040"
+      - "ST02-001"
+    note: "ambiguous: both printings are Green (already one of liko's colors), so color doesn't narrow it. The one damage data point (t10: dealt 7 to Gundam Barbatos Adapt) doesn't match either printing's base AP4 - some buff/modifier isn't captured in the log text - so it isn't usable as decisive evidence either."
+    owner: "liko"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Wing Gundam Zero":
+    id: "GD01-024"
+    type: "UNIT"
+    level: 8
+    cost: 8
+    ap: 5
+    hp: 7
+    owner: "liko"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam Zero (EW)":
+    id: "GD05-067"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "liko"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "liko"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "liko"
+    actions:
+      - action: "play_command"
+        player: "liko"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Nu Gundam discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "liko"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "liko"
+    actions:
+      - action: "attack"
+        player: "liko"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Kayra's Re-GZ received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Kayra's Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Re-GZ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ BWS revealed and discarded"
+  - turn: 8
+    active_player: "liko"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam Zero (EW) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "liko"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "liko"
+        attacker: "Nu Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Nu Gundam received 6 damage, now destroyed"
+      - action: "attack"
+        player: "liko"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Wing Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5: : EX Base received 5 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Wing Gundam"
+        blockers: "none"
+        final_target: "Wing Gundam"
+        outcome:
+          - "Wing Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 12
+    active_player: "liko"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to: Hyakuren, Gundam Barbatos 2nd Form and Shiden Custom (Ryusei-Go)"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Hyakuren and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero, leaving 5 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero, leaving 3 HP remaining"
+  - turn: 14
+    active_player: "liko"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Re-GZ BWS, Nu Gundam and Jegan exiled from the game"
+      - action: "attack"
+        player: "liko"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Nu Gundam received 5 damage, leaving 2 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "liko"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 2nd Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, now destroyed"
+          - "Breach 5 Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 5th Form (Ground Type)"
+  - turn: 16
+    active_player: "liko"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam Zero (EW)"
+        linked: true
+      - action: "attack"
+        player: "liko"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Rested unit: Gundam Barbatos 5th Form (Ground Type)"
+          - "Shield cards: Gundam Barbatos Lupus and Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "liko"
+        attacker: "Wing Gundam Zero"
+        declared_target: "Gundam Barbatos 5th Form (Ground Type)"
+        blockers: "none (High-maneuver)"
+        final_target: "Gundam Barbatos 5th Form (Ground Type)"
+        outcome:
+          - "Gundam Barbatos 5th Form (Ground Type) received 5 damage, now destroyed"
+          - "Wing Gundam Zero received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Barbatos 1st Form and Gundam Barbatos 5th Form (Ground Type) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Kayra's Re-GZ, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos Lupus and Kayra's Re-GZ"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Barbatos 2nd Form and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero (EW), leaving 4 HP remaining"
+  - turn: 18
+    active_player: "liko"
+    actions:
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "No more Shield cards to add to hand"
+      - action: "attack"
+        player: "liko"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Rested unit: Gundam Barbatos Lupus"
+          - "Shield cards: Hyakuren and Graze Custom revealed and discarded"
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "No more Shield cards to add to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Wing Gundam Zero (EW)"
+        blockers: "none"
+        final_target: "Wing Gundam Zero (EW)"
+        outcome:
+          - "Wing Gundam Zero (EW) received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 8 damage, now destroyed"
+  - turn: 20
+    active_player: "liko"
+    actions:
+      - action: "play_command"
+        player: "liko"
+        card: "Interwoven Blessings"
+        effects:
+          - "Isaribi destroyed"
+      - action: "attack"
+        player: "liko"
+        attacker: "Wing Gundam Zero"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 12
+      inferred: true
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+    - card: "Isaribi"
+      turn: 14
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 14
+    - card: "Gundam Barbatos 5th Form (Ground Type)"
+      turn: 16
+    - card: "Gundam Barbatos Lupus"
+      turn: 19
+    - card: "Isaribi"
+      turn: 20
+  liko:
+    - card: "Nu Gundam"
+      turn: 10
+    - card: "Wing Gundam"
+      turn: 11
+    - card: "Nu Gundam"
+      turn: 14
+    - card: "Wing Gundam Zero"
+      turn: 16
+    - card: "Wing Gundam Zero (EW)"
+      turn: 19
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 10)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  liko:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Quinta partita con v1_1, terza sconfitta (2-3). liko Verde/Bianco, Londo Bell + Operation Meteor ibrido (Re-GZ/Kayra's Re-GZ/Re-GZ BWS, Nu Gundam in entrambe le stampe, Wing Gundam/Wing Gundam Zero/Wing Gundam Zero (EW), Heero Yuy, Amuro Ray, Ra Cailum, Overflowing Affection, Interwoven Blessings)."
+  - "Il colpo di grazia (t20) è di nuovo il block-bypass: Wing Gundam Zero base ha <High-Maneuver> ('Can't block High-maneuver') e ha chiuso la partita senza contromossa possibile - stesso buco strutturale già visto vs sgd (Chaos Gundam + Sting Oakley) e in aggro_mono_p."
+  - "Il vero punto di svolta è probabilmente il t14, non il t20: Nu Gundam LR (GD05-017) via il suo When-Paired ('esilia 3 carte Londo Bell dal trash, poi inizia una battaglia solo fase-danno con un nemico a scelta') ha ucciso sia Gundam Barbatos Lupus che Gundam Barbatos 2nd Form nello stesso turno, in due battaglie iniziate direttamente da un'abilità che salta la fase di dichiarazione/blocco - un meccanismo di rimozione diverso sia dall'High-Maneuver (che nega solo il blocco) sia dal removal a bersaglio (Darkness Finger e simili): qui manca proprio lo step in cui un blocco sarebbe stato possibile."
+  - "Seconda vera prova di Gundam Barbatos Lupus in v1_1 (dopo iceberg): prima copia (t13) fa doppia attivazione ma muore subito dopo alla battaglia-abilità di Nu Gundam (t14) senza mai attaccare; seconda copia (t17) fa doppia attivazione e sopravvive fino al t19, tradando con Wing Gundam Zero (EW). Il piano-finisher regge quando gli viene dato un turno per agire, molto meno quando l'avversario ha una risposta diretta in mano."
+  - "Interwoven Blessings (comando costo 10, 'distruggi le prime 2 carte nell'area shield nemica') ha distrutto Isaribi al t20 mentre Kiraya aveva già 0 shield in area - un'interazione da verificare (possibile che l'effetto ripieghi su altro bersaglio a shield-area vuota, oppure 'Isaribi' qui indica la base e non una shield propriamente detta); segnato per controllo futuro, non assunto come regola confermata."
+  - "Scambi centrali onesti: Adapt vs Nu Gundam/Wing Gundam, Hyakuren vs Nu Gundam - il mazzo ha tenuto il ritmo per gran parte della partita, la differenza l'ha fatta il doppio kill del t14."

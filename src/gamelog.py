@@ -52,8 +52,11 @@ _BATTLE_DECLARED_RE = re.compile(r"^Battle declared: (.+?) against (.+)$")
 _BATTLE_STARTED_RE = re.compile(r"^Battle started: (.+?) against (.+)$")
 _ASSIGNED_BLOCKER_RE = re.compile(r"^Assigned (.+?) to block$")
 _CANT_BLOCK_RE = re.compile(r"^Can't block (.+)$")
-_SHIELD_DISCARDED_RE = re.compile(r"^Shield card: (.+?) revealed and discarded$")
-_SHIELD_REVEALED_RE = re.compile(r"^Shield card: (.+?) revealed$")
+# "Shield card(s): A[ and B...] revealed and discarded" - plural when a
+# single hit (e.g. a multi-damage Breach) clears more than one shield at
+# once; each named card counts toward shields_lost.
+_SHIELD_DISCARDED_RE = re.compile(r"^Shield cards?: (.+?) revealed and discarded$")
+_SHIELD_REVEALED_RE = re.compile(r"^Shield cards?: (.+?) revealed$")
 _SHIELD_TO_HAND_RE = re.compile(r"^Shield card added to hand(?:: (.+))?$")
 # A non-shield card fetched to hand by an effect (e.g. Garrod Ran & Tiffa
 # Adill's When-Paired dig). Checked separately from shield lines since it
@@ -61,7 +64,7 @@ _SHIELD_TO_HAND_RE = re.compile(r"^Shield card added to hand(?:: (.+))?$")
 _CARD_TO_HAND_RE = re.compile(r"^Card added to hand: (.+)$")
 # Two-line variant of a lost shield: "revealed" then "moved to trash"
 # (a Burst COMMAND resolves its effect before going to the trash).
-_SHIELD_TO_TRASH_RE = re.compile(r"^Shield card: (.+?) moved to trash$")
+_SHIELD_TO_TRASH_RE = re.compile(r"^Shield cards?: (.+?) moved to trash$")
 # "Breach 3: : Isaribi received ..." (base hit, doubled colon as observed) or
 # "Breach 3 Shield card: X revealed and discarded" (shield hit, no colon).
 _BREACH_RE = re.compile(r"^Breach \d+\s*:?\s*:?\s*(.+)$")
@@ -80,6 +83,12 @@ _DEALT_NOSRC_RE = re.compile(r"^Dealt \d+ damage to:? .+$")
 # Explicit battle-damage kill confirmation, distinct from "X received N
 # damage, now destroyed" (same event, alternate client phrasing observed).
 _DESTROYED_RE = re.compile(r"^(.+?): destroyed (.+)$")
+# "<name> destroyed" with no source/colon and no damage line at all - a
+# non-battle effect that destroys outright (e.g. Interwoven Blessings
+# destroying a card in the shield area/on the field with no "received
+# damage" step). Checked after _DESTROYED_RE so "SRC: destroyed TARGET"
+# is never mistaken for this simpler, sourceless form.
+_PLAIN_DESTROYED_RE = re.compile(r"^(.+?) destroyed$")
 # "X turn end: N resource set as active" (end-of-turn refresh) or the
 # terser "X: N resource set as active" (seen mid-battle, e.g. a Deploy-cost
 # resource un-resting as part of declaring an attack).
@@ -278,14 +287,19 @@ def parse_game_log(text: str) -> dict:
             record_death(name)
 
     def handle_shield_line(raw: str, inner: str) -> bool:
-        """Shield reveals/discards/to-hand; `raw` may carry a Breach prefix."""
+        """Shield reveals/discards/to-hand; `raw` may carry a Breach prefix.
+        "Shield card(s):" can name more than one card at once (a single hit
+        clearing multiple shields), each counting separately toward the
+        tally."""
         nonlocal pending_shield
         m = _SHIELD_DISCARDED_RE.match(inner)
         if m:
             owner = defender()
+            names = _split_names(m.group(1))
             if owner in tally:
-                tally[owner]["shields_lost"] += 1
-            note_card(m.group(1), owner=owner, context="shield")
+                tally[owner]["shields_lost"] += len(names)
+            for name in names:
+                note_card(name, owner=owner, context="shield")
             add_effect(raw)
             return True
         m = _SHIELD_TO_HAND_RE.match(inner)
@@ -301,9 +315,11 @@ def parse_game_log(text: str) -> dict:
         m = _SHIELD_TO_TRASH_RE.match(inner)
         if m:
             owner = defender()
+            names = _split_names(m.group(1))
             if owner in tally:
-                tally[owner]["shields_lost"] += 1
-            note_card(m.group(1), owner=owner, context="shield")
+                tally[owner]["shields_lost"] += len(names)
+            for name in names:
+                note_card(name, owner=owner, context="shield")
             pending_shield = None
             add_effect(raw)
             return True
@@ -311,8 +327,14 @@ def parse_game_log(text: str) -> dict:
         if m:
             # Reveal only; the following line says where the card went
             # (added to hand, or Burst-deployed via a "Played base" line).
-            note_card(m.group(1), owner=defender(), context="shield")
-            pending_shield = (m.group(1), defender())
+            # Burst-resolution tracking only applies to the single-card
+            # case: with multiple simultaneous reveals there's no way to
+            # tell which (if any) gets played from the next line alone.
+            names = _split_names(m.group(1))
+            owner = defender()
+            for name in names:
+                note_card(name, owner=owner, context="shield")
+            pending_shield = (names[0], owner) if len(names) == 1 else None
             add_effect(raw)
             return True
         return False
@@ -498,6 +520,11 @@ def parse_game_log(text: str) -> dict:
         if m:
             note_card(m.group(1), owner=actor, context="attacker")
             record_death(m.group(2))
+            add_effect(ln)
+            continue
+        m = _PLAIN_DESTROYED_RE.match(ln)
+        if m:
+            handle_received_destroyed(m.group(1))
             add_effect(ln)
             continue
         m = _MILLED_RE.match(ln)

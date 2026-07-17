@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (4 partite, 2-2)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (5 partite, 2-3)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **4 sole partite** è troppo presto per isolare pattern affidabili;
+Con **5 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -30,6 +30,7 @@ sottocontano.
 | 2 | 07-17 | [sgd](2026-07-17_kiraya-vs-sgd.yaml) | **L** | 13 | Blu/Rosso, Earth Alliance/Phantom Pain (Chaos/Gaia/Raider Gundam, Sting Oakley, Stellar Loussier) + splash OZ (Tallgeese, Corsica Base) | 0 / 4 | 6 / 4 | Persa nei primi 4 turni: doppio mulligan, primo deploy solo al t4 e ucciso subito da Close Combat; Chaos Gundam + Sting = High-Maneuver a ogni attacco, Lupus mai pescato |
 | 3 | 07-17 | [SaintAbbel](2026-07-17_kiraya-vs-saintabbel.yaml) | **W** | 14 | Blu/Bianco, League Militaire/UC (Rick Dias, Strike Rouge Ootori, Perfect Strike Gundam, Argama, A Show of Resolve) | 6 / 0 | 5 / 4 | Prima vittoria: 0 shield perse nonostante 5 unità perse contro 4; Barbatos 5th Form (Ground Type) mai calato, scartato al t5 per l'abilità di Ryusei-Go; Lupus/Lupus Rex ancora mai pescati (3 partite su 3) |
 | 4 | 07-17 | [iceberg](2026-07-17_kiraya-vs-iceberg.yaml) | **W** | 15 | Rosso/Viola, Earth Alliance/Phantom Pain (Chaos/Gaia/Abyss Gundam, Auel Neider, Sting Oakley, Stellar Loussier) + splash 0 Gundam | 2 / 0 | 6 / 8 | Prima vera prova di Barbatos Lupus: doppia attivazione t13 + kill al t15 chiudono la partita, nonostante Gaia Gundam/Abyss Gundam (MA Mode) abbiano scartato dalla mano (non dal campo) una copia di Lupus e una di Gusion Rebake |
+| 5 | 07-17 | [liko](2026-07-17_kiraya-vs-liko.yaml) | **L** | 20 | Verde/Bianco, Londo Bell + Operation Meteor (Re-GZ family, Nu Gundam x2 stampe, Wing Gundam/Zero/Zero EW, Heero Yuy, Amuro Ray, Ra Cailum) | 0 / 0 | 11 / 5 | Svolta al t14: Nu Gundam LR uccide Lupus e 2nd Form nella stessa turno via un'abilità che salta dichiarazione/blocco; chiusa al t20 da Wing Gundam Zero (High-Maneuver) - stesso buco di block-bypass già visto vs sgd |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -96,6 +97,26 @@ sottocontano.
   diverse** (t11: Link su 1st Form + Pair su Gusion Rebake): 2 ping da 1
   danno nello stesso turno per il solo costo del pilota, la linea di
   danno-passivo più efficiente vista finora nel campione v1_1.
+- **Un terzo tipo di block-bypass, distinto da High-Maneuver** (vs liko,
+  t14): Nu Gundam LR (GD05-017) inizia una battaglia direttamente dalla
+  propria abilità When-Paired, saltando l'intera fase di
+  dichiarazione/blocco — non è che il blocco sia vietato (come con
+  High-Maneuver), è che lo step in cui sarebbe stato possibile non
+  esiste affatto in quella sequenza. Ha ucciso sia Gundam Barbatos Lupus
+  che Gundam Barbatos 2nd Form nello stesso turno. Il buco strutturale
+  già documentato per High-Maneuver/Wing Zero non copre questo caso —
+  è una terza famiglia di minaccia senza contromossa nel mazzo.
+- **Seconda vera prova di Gundam Barbatos Lupus** (vs liko): la prima
+  copia (t13) fa doppia attivazione ma muore alla battaglia-abilità di
+  Nu Gundam prima di attaccare mai; la seconda (t17) fa doppia
+  attivazione e sopravvive fino al t19, tradando in combattimento. Il
+  piano-finisher regge quando ha un turno per agire indisturbato, molto
+  meno se l'avversario ha in mano una risposta diretta.
+- **Interwoven Blessings (comando costo 10, "distruggi le prime 2 carte
+  nell'area shield nemica") ha distrutto Isaribi (una base in campo, non
+  una shield) mentre l'area shield di Kiraya era già vuota** (t20 vs
+  liko) — interazione da verificare con le regole ufficiali prima di
+  darla per assodata, non ancora confermata come comportamento atteso.
 
 ## Checklist provvisoria
 

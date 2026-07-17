@@ -833,6 +833,70 @@ Turn ended!"""
     assert summary["casualties_inferred"] == {}
 
 
+def test_plural_shield_cards_discarded_counts_each_one():
+    # Regression test: a single hit clearing 2 shields at once logs
+    # "Shield cards: A and B revealed and discarded" (plural) - the
+    # singular-only regex previously missed this, falling through to
+    # _DISCARDED_RE and mangling both names plus undercounting shields_lost.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Battle initiated
+Battle declared: Wing Gundam Zero against Enemy Player
+B
+No blockers available
+Action step
+B
+Passed
+A
+Passed
+Battle started: Wing Gundam Zero against Enemy Player
+B
+Shield cards: Gundam Barbatos Lupus and Gundam Barbatos 1st Form revealed and discarded
+Battle ended
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    assert parsed["shields_tally"]["B"]["shields_lost"] == 2
+    seen = parsed["cards_seen"]
+    assert "shield" in seen["Gundam Barbatos Lupus"]["contexts"]
+    assert "shield" in seen["Gundam Barbatos 1st Form"]["contexts"]
+    assert "Gundam Barbatos Lupus revealed and" not in seen
+
+
+def test_plain_destroyed_line_recognized_as_a_casualty():
+    # Regression test: "<name> destroyed" with no source/colon and no
+    # "received N damage" step (e.g. Interwoven Blessings' shield-area
+    # destruction) was previously unparsed.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Played base: Isaribi
+Turn end phase started
+B
+Passed
+A
+Passed
+Turn ended!
+Turn 2 started!
+B
+Played command: Interwoven Blessings
+A
+Isaribi destroyed
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    assert ("Isaribi", 2) in [(c["card"], c["turn"]) for c in parsed["casualties"]["A"]]
+
+
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
     # Regression test: a color contributed ONLY by a card that starts
     # ambiguous and is pinned by hand must survive a re-import. Coloring
