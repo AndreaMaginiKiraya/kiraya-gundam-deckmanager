@@ -596,6 +596,38 @@ Turn end phase started"""
     assert parsed["unparsed"] == []
 
 
+def test_rested_ex_resource_and_attack_target_changed_recognized():
+    # "Placed N rested EX Resource" (Suletta Mercury's During-Link effect)
+    # and "<source>: attack target changed" (an action-card redirect, e.g.
+    # Guel Jeturk) are both effect lines with no dedicated action of their
+    # own.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Battle initiated
+Battle declared: Hyakuren against Enemy Player
+B
+No blockers available
+Action step
+B
+Played action: Guel Jeturk
+Guel Jeturk: attack target changed
+Suletta Mercury: Placed 1 rested EX Resource
+A
+Passed
+B
+Passed
+Battle started: Hyakuren against Guel's Dilanza
+Battle ended
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+
+
 def test_timeout_warning_line_ignored():
     snippet = """Game started!
 A

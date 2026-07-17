@@ -95,11 +95,16 @@ _REPAIRED_RE = re.compile(r"^.+? repaired \d+ from .+$")
 _RESTED_RE = re.compile(r"^(?:Already rested|Rested) unit: .+$")
 _RESTED_BASE_RE = re.compile(r"^Rested base: .+$")
 _SET_ACTIVE_RE = re.compile(r"^Set Active: .+$")
-# "Placed N Resource EX" (a player's own resource-phase play) or the
+# "Placed N Resource EX" (a player's own resource-phase play), the
 # "<source>: Placed N EX Resource" variant (a unit ability placing one,
-# reversed word order as observed, e.g. Gundam Pharact's Link effect).
-_RESOURCE_EX_RE = re.compile(r"^(?:.+?: )?Placed \d+ (?:Resource EX|EX Resource)$")
+# reversed word order, e.g. Gundam Pharact's Link effect), or "...Placed
+# N rested EX Resource" (placed already-rested, e.g. Suletta Mercury's
+# During-Link effect).
+_RESOURCE_EX_RE = re.compile(r"^(?:.+?: )?Placed \d+ (?:rested )?(?:Resource EX|EX Resource)$")
 _RESTED_RESOURCES_RE = re.compile(r"^Rested \d+ Resources?$")
+# A unit/pilot ability redirecting an in-progress attack to itself or
+# another unit (e.g. Guel Jeturk's action card).
+_ATTACK_TARGET_CHANGED_RE = re.compile(r"^.+?: attack target changed$")
 _NO_TARGETS_RE = re.compile(r"^No targets for .+$")
 _DAMAGE_PREVENTED_RE = re.compile(r"^Damage prevented$")
 _RETURNED_BOTTOM_RE = re.compile(r"^Returned to deck bottom$")
@@ -483,6 +488,7 @@ def parse_game_log(text: str) -> dict:
             or _RESOURCE_ACTIVE_RE.match(ln)
             or _RESOURCE_EX_RE.match(ln)
             or _RESTED_RESOURCES_RE.match(ln)
+            or _ATTACK_TARGET_CHANGED_RE.match(ln)
             or _NO_TARGETS_RE.match(ln)
             or _DAMAGE_PREVENTED_RE.match(ln)
             or _RETURNED_BOTTOM_RE.match(ln)

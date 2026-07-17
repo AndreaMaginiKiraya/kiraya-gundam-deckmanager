@@ -1,6 +1,6 @@
-# aggro_mono_p — analisi del campione (16 partite, 12-4)
+# aggro_mono_p — analisi del campione (17 partite, 13-4)
 
-Sintesi trasversale delle 16 partite giocate con `aggro_mono_p`, costruita
+Sintesi trasversale delle 17 partite giocate con `aggro_mono_p`, costruita
 incrociando le `study_notes` di ogni record in questa cartella. Obiettivo:
 non ripetere quello che è già scritto partita per partita, ma isolare i
 pattern che si vedono **solo** guardando le partite insieme — cosa
@@ -31,6 +31,7 @@ per vedere se conferma o smentisce i pattern sotto.
 | 14 | 07-16 | [Zeding](2026-07-16_kiraya-vs-zeding.yaml) | **W** | 15 | Bianco/Verde, Academy/Suletta Mercury (Chuchu's Demi Trainer, Gundam Aerial Rebuild, Gundam Pharact, Wing Gundam Bird Mode) | 5 / 2 | 7 / 5 | Turno 13 da manuale (Lupus su trash morto + Mikazuki + 3 attacchi, brucia 3 shield); il contrattacco al t14 costa 3 unità ma il margine accumulato prima regge |
 | 15 | 07-17 | [IAN](2026-07-17_kiraya-vs-ian.yaml) | **W** | 17 | Viola/Bianco, precon ST05 Destiny Ignition + Aile Strike Gundam (Impulse Gundam, Force Impulse Gundam, Shinn Asuka, Minerva) | 4 / 0 | 3 / 6 | Widespread Annihilation gioca 2 volte, azzera il board di Kiraya entrambe le volte; regge solo per la ridondanza a 4 copie e nutre Lupus col trash risultante |
 | 16 | 07-17 | [SSS](2026-07-17_kiraya-vs-sss.yaml) | **W** | 15 | Blu/Verde, Londo Bell (Jegan, Kayra's Re-GZ, Re-GZ BWS, Nu Gundam, Amuro Ray, Ra Cailum) + splash Strike Freedom Gundam | 4 / 0 | 8 / 7 | Prima vittoria con Strike Freedom in lista avversaria: il bounce colpisce Graze Custom (decoy economico) invece di Lupus, mai calato |
+| 17 | 07-17 | [Anuy](2026-07-17_kiraya-vs-anuy.yaml) | **W** | 9 | Mono-Verde, Academy (Suletta Mercury, Guel's Dilanza, Demi Barding, Guel Jeturk/Overcoming Hardships) | 5 / 0 | 2 / 1 | Vittoria più rapida del campione: board avversario mai sviluppato, 4 shield colpite già al t7 |
 
 **Bilancio per famiglia di mazzo avversario:**
 
@@ -41,7 +42,7 @@ per vedere se conferma o smentisce i pattern sotto.
 | SEED/Orb (Cosmic Era) | **1-1** | 4444 (W), 0622 (L) |
 | After War Gundam X | **1-0** | Komsanw |
 | Gundam 00 / Celestial Being | **1-0** | Forlun |
-| Academy / Suletta Mercury | **1-0** | Zeding |
+| Academy / Suletta Mercury | **2-0** | Zeding, Anuy |
 | Destiny Ignition (Impulse/Shinn Asuka) | **1-0** | IAN |
 | League Militaire | **0-1** | umberduel |
 | Control/removal ibrido (SEED) | **0-1** | アスファルトの雑草 |
@@ -51,7 +52,7 @@ per vedere se conferma o smentisce i pattern sotto.
 
 **Ogni singola sconfitta del campione ha in lista Strike Freedom Gundam
 o Darkness Finger (o entrambe)**, verificato con un grep diretto sui log
-grezzi di tutte le 16 partite, non solo sulle note scritte partita per
+grezzi di tutte le 17 partite, non solo sulle note scritte partita per
 partita:
 
 | Sconfitta | Strike Freedom | Darkness Finger |

@@ -1,0 +1,388 @@
+game:
+  id: "aggro_mono_p/2026-07-17_kiraya-vs-anuy"
+  date_imported: "2026-07-17"
+  source: "chat log"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+    Anuy:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Green"
+cards:
+  "Akihiro Altland":
+    id: "ST05-011"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Demi Barding":
+    id: "GD05-025"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Anuy"
+    seen:
+      - "deployed"
+  "Felsi's Plea":
+    id: "GD05-109"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Anuy"
+    seen:
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Guel Jeturk":
+    id: "GD05-108"
+    note: "corrected from the auto-resolved GD01-097 (the standalone Pilot card): this name was played as an Action ('Played action: Guel Jeturk') that redirects a battling enemy Unit's attack target to a friendly rested Unit, then immediately triggers Suletta Mercury's resource ability - matches GD05-108 'Overcoming Hardships' ('[Action] Choose 1 friendly rested (Academy) Unit. Change a battling enemy Unit's attack target to it.') exactly; its Pilot-mode name is 'Guel Jeturk', same pattern as other Pilot-capable COMMAND cards seen in this campaign (e.g. Iron-Fisted Discipline/Chuatury Panlunch, Become a Shield/Ride Mass)."
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Anuy"
+    seen:
+      - "added to hand"
+      - "command"
+  "Guel's Dilanza":
+    id: "GD05-031"
+    note: "pinned by color legality: GD01-083 is White, but Anuy's deck reads as mono-Green once Guel Jeturk is corrected (every other resolved card - Demi Barding, Witches from Earth, Felsi's Plea, Overcoming Hardships, Suletta Mercury GD04-085 - is Green), so a White card would break the 1-2 color rule if it were the only White card seen; GD05-031 is Green. Unresolved: it dealt 6 damage twice in a row, more than its own AP4 + Suletta Mercury's (GD04-085) +0/+0 pairing bonus would predict - same unexplained AP bump pattern noted on other Linked units in this campaign (Gundam Aerial Rebuild vs Zeding, Force Impulse Gundam vs IAN), likely a client quirk."
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "Anuy"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Aerial Rebuild":
+    id: null
+    candidates:
+      - "GD04-024"
+      - "GD05-026"
+    note: "narrowed from 4 to 2 candidates: GD01-067 and GD02-074 are White, illegal alongside Anuy's otherwise mono-Green deck. Between the two Green printings, no further evidence: this copy was only ever seen as a shield card, revealed and discarded, never deployed."
+    owner: "Anuy"
+    seen:
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Lfrith Thorn":
+    id: null
+    candidates:
+      - "EB01-035"
+      - "GD04-021"
+    note: "still ambiguous: only ever seen as a shield card, revealed and discarded, no combat/effect evidence. Weak lean only: GD04-021 carries the (Academy) trait matching the rest of Anuy's build (Suletta Mercury, Guel's Dilanza, Demi Barding, Guel Jeturk are all Academy), while EB01-035 is a (G Generation) crossover-set card with no Academy synergy - not decisive enough to pin."
+    owner: "Anuy"
+    seen:
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Suletta Mercury":
+    id: "GD04-085"
+    note: "pinned: at t9, right after the Guel Jeturk/Overcoming Hardships action redirects Hyakuren's attack, 'Suletta Mercury: Placed 1 rested EX Resource' fires - matches GD04-085's '[During Link] [Once per Turn] When you play and activate an (Academy) Command card using an EX Resource, if you have no remaining EX Resources, place 1 rested EX Resource.' exactly. ST01-011 (the other candidate) has an unrelated ability (set a Resource active on Attack) that would never produce this line."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Anuy"
+    seen:
+      - "pilot"
+      - "shield"
+  "Witches from Earth":
+    id: "GD04-108"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Anuy"
+    seen:
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Anuy"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Anuy"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Anuy"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "Anuy"
+    actions:
+      - action: "deploy"
+        card: "Demi Barding"
+        effects:
+          - "Card added to hand: Guel Jeturk"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Demi Barding"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Demi Barding"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Aerial Rebuild revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Suletta Mercury revealed"
+          - "Shield card added to hand: Suletta Mercury"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Witches from Earth revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Felsi's Plea revealed and discarded"
+  - turn: 8
+    active_player: "Anuy"
+    actions:
+      - action: "deploy"
+        card: "Guel's Dilanza"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Guel's Dilanza"
+        linked: true
+      - action: "attack"
+        player: "Anuy"
+        attacker: "Guel's Dilanza"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Guel's Dilanza received 4 damage, leaving 2 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Lfrith Thorn revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Suletta Mercury revealed"
+          - "Shield card added to hand: Suletta Mercury"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Anuy"
+            card: "Guel Jeturk"
+            effects:
+              - "Guel Jeturk: attack target changed"
+              - "Suletta Mercury: Placed 1 rested EX Resource"
+        final_target: "Guel's Dilanza"
+        outcome:
+          - "Guel's Dilanza received 4 damage, now destroyed"
+          - "Hyakuren received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "pair_pilot"
+        pilot: "Akihiro Altland"
+        unit: "Gundam Gusion Rebake"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos Adapt"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 9
+  Anuy:
+    - card: "Guel's Dilanza"
+      turn: 9
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Anuy:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) in soli 9 turni contro il mazzo mono-Verde Academy di Anuy (Suletta Mercury, Guel's Dilanza, Demi Barding, Guel Jeturk/Overcoming Hardships, Witches from Earth, Felsi's Plea) - la vittoria più rapida del campione finora (batte i 10 turni di b-reichwald), verificato controllando il turno massimo su tutti i record salvati."
+  - "Board di Anuy quasi mai sviluppato: un solo corpo vero in campo per volta (Demi Barding poi Guel's Dilanza), mentre Kiraya ha attaccato con 3-4 unità sane ogni turno dal t5 in poi. Cinque shield colpite in tre turni (t5, t7 x4, t9) senza mai una risposta sul board di Kiraya - nessuno scambio subito fino al t8."
+  - "Unica giocata difensiva di Anuy: al t9 ha usato Overcoming Hardships (Action, pilotata da Guel Jeturk) per deviare l'attacco di Hyakuren (diretto al player) sul proprio Guel's Dilanza già a 2 HP, sacrificandolo in cambio di uno scambio con Hyakuren invece di prendere danno sulle shield. Giocata difensiva corretta in astratto, ma tardiva: a quel punto Kiraya aveva già così tanta pressione (Gundam Gusion Rebake pronto a scendere) che il turno successivo ha comunque chiuso la partita."
+  - "Nessun errore isolato di Kiraya individuato: partita a senso unico, mai in discussione dal t5."
+  - "Bilancio del campione aggro_mono_p dopo 17 partite: 13 vittorie, 4 sconfitte."
