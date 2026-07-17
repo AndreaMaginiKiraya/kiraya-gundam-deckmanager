@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (3 partite, 1-2)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (4 partite, 2-2)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -9,10 +9,10 @@ o smentirli per conto proprio). Cambi rispetto ad `aggro_mono_p`: Gundam
 Gusion Rebake 4→3, Shiden Custom (Ryusei-Go) 2→3, Gundam Barbatos Lupus
 3→4, Sword Impulse Gundam e Akihiro Altland rimossi, Become a Shield 1→2,
 aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
-Form Ground Type (GD03-066, x1 — zona Earth-only, da testare con
-attenzione).
+Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
+attuale, vedi CLAUDE.md).
 
-Con **3 sole partite** è troppo presto per isolare pattern affidabili;
+Con **4 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -29,6 +29,7 @@ sottocontano.
 | 1 | 07-17 | [loklee](2026-07-17_kiraya-vs-loklee.yaml) | **L** | 20 | Verde/Viola, Zeon (Char's Zaku Ⅱ, Zeong, Sazabi, Rezin's/Quess's Jagd Doga) | 0 / 3 | 13 / 17 | Partita punto a punto persa sull'ultima shield; Sazabi (GD05-052) fa 1-per-3 col suo mill-and-recur, Isaribi muore 3 volte e apre finestre Breach ripetute |
 | 2 | 07-17 | [sgd](2026-07-17_kiraya-vs-sgd.yaml) | **L** | 13 | Blu/Rosso, Earth Alliance/Phantom Pain (Chaos/Gaia/Raider Gundam, Sting Oakley, Stellar Loussier) + splash OZ (Tallgeese, Corsica Base) | 0 / 4 | 6 / 4 | Persa nei primi 4 turni: doppio mulligan, primo deploy solo al t4 e ucciso subito da Close Combat; Chaos Gundam + Sting = High-Maneuver a ogni attacco, Lupus mai pescato |
 | 3 | 07-17 | [SaintAbbel](2026-07-17_kiraya-vs-saintabbel.yaml) | **W** | 14 | Blu/Bianco, League Militaire/UC (Rick Dias, Strike Rouge Ootori, Perfect Strike Gundam, Argama, A Show of Resolve) | 6 / 0 | 5 / 4 | Prima vittoria: 0 shield perse nonostante 5 unità perse contro 4; Barbatos 5th Form (Ground Type) mai calato, scartato al t5 per l'abilità di Ryusei-Go; Lupus/Lupus Rex ancora mai pescati (3 partite su 3) |
+| 4 | 07-17 | [iceberg](2026-07-17_kiraya-vs-iceberg.yaml) | **W** | 15 | Rosso/Viola, Earth Alliance/Phantom Pain (Chaos/Gaia/Abyss Gundam, Auel Neider, Sting Oakley, Stellar Loussier) + splash 0 Gundam | 2 / 0 | 6 / 8 | Prima vera prova di Barbatos Lupus: doppia attivazione t13 + kill al t15 chiudono la partita, nonostante Gaia Gundam/Abyss Gundam (MA Mode) abbiano scartato dalla mano (non dal campo) una copia di Lupus e una di Gusion Rebake |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -47,22 +48,27 @@ sottocontano.
   (t6, t14, t18), ogni sostituzione riapre una finestra Breach fresca
   all'avversario — stesso problema strutturale già annotato per
   `aggro_mono_p` (nessuna seconda base su cui alternare).
-- **Gundam Barbatos Lupus (e Lupus Rex) non sono ancora apparsi in mano
-  in nessuna delle 3 partite** — il dato più ricorrente del campione
-  finora, e il più preoccupante: l'intero piano-finisher del mazzo è
-  rimasto nel mazzo tre volte su tre, eppure il record è 1-2. Troppo
-  presto per dire se è varianza di pesca o se le 5 copie totali
-  (4 Lupus + 1 Lupus Rex su 50 carte) non bastano a garantirne una entro
-  metà partita — da tenere d'occhio.
+- **Gundam Barbatos Lupus finalmente pescato e funzionante (game 4,
+  vs iceberg)**, dopo 3 partite su 3 senza vederlo: doppia attivazione
+  al t13 (uccide Chaos Gundam MA Mode) e una terza al t15 (uccide Chaos
+  Gundam base), esattamente il pattern-chiusura già confermato su
+  `aggro_mono_p`. Colma il buco di dati più insistente del campione
+  finora — resta comunque solo 1 partita su 4 in cui il piano-finisher
+  si è visto in azione.
+- **Scarto forzato dalla mano (non dal campo) su Lupus/Gusion Rebake**
+  (vs iceberg, t6 e t10: Gaia Gundam e Abyss Gundam MA Mode, entrambi
+  effetti "l'avversario scarta 1"): ha tolto una copia viva di Lupus
+  prima ancora che scendesse in campo. Il mazzo l'ha assorbito senza
+  conseguenze (altra copia arrivata più tardi) — ma è una minaccia
+  diversa dal removal/bounce già visti: colpisce la mano, non il board,
+  quindi nessuna sequenza di gioco la previene.
 - **Primo dato su Gundam Barbatos 5th Form (Ground Type)** (vs
   SaintAbbel): mai calato, scartato al t5 come costo dell'abilità di
   Ryusei-Go (pesca 1/scarta 1) — cioè trattato come lo scarto meno
-  costoso in mano, non come una minaccia da giocare. Non prova ancora un
-  problema legato alla sua zona Earth-only (la partita non è mai arrivata
-  al punto di doverlo schierare), ma è un segnale da confermare: se
-  succede di nuovo, il sospetto è che l'essere Earth-only lo renda
-  sistematicamente il primo candidato allo scarto quando il board è in
-  zona Space.
+  costoso in mano, non come una minaccia da giocare. La zona (Earth) non
+  c'entra: non è un vincolo di gioco attuale (vedi CLAUDE.md), era
+  semplicemente la carta più sacrificabile in quella mano. Nessun
+  segnale ancora sulla sua reale giocabilità.
 - **Il buco strutturale sul block-bypass si ripresenta identico** (già
   in `aggro_mono_p/ANALISI.md`): Chaos Gundam + Sting Oakley linkato
   guadagna High-Maneuver a ogni attacco ("Can't block High-maneuver" t5

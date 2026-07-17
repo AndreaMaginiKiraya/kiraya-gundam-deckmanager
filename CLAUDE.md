@@ -152,6 +152,16 @@ reconnect needed for those.)
   name would sort *before* `beta.json`, double check this still holds.
 - Resource, Base, and token card types are colorless (`color` is `None`) —
   this is correct per the rules, not missing data.
+- **`zone` (`Space`, `Earth`, `Space / Earth`) is completely inconsequential
+  to gameplay right now, for every card, full stop.** The Comprehensive
+  Rules (2-6) define it only as a card attribute that text *could*
+  reference — but no card currently deployed in this game does, and no
+  general rule gates deployment/attacking/blocking by zone. An
+  Earth-only card plays exactly like a Space/Earth one in every matchup;
+  there is no scenario today where a unit's zone restricts anything.
+  Never flag zone (Earth-only, Space-only) as a playability risk or
+  synergy concern in deck analysis or study notes — it's pure flavor
+  text with no rules weight until/unless the game changes.
 - **Never trust upstream image paths**: both apitcg and egmanevents have
   been observed suggesting card-art filenames that 404 on `gundam-gcg.com`
   (wrong extension, or a bogus `-r<revision>` suffix baked into the path).
