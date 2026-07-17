@@ -651,6 +651,37 @@ Turn end phase started"""
     assert parsed["unparsed"] == []
 
 
+def test_ex_base_destroyed_via_breach_updates_tally():
+    # Regression test: "Breach N: : EX Base received N damage, now
+    # destroyed" was only ever recorded via record_death (which explicitly
+    # ignores "EX Base"), so a Breach-inflicted EX Base kill silently
+    # vanished instead of updating shields_tally.ex_base.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Battle initiated
+Battle declared: Gundam Barbatos Lupus against Enemy Player
+B
+No blockers available
+Action step
+B
+Passed
+A
+Passed
+Battle started: Gundam Barbatos Lupus against Enemy Player
+B
+Breach 3: : EX Base received 3 damage, now destroyed
+Battle ended
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    assert parsed["shields_tally"]["B"]["ex_base"] == "destroyed (turn 1)"
+
+
 def test_reimport_recomputes_colors_from_carried_over_ids(tmp_path, monkeypatch):
     # Regression test: a color contributed ONLY by a card that starts
     # ambiguous and is pinned by hand must survive a re-import. Coloring

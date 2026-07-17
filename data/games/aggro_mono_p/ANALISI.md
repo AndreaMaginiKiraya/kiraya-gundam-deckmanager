@@ -1,6 +1,6 @@
-# aggro_mono_p — analisi del campione (17 partite, 13-4)
+# aggro_mono_p — analisi del campione (19 partite, 14-5)
 
-Sintesi trasversale delle 17 partite giocate con `aggro_mono_p`, costruita
+Sintesi trasversale delle 19 partite giocate con `aggro_mono_p`, costruita
 incrociando le `study_notes` di ogni record in questa cartella. Obiettivo:
 non ripetere quello che è già scritto partita per partita, ma isolare i
 pattern che si vedono **solo** guardando le partite insieme — cosa
@@ -32,6 +32,8 @@ per vedere se conferma o smentisce i pattern sotto.
 | 15 | 07-17 | [IAN](2026-07-17_kiraya-vs-ian.yaml) | **W** | 17 | Viola/Bianco, precon ST05 Destiny Ignition + Aile Strike Gundam (Impulse Gundam, Force Impulse Gundam, Shinn Asuka, Minerva) | 4 / 0 | 3 / 6 | Widespread Annihilation gioca 2 volte, azzera il board di Kiraya entrambe le volte; regge solo per la ridondanza a 4 copie e nutre Lupus col trash risultante |
 | 16 | 07-17 | [SSS](2026-07-17_kiraya-vs-sss.yaml) | **W** | 15 | Blu/Verde, Londo Bell (Jegan, Kayra's Re-GZ, Re-GZ BWS, Nu Gundam, Amuro Ray, Ra Cailum) + splash Strike Freedom Gundam | 4 / 0 | 8 / 7 | Prima vittoria con Strike Freedom in lista avversaria: il bounce colpisce Graze Custom (decoy economico) invece di Lupus, mai calato |
 | 17 | 07-17 | [Anuy](2026-07-17_kiraya-vs-anuy.yaml) | **W** | 9 | Mono-Verde, Academy (Suletta Mercury, Guel's Dilanza, Demi Barding, Guel Jeturk/Overcoming Hardships) | 5 / 0 | 2 / 1 | Vittoria più rapida del campione: board avversario mai sviluppato, 4 shield colpite già al t7 |
+| 18 | 07-17 | [SaintAbbel](2026-07-17_kiraya-vs-saintabbel.yaml) | **W** | 11 | Blu/Bianco, League Militaire (V-Dash Gundam, Victory Gundam, Zoloat, Üso Ewin, Rick Dias, Argama) | 5 / 1 | 2 / 3 | Errore isolato: t7 passato senza attaccare con Graze Custom sano contro un Rick Dias a 1 HP |
+| 19 | 07-17 | [MMorelli](2026-07-17_kiraya-vs-mmorelli.yaml) | **L** | 24 | Blu/Rosso, control/removal ibrido (Gundam/Amuro Ray, Unicorn Gundam 02 Banshee, V-Dash Gundam, Darkness Finger) | 0 / 3 | 14 / 8 | Darkness Finger x2 uccide Gundam Exia Repair e ne innesca il mill casuale (Lupus perso al t6); Unicorn Gundam 02 Banshee (riciclo trash + First Strike) è lo snodo della partita al t14 |
 
 **Bilancio per famiglia di mazzo avversario:**
 
@@ -44,15 +46,15 @@ per vedere se conferma o smentisce i pattern sotto.
 | Gundam 00 / Celestial Being | **1-0** | Forlun |
 | Academy / Suletta Mercury | **2-0** | Zeding, Anuy |
 | Destiny Ignition (Impulse/Shinn Asuka) | **1-0** | IAN |
-| League Militaire | **0-1** | umberduel |
-| Control/removal ibrido (SEED) | **0-1** | アスファルトの雑草 |
+| League Militaire | **1-1** | SaintAbbel (W), umberduel (L) |
+| Control/removal ibrido (SEED/UC) | **0-2** | アスファルトの雑草, MMorelli |
 | G Gundam / Mobile Fighter | **0-1** | やーこん |
 
-## Il dato che spiega le quattro sconfitte
+## Il dato che spiega le cinque sconfitte
 
 **Ogni singola sconfitta del campione ha in lista Strike Freedom Gundam
 o Darkness Finger (o entrambe)**, verificato con un grep diretto sui log
-grezzi di tutte le 17 partite, non solo sulle note scritte partita per
+grezzi di tutte le 19 partite, non solo sulle note scritte partita per
 partita:
 
 | Sconfitta | Strike Freedom | Darkness Finger |
@@ -61,6 +63,7 @@ partita:
 | umberduel | ✅ | — |
 | アスファルトの雑草 | ✅ | ✅ |
 | やーこん | — | ✅ |
+| MMorelli | — | ✅ |
 
 Il contrario però **non è più vero da quando SSS (partita 16) ha vinto
 Kiraya con Strike Freedom Gundam in lista**: il bounce ha rimandato nel
@@ -81,10 +84,17 @@ disinnesca l'effetto facendolo cadere a vuoto, come visto vs SSS.
 basso costo, che NON sceglie per livello più basso ma colpisce quello
 che vuole: da sola non tocca Lupus specificamente, ma in quantità
 (asphalt-weed ne aveva 4 copie diverse osservate nel removal-package,
-やーこん ne ha giocate 4 nello stesso turno) risponde a qualsiasi
-minaccia economica del mazzo una alla volta, più in fretta di quanto
-Kiraya possa svilupparne di nuove — e per questa resta una minaccia
-strutturale a prescindere da cosa sia in campo.
+やーこん ne ha giocate 4 nello stesso turno, MMorelli l'ha rigiocata due
+volte in due turni distinti) risponde a qualsiasi minaccia economica
+del mazzo una alla volta, più in fretta di quanto Kiraya possa
+svilupparne di nuove — e per questa resta una minaccia strutturale a
+prescindere da cosa sia in campo. Scoperta nuova vs MMorelli:
+**Gundam Exia Repair (1 HP) è il bersaglio perfetto per Darkness
+Finger**, e il suo '[Destroyed] Mill 2' amplifica il danno — entrambe
+le volte che è morto a Darkness Finger (t6, t10) ha scaricato nel trash
+una carta viva a caso, incluso Gundam Barbatos Lupus stesso al t6 (mai
+più rivisto in gioco). Contro un mazzo con rimozione ripetuta da 1-2
+danni, Exia Repair passa da motore di valore a doppio svantaggio.
 
 Il filo comune non è la carta specifica ma il tipo di risposta:
 **interazione ripetibile a basso costo** (bounce o removal da 1-2
@@ -189,7 +199,10 @@ azionabile con più disciplina, il secondo richiede un piano diverso
    (Exia Repair + Graze Custom entrambi disponibili, board di Pelumu
    completamente rested, zero attacchi dichiarati) — il primo vero
    attacco della partita è arrivato solo al t7, molto tardi per lo
-   standard del mazzo (di solito t4-5).
+   standard del mazzo (di solito t4-5). Ripetuto in scala minore vs
+   SaintAbbel (t7): Graze Custom sano e disponibile, Rick Dias
+   dell'avversario a 1 HP residuo (kill gratis), nessun attacco
+   dichiarato quel turno.
 4. **Lasciare Lupus come l'unica/più economica unità in campo contro
    mazzi con Strike Freedom**. Causa diretta di tutte e tre le sconfitte
    con Strike Freedom (vedi sopra) — ma ora è una lezione più precisa e
@@ -199,23 +212,42 @@ azionabile con più disciplina, il secondo richiede un piano diverso
    proprio perché quest'ultimo non era l'unità più economica presente.
    Non serve quindi "non calare Lupus" in astratto: basta tenere in
    campo anche solo un'unità economica viva insieme a lui. Contro
-   Darkness Finger/removal ripetuto (アスファルトの雑草, やーこん) non
-   c'è un equivalente "non fare X": è un problema di lista avversaria,
-   non di sequenza di gioco (vedi sotto).
+   Darkness Finger/removal ripetuto (アスファルトの雑草, やーこん,
+   MMorelli) non c'è un equivalente "non fare X": è un problema di
+   lista avversaria, non di sequenza di gioco (vedi sotto).
+5. **Attivare un buff "durante questo turno" su un'unità che non può
+   comunque attaccare quel turno**. Isolato ma a costo pieno: vs
+   MMorelli (t7), Isaribi (risorsa Activate una volta a turno) dà AP+2
+   a Sword Impulse Gundam appena schierato nello stesso turno — un'unità
+   non-Link non può attaccare al turno del proprio dispiegamento, quindi
+   il buff scade inutilizzato e l'unità muore al turno successivo senza
+   averlo mai sfruttato. Controllo semplice da fare prima di ogni
+   Activate: l'unità bersaglio può *effettivamente* attaccare questo
+   turno?
 
 ## Problematiche strutturali del mazzo (non correggibili col solo gioco)
 
 - **Nessun motore di pesca/vantaggio carte.** Il mazzo compete sulla
   velocità pura; quando la corsa si allunga oltre il t10 (removal,
   stallo, doppio blocco) resta sistematicamente a corto di risorse
-  mentre l'avversario continua a pescare. Presente in 3 sconfitte su 4
-  (manca in やーこん, dove il colpo di grazia è arrivato per
-  interazione diretta più che per differenziale di carte).
+  mentre l'avversario continua a pescare. Presente in 3 sconfitte su 5
+  (0622, umberduel, asphalt-weed) — やーこん e MMorelli perdono per
+  interazione diretta/mill piuttosto che per differenziale di pesca
+  puro, anche se MMorelli mostra una variante dello stesso problema
+  (vedi sotto).
 - **Nessuna risposta a interazione ripetibile a basso costo** (bounce
   tipo Strike Freedom, removal da 1-2 danni tipo Darkness Finger): è la
-  causa singola più consistente delle sconfitte (4 su 4, vedi sopra). Il
+  causa singola più consistente delle sconfitte (5 su 5, vedi sopra). Il
   mazzo non ha counterplay strutturale — solo mitigazione tattica
   (saturare, non esporre Lupus, ridurre il self-ping).
+- **Gundam Exia Repair è una liability contro removal ripetuto a basso
+  costo.** Il suo 1 HP lo rende un bersaglio perfetto per una rimozione
+  da 2 danni come Darkness Finger, e il suo '[Destroyed] Mill 2' allora
+  si ritorce contro: ogni volta che muore così, scarica nel trash 2
+  carte a caso del proprio mazzo, a volte carte vive di valore (Gundam
+  Barbatos Lupus stesso, vs MMorelli t6). Contro questi mazzi il suo
+  valore normale (pesca/riciclo) si trasforma in un moltiplicatore di
+  svantaggio ogni volta che viene rimosso.
 - **Il self-ping è un'arma a doppio taglio contro il removal
   condizionale.** Diverse rimozioni osservate colpiscono solo unità
   *danneggiate* (es. Battle of Aces nell'archetipo control di
@@ -291,3 +323,12 @@ Punti azionabili, in ordine di impatto atteso sul win-rate:
    copie — non esitare a schierare tutto anche se "rischioso", e usa il
    trash che ne risulta come carburante immediato per Lupus nel turno
    successivo (visto funzionare due volte nella partita vs IAN).
+10. **Prima di ogni Activate "durante questo turno" (Isaribi e simili)**:
+    l'unità bersaglio può davvero attaccare questo turno? Un'unità
+    appena schierata (non-Link) non può farlo — sprecare il buff su di
+    lei equivale a non averla usata affatto (vs MMorelli t7).
+11. **Contro mazzi con removal ripetuto a basso costo (Darkness Finger e
+    simili)**: valuta se calare Gundam Exia Repair vale il rischio — il
+    suo 1 HP e il suo Mill 2 alla morte possono trasformarsi in un
+    doppio svantaggio (carta persa + una seconda carta a caso scartata
+    dal mazzo, a volte Lupus stesso).

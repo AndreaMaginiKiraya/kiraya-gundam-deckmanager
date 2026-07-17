@@ -224,6 +224,17 @@ def parse_game_log(text: str) -> dict:
         if name != "EX Base" and turn is not None:
             deaths.append((name, turn["turn"]))
 
+    def handle_received_destroyed(name: str) -> None:
+        """A '<name> received N damage, now destroyed' target: EX Base
+        updates the shields tally instead of the casualties list (shared
+        by the plain and Breach-prefixed damage lines)."""
+        if name == "EX Base":
+            owner = defender()
+            if owner in tally and turn is not None:
+                tally[owner]["ex_base_destroyed_turn"] = turn["turn"]
+        else:
+            record_death(name)
+
     def handle_shield_line(raw: str, inner: str) -> bool:
         """Shield reveals/discards/to-hand; `raw` may carry a Breach prefix."""
         nonlocal pending_shield
@@ -422,18 +433,13 @@ def parse_game_log(text: str) -> dict:
             if not handle_shield_line(ln, inner):
                 inner_m = _RECEIVED_RE.match(inner)
                 if inner_m and inner.endswith("now destroyed"):
-                    record_death(inner_m.group(1))
+                    handle_received_destroyed(inner_m.group(1))
                 add_effect(ln)
             continue
         m = _RECEIVED_RE.match(ln)
         if m:
             if ln.endswith("now destroyed"):
-                if m.group(1) == "EX Base":
-                    owner = defender()
-                    if owner in tally and turn is not None:
-                        tally[owner]["ex_base_destroyed_turn"] = turn["turn"]
-                else:
-                    record_death(m.group(1))
+                handle_received_destroyed(m.group(1))
             add_effect(ln)
             continue
         m = _DEALT_DESTROYED_RE.match(ln)

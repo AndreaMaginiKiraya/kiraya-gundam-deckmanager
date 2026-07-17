@@ -1,0 +1,422 @@
+game:
+  id: "aggro_mono_p/2026-07-17_kiraya-vs-saintabbel"
+  date_imported: "2026-07-17"
+  source: "chat log"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+    SaintAbbel:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "Akihiro Altland":
+    id: "ST05-011"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "SaintAbbel"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "still ambiguous: only ever seen as a shield card, revealed and added to hand, never paired or played. Color legality doesn't narrow it - SaintAbbel's deck is confirmed Blue/White (Zoloat, Üso Ewin, V-Dash Gundam Blue; Rick Dias, Argama White), and both candidates (GD05-081 Blue, ST04-010 White) already fit within that pair."
+    owner: "SaintAbbel"
+    seen:
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "SaintAbbel"
+    seen:
+      - "command"
+      - "discarded"
+  Parts:
+    id: null
+    note: "unit token, not a real card (no database entry expected): deployed by Üso Ewin's own '[When Paired] If this is a (League Militaire) Unit, deploy 1 [Parts]' ability right after it paired with V-Dash Gundam. Per the reminder text on that ability: (League Militaire) trait, AP1/HP1, can't choose the enemy player as its attack target."
+    owner: "SaintAbbel"
+    seen:
+      - "deployed"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "SaintAbbel"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Ride Mass":
+    id: "GD05-117"
+    note: "pilot mode of the COMMAND card 'Become a Shield'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "SaintAbbel"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Victory Gundam":
+    id: null
+    candidates:
+      - "GD04-003"
+      - "GD04-011"
+    note: "still ambiguous: only ever seen as a shield card, revealed and discarded, never deployed - no combat/trigger evidence. Note the Parts token this game came from Üso Ewin's own pairing ability, not from GD04-011's Destroyed trigger, so its appearance can't be used as evidence either way."
+    owner: "SaintAbbel"
+    seen:
+      - "shield"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "SaintAbbel"
+    seen:
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "SaintAbbel"
+    seen:
+      - "pilot"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "SaintAbbel"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "SaintAbbel"
+    actions:
+      - action: "play_command"
+        player: "SaintAbbel"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Overflowing Affection discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "SaintAbbel"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos 2nd Form discarded"
+      - action: "pair_pilot"
+        pilot: "Ride Mass"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 2 damage, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "SaintAbbel"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Rick Dias"
+  - turn: 8
+    active_player: "SaintAbbel"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "play_base"
+        card: "Argama"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Akihiro Altland"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+        blockers: "none"
+        final_target: "shield"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Victory Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Üso Ewin revealed"
+          - "Shield card added to hand: Üso Ewin"
+  - turn: 10
+    active_player: "SaintAbbel"
+    actions:
+      - action: "deploy"
+        card: "V-Dash Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "V-Dash Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "SaintAbbel"
+        attacker: "V-Dash Gundam"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 6 damage, now destroyed"
+          - "V-Dash Gundam received 6 damage, now destroyed"
+          - "Breach 3: : EX Base received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Rested unit: Parts"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Argama received 5 damage, now destroyed"
+        blockers: "none"
+        final_target: "Argama"
+casualties:
+  Kiraya:
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 5
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 10
+  SaintAbbel:
+    - card: "Argama"
+      turn: 9
+    - card: "V-Dash Gundam"
+      turn: 10
+    - card: "Argama"
+      turn: 11
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 10)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  SaintAbbel:
+    ex_base: "replaced with a base (turn 8)"
+    shields_lost: 1
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Vittoria di Kiraya (aggro_mono_p) in 11 turni contro il mazzo Blu/Bianco League Militaire di SaintAbbel (V-Dash Gundam, Victory Gundam, Zoloat, Üso Ewin, Rick Dias, Argama)."
+  - "Errore isolato: al t7 Kiraya schiera Gundam Barbatos 1st Form e Gundam Barbatos Adapt (entrambi non possono attaccare al turno di dispiegamento) ma NON dichiara nessun attacco con Graze Custom, già in campo e sano dal t5 - nonostante Rick Dias fosse a 1 HP residuo (danneggiato bloccando al t5) e uccidibile gratis. Stesso pattern già segnalato in ANALISI.md ('passare un turno intero senza attaccare con unità sane e attive contro un board avversario esposto', visto la prima volta vs pelumu t5) - qui il costo è più contenuto perché la partita non era in equilibrio, ma resta un'occasione di danno/kill gratis persa."
+  - "Conferma tecnica utile: il token [Parts] (League Militaire, AP1/HP1) viene creato dal When-Paired di Üso Ewin quando pairato con un'unità League Militaire (visto al t10 subito dopo 'Linked pilot: Üso Ewin on unit V-Dash Gundam') - non dal Destroyed di Victory Gundam come si potrebbe pensare dal nome/fiction della carta; quest'ultima non è mai stata dispiegata in questa partita."
+  - "Bilancio del campione aggro_mono_p dopo 18 partite: 14 vittorie, 4 sconfitte."

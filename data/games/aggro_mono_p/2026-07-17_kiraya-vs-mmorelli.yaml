@@ -1,0 +1,782 @@
+game:
+  id: "aggro_mono_p/2026-07-17_kiraya-vs-mmorelli"
+  date_imported: "2026-07-17"
+  source: "chat log"
+  result: "win:MMorelli"
+  players:
+    MMorelli:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_mono_p"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "MMorelli"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "MMorelli"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: both t8 ('Rested unit: Sword Impulse Gundam') and t12 ('Rested unit: Gundam Barbatos 1st Form') show the When-Paired rest-an-enemy-unit trigger firing right after pairing - matches ST01-010's '[When Paired] Choose 1 enemy Unit with 5 or less HP. Rest it.' exactly (same pin as in the vs-SSS game). GD05-085 has an unrelated passive (recover 2 HP on kill) with no rest effect."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "MMorelli"
+    seen:
+      - "pilot"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "MMorelli"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  Gundam:
+    id: "ST01-001"
+    note: "pinned: 'Gundam repaired 2 from [Repair 2]' at the end of t8 and t12 only matches ST01-001's printed '<Repair 2>' keyword - none of the other 4 candidates has any Repair keyword at all. The AP math checks out too once its own '[During Pair] During your turn, all your Units get AP+1' is accounted for: on MMorelli's own turn it deals 6 damage (base AP3 + Amuro Ray's (ST01-010) +2 pairing bonus + its own +1 self-buff = 6, t8/t9 battles), but only 5 on Kiraya's turn (t13, when 'during your turn' doesn't apply: 3+2=5) - both figures match the log exactly."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "MMorelli"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "milled"
+  Kshatriya:
+    id: null
+    candidates:
+      - "GD01-044"
+      - "GD01-051"
+    note: "still ambiguous: deployed at t22 but never paired, never attacked, no combat/effect evidence before the game ends."
+    owner: "MMorelli"
+    seen:
+      - "deployed"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "MMorelli"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Parts:
+    id: null
+    note: "unit token, not a real card (no database entry expected): both deploys (t6, t16) came right after Reineforce Jr.'s own '[Deploy] Add 1 of your Shields to your hand. Then, during your turn, if a friendly (League Militaire) Unit is in play, deploy 1 [Parts]' - NOT from Üso Ewin's pairing ability, which produces the same token in the vs-SaintAbbel game but was never paired here (Üso Ewin was discarded at t6 via Airframe Seizure's cost). Per the reminder text: (League Militaire) trait, AP1/HP1, can't choose the enemy player as its attack target."
+    owner: "MMorelli"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "MMorelli"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Sword Impulse Gundam":
+    id: "GD04-056"
+    note: "resolved via saved deck 'aggro_mono_p'"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "MMorelli"
+    seen:
+      - "attacker"
+      - "deployed"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "MMorelli"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "MMorelli"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "MMorelli"
+    seen:
+      - "discarded"
+setup:
+  - player: "MMorelli"
+    action: "choose_second_player"
+  - player: "MMorelli"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "MMorelli"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "MMorelli"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "MMorelli"
+    actions:
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "play_command"
+        player: "MMorelli"
+        card: "Airframe Seizure"
+        effects:
+          - "Üso Ewin discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "MMorelli"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Graze Custom moved to trash"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Rested unit: Zoloat (League Militaire)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Zoloat (League Militaire)"
+        blockers: "none"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Zoloat (League Militaire) received 2 damage, now destroyed"
+          - "Graze Custom received 3 damage, now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Sword Impulse Gundam"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 4 damage, leaving 1 HP remaining"
+  - turn: 8
+    active_player: "MMorelli"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Sword Impulse Gundam"
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "Parts"
+        declared_target: "Sword Impulse Gundam"
+        blockers: "none"
+        final_target: "Sword Impulse Gundam"
+        outcome:
+          - "Sword Impulse Gundam received 2 damage, now destroyed"
+          - "Parts received 3 damage, now destroyed"
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Gundam received 4 damage, leaving 1 HP remaining"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 2 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 10
+    active_player: "MMorelli"
+    actions:
+      - action: "play_command"
+        player: "MMorelli"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "MMorelli"
+        card: "Airframe Seizure"
+        effects:
+          - "Marida Cruz discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "MMorelli"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Hyakuren moved to trash"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 3 damage, now destroyed"
+  - turn: 12
+    active_player: "MMorelli"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Gundam"
+        blockers: "Zoloat (League Militaire)"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Zoloat (League Militaire) received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 5 damage, now destroyed"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 14
+    active_player: "MMorelli"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Isaribi moved to trash"
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 7 damage, now destroyed"
+          - "Damage prevented"
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 0 damage, leaving 5 HP remaining"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Shiden Custom (Ryusei-Go), leaving 2 HP remaining"
+          - "Isaribi received 7 damage, now destroyed"
+        blockers: "none"
+        final_target: "Isaribi"
+      - action: "play_command"
+        player: "MMorelli"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        blockers: "none"
+        final_target: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        outcome:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 6 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+  - turn: 16
+    active_player: "MMorelli"
+    actions:
+      - action: "deploy"
+        card: "V-Dash Gundam"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+  - turn: 17
+    active_player: "Kiraya"
+    actions: []
+  - turn: 18
+    active_player: "MMorelli"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "V-Dash Gundam"
+        linked: false
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "V-Dash Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "V-Dash Gundam"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Parts"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "V-Dash Gundam"
+        blockers: "none"
+        final_target: "V-Dash Gundam"
+        outcome:
+          - "V-Dash Gundam received 6 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+  - turn: 20
+    active_player: "MMorelli"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "V-Dash Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 21
+    active_player: "Kiraya"
+    actions: []
+  - turn: 22
+    active_player: "MMorelli"
+    actions:
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "V-Dash Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "deploy"
+        card: "Kshatriya"
+  - turn: 23
+    active_player: "Kiraya"
+    actions: []
+  - turn: 24
+    active_player: "MMorelli"
+    actions:
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Sword Impulse Gundam revealed and discarded"
+      - action: "attack"
+        player: "MMorelli"
+        attacker: "V-Dash Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  MMorelli:
+    - card: "Zoloat (League Militaire)"
+      turn: 7
+    - card: "Parts"
+      turn: 8
+    - card: "Gundam"
+      turn: 9
+    - card: "Reineforce Jr."
+      turn: 11
+    - card: "Zoloat (League Militaire)"
+      turn: 13
+    - card: "Gundam"
+      turn: 13
+    - card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      turn: 15
+    - card: "V-Dash Gundam"
+      turn: 19
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Sword Impulse Gundam"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Gundam Exia Repair"
+      turn: 10
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Gundam Exia Repair"
+      turn: 14
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 14
+    - card: "Isaribi"
+      turn: 14
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 15
+    - card: "Isaribi"
+      turn: 18
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 19
+shields_tally:
+  MMorelli:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 1
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 3
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Sconfitta di Kiraya (aggro_mono_p) in 24 turni contro il mazzo Blu/Rosso di MMorelli (Gundam/Amuro Ray, V-Dash Gundam, Unicorn Gundam 02 Banshee/Marida Cruz, Zoloat, Reineforce Jr., Kshatriya) con Darkness Finger in lista - stesso profilo 'control/removal ibrido' già visto contro アスファルトの雑草."
+  - "Darkness Finger gioca DUE volte (t6, t10) e uccide Gundam Exia Repair entrambe le volte (HP1, bersaglio perfetto per 2 danni). Il problema non è solo la rimozione in sé ma il suo effetto collaterale: la '[Destroyed] Mill 2' di Exia Repair ha scaricato nel trash carte vive a caso, incluso Gundam Barbatos Lupus stesso al t6 (mai più visto in gioco - solo come shield colpita al t20) e Gundam Barbatos 1st Form al t10. In pratica ogni Darkness Finger ha tolto a Kiraya un'unità DA 1 costo più una seconda carta a sorpresa: un moltiplicatore di svantaggio che il mazzo non aveva mai incontrato così esplicitamente prima. Da valutare se vale la pena includere Exia Repair contro mazzi con removal ripetuto a basso costo, nonostante il suo valore da pesca/riciclo normale."
+  - "Errore isolato e netto: al t7 Kiraya attiva Isaribi (una risorsa Activate limitata a una volta a turno) per dare AP+2 a Sword Impulse Gundam APPENA SCHIERATO quello stesso turno - un'unità non-Link non può comunque attaccare nel turno in cui viene calata, quindi il buff 'durante questo turno' è sprecato al 100%: Sword Impulse Gundam muore al turno successivo (t8) senza aver mai attaccato. L'Activate andava riservato a un'unità che avrebbe effettivamente colpito quello stesso turno."
+  - "Confermata per la terza volta nel campione la stessa dinamica: pingare un'unità propria per farla pescare/attivare il suo effetto la lascia scoperta a bassa HP, e l'avversario la elimina gratis al turno successivo. Qui è successo a Gundam Barbatos 1st Form (pingato da Ryusei-Go al t11 per la pesca in attacco, lasciato a 1 HP, ucciso da 'Gundam' di MMorelli al t12) - stesso schema già visto vs Zeding (t9-10)."
+  - "Il momento di svolta vero è il t14: Unicorn Gundam 02 Banshee (Destroy Mode) unisce un'abilità di riciclo trash (rimescola 12 carte nel mazzo) a First Strike nello stesso attacco, uccidendo Ryusei-Go senza subire contraccolpo e poi finendo anche Isaribi nello stesso turno - un singolo corpo da 4 costo che vale due kill puliti. Da qui in poi Kiraya non ha più risorse per rispondere: gli ultimi 10 turni sono quasi tutti passati a vuoto mentre V-Dash Gundam e una seconda Banshee macinano le shield rimanenti senza opposizione."
+  - "Bilancio del campione aggro_mono_p dopo 19 partite: 14 vittorie, 5 sconfitte."
