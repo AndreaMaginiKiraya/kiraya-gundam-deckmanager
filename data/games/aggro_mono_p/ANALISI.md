@@ -1,6 +1,6 @@
-# aggro_mono_p — analisi del campione (19 partite, 14-5)
+# aggro_mono_p — analisi del campione (20 partite, 14-6)
 
-Sintesi trasversale delle 19 partite giocate con `aggro_mono_p`, costruita
+Sintesi trasversale delle 20 partite giocate con `aggro_mono_p`, costruita
 incrociando le `study_notes` di ogni record in questa cartella. Obiettivo:
 non ripetere quello che è già scritto partita per partita, ma isolare i
 pattern che si vedono **solo** guardando le partite insieme — cosa
@@ -34,6 +34,7 @@ per vedere se conferma o smentisce i pattern sotto.
 | 17 | 07-17 | [Anuy](2026-07-17_kiraya-vs-anuy.yaml) | **W** | 9 | Mono-Verde, Academy (Suletta Mercury, Guel's Dilanza, Demi Barding, Guel Jeturk/Overcoming Hardships) | 5 / 0 | 2 / 1 | Vittoria più rapida del campione: board avversario mai sviluppato, 4 shield colpite già al t7 |
 | 18 | 07-17 | [SaintAbbel](2026-07-17_kiraya-vs-saintabbel.yaml) | **W** | 11 | Blu/Bianco, League Militaire (V-Dash Gundam, Victory Gundam, Zoloat, Üso Ewin, Rick Dias, Argama) | 5 / 1 | 2 / 3 | Errore isolato: t7 passato senza attaccare con Graze Custom sano contro un Rick Dias a 1 HP |
 | 19 | 07-17 | [MMorelli](2026-07-17_kiraya-vs-mmorelli.yaml) | **L** | 24 | Blu/Rosso, control/removal ibrido (Gundam/Amuro Ray, Unicorn Gundam 02 Banshee, V-Dash Gundam, Darkness Finger) | 0 / 3 | 14 / 8 | Darkness Finger x2 uccide Gundam Exia Repair e ne innesca il mill casuale (Lupus perso al t6); Unicorn Gundam 02 Banshee (riciclo trash + First Strike) è lo snodo della partita al t14 |
+| 20 | 07-17 | [MMorelli](2026-07-17_kiraya-vs-mmorelli-2.yaml) | **L** | 24 | Blu/Rosso, stesso mazzo control/removal (rivincita) | 1 / 0 | 17 / 11 | Prima metà pulita lato Kiraya; Unicorn Gundam 02 Banshee compare 2 volte (t16, t22) e decide la partita da sola |
 
 **Bilancio per famiglia di mazzo avversario:**
 
@@ -47,14 +48,14 @@ per vedere se conferma o smentisce i pattern sotto.
 | Academy / Suletta Mercury | **2-0** | Zeding, Anuy |
 | Destiny Ignition (Impulse/Shinn Asuka) | **1-0** | IAN |
 | League Militaire | **1-1** | SaintAbbel (W), umberduel (L) |
-| Control/removal ibrido (SEED/UC) | **0-2** | アスファルトの雑草, MMorelli |
+| Control/removal ibrido (SEED/UC, MMorelli) | **0-3** | アスファルトの雑草, MMorelli x2 |
 | G Gundam / Mobile Fighter | **0-1** | やーこん |
 
-## Il dato che spiega le cinque sconfitte
+## Il dato che spiega le sei sconfitte
 
 **Ogni singola sconfitta del campione ha in lista Strike Freedom Gundam
 o Darkness Finger (o entrambe)**, verificato con un grep diretto sui log
-grezzi di tutte le 19 partite, non solo sulle note scritte partita per
+grezzi di tutte le 20 partite, non solo sulle note scritte partita per
 partita:
 
 | Sconfitta | Strike Freedom | Darkness Finger |
@@ -63,7 +64,8 @@ partita:
 | umberduel | ✅ | — |
 | アスファルトの雑草 | ✅ | ✅ |
 | やーこん | — | ✅ |
-| MMorelli | — | ✅ |
+| MMorelli (1) | — | ✅ |
+| MMorelli (2) | — | ✅ |
 
 Il contrario però **non è più vero da quando SSS (partita 16) ha vinto
 Kiraya con Strike Freedom Gundam in lista**: il bounce ha rimandato nel
@@ -264,6 +266,16 @@ azionabile con più disciplina, il secondo richiede un piano diverso
   (Lupus) viene neutralizzato.** Lo dice esplicitamente la nota della
   partita vs umberduel: quando entrambi falliscono, la partita è persa
   strutturalmente, non per una singola giocata sbagliabile diversamente.
+- **Zero risposta a Unicorn Gundam 02 Banshee (Destroy Mode).** Rimescola
+  carte dal proprio trash nel mazzo, ottiene First Strike (colpisce per
+  primo) e quindi uccide senza subire contraccolpo, poi in un secondo
+  attacco nello stesso turno abbatte anche una base — vista decidere da
+  sola entrambe le partite contro MMorelli (t14/t16 nella prima, t16 e
+  di nuovo t22 nella seconda). Il mazzo non ha modo di romperle il First
+  Strike né di evitare il danno: l'unica risposta vista funzionare è
+  ucciderla in combattimento quando è già in campo (visto riuscire al
+  t15 e al t21 della seconda partita vs MMorelli), non prevenire
+  l'attacco in primo luogo.
 - **Zero risposta a un board wipe generico** (tipo Widespread
   Annihilation, "distruggi tutte le unità Lv.4 o inferiore" — quasi
   ogni unità del mazzo rientra in quella soglia). Vista due volte nella
