@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (21 partite, 13-8)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (22 partite, 13-9)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **21 sole partite** è troppo presto per isolare pattern affidabili;
+Con **22 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -47,6 +47,7 @@ sottocontano.
 | 19 | 07-18 | [Olo](2026-07-18_kiraya-vs-olo.yaml) | **W** | 19 | Blu/Bianco, Earth Alliance/SEED con doppia stampa di Kira Yamato (Rick Dias, famiglia Strike/Aile Strike/Strike Freedom Gundam, Wing Gundam Zero EW, Archangel) | 1 / 0 | 12 / 10 | Vittoria per shield-out netto nonostante il bounce di Strike Freedom Gundam (qui "returned to deck", non in mano) al t16; seconda doppia attivazione di Lupus nello stesso turno in due partite di fila (t13); nessun errore tattico individuato |
 | 20 | 07-18 | [MrCross00](2026-07-18_kiraya-vs-mrcross00.yaml) | **W** | 13 | Blu/Verde, Londo Bell/Earth Federation (Gundam + Amuro Ray, Jegan, Nu Gundam, Re-GZ/Re-GZ BWS, Zeong, Ra Cailum) | 6 / 0 | 3 / 2 | Vittoria totale in 13 turni, 0 shield perse ed EX Base mai distrutta, senza mai pescare né Barbatos Lupus né il pacchetto Blocker - solo pressione da apertura; stessa identità ambigua irrisolta di "Gundam" già vista vs desi lo stesso giorno, con lo stesso identico numero di danno (6) osservato in entrambe le partite |
 | 21 | 07-18 | [Nate](2026-07-18_kiraya-vs-nate.yaml) | **W** | 11 | Blu/Rosso, League Militaire (Gadeel, famiglia Victory Gundam/V2 Gundam + Üso Ewin) | 4 / 0 | 4 / 3 | Vittoria per shield-out netto in 11 turni nonostante un quasi-wipe al t10 (3 unità perse nello stesso turno) e sia Lupus che Barbatos Adapt persi al mill-on-death di Exia Repair fin dal t7 - il piano-motore era morto in partenza, la pressione pura ha chiuso comunque; nessun errore tattico individuato |
+| 22 | 07-18 | [KUMA](2026-07-18_kiraya-vs-kuma.yaml) | **L** | 14 | Viola/Bianco, Operation Meteor/G Team Gundam Wing EW (doppio Gundam Heavyarms Custom (EW), Gundam Sandrock Custom (EW), Wing Gundam Zero (EW) + Heero Yuy, GN Armor Type-E) | 1 / 2 | 9 / 1 | Sconfitta per shield-out; revisione richiesta da Kiraya convinto di propri errori, ma nessuna sequenza chiaramente sbagliata trovata - decisa da mill sfortunato (entrambe le copie di Lupus in trash al t6), una combo debuff-poi-distruggi intenzionale (Heavyarms + GN Armor Type-E) e doppio debuff ripetibile (2x Heavyarms + Sandrock) |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -400,6 +401,31 @@ sottocontano.
   dedicato non è mai stato disponibile per l'intera partita, eppure la
   sola pressione da corpi economici (Exia Repair, Graze Custom x2,
   Ryusei-Go, Hyakuren, Flauros) ha chiuso in 11 turni netti.
+- **Non tutte le sconfitte hanno un errore da correggere, di nuovo** (vs
+  KUMA): revisione richiesta esplicitamente da Kiraya convinto di aver
+  perso per propri errori, ma un'analisi turno per turno non trova
+  nessuna sequenza chiaramente sbagliata - il candidato piu vicino (t7:
+  due self-ping consecutivi sullo stesso Barbatos 2nd Form invece di
+  scaricarne uno sul gia fragile Ryusei-Go II) non ha cambiato l'esito:
+  l'unita muore comunque al t8 a un attacco che ne supera gli HP totali,
+  e il danno di ritorno dipende dal suo AP, non dagli HP residui. Stesso
+  principio gia applicato a Essen.
+- **Combo debuff-poi-distruggi intenzionale, non fortuita** (vs KUMA,
+  t6): Gundam Heavyarms Custom (EW) attiva un AP-1 su Gundam Exia Repair
+  (AP2->1) esplicitamente per farlo qualificare come bersaglio legale del
+  Deploy di GN Armor Type-E ("distruggi un'unita nemica Lv.1 o meno o con
+  1 o meno AP") - sequenziamento deliberato, non un colpo di fortuna.
+- **Doppia copia dello stesso debuffer ripetibile** (vs KUMA): 2 copie di
+  Gundam Heavyarms Custom (EW) attivano AP-1 ogni turno ciascuna, mentre
+  Gundam Sandrock Custom (EW) applica un AP-2 ripetibile ad ogni sua
+  dichiarazione d'attacco - un volume di debuff cumulativo mai visto
+  finora nel campione v1_1, distinto dal removal diretto gia catalogato
+  (Darkness Finger) perche non consuma la carta, si ripete ogni turno.
+- **Quinta+ conferma della tech "blocker disinnescato prima di
+  scegliere"** (vs KUMA, t12, dopo jaysanti): Wing Gundam Zero (EW) resta
+  Gundam Gusion Rebake con la propria abilita prima che possa essere
+  assegnato come blocco - stessa famiglia della tech di Domon/Master Asia
+  su Rising Gundam vista due partite fa.
 
 ## Checklist provvisoria
 

@@ -1,0 +1,672 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-18_kiraya-vs-kuma"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:KUMA"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    KUMA:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+cards:
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "GN Armor Type-E":
+    id: "GD04-063"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "KUMA"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gaplant TR-5 \"Hrairoo\" Unit 1":
+    id: "EB01-054"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "KUMA"
+    seen:
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Deathscythe Hell (EW)":
+    id: "GD05-078"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 2
+    owner: "KUMA"
+    seen:
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Heavyarms (EW)":
+    id: "GD05-079"
+    note: "the client shows this as 'Gundam Heavyarms (EW)', dropping 'Custom' from the printed name 'Gundam Heavyarms Custom (EW)'. Pinned by exact stat/ability match: the Activate ability ('Modifier applied to: X', once per copy per turn) matches GD05-079's 【Activate・Main】'if another (G Team)/(Preventer) Unit in play, choose 1 enemy Unit Lv.4 or lower, AP-1 this turn' exactly (2 copies in play from t6 satisfy the 'another' condition for each other). Combat at t6 confirms AP3/HP3 exactly (dealt 3 to a Graze Custom debuffed by its own ability; took exactly 1 back from Graze Custom's own AP2 reduced to 1 by that same debuff, leaving 2 HP)."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "KUMA"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Sandrock (EW)":
+    id: "GD05-071"
+    note: "same 'Custom' dropped from the display name as Gundam Heavyarms (EW) above. Pinned by exact stat/ability match: the recurring 'Selecting target for Gundam Sandrock (EW)' -> 'Modifier applied to: X' on every attack declaration matches GD05-071's 【Attack】'if another (G Team)/(Preventer) Unit in play, choose 1 enemy Unit, AP-2 this turn' exactly. Combat at t8/t10 confirms AP3/HP4 + Quatre Raberba Winner's own HP1 = HP5 total (takes 3 damage, leaves 2, both instances)."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "KUMA"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Heero Yuy":
+    id: "GD05-098"
+    note: "pinned: at t12, right after Wing Gundam Zero (EW) destroys a shield-area card with battle damage (Gundam Barbatos 1st Form), 'Selecting target for Heero Yuy' -> 'Heero Yuy: Modifier applied to: Hyakuren' fires - exact match for GD05-098's 'When this Unit destroys an enemy shield area card with damage, choose 1 enemy Unit. It gets AP-2 during this turn.' ST02-010 has no such trigger (only a Burst-to-hand and a flat During-Link AP+1/HP+1 boost)."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "KUMA"
+    seen:
+      - "pilot"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Industrial 7":
+    id: "GD04-130"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "KUMA"
+    seen:
+      - "base"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "KUMA"
+    seen:
+      - "command"
+  "Quatre Raberba Winner":
+    id: "GD05-100"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "KUMA"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "KUMA"
+    seen:
+      - "shield"
+  "Wing Gundam Zero (EW)":
+    id: "GD05-067"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "KUMA"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "KUMA"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "KUMA"
+    actions:
+      - action: "play_command"
+        player: "KUMA"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Deathscythe Hell (EW) discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "KUMA"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms (EW)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Graze Custom discarded"
+  - turn: 6
+    active_player: "KUMA"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms (EW)"
+      - action: "activate"
+        card: "Gundam Heavyarms (EW)"
+        effects:
+          - "Gundam Heavyarms (EW): Modifier applied to: Gundam Exia Repair"
+      - action: "deploy"
+        card: "GN Armor Type-E"
+        effects:
+          - "GN Armor Type-E: destroyed Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Gundam Barbatos Lupus moved to trash"
+      - action: "activate"
+        card: "Gundam Heavyarms (EW)"
+        effects:
+          - "Gundam Heavyarms (EW): Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Heavyarms (EW)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Gundam Heavyarms (EW) received 1 damage, leaving 2 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 2nd Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 2nd Form and Gundam Heavyarms (EW)"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos 2nd Form and Gundam Heavyarms (EW)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam Zero (EW) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Heero Yuy revealed"
+          - "Shield card added to hand: Heero Yuy"
+  - turn: 8
+    active_player: "KUMA"
+    actions:
+      - action: "deploy"
+        card: "Gundam Sandrock (EW)"
+      - action: "pair_pilot"
+        pilot: "Quatre Raberba Winner"
+        unit: "Gundam Sandrock (EW)"
+        linked: true
+        effects:
+          - "Already rested unit: Gundam Barbatos 2nd Form"
+      - action: "activate"
+        card: "Gundam Heavyarms (EW)"
+        effects:
+          - "Gundam Heavyarms (EW): Modifier applied to: Gundam Barbatos 2nd Form"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Sandrock (EW)"
+        declared_target: "Gundam Barbatos 2nd Form"
+        blockers: "none"
+        modifiers:
+          - "Gundam Sandrock (EW): Modifier applied to: Gundam Barbatos 2nd Form"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 5 damage, now destroyed"
+          - "Gundam Sandrock (EW) received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "GN Armor Type-E"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+          - "GN Armor Type-E received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Heavyarms (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and GN Armor Type-E"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unforeseen Incident: Modifier applied to: Gundam Flauros (Ryusei-Go)"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Unforeseen Incident revealed"
+          - "Shield card: Unforeseen Incident moved to trash"
+  - turn: 10
+    active_player: "KUMA"
+    actions:
+      - action: "play_command"
+        player: "KUMA"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gaplant TR-5 \"Hrairoo\" Unit 1 discarded"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Sandrock (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Gundam Sandrock (EW): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Sandrock (EW)"
+      - action: "pair_pilot"
+        pilot: "Quatre Raberba Winner"
+        unit: "Gundam Sandrock (EW)"
+        linked: true
+        effects:
+          - "Already rested unit: Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Sandrock (EW)"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        modifiers:
+          - "Gundam Sandrock (EW): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 5 damage, now destroyed"
+          - "Gundam Sandrock (EW) received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Heavyarms (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Heavyarms (EW)"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 12
+    active_player: "KUMA"
+    actions:
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Sandrock (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Gundam Sandrock (EW): Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam Zero (EW)"
+        linked: true
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Hyakuren"
+        final_target: "shield"
+        outcome:
+          - "Rested unit: Gundam Gusion Rebake"
+          - "Shield cards: Gundam Barbatos 1st Form and Isaribi revealed"
+          - "Shield cards: Gundam Barbatos 1st Form moved to trash"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Sandrock (EW)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        modifiers:
+          - "Gundam Sandrock (EW): Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Gundam Sandrock (EW) received 0 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Heavyarms (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Wing Gundam Zero (EW)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Wing Gundam Zero (EW)"
+        blockers: "none"
+        final_target: "Wing Gundam Zero (EW)"
+        outcome:
+          - "Wing Gundam Zero (EW) received 4 damage, now destroyed"
+          - "Hyakuren received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 14
+    active_player: "KUMA"
+    actions:
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Sandrock (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Gundam Sandrock (EW): Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Heavyarms (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 2nd Form revealed and discarded"
+      - action: "play_base"
+        card: "Industrial 7"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "KUMA"
+        attacker: "Gundam Sandrock (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Gundam Sandrock (EW): Modifier applied to: Gundam Exia Repair"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 8
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 10
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Isaribi"
+      turn: 14
+  KUMA:
+    - card: "Wing Gundam Zero (EW)"
+      turn: 13
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 1
+  KUMA:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Ventiduesima partita con v1_1, quattordicesima sconfitta (13-9). KUMA Viola/Bianco, Operation Meteor/G Team Gundam Wing EW (doppia copia di Gundam Heavyarms Custom (EW), Gundam Sandrock Custom (EW) ricorrente, Wing Gundam Zero (EW) + Heero Yuy, GN Armor Type-E). Sconfitta per shield-out netto al t14: 1 shield rimasta per Kiraya contro 2."
+  - "Revisione richiesta esplicitamente da Kiraya, convinto di aver perso per propri errori evitabili - dopo un'analisi turno per turno non è emersa nessuna sequenza di gioco chiaramente sbagliata. Il candidato più vicino a un errore (t7: sia il pair-ping di Mikazuki Augus sia Become a Shield colpiscono lo stesso Gundam Barbatos 2nd Form appena schierato invece di scaricare il secondo ping sul già fragile Ryusei-Go (Graze Custom II) a 1 HP) non ha cambiato nulla nei fatti: Barbatos 2nd Form muore comunque al t8 a un attacco da 5 danni contro i suoi 5 HP totali, e infligge lo stesso danno di ritorno (determinato dal suo AP, non dai suoi HP residui) indipendentemente dai due self-ping. Non un errore che ha deciso la partita."
+  - "Il vero motivo della sconfitta è strutturale/di varianza, non di sequenza: (1) mill sfortunato al t6 che manda ENTRAMBE le copie di Gundam Barbatos Lupus in trash nello stesso momento (via Gundam Exia Repair), azzerando il piano-motore fin dall'apertura; (2) un motore di rimozione avversario molto efficiente - GN Armor Type-E distrugge Exia Repair al Deploy solo perché un Heavyarms lo aveva appena debuffato ad AP1 nello stesso turno (combo intenzionale: debuff-poi-distruggi, non un colpo di fortuna); (3) doppia copia di Gundam Heavyarms Custom (EW) che debuffano ripetutamente AP-1 ai bersagli di Kiraya turno dopo turno, sommandosi al debuff AP-2 ripetibile di Gundam Sandrock Custom (EW) ad ogni sua dichiarazione d'attacco."
+  - "Ennesima conferma della tech 'blocker disinnescato prima di scegliere' (checklist, già vista vs jaysanti): al t12 Wing Gundam Zero (EW) resta Gundam Gusion Rebake con la propria abilità PRIMA che Kiraya possa assegnarlo come blocco al primo attacco di Sandrock quello stesso turno - stessa famiglia della tech di Domon Kasshu/Master Asia su Rising Gundam."
+  - "Trade corretto e necessario al t13: Hyakuren attacca direttamente Wing Gundam Zero (EW) invece del player, sacrificando un corpo da 2 costo per eliminare l'unica minaccia da 5 costo dell'avversario (unica unità KUMA persa in tutta la partita) - la scelta giusta quando si è già in svantaggio di board."
