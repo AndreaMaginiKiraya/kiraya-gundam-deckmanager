@@ -1,0 +1,540 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-peachique"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    peachique:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "peachique"
+    seen:
+      - "command"
+      - "shield"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: t8 shows 'Selecting target for Amuro Ray / Rested unit: Graze Custom' - matches ST01-010's own When-Paired 'choose 1 enemy Unit with 5 or less HP, rest it' (Graze Custom HP2). GD05-085's ability (recover 2 HP on kill) has no rest effect at all."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "peachique"
+    seen:
+      - "pilot"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Davao:
+    id: "ST08-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "peachique"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "ambiguous: only ever seen as a shield reveal (t9, t11), never deployed - no stat/ability evidence available. All five candidates are Blue, already one of peachique's colors, so no elimination there either."
+    owner: "peachique"
+    seen:
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 5th Form (Ground Type)":
+    id: "GD03-066"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kayra Su":
+    id: "GD05-086"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "peachique"
+    seen:
+      - "exiled"
+      - "pilot"
+  "Kayra's Jegan":
+    id: "GD05-028"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "peachique"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "two distinct instances this game, can't be pinned to one id: the t8 copy shows 'Placed 1 Resource EX' right on deploy, matching only GD05-020's own Deploy ability; the t12 copy shows 'Kayra Su, Kayra's Jegan and Nu Gundam exiled from the game' followed by a damage-step-only battle against Hyakuren, matching only GD05-017's own When-Paired ability (exile 3 Londo Bell cards, then battle a chosen enemy Unit). Left null because the record schema pins one id per card name and this game had both printings in play."
+    owner: "peachique"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  ReZEL:
+    id: "GD01-018"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "peachique"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "peachique"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "peachique"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "peachique"
+    actions:
+      - action: "deploy"
+        card: "ReZEL"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "peachique"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Jegan"
+        effects:
+          - "Kayra's Jegan: Modifier applied to: Kayra's Jegan"
+      - action: "pair_pilot"
+        pilot: "Kayra Su"
+        unit: "Kayra's Jegan"
+        linked: true
+      - action: "attack"
+        player: "peachique"
+        attacker: "Kayra's Jegan"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Kayra's Jegan received 4 damage, now destroyed"
+      - action: "attack"
+        player: "peachique"
+        attacker: "ReZEL"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and ReZEL"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "ReZEL"
+        blockers: "none"
+        final_target: "ReZEL"
+        outcome:
+          - "ReZEL received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 8
+    active_player: "peachique"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Graze Custom"
+      - action: "attack"
+        player: "peachique"
+        attacker: "Nu Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 6 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 3 HP remaining"
+          - "Breach 3 Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos 5th Form (Ground Type) discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "peachique"
+    actions:
+      - action: "play_command"
+        player: "peachique"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_base"
+        card: "Davao"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "peachique"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Nu Gundam received 5 damage, now destroyed"
+          - "Breach 3 Shield card: Graze Custom revealed and discarded"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Davao"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Davao received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+  - turn: 12
+    active_player: "peachique"
+    actions:
+      - action: "play_base"
+        card: "Davao"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Kayra Su, Kayra's Jegan and Nu Gundam exiled from the game"
+      - action: "attack"
+        player: "peachique"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5 Shield card: Become a Shield revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "peachique"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 7 damage, now destroyed"
+          - "Nu Gundam received 7 damage, now destroyed"
+          - "Breach 5 Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Davao"
+        outcome:
+          - "Davao received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Davao"
+        outcome:
+          - "Davao received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 12
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 12
+  peachique:
+    - card: "Kayra's Jegan"
+      turn: 6
+    - card: "ReZEL"
+      turn: 7
+    - card: "Nu Gundam"
+      turn: 10
+    - card: "Davao"
+      turn: 11
+    - card: "Nu Gundam"
+      turn: 12
+    - card: "Davao"
+      turn: 13
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+  peachique:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Tredicesima partita con v1_1, settima vittoria (7-6) - vittoria per shield-out netta al t13, 2 shield rimaste contro 0. peachique Blu/Verde, Londo Bell (ReZEL, Kayra's Jegan/Kayra Su, Nu Gundam in entrambe le stampe, Amuro Ray, A Show of Resolve, Davao)."
+  - "Partita giocata in modo pulito dall'inizio alla fine, nessun errore tattico individuato. Punti di esecuzione da segnalare: t7, il ping di Mikazuki Augus ammorbidisce ReZEL prima che Graze Custom lo finisca in combattimento (trade a parità di costo su una minaccia reale); t11, quattro attacchi dichiarati nello stesso turno (Flauros, Graze Custom, Ryusei-Go, Hyakuren) con zero bloccanti disponibili per peachique - saturazione da manuale, distrugge una base e toglie 3 shield in un colpo; t13, sequenza di chiusura corretta (Adapt abbassa Davao a 1 HP, Graze Custom lo finisce, Ryusei-Go resta libero per colpire il player e chiudere la partita)."
+  - "Conferma indiretta della regola 'le statistiche del pilota si sommano all'unità quando è in coppia' (osservata già in altre partite): ogni scambio con un'unità pilotata di peachique produce danno esattamente pari ad AP-unità + AP-pilota (es. Nu Gundam AP4/5 + Amuro Ray AP2), utile per riconoscere le stampe corrette nei prossimi import."
+  - "Gundam Barbatos Lupus non pescato in questa partita, e non è mai servito: il mazzo ha vinto sulla sola pressione di corpi economici e ping ben piazzati, altro dato a favore del fatto che il piano-motore non è indispensabile ogni volta (vedi anche la rivincita vs GenocidGIC)."
+  - "Trovata una terza coppia di stampe condivise nella stessa partita (Nu Gundam, GD05-020 e GD05-017 - stesso schema già visto con Kira Yamato e Sword Impulse Gundam in partite precedenti)."

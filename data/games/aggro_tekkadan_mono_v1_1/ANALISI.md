@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (12 partite, 6-6)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (13 partite, 7-6)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **12 sole partite** è troppo presto per isolare pattern affidabili;
+Con **13 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -38,6 +38,7 @@ sottocontano.
 | 10 | 07-17 | [112t](2026-07-17_kiraya-vs-112t.yaml) | **W** | 14 | Rosso, Earth Alliance/Phantom Pain (Abyss/Chaos/Gaia Gundam, Auel Neider, Sting Oakley, Stellar Loussier, Exass, Girty Lue, Kindhearted) | 4 / 1 | 6 / 6 | Vittoria per resa dell'avversario al t14, non per shield-out - posizione già nettamente favorevole (4 shield contro 1); nessun errore tattico isolato, Lupus mai pescato in partita |
 | 11 | 07-17 | [loclee](2026-07-17_kiraya-vs-loclee.yaml) | **L** | 23 | Blu/Rosso, control/removal (Darkness Finger x3, Improved Technique, Close Combat x2, Strike Freedom Gundam, Unicorn Gundam 02 Banshee Destroy Mode) | 0 / 2 | 12 / 4 | Log troncato sul colpo di grazia, risultato impostato a mano; avversario che riunisce quasi tutti i problemi strutturali già noti del mazzo; unico errore reale al t14 (2nd Form sacrificato in un chip che Lupus da solo bastava a completare) |
 | 12 | 07-17 | [gogogo](2026-07-17_kiraya-vs-gogogo.yaml) | **W** | 14 | Bianco/Viola, Zaft Destiny/Minerva Squad (Destiny Gundam, famiglia Impulse Gundam, Shinn Asuka) + splash Militia | 5 / 0 | 8 / 6 | Stravinta: 0 shield perse, avversario già a shield zero da fine t13 (probabile resa al t14). Prima vera attivazione di Lupus in partita pulisce entrambe le copie rimaste di Sword Impulse Gundam in un colpo; Widespread Annihilation scartata come shield senza mai essere giocata |
+| 13 | 07-17 | [peachique](2026-07-17_kiraya-vs-peachique.yaml) | **W** | 13 | Blu/Verde, Londo Bell (ReZEL, Kayra's Jegan/Kayra Su, Nu Gundam x2 stampe, Amuro Ray, Davao) | 2 / 0 | 6 / 6 | Vittoria pulita per shield-out, nessun errore tattico individuato; t11 saturazione da 4 attacchi nello stesso turno (Flauros, Graze Custom, Ryusei-Go, Hyakuren) distrugge una base e toglie 3 shield in un colpo; Lupus mai pescato e non è servito |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -238,6 +239,23 @@ sottocontano.
   un merito del mazzo — il buco strutturale contro un board wipe
   generico resta quello già documentato in `aggro_mono_p/ANALISI.md`
   (vs IAN), semplicemente non si è materializzato questa volta.
+- **Prima vittoria sopra il .500 (7-6)**: partita pulita dall'inizio
+  alla fine contro peachique, senza errori tattici individuabili e senza
+  bisogno di Lupus (mai pescato). Turno di saturazione da manuale al
+  t11 (4 attacchi nello stesso turno, zero bloccanti disponibili per
+  l'avversario) — lo stesso principio già in checklist, eseguito bene.
+- **Conferma ricorrente: le statistiche del pilota si sommano a quelle
+  dell'unità quando è in coppia/Link** (osservato ormai in più partite,
+  es. Nu Gundam AP4/5 + Amuro Ray AP2 = 6/7 danno esatto osservato più
+  volte vs peachique). Non ancora trovata una regola esplicita nel
+  Comprehensive Rules con `search_rules`, ma il pattern è consistente
+  ed è lo strumento più affidabile per confermare quale stampa di
+  un'unità/pilota è in gioco quando l'abilità da sola non basta.
+- **Quarta coppia di stampe condivise nella stessa partita** (Nu Gundam,
+  dopo Kira Yamato, Sword Impulse Gundam e il caso originale di Nu
+  Gundam contro liko) — motivo in più per continuare a verificare
+  l'abilità osservata invece di assumere che un nome ripetuto sia
+  sempre la stessa stampa.
 
 ## Checklist provvisoria
 
