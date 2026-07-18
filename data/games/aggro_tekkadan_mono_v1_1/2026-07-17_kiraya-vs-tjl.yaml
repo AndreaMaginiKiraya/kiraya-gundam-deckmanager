@@ -1,0 +1,614 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-tjl"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    TJL:
+      first_player: false
+      mulligan: false
+      colors:
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: the log says 'Linked pilot: Kira Yamato' (Link condition met). ST04-001's link partner is [Kira Yamato] directly; GD03-072's is [Mu La Flaga], which Kira Yamato can't satisfy."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "TJL"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: t12 shows 'Selecting target for Amuro Ray / Rested unit: Gundam Gusion Rebake' - matches ST01-010's own When-Paired 'choose 1 enemy Unit with 5 or less HP, rest it'. GD05-085's ability (recover 2 HP on kill) has no rest effect at all."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "TJL"
+    seen:
+      - "pilot"
+      - "shield"
+  Archangel:
+    id: "ST04-015"
+    note: "pinned: revealed as a shield and immediately 'Played base: Archangel' (t11) - a Burst-deploy straight from the shield area. Only ST04-015 has 【Burst】Deploy this card; GD05-123 has no Burst keyword at all."
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "TJL"
+    seen:
+      - "base"
+      - "shield"
+  "Freedom Gundam":
+    id: "GD01-065"
+    note: "pinned: t14 shows 'Linked pilot: Kira Yamato on unit Freedom Gundam' immediately followed by 'Freedom Gundam: Modifier applied to: Gundam Gusion Rebake' - matches only GD01-065's own 【During Pair】【Once per Turn】'when you pair a Pilot with this Unit or one of your white Units, choose 1 enemy Unit, it gets AP-2 during this turn'. GD03-070 (shield-protection while rested) and ST09-004 (redirect + conditional Breach) have no ability that applies a modifier to an enemy unit on pairing."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 4
+    hp: 6
+    owner: "TJL"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Gundam:
+    id: "ST01-001"
+    note: "pinned: 'Gundam repaired 2 from [Repair 2]' (end of t12) matches only ST01-001's own printed <Repair 2> exactly - same identification already made for GenocidGIC's and dogman's copies earlier in the campaign. GD01-001 only grants <Repair 1>; the other candidates have no Repair keyword at all."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "TJL"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "returned to hand"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "TJL"
+    seen:
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "two distinct instances this game, can't be pinned to one id: the t8 copy (paired with Aile Strike Gundam) shows 'Kira Yamato: Modifier applied to: Gundam Exia Repair' at battle declare - matching only ST04-010's own 【Attack】AP-2-to-target ability (confirmed by the math: Exia Repair AP2 - 2 = 0, exactly 'Aile Strike Gundam received 0 damage'). The t14 copy (paired with Freedom Gundam) instead shows 'Kira Yamato: Draw a card' firing immediately on Link - matching only GD05-081's 【When Linked】draw ability. Left null because the record schema pins one id per card name and this game had both printings in play. Same pattern already seen against Robotech earlier in the campaign."
+    owner: "TJL"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "TJL"
+    seen:
+      - "shield"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "TJL"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "resolved by hand: same Link-display naming quirk documented in CLAUDE.md - the printed card is literally 'Kira's Strike Rouge' (GD05-010, link [Kira Yamato]), matching the log's 'Paired pilot: Amuro Ray on unit Strike Rouge (Kira's Unit)'."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "TJL"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "TJL"
+    action: "choose_second_player"
+  - player: "TJL"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "TJL"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "TJL"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "TJL"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Lfrith revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 2nd Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 2nd Form and Rick Dias"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Freedom Gundam revealed and discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 2 damage, now destroyed"
+          - "Graze Custom received 3 damage, now destroyed"
+  - turn: 8
+    active_player: "TJL"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Exia Repair returned to hand"
+      - action: "attack"
+        player: "TJL"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Exia Repair"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 0 damage, leaving 5 HP remaining"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Gundam Barbatos Lupus moved to trash"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 4 damage, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 10
+    active_player: "TJL"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Exia Repair returned to hand"
+      - action: "attack"
+        player: "TJL"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos 2nd Form"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos 2nd Form"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 4 damage, leaving 1 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Aile Strike Gundam"
+      - action: "play_base"
+        card: "Archangel"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Archangel revealed"
+          - "No more Shield cards to add to hand"
+  - turn: 12
+    active_player: "TJL"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "TJL"
+        attacker: "Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Barbatos 2nd Form and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Lupus and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Archangel received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 14
+    active_player: "TJL"
+    actions:
+      - action: "deploy"
+        card: "Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+          - "Freedom Gundam: Modifier applied to: Gundam Gusion Rebake"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Strike Rouge (Kira's Unit)"
+        linked: false
+        effects:
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "TJL"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+          - "Strike Rouge (Kira's Unit) received 3 damage, leaving 2 HP remaining"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Gusion Rebake, leaving 4 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "Freedom Gundam"
+        final_target: "Freedom Gundam"
+        outcome:
+          - "Freedom Gundam received 5 damage, leaving 3 HP remaining"
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  TJL:
+    - card: "Rick Dias"
+      turn: 7
+    - card: "Gundam"
+      turn: 13
+    - card: "Archangel"
+      turn: 15
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 10
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Gundam Barbatos 1st Form"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 15
+shields_tally:
+  TJL:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Quattordicesima partita con v1_1, ottava vittoria (8-6). TJL Blu/Bianco, stesso archetipo SEED Kira Yamato + Amuro Ray già visto contro Robotech (Aile Strike Gundam, Freedom Gundam, Strike Rouge Kira's Unit, Gundam ST01-001, Archangel, Rick Dias, Gundam Lfrith). Stravinta per shield-out netto: 5 shield rimaste contro 0."
+  - "Unico errore reale individuato: al t7, l'Activate di Isaribi applica il bonus AP+2 'durante questo turno' a Ryusei-Go (Graze Custom Ⅱ) DOPO che Ryusei-Go aveva già attaccato quello stesso turno (era la primissima azione del turno) - il bonus è sprecato su un'unità già rested, che non può attaccare una seconda volta. L'attacco di quel turno è stato fatto con Graze Custom, non buffato. Stesso identico errore-tipo già in checklist ('controllare se l'unità bersaglio può davvero attaccare questo turno prima di un Activate') - qui violato una volta, poi eseguito correttamente altre due volte nella stessa partita (t9, t15)."
+  - "Confermata una seconda coppia di stampe condivise di Kira Yamato nella stessa partita (dopo il caso già visto contro Robotech): la copia abbinata ad Aile Strike Gundam (t8, t10) mostra 'Modifier applied to' durante la dichiarazione di battaglia - la sua abilità Attack AP-2 (ST04-010), confermata anche dall'aritmetica esatta (Exia Repair AP2-2=0 danno inflitto). La copia abbinata a Freedom Gundam (t14) pesca invece immediatamente al Link - la sua abilità When-Linked (GD05-081)."
+  - "Anomalia di log non risolta: al t15 'Gundam Gusion Rebake' risulta vivo (pingato da Ryusei-Go, buffato da Isaribi, in combattimento) nonostante fosse già stato distrutto al t12 ed esiliato dal trash da Lupus al t13 - nessuna riga di ridispiegamento visibile nel log fornito. Non è chiaro se sia un secondo esemplare mai loggato come deploy o un artefatto del client; lasciato irrisolto piuttosto che forzare una spiegazione."
+  - "Apertura standard pulita (doppio Exia Repair t3-t7) ed esecuzione solida per il resto della partita, incluso il kill preciso di Lupus su 'Gundam' (ST01-001) al t13: due attivazioni da 2 danni ciascuna, esattamente i 4 HP pieni della sua barra dopo la rigenerazione di fine turno precedente."

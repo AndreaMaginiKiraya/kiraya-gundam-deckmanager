@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (13 partite, 7-6)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (14 partite, 8-6)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **13 sole partite** è troppo presto per isolare pattern affidabili;
+Con **14 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -39,6 +39,7 @@ sottocontano.
 | 11 | 07-17 | [loclee](2026-07-17_kiraya-vs-loclee.yaml) | **L** | 23 | Blu/Rosso, control/removal (Darkness Finger x3, Improved Technique, Close Combat x2, Strike Freedom Gundam, Unicorn Gundam 02 Banshee Destroy Mode) | 0 / 2 | 12 / 4 | Log troncato sul colpo di grazia, risultato impostato a mano; avversario che riunisce quasi tutti i problemi strutturali già noti del mazzo; unico errore reale al t14 (2nd Form sacrificato in un chip che Lupus da solo bastava a completare) |
 | 12 | 07-17 | [gogogo](2026-07-17_kiraya-vs-gogogo.yaml) | **W** | 14 | Bianco/Viola, Zaft Destiny/Minerva Squad (Destiny Gundam, famiglia Impulse Gundam, Shinn Asuka) + splash Militia | 5 / 0 | 8 / 6 | Stravinta: 0 shield perse, avversario già a shield zero da fine t13 (probabile resa al t14). Prima vera attivazione di Lupus in partita pulisce entrambe le copie rimaste di Sword Impulse Gundam in un colpo; Widespread Annihilation scartata come shield senza mai essere giocata |
 | 13 | 07-17 | [peachique](2026-07-17_kiraya-vs-peachique.yaml) | **W** | 13 | Blu/Verde, Londo Bell (ReZEL, Kayra's Jegan/Kayra Su, Nu Gundam x2 stampe, Amuro Ray, Davao) | 2 / 0 | 6 / 6 | Vittoria pulita per shield-out, nessun errore tattico individuato; t11 saturazione da 4 attacchi nello stesso turno (Flauros, Graze Custom, Ryusei-Go, Hyakuren) distrugge una base e toglie 3 shield in un colpo; Lupus mai pescato e non è servito |
+| 14 | 07-17 | [TJL](2026-07-17_kiraya-vs-tjl.yaml) | **W** | 15 | Blu/Bianco, stesso archetipo SEED Kira Yamato + Amuro Ray già visto contro Robotech (Aile Strike Gundam, Freedom Gundam, Strike Rouge Kira's Unit, Gundam ST01-001) | 5 / 0 | 8 / 7 | Vittoria per shield-out netto; unico errore reale al t7 (Activate di Isaribi sprecato su Ryusei-Go già rested, che aveva già attaccato quel turno); Lupus uccide "Gundam" con precisione chirurgica al t13 (4 danni esatti contro HP4 piena) |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -256,6 +257,20 @@ sottocontano.
   Gundam contro liko) — motivo in più per continuare a verificare
   l'abilità osservata invece di assumere che un nome ripetuto sia
   sempre la stessa stampa.
+- **Activate "durante questo turno" sprecato su un'unità già rested**
+  (vs TJL, t7): Isaribi buffa Ryusei-Go con AP+2, ma Ryusei-Go aveva
+  già attaccato come primissima azione del turno — il bonus non ha
+  potuto essere usato. Stesso identico errore-tipo già in checklist,
+  ma è la prima volta che si osserva col bersaglio sbagliato per
+  ordine-delle-azioni piuttosto che per tipo di unità: controllare
+  *quando* nel turno un'unità ha già agito, non solo *se* può
+  beneficiare del danno.
+- **Seconda conferma di Kira Yamato in due stampe diverse nella stessa
+  partita** (dopo Robotech): la copia che applica un modificatore
+  AP-2 durante la dichiarazione di battaglia (ST04-010) e quella che
+  pesca al Link (GD05-081) continuano a essere distinguibili con
+  sicurezza dall'abilità osservata, mai dal colore (entrambe le stampe
+  restano legali nei mazzi Blu/Bianco visti finora).
 
 ## Checklist provvisoria
 
