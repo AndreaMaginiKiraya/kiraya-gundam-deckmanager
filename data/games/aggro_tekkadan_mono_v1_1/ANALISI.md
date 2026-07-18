@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (6 partite, 2-4)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (7 partite, 3-4)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **6 sole partite** è troppo presto per isolare pattern affidabili;
+Con **7 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -32,6 +32,7 @@ sottocontano.
 | 4 | 07-17 | [iceberg](2026-07-17_kiraya-vs-iceberg.yaml) | **W** | 15 | Rosso/Viola, Earth Alliance/Phantom Pain (Chaos/Gaia/Abyss Gundam, Auel Neider, Sting Oakley, Stellar Loussier) + splash 0 Gundam | 2 / 0 | 6 / 8 | Prima vera prova di Barbatos Lupus: doppia attivazione t13 + kill al t15 chiudono la partita, nonostante Gaia Gundam/Abyss Gundam (MA Mode) abbiano scartato dalla mano (non dal campo) una copia di Lupus e una di Gusion Rebake |
 | 5 | 07-17 | [liko](2026-07-17_kiraya-vs-liko.yaml) | **L** | 20 | Verde/Bianco, Londo Bell + Operation Meteor (Re-GZ family, Nu Gundam x2 stampe, Wing Gundam/Zero/Zero EW, Heero Yuy, Amuro Ray, Ra Cailum) | 0 / 0 | 11 / 5 | Svolta al t14: Nu Gundam LR uccide Lupus e 2nd Form nella stessa turno via un'abilità che salta dichiarazione/blocco; chiusa al t20 da Wing Gundam Zero (High-Maneuver) - stesso buco di block-bypass già visto vs sgd |
 | 6 | 07-17 | [Robotech](2026-07-17_kiraya-vs-robotech.yaml) | **L** | 20 | Blu/Bianco, SEED (Kira Yamato) + Orb/AEUG (Strike Freedom Gundam, Aile Strike Gundam, Strike Rouge x2, Freedom Gundam, Murasame/Andrew Waldfeld, Archangel) | 0 / 2 | 12 / 9 | Strike Freedom Gundam rimanda Lupus Rex (t14) e 1st Form (t16) nel mazzo - stesso problema-chiave di aggro_mono_p, non risolto dalle 5 copie totali di v1_1; saturazione avversaria da 3 shield in un turno (t20) chiude la partita |
+| 7 | 07-17 | [GenocidGIC](2026-07-17_kiraya-vs-genocidgic.yaml) | **W** | 23 | Blu/Bianco, Titans/Jupitris (The-O, Messala, Paptimus Scirocco, Delta Plus) + splash Unicorn Gundam 02 Banshee Norn (Destroy Mode), Gundam/Amuro Ray, Zoloat, Kindhearted, Corsica Base | 1 / 0 | 12 / 10 | Vittoria di sfinimento in 23 turni; t12 quasi-wipe da un Banshee che si riattiva 3 volte nello stesso turno, ma Barbatos Lupus torna in campo 4 volte distinte nel corso della partita e chiude comunque - miglior prova finora del piano-motore |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -137,6 +138,29 @@ sottocontano.
   un'unità Linked sotto un nome diverso da quello stampato
   (`<nome> (<Pilota>'s Unit)`), es. "Murasame (Andrew Waldfeld Unit)" è
   in realtà "Waldfeld's Murasame" — vedi CLAUDE.md, sezione data quirks.
+- **Miglior prova finora di Gundam Barbatos Lupus come motore ricorrente**
+  (vs GenocidGIC): 4 dispiegamenti distinti nella stessa partita (t13,
+  t17, t21, t23), 7 uccisioni dirette totali, muore 2 volte e torna
+  sempre grazie alle 4 copie nel mazzo. Prima partita in cui il
+  piano-motore si vede funzionare a pieno regime per un'intera partita
+  invece che in un singolo turno isolato.
+- **Un turno di quasi-wipe non è per forza game over**: al t12 Unicorn
+  Gundam 02 Banshee Norn (Destroy Mode) (GD04-065, stampa diversa da
+  quella vista contro MMorelli) si riattiva 3 volte nello stesso turno
+  e uccide Gundam Barbatos 1st Form tre volte più Hyakuren - board quasi
+  azzerato. La partita è stata comunque vinta 11 turni dopo, grazie alla
+  ridondanza del piano Lupus, non a una risposta diretta a quel turno.
+- **Kindhearted ("le unità amiche non possono essere distrutte da
+  effetti nemici questo turno" + pesca) è una risposta reale al piano di
+  ping/ability-damage del mazzo** (Adapt, Gusion Rebake, Mikazuki
+  Augus) - vista 2 volte (t15, t22). Non ha impedito la vittoria ma è
+  la prima carta osservata pensata specificamente contro quel piano.
+- **Basi che generano token** (Corsica Base, ST02-016): il suo Deploy
+  crea automaticamente un Tallgeese token (AP4/HP2) quando è il turno
+  del controllore — "X deployed" senza una riga di deploy-da-mano
+  separata subito dopo "Played base: Y" è il segnale per riconoscerlo
+  nei prossimi import, dato che il risolutore automatico preferisce le
+  stampe reali quando esistono e va corretto a mano in questi casi.
 
 ## Checklist provvisoria
 
