@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-eCon **15 sole partite** è troppo presto per isolare pattern affidabili;
+Con **15 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -34,7 +34,7 @@ sottocontano.
 | 6 | 07-17 | [Robotech](2026-07-17_kiraya-vs-robotech.yaml) | **L** | 20 | Blu/Bianco, SEED (Kira Yamato) + Orb/AEUG (Strike Freedom Gundam, Aile Strike Gundam, Strike Rouge x2, Freedom Gundam, Murasame/Andrew Waldfeld, Archangel) | 0 / 2 | 12 / 9 | Strike Freedom Gundam rimanda Lupus Rex (t14) e 1st Form (t16) nel mazzo - stesso problema-chiave di aggro_mono_p, non risolto dalle 5 copie totali di v1_1; saturazione avversaria da 3 shield in un turno (t20) chiude la partita |
 | 7 | 07-17 | [GenocidGIC](2026-07-17_kiraya-vs-genocidgic.yaml) | **W** | 23 | Blu/Bianco, Titans/Jupitris (The-O, Messala, Paptimus Scirocco, Delta Plus) + splash Unicorn Gundam 02 Banshee Norn (Destroy Mode), Gundam/Amuro Ray, Zoloat, Kindhearted, Corsica Base | 1 / 0 | 12 / 10 | Vittoria di sfinimento in 23 turni; t12 quasi-wipe da un Banshee che si riattiva 3 volte nello stesso turno, ma Barbatos Lupus torna in campo 4 volte distinte nel corso della partita e chiude comunque - miglior prova finora del piano-motore |
 | 8 | 07-17 | [GenocidGIC](2026-07-17_kiraya-vs-genocidgic-2.yaml) | **W** | 17 | Blu/Bianco, stesso mazzo Titans/Jupitris + Unicorn Gundam 02 Banshee Norn (rivincita) | 3 / 0 | 8 / 6 | Vittoria netta senza mai pescare Gundam Barbatos Lupus - il piano-motore non è indispensabile quando la curva di apertura regge; Banshee ripete il pattern di riattivazioni multiple ma stavolta non basta |
-| 9 | 07-17 | [dogman](2026-07-17_kiraya-vs-dogman.yaml) | **L** | 13 | Verde/Blu, Londo Bell/Zeon (Zaku Ⅱ, Jegan, Rick Dom x2, Gundam/Amuro Ray, Nu Gundam x2, Kayra's Re-GZ, Re-GZ) | 0 / 4 | 8 / 7 | Svolta t7: 3 attacchi consecutivi senza blocker disponibili spazzano via 3 unità in un colpo - sconfitta strutturale (mazzo senza Blocker), nessun errore tattico isolato dopo revisione |
+| 9 | 07-17 | [dogman](2026-07-17_kiraya-vs-dogman.yaml) | **L** | 13 | Verde/Blu, Londo Bell/Zeon (Zaku Ⅱ, Jegan, Rick Dom x2, Gundam/Amuro Ray, Nu Gundam x2, Kayra's Re-GZ, Re-GZ) | 0 / 4 | 8 / 7 | Svolta t7: 3 attacchi consecutivi spazzano via 3 unità in un colpo perché nessuno dei 2 blocker del mazzo (Gusion Rebake/Shiden Custom) era ancora sceso - Shiden Custom infatti blocca poi regolarmente più avanti nella stessa partita; nessun errore tattico isolato dopo revisione |
 | 10 | 07-17 | [112t](2026-07-17_kiraya-vs-112t.yaml) | **W** | 14 | Rosso, Earth Alliance/Phantom Pain (Abyss/Chaos/Gaia Gundam, Auel Neider, Sting Oakley, Stellar Loussier, Exass, Girty Lue, Kindhearted) | 4 / 1 | 6 / 6 | Vittoria per resa dell'avversario al t14, non per shield-out - posizione già nettamente favorevole (4 shield contro 1); nessun errore tattico isolato, Lupus mai pescato in partita |
 | 11 | 07-17 | [loclee](2026-07-17_kiraya-vs-loclee.yaml) | **L** | 23 | Blu/Rosso, control/removal (Darkness Finger x3, Improved Technique, Close Combat x2, Strike Freedom Gundam, Unicorn Gundam 02 Banshee Destroy Mode) | 0 / 2 | 12 / 4 | Log troncato sul colpo di grazia, risultato impostato a mano; avversario che riunisce quasi tutti i problemi strutturali già noti del mazzo; unico errore reale al t14 (2nd Form sacrificato in un chip che Lupus da solo bastava a completare) |
 | 12 | 07-17 | [gogogo](2026-07-17_kiraya-vs-gogogo.yaml) | **W** | 14 | Bianco/Viola, Zaft Destiny/Minerva Squad (Destiny Gundam, famiglia Impulse Gundam, Shinn Asuka) + splash Militia | 5 / 0 | 8 / 6 | Stravinta: 0 shield perse, avversario già a shield zero da fine t13 (probabile resa al t14). Prima vera attivazione di Lupus in partita pulisce entrambe le copie rimaste di Sword Impulse Gundam in un colpo; Widespread Annihilation scartata come shield senza mai essere giocata |
@@ -185,21 +185,27 @@ sottocontano.
   Messala con Repair (2-per-1 sfavorevole in conteggio carte, anche se
   ogni copia ha comunque attivato il proprio mill-on-death) — da evitare
   quando è disponibile un'alternativa più efficiente.
-- **Conferma strutturale: l'assenza totale di unità Blocker nel mazzo
-  espone a turni-wipe senza contromossa possibile** (vs dogman, t7): 3
-  attacchi consecutivi ("No blockers available" su tutti e tre) hanno
-  eliminato 3 unità in un colpo solo. Le scelte del turno precedente
-  (ping di Ryusei-Go su 2nd Form per il bonus AP+2, attacco di Hyakuren
-  su Jegan per rimuovere una minaccia) erano corrette — il problema è
-  di lista, non di sequenza di gioco.
+- **Correzione importante (non solo su questa partita): il mazzo NON è
+  privo di Blocker.** Sia Gundam Gusion Rebake (`<Blocker>` esplicito)
+  sia Shiden Custom (Ryusei-Go) (stesso testo di redirect, funzionalmente
+  identico — ha bloccato 10 volte nel campione) hanno la capacità di
+  bloccare, e lo fanno regolarmente quando sono in campo e attivi
+  (21 blocchi osservati in totale tra `aggro_mono_p` e v1_1). Il t7 vs
+  dogman non era "il mazzo senza Blocker" — era che nessuna delle 6 copie
+  totali (3+3 su 50 carte, 12%) era ancora stata pescata/schierata a
+  quel punto della partita. Shiden Custom infatti blocca regolarmente
+  più avanti nella stessa partita (t11). Il problema reale è di densità
+  (12% del mazzo, non garantito entro il t7), non di assenza totale —
+  va corretta ogni nota precedente che parlava di "mazzo senza Blocker"
+  come limite strutturale assoluto.
 - **Due ipotesi di errore ritrattate dopo revisione con Kiraya** (vs
   dogman): lo scarto di Gundam Barbatos Lupus al t12 (via Ryusei-Go) non
   era un rischio — ne aveva un'altra copia in mano. E il non aver
   attaccato con Shiden Custom al t10 non era un turno sprecato, ma una
   scelta deliberata per tenerlo attivo come blocco al turno successivo
   (dove infatti blocca, vedi sotto). Con queste due correzioni, questa
-  sconfitta non ha errori tattici individuabili lato Kiraya — resta una
-  sconfitta strutturale (nessuna unità Blocker nel mazzo, t7).
+  sconfitta non ha errori tattici individuabili lato Kiraya — il t7 resta
+  spiegabile solo dalla varianza di pesca (blocker non ancora disponibile).
 - **Buona lettura del blocco quando la scelta è tra due bersagli**
   (vs dogman, t11): con un solo blocker disponibile per due attacchi
   dichiarati, bloccare l'unità che si può davvero uccidere (Nu Gundam,
@@ -305,10 +311,12 @@ per v1_1:
 4. Contro motori di recursion/mill avversari (Sazabi e simili): valutare
    se vale la pena rimuoverli appena schierati, prima che il loro Deploy
    generi vantaggio-carte irreversibile.
-5. Il mazzo non ha unità Blocker: un turno avversario con più attacchi
-   consecutivi va subito per intero, senza contromossa possibile. Non
-   c'è una giocata che lo prevenga — solo saturare prima e correre più
-   veloce.
+5. Il mazzo ha solo 2 carte con capacità di blocco (Gundam Gusion
+   Rebake, Shiden Custom Ryusei-Go — 6 copie su 50, 12%): se nessuna
+   delle due è ancora in campo quando arriva un turno con più attacchi
+   consecutivi, va subito per intero. Non è "il mazzo non blocca mai" —
+   tienile a mente come prima priorità di schieramento/mantenimento in
+   vita contro un avversario che sta sviluppando un board minaccioso.
 6. Con effetti "pesca 1, poi scarta 1" (Ryusei-Go e simili): scartare
    una copia di Lupus/Lupus Rex va bene se se ne ha un'altra in mano —
    il rischio reale è solo quando è l'ultima copia rimasta.
