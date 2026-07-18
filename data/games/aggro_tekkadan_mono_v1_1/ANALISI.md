@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (17 partite, 9-8)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (18 partite, 10-8)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **17 sole partite** è troppo presto per isolare pattern affidabili;
+Con **18 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -43,6 +43,7 @@ sottocontano.
 | 15 | 07-17 | [Essen](2026-07-17_kiraya-vs-essen.yaml) | **L** | 23 | Blu/Rosso/Bianco, control/removal estremo (Close Combat x3, Improved Technique, Battle of Aces x2, Overwhelming Pressure x4, Darkness Finger, Strike Freedom Gundam x2, Unicorn Gundam 02 Banshee Destroy Mode) + motore di pesca fuori scala (~20+ carte pescate in più) | 0 / 1 | 12 / 4 | Revisione richiesta da Kiraya: nessun errore tattico individuato, la mano di rimozione/pesca dell'avversario è la più pesante vista nel campione, persino più di loclee (partita 11) - board di Essen vuoto fino al t13 |
 | 16 | 07-17 | [xDEADHEADx](2026-07-17_kiraya-vs-xdeadheadx.yaml) | **W** | 16 | Viola/Verde, Neo Zeon (Char's Zaku Ⅱ + Char Aznable per High-Maneuver, Zeong con token, Sazabi, Jagd Doga/Geara Doga) | 4 / 0 | 8 / 8 | Vittoria pulita per shield-out; Char's Zaku Ⅱ linkato ottiene High-Maneuver a ogni attacco (t8, t10) - stesso buco di block-bypass già noto; l'abilità Attack di Sazabi al t16 fallisce contro Kiraya perché Lupus era l'unica unità in campo e quindi "impegnata in combattimento", non un bersaglio valido |
 | 17 | 07-17 | [jaysanti](2026-07-17_kiraya-vs-jaysanti.yaml) | **L** | 18 | Rosso/Bianco, Shuffle Alliance/G Gundam (Domon Kasshu, Master Asia, Shining Gundam x3 stampe, Rising Gundam, Dragon Gundam, Gundam Maxter) | 0 / 3 | 14 / 8 | Sconfitta per shield-out, non per High-Maneuver (zero istanze nel log, a differenza della diagnosi iniziale di Kiraya): decisa da un errore di blocco al t14 (Shiden Custom disponibile non usato contro Master Asia), dalla tech dell'avversario che resta i blocker di Kiraya prima di attaccare (Domon/Master Asia su Rising Gundam), e da Lupus mai pescato perché milled 2 volte dal proprio Exia Repair |
+| 18 | 07-18 | [desi](2026-07-18_kiraya-vs-desi.yaml) | **W** | 18 | Blu/Verde, Earth Federation/Londo Bell/AGE System (Gundam + Amuro Ray, famiglia AGE-1/AGE-2 Double Bullet, Re-GZ, Nu Gundam, Jegan, base Ra Cailum) | 4 / 1 | 8 / 9 | Vittoria per timeout dell'avversario al t18 da una posizione già nettamente vinta (4 shield contro 1); nessun errore tattico individuato; la seconda copia di Barbatos Lupus si attiva due volte nello stesso turno (t15), concatenando ping e attacchi per finire un solo bersaglio invece di disperderli |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -331,6 +332,26 @@ sottocontano.
   in campo e attive a inizio turno. Distinto dal problema di densità già
   in checklist (item 5): qui il blocker c'era, è stato reso inutile da un
   effetto mirato dell'avversario.
+- **Prima doppia attivazione di Barbatos Lupus nello stesso turno** (vs
+  desi, t15): la seconda copia di Lupus in campo si attiva due volte
+  consecutive (6 carte esiliate in tutto), concatenando 2 ping da 2 danni
+  con un attacco di Barbatos Adapt in mezzo per finire un solo bersaglio
+  (Gundam AGE-2 Double Bullet, HP5) invece di disperdere il danno su più
+  bersagli - tre attivazioni totali nella stessa partita (t13 + t15 x2) da
+  due copie distinte, la miglior prova finora del piano-motore ripetuto
+  entro una singola partita.
+- **Quinta coppia di stampe condivise nella stessa partita** (vs desi,
+  dopo Nu Gundam, Kira Yamato, Sword Impulse Gundam, Sazabi): Amuro Ray in
+  due print diverse nello stesso turno (t14), distinguibili solo
+  dall'abilità osservata (rest su unità nemica <=5 HP vs cura 2 HP
+  all'unità abbinata alla distruzione di un nemico), mai dal nome o dal
+  colore.
+- **Vittoria per timeout, non per shield-out naturale** (vs desi, t18):
+  l'avversario esaurisce il tempo a disposizione con ancora 1 shield
+  residua - una categoria di vittoria distinta dallo shield-out pulito e
+  dalla resa vista contro 112t, anche se la posizione di Kiraya (4 shield
+  contro 1) era comunque già decisamente favorevole indipendentemente dal
+  timeout.
 
 ## Checklist provvisoria
 

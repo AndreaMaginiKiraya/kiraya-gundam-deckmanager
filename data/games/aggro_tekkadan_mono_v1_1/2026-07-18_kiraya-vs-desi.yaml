@@ -1,0 +1,682 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-18_kiraya-vs-desi"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    desi:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "desi"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "at least two distinct instances, can't be pinned to one id: the t6 Link on 'Gundam' and the t14 Pair on 'Gundam AGE-2 Double Bullet' both trigger 'choose 1 enemy unit with 5 or less HP, rest it' (Hyakuren HP3, then Gundam Barbatos Lupus HP5) - matches only ST01-010's 【When Paired】text. The t14 Link on 'Nu Gundam' instead triggers 'Healed 2 damage to: Nu Gundam' right after Nu Gundam destroys an enemy unit with battle damage - matches only GD05-085's ability (heal 2 HP on the linked unit destroying a unit). Both prints were in play the same turn (t14)."
+    owner: "desi"
+    seen:
+      - "pilot"
+  "Asemu Asuno":
+    id: "GD03-088"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "desi"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "conflicting evidence, can't pin with confidence: 'Gundam repaired 2 from [Repair 2]' fires twice (end of t6, end of t8) with no other Repair source in play at either point - matches only ST01-001's printed <Repair 2> keyword. But the t6 damage exchange (deals 6 to Hyakuren, takes 4 leaving 1 HP) implies AP6/HP5 total, which fits ST01-001 (AP3+Amuro Ray's own AP2=5, off by 1) worse than GD04-008 (AP4+2=6 exact) - except GD04-008 has no Repair ability at all, contradicting the other evidence. Left null rather than force a pick; the AP mismatch might be an untracked modifier (no 'Modifier applied to: Gundam' line was logged, unlike the Nu Gundam case at t14 where Ra Cailum's modifier explains a similar-looking discrepancy)."
+    owner: "desi"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam AGE-1 Normal":
+    id: "GD02-021"
+    note: "pinned: both t4 and t10 deploys are followed immediately by 'Selecting target for Gundam AGE-1 Normal' - matches GD02-021's Deploy ability (discard 1 green EF Unit, needs a target choice); GD02-029 has no effect and would need no target selection. Confirmed by the t13 death: 'Dealt 2 damage to Gundam AGE-1 Normal, now destroyed' is an exact kill on HP2 (GD02-021); GD02-029 has HP3 and would have survived."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "desi"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam AGE-2 Double Bullet":
+    id: "GD05-021"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 5
+    owner: "desi"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam AGE-2 Normal":
+    id: "GD03-019"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "desi"
+    seen:
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  Jegan:
+    id: "GD01-016"
+    note: "pinned with medium confidence: at t14, Jegan attacks Gundam Barbatos 1st Form (AP3) and is destroyed by 'received 3 damage' - an exact kill on GD01-016's HP3. GD05-027 has HP2 and would die the same way but to an overkill of 1, which is the weaker/less clean match on the exact-arithmetic heuristic used elsewhere in this campaign; not fully conclusive since both candidates die to 3 damage either way."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "desi"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Nu Gundam":
+    id: "GD05-020"
+    note: "pinned: 'Nu Gundam deployed' is immediately followed by 'Placed 1 Resource EX' - matches GD05-020's Deploy ability exactly ('if 2+ Londo Bell cards in trash, place 1 EX Resource'); GD05-017 has no Deploy ability at all. Combat math at t14 checks out with Ra Cailum's modifier (AP4 base +2 = 6 damage dealt to Lupus; HP4 base +2 = 6 total, minus 5 damage reduced by 1 = 4 net, leaving 2 HP)."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "desi"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "desi"
+    seen:
+      - "activated"
+      - "base"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "desi"
+    seen:
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+setup:
+  - player: "desi"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "desi"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "desi"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "desi"
+    actions:
+      - action: "deploy"
+        card: "Gundam AGE-1 Normal"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "desi"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Hyakuren"
+      - action: "attack"
+        player: "desi"
+        attacker: "Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Gundam received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "desi"
+        attacker: "Gundam AGE-1 Normal"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Gundam AGE-1 Normal received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Gundam Barbatos 2nd Form moved to trash"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 8
+    active_player: "desi"
+    actions:
+      - action: "play_base"
+        card: "Ra Cailum"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Re-GZ"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ"
+          - "Card added to hand: Jegan"
+  - turn: 10
+    active_player: "desi"
+    actions:
+      - action: "attack"
+        player: "desi"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam AGE-1 Normal"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 4 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 12
+    active_player: "desi"
+    actions:
+      - action: "deploy"
+        card: "Gundam AGE-2 Double Bullet"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Graze Custom and Gundam Barbatos 2nd Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam AGE-1 Normal, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Ra Cailum received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam AGE-2 Normal revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+  - turn: 14
+    active_player: "desi"
+    actions:
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "desi"
+        attacker: "Jegan"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Jegan received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam AGE-2 Double Bullet"
+        linked: false
+        effects:
+          - "Rested unit: Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "activate"
+        card: "Ra Cailum"
+        effects:
+          - "Rested base: Ra Cailum"
+          - "Ra Cailum: Modifier applied to: Nu Gundam"
+      - action: "attack"
+        player: "desi"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "desi"
+        attacker: "Gundam AGE-2 Double Bullet"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Hyakuren and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam AGE-2 Double Bullet, reduced by 2, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam AGE-2 Double Bullet"
+        blockers: "none"
+        final_target: "Gundam AGE-2 Double Bullet"
+        outcome:
+          - "Gundam AGE-2 Double Bullet received 2 damage, leaving 2 HP remaining"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Gundam Barbatos 1st Form and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam AGE-2 Double Bullet, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 2 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 16
+    active_player: "desi"
+    actions:
+      - action: "play_command"
+        player: "desi"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam AGE-2 Double Bullet"
+      - action: "pair_pilot"
+        pilot: "Asemu Asuno"
+        unit: "Gundam AGE-2 Double Bullet"
+        linked: true
+      - action: "attack"
+        player: "desi"
+        attacker: "Gundam AGE-2 Double Bullet"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Breach 1: : Isaribi received 1 damage, leaving 1 HP remaining"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Hyakuren and Gundam AGE-2 Double Bullet (reduced by 2)"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Gundam AGE-2 Double Bullet"
+        blockers: "none"
+        final_target: "Gundam AGE-2 Double Bullet"
+        outcome:
+          - "Gundam AGE-2 Double Bullet received 6 damage, now destroyed"
+          - "Hyakuren received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 18
+    active_player: "desi"
+    actions: []
+casualties:
+  desi:
+    - card: "Gundam AGE-1 Normal"
+      turn: 6
+    - card: "Gundam"
+      turn: 11
+    - card: "Gundam AGE-1 Normal"
+      turn: 13
+    - card: "Ra Cailum"
+      turn: 13
+    - card: "Jegan"
+      turn: 14
+    - card: "Nu Gundam"
+      turn: 15
+    - card: "Gundam AGE-2 Double Bullet"
+      turn: 15
+    - card: "Gundam AGE-2 Double Bullet"
+      turn: 17
+    - card: "Ra Cailum"
+      turn: 17
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Isaribi"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+    - card: "Hyakuren"
+      turn: 14
+    - card: "Gundam Barbatos Adapt"
+      turn: 15
+    - card: "Gundam Barbatos Adapt"
+      turn: 15
+    - card: "Gundam Barbatos Adapt"
+      turn: 16
+    - card: "Hyakuren"
+      turn: 17
+shields_tally:
+  desi:
+    ex_base: "replaced with a base (turn 8)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "Diciottesima partita con v1_1, decima vittoria (10-8). desi Blu/Verde, Earth Federation/Londo Bell/AGE System (Gundam + Amuro Ray, famiglia AGE-1/AGE-2 Double Bullet, Re-GZ, Nu Gundam, Jegan, base Ra Cailum). Vittoria per timeout dell'avversario al t18 (non per shield-out naturale: desi aveva ancora 1 shield residua) - Kiraya chiudeva comunque con 4 shield contro 1 e un board nettamente superiore, quindi una posizione già vinta indipendentemente dal timeout."
+  - "Nessun errore tattico isolato individuato: partita eseguita in modo pulito dall'apertura (Exia Repair su EX Base) fino alla chiusura, inclusi trade sempre a favore o alla pari."
+  - "Miglior prova finora di Gundam Barbatos Lupus come motore in un singolo turno: al t15 la SECONDA copia di Lupus si attiva DUE volte nello stesso turno (6 carte esiliate in tutto), concatenando 2 ping da 2 danni con un attacco di Barbatos Adapt in mezzo per finire Gundam AGE-2 Double Bullet (HP5) a suon di chip - un solo bersaglio, tre fonti di danno diverse nello stesso turno invece di sprecarle su tre bersagli separati. Prima copia di Lupus (t13) aveva già chiuso da sola con una singola attivazione + tris di attacchi su shield/base. Tre attivazioni totali in una partita da due copie distinte."
+  - "Quinta/sesta conferma del problema di densità Blocker (checklist item 5): Shiden Custom (Ryusei-Go) muore in trade al t11 senza mai bloccare, Gundam Gusion Rebake arriva solo al t17 (ultimo turno giocato) - nessuno dei due era mai disponibile come blocco nei momenti critici (t6, t10, t14) di questa partita, coerente con la densità 12% già documentata piuttosto che un'anomalia isolata."
+  - "Quinta coppia di stampe condivise nella stessa partita (dopo Nu Gundam, Kira Yamato, Sword Impulse Gundam, Sazabi): Amuro Ray appare in due prints diverse nello stesso turno (t14) - ST01-010 (rest su unità nemica <=5 HP, innescato due volte: su Hyakuren al t6 e su Gundam Barbatos Lupus al t14) e GD05-085 (cura 2 HP all'unità abbinata quando distrugge un nemico in combattimento, innescato su Nu Gundam al t14). Riconoscibili solo dall'effetto osservato, mai dal nome."
+  - "Interazione da tenere a mente per futuri import: il modificatore di una base attivata (qui Ra Cailum su Nu Gundam, t14) può alterare sia l'AP che l'HP effettivi di un'unità abbastanza da rendere l'aritmetica del combattimento non deducibile dalle sole statistiche stampate + pilota abbinato - senza la riga 'Modifier applied to: X' esplicita nel log, il calcolo dei danni osservati può sembrare inconsistente con qualunque stampa candidata (successo qui con Nu Gundam grazie alla riga esplicita, fallito con 'Gundam' al t6/t11 dove nessun modificatore è stato loggato e i danni AP restano di 1 punto scoperti rispetto a tutte le stampe candidate)."
+unparsed_lines:
+  - "[turn 14] Nu Gundam received 5 damage, reduced by 1, leaving 2 HP remaining"
+  - "[turn 14] Gundam AGE-2 Double Bullet received 4 damage, reduced by 2, leaving 4 HP remaining"
+  - "[turn 16] Gundam AGE-2 Double Bullet received 2 damage, reduced by 2, leaving 6 HP remaining"
