@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (19 partite, 11-8)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (20 partite, 12-8)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **19 sole partite** è troppo presto per isolare pattern affidabili;
+Con **20 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -45,6 +45,7 @@ sottocontano.
 | 17 | 07-17 | [jaysanti](2026-07-17_kiraya-vs-jaysanti.yaml) | **L** | 18 | Rosso/Bianco, Shuffle Alliance/G Gundam (Domon Kasshu, Master Asia, Shining Gundam x3 stampe, Rising Gundam, Dragon Gundam, Gundam Maxter) | 0 / 3 | 14 / 8 | Sconfitta per shield-out, non per High-Maneuver (zero istanze nel log, a differenza della diagnosi iniziale di Kiraya): decisa da un errore di blocco al t14 (Shiden Custom disponibile non usato contro Master Asia), dalla tech dell'avversario che resta i blocker di Kiraya prima di attaccare (Domon/Master Asia su Rising Gundam), e da Lupus mai pescato perché milled 2 volte dal proprio Exia Repair |
 | 18 | 07-18 | [desi](2026-07-18_kiraya-vs-desi.yaml) | **W** | 18 | Blu/Verde, Earth Federation/Londo Bell/AGE System (Gundam + Amuro Ray, famiglia AGE-1/AGE-2 Double Bullet, Re-GZ, Nu Gundam, Jegan, base Ra Cailum) | 4 / 1 | 8 / 9 | Vittoria per timeout dell'avversario al t18 da una posizione già nettamente vinta (4 shield contro 1); nessun errore tattico individuato; la seconda copia di Barbatos Lupus si attiva due volte nello stesso turno (t15), concatenando ping e attacchi per finire un solo bersaglio invece di disperderli |
 | 19 | 07-18 | [Olo](2026-07-18_kiraya-vs-olo.yaml) | **W** | 19 | Blu/Bianco, Earth Alliance/SEED con doppia stampa di Kira Yamato (Rick Dias, famiglia Strike/Aile Strike/Strike Freedom Gundam, Wing Gundam Zero EW, Archangel) | 1 / 0 | 12 / 10 | Vittoria per shield-out netto nonostante il bounce di Strike Freedom Gundam (qui "returned to deck", non in mano) al t16; seconda doppia attivazione di Lupus nello stesso turno in due partite di fila (t13); nessun errore tattico individuato |
+| 20 | 07-18 | [MrCross00](2026-07-18_kiraya-vs-mrcross00.yaml) | **W** | 13 | Blu/Verde, Londo Bell/Earth Federation (Gundam + Amuro Ray, Jegan, Nu Gundam, Re-GZ/Re-GZ BWS, Zeong, Ra Cailum) | 6 / 0 | 3 / 2 | Vittoria totale in 13 turni, 0 shield perse ed EX Base mai distrutta, senza mai pescare né Barbatos Lupus né il pacchetto Blocker - solo pressione da apertura; stessa identità ambigua irrisolta di "Gundam" già vista vs desi lo stesso giorno, con lo stesso identico numero di danno (6) osservato in entrambe le partite |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -370,6 +371,23 @@ sottocontano.
   istanza citata come esempio nelle istruzioni del progetto - risolta a
   Kira's Strike Rouge (GD05-010) con piena conferma aritmetica di
   combattimento.
+- **Vittoria completa senza né il piano-motore né il pacchetto Blocker**
+  (vs MrCross00): Barbatos Lupus mai pescato, Gusion Rebake/Shiden Custom
+  mai visti - la partita si vince comunque in 13 turni sulla sola
+  pressione d'apertura (Graze Custom, Barbatos Adapt, Flauros Ryusei-Go),
+  0 shield perse ed EX Base mai distrutta. Stesso principio già visto
+  nella rivincita vs GenocidGIC (game 8): nessuno dei due pilastri è
+  indispensabile quando la curva iniziale tiene il ritmo.
+- **Identità ambigua di "Gundam" irrisolta per la seconda volta di fila,
+  stesso giorno** (vs MrCross00, dopo desi): stessa combo Repair-2 a fine
+  turno + cura immediata 2 HP dopo aver distrutto un nemico (qui la
+  salva letteralmente dalla morte due volte, t10 e t12), che punta a
+  ST01-001 + Amuro Ray (GD05-085) - ma il danno inflitto resta
+  esattamente 6 in entrambe le occasioni di QUESTA partita, lo stesso
+  identico numero già osservato vs desi. La ripetizione esatta tra due
+  partite indipendenti suggerisce un fattore sistematico non ancora
+  identificato (non varianza) - da approfondire in una sessione futura,
+  magari controllando errata/FAQ ufficiali.
 
 ## Checklist provvisoria
 

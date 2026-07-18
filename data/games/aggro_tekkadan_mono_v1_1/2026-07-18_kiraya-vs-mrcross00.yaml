@@ -1,0 +1,474 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-18_kiraya-vs-mrcross00"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    MrCross00:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+cards:
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "at least two distinct instances, can't be pinned to one id (same pattern as vs desi, 2026-07-18): the Amuro Ray Linked to 'Gundam' triggers 'Healed 2 damage to: Gundam' right after it destroys an enemy Unit with battle damage (t10 vs Gundam Barbatos Adapt, t12 vs Hyakuren) - matches only GD05-085's ability. The Amuro Ray Paired to Zeong (t12) instead triggers 'Rested unit: Hyakuren' (HP3 <=5) - matches only ST01-010's 【When Paired】text. Both prints in play the same game."
+    owner: "MrCross00"
+    seen:
+      - "pilot"
+      - "shield"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Exclusively Defense-Oriented Policy":
+    id: "GD05-105"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "MrCross00"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "same unresolved tension as vs desi (2026-07-18): 'Gundam repaired 2 from [Repair 2]' fires at end of turn (t10, t12) on top of a SEPARATE mid-battle 'Healed 2 damage to: Gundam' right after it destroys an enemy with battle damage (matches Amuro Ray GD05-085's ability, see above) - together they explain surviving lethal damage twice (HP4 base - 4 dmg + 2 heal = 2 remaining, both times) and point at ST01-001 for the <Repair 2> keyword. But the AP dealt (6, both times: t10 vs Barbatos Adapt HP4, t12 vs Hyakuren HP3) doesn't cleanly match ST01-001's AP3 with no modifier line logged - same open discrepancy as the desi game, and notably the *same exact number* (6) recurs identically across both independent games, which argues against pure variance but I can't identify the source. Left null rather than force a pick."
+    owner: "MrCross00"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: never attacks, blocks, or takes a logged combat instance this game (one copy discarded as a shield, one deployed and left inactive, another deployed at t12 with no further action) - no evidence to discriminate the two prints"
+    owner: "MrCross00"
+    seen:
+      - "deployed"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "ambiguous: only seen once, revealed and discarded as a shield (t9) - never deployed or played, no evidence to discriminate the two prints"
+    owner: "MrCross00"
+    seen:
+      - "shield"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "MrCross00"
+    seen:
+      - "base"
+      - "shield"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "MrCross00"
+    seen:
+      - "shield"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "MrCross00"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ride Mass":
+    id: "GD05-117"
+    note: "pilot mode of the COMMAND card 'Become a Shield'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Wings of Light":
+    id: "GD05-102"
+    type: "COMMAND"
+    level: 5
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "MrCross00"
+    seen:
+      - "command"
+  "Wire-Guided Arm":
+    id: null
+    note: "unit token generated by Zeong's own ability (same pattern documented in CLAUDE.md and seen vs xDEADHEADx, 2026-07-17); correctly absent from the card database since it has no printed card of its own"
+    owner: "MrCross00"
+    seen:
+      - "deployed"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "MrCross00"
+    seen:
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "MrCross00"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "MrCross00"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "MrCross00"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "MrCross00"
+            card: "Exclusively Defense-Oriented Policy"
+            effects:
+              - "Graze Custom returned to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "MrCross00"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ BWS"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ BWS"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "MrCross00"
+            card: "Wings of Light"
+            effects:
+              - "Hyakuren returned to hand"
+  - turn: 8
+    active_player: "MrCross00"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Ride Mass"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+  - turn: 10
+    active_player: "MrCross00"
+    actions:
+      - action: "attack"
+        player: "MrCross00"
+        attacker: "Re-GZ BWS"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Re-GZ BWS received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+      - action: "attack"
+        player: "MrCross00"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Gundam received 4 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Gundam"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Flauros (Ryusei-Go), leaving 3 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Become a Shield discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Ra Cailum"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Ra Cailum revealed"
+          - "Shield card added to hand"
+  - turn: 12
+    active_player: "MrCross00"
+    actions:
+      - action: "deploy"
+        card: "Zeong"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Zeong"
+        linked: false
+        effects:
+          - "Rested unit: Hyakuren"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Jegan"
+      - action: "attack"
+        player: "MrCross00"
+        attacker: "Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Gundam received 4 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Gundam"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 5 damage, now destroyed"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 12
+  MrCross00:
+    - card: "Re-GZ BWS"
+      turn: 10
+    - card: "Ra Cailum"
+      turn: 13
+shields_tally:
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+  MrCross00:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Ventesima partita con v1_1, dodicesima vittoria (12-8). MrCross00 Blu/Verde, Londo Bell/Earth Federation (Gundam + Amuro Ray, Jegan, Nu Gundam, Re-GZ/Re-GZ BWS, Ra Cailum, Zeong con token Wire-Guided Arm) - stesso arco di carte già visto vs desi lo stesso giorno. Vittoria per shield-out totale in 13 turni: 6 shield rimaste per Kiraya (mai perse, EX Base mai distrutta) contro 0."
+  - "Vittoria completa senza mai pescare né il piano-motore (Barbatos Lupus non compare mai) né il pacchetto Blocker (Gusion Rebake/Shiden Custom mai visti) - solo pressione da apertura (Graze Custom, Barbatos Adapt, Flauros Ryusei-Go, Ryusei-Go Graze Custom II). Conferma ulteriore che nessuno dei due pilastri è indispensabile quando la curva iniziale tiene il ritmo (stesso principio già visto nella rivincita vs GenocidGIC, game 8)."
+  - "Stessa identità ambigua irrisolta di 'Gundam' già trovata vs desi lo stesso giorno: la combo Repair-2 a fine turno + cura immediata 2 HP dopo aver distrutto un nemico (che qui salva letteralmente l'unità dalla morte per due volte, t10 e t12: HP4-4dmg+2cura=2 residui) punta a ST01-001 abbinato ad Amuro Ray (GD05-085), ma il danno inflitto resta di 6 in entrambe le occasioni di questa partita - lo stesso numero esatto osservato anche vs desi. La ripetizione esatta tra due partite indipendenti suggerisce un fattore sistematico non ancora identificato, non semplice varianza; segnata come domanda aperta per una revisione futura."
+  - "L'abilità Attack di Gundam Flauros (Ryusei-Go) mostra 'No targets for Gundam Flauros (Ryusei-Go)' due volte (t9, t11) quando dichiara contro il player - l'assenza di bersagli validi per la sua componente opzionale non blocca comunque l'attacco stesso, che prosegue normalmente contro shield/base."
+  - "Nessun errore tattico isolato individuato: unica perdita reale di Kiraya (Graze Custom e Barbatos Adapt al t10) arriva da attacchi dichiarati senza blocco disponibile, non da una scelta di gioco."
