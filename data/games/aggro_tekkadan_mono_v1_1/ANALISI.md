@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (25 partite, 16-9)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (26 partite, 17-9)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **25 sole partite** è troppo presto per isolare pattern affidabili;
+Con **26 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -51,6 +51,7 @@ sottocontano.
 | 23 | 07-18 | [Sakurah](2026-07-18_kiraya-vs-sakurah.yaml) | **W** | 13 | Mono-Verde, Earth Federation/Londo Bell (Jegan, Gundam AGE-1 Normal + Asemu Asuno, Re-GZ, Nu Gundam + Amuro Ray) | 1 / 0 | 5 / 4 | Vittoria per shield-out netto; Gundam Barbatos 1st Form pesca almeno 6 volte nel corso della partita grazie a più copie in rotazione, il motore di pesca più prolifico visto finora nel campione; trade decisivo al t11 (Barbatos 1st Form contro Nu Gundam) rimuove la minaccia principale avversaria |
 | 24 | 07-18 | [Kumendeng](2026-07-18_kiraya-vs-kumendeng.yaml) | **W** | 15 | Blu/Verde, Zeon rush (Zaku I/II, Guntank, Char Aznable, Zeong + Char, Nu Gundam + Amuro Ray, Corsica Base) | 1 / 0 | 5 / 9 | Vittoria per timeout dell'avversario da una posizione già vinta; High-Maneuver reale e decisivo al t11 (Char Aznable linkato a Zeong); seconda doppia attivazione di Lupus nello stesso turno in due partite di fila (t12); scoperta e corretta un'importante svista nei dati di Amuro Ray (GD05-085) |
 | 25 | 07-19 | [Bugs](2026-07-19_kiraya-vs-bugs.yaml) | **W** | 14+ | Blu/Rosso, misto SEED/Unicorn/Neo Zeon (Strike Rouge Ootori/Kira's Unit + Kira Yamato, Zoloat, Gundam Kyrios Flight Mode, Kshatriya, Strike Freedom Gundam) | 5 / 2 | 6 / 6 | Vittoria totale, 0 shield perse; log probabilmente troncato prima del colpo di grazia (come loclee); turno di sfondamento al t9 (2-per-2 che elimina entrambe le minacce principali avversarie); seconda conferma dello stesso errore nei dati carte già trovato su Amuro Ray, stavolta su Kira Yamato (GD05-081) |
+| 26 | 07-19 | [Eshaku](2026-07-19_kiraya-vs-eshaku.yaml) | **W** | 24 | Mono-Rosso, "Tekkadan splash Zeon/UC/Clan" - mirror-match parziale (Barbatos 1st Form/Adapt, Hyakuren, Mikazuki Augus) + Sazabi, Kshatriya, GQuuuuuuX Omega Psycommu, doppia Close Combat/Improved Technique | 2 / 0 | 13 / 9+ | Vittoria per shield-out al t24 dopo una partita lunga e logorante, vinta "per un soffio" secondo Kiraya; terza e più estrema istanza di attivazioni multiple di Lupus nello stesso turno (t14, TRE attivazioni consecutive); avversario fortemente orientato alla rimozione diretta (2x Close Combat, 2x Improved Technique, Battle of Aces) |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -471,6 +472,34 @@ sottocontano.
   (Strike Rouge Ootori bloccante e Strike Rouge Kira's Unit) nello stesso
   turno, pur perdendo entrambe le proprie unita nel trade - efficiente
   nonostante il pareggio numerico di carte.
+- **Aggiornamento (2026-07-19): tutti i 21 piloti del set GD05 nel
+  database locale sono stati controllati manualmente via immagine
+  ufficiale.** Solo Sting Oakley aveva il dato corretto; tutti gli altri
+  20 (compresi Amuro Ray e Kira Yamato gia corretti in precedenza)
+  avevano un bonus AP/HP sbagliato, quasi sempre sincronizzato come 0/0
+  dall'unica fonte disponibile per questo set (egmanevents - apitcg non
+  ha ancora GD05). Tutti corretti in data/cards/en/gd05.json il
+  2026-07-19. Le partite piu vecchie di questa sessione che coinvolgono
+  questi piloti (jaysanti/Master Asia, Olo/Domon Kasshu, KUMA/Heero
+  Yuy+Quatre Raberba Winner, Kumendeng/Char Aznable, tra le altre) non
+  sono state riaudited retroattivamente - i loro appunti di
+  aritmetica potrebbero essere superati se rivisitati.
+- **Primo mirror-match parziale del campione** (vs Eshaku): l'avversario
+  gioca lo stesso nucleo Tekkadan (Barbatos 1st Form, Barbatos Adapt,
+  Hyakuren, Mikazuki Augus) con innesti Zeon/UC/Clan (Sazabi, Kshatriya,
+  GQuuuuuuX Omega Psycommu) - la prima volta che l'identita delle carte
+  ambigue ha richiesto di distinguere copie di ENTRAMBI i giocatori
+  invece che solo dell'avversario.
+- **Terza e piu estrema istanza di attivazioni multiple di Barbatos
+  Lupus nello stesso turno** (vs Eshaku, t14): la stessa copia si attiva
+  TRE volte consecutive (9 carte esiliate), spazzando via un intero
+  Gundam Barbatos Adapt nemico da sola in tre ping successivi - il
+  pattern gia visto vs desi/Olo/Kumendeng ma mai a questa scala.
+- **Avversario piu orientato alla rimozione diretta pura vista finora
+  in v1_1** (vs Eshaku): 2x Close Combat, 2x Improved Technique, Battle
+  of Aces - cinque effetti di rimozione diretta in 24 turni, in un mazzo
+  che corre anche lo stesso nucleo Tekkadan di Kiraya, rendendo la
+  partita insolitamente simmetrica rispetto al resto del campione.
 
 ## Checklist provvisoria
 
