@@ -1,0 +1,677 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-genocidgic-2"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    GenocidGIC:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "Delta Plus (Waverider Mode)":
+    id: "GD02-017"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "GenocidGIC"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Forbidden Gundam":
+    id: null
+    candidates:
+      - "GD02-006"
+      - "GD05-012"
+    note: "ambiguous: never paired with a Pilot (GD05-012's When-Linked bounce never had a chance to fire), and GD02-006's damage-prevention passive only applies during its controller's own turn, which doesn't cover the battle where it died (t9, Kiraya's turn). Same ambiguity as the previous GenocidGIC game the same day - see cards['Forbidden Gundam'] there for the identical reasoning."
+    owner: "GenocidGIC"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "ambiguous: only ever seen as a shield reveal (t9, t13), never deployed - no Repair/HP evidence like the earlier GenocidGIC game had. That other game's 'Gundam' was pinned to ST01-001 via its <Repair 2> keyword firing; same opponent, same day, plausibly the same printing here too, but left unpinned since nothing in THIS log confirms it directly."
+    owner: "GenocidGIC"
+    seen:
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Kindhearted:
+    id: "GD04-101"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "GenocidGIC"
+    seen:
+      - "command"
+  Messala:
+    id: "GD03-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "GenocidGIC"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Paptimus Scirocco":
+    id: "GD03-084"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "GenocidGIC"
+    seen:
+      - "pilot"
+  "Riddhe Marcenas":
+    id: null
+    candidates:
+      - "GD01-089"
+      - "GD04-098"
+    note: "ambiguous: both are only ever seen at Link pairing (t12, t14); both candidates' abilities are passive/conditional and never had an occasion to visibly fire in the log. Same ambiguity as the previous GenocidGIC game the same day."
+    owner: "GenocidGIC"
+    seen:
+      - "pilot"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "The-O":
+    id: "GD03-002"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "GenocidGIC"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unicorn Gundam 02 Banshee Norn (Destroy Mode)":
+    id: "GD04-065"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "GenocidGIC"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "White Base":
+    id: "ST01-015"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "GenocidGIC"
+    seen:
+      - "base"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "GenocidGIC"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "GenocidGIC"
+    action: "choose_second_player"
+  - player: "GenocidGIC"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "GenocidGIC"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "GenocidGIC"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "GenocidGIC"
+    actions:
+      - action: "play_command"
+        player: "GenocidGIC"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Zoloat (League Militaire)"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Zoloat (League Militaire) received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 8
+    active_player: "GenocidGIC"
+    actions:
+      - action: "deploy"
+        card: "Forbidden Gundam"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 2nd Form and Forbidden Gundam"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 2nd Form and Forbidden Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "Forbidden Gundam"
+        final_target: "Forbidden Gundam"
+        outcome:
+          - "Forbidden Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos 2nd Form received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+  - turn: 10
+    active_player: "GenocidGIC"
+    actions:
+      - action: "deploy"
+        card: "Messala"
+      - action: "play_base"
+        card: "White Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "White Base"
+        outcome:
+          - "White Base received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "Messala"
+        final_target: "Messala"
+        outcome:
+          - "Messala received 2 damage, leaving 2 HP remaining"
+          - "Gundam Exia Repair received 5 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Gundam Barbatos Adapt moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Messala"
+        blockers: "none"
+        final_target: "Messala"
+        outcome:
+          - "Messala received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 5 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Gusion Rebake and Shiden Custom (Ryusei-Go) moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "White Base"
+        outcome:
+          - "White Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 12
+    active_player: "GenocidGIC"
+    actions:
+      - action: "deploy"
+        card: "Delta Plus (Waverider Mode)"
+      - action: "pair_pilot"
+        pilot: "Riddhe Marcenas"
+        unit: "Delta Plus (Waverider Mode)"
+        linked: true
+      - action: "attack"
+        player: "GenocidGIC"
+        attacker: "Delta Plus (Waverider Mode)"
+        declared_target: "Gundam Barbatos 2nd Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 4 damage, now destroyed"
+          - "Delta Plus (Waverider Mode) received 4 damage, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Unicorn Gundam 02 Banshee Norn (Destroy Mode) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 14
+    active_player: "GenocidGIC"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Riddhe Marcenas"
+        unit: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        linked: true
+      - action: "attack"
+        player: "GenocidGIC"
+        attacker: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Barbatos Adapt"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Hyakuren"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "activate"
+        card: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        effects:
+          - "Set Active: Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+      - action: "attack"
+        player: "GenocidGIC"
+        attacker: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Barbatos Adapt"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Hyakuren"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode) received 2 damage, leaving 5 HP remaining"
+      - action: "activate"
+        card: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        effects:
+          - "Set Active: Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+      - action: "attack"
+        player: "GenocidGIC"
+        attacker: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Hyakuren"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 6 damage, now destroyed"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode) received 2 damage, leaving 3 HP remaining"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Unicorn Gundam 02 Banshee Norn (Destroy Mode) (reduced by 2)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zoloat (League Militaire) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Unicorn Gundam 02 Banshee Norn (Destroy Mode) revealed and discarded"
+  - turn: 16
+    active_player: "GenocidGIC"
+    actions:
+      - action: "deploy"
+        card: "The-O"
+      - action: "pair_pilot"
+        pilot: "Paptimus Scirocco"
+        unit: "The-O"
+        linked: true
+        effects:
+          - "Paptimus Scirocco: Modifier applied to: Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+      - action: "attack"
+        player: "GenocidGIC"
+        attacker: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Hyakuren"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Barbatos 1st Form"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Isaribi"
+        outcome:
+          - "Rested unit: Gundam Gusion Rebake"
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "activate"
+        card: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        effects:
+          - "Set Active: Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+      - action: "attack"
+        player: "GenocidGIC"
+        attacker: "Unicorn Gundam 02 Banshee Norn (Destroy Mode)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Hyakuren"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Barbatos 1st Form"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode): Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Rested unit: Gundam Barbatos 1st Form"
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode) received 1 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "GenocidGIC"
+        attacker: "The-O"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 7 damage, now destroyed"
+          - "The-O received 3 damage, leaving 4 HP remaining"
+        effects:
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode) repaired 2 from [Repair 2]"
+          - "The-O repaired 3 from [Repair 3]"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "No more shields available, game is over!"
+casualties:
+  GenocidGIC:
+    - card: "Zoloat (League Militaire)"
+      turn: 7
+    - card: "Forbidden Gundam"
+      turn: 9
+    - card: "Messala"
+      turn: 11
+    - card: "White Base"
+      turn: 11
+    - card: "Delta Plus (Waverider Mode)"
+      turn: 12
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 9
+    - card: "Gundam Exia Repair"
+      turn: 11
+    - card: "Gundam Exia Repair"
+      turn: 11
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 12
+    - card: "Isaribi"
+      turn: 14
+    - card: "Gundam Barbatos Adapt"
+      turn: 14
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 14
+    - card: "Isaribi"
+      turn: 16
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 16
+shields_tally:
+  GenocidGIC:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - "Ottava partita con v1_1, quarta vittoria (4-4) - rivincita immediata contro GenocidGIC, stesso mazzo Blu/Bianco Titans/Jupitris + Unicorn Gundam 02 Banshee Norn (Destroy Mode) della partita precedente. Vittoria netta: 0 shield perse da Kiraya contro le 6 di GenocidGIC."
+  - "Gundam Barbatos Lupus non è mai apparso in mano in questa partita (nessuna riga 'Gundam Barbatos Lupus deployed' in tutto il log) - eppure il mazzo ha comunque vinto in modo dominante. Dato importante in controtendenza: il piano-motore non è indispensabile ogni partita per vincere, quando il resto del piano curva bene."
+  - "Unicorn Gundam 02 Banshee Norn (Destroy Mode) ripete lo stesso pattern già visto nella partita precedente: si riattiva più volte nello stesso turno (3 attacchi al t14, altri 2 al t16) macinando corpi di Kiraya. Stavolta però Kiraya aveva già un vantaggio economico sufficiente (EX Base avversaria distrutta al t9, White Base avversaria distrutta al t11) da assorbire la perdita senza che pesasse sul risultato finale."
+  - "Scambio inefficiente segnalato: entrambe le copie di Gundam Exia Repair sono state spese nello stesso turno (t11) per uccidere un singolo Messala (2 attacchi da 2 danni ciascuno, Messala aveva Repair) - un 2-per-1 sfavorevole in termini di conteggio carte, anche se ciascun Exia Repair ha comunque attivato il proprio mill-on-death. Non ha compromesso la vittoria ma è un pattern da tenere d'occhio contro bersagli con rigenerazione."
+  - "Entrambe le Gundam Flauros (Ryusei-Go) calate questa partita (t11, t13) non hanno mai trovato un bersaglio per il proprio ping ('No targets for Gundam Flauros (Ryusei-Go)' entrambe le volte) - la loro sinergia dipende dalla presenza di bersagli in campo al momento del deploy, non garantita."
+  - "Le tre carte rimaste ambigue (Gundam, Forbidden Gundam, Riddhe Marcenas) sono le stesse della partita precedente contro lo stesso avversario, con la stessa mancanza di prove decisive nel log - probabile stesso mazzo, ma non confermabile riga per riga."

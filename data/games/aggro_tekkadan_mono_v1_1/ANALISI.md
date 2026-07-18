@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (7 partite, 3-4)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (8 partite, 4-4)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **7 sole partite** è troppo presto per isolare pattern affidabili;
+Con **8 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -33,6 +33,7 @@ sottocontano.
 | 5 | 07-17 | [liko](2026-07-17_kiraya-vs-liko.yaml) | **L** | 20 | Verde/Bianco, Londo Bell + Operation Meteor (Re-GZ family, Nu Gundam x2 stampe, Wing Gundam/Zero/Zero EW, Heero Yuy, Amuro Ray, Ra Cailum) | 0 / 0 | 11 / 5 | Svolta al t14: Nu Gundam LR uccide Lupus e 2nd Form nella stessa turno via un'abilità che salta dichiarazione/blocco; chiusa al t20 da Wing Gundam Zero (High-Maneuver) - stesso buco di block-bypass già visto vs sgd |
 | 6 | 07-17 | [Robotech](2026-07-17_kiraya-vs-robotech.yaml) | **L** | 20 | Blu/Bianco, SEED (Kira Yamato) + Orb/AEUG (Strike Freedom Gundam, Aile Strike Gundam, Strike Rouge x2, Freedom Gundam, Murasame/Andrew Waldfeld, Archangel) | 0 / 2 | 12 / 9 | Strike Freedom Gundam rimanda Lupus Rex (t14) e 1st Form (t16) nel mazzo - stesso problema-chiave di aggro_mono_p, non risolto dalle 5 copie totali di v1_1; saturazione avversaria da 3 shield in un turno (t20) chiude la partita |
 | 7 | 07-17 | [GenocidGIC](2026-07-17_kiraya-vs-genocidgic.yaml) | **W** | 23 | Blu/Bianco, Titans/Jupitris (The-O, Messala, Paptimus Scirocco, Delta Plus) + splash Unicorn Gundam 02 Banshee Norn (Destroy Mode), Gundam/Amuro Ray, Zoloat, Kindhearted, Corsica Base | 1 / 0 | 12 / 10 | Vittoria di sfinimento in 23 turni; t12 quasi-wipe da un Banshee che si riattiva 3 volte nello stesso turno, ma Barbatos Lupus torna in campo 4 volte distinte nel corso della partita e chiude comunque - miglior prova finora del piano-motore |
+| 8 | 07-17 | [GenocidGIC](2026-07-17_kiraya-vs-genocidgic-2.yaml) | **W** | 17 | Blu/Bianco, stesso mazzo Titans/Jupitris + Unicorn Gundam 02 Banshee Norn (rivincita) | 3 / 0 | 8 / 6 | Vittoria netta senza mai pescare Gundam Barbatos Lupus - il piano-motore non è indispensabile quando la curva di apertura regge; Banshee ripete il pattern di riattivazioni multiple ma stavolta non basta |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -161,6 +162,22 @@ sottocontano.
   separata subito dopo "Played base: Y" è il segnale per riconoscerlo
   nei prossimi import, dato che il risolutore automatico preferisce le
   stampe reali quando esistono e va corretto a mano in questi casi.
+- **Il piano-motore (Barbatos Lupus) non è indispensabile ogni partita**
+  (rivincita vs GenocidGIC, game 8): vittoria netta (0 shield perse)
+  senza che Lupus compaia mai in mano. Bilancia il timore emerso da
+  sgd/SaintAbbel (prime 3 partite senza vederlo) — quando l'apertura con
+  Exia Repair/corpi economici tiene il ritmo, il mazzo vince anche senza
+  il finisher dedicato.
+- **Stesso avversario, stesso giorno: pattern ripetuti confermano
+  l'identità del mazzo ma non aggiungono nuove informazioni sulle
+  stampe ambigue** (Gundam, Forbidden Gundam, Riddhe Marcenas restano
+  irrisolte in entrambe le partite vs GenocidGIC, sempre per mancanza
+  di prove dirette nel log, non per assenza di indizi circostanziali).
+- **Scambio inefficiente segnalato** (game 8): entrambe le copie di
+  Gundam Exia Repair spese nello stesso turno per uccidere un singolo
+  Messala con Repair (2-per-1 sfavorevole in conteggio carte, anche se
+  ogni copia ha comunque attivato il proprio mill-on-death) — da evitare
+  quando è disponibile un'alternativa più efficiente.
 
 ## Checklist provvisoria
 
