@@ -1,0 +1,812 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-18_kiraya-vs-olo"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    Olo:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Olo"
+    seen:
+      - "command"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: at t12, right after deploying and linking Kira Yamato, 'Selecting target for Aile Strike Gundam' is followed by 'Hyakuren returned to hand' - exact match for ST04-001's 【When Paired・Lv.4+ Pilot】'Choose 1 enemy Unit with 4 or less HP. Return it to its owner's hand.' (Hyakuren HP3). GD03-072's Deploy ability targets the controller's own hand (draw then discard), not an enemy unit, so doesn't fit."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Olo"
+    seen:
+      - "attacker"
+      - "deployed"
+  Archangel:
+    id: null
+    candidates:
+      - "GD05-123"
+      - "ST04-015"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log. All 3 deploys (t8, t12, t16) only show the shared 'Add 1 Shield to hand' Deploy effect, identical text on both candidates - no distinguishing trigger observed (Archangel is never Activated, and no effect-damage-prevention moment came up to test GD05-123's passive)."
+    owner: "Olo"
+    seen:
+      - "base"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "Olo"
+    seen:
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 5th Form (Ground Type)":
+    id: "GD03-066"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Olo"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "at least two distinct instances, can't be pinned to one id: t12/t14/t18 all show 'Kira Yamato: Modifier applied to: <target>' during battle declaration - matches only ST04-010's 【Attack】'Choose 1 enemy Unit. It gets AP-2 during this battle.' t16 instead shows 'Kira Yamato: Draw a card' on Link with no target/modifier - matches only GD05-081's 【When Linked】draw ability (Strike Freedom Gundam is an (Orb) Unit, qualifying). Same dual-print pattern already seen vs Robotech/TJL earlier in the campaign."
+    owner: "Olo"
+    seen:
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Olo"
+    seen:
+      - "command"
+      - "discarded"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Olo"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Olo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Strike Gundam":
+    id: "ST04-002"
+    note: "pinned: t14 deploy is immediately followed by 'Strike Gundam: Draw a card' then 'Selecting target for Strike Gundam' -> 'Strike Freedom Gundam discarded' - exact match for ST04-002's 【Deploy】'Draw 1. Then, discard 1.' GD01-077 has no effect text ('-')."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Olo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "resolved: matches the documented Linked-unit display-name quirk (CLAUDE.md) - the client shows '<base name> (<Pilot>'s Unit)' instead of the printed name when the Link condition is met. Search for 'Strike Rouge' turns up 'Kira's Strike Rouge' (GD05-010), whose link field is exactly '[Kira Yamato]'. Confirmed by exact combat math at t18: AP3(GD05-010)+AP2(Kira Yamato ST04-010)=5 dealt to Hyakuren; HP4+HP1=5 total, taking 2 damage (Hyakuren's AP4 reduced by 2 via Kira Yamato's own Attack modifier) leaves exactly 3."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Olo"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam Zero (EW)":
+    id: "GD05-067"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Olo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Olo"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Olo"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Olo"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "Olo"
+    actions:
+      - action: "attack"
+        player: "Olo"
+        attacker: "Rick Dias"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "play_command"
+        player: "Olo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Wing Gundam Zero (EW) discarded"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 8
+    active_player: "Olo"
+    actions:
+      - action: "play_base"
+        card: "Archangel"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Olo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Rick Dias discarded"
+      - action: "attack"
+        player: "Olo"
+        attacker: "Rick Dias"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "attack"
+        player: "Olo"
+        attacker: "Rick Dias"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Rick Dias"
+        blockers: "none"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Gundam Exia Repair: destroyed Rick Dias"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Gundam Exia Repair moved to trash"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Lfrith"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Rick Dias"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Lfrith received 3 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 4 damage, now destroyed"
+  - turn: 10
+    active_player: "Olo"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Wing Gundam Zero (EW)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+  - turn: 12
+    active_player: "Olo"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Hyakuren returned to hand"
+      - action: "play_base"
+        card: "Archangel"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Olo"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Olo"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Rested unit: Gundam Gusion Rebake"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Wing Gundam Zero (EW) received 3 damage, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Hyakuren and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos Adapt and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos Lupus and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Archangel received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 3 damage, now destroyed"
+  - turn: 14
+    active_player: "Olo"
+    actions:
+      - action: "deploy"
+        card: "Strike Gundam"
+        effects:
+          - "Strike Gundam: Draw a card"
+          - "Strike Freedom Gundam discarded"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Gundam"
+        linked: true
+      - action: "attack"
+        player: "Olo"
+        attacker: "Strike Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Strike Gundam received 1 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Strike Gundam"
+        blockers: "none"
+        final_target: "Strike Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Strike Gundam received 3 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam Zero (EW) revealed and discarded"
+  - turn: 16
+    active_player: "Olo"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Wing Gundam Zero (EW) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Olo"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Strike Gundam and Overflowing Affection discarded"
+          - "Graze Custom returned to deck"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 5 damage, leaving 3 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Olo"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Rested unit: Hyakuren"
+          - "Isaribi received 5 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_base"
+        card: "Archangel"
+        effects:
+          - "Shield card added to hand"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Wing Gundam Zero (EW)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Strike Freedom Gundam received 3 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Wing Gundam Zero (EW)"
+        blockers: "none"
+        final_target: "Wing Gundam Zero (EW)"
+        outcome:
+          - "Wing Gundam Zero (EW) received 4 damage, now destroyed"
+          - "Hyakuren received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 4 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 5th Form (Ground Type)"
+  - turn: 18
+    active_player: "Olo"
+    actions:
+      - action: "play_command"
+        player: "Olo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Graceful Demeanor discarded"
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Kira's Unit)"
+        linked: true
+      - action: "attack"
+        player: "Olo"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Hyakuren"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Strike Rouge (Kira's Unit) received 2 damage, leaving 3 HP remaining"
+      - action: "play_command"
+        player: "Olo"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Hyakuren and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Rouge (Kira's Unit), leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Kira's Unit)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Rick Dias revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 5th Form (Ground Type)"
+        declared_target: "player"
+        blockers: "none"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Gundam Barbatos 1st Form"
+      turn: 15
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+    - card: "Isaribi"
+      turn: 16
+    - card: "Gundam Barbatos 1st Form"
+      turn: 17
+    - card: "Hyakuren"
+      turn: 17
+    - card: "Hyakuren"
+      turn: 18
+  Olo:
+    - card: "Rick Dias"
+      turn: 9
+    - card: "Gundam Lfrith"
+      turn: 9
+    - card: "Archangel"
+      turn: 9
+    - card: "Rick Dias"
+      turn: 11
+    - card: "Wing Gundam Zero (EW)"
+      turn: 12
+    - card: "Archangel"
+      turn: 13
+    - card: "Strike Gundam"
+      turn: 15
+    - card: "Strike Freedom Gundam"
+      turn: 17
+    - card: "Wing Gundam Zero (EW)"
+      turn: 17
+    - card: "Archangel"
+      turn: 19
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+  Olo:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Diciannovesima partita con v1_1, undicesima vittoria (11-8). Olo Blu/Bianco, Earth Alliance/SEED con doppia stampa di Kira Yamato (Rick Dias, famiglia Strike/Aile Strike/Strike Freedom Gundam, Wing Gundam Zero EW, Archangel, Gundam Lfrith). Vittoria per shield-out netto: 1 shield rimasta contro 0."
+  - "Nessun errore tattico isolato individuato: trade sempre a favore o alla pari, incluso il t9 dove Gundam Exia Repair distrugge Rick Dias con il proprio effetto Attack anche mentre viene distrutto a sua volta."
+  - "Seconda doppia attivazione di Gundam Barbatos Lupus nello stesso turno in due partite consecutive (dopo desi, t15): al t13 la copia appena schierata si attiva due volte di fila (6 carte esiliate), concatenando i ping con Become a Shield per abbattere Aile Strike Gundam quasi a zero e liberare la strada per 2 attacchi diretti su Archangel. Pattern che inizia a sembrare un'esecuzione intenzionale ricorrente più che un'eccezione."
+  - "Variante inedita del bounce di Strike Freedom Gundam (problema strutturale numero 1 già in ANALISI): al t16 l'unità di livello più basso in campo di Kiraya (Graze Custom) viene 'returned to deck', non rimandata in mano come nelle partite precedenti (Robotech, Essen) - un effetto ancora più punitivo perché non è nemmeno ripescabile a comando, va rimescolata dal mazzo. Da verificare se è una stampa diversa di Strike Freedom o la stessa abilità con wording che il client mostra in modo incoerente tra partite."
+  - "Conferma diretta del quirk di visualizzazione già documentato in CLAUDE.md: 'Strike Rouge (Kira's Unit)' è la stessa identica istanza citata come esempio nelle istruzioni del progetto - risolta a Kira's Strike Rouge (GD05-010) con piena conferma aritmetica di combattimento (AP3+2=5, HP4+1=5-2=3)."

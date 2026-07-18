@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (18 partite, 10-8)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (19 partite, 11-8)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **18 sole partite** è troppo presto per isolare pattern affidabili;
+Con **19 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -44,6 +44,7 @@ sottocontano.
 | 16 | 07-17 | [xDEADHEADx](2026-07-17_kiraya-vs-xdeadheadx.yaml) | **W** | 16 | Viola/Verde, Neo Zeon (Char's Zaku Ⅱ + Char Aznable per High-Maneuver, Zeong con token, Sazabi, Jagd Doga/Geara Doga) | 4 / 0 | 8 / 8 | Vittoria pulita per shield-out; Char's Zaku Ⅱ linkato ottiene High-Maneuver a ogni attacco (t8, t10) - stesso buco di block-bypass già noto; l'abilità Attack di Sazabi al t16 fallisce contro Kiraya perché Lupus era l'unica unità in campo e quindi "impegnata in combattimento", non un bersaglio valido |
 | 17 | 07-17 | [jaysanti](2026-07-17_kiraya-vs-jaysanti.yaml) | **L** | 18 | Rosso/Bianco, Shuffle Alliance/G Gundam (Domon Kasshu, Master Asia, Shining Gundam x3 stampe, Rising Gundam, Dragon Gundam, Gundam Maxter) | 0 / 3 | 14 / 8 | Sconfitta per shield-out, non per High-Maneuver (zero istanze nel log, a differenza della diagnosi iniziale di Kiraya): decisa da un errore di blocco al t14 (Shiden Custom disponibile non usato contro Master Asia), dalla tech dell'avversario che resta i blocker di Kiraya prima di attaccare (Domon/Master Asia su Rising Gundam), e da Lupus mai pescato perché milled 2 volte dal proprio Exia Repair |
 | 18 | 07-18 | [desi](2026-07-18_kiraya-vs-desi.yaml) | **W** | 18 | Blu/Verde, Earth Federation/Londo Bell/AGE System (Gundam + Amuro Ray, famiglia AGE-1/AGE-2 Double Bullet, Re-GZ, Nu Gundam, Jegan, base Ra Cailum) | 4 / 1 | 8 / 9 | Vittoria per timeout dell'avversario al t18 da una posizione già nettamente vinta (4 shield contro 1); nessun errore tattico individuato; la seconda copia di Barbatos Lupus si attiva due volte nello stesso turno (t15), concatenando ping e attacchi per finire un solo bersaglio invece di disperderli |
+| 19 | 07-18 | [Olo](2026-07-18_kiraya-vs-olo.yaml) | **W** | 19 | Blu/Bianco, Earth Alliance/SEED con doppia stampa di Kira Yamato (Rick Dias, famiglia Strike/Aile Strike/Strike Freedom Gundam, Wing Gundam Zero EW, Archangel) | 1 / 0 | 12 / 10 | Vittoria per shield-out netto nonostante il bounce di Strike Freedom Gundam (qui "returned to deck", non in mano) al t16; seconda doppia attivazione di Lupus nello stesso turno in due partite di fila (t13); nessun errore tattico individuato |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -352,6 +353,23 @@ sottocontano.
   dalla resa vista contro 112t, anche se la posizione di Kiraya (4 shield
   contro 1) era comunque già decisamente favorevole indipendentemente dal
   timeout.
+- **Terza doppia attivazione di Lupus nello stesso turno, seconda partita
+  di fila** (vs Olo, t13, dopo desi t15): la copia appena schierata si
+  attiva due volte consecutive (6 carte esiliate), concatenando i ping
+  con Become a Shield per abbattere un bersaglio quasi a zero e aprire la
+  strada a 2 attacchi diretti sulla base nemica. Comincia a sembrare
+  un'esecuzione intenzionale ricorrente più che un'eccezione isolata.
+- **Variante inedita del bounce di Strike Freedom Gundam** (vs Olo, t16):
+  l'unità di livello più basso in campo (Graze Custom) viene "returned to
+  deck" invece che rimandata in mano come nelle partite precedenti
+  (Robotech, Essen) - un effetto ancora più punitivo, non è nemmeno
+  ripescabile a comando. Da verificare se è una stampa diversa
+  dell'abilità o solo un wording di log incoerente tra partite.
+- **Terza conferma diretta del quirk di visualizzazione Linked-unit già
+  in CLAUDE.md** (vs Olo): "Strike Rouge (Kira's Unit)" è la stessa
+  istanza citata come esempio nelle istruzioni del progetto - risolta a
+  Kira's Strike Rouge (GD05-010) con piena conferma aritmetica di
+  combattimento.
 
 ## Checklist provvisoria
 
