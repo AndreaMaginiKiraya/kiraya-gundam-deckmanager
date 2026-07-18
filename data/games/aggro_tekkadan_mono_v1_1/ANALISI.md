@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (10 partite, 5-5)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (11 partite, 5-6)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **10 sole partite** è troppo presto per isolare pattern affidabili;
+Con **11 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -36,6 +36,7 @@ sottocontano.
 | 8 | 07-17 | [GenocidGIC](2026-07-17_kiraya-vs-genocidgic-2.yaml) | **W** | 17 | Blu/Bianco, stesso mazzo Titans/Jupitris + Unicorn Gundam 02 Banshee Norn (rivincita) | 3 / 0 | 8 / 6 | Vittoria netta senza mai pescare Gundam Barbatos Lupus - il piano-motore non è indispensabile quando la curva di apertura regge; Banshee ripete il pattern di riattivazioni multiple ma stavolta non basta |
 | 9 | 07-17 | [dogman](2026-07-17_kiraya-vs-dogman.yaml) | **L** | 13 | Verde/Blu, Londo Bell/Zeon (Zaku Ⅱ, Jegan, Rick Dom x2, Gundam/Amuro Ray, Nu Gundam x2, Kayra's Re-GZ, Re-GZ) | 0 / 4 | 8 / 7 | Svolta t7: 3 attacchi consecutivi senza blocker disponibili spazzano via 3 unità in un colpo - sconfitta strutturale (mazzo senza Blocker), nessun errore tattico isolato dopo revisione |
 | 10 | 07-17 | [112t](2026-07-17_kiraya-vs-112t.yaml) | **W** | 14 | Rosso, Earth Alliance/Phantom Pain (Abyss/Chaos/Gaia Gundam, Auel Neider, Sting Oakley, Stellar Loussier, Exass, Girty Lue, Kindhearted) | 4 / 1 | 6 / 6 | Vittoria per resa dell'avversario al t14, non per shield-out - posizione già nettamente favorevole (4 shield contro 1); nessun errore tattico isolato, Lupus mai pescato in partita |
+| 11 | 07-17 | [loclee](2026-07-17_kiraya-vs-loclee.yaml) | **L** | 23 | Blu/Rosso, control/removal (Darkness Finger x3, Improved Technique, Close Combat x2, Strike Freedom Gundam, Unicorn Gundam 02 Banshee Destroy Mode) | 0 / 2 | 12 / 4 | Log troncato sul colpo di grazia, risultato impostato a mano; avversario che riunisce quasi tutti i problemi strutturali già noti del mazzo; unico errore reale al t14 (2nd Form sacrificato in un chip che Lupus da solo bastava a completare) |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -209,8 +210,22 @@ sottocontano.
   valore (Girty Lue, t9) invece del player quando conviene, e spendere
   l'unico blocco disponibile sul trade che uccide qualcosa (t12) anche
   quando non salva l'unità originariamente minacciata.
-
-## Checklist provvisoria
+- **Sconfitta-catalogo contro loclee**: quasi ogni problema strutturale
+  già documentato converge in un solo avversario — Darkness Finger
+  (rimozione ripetibile), Strike Freedom Gundam (bounce + pesca),
+  Unicorn Gundam 02 Banshee (Destroy Mode) (First Strike + riciclo
+  trash, stesso schema letale delle partite vs MMorelli in
+  `aggro_mono_p`). Unico errore reale isolato in tutta la partita: al
+  t14, attaccare con Gundam Barbatos 2nd Form contro un blocker noto
+  (Strike Rouge Ootori) prima di verificare se Gundam Barbatos Lupus, da
+  solo, sarebbe bastato a completare il kill (lo era: 4 danni contro
+  HP4 piena) — un'unità sacrificata per un chip rivelatosi ridondante.
+- **Seconda base che genera token dopo Corsica Base**: White Base
+  (ST01-015) genera un token Gundam/Guncannon/Guntank in base a quante
+  unità ha in campo il controllore quando attivata — stesso segnale già
+  noto ("X deployed" subito dopo "Activated: <base> / Rested N
+  Resources", senza deploy-da-mano separato) da riconoscere nei
+  prossimi import.
 
 Ereditata da `aggro_mono_p` finché non emergono differenze specifiche
 per v1_1:

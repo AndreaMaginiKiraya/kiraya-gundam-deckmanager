@@ -1,0 +1,899 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-loclee"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:loclee"
+  players:
+    loclee:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "loclee"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "loclee"
+    seen:
+      - "command"
+  "Battle of Aces":
+    id: "GD01-111"
+    type: "COMMAND"
+    level: 3
+    cost: 2
+    owner: "loclee"
+    seen:
+      - "discarded"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "loclee"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "loclee"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Guncannon:
+    id: "T-002"
+    note: "pinned to the UNIT TOKEN, not a real printing: 'Guncannon deployed' fires right after 'Activated: White Base / Rested 2 Resources' (t19), matching White Base's own Activate ability verbatim ('deploy 1 [Guncannon] ((White Base Team)*AP2*HP2) Unit token if you have only 1 Unit in play'). Same resolver limitation already seen with Corsica Base/Tallgeese: real 'Guncannon' printings exist, so the automatic resolver preferred those over the token."
+    type: "UNIT TOKEN"
+    ap: 2
+    hp: 2
+    owner: "loclee"
+    seen:
+      - "deployed"
+  Gundam:
+    id: "T-001"
+    note: "pinned to the UNIT TOKEN, not a real printing: 'Gundam deployed' fires right after 'Activated: White Base / Rested 2 Resources' (t21), matching White Base's own Activate ability verbatim ('deploy 1 [Gundam] ((White Base Team)*AP3*HP3) Unit token if you have no Units in play'). Same pattern as Guncannon above."
+    type: "UNIT TOKEN"
+    ap: 3
+    hp: 3
+    owner: "loclee"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 5th Form (Ground Type)":
+    id: "GD03-066"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "loclee"
+    seen:
+      - "command"
+      - "discarded"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  Kindhearted:
+    id: "GD04-101"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "loclee"
+    seen:
+      - "command"
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "pinned: ST04-010 is White, ruled out by the 1-2-color deck rule (loclee is Blue/Red). Also matches ability: 'Kira Yamato: Draw a card' fires immediately on Link (t23) - GD05-081's own 【When Linked】'if this is an (Orb)/(Triple Ship Alliance) Unit, draw 1' (Strike Freedom Gundam is (Orb)). ST04-010 has no Link-triggered draw at all."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "loclee"
+    seen:
+      - "pilot"
+  Kshatriya:
+    id: "GD01-044"
+    note: "pinned: both deployments (t9, t15) show 'Linked pilot: Marida Cruz on unit Kshatriya' immediately followed by 'Kshatriya: Dealt 1 damage to: A and B' - matching only GD01-044's own 【When Paired・(Cyber-Newtype)/(Newtype) Pilot】'choose 1 to 2 enemy Units, deal 1 damage to them'. GD01-051 has no ability text at all."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "loclee"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "loclee"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "loclee"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "loclee"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "loclee"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "White Base":
+    id: "ST01-015"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "loclee"
+    seen:
+      - "activated"
+      - "base"
+setup:
+  - player: "loclee"
+    action: "choose_first_player"
+  - player: "loclee"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "loclee"
+    actions:
+      - action: "play_command"
+        player: "loclee"
+        card: "Airframe Seizure"
+        effects:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "loclee"
+    actions:
+      - action: "play_command"
+        player: "loclee"
+        card: "Airframe Seizure"
+        effects:
+          - "Kshatriya discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "loclee"
+    actions:
+      - action: "play_command"
+        player: "loclee"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+  - turn: 7
+    active_player: "loclee"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "loclee"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 2 HP remaining"
+          - "Gundam Barbatos Adapt received 3 damage, leaving 1 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 2nd Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 2nd Form and Strike Rouge (Ootori)"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos 2nd Form and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Marida Cruz revealed"
+          - "Shield card added to hand: Marida Cruz"
+  - turn: 9
+    active_player: "loclee"
+    actions:
+      - action: "deploy"
+        card: "Kshatriya"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Kshatriya"
+        linked: true
+        effects:
+          - "Kshatriya: Dealt 1 damage to: Gundam Barbatos 2nd Form and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "loclee"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Barbatos 2nd Form, leaving 1 HP remaining"
+          - "Isaribi received 7 damage, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "Kshatriya"
+        blockers: "none"
+        final_target: "Kshatriya"
+        outcome:
+          - "Kshatriya received 6 damage, now destroyed"
+          - "Gundam Barbatos 2nd Form received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 11
+    active_player: "loclee"
+    actions:
+      - action: "play_command"
+        player: "loclee"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "loclee"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Shiden Custom (Ryusei-Go), now destroyed"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+  - turn: 13
+    active_player: "loclee"
+    actions:
+      - action: "play_command"
+        player: "loclee"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Strike Rouge (Ootori)"
+        linked: false
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 3 HP remaining"
+          - "Gundam Barbatos 2nd Form received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 2nd Form, Shiden Custom (Ryusei-Go) and Gundam Barbatos 2nd Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Rouge (Ootori), leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Graze Custom and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Rouge (Ootori), now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kindhearted revealed"
+          - "Kindhearted: Draw a card"
+          - "Shield card: Kindhearted moved to trash"
+  - turn: 15
+    active_player: "loclee"
+    actions:
+      - action: "deploy"
+        card: "Kshatriya"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Kshatriya"
+        linked: true
+        effects:
+          - "Kshatriya: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Gundam Barbatos Lupus"
+      - action: "play_command"
+        player: "loclee"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus, leaving 2 HP remaining"
+      - action: "play_command"
+        player: "loclee"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "loclee"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Shiden Custom (Ryusei-Go), leaving 1 HP remaining"
+          - "Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "loclee"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Shiden Custom (Ryusei-Go), now destroyed"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 5th Form (Ground Type)"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 17
+    active_player: "loclee"
+    actions:
+      - action: "play_command"
+        player: "loclee"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Kshatriya and Strike Freedom Gundam"
+      - action: "attack"
+        player: "loclee"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Ryusei-Go (Graze Custom Ⅱ) and Graze Custom moved to trash"
+          - "Isaribi received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 5th Form (Ground Type)"
+        declared_target: "Kshatriya"
+        blockers: "none"
+        final_target: "Kshatriya"
+        outcome:
+          - "Kshatriya received 5 damage, now destroyed"
+          - "Gundam Barbatos 5th Form (Ground Type) received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+  - turn: 19
+    active_player: "loclee"
+    actions:
+      - action: "play_base"
+        card: "White Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "White Base"
+        effects:
+          - "Rested 2 Resources"
+      - action: "deploy"
+        card: "Guncannon"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "play_command"
+        player: "loclee"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+      - action: "attack"
+        player: "loclee"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 5 damage, now destroyed"
+          - "Strike Freedom Gundam received 2 damage, leaving 4 HP remaining"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 4 damage, now destroyed"
+          - "Hyakuren received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_command"
+        player: "loclee"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 21
+    active_player: "loclee"
+    actions:
+      - action: "activate"
+        card: "White Base"
+        effects:
+          - "Rested 2 Resources"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "play_command"
+        player: "loclee"
+        card: "Airframe Seizure"
+        effects:
+          - "Improved Technique discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "loclee"
+        card: "Airframe Seizure"
+        effects:
+          - "Battle of Aces discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "loclee"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Unicorn Gundam 02 Banshee (Destroy Mode)"
+  - turn: 23
+    active_player: "loclee"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Unicorn Gundam 02 Banshee (Destroy Mode) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "attack"
+        player: "loclee"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "shield"
+        outcome:
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Marida Cruz: Dealt 1 damage to Gundam Gusion Rebake, leaving 3 HP remaining"
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_command"
+        player: "loclee"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Gusion Rebake, leaving 1 HP remaining"
+      - action: "attack"
+        player: "loclee"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "shield"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Gusion Rebake, now destroyed"
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "loclee"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Marida Cruz"
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "loclee"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+casualties:
+  loclee:
+    - card: "Kshatriya"
+      turn: 10
+    - card: "Strike Rouge (Ootori)"
+      turn: 14
+    - card: "Kshatriya"
+      turn: 18
+    - card: "Strike Freedom Gundam"
+      turn: 20
+    - card: "Strike Rouge (Ootori)"
+      turn: 20
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 5
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Isaribi"
+      turn: 9
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 15
+    - card: "Gundam Exia Repair"
+      turn: 17
+    - card: "Isaribi"
+      turn: 17
+    - card: "Gundam Barbatos 5th Form (Ground Type)"
+      turn: 18
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 19
+    - card: "Hyakuren"
+      turn: 20
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 20
+    - card: "Gundam Barbatos 1st Form"
+      turn: 20
+    - card: "Gundam Gusion Rebake"
+      turn: 23
+shields_tally:
+  loclee:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "replaced with a base (turn 4)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Undicesima partita con v1_1, sesta sconfitta (5-6). loclee Blu/Rosso, un mazzo che riunisce quasi tutti i problemi strutturali già catalogati per questo mazzo: Darkness Finger (rimozione ripetibile da 2 danni, giocata 3 volte), Improved Technique e Close Combat (altra rimozione diretta, 3 volte in totale), Strike Freedom Gundam (bounce + motore di pesca), e Unicorn Gundam 02 Banshee (Destroy Mode) con First Strike e riciclo del trash (stesso nucleo già visto letale contro MMorelli in aggro_mono_p). Log troncato esattamente sul colpo di grazia (Kiraya già a 0 shield, Strike Freedom Gundam non bloccabile in arrivo) - risultato impostato a mano come sconfitta."
+  - "Unico errore tattico individuato: al t14, Gundam Barbatos 2nd Form attacca contro Strike Rouge (Ootori) sapendo che verrà bloccato, e muore per un chip di 2 danni - ma Gundam Barbatos Lupus, dispiegato e attivato due volte nello stesso turno subito dopo, infligge da solo 4 danni a Ootori (HP4 piena), sufficienti a ucciderla senza bisogno del contributo di 2nd Form. L'ordine delle azioni (attaccare con 2nd Form prima di sapere/decidere se Lupus sarebbe bastato da solo) ha sacrificato un'unità per un chip che si è rivelato ridondante."
+  - "Ogni altra perdita di unità in questa partita è arrivata da comandi di rimozione diretta o dall'abilità di un'unità nemica durante il turno di loclee, senza alcuna finestra di decisione per Kiraya (nessun blocco disponibile, nessuna scelta di bersaglio alternativa) - non ci sono altri errori individuabili."
+  - "Il turno 23 (Unicorn Gundam 02 Banshee Destroy Mode, GD01-003) mostra il meccanismo completo: 'ritorna 12 carte dal trash in fondo al mazzo, si riattiva, ottiene First Strike' ripetuto 3 volte nello stesso turno - identico schema già letale nelle partite contro MMorelli, confermando che resta un buco strutturale del mazzo senza contromossa, non un problema di sequenza di gioco."
