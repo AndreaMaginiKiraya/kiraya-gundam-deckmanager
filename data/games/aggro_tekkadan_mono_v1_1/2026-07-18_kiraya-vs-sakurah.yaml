@@ -1,0 +1,616 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-18_kiraya-vs-sakurah"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Sakurah:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "at least two distinct instances, same pattern as vs desi/MrCross00 (2026-07-18): both Nu Gundam links (t10, t12) trigger 'Healed 2 damage to: Nu Gundam' right after destroying an enemy Unit with battle damage - matches only GD05-085. The t12 Pair on Jegan instead triggers 'Rested unit: Gundam Barbatos 1st Form' (HP2 <=5) - matches only ST01-010's 【When Paired】text. Both prints in play the same game."
+    owner: "Sakurah"
+    seen:
+      - "pilot"
+      - "shield"
+  "Asemu Asuno":
+    id: "GD03-088"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sakurah"
+    seen:
+      - "pilot"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam AGE-1 Normal":
+    id: "GD02-021"
+    note: "pinned, same pattern as vs desi (2026-07-18): the t4 deploy is immediately followed by 'Selecting target for Gundam AGE-1 Normal' -> 'Gundam AGE-2 Normal discarded' -> 'Placed 1 Resource EX' - exact match for GD02-021's Deploy ability (discard 1 green EF Unit, place 1 EX Resource). GD02-029 has no effect and needs no target selection."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Sakurah"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam AGE-2 Normal":
+    id: "GD03-019"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Sakurah"
+    seen:
+      - "discarded"
+  "Gundam AGE-2 Normal (SP Ver.)":
+    id: "GD05-024"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Sakurah"
+    seen:
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Barbatos 5th Form (Ground Type)":
+    id: "GD03-066"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Jegan:
+    id: "GD05-027"
+    note: "pinned: at t9, 'Battle declared: Gundam Barbatos Adapt against Jegan' resolves as 'Jegan received 2 damage, now destroyed'. GD05-027 has HP2, an exact kill. GD01-016 has HP3 and would have SURVIVED 2 damage at 1 HP - the log's explicit 'now destroyed' rules it out decisively, not just a weaker match."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Sakurah"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "at least two instances, only one pinnable: the t12 copy shows 'Nu Gundam deployed' -> 'Placed 1 Resource EX' - exact match for GD05-020's Deploy ability. The t10 copy has no such trigger and its combat numbers (7 AP dealt, 'leaving 3 HP remaining' after 4 damage, i.e. HP total 7) don't cleanly match either candidate + either Amuro Ray print - same unexplained AP/HP discrepancy already flagged for 'Gundam' vs desi and vs MrCross00 (2026-07-18). Left null rather than force a pick for the whole card name."
+    owner: "Sakurah"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Sakurah"
+    seen:
+      - "base"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Sakurah"
+    seen:
+      - "deployed"
+  "Ride Mass":
+    id: "GD05-117"
+    note: "pilot mode of the COMMAND card 'Become a Shield'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+setup:
+  - player: "Sakurah"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Sakurah"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Sakurah"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Sakurah"
+    actions:
+      - action: "attack"
+        player: "Sakurah"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam AGE-1 Normal"
+        effects:
+          - "Gundam AGE-2 Normal discarded"
+          - "Placed 1 Resource EX"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "Sakurah"
+    actions:
+      - action: "deploy"
+        card: "Gundam AGE-1 Normal"
+      - action: "pair_pilot"
+        pilot: "Asemu Asuno"
+        unit: "Gundam AGE-1 Normal"
+        linked: true
+      - action: "attack"
+        player: "Sakurah"
+        attacker: "Gundam AGE-1 Normal"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 5 damage, now destroyed"
+          - "Gundam AGE-1 Normal received 2 damage, leaving 1 HP remaining"
+          - "Breach 1: : EX Base received 1 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Ryusei-Go (Graze Custom Ⅱ) moved to trash"
+      - action: "attack"
+        player: "Sakurah"
+        attacker: "Gundam AGE-1 Normal"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 2nd Form revealed and discarded"
+      - action: "attack"
+        player: "Sakurah"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam AGE-1 Normal"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Gundam AGE-1 Normal"
+        blockers: "none"
+        final_target: "Gundam AGE-1 Normal"
+        outcome:
+          - "Gundam AGE-1 Normal received 4 damage, now destroyed"
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+  - turn: 8
+    active_player: "Sakurah"
+    actions:
+      - action: "attack"
+        player: "Sakurah"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Re-GZ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Jegan"
+        blockers: "none"
+        final_target: "Jegan"
+        outcome:
+          - "Jegan received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 2 damage, leaving 2 HP remaining"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ"
+          - "Card added to hand: Jegan"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+  - turn: 10
+    active_player: "Sakurah"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "Sakurah"
+        attacker: "Nu Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Nu Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Ra Cailum received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos 5th Form (Ground Type) discarded"
+      - action: "pair_pilot"
+        pilot: "Ride Mass"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+  - turn: 12
+    active_player: "Sakurah"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "Sakurah"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 4 HP remaining"
+          - "Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "deploy"
+        card: "Jegan"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Jegan"
+        linked: false
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam AGE-2 Normal (SP Ver.) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+casualties:
+  Sakurah:
+    - card: "Gundam AGE-1 Normal"
+      turn: 7
+    - card: "Jegan"
+      turn: 9
+    - card: "Nu Gundam"
+      turn: 11
+    - card: "Ra Cailum"
+      turn: 11
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 10
+    - card: "Isaribi"
+      turn: 10
+    - card: "Gundam Barbatos 1st Form"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+shields_tally:
+  Sakurah:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Ventitreesima partita con v1_1, quindicesima vittoria (14-9). Sakurah mono-Verde, Earth Federation/Londo Bell (Jegan, Gundam AGE-1 Normal + Asemu Asuno, Re-GZ, Nu Gundam + Amuro Ray). Vittoria per shield-out netto al t13: 1 shield rimasta contro 0, dopo una partita punto a punto sulle unità (5 perse per Kiraya, 4 per Sakurah) ma mai in bilico sulle shield."
+  - "MVP della partita: Gundam Barbatos 1st Form. La sua abilità Attack (pesca 1 carta) si attiva almeno 6 volte nel corso della partita grazie a più copie che si alternano in campo (t9 x2, t11 x2, t13 x2) - il motore di pesca più prolifico osservato finora nel campione v1_1, anche se è un effetto collaterale della carta specifica e non un vero motore di card-advantage dedicato (il problema strutturale resta comunque catalogato in ANALISI)."
+  - "Trade decisivo al t11: Gundam Barbatos 1st Form contro Nu Gundam, entrambi distrutti - rimuove la minaccia più pericolosa dell'avversario (Nu Gundam, che aveva già ucciso Hyakuren e Isaribi al t10) in cambio di una copia facilmente sostituibile grazie al motore di pesca sopra descritto."
+  - "Terza conferma nella stessa giornata di due stampe di Amuro Ray nella stessa partita (dopo desi e MrCross00): stesso pattern, GD05-085 (cura su distruzione) sui link a Nu Gundam, ST01-010 (rest su unità nemica) sul pair a Jegan."
+  - "Terza ricorrenza dello stesso enigma aritmetico AP/HP non risolto (dopo 'Gundam' vs desi e MrCross00): la prima copia di Nu Gundam (t10) infligge 7 danni e sopravvive a 3 HP dopo averne presi 4, numeri che non tornano con nessuna combinazione stampa-base + Amuro Ray. La seconda copia (t12) invece si lascia pinnare senza ambiguità dal trigger di Deploy ('Placed 1 Resource EX', esclusivo di GD05-020)."
+  - "Jegan finalmente risolto con certezza (metodo più pulito delle volte precedenti): a differenza del caso vs Olo dove entrambe le stampe morivano comunque a 3 danni, qui SOLO GD05-027 (HP2) muore esattamente a 2 danni - GD01-016 (HP3) sarebbe sopravvissuto. Il log dice esplicitamente 'now destroyed', quindi la stampa è inequivocabile."
+  - "Gundam Barbatos Lupus e Ryusei-Go (Graze Custom II) entrambi milled dal proprio Gundam Exia Repair già al t6 - variante del pattern già visto vs Nate (mill che nega l'accesso a due carte diverse invece che al solo piano-motore), ma la partita si vince comunque senza problemi."

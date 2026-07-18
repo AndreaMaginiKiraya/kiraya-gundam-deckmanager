@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (22 partite, 13-9)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (23 partite, 14-9)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **22 sole partite** è troppo presto per isolare pattern affidabili;
+Con **23 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -48,6 +48,7 @@ sottocontano.
 | 20 | 07-18 | [MrCross00](2026-07-18_kiraya-vs-mrcross00.yaml) | **W** | 13 | Blu/Verde, Londo Bell/Earth Federation (Gundam + Amuro Ray, Jegan, Nu Gundam, Re-GZ/Re-GZ BWS, Zeong, Ra Cailum) | 6 / 0 | 3 / 2 | Vittoria totale in 13 turni, 0 shield perse ed EX Base mai distrutta, senza mai pescare né Barbatos Lupus né il pacchetto Blocker - solo pressione da apertura; stessa identità ambigua irrisolta di "Gundam" già vista vs desi lo stesso giorno, con lo stesso identico numero di danno (6) osservato in entrambe le partite |
 | 21 | 07-18 | [Nate](2026-07-18_kiraya-vs-nate.yaml) | **W** | 11 | Blu/Rosso, League Militaire (Gadeel, famiglia Victory Gundam/V2 Gundam + Üso Ewin) | 4 / 0 | 4 / 3 | Vittoria per shield-out netto in 11 turni nonostante un quasi-wipe al t10 (3 unità perse nello stesso turno) e sia Lupus che Barbatos Adapt persi al mill-on-death di Exia Repair fin dal t7 - il piano-motore era morto in partenza, la pressione pura ha chiuso comunque; nessun errore tattico individuato |
 | 22 | 07-18 | [KUMA](2026-07-18_kiraya-vs-kuma.yaml) | **L** | 14 | Viola/Bianco, Operation Meteor/G Team Gundam Wing EW (doppio Gundam Heavyarms Custom (EW), Gundam Sandrock Custom (EW), Wing Gundam Zero (EW) + Heero Yuy, GN Armor Type-E) | 1 / 2 | 9 / 1 | Sconfitta per shield-out; revisione richiesta da Kiraya convinto di propri errori, ma nessuna sequenza chiaramente sbagliata trovata - decisa da mill sfortunato (entrambe le copie di Lupus in trash al t6), una combo debuff-poi-distruggi intenzionale (Heavyarms + GN Armor Type-E) e doppio debuff ripetibile (2x Heavyarms + Sandrock) |
+| 23 | 07-18 | [Sakurah](2026-07-18_kiraya-vs-sakurah.yaml) | **W** | 13 | Mono-Verde, Earth Federation/Londo Bell (Jegan, Gundam AGE-1 Normal + Asemu Asuno, Re-GZ, Nu Gundam + Amuro Ray) | 1 / 0 | 5 / 4 | Vittoria per shield-out netto; Gundam Barbatos 1st Form pesca almeno 6 volte nel corso della partita grazie a più copie in rotazione, il motore di pesca più prolifico visto finora nel campione; trade decisivo al t11 (Barbatos 1st Form contro Nu Gundam) rimuove la minaccia principale avversaria |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -426,6 +427,22 @@ sottocontano.
   Gundam Gusion Rebake con la propria abilita prima che possa essere
   assegnato come blocco - stessa famiglia della tech di Domon/Master Asia
   su Rising Gundam vista due partite fa.
+- **Motore di pesca incidentale piu prolifico del campione** (vs
+  Sakurah): l'abilita Attack di Gundam Barbatos 1st Form (pesca 1) si
+  attiva almeno 6 volte in una singola partita grazie a piu copie in
+  rotazione (t9 x2, t11 x2, t13 x2) - non e un vero motore dedicato di
+  card-advantage (il problema resta in checklist), ma mostra quanto la
+  sola densita di copie di una carta con quell'abilita possa avvicinarsi
+  all'effetto di un motore di pesca strutturale.
+- **Quarta ricorrenza dello stesso enigma aritmetico AP/HP non risolto**
+  (vs Sakurah, dopo "Gundam" vs desi e MrCross00 lo stesso giorno): una
+  copia di Nu Gundam (t10) infligge 7 danni e sopravvive a 3 HP dopo
+  averne presi 4, numeri che non tornano con nessuna combinazione
+  stampa-base + Amuro Ray - la seconda copia (t12) invece si pinna senza
+  ambiguita dal trigger di Deploy ("Placed 1 Resource EX").
+- **Terzo caso della stessa giornata di due stampe di Amuro Ray nella
+  stessa partita** (dopo desi e MrCross00): stesso pattern di sempre,
+  GD05-085 (cura su distruzione) e ST01-010 (rest su unita nemica).
 
 ## Checklist provvisoria
 
