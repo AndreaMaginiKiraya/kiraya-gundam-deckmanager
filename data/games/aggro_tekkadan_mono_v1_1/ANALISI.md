@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (9 partite, 4-5)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (10 partite, 5-5)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **9 sole partite** è troppo presto per isolare pattern affidabili;
+Con **10 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -34,7 +34,8 @@ sottocontano.
 | 6 | 07-17 | [Robotech](2026-07-17_kiraya-vs-robotech.yaml) | **L** | 20 | Blu/Bianco, SEED (Kira Yamato) + Orb/AEUG (Strike Freedom Gundam, Aile Strike Gundam, Strike Rouge x2, Freedom Gundam, Murasame/Andrew Waldfeld, Archangel) | 0 / 2 | 12 / 9 | Strike Freedom Gundam rimanda Lupus Rex (t14) e 1st Form (t16) nel mazzo - stesso problema-chiave di aggro_mono_p, non risolto dalle 5 copie totali di v1_1; saturazione avversaria da 3 shield in un turno (t20) chiude la partita |
 | 7 | 07-17 | [GenocidGIC](2026-07-17_kiraya-vs-genocidgic.yaml) | **W** | 23 | Blu/Bianco, Titans/Jupitris (The-O, Messala, Paptimus Scirocco, Delta Plus) + splash Unicorn Gundam 02 Banshee Norn (Destroy Mode), Gundam/Amuro Ray, Zoloat, Kindhearted, Corsica Base | 1 / 0 | 12 / 10 | Vittoria di sfinimento in 23 turni; t12 quasi-wipe da un Banshee che si riattiva 3 volte nello stesso turno, ma Barbatos Lupus torna in campo 4 volte distinte nel corso della partita e chiude comunque - miglior prova finora del piano-motore |
 | 8 | 07-17 | [GenocidGIC](2026-07-17_kiraya-vs-genocidgic-2.yaml) | **W** | 17 | Blu/Bianco, stesso mazzo Titans/Jupitris + Unicorn Gundam 02 Banshee Norn (rivincita) | 3 / 0 | 8 / 6 | Vittoria netta senza mai pescare Gundam Barbatos Lupus - il piano-motore non è indispensabile quando la curva di apertura regge; Banshee ripete il pattern di riattivazioni multiple ma stavolta non basta |
-| 9 | 07-17 | [dogman](2026-07-17_kiraya-vs-dogman.yaml) | **L** | 13 | Verde/Blu, Londo Bell/Zeon (Zaku Ⅱ, Jegan, Rick Dom x2, Gundam/Amuro Ray, Nu Gundam x2, Kayra's Re-GZ, Re-GZ) | 0 / 4 | 8 / 7 | Svolta t7: 3 attacchi consecutivi senza blocker disponibili spazzano via 3 unità in un colpo; Ryusei-Go scarta Gundam Barbatos Lupus per scelta al t12, mai più visto; nessun attacco dichiarato al t10 con Shiden Custom sano disponibile |
+| 9 | 07-17 | [dogman](2026-07-17_kiraya-vs-dogman.yaml) | **L** | 13 | Verde/Blu, Londo Bell/Zeon (Zaku Ⅱ, Jegan, Rick Dom x2, Gundam/Amuro Ray, Nu Gundam x2, Kayra's Re-GZ, Re-GZ) | 0 / 4 | 8 / 7 | Svolta t7: 3 attacchi consecutivi senza blocker disponibili spazzano via 3 unità in un colpo - sconfitta strutturale (mazzo senza Blocker), nessun errore tattico isolato dopo revisione |
+| 10 | 07-17 | [112t](2026-07-17_kiraya-vs-112t.yaml) | **W** | 14 | Rosso, Earth Alliance/Phantom Pain (Abyss/Chaos/Gaia Gundam, Auel Neider, Sting Oakley, Stellar Loussier, Exass, Girty Lue, Kindhearted) | 4 / 1 | 6 / 6 | Vittoria per resa dell'avversario al t14, non per shield-out - posizione già nettamente favorevole (4 shield contro 1); nessun errore tattico isolato, Lupus mai pescato in partita |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -186,23 +187,28 @@ sottocontano.
   (ping di Ryusei-Go su 2nd Form per il bonus AP+2, attacco di Hyakuren
   su Jegan per rimuovere una minaccia) erano corrette — il problema è
   di lista, non di sequenza di gioco.
-- **Scarto volontario del finisher principale** (vs dogman, t12):
-  Ryusei-Go (Deploy: pesca 1, poi scarta 1 a scelta) ha scartato Gundam
-  Barbatos Lupus, mai più visto per il resto della partita — un rischio
-  che il giocatore controlla direttamente (lo scarto è una scelta, non
-  casuale), da valutare con più attenzione quando Lupus è nella mano al
-  momento della pesca.
-- **Turno senza attacchi con un attaccante sano disponibile** (vs
-  dogman, t10): Shiden Custom (Ryusei-Go), schierato al t8 e quindi già
-  libero di attaccare, è rimasto inattivo per l'intero turno — stesso
-  errore-tipo già in checklist da `aggro_mono_p` ("non c'è motivo di
-  passare senza attaccare se il board avversario è esposto").
+- **Due ipotesi di errore ritrattate dopo revisione con Kiraya** (vs
+  dogman): lo scarto di Gundam Barbatos Lupus al t12 (via Ryusei-Go) non
+  era un rischio — ne aveva un'altra copia in mano. E il non aver
+  attaccato con Shiden Custom al t10 non era un turno sprecato, ma una
+  scelta deliberata per tenerlo attivo come blocco al turno successivo
+  (dove infatti blocca, vedi sotto). Con queste due correzioni, questa
+  sconfitta non ha errori tattici individuabili lato Kiraya — resta una
+  sconfitta strutturale (nessuna unità Blocker nel mazzo, t7).
 - **Buona lettura del blocco quando la scelta è tra due bersagli**
   (vs dogman, t11): con un solo blocker disponibile per due attacchi
   dichiarati, bloccare l'unità che si può davvero uccidere (Nu Gundam,
   trade netto) invece di quella che sopravvivrebbe comunque al colpo
   (Gundam, con Repair 2 e HP5) — lasciando che una base sacrificabile
   assorba il colpo altrimenti inevitabile — è la sequenza corretta.
+- **Prima vittoria per resa dell'avversario nel campione** (vs 112t,
+  t14): non uno shield-out, ma una resa con Kiraya già a 4 shield contro
+  1 e un board nettamente più sano — una posizione da cui la vittoria
+  era comunque vicina indipendentemente dal singolo colpo finale. Stesso
+  pattern di esecuzione pulita già visto altrove: attaccare le basi di
+  valore (Girty Lue, t9) invece del player quando conviene, e spendere
+  l'unico blocco disponibile sul trade che uccide qualcosa (t12) anche
+  quando non salva l'unità originariamente minacciata.
 
 ## Checklist provvisoria
 
@@ -221,10 +227,9 @@ per v1_1:
    consecutivi va subito per intero, senza contromossa possibile. Non
    c'è una giocata che lo prevenga — solo saturare prima e correre più
    veloce.
-6. Prima di scartare con effetti "pesca 1, poi scarta 1" (Ryusei-Go e
-   simili): controllare se Gundam Barbatos Lupus/Lupus Rex è tra le
-   carte in mano prima di scegliere cosa scartare — è il pezzo più
-   difficile da rimpiazzare.
-7. Se un'unità sana è libera di attaccare a fine turno, dichiara
-   l'attacco anche contro un board con bloccanti potenziali: forzare
-   una decisione all'avversario vale più di un turno passato a vuoto.
+6. Con effetti "pesca 1, poi scarta 1" (Ryusei-Go e simili): scartare
+   una copia di Lupus/Lupus Rex va bene se se ne ha un'altra in mano —
+   il rischio reale è solo quando è l'ultima copia rimasta.
+7. Tenere un'unità sana inattiva a fine turno per usarla come blocco al
+   turno successivo è una scelta legittima, non un turno sprecato —
+   valutare caso per caso se attaccare subito o riservarla alla difesa.
