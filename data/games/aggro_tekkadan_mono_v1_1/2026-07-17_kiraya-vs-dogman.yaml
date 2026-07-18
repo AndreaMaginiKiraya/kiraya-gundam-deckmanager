@@ -1,0 +1,577 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-dogman"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:dogman"
+  players:
+    dogman:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: 'Selecting target for Amuro Ray / Rested unit: Gundam Barbatos 2nd Form' (t7) matches ST01-010's When-Paired 'choose 1 enemy Unit with 5 or less HP, rest it' (2nd Form HP4). GD05-085's ability (recover 2 HP on kill) has no rest effect at all."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "dogman"
+    seen:
+      - "pilot"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Gundam:
+    id: "ST01-001"
+    note: "pinned: 'Gundam repaired 2 from [Repair 2]' fires twice (end of t7, end of t9), matching only ST01-001's own printed <Repair 2>. GD01-001 only grants <Repair 1> to White Base Team units (itself included); GD01-013/GD04-001/GD04-008 have no Repair keyword at all. Same identification already made for GenocidGIC's copy earlier the same day."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "dogman"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: dogman's deck is confirmed Green/Blue (both colors), so color can't narrow it here (GD01-016 Blue, GD05-027 Green). Only ever seen deployed/destroyed by overkill damage and revealed as a shield - neither candidate's ability (a cost-reduction static text vs no ability at all) ever had an occasion to show in the log."
+    owner: "dogman"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "dogman"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Nu Gundam":
+    id: "GD05-020"
+    note: "pinned: both instances deployed this game (t9, t13) show 'Placed 1 Resource EX' immediately on deploy, matching only GD05-020's own Deploy ability ('If 2+ (Londo Bell) cards in trash, place 1 EX Resource'). GD05-017's ability is an entirely different When-Paired battle-trigger that never appears in this log. Unlike other games, both copies agree on the same printing here, so a single id could be pinned instead of leaving it null."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "dogman"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "dogman"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "dogman"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: both attacks (t5, t7) show 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' right at battle declare, matching only ST03-008's own 【Attack】AP+2-during-this-turn ability. GD01-035 has no ability text at all ('-'), so it could never produce a self-applied modifier line. t5's damage (3 to EX Base) matches the math exactly (AP1+2); t7's (4 to Hyakuren) doesn't reconcile as cleanly, left unexplained rather than treated as contrary evidence given the ability-text match is decisive on its own."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "dogman"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "dogman"
+    action: "choose_first_player"
+  - player: "dogman"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "dogman"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "dogman"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "dogman"
+    actions:
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 2nd Form, leaving 3 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Jegan"
+        blockers: "none"
+        final_target: "Jegan"
+        outcome:
+          - "Jegan received 4 damage, now destroyed"
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+  - turn: 7
+    active_player: "dogman"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 2nd Form"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Rick Dom"
+        declared_target: "Gundam Barbatos 2nd Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 4 damage, now destroyed"
+          - "Rick Dom received 4 damage, now destroyed"
+          - "Breach 2: : Isaribi received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Zaku Ⅱ"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 6 damage, now destroyed"
+          - "Gundam received 2 damage, leaving 3 HP remaining"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+  - turn: 9
+    active_player: "dogman"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 6 damage, now destroyed"
+          - "Gundam received 2 damage, leaving 3 HP remaining"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 11
+    active_player: "dogman"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+          - "Nu Gundam received 4 damage, now destroyed"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Gundam received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos Adapt, leaving 3 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Lupus discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kayra's Re-GZ revealed and discarded"
+  - turn: 13
+    active_player: "dogman"
+    actions:
+      - action: "attack"
+        player: "dogman"
+        attacker: "Rick Dom"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Rick Dom received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair: destroyed Rick Dom"
+          - "Breach 2 Shield card: Hyakuren revealed and discarded"
+          - "Gundam Exia Repair milled 2: Become a Shield and Gundam Barbatos Adapt moved to trash"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "attack"
+        player: "dogman"
+        attacker: "Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "dogman"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  dogman:
+    - card: "Jegan"
+      turn: 6
+    - card: "Rick Dom"
+      turn: 7
+    - card: "Zaku Ⅱ"
+      turn: 7
+    - card: "Nu Gundam"
+      turn: 11
+    - card: "Gundam"
+      turn: 12
+    - card: "Rick Dom"
+      turn: 13
+  Kiraya:
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Isaribi"
+      turn: 11
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 12
+    - card: "Gundam Exia Repair"
+      turn: 13
+shields_tally:
+  dogman:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 4
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Nona partita con v1_1, quinta sconfitta (4-5). dogman Verde/Blu, Londo Bell/Zeon (Zaku Ⅱ, Jegan, Rick Dom x2, Gundam/Amuro Ray, Nu Gundam x2 - entrambe le copie confermate GD05-020, Kayra's Re-GZ, Re-GZ)."
+  - "Svolta al t7: un turno di dogman con 3 attacchi consecutivi (Rick Dom, Zaku Ⅱ, Gundam) elimina Gundam Barbatos 2nd Form, Hyakuren e Graze Custom in un colpo solo - 'No blockers available' su tutti e tre perché il mazzo non ha unità Blocker, non per una scelta sbagliata di Kiraya. Le mosse del turno precedente (t6) erano corrette: il ping di Ryusei-Go su 2nd Form sfrutta il suo bonus AP+2-se-danneggiato, e l'attacco di Hyakuren su Jegan invece che sul player rimuove una minaccia in modo ragionevole."
+  - "Possibile occasione mancata al t10: zero attacchi dichiarati nonostante Shiden Custom (Ryusei-Go) sano e disponibile da un turno (schierato t8) - il turno è passato con solo due deploy (Flauros, Exia Repair) e nessuna dichiarazione di battaglia. Anche contro un board con bloccanti potenziali, non attaccare affatto lascia sul tavolo la possibilità di forzare una decisione a dogman."
+  - "Scelta di scarto da rivedere al t12: la seconda copia di Ryusei-Go (Deploy: pesca 1, poi scarta 1 a scelta) ha scartato Gundam Barbatos Lupus - il finisher principale del mazzo, mai più visto in mano per il resto della partita. Non è uno scarto forzato/casuale ma una scelta del giocatore; senza visibilità sul resto della mano non si può dire con certezza se c'era un'alternativa migliore, ma è il tipo di scarto da evitare quando possibile data quanto Lupus è centrale al piano di chiusura del mazzo."
+  - "Buona lettura al t11: con un solo Shiden Custom disponibile per bloccare due attacchi dichiarati (Gundam poi Nu Gundam), la scelta di bloccare Nu Gundam (trade netto: entrambi muoiono) invece di Gundam (che con Repair 2 e HP5 sarebbe sopravvissuto comunque, rendendo il blocco uno spreco) è stata quella corretta - lasciare Isaribi (una base sacrificabile) assorbire il colpo di Gundam invece."
