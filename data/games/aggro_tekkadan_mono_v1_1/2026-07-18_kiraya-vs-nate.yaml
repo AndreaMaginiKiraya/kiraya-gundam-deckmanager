@@ -1,0 +1,475 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-18_kiraya-vs-nate"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Nate:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "Daughtress Flyer":
+    id: "GD03-044"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "Nate"
+    seen:
+      - "shield"
+  Gadeel:
+    id: "GD04-044"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Nate"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gun Blaster":
+    id: "GD05-009"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Nate"
+    seen:
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Javelin:
+    id: "GD05-014"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Nate"
+    seen:
+      - "shield"
+  "Olba Frost":
+    id: "GD02-093"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Nate"
+    seen:
+      - "shield"
+  Parts:
+    id: null
+    note: "unit token, same pattern as Wire-Guided Arm/Zeong (Head) documented in CLAUDE.md: GD04-011 Victory Gundam has a 【Destroyed】ability that deploys a [Parts] (League Militaire, AP1/HP1, can't attack the player) token, but here it appears the same turn V2 Gundam deploys and Victory Gundam is still alive (attacks later this same turn) - more likely a V2 Gundam Deploy effect than the Destroyed trigger. Either way, correctly absent from the card database since it has no printed card of its own."
+    owner: "Nate"
+    seen:
+      - "deployed"
+  "Ride Mass":
+    id: "GD05-117"
+    note: "pilot mode of the COMMAND card 'Become a Shield'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "V2 Gundam":
+    id: "GD05-001"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Nate"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Victory Gundam":
+    id: "GD04-003"
+    note: "pinned: at t10, 'Battle declared: Victory Gundam against Enemy Player' is immediately followed by 'Victory Gundam: Draw a card' - matches GD04-003's 【Attack】'If you have 3 or more (League Militaire) Units in play, draw 1.' exactly (Nate had Victory Gundam + V2 Gundam + the Parts token = 3 League Militaire units at that point). GD04-011 has no Attack ability at all, only a Destroyed-trigger token generator - doesn't fit."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Nate"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Nate"
+    seen:
+      - "pilot"
+      - "shield"
+setup:
+  - player: "Nate"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Nate"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Nate"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Nate"
+    actions:
+      - action: "deploy"
+        card: "Gadeel"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Nate"
+    actions:
+      - action: "attack"
+        player: "Nate"
+        attacker: "Gadeel"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Victory Gundam"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Gadeel"
+        blockers: "none"
+        final_target: "Gadeel"
+        outcome:
+          - "Gadeel received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Gundam Exia Repair: destroyed Gadeel"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Gundam Barbatos Adapt moved to trash"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 8
+    active_player: "Nate"
+    actions:
+      - action: "deploy"
+        card: "Gadeel"
+      - action: "deploy"
+        card: "Gadeel"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Üso Ewin revealed"
+          - "Shield card added to hand: Üso Ewin"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Javelin revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Daughtress Flyer revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "Nate"
+    actions:
+      - action: "attack"
+        player: "Nate"
+        attacker: "Gadeel"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        modifiers:
+          - "Gadeel: Modifier applied to: Gadeel"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+          - "Gadeel received 3 damage, now destroyed"
+          - "Breach 3 Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "attack"
+        player: "Nate"
+        attacker: "Gadeel"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Gadeel received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "V2 Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "V2 Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "Nate"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "Nate"
+        attacker: "V2 Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 6 damage, now destroyed"
+          - "V2 Gundam received 2 damage, leaving 4 HP remaining"
+        effects:
+          - "V2 Gundam repaired 2 from [Repair 2]"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gadeel revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Olba Frost revealed"
+          - "Shield card added to hand: Olba Frost"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gun Blaster revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Ride Mass"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "No more shields available, game is over!"
+casualties:
+  Nate:
+    - card: "Gadeel"
+      turn: 7
+    - card: "Gadeel"
+      turn: 10
+    - card: "Gadeel"
+      turn: 10
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 10
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 10
+shields_tally:
+  Nate:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "Ventunesima partita con v1_1, tredicesima vittoria (13-8). Nate Blu/Rosso, League Militaire (Gadeel, famiglia Victory Gundam/V2 Gundam + Üso Ewin). Vittoria per shield-out netto in soli 11 turni: 4 shield rimaste contro 0."
+  - "Turno di quasi-wipe al t10 non decisivo: Kiraya perde Gundam Barbatos 1st Form, Hyakuren e Ryusei-Go (Graze Custom II) tutti nello stesso turno (2 attacchi di Gadeel + 1 di V2 Gundam, mai un blocco disponibile) - ma chiude comunque la partita al turno successivo con 4 attacchi non contrastati (Graze Custom x2, Hyakuren, Flauros). Stesso principio già visto vs GenocidGIC (t12 quasi-wipe, vittoria 11 turni dopo)."
+  - "Vittoria senza mai schierare il pacchetto Blocker (Gusion Rebake pescato solo come shield e scartato via Breach al t10, Shiden Custom mai visto) e con sia Barbatos Lupus che Barbatos Adapt persi al mill-on-death di Gundam Exia Repair fin dal t7 - il piano-motore era morto in partenza, eppure il ritmo di pressione pura (Exia Repair, Graze Custom x2, Ryusei-Go, Hyakuren, Flauros) ha comunque chiuso in 11 turni."
+  - "Nessun errore tattico isolato individuato: tutte le perdite di Kiraya arrivano da attacchi dichiarati senza blocco disponibile, mai da una scelta di gioco; ogni turno propone la sequenza corretta (spazzare le shield quando il player è scoperto)."

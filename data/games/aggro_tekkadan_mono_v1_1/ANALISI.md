@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (20 partite, 12-8)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (21 partite, 13-8)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **20 sole partite** è troppo presto per isolare pattern affidabili;
+Con **21 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -46,6 +46,7 @@ sottocontano.
 | 18 | 07-18 | [desi](2026-07-18_kiraya-vs-desi.yaml) | **W** | 18 | Blu/Verde, Earth Federation/Londo Bell/AGE System (Gundam + Amuro Ray, famiglia AGE-1/AGE-2 Double Bullet, Re-GZ, Nu Gundam, Jegan, base Ra Cailum) | 4 / 1 | 8 / 9 | Vittoria per timeout dell'avversario al t18 da una posizione già nettamente vinta (4 shield contro 1); nessun errore tattico individuato; la seconda copia di Barbatos Lupus si attiva due volte nello stesso turno (t15), concatenando ping e attacchi per finire un solo bersaglio invece di disperderli |
 | 19 | 07-18 | [Olo](2026-07-18_kiraya-vs-olo.yaml) | **W** | 19 | Blu/Bianco, Earth Alliance/SEED con doppia stampa di Kira Yamato (Rick Dias, famiglia Strike/Aile Strike/Strike Freedom Gundam, Wing Gundam Zero EW, Archangel) | 1 / 0 | 12 / 10 | Vittoria per shield-out netto nonostante il bounce di Strike Freedom Gundam (qui "returned to deck", non in mano) al t16; seconda doppia attivazione di Lupus nello stesso turno in due partite di fila (t13); nessun errore tattico individuato |
 | 20 | 07-18 | [MrCross00](2026-07-18_kiraya-vs-mrcross00.yaml) | **W** | 13 | Blu/Verde, Londo Bell/Earth Federation (Gundam + Amuro Ray, Jegan, Nu Gundam, Re-GZ/Re-GZ BWS, Zeong, Ra Cailum) | 6 / 0 | 3 / 2 | Vittoria totale in 13 turni, 0 shield perse ed EX Base mai distrutta, senza mai pescare né Barbatos Lupus né il pacchetto Blocker - solo pressione da apertura; stessa identità ambigua irrisolta di "Gundam" già vista vs desi lo stesso giorno, con lo stesso identico numero di danno (6) osservato in entrambe le partite |
+| 21 | 07-18 | [Nate](2026-07-18_kiraya-vs-nate.yaml) | **W** | 11 | Blu/Rosso, League Militaire (Gadeel, famiglia Victory Gundam/V2 Gundam + Üso Ewin) | 4 / 0 | 4 / 3 | Vittoria per shield-out netto in 11 turni nonostante un quasi-wipe al t10 (3 unità perse nello stesso turno) e sia Lupus che Barbatos Adapt persi al mill-on-death di Exia Repair fin dal t7 - il piano-motore era morto in partenza, la pressione pura ha chiuso comunque; nessun errore tattico individuato |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -388,6 +389,17 @@ sottocontano.
   partite indipendenti suggerisce un fattore sistematico non ancora
   identificato (non varianza) - da approfondire in una sessione futura,
   magari controllando errata/FAQ ufficiali.
+- **Ennesima conferma che un turno di quasi-wipe non è game over** (vs
+  Nate, t10): Kiraya perde 3 unità nello stesso turno (Barbatos 1st Form,
+  Hyakuren, Ryusei-Go Graze Custom II) senza mai avere un blocco
+  disponibile, ma chiude comunque al turno successivo con 4 attacchi non
+  contrastati. Stesso principio già visto vs GenocidGIC (t12) e Robotech.
+- **Vittoria col piano-motore morto in partenza** (vs Nate): sia Gundam
+  Barbatos Lupus che Gundam Barbatos Adapt finiscono milled dal proprio
+  Gundam Exia Repair già al t7 (stesso turno di apertura) - il finisher
+  dedicato non è mai stato disponibile per l'intera partita, eppure la
+  sola pressione da corpi economici (Exia Repair, Graze Custom x2,
+  Ryusei-Go, Hyakuren, Flauros) ha chiuso in 11 turni netti.
 
 ## Checklist provvisoria
 
