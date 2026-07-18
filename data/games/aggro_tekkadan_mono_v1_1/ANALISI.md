@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (16 partite, 9-7)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (17 partite, 9-8)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **16 sole partite** è troppo presto per isolare pattern affidabili;
+Con **17 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -42,6 +42,7 @@ sottocontano.
 | 14 | 07-17 | [TJL](2026-07-17_kiraya-vs-tjl.yaml) | **W** | 15 | Blu/Bianco, stesso archetipo SEED Kira Yamato + Amuro Ray già visto contro Robotech (Aile Strike Gundam, Freedom Gundam, Strike Rouge Kira's Unit, Gundam ST01-001) | 5 / 0 | 8 / 7 | Vittoria per shield-out netto; unico errore reale al t7 (Activate di Isaribi sprecato su Ryusei-Go già rested, che aveva già attaccato quel turno); Lupus uccide "Gundam" con precisione chirurgica al t13 (4 danni esatti contro HP4 piena) |
 | 15 | 07-17 | [Essen](2026-07-17_kiraya-vs-essen.yaml) | **L** | 23 | Blu/Rosso/Bianco, control/removal estremo (Close Combat x3, Improved Technique, Battle of Aces x2, Overwhelming Pressure x4, Darkness Finger, Strike Freedom Gundam x2, Unicorn Gundam 02 Banshee Destroy Mode) + motore di pesca fuori scala (~20+ carte pescate in più) | 0 / 1 | 12 / 4 | Revisione richiesta da Kiraya: nessun errore tattico individuato, la mano di rimozione/pesca dell'avversario è la più pesante vista nel campione, persino più di loclee (partita 11) - board di Essen vuoto fino al t13 |
 | 16 | 07-17 | [xDEADHEADx](2026-07-17_kiraya-vs-xdeadheadx.yaml) | **W** | 16 | Viola/Verde, Neo Zeon (Char's Zaku Ⅱ + Char Aznable per High-Maneuver, Zeong con token, Sazabi, Jagd Doga/Geara Doga) | 4 / 0 | 8 / 8 | Vittoria pulita per shield-out; Char's Zaku Ⅱ linkato ottiene High-Maneuver a ogni attacco (t8, t10) - stesso buco di block-bypass già noto; l'abilità Attack di Sazabi al t16 fallisce contro Kiraya perché Lupus era l'unica unità in campo e quindi "impegnata in combattimento", non un bersaglio valido |
+| 17 | 07-17 | [jaysanti](2026-07-17_kiraya-vs-jaysanti.yaml) | **L** | 18 | Rosso/Bianco, Shuffle Alliance/G Gundam (Domon Kasshu, Master Asia, Shining Gundam x3 stampe, Rising Gundam, Dragon Gundam, Gundam Maxter) | 0 / 3 | 14 / 8 | Sconfitta per shield-out, non per High-Maneuver (zero istanze nel log, a differenza della diagnosi iniziale di Kiraya): decisa da un errore di blocco al t14 (Shiden Custom disponibile non usato contro Master Asia), dalla tech dell'avversario che resta i blocker di Kiraya prima di attaccare (Domon/Master Asia su Rising Gundam), e da Lupus mai pescato perché milled 2 volte dal proprio Exia Repair |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -312,6 +313,24 @@ sottocontano.
   proprio quella sotto attacco in quel momento, quindi non qualificava.
   Vale la pena ricordarlo leggendo abilità simili in futuro: il
   wording esatto della condizione conta quanto la sua presenza.
+- **La causa percepita di una sconfitta non sempre è quella reale** (vs
+  jaysanti): Kiraya ha attribuito la perdita all'High-Maneuver, ma il log
+  non ne contiene nessuna istanza - la partita si è decisa su un errore
+  di blocco isolato (t14: 2 Shiden Custom (Ryusei-Go) attivi non usati
+  contro Master Asia, che avrebbe fatto un trade netto invece di uccidere
+  Hyakuren a gratis) più fattori strutturali già noti (Lupus mai pescato
+  per doppio mill dal proprio Exia Repair) e uno nuovo (vedi sotto).
+  Stesso principio già applicato a Essen: distinguere la diagnosi
+  istintiva del giocatore da quella confermata riga per riga nel log.
+- **Nuova variante del problema-Blocker: il blocker può esserci ed essere
+  comunque disinnescato prima di scegliere** (vs jaysanti, t12/t16):
+  Domon Kasshu e poi Master Asia, appaiati su Rising Gundam, restano
+  Shiden Custom (Ryusei-Go)/Hyakuren tramite la propria abilità (assieme
+  a Shining Finger scartata dalla mano) prima della fase di combattimento
+  - risultato "No blockers available" anche se le carte erano fisicamente
+  in campo e attive a inizio turno. Distinto dal problema di densità già
+  in checklist (item 5): qui il blocker c'era, è stato reso inutile da un
+  effetto mirato dell'avversario.
 
 ## Checklist provvisoria
 
