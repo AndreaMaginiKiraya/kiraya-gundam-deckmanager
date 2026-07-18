@@ -1,0 +1,559 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-19_kiraya-vs-bugs"
+  date_imported: "2026-07-19"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    Bugs:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Bugs"
+    seen:
+      - "command"
+      - "shield"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Gundam Kyrios (Flight Mode)":
+    id: "GD05-048"
+    note: "pinned: attacks the same turn it's deployed (t12) - matches GD05-048's unique text ('On the turn this Unit is deployed, it may choose a rested enemy Unit as its attack target and attack it.'); ST07-008 has no effect text and couldn't act the turn it enters play. Confirmed by deck-color legality too: GD05-048 is Red (fits Bugs's Blue/Red deck alongside Kshatriya and Strike Freedom Gundam), ST07-008 is Green (would be an illegal third color)."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 1
+    owner: "Bugs"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "pinned: at t8, 'Linked pilot: Kira Yamato on unit Strike Rouge (Kira's Unit)' is immediately followed by 'Kira Yamato: Draw a card' with no target selection - matches GD05-081's 【When Linked】'If this is an (Orb)/(Triple Ship Alliance) Unit, draw 1.' exactly (Strike Rouge is an Orb Unit). ST04-010's ability is an Attack-time AP-2 modifier on an enemy target, which never fires in this game. Also fixed the local database for this card: it was wrongly synced as ap:0/hp:0 (same bug as Amuro Ray GD05-085 found earlier this session); the real printed bonus is +2/+2, confirmed via the official card image and corrected 2026-07-19 - see 'Strike Rouge (Kira's Unit)' below for the combat math this unlocks."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Bugs"
+    seen:
+      - "pilot"
+  Kshatriya:
+    id: "GD01-044"
+    note: "pinned: at t14, 'Kshatriya against Hyakuren' resolves as 'Hyakuren received 5 damage' - Kshatriya's own AP matches GD01-044's printed AP5 exactly, with no pilot paired and no logged modifier needed. GD01-051 has AP3 and would need an unverified +2 buff from Strike Freedom Gundam's 'chose Kshatriya' effect this same turn to reach 5 - the simpler, unassumption-free match is GD01-044."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Bugs"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Bugs"
+    seen:
+      - "discarded"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Bugs"
+    seen:
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "resolved: matches the documented Linked-unit display-name quirk (CLAUDE.md) - the client shows '<base name> (<Pilot>'s Unit)' instead of the printed name once the Link condition is met. 'Kira's Strike Rouge' (GD05-010) has link field '[Kira Yamato]', an exact match. Confirmed by combat math using Kira Yamato GD05-081's real +2/+2 pilot bonus (a second instance of the same data error found on Amuro Ray GD05-085 this session - the local database had GD05-081 wrongly synced as ap:0/hp:0 too, confirmed via the official card image and corrected 2026-07-19): AP3+2=5 exactly matches the 5 damage dealt to Ryusei-Go (Graze Custom II) at t8; HP4+2=6 total, taking 2 damage leaves exactly 4."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Bugs"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Bugs"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Bugs"
+    seen:
+      - "shield"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Bugs"
+    seen:
+      - "blocker"
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Bugs"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Bugs"
+    actions:
+      - action: "play_command"
+        player: "Bugs"
+        card: "Airframe Seizure"
+        effects:
+          - "Reineforce Jr. discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Bugs"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Isaribi discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Bugs"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "Zoloat (League Militaire)"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Zoloat (League Militaire) received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Become a Shield moved to trash"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 2nd Form and Strike Rouge (Ootori)"
+  - turn: 8
+    active_player: "Bugs"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Kira's Unit)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Bugs"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 5 damage, now destroyed"
+          - "Strike Rouge (Kira's Unit) received 2 damage, leaving 4 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "Strike Rouge (Kira's Unit)"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Gundam Barbatos 2nd Form received 3 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Kira's Unit)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Strike Rouge (Kira's Unit)"
+        blockers: "none"
+        final_target: "Strike Rouge (Kira's Unit)"
+        outcome:
+          - "Strike Rouge (Kira's Unit) received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "Bugs"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Airframe Seizure revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 12
+    active_player: "Bugs"
+    actions:
+      - action: "deploy"
+        card: "Gundam Kyrios (Flight Mode)"
+      - action: "attack"
+        player: "Bugs"
+        attacker: "Gundam Kyrios (Flight Mode)"
+        declared_target: "Hyakuren"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 3 damage, leaving 2 HP remaining"
+          - "Gundam Kyrios (Flight Mode) received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Kshatriya"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Unicorn Gundam 02 Banshee (Destroy Mode) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Kyrios (Flight Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Barbatos Adapt and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Kshatriya, leaving 2 HP remaining"
+  - turn: 14
+    active_player: "Bugs"
+    actions:
+      - action: "play_command"
+        player: "Bugs"
+        card: "Airframe Seizure"
+        effects:
+          - "Kshatriya discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Kshatriya and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Bugs"
+        attacker: "Kshatriya"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Kshatriya received 4 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 8
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Hyakuren"
+      turn: 14
+  Bugs:
+    - card: "Zoloat (League Militaire)"
+      turn: 7
+    - card: "Strike Rouge (Ootori)"
+      turn: 9
+    - card: "Strike Rouge (Kira's Unit)"
+      turn: 9
+    - card: "Strike Rouge (Ootori)"
+      turn: 11
+    - card: "Gundam Kyrios (Flight Mode)"
+      turn: 12
+    - card: "Kshatriya"
+      turn: 14
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Bugs:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 4
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Venticinquesima partita con v1_1, diciassettesima vittoria (16-9). Bugs Blu/Rosso, misto SEED/Unicorn/Neo Zeon (Strike Rouge Ootori/Kira's Unit + Kira Yamato, Zoloat League Militaire, Gundam Kyrios Flight Mode, Kshatriya, Strike Freedom Gundam, Unicorn Gundam 02 Banshee Destroy Mode). Vittoria totale: 0 shield perse, EX Base sostituita da Isaribi al t5 e mai più a rischio, 5 shield rimaste contro 2 al momento in cui il log si interrompe (probabilmente troncato prima del colpo di grazia effettivo, stesso caso già visto con loclee - il risultato 'win:Kiraya' resta comunque corretto dalla riga 'Winner!' finale)."
+  - "Turno di sfondamento al t9: Barbatos 2nd Form uccide Strike Rouge (Ootori) bloccante e Barbatos Adapt (con Mikazuki Augus appena abbinato) uccide Strike Rouge (Kira's Unit) subito dopo - un 2-per-2 che elimina entrambe le minacce principali dell'avversario nello stesso turno, pur perdendo entrambe le proprie unità nel processo."
+  - "SECONDA istanza confermata dello stesso errore nei dati carte scoperto ieri su Amuro Ray: anche Kira Yamato (GD05-081) era sincronizzato come AP0/HP0, ma la carta reale dà +2/+2 all'unità abbinata - confermato via immagine ufficiale e corretto in data/cards/en/gd05.json il 2026-07-19. Su 21 piloti del set GD05 nel database locale, 18 (compreso questo, ora sistemato a 2) mostrano AP0/HP0: non è detto siano tutti sbagliati (alcuni, es. Sting Oakley 1/1, sono corretti), ma con due conferme su due controllati è un pattern da tenere d'occhio - verificare via immagine ufficiale quando l'aritmetica di un pilota GD05 non torna, prima di dichiararla irrisolvibile."
+  - "Prima osservazione di un'unità che attacca il turno stesso in cui viene schierata (t12, Gundam Kyrios Flight Mode contro un'unità nemica rested) - non un bug del log ma il testo esplicito della carta (GD05-048: 'On the turn this Unit is deployed, it may choose a rested enemy Unit as its attack target and attack it'), una meccanica che bypassa la normale regola di non poter attaccare al turno di schieramento."
+  - "Nessun errore tattico isolato individuato: esecuzione pulita dall'apertura alla chiusura, inclusi trade sempre a favore o alla pari."
