@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (23 partite, 14-9)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (24 partite, 15-9)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **23 sole partite** è troppo presto per isolare pattern affidabili;
+Con **24 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -49,6 +49,7 @@ sottocontano.
 | 21 | 07-18 | [Nate](2026-07-18_kiraya-vs-nate.yaml) | **W** | 11 | Blu/Rosso, League Militaire (Gadeel, famiglia Victory Gundam/V2 Gundam + Üso Ewin) | 4 / 0 | 4 / 3 | Vittoria per shield-out netto in 11 turni nonostante un quasi-wipe al t10 (3 unità perse nello stesso turno) e sia Lupus che Barbatos Adapt persi al mill-on-death di Exia Repair fin dal t7 - il piano-motore era morto in partenza, la pressione pura ha chiuso comunque; nessun errore tattico individuato |
 | 22 | 07-18 | [KUMA](2026-07-18_kiraya-vs-kuma.yaml) | **L** | 14 | Viola/Bianco, Operation Meteor/G Team Gundam Wing EW (doppio Gundam Heavyarms Custom (EW), Gundam Sandrock Custom (EW), Wing Gundam Zero (EW) + Heero Yuy, GN Armor Type-E) | 1 / 2 | 9 / 1 | Sconfitta per shield-out; revisione richiesta da Kiraya convinto di propri errori, ma nessuna sequenza chiaramente sbagliata trovata - decisa da mill sfortunato (entrambe le copie di Lupus in trash al t6), una combo debuff-poi-distruggi intenzionale (Heavyarms + GN Armor Type-E) e doppio debuff ripetibile (2x Heavyarms + Sandrock) |
 | 23 | 07-18 | [Sakurah](2026-07-18_kiraya-vs-sakurah.yaml) | **W** | 13 | Mono-Verde, Earth Federation/Londo Bell (Jegan, Gundam AGE-1 Normal + Asemu Asuno, Re-GZ, Nu Gundam + Amuro Ray) | 1 / 0 | 5 / 4 | Vittoria per shield-out netto; Gundam Barbatos 1st Form pesca almeno 6 volte nel corso della partita grazie a più copie in rotazione, il motore di pesca più prolifico visto finora nel campione; trade decisivo al t11 (Barbatos 1st Form contro Nu Gundam) rimuove la minaccia principale avversaria |
+| 24 | 07-18 | [Kumendeng](2026-07-18_kiraya-vs-kumendeng.yaml) | **W** | 15 | Blu/Verde, Zeon rush (Zaku I/II, Guntank, Char Aznable, Zeong + Char, Nu Gundam + Amuro Ray, Corsica Base) | 1 / 0 | 5 / 9 | Vittoria per timeout dell'avversario da una posizione già vinta; High-Maneuver reale e decisivo al t11 (Char Aznable linkato a Zeong); seconda doppia attivazione di Lupus nello stesso turno in due partite di fila (t12); scoperta e corretta un'importante svista nei dati di Amuro Ray (GD05-085) |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -387,10 +388,17 @@ sottocontano.
   salva letteralmente dalla morte due volte, t10 e t12), che punta a
   ST01-001 + Amuro Ray (GD05-085) - ma il danno inflitto resta
   esattamente 6 in entrambe le occasioni di QUESTA partita, lo stesso
-  identico numero già osservato vs desi. La ripetizione esatta tra due
-  partite indipendenti suggerisce un fattore sistematico non ancora
-  identificato (non varianza) - da approfondire in una sessione futura,
-  magari controllando errata/FAQ ufficiali.
+  identico numero già osservato vs desi. **Aggiornamento (vs Kumendeng,
+  stesso giorno)**: causa trovata e corretta - Amuro Ray (GD05-085) era
+  sincronizzato nel database come AP0/HP0, ma il bonus reale stampato è
+  +2/+2 (confermato via immagine ufficiale, corretto in
+  `data/cards/en/gd05.json`). Con ST01-001 (AP3) + il vero bonus (+2) si
+  ottiene AP5, non 6: il numero osservato in queste due partite resta
+  quindi ancora inspiegato per "Gundam" nello specifico (a differenza di
+  Nu Gundam, dove lo stesso fix risolve tutto in modo pulito, vedi sotto)
+  - "Gundam" potrebbe essere davvero GD04-008 (AP4+2=6 esatto) con la
+  prova del Repair-2 da rivedere come coincidenza o interazione non
+  ancora chiara.
 - **Ennesima conferma che un turno di quasi-wipe non è game over** (vs
   Nate, t10): Kiraya perde 3 unità nello stesso turno (Barbatos 1st Form,
   Hyakuren, Ryusei-Go Graze Custom II) senza mai avere un blocco
@@ -434,12 +442,16 @@ sottocontano.
   card-advantage (il problema resta in checklist), ma mostra quanto la
   sola densita di copie di una carta con quell'abilita possa avvicinarsi
   all'effetto di un motore di pesca strutturale.
-- **Quarta ricorrenza dello stesso enigma aritmetico AP/HP non risolto**
-  (vs Sakurah, dopo "Gundam" vs desi e MrCross00 lo stesso giorno): una
-  copia di Nu Gundam (t10) infligge 7 danni e sopravvive a 3 HP dopo
-  averne presi 4, numeri che non tornano con nessuna combinazione
-  stampa-base + Amuro Ray - la seconda copia (t12) invece si pinna senza
-  ambiguita dal trigger di Deploy ("Placed 1 Resource EX").
+- **Enigma aritmetico AP/HP di Nu Gundam risolto** (vs Sakurah, poi
+  confermato vs Kumendeng): la copia che infligge 7 danni e ha HP totale
+  7 è GD05-017 (AP5/HP5) abbinato ad Amuro Ray GD05-085, il cui bonus
+  reale è +2/+2 (5+2=7 su entrambe le statistiche, esatto) - il database
+  locale aveva GD05-085 sincronizzato erroneamente come AP0/HP0
+  dall'unica fonte disponibile per GD05 (egmanevents, apitcg non ha
+  ancora questo set), corretto il 2026-07-18 dopo conferma via immagine
+  ufficiale della carta. Non risolve invece il caso analogo di "Gundam"
+  vs desi/MrCross00 (vedi sopra), dove il numero osservato (6) resta
+  scoperto anche col bonus corretto.
 - **Terzo caso della stessa giornata di due stampe di Amuro Ray nella
   stessa partita** (dopo desi e MrCross00): stesso pattern di sempre,
   GD05-085 (cura su distruzione) e ST01-010 (rest su unita nemica).

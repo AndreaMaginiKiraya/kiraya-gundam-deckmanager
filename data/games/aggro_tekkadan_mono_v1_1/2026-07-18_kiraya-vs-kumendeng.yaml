@@ -1,0 +1,671 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-18_kiraya-vs-kumendeng"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kumendeng:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Kumendeng"
+    seen:
+      - "shield"
+  "Amuro Ray":
+    id: "GD05-085"
+    note: "pinned: at t13, 'Healed 2 damage to: Nu Gundam' fires right after Nu Gundam destroys an enemy Unit with battle damage - matches only GD05-085's ability. Confirmed by exact combat math using GD05-085's real +2/+2 pilot bonus (see 'Nu Gundam' below) - the local database had this card wrongly synced as ap:0/hp:0 (egmanevents, the only source for GD05), corrected to 2/2 on 2026-07-18 after checking the official card image."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kumendeng"
+    seen:
+      - "pilot"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Char Aznable":
+    id: "ST03-011"
+    note: "pinned: both the t7 Pair on Zaku I and the t11 Link on Zeong trigger 'Char Aznable: Modifier applied to: X' on attack declaration - matches ST03-011's 【Attack】'this Unit gets AP+1 and, if it is a Link Unit, it gains High-Maneuver.' exactly (t11's attack is immediately followed by 'Can't block High-maneuver', which only applies to a Link Unit). GD05-093 has an unrelated When-Linked ability (deploy a Neo Zeon base from trash) that never fires here."
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Kumendeng"
+    seen:
+      - "pilot"
+  "Corsica Base":
+    id: "ST02-016"
+    type: "BASE"
+    level: 3
+    cost: 3
+    hp: 5
+    owner: "Kumendeng"
+    seen:
+      - "base"
+  Dijeh:
+    id: "GD05-008"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kumendeng"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "shield"
+  Guntank:
+    id: "GD01-008"
+    note: "pinned: at t10, 'Gundam Barbatos Adapt against Guntank' resolves as 'Gundam Barbatos Adapt received 1 damage' - Guntank's AP dealt is exactly 1, matching GD01-008 (AP1). ST01-004 has AP2, which would have dealt 2. The t3 'No targets for Guntank' fizzle (no enemy units in play yet) is consistent with either candidate's Deploy condition, so wasn't decisive on its own."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kumendeng"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  Leo:
+    id: "ST02-007"
+    note: "pinned by deck-color elimination: Kumendeng's deck is Blue/Green (confirmed by Amuro Ray, Char Aznable, Nu Gundam, Zaku II all being Blue/Green prints). GD05-077 is White, illegal in this deck; ST02-007 is Blue. Both candidates have identical stats and no effect text, so this is the only available signal."
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kumendeng"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-017"
+    note: "pinned: t13 combat deals exactly 7 damage to Ryusei-Go (Graze Custom II) and Nu Gundam's own effective HP totals 7 (takes 4, leaves 3) - matches GD05-017 (AP5/HP5) plus Amuro Ray GD05-085's real +2/+2 pilot bonus exactly (5+2=7 both). Confirmed further at t14 (5 current HP after the t13 heal, takes 4, leaves 1 - exact). GD05-020 (AP4/HP4) would give 6/6, one short on both counts. Same identity puzzle first hit vs desi/MrCross00/Sakurah earlier the same day, resolved once the Amuro Ray data error was found and fixed (see MEMORY / data/cards/en/gd05.json)."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Kumendeng"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  Tallgeese:
+    id: null
+    note: "unit token generated by Corsica Base's own Deploy ability, not a real deck card (same pattern documented in CLAUDE.md): 'Tallgeese deployed' follows 'Played base: Corsica Base' immediately with no separate hand-deploy line at t7. Consistent with never dying despite taking 2 total ping damage across the game and never appearing in casualties - none of the 3 real printings should be pinned here."
+    owner: "Kumendeng"
+    seen:
+      - "deployed"
+  "Wire-Guided Arm":
+    id: null
+    note: "unit token generated by Zeong's own ability (same pattern documented in CLAUDE.md and seen vs xDEADHEADx/MrCross00); correctly absent from the card database since it has no printed card of its own"
+    owner: "Kumendeng"
+    seen:
+      - "deployed"
+  "Zaku Ⅰ":
+    id: "ST03-007"
+    type: "UNIT"
+    level: 1
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kumendeng"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: at t11, 'Battle declared: Zaku II against Enemy Player' is followed by 'Zaku II: Modifier applied to: Zaku II' (a self-buff) - matches ST03-008's 【Attack】'This Unit gets AP+2 during this turn.' exactly. Combat confirms: base AP1+2=3 dealt to Shiden Custom (Ryusei-Go), an exact match. GD01-035 has no effect text and would need no self-modifier."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kumendeng"
+    seen:
+      - "attacker"
+      - "deployed"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "Kumendeng"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Zeong (Head)":
+    id: null
+    note: "unit token generated by Zeong's own Destroyed ability (same pattern documented in CLAUDE.md and seen vs xDEADHEADx); correctly absent from the card database since it has no printed card of its own"
+    owner: "Kumendeng"
+    seen:
+      - "deployed"
+setup:
+  - player: "Kumendeng"
+    action: "choose_first_player"
+  - player: "Kumendeng"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kumendeng"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅰ"
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "Kumendeng"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "No targets for Guntank"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Kumendeng"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅰ"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Guntank revealed and discarded"
+  - turn: 7
+    active_player: "Kumendeng"
+    actions:
+      - action: "play_base"
+        card: "Corsica Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Tallgeese"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Zaku Ⅰ"
+        linked: false
+      - action: "attack"
+        player: "Kumendeng"
+        attacker: "Zaku Ⅰ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Zaku Ⅰ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kumendeng"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "attack"
+        player: "Kumendeng"
+        attacker: "Zaku Ⅰ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus Rex revealed and discarded"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos 2nd Form and Tallgeese"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos 2nd Form and Tallgeese"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Zaku Ⅰ"
+        blockers: "none"
+        final_target: "Zaku Ⅰ"
+        outcome:
+          - "Zaku Ⅰ received 4 damage, now destroyed"
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Zaku Ⅰ"
+        blockers: "none"
+        final_target: "Zaku Ⅰ"
+        outcome:
+          - "Zaku Ⅰ received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 1 damage, leaving 2 HP remaining"
+  - turn: 9
+    active_player: "Kumendeng"
+    actions:
+      - action: "attack"
+        player: "Kumendeng"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Guntank"
+        blockers: "none"
+        final_target: "Guntank"
+        outcome:
+          - "Guntank received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 1 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Shiden Custom (Ryusei-Go), leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+  - turn: 11
+    active_player: "Kumendeng"
+    actions:
+      - action: "deploy"
+        card: "Zeong"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Zeong"
+        linked: true
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "attack"
+        player: "Kumendeng"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kumendeng"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Zeong"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Zeong (Head)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "Zeong"
+        blockers: "none"
+        final_target: "Zeong"
+        outcome:
+          - "Zeong received 4 damage, now destroyed"
+          - "Gundam Barbatos 2nd Form received 5 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Wire-Guided Arm"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus Rex, Shiden Custom (Ryusei-Go) and Gundam Barbatos 2nd Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wire-Guided Arm, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Zeong (Head)"
+        blockers: "none"
+        final_target: "Zeong (Head)"
+        outcome:
+          - "Zeong (Head) received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zaku Ⅰ revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+  - turn: 13
+    active_player: "Kumendeng"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "Kumendeng"
+        attacker: "Nu Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5 Shield card: Gundam Barbatos 1st Form revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "deploy"
+        card: "Dijeh"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 4 damage, leaving 1 HP remaining"
+          - "Hyakuren received 7 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Gundam Barbatos 1st Form and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zeong revealed and discarded"
+  - turn: 15
+    active_player: "Kumendeng"
+    actions:
+      - action: "play_base"
+        card: "Corsica Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Leo"
+      - action: "deploy"
+        card: "Leo"
+casualties:
+  Kumendeng:
+    - card: "Zaku Ⅰ"
+      turn: 8
+    - card: "Zaku Ⅰ"
+      turn: 8
+    - card: "Guntank"
+      turn: 10
+    - card: "Corsica Base"
+      turn: 10
+    - card: "Zaku Ⅱ"
+      turn: 11
+    - card: "Zeong"
+      turn: 12
+    - card: "Wire-Guided Arm"
+      turn: 12
+    - card: "Zeong (Head)"
+      turn: 12
+    - card: "Nu Gundam"
+      turn: 14
+  Kiraya:
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 14
+shields_tally:
+  Kumendeng:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 5
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Ventiquattresima partita con v1_1, sedicesima vittoria (15-9). Kumendeng Blu/Verde, Zeon rush (Zaku I/II, Guntank, Char Aznable, Zeong + Char, Nu Gundam + Amuro Ray, Corsica Base). Vittoria per timeout dell'avversario al t15, da una posizione già nettamente vinta (1 shield contro 0, board di Kiraya nettamente superiore)."
+  - "Correzione importante ai dati del database durante questa sessione: Amuro Ray (GD05-085) risultava sincronizzato come AP0/HP0 (unica fonte disponibile per il set GD05, egmanevents, non ha il dato completo), ma la carta reale dà +2/+2 all'unità abbinata - confermato via immagine ufficiale della carta e corretto in data/cards/en/gd05.json il 2026-07-18. Questo risolve anche il rompicapo aritmetico rimasto aperto su 'Gundam'/Nu Gundam nelle partite precedenti della stessa giornata (vs desi, MrCross00, Sakurah)."
+  - "High-Maneuver reale e decisivo (t11): Char Aznable (ST03-011) linkato a Zeong ottiene AP+1 e High-Maneuver sul proprio attacco - 'Can't block High-maneuver' esplicito nel log, stesso buco strutturale già documentato più volte (sgd, liko, xDEADHEADx)."
+  - "Seconda partita di fila con doppia attivazione di Gundam Barbatos Lupus nello stesso turno (t12, dopo Olo): la copia appena schierata si attiva due volte consecutive nello stesso turno, ripulendo Wire-Guided Arm e aprendo la strada a un turno di sfondamento con 4 azioni offensive."
+  - "Ulteriore conferma dei pattern-token già documentati in CLAUDE.md: Corsica Base genera un token Tallgeese al Deploy (t7, mai morto nonostante 2 danni ricevuti - sopravvive senza mai comparire tra le casualties), e Zeong genera Wire-Guided Arm x2 al Deploy più Zeong (Head) alla propria distruzione (t11-12) - nessuno dei tre ha una scheda propria nel database, corretto lasciarli id: null."
+  - "Nessun errore tattico isolato individuato: gli unici self-ping su unità proprie fresche (t8, Become a Shield x2 su Gundam Barbatos 2nd Form) non hanno cambiato l'esito - 2nd Form muore comunque al t12 sotto un attacco che ne supera abbondantemente gli HP totali, con o senza i 2 danni auto-inflitti."
