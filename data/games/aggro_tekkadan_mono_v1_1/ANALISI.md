@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (14 partite, 8-6)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (15 partite, 8-7)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **14 sole partite** è troppo presto per isolare pattern affidabili;
+eCon **15 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -40,6 +40,7 @@ sottocontano.
 | 12 | 07-17 | [gogogo](2026-07-17_kiraya-vs-gogogo.yaml) | **W** | 14 | Bianco/Viola, Zaft Destiny/Minerva Squad (Destiny Gundam, famiglia Impulse Gundam, Shinn Asuka) + splash Militia | 5 / 0 | 8 / 6 | Stravinta: 0 shield perse, avversario già a shield zero da fine t13 (probabile resa al t14). Prima vera attivazione di Lupus in partita pulisce entrambe le copie rimaste di Sword Impulse Gundam in un colpo; Widespread Annihilation scartata come shield senza mai essere giocata |
 | 13 | 07-17 | [peachique](2026-07-17_kiraya-vs-peachique.yaml) | **W** | 13 | Blu/Verde, Londo Bell (ReZEL, Kayra's Jegan/Kayra Su, Nu Gundam x2 stampe, Amuro Ray, Davao) | 2 / 0 | 6 / 6 | Vittoria pulita per shield-out, nessun errore tattico individuato; t11 saturazione da 4 attacchi nello stesso turno (Flauros, Graze Custom, Ryusei-Go, Hyakuren) distrugge una base e toglie 3 shield in un colpo; Lupus mai pescato e non è servito |
 | 14 | 07-17 | [TJL](2026-07-17_kiraya-vs-tjl.yaml) | **W** | 15 | Blu/Bianco, stesso archetipo SEED Kira Yamato + Amuro Ray già visto contro Robotech (Aile Strike Gundam, Freedom Gundam, Strike Rouge Kira's Unit, Gundam ST01-001) | 5 / 0 | 8 / 7 | Vittoria per shield-out netto; unico errore reale al t7 (Activate di Isaribi sprecato su Ryusei-Go già rested, che aveva già attaccato quel turno); Lupus uccide "Gundam" con precisione chirurgica al t13 (4 danni esatti contro HP4 piena) |
+| 15 | 07-17 | [Essen](2026-07-17_kiraya-vs-essen.yaml) | **L** | 23 | Blu/Rosso/Bianco, control/removal estremo (Close Combat x3, Improved Technique, Battle of Aces x2, Overwhelming Pressure x4, Darkness Finger, Strike Freedom Gundam x2, Unicorn Gundam 02 Banshee Destroy Mode) + motore di pesca fuori scala (~20+ carte pescate in più) | 0 / 1 | 12 / 4 | Revisione richiesta da Kiraya: nessun errore tattico individuato, la mano di rimozione/pesca dell'avversario è la più pesante vista nel campione, persino più di loclee (partita 11) - board di Essen vuoto fino al t13 |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -246,12 +247,16 @@ sottocontano.
   t11 (4 attacchi nello stesso turno, zero bloccanti disponibili per
   l'avversario) — lo stesso principio già in checklist, eseguito bene.
 - **Conferma ricorrente: le statistiche del pilota si sommano a quelle
-  dell'unità quando è in coppia/Link** (osservato ormai in più partite,
-  es. Nu Gundam AP4/5 + Amuro Ray AP2 = 6/7 danno esatto osservato più
-  volte vs peachique). Non ancora trovata una regola esplicita nel
-  Comprehensive Rules con `search_rules`, ma il pattern è consistente
-  ed è lo strumento più affidabile per confermare quale stampa di
-  un'unità/pilota è in gioco quando l'abilità da sola non basta.
+  dell'unità quando è in coppia/Link, sia in AP che in HP** (osservato
+  ormai in più partite, es. Nu Gundam AP4/5 + Amuro Ray AP2 = 6/7 danno
+  esatto osservato più volte vs peachique; confermato anche sull'HP vs
+  Essen, t22: Ryusei-Go a 1 HP sopravvive a un secondo ping da 1 solo
+  perché Mikazuki Augus (HP1) gli si abbina nel mezzo, portandolo a 2
+  HP residui invece di morire a 0). Non ancora trovata una regola
+  esplicita nel Comprehensive Rules con `search_rules`, ma il pattern è
+  consistente su entrambe le statistiche ed è lo strumento più
+  affidabile per confermare quale stampa di un'unità/pilota è in gioco
+  quando l'abilità da sola non basta.
 - **Quarta coppia di stampe condivise nella stessa partita** (Nu Gundam,
   dopo Kira Yamato, Sword Impulse Gundam e il caso originale di Nu
   Gundam contro liko) — motivo in più per continuare a verificare
@@ -271,6 +276,21 @@ sottocontano.
   pesca al Link (GD05-081) continuano a essere distinguibili con
   sicurezza dall'abilità osservata, mai dal colore (entrambe le stampe
   restano legali nei mazzi Blu/Bianco visti finora).
+- **Non tutte le sconfitte hanno un errore da correggere** (vs Essen):
+  revisione richiesta esplicitamente da Kiraya convinto di aver perso
+  per proprio demerito, ma senza una sequenza di gioco individuabile
+  come sbagliata — board dell'avversario vuoto fino al t13, ogni unità
+  di Kiraya morta a un comando diretto (mai in un trade evitabile), e
+  Lupus usato correttamente sia quando aveva un bersaglio (t14, t20)
+  sia quando non ne aveva (t18, giustamente non attivato). La mano di
+  rimozione/pesca di Essen è la più pesante vista nel campione finora —
+  persino più di loclee (partita 11) — e il bounce di Strike Freedom ha
+  colpito Lupus entrambe le volte non per una scelta di sequenza ma
+  perché la rimozione avversaria aveva già eliminato ogni altro corpo
+  che potesse fare da bersaglio alternativo. Stesso principio già
+  applicato a やーこん in `aggro_mono_p/ANALISI.md`: distinguere "ho
+  giocato male" da "l'avversario aveva la risposta in mano" resta
+  importante anche quando chi gioca sospetta il contrario.
 
 ## Checklist provvisoria
 
