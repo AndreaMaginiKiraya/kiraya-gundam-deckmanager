@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (15 partite, 8-7)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (16 partite, 9-7)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **15 sole partite** è troppo presto per isolare pattern affidabili;
+Con **16 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -41,6 +41,7 @@ sottocontano.
 | 13 | 07-17 | [peachique](2026-07-17_kiraya-vs-peachique.yaml) | **W** | 13 | Blu/Verde, Londo Bell (ReZEL, Kayra's Jegan/Kayra Su, Nu Gundam x2 stampe, Amuro Ray, Davao) | 2 / 0 | 6 / 6 | Vittoria pulita per shield-out, nessun errore tattico individuato; t11 saturazione da 4 attacchi nello stesso turno (Flauros, Graze Custom, Ryusei-Go, Hyakuren) distrugge una base e toglie 3 shield in un colpo; Lupus mai pescato e non è servito |
 | 14 | 07-17 | [TJL](2026-07-17_kiraya-vs-tjl.yaml) | **W** | 15 | Blu/Bianco, stesso archetipo SEED Kira Yamato + Amuro Ray già visto contro Robotech (Aile Strike Gundam, Freedom Gundam, Strike Rouge Kira's Unit, Gundam ST01-001) | 5 / 0 | 8 / 7 | Vittoria per shield-out netto; unico errore reale al t7 (Activate di Isaribi sprecato su Ryusei-Go già rested, che aveva già attaccato quel turno); Lupus uccide "Gundam" con precisione chirurgica al t13 (4 danni esatti contro HP4 piena) |
 | 15 | 07-17 | [Essen](2026-07-17_kiraya-vs-essen.yaml) | **L** | 23 | Blu/Rosso/Bianco, control/removal estremo (Close Combat x3, Improved Technique, Battle of Aces x2, Overwhelming Pressure x4, Darkness Finger, Strike Freedom Gundam x2, Unicorn Gundam 02 Banshee Destroy Mode) + motore di pesca fuori scala (~20+ carte pescate in più) | 0 / 1 | 12 / 4 | Revisione richiesta da Kiraya: nessun errore tattico individuato, la mano di rimozione/pesca dell'avversario è la più pesante vista nel campione, persino più di loclee (partita 11) - board di Essen vuoto fino al t13 |
+| 16 | 07-17 | [xDEADHEADx](2026-07-17_kiraya-vs-xdeadheadx.yaml) | **W** | 16 | Viola/Verde, Neo Zeon (Char's Zaku Ⅱ + Char Aznable per High-Maneuver, Zeong con token, Sazabi, Jagd Doga/Geara Doga) | 4 / 0 | 8 / 8 | Vittoria pulita per shield-out; Char's Zaku Ⅱ linkato ottiene High-Maneuver a ogni attacco (t8, t10) - stesso buco di block-bypass già noto; l'abilità Attack di Sazabi al t16 fallisce contro Kiraya perché Lupus era l'unica unità in campo e quindi "impegnata in combattimento", non un bersaglio valido |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -297,6 +298,20 @@ sottocontano.
   applicato a やーこん in `aggro_mono_p/ANALISI.md`: distinguere "ho
   giocato male" da "l'avversario aveva la risposta in mano" resta
   importante anche quando chi gioca sospetta il contrario.
+- **Terza/quarta conferma del block-bypass come buco strutturale
+  ricorrente** (vs xDEADHEADx, t8/t10): Char's Zaku Ⅱ linkato a Char
+  Aznable (ST03-011) ottiene High-Maneuver a ogni attacco — stessa
+  famiglia di Chaos Gundam+Sting Oakley (sgd) e Wing Gundam Zero (liko).
+  Tre avversari diversi, stesso meccanismo, zero contromisura nel mazzo
+  in tutti e tre i casi.
+- **Un'abilità "distruggi un'unità nemica" può fallire a vuoto per
+  condizioni di targeting, non solo per assenza di bersagli** (vs
+  xDEADHEADx, t16): l'Attack di Sazabi (GD05-049) avrebbe dovuto forzare
+  Kiraya a sacrificare un'unità "non impegnata in combattimento", ma
+  Gundam Barbatos Lupus — l'unica unità di Kiraya in campo — era
+  proprio quella sotto attacco in quel momento, quindi non qualificava.
+  Vale la pena ricordarlo leggendo abilità simili in futuro: il
+  wording esatto della condizione conta quanto la sua presenza.
 
 ## Checklist provvisoria
 
