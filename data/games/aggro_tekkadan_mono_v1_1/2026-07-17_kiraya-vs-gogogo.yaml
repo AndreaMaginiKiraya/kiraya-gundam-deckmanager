@@ -1,0 +1,570 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-gogogo"
+  date_imported: "2026-07-18"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    gogogo:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "gogogo"
+    seen:
+      - "base"
+  "Blast Impulse Gundam":
+    id: "ST09-007"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 3
+    owner: "gogogo"
+    seen:
+      - "shield"
+  "Destiny Gundam":
+    id: null
+    candidates:
+      - "GD04-050"
+      - "GD05-055"
+    note: "ambiguous: discarded twice via Overflowing Affection (t2, t10) and deployed once (t12) but destroyed in the same battle with no ability ever resolving - neither candidate's text (unblockable + trash-recursion vs damage-reduction) had an occasion to fire. Both Purple, already gogogo's color, so no elimination there either."
+    owner: "gogogo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "gogogo"
+    seen:
+      - "shield"
+  "Impulse Gundam":
+    id: "ST09-001"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "gogogo"
+    seen:
+      - "activated"
+      - "deployed"
+      - "discarded"
+      - "returned to deck"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Kapool:
+    id: "GD04-074"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "gogogo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "gogogo"
+    seen:
+      - "command"
+      - "shield"
+  "Ride Mass":
+    id: "GD05-117"
+    note: "pilot mode of the COMMAND card 'Become a Shield'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shinn Asuka":
+    id: "ST09-008"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "gogogo"
+    seen:
+      - "pilot"
+  "Sword Impulse Gundam":
+    id: null
+    candidates:
+      - "GD04-056"
+      - "ST09-006"
+    note: "two distinct instances, can't be pinned to one id: the copies redeployed via Impulse Gundam's own Activate ability (t8, fetched 'from trash') and again later (t12) both show 'Sword Impulse Gundam: destroyed <target>' - an outright kill matching only ST09-006's 'if deployed from your trash, destroy 1 enemy Lv.3 or lower'. The t10 copy (deployed normally, not from trash) instead shows 'Dealt 1 damage to Sword Impulse Gundam' + 'Rested unit: X' - matching only GD04-056's 'Deploy: deal 1 damage to this Unit, then rest 1 enemy with 3 or less AP'. Left null because the record schema pins one id per card name and this game had both printings in play."
+    owner: "gogogo"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "gogogo"
+    seen:
+      - "shield"
+  "∀ Gundam":
+    id: null
+    candidates:
+      - "GD04-067"
+      - "GD04-069"
+      - "GD04-073"
+    note: "ambiguous: only ever seen as a shield reveal (t13), never deployed. All three printings are White, already one of gogogo's colors, so no elimination there either."
+    owner: "gogogo"
+    seen:
+      - "shield"
+setup:
+  - player: "gogogo"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "gogogo"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "gogogo"
+    actions:
+      - action: "play_command"
+        player: "gogogo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Destiny Gundam discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "gogogo"
+    actions:
+      - action: "deploy"
+        card: "Kapool"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "gogogo"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+      - action: "attack"
+        player: "gogogo"
+        attacker: "Kapool"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Rested 1 Resource"
+          - "Kapool: Draw a card"
+          - "Impulse Gundam discarded"
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Kapool received 2 damage, leaving 1 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Mikazuki Augus discarded"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Gundam Lfrith revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Blast Impulse Gundam revealed and discarded"
+  - turn: 8
+    active_player: "gogogo"
+    actions:
+      - action: "attack"
+        player: "gogogo"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Sword Impulse Gundam received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Impulse Gundam"
+      - action: "activate"
+        card: "Impulse Gundam"
+        effects:
+          - "Rested 2 Resources"
+          - "Impulse Gundam returned to deck"
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: destroyed Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "gogogo"
+        attacker: "Kapool"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Kapool received 2 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+  - turn: 10
+    active_player: "gogogo"
+    actions:
+      - action: "play_command"
+        player: "gogogo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Destiny Gundam discarded"
+      - action: "play_command"
+        player: "gogogo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Kapool discarded"
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "gogogo"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 4 damage, now destroyed"
+          - "Sword Impulse Gundam received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+        effects:
+          - "Sword Impulse Gundam: Dealt 1 damage to Sword Impulse Gundam, leaving 2 HP remaining"
+          - "Rested unit: Graze Custom"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Ride Mass"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Argama received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Widespread Annihilation revealed and discarded"
+  - turn: 12
+    active_player: "gogogo"
+    actions:
+      - action: "deploy"
+        card: "Destiny Gundam"
+      - action: "pair_pilot"
+        pilot: "Shinn Asuka"
+        unit: "Destiny Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+      - action: "attack"
+        player: "gogogo"
+        attacker: "Destiny Gundam"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none (High-maneuver)"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Shinn Asuka: 1 resource set as active"
+          - "Rested 2 Resources (Exiled 1 Resource EX)"
+          - "Sword Impulse Gundam: destroyed Graze Custom"
+          - "Gundam Flauros (Ryusei-Go) received 8 damage, now destroyed"
+          - "Destiny Gundam received 5 damage, now destroyed"
+      - action: "attack"
+        player: "gogogo"
+        attacker: "Sword Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Ryusei-Go (Graze Custom Ⅱ) and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sword Impulse Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Ryusei-Go (Graze Custom Ⅱ) and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sword Impulse Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: ∀ Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 14
+    active_player: "gogogo"
+    actions: []
+casualties:
+  gogogo:
+    - card: "Sword Impulse Gundam"
+      turn: 8
+    - card: "Kapool"
+      turn: 8
+    - card: "Sword Impulse Gundam"
+      turn: 10
+    - card: "Argama"
+      turn: 11
+    - card: "Destiny Gundam"
+      turn: 12
+    - card: "Sword Impulse Gundam"
+      turn: 13
+    - card: "Sword Impulse Gundam"
+      turn: 13
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 12
+shields_tally:
+  gogogo:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Dodicesima partita con v1_1, sesta vittoria (6-6, pareggio). gogogo Bianco/Viola, Zaft Destiny/Minerva Squad (Destiny Gundam, famiglia Impulse Gundam, Shinn Asuka) con splash Militia (Kapool, ∀ Gundam come shield). Stravinta: 0 shield perse da Kiraya contro le 6 di gogogo, che era già a shield zero da fine t13 - il t14 è quasi certamente una resa (nessuna azione di gogogo quel turno, 'Winner!' arriva subito dopo il semplice 'Passed' di Kiraya)."
+  - "Turno decisivo: t13, prima vera attivazione di Gundam Barbatos Lupus in questa partita - doppia attivazione uccide ENTRAMBE le copie rimaste di Sword Impulse Gundam nello stesso turno, ripulendo il board avversario in un colpo."
+  - "Widespread Annihilation (il board wipe già segnalato come buco strutturale del mazzo in aggro_mono_p/ANALISI.md) è stata scartata come shield al t11 senza mai essere giocata - pura fortuna di variance, non un merito del mazzo: contro lo stesso avversario con un pescata diversa questa partita poteva aprirsi molto peggio."
+  - "Trovate e documentate due copie diverse di Sword Impulse Gundam nella stessa partita (GD04-056 e ST09-006, distinte per abilità osservata) - stesso pattern già visto con Nu Gundam/Kira Yamato in partite precedenti: il nome è condiviso da più stampe reali giocate nello stesso mazzo avversario."
+  - "Nessun errore tattico isolato individuato lato Kiraya in questa partita: curva pulita (doppio Graze Custom t3, seguito da 1st Form t5), scambi ragionevoli per tutta la prima metà, chiusura netta col trash accumulato per Lupus al t13."

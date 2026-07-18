@@ -112,7 +112,9 @@ _SET_ACTIVE_RE = re.compile(r"^Set Active: .+$")
 # N rested EX Resource" (placed already-rested, e.g. Suletta Mercury's
 # During-Link effect).
 _RESOURCE_EX_RE = re.compile(r"^(?:.+?: )?Placed \d+ (?:rested )?(?:Resource EX|EX Resource)$")
-_RESTED_RESOURCES_RE = re.compile(r"^Rested \d+ Resources?$")
+# Optional suffix when the cost also exiles an EX Resource (e.g. Destiny
+# Gundam's own attack-boost cost).
+_RESTED_RESOURCES_RE = re.compile(r"^Rested \d+ Resources?(?: \(Exiled \d+ Resource EX\))?$")
 # A unit/pilot ability redirecting an in-progress attack to itself or
 # another unit (e.g. Guel Jeturk's action card).
 _ATTACK_TARGET_CHANGED_RE = re.compile(r"^.+?: attack target changed$")

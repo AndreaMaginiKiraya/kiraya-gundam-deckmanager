@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (11 partite, 5-6)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (12 partite, 6-6)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **11 sole partite** è troppo presto per isolare pattern affidabili;
+Con **12 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -37,6 +37,7 @@ sottocontano.
 | 9 | 07-17 | [dogman](2026-07-17_kiraya-vs-dogman.yaml) | **L** | 13 | Verde/Blu, Londo Bell/Zeon (Zaku Ⅱ, Jegan, Rick Dom x2, Gundam/Amuro Ray, Nu Gundam x2, Kayra's Re-GZ, Re-GZ) | 0 / 4 | 8 / 7 | Svolta t7: 3 attacchi consecutivi senza blocker disponibili spazzano via 3 unità in un colpo - sconfitta strutturale (mazzo senza Blocker), nessun errore tattico isolato dopo revisione |
 | 10 | 07-17 | [112t](2026-07-17_kiraya-vs-112t.yaml) | **W** | 14 | Rosso, Earth Alliance/Phantom Pain (Abyss/Chaos/Gaia Gundam, Auel Neider, Sting Oakley, Stellar Loussier, Exass, Girty Lue, Kindhearted) | 4 / 1 | 6 / 6 | Vittoria per resa dell'avversario al t14, non per shield-out - posizione già nettamente favorevole (4 shield contro 1); nessun errore tattico isolato, Lupus mai pescato in partita |
 | 11 | 07-17 | [loclee](2026-07-17_kiraya-vs-loclee.yaml) | **L** | 23 | Blu/Rosso, control/removal (Darkness Finger x3, Improved Technique, Close Combat x2, Strike Freedom Gundam, Unicorn Gundam 02 Banshee Destroy Mode) | 0 / 2 | 12 / 4 | Log troncato sul colpo di grazia, risultato impostato a mano; avversario che riunisce quasi tutti i problemi strutturali già noti del mazzo; unico errore reale al t14 (2nd Form sacrificato in un chip che Lupus da solo bastava a completare) |
+| 12 | 07-17 | [gogogo](2026-07-17_kiraya-vs-gogogo.yaml) | **W** | 14 | Bianco/Viola, Zaft Destiny/Minerva Squad (Destiny Gundam, famiglia Impulse Gundam, Shinn Asuka) + splash Militia | 5 / 0 | 8 / 6 | Stravinta: 0 shield perse, avversario già a shield zero da fine t13 (probabile resa al t14). Prima vera attivazione di Lupus in partita pulisce entrambe le copie rimaste di Sword Impulse Gundam in un colpo; Widespread Annihilation scartata come shield senza mai essere giocata |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -226,6 +227,19 @@ sottocontano.
   noto ("X deployed" subito dopo "Activated: <base> / Rested N
   Resources", senza deploy-da-mano separato) da riconoscere nei
   prossimi import.
+- **Prima volta sopra il .500 nel campione (6-6)**: la vittoria più
+  netta vista finora (0 shield perse, avversario già a shield zero un
+  turno prima della fine). Lupus attivato una sola volta in tutta la
+  partita (t13) ma basta a ripulire da solo entrambe le minacce rimaste
+  — quando arriva in tempo il piano-motore chiude in fretta anche senza
+  bisogno di ripetersi su più turni.
+- **Widespread Annihilation (il board wipe generico) scartata come
+  shield senza mai essere giocata** (vs gogogo, t11): pura variance, non
+  un merito del mazzo — il buco strutturale contro un board wipe
+  generico resta quello già documentato in `aggro_mono_p/ANALISI.md`
+  (vs IAN), semplicemente non si è materializzato questa volta.
+
+## Checklist provvisoria
 
 Ereditata da `aggro_mono_p` finché non emergono differenze specifiche
 per v1_1:

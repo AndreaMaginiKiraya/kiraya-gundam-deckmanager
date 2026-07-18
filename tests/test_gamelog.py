@@ -570,6 +570,22 @@ Turn end phase started"""
     assert parsed["unparsed"] == []
 
 
+def test_rested_resources_with_exiled_ex_suffix_recognized():
+    # "Rested N Resources (Exiled M Resource EX)" - a cost variant that
+    # also exiles an EX Resource (e.g. Destiny Gundam's attack boost).
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Rested 2 Resources (Exiled 1 Resource EX)
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+
+
 def test_unit_ability_ex_resource_reversed_wording_recognized():
     # "<source>: Placed N EX Resource" (unit-ability wording, reversed word
     # order) is a variant of the player's own "Placed N Resource EX".
