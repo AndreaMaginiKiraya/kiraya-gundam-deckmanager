@@ -1,0 +1,771 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-19_kiraya-vs-cheuk"
+  date_imported: "2026-07-19"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Cheuk:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Cheuk"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "at least two distinct instances: the t10/t12 Links on 'Nu Gundam' both trigger 'Healed 2 damage to: Nu Gundam' right after destroying an enemy Unit with battle damage - matches only GD05-085's ability. The t14 Link on 'Re-GZ' instead triggers 'Rested unit: Gundam Barbatos Lupus' (HP5 <=5) - matches only ST01-010's 【When Paired】text. Same recurring dual-print pattern seen across most of this campaign's games."
+    owner: "Cheuk"
+    seen:
+      - "exiled"
+      - "pilot"
+      - "shield"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  Jegan:
+    id: "GD05-027"
+    note: "pinned: at t6, 'Jegan against Graze Custom' resolves as 'Jegan received 2 damage, now destroyed' - Graze Custom's own AP2 is an exact kill on GD05-027's HP2. GD01-016 has HP3 and would have survived at 1 HP, contradicting the explicit 'now destroyed'."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Cheuk"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Kayra Su":
+    id: "GD05-086"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Cheuk"
+    seen:
+      - "exiled"
+      - "pilot"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Cheuk"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "at least two distinct instances: the t10 and t12 copies both show the 'exile 3 Londo Bell cards, then battle a chosen enemy Unit directly (no declare/block step)' sequence exclusive to GD05-017's 【When Paired】ability - used twice to snipe Kiraya's units unblockably. The t16 copy instead shows 'Placed 1 Resource EX' on Deploy, exclusive to GD05-020. Left null at the card-name level since multiple prints appear in this game."
+    owner: "Cheuk"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Cheuk"
+    seen:
+      - "base"
+      - "exiled"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Cheuk"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "Cheuk"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: both attacks (t4, t8) show 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' at battle declare, matching only ST03-008's own 【Attack】AP+2-during-this-turn ability. Confirmed by exact damage: t4 deals 3 to EX Base (base AP1+2). GD01-035 has no effect text and couldn't self-buff."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Cheuk"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Cheuk"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Cheuk"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Cheuk"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Cheuk"
+    actions:
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Jegan"
+      - action: "pair_pilot"
+        pilot: "Kayra Su"
+        unit: "Zaku Ⅱ"
+        linked: false
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Cheuk"
+    actions:
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Jegan"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Jegan received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 8
+    active_player: "Cheuk"
+    actions:
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Zaku Ⅱ"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+      - action: "play_command"
+        player: "Cheuk"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Re-GZ BWS"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 2 damage, leaving 3 HP remaining"
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Re-GZ BWS"
+        blockers: "none"
+        final_target: "Re-GZ BWS"
+        outcome:
+          - "Re-GZ BWS received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 2 damage, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Ra Cailum received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+  - turn: 10
+    active_player: "Cheuk"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Jegan, Re-GZ BWS and Ra Cailum exiled from the game"
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 7 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 5 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5 Shield card: Isaribi revealed"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Shield card added to hand"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+  - turn: 12
+    active_player: "Cheuk"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Kayra Su, Amuro Ray and Nu Gundam exiled from the game"
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 4 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 3 HP remaining"
+          - "Breach 5 Shield card: Gundam Exia Repair revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Gusion Rebake and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+  - turn: 14
+    active_player: "Cheuk"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Re-GZ"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Re-GZ received 5 damage, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zaku Ⅱ revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 16
+    active_player: "Cheuk"
+    actions:
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Re-GZ BWS"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 2 damage, now destroyed"
+          - "Re-GZ BWS received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Kayra Su"
+        unit: "Kayra's Re-GZ"
+        linked: true
+      - action: "attack"
+        player: "Cheuk"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Kayra's Re-GZ"
+        blockers: "none"
+        final_target: "Kayra's Re-GZ"
+        outcome:
+          - "Kayra's Re-GZ received 4 damage, now destroyed"
+          - "Hyakuren received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus Rex"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Nu Gundam received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+  - turn: 18
+    active_player: "Cheuk"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus Rex"
+casualties:
+  Cheuk:
+    - card: "Jegan"
+      turn: 6
+    - card: "Zaku Ⅱ"
+      turn: 8
+    - card: "Re-GZ BWS"
+      turn: 9
+    - card: "Ra Cailum"
+      turn: 9
+    - card: "Nu Gundam"
+      turn: 11
+    - card: "Re-GZ"
+      turn: 14
+    - card: "Re-GZ BWS"
+      turn: 16
+    - card: "Kayra's Re-GZ"
+      turn: 17
+    - card: "Nu Gundam"
+      turn: 17
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 10
+    - card: "Isaribi"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+    - card: "Gundam Barbatos Adapt"
+      turn: 16
+    - card: "Isaribi"
+      turn: 16
+    - card: "Hyakuren"
+      turn: 17
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 17
+shields_tally:
+  Cheuk:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "destroyed (turn 4)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Trentatreesima partita con v1_1, ventitreesima vittoria (22-11). Cheuk Blu/Verde, Londo Bell (Zaku II + Kayra Su, Jegan, Re-GZ/Re-GZ BWS/Kayra's Re-GZ, Nu Gundam in due stampe + Amuro Ray, Ra Cailum). Vittoria per shield-out al t18: partita lunga e combattuta nonostante l'avversario abbia usato ripetutamente la stessa combo letale già vista contro Juuto e miii."
+  - "Nu Gundam (GD05-017) usa la sua abilità When Paired che salta dichiarazione/blocco DUE volte in questa partita (t10, t12), colpendo direttamente Gundam Barbatos 2nd Form e Gundam Gusion Rebake, entrambe le volte innescando <Breach 5> - stessa combo devastante di Juuto e miii, ma stavolta la partita si vince comunque: la differenza è che Cheuk non ha mai un secondo Nu Gundam pronto abbastanza in fretta da ripetere il colpo su Lupus, e il ritmo di Kiraya regge lo stesso."
+  - "Isaribi distrutta tre volte in tutta la partita (t10, t12, t16), sempre da Breach 5 o da un attacco diretto di Nu Gundam - la dimostrazione più insistente finora del collo di bottiglia della base singola, eppure senza conseguenze decisive sul risultato finale."
+  - "Tech dell'avversario già nota che si ripresenta: al t14 Amuro Ray (ST01-010) linkato a Re-GZ resta Gundam Barbatos Lupus con la propria abilità prima che Re-GZ lo attacchi e lo distrugga - stessa famiglia della tech di Domon Kasshu/Master Asia vista contro jaysanti."
+  - "Nessun errore tattico individuato: il blocco con Shiden Custom (Ryusei-Go) al t10 contro Nu Gundam è la scelta corretta anche se porta comunque alla sua perdita - infligge più danno di ritorno (AP4) di quanto avrebbe fatto Gundam Barbatos 1st Form lasciato senza blocco (AP3), e un'unità sarebbe comunque morta in entrambi i casi."

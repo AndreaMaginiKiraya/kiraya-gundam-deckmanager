@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (32 partite, 21-11)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (33 partite, 22-11)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **32 sole partite** è troppo presto per isolare pattern affidabili;
+Con **33 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -58,6 +58,7 @@ sottocontano.
 | 30 | 07-19 | [CE1117](2026-07-19_kiraya-vs-ce1117.yaml) | **L** | 24 | Blu/Bianco, League Militaire (Gun EZ, Strike Rouge Ootori, Aile Strike/Strike Freedom Gundam + Kira Yamato, famiglia Victory Gundam/V2 Gundam, Zoloat) | 0 / 0 | 14 / 13 | Sconfitta per shield-out nella partita più equilibrata del campione (3 shield perse su 3 per entrambi, 0-0); tripla attivazione di Lupus al t21 elimina sia Strike Freedom Gundam che Victory Gundam ma CE1117 ricostruisce troppo in fretta; nessun errore tattico individuato, decisa dalla velocità di ricostruzione del motore League Militaire avversario |
 | 31 | 07-19 | [tinki](2026-07-19_kiraya-vs-tinki.yaml) | **W** | 20 | Blu/Bianco, Earth Federation/SEED ibrido (Rick Dias, Gundam NT-1 + Amuro Ray, Gundam + Kira Yamato, Altron Gundam EW, Freedom Gundam, Industrial 7) | 3 / 0 | 12 / 10 | Vittoria per shield-out in una partita lunga ed equilibrata; risolto un altro caso del rompicapo "Gundam" (stavolta abbinato a Kira Yamato ST04-010); motore di debuff ripetibile di Kira Yamato osservato 4 volte; nessun errore tattico individuato, Isaribi muore una sola volta |
 | 32 | 07-19 | [omega](2026-07-19_kiraya-vs-omega.yaml) | **W** | 14 | Viola/Rosso, Neo Zeon (Quess's Jagd Doga + Quess Paraya, Sazabi, Kshatriya + Marida Cruz, Rezin's Geara Doga, base Axis) | 5 / 1 | 10 / 6 | Vittoria per timeout dell'avversario da una posizione già dominante (0 shield perse); turno pesante al t10 (3 unità perse, tutto forzato dalla densità Blocker) recuperato subito al t11; probabile kill silenzioso di Sazabi non registrato dal parser; nessun errore tattico individuato |
+| 33 | 07-19 | [Cheuk](2026-07-19_kiraya-vs-cheuk.yaml) | **W** | 18 | Blu/Verde, Londo Bell (Zaku II + Kayra Su, Jegan, Re-GZ/Re-GZ BWS/Kayra's Re-GZ, Nu Gundam in due stampe + Amuro Ray, Ra Cailum) | 0 / 1 | 13 / 10 | Vittoria per shield-out nonostante Nu Gundam LR usi la sua combo block-bypass+Breach 5 due volte (t10, t12, come vs Juuto/miii) - stavolta il ritmo di Kiraya regge comunque; Isaribi distrutta tre volte, tech "resta il mio blocker prima di attaccarlo" ricorrente; nessun errore tattico individuato |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -613,6 +614,13 @@ sottocontano.
   costo, e se quella unità è Quess's Jagd Doga la sua stessa abilità
   Destroyed la rimanda in mano (distrutta da un effetto Neo Zeon amico)
   - due ritorni in mano nello stesso turno per due motivi indipendenti.
+- **Prima vittoria nonostante la combo block-bypass+Breach 5 di Nu
+  Gundam LR (GD05-017) usata due volte nella stessa partita** (vs
+  Cheuk, t10/t12, dopo le sconfitte vs Juuto e miii con la stessa
+  tech): qui il ritmo di Kiraya regge comunque, principalmente perché
+  Cheuk non riesce a schierare un secondo Nu Gundam abbastanza in
+  fretta da ripetere il colpo sul finisher - un primo segnale che la
+  minaccia, per quanto seria, non è automaticamente decisiva.
 
 ## Checklist provvisoria
 
