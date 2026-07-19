@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (26 partite, 17-9)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (27 partite, 17-10)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **26 sole partite** è troppo presto per isolare pattern affidabili;
+Con **27 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -52,6 +52,7 @@ sottocontano.
 | 24 | 07-18 | [Kumendeng](2026-07-18_kiraya-vs-kumendeng.yaml) | **W** | 15 | Blu/Verde, Zeon rush (Zaku I/II, Guntank, Char Aznable, Zeong + Char, Nu Gundam + Amuro Ray, Corsica Base) | 1 / 0 | 5 / 9 | Vittoria per timeout dell'avversario da una posizione già vinta; High-Maneuver reale e decisivo al t11 (Char Aznable linkato a Zeong); seconda doppia attivazione di Lupus nello stesso turno in due partite di fila (t12); scoperta e corretta un'importante svista nei dati di Amuro Ray (GD05-085) |
 | 25 | 07-19 | [Bugs](2026-07-19_kiraya-vs-bugs.yaml) | **W** | 14+ | Blu/Rosso, misto SEED/Unicorn/Neo Zeon (Strike Rouge Ootori/Kira's Unit + Kira Yamato, Zoloat, Gundam Kyrios Flight Mode, Kshatriya, Strike Freedom Gundam) | 5 / 2 | 6 / 6 | Vittoria totale, 0 shield perse; log probabilmente troncato prima del colpo di grazia (come loclee); turno di sfondamento al t9 (2-per-2 che elimina entrambe le minacce principali avversarie); seconda conferma dello stesso errore nei dati carte già trovato su Amuro Ray, stavolta su Kira Yamato (GD05-081) |
 | 26 | 07-19 | [Eshaku](2026-07-19_kiraya-vs-eshaku.yaml) | **W** | 24 | Mono-Rosso, "Tekkadan splash Zeon/UC/Clan" - mirror-match parziale (Barbatos 1st Form/Adapt, Hyakuren, Mikazuki Augus) + Sazabi, Kshatriya, GQuuuuuuX Omega Psycommu, doppia Close Combat/Improved Technique | 2 / 0 | 13 / 9+ | Vittoria per shield-out al t24 dopo una partita lunga e logorante, vinta "per un soffio" secondo Kiraya; terza e più estrema istanza di attivazioni multiple di Lupus nello stesso turno (t14, TRE attivazioni consecutive); avversario fortemente orientato alla rimozione diretta (2x Close Combat, 2x Improved Technique, Battle of Aces) |
+| 27 | 07-19 | [Juuto](2026-07-19_kiraya-vs-juuto.yaml) | **L** | 20 | Blu/Verde, Earth Federation/Londo Bell (Gundam + Amuro Ray, Nu Gundam LR + Amuro Ray, Re-GZ, ReZEL, Jegan, Kayra Su + Kayra's Jegan) | 0 / 2 | 16 / 8 | Sconfitta per shield-out; revisione richiesta da Kiraya convinto di propri errori, ma nessuna sequenza sbagliata trovata - decisa da un'unica causa strutturale ripetuta tre volte (t14, t18, t20): l'abilità When Paired di Nu Gundam (GD05-017) salta dichiarazione/blocco e colpisce direttamente, usata due volte per eliminare Lupus non appena rischierato (con Breach 5 che distrugge anche Isaribi entrambe le volte) |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -384,20 +385,21 @@ sottocontano.
   0 shield perse ed EX Base mai distrutta. Stesso principio già visto
   nella rivincita vs GenocidGIC (game 8): nessuno dei due pilastri è
   indispensabile quando la curva iniziale tiene il ritmo.
-- **Identità ambigua di "Gundam" irrisolta per la seconda volta di fila,
-  stesso giorno** (vs MrCross00, dopo desi): stessa combo Repair-2 a fine
-  turno + cura immediata 2 HP dopo aver distrutto un nemico (qui la
-  salva letteralmente dalla morte due volte, t10 e t12), che punta a
-  ST01-001 + Amuro Ray (GD05-085) - ma il danno inflitto resta
-  esattamente 6 in entrambe le occasioni di QUESTA partita, lo stesso
-  identico numero già osservato vs desi. **Aggiornamento (vs Kumendeng,
-  stesso giorno)**: causa trovata e corretta - Amuro Ray (GD05-085) era
-  sincronizzato nel database come AP0/HP0, ma il bonus reale stampato è
-  +2/+2 (confermato via immagine ufficiale, corretto in
-  `data/cards/en/gd05.json`). Con ST01-001 (AP3) + il vero bonus (+2) si
-  ottiene AP5, non 6: il numero osservato in queste due partite resta
-  quindi ancora inspiegato per "Gundam" nello specifico (a differenza di
-  Nu Gundam, dove lo stesso fix risolve tutto in modo pulito, vedi sotto)
+- **Identità ambigua di "Gundam" — risolta per il caso desi/Juuto,
+  resta aperta per MrCross00** (aggiornamento finale 2026-07-19): la
+  differenza era quale stampa di Amuro Ray fosse abbinata. Nelle partite
+  vs desi e vs Juuto, "Gundam" è abbinato all'Amuro Ray con l'abilità di
+  rest (ST01-010, AP2/HP1 propri) - con questi numeri più il 【During
+  Pair】di ST01-001 ("i tuoi Units ottengono AP+1 durante il tuo turno")
+  ogni cifra torna esatta, incluso il motivo per cui il danno inflitto
+  cambia tra il turno dell'avversario (AP6, buff attivo) e quello di
+  Kiraya (AP5, buff inattivo) - vs Juuto un ping di Barbatos Adapt prima
+  trascurato chiudeva anche l'ultimo conto sull'HP. Vs MrCross00 invece
+  "Gundam" è abbinato all'ALTRA stampa di Amuro Ray (GD05-085, quella
+  con la cura, AP0/HP0 propri per davvero - non un errore di sync) - con
+  un pilota da AP0 nessuna combinazione arriva a 6, quindi quel caso
+  specifico resta un vero mistero irrisolto anche dopo tutte le
+  correzioni.
   - "Gundam" potrebbe essere davvero GD04-008 (AP4+2=6 esatto) con la
   prova del Repair-2 da rivedere come coincidenza o interazione non
   ancora chiara.
@@ -500,6 +502,31 @@ sottocontano.
   of Aces - cinque effetti di rimozione diretta in 24 turni, in un mazzo
   che corre anche lo stesso nucleo Tekkadan di Kiraya, rendendo la
   partita insolitamente simmetrica rispetto al resto del campione.
+- **Quarta famiglia di block-bypass, la più letale vista finora** (vs
+  Juuto): l'abilità When Paired di Nu Gundam (GD05-017, "esilia 3 carte
+  Londo Bell dal trash, poi inizia una battaglia diretta contro
+  un'unità scelta, saltando dichiarazione e blocco") non solo bypassa il
+  blocco come già visto una volta con questa stessa carta (vs liko), ma
+  SCEGLIE il bersaglio - usata due volte in questa partita (t14, t18)
+  per eliminare Gundam Barbatos Lupus non appena rischierato, ogni
+  volta innescando anche il suo <Breach 5> e distruggendo Isaribi nello
+  stesso colpo. A differenza di High-Maneuver/Wing Zero/Nu Gundam LR
+  (When-Paired generico), qui il bersaglio è una scelta dell'avversario,
+  non casuale - il finisher del mazzo è specificamente a rischio ogni
+  volta che l'avversario ha un Nu Gundam LR pronto e 3 carte Londo Bell
+  in trash (cosa che si accumula naturalmente).
+- **Non tutte le sconfitte hanno un errore da correggere, ancora una
+  volta** (vs Juuto): revisione richiesta esplicitamente da Kiraya
+  convinto di propri errori multipli, ma nessuna sequenza di gioco
+  chiaramente sbagliata trovata - la partita si è decisa per intero
+  sulla tech ripetibile sopra descritta. Stesso principio già applicato
+  a Essen e KUMA.
+- **Buona lettura del non-blocco quando entrambi gli esiti sono
+  equivalenti** (vs Juuto, t16): con due copie identiche di Gundam
+  Gusion Rebake in campo, non bloccare l'attacco su una delle due lascia
+  che l'altra sopravviva per il turno successivo, dato che bloccare
+  avrebbe comunque significato perdere una copia allo stesso modo - la
+  scelta cambia SOLO quale copia sopravvive, non se una sopravvive.
 
 ## Checklist provvisoria
 

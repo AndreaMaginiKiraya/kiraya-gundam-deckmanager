@@ -56,14 +56,8 @@ cards:
       - "exiled"
       - "milled"
   Gundam:
-    id: null
-    candidates:
-      - "GD01-001"
-      - "GD01-013"
-      - "GD04-001"
-      - "GD04-008"
-      - "ST01-001"
-    note: "conflicting evidence, can't pin with confidence: 'Gundam repaired 2 from [Repair 2]' fires twice (end of t6, end of t8) with no other Repair source in play at either point - matches only ST01-001's printed <Repair 2> keyword. But the t6 damage exchange (deals 6 to Hyakuren, takes 4 leaving 1 HP) implies AP6/HP5 total, which fits ST01-001 (AP3+Amuro Ray's own AP2=5, off by 1) worse than GD04-008 (AP4+2=6 exact) - except GD04-008 has no Repair ability at all, contradicting the other evidence. Left null rather than force a pick; the AP mismatch might be an untracked modifier (no 'Modifier applied to: Gundam' line was logged, unlike the Nu Gundam case at t14 where Ra Cailum's modifier explains a similar-looking discrepancy)."
+    id: "ST01-001"
+    note: "resolved 2026-07-19 (was left ambiguous): ST01-001's own text has <Repair 2> (matches 'Gundam repaired 2 from [Repair 2]' at end of t6 and t8) plus 【During Pair】'During your turn, all your Units get AP+1' - active only on desi's own turns. t6 (desi's turn): dealt 6 = base AP3 + Amuro Ray's real own AP2 (was wrongly synced as 0, fixed 2026-07-19) + the During-Pair self-buff AP1. HP4+Amuro's HP1=5, took 4, leaves 1 (exact). t11 (Kiraya's turn, buff inactive): Gundam Barbatos Adapt's own ping hits it for 1 first (5-1=4), then Shiden Custom's AP4 destroys it exactly at 0 - the ping I'd missed the first time through is what makes the numbers close perfectly. Same explanation resolved the identical mystery vs Juuto (2026-07-19)."
     owner: "desi"
     seen:
       - "attacker"
@@ -675,7 +669,7 @@ study_notes:
   - "Miglior prova finora di Gundam Barbatos Lupus come motore in un singolo turno: al t15 la SECONDA copia di Lupus si attiva DUE volte nello stesso turno (6 carte esiliate in tutto), concatenando 2 ping da 2 danni con un attacco di Barbatos Adapt in mezzo per finire Gundam AGE-2 Double Bullet (HP5) a suon di chip - un solo bersaglio, tre fonti di danno diverse nello stesso turno invece di sprecarle su tre bersagli separati. Prima copia di Lupus (t13) aveva già chiuso da sola con una singola attivazione + tris di attacchi su shield/base. Tre attivazioni totali in una partita da due copie distinte."
   - "Quinta/sesta conferma del problema di densità Blocker (checklist item 5): Shiden Custom (Ryusei-Go) muore in trade al t11 senza mai bloccare, Gundam Gusion Rebake arriva solo al t17 (ultimo turno giocato) - nessuno dei due era mai disponibile come blocco nei momenti critici (t6, t10, t14) di questa partita, coerente con la densità 12% già documentata piuttosto che un'anomalia isolata."
   - "Quinta coppia di stampe condivise nella stessa partita (dopo Nu Gundam, Kira Yamato, Sword Impulse Gundam, Sazabi): Amuro Ray appare in due prints diverse nello stesso turno (t14) - ST01-010 (rest su unità nemica <=5 HP, innescato due volte: su Hyakuren al t6 e su Gundam Barbatos Lupus al t14) e GD05-085 (cura 2 HP all'unità abbinata quando distrugge un nemico in combattimento, innescato su Nu Gundam al t14). Riconoscibili solo dall'effetto osservato, mai dal nome."
-  - "Correzione (post-partita, 2026-07-18): il conto di Nu Gundam al t14 in realtà torna già solo con GD05-020 + il vero bonus di Amuro Ray GD05-085 (+2/+2, non 0/0 come sincronizzato erroneamente nel database - vedi MEMORY/data/cards/en/gd05.json). Il modificatore di Ra Cailum osservato ('Modifier applied to: Nu Gundam') è quindi un effetto di sola riduzione danno (-1, coerente con 'reduced by 1' nel log), non un buff di statistiche come ipotizzato inizialmente. Il rompicapo su 'Gundam' al t6/t11 resta invece ancora scoperto anche dopo il fix: con Amuro corretto il conto di ST01-001 dà AP5 non 6, mentre GD04-008 darebbe AP6 esatto ma non ha l'abilità Repair-2 osservata - tensione irrisolta, vedi ANALISI.md."
+  - "Correzione (post-partita, 2026-07-18): il conto di Nu Gundam al t14 in realtà torna già solo con GD05-020 + il vero bonus di Amuro Ray GD05-085 (+2/+2, non 0/0 come sincronizzato erroneamente nel database - vedi MEMORY/data/cards/en/gd05.json). Il modificatore di Ra Cailum osservato ('Modifier applied to: Nu Gundam') è quindi un effetto di sola riduzione danno (-1, coerente con 'reduced by 1' nel log), non un buff di statistiche come ipotizzato inizialmente. Correzione finale (2026-07-19): anche il rompicapo su 'Gundam' al t6/t11 è ora risolto - è ST01-001, il cui 【During Pair】'AP+1 durante il tuo turno' spiega il 6 al t6 (turno di desi, buff attivo) e un ping di Barbatos Adapt prima non notato spiega l'esatta morte a 4 danni al t11 (turno di Kiraya, buff inattivo). Stessa spiegazione confermata su un caso pulito vs Juuto."
 unparsed_lines:
   - "[turn 14] Nu Gundam received 5 damage, reduced by 1, leaving 2 HP remaining"
   - "[turn 14] Gundam AGE-2 Double Bullet received 4 damage, reduced by 2, leaving 4 HP remaining"
