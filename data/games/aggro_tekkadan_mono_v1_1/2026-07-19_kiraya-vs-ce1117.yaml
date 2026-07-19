@@ -1,0 +1,1032 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-19_kiraya-vs-ce1117"
+  date_imported: "2026-07-19"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:CE1117"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    CE1117:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "CE1117"
+    seen:
+      - "command"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: both t8 and t14 show the same pattern - deploy+link, then 'Selecting target for Aile Strike Gundam' followed by a Kiraya unit (Barbatos 1st Form HP2, then Barbatos Adapt) being returned to hand - exact match for ST04-001's 【When Paired・Lv.4+ Pilot】'Choose 1 enemy Unit with 4 or less HP. Return it to its owner's hand.' Same pin as vs Olo (2026-07-18)."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "CE1117"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gun EZ":
+    id: "GD04-015"
+    note: "pinned: t4 deploy shows 'Selecting target for Gun EZ' twice -> 'Rested unit: Gun EZ' then 'Rested unit: Gundam Exia Repair' - exact match for GD04-015's 【Deploy】'Choose 1 of your active (League Militaire) Units and 1 enemy Unit that is Lv.3 or lower. Rest them.' (itself, plus the enemy target). GD05-013 has no Deploy ability at all. Confirmed by combat at t5: HP3 takes 2 damage, leaving 1 - exact."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "CE1117"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "returned to hand"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 5th Form (Ground Type)":
+    id: "GD03-066"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "CE1117"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to deck"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "at least two distinct instances: t8 and t20 both show 'Selecting target for Kira Yamato' -> 'Kira Yamato: Modifier applied to: X' on an enemy unit during attack declaration - matches only ST04-010's 【Attack】AP-2 ability. t18 instead shows 'Kira Yamato: Draw a card' immediately on Link with no target selection - matches only GD05-081's 【When Linked】draw-if-Orb/Triple-Ship-Alliance ability (Strike Freedom Gundam qualifies). Same dual-print pattern seen repeatedly this campaign (desi, Olo, MrCross00, Juuto)."
+    owner: "CE1117"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "CE1117"
+    seen:
+      - "command"
+  Parts:
+    id: null
+    note: "unit token generated by Victory Gundam/V2 Gundam Deploy abilities (same pattern seen vs Nate, 2026-07-18: League Militaire, AP1/HP1, can't attack the player); correctly absent from the card database since it has no printed card of its own"
+    owner: "CE1117"
+    seen:
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "CE1117"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "CE1117"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "CE1117"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "CE1117"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "V2 Gundam":
+    id: "GD05-001"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "CE1117"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Victory Gundam":
+    id: "GD04-003"
+    note: "pinned: 'Victory Gundam: Draw a card' fires repeatedly on Attack declaration (t20, t22 x2, t24 x2) - matches GD04-003's 【Attack】'If you have 3 or more (League Militaire) Units in play, draw 1.' (CE1117 runs multiple Victory Gundam/V2 Gundam/Zoloat copies plus League Militaire Parts tokens, easily hitting 3+). GD04-011 has no Attack ability, only a Destroyed-trigger token generator. Same pin as vs Nate (2026-07-18)."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "CE1117"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "CE1117"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "CE1117"
+    seen:
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "CE1117"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "CE1117"
+    actions:
+      - action: "play_command"
+        player: "CE1117"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Strike Rouge (Ootori) discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "CE1117"
+    actions:
+      - action: "deploy"
+        card: "Gun EZ"
+        effects:
+          - "Rested unit: Gun EZ"
+          - "Rested unit: Gundam Exia Repair"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Gun EZ"
+        blockers: "none"
+        final_target: "Gun EZ"
+        outcome:
+          - "Gun EZ received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Gundam Exia Repair: destroyed Gun EZ"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Gundam Exia Repair moved to trash"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Shiden Custom (Ryusei-Go) discarded"
+  - turn: 6
+    active_player: "CE1117"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Hyakuren discarded"
+  - turn: 8
+    active_player: "CE1117"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Barbatos 1st Form returned to hand"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 0 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Aile Strike Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+  - turn: 10
+    active_player: "CE1117"
+    actions:
+      - action: "play_command"
+        player: "CE1117"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Zoloat (League Militaire) discarded"
+      - action: "play_command"
+        player: "CE1117"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Kira Yamato discarded"
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 2 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Parts"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Victory Gundam"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos Adapt and Victory Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 4 damage, leaving 1 HP remaining"
+  - turn: 12
+    active_player: "CE1117"
+    actions:
+      - action: "deploy"
+        card: "V2 Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "V2 Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "V2 Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "V2 Gundam received 2 damage, leaving 4 HP remaining"
+        effects:
+          - "V2 Gundam repaired 2 from [Repair 2]"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Parts"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to V2 Gundam, leaving 4 HP remaining"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "V2 Gundam"
+        blockers: "none"
+        final_target: "V2 Gundam"
+        outcome:
+          - "V2 Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: V-Dash Gundam revealed and discarded"
+  - turn: 14
+    active_player: "CE1117"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Barbatos Adapt returned to hand"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 2nd Form and Gundam Lfrith"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 16
+    active_player: "CE1117"
+    actions:
+      - action: "play_command"
+        player: "CE1117"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 5th Form (Ground Type)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 4 damage, now destroyed"
+          - "Gundam Barbatos 2nd Form received 2 damage, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos Adapt and Victory Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: V-Dash Gundam revealed and discarded"
+  - turn: 18
+    active_player: "CE1117"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Victory Gundam and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Victory Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Victory Gundam received 2 damage, leaving 1 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 4 damage, leaving 4 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Gundam Lfrith"
+        declared_target: "Gundam Barbatos 2nd Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 2nd Form"
+        outcome:
+          - "Gundam Barbatos 2nd Form received 2 damage, now destroyed"
+          - "Gundam Lfrith received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 5th Form (Ground Type)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+  - turn: 20
+    active_player: "CE1117"
+    actions:
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Kira Yamato and Kira Yamato discarded"
+          - "Hyakuren returned to deck"
+          - "Isaribi received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Shield card: Gundam Barbatos Lupus Rex revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Zoloat (League Militaire)"
+        linked: false
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Zoloat (League Militaire)"
+        declared_target: "Gundam Barbatos 5th Form (Ground Type)"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos 5th Form (Ground Type)"
+        final_target: "Gundam Barbatos 5th Form (Ground Type)"
+        outcome:
+          - "Gundam Barbatos 5th Form (Ground Type) received 5 damage, now destroyed"
+          - "Zoloat (League Militaire) received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "deploy"
+        card: "V-Dash Gundam"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 2nd Form, Gundam Barbatos Lupus Rex and Gundam Barbatos 5th Form (Ground Type) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Freedom Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Barbatos Adapt and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Freedom Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Victory Gundam, now destroyed"
+      - action: "deploy"
+        card: "Parts"
+  - turn: 22
+    active_player: "CE1117"
+    actions:
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Victory Gundam and V-Dash Gundam"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Isaribi received 3 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "V-Dash Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+  - turn: 23
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Parts"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Victory Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Shiden Custom (Ryusei-Go) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Victory Gundam, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "V-Dash Gundam"
+        blockers: "none"
+        final_target: "V-Dash Gundam"
+        outcome:
+          - "V-Dash Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 4 damage, leaving 1 HP remaining"
+  - turn: 24
+    active_player: "CE1117"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "Victory Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "play_command"
+        player: "CE1117"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "CE1117"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 8
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+    - card: "Gundam Barbatos Adapt"
+      turn: 18
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 18
+    - card: "Gundam Barbatos 2nd Form"
+      turn: 18
+    - card: "Isaribi"
+      turn: 20
+    - card: "Gundam Barbatos 5th Form (Ground Type)"
+      turn: 20
+    - card: "Isaribi"
+      turn: 22
+    - card: "Gundam Barbatos Adapt"
+      turn: 23
+  CE1117:
+    - card: "Gun EZ"
+      turn: 5
+    - card: "Aile Strike Gundam"
+      turn: 9
+    - card: "Strike Rouge (Ootori)"
+      turn: 10
+    - card: "V2 Gundam"
+      turn: 13
+    - card: "Reineforce Jr."
+      turn: 13
+    - card: "Aile Strike Gundam"
+      turn: 14
+    - card: "Gundam Lfrith"
+      turn: 17
+    - card: "Gundam Lfrith"
+      turn: 18
+    - card: "Zoloat (League Militaire)"
+      turn: 20
+    - card: "Strike Freedom Gundam"
+      turn: 21
+    - card: "Victory Gundam"
+      turn: 21
+    - card: "Aile Strike Gundam"
+      turn: 23
+    - card: "V-Dash Gundam"
+      turn: 23
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  CE1117:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Trentesima partita con v1_1, sedicesima sconfitta (19-11). CE1117 Blu/Bianco, League Militaire (Gun EZ, Strike Rouge Ootori, Aile Strike/Strike Freedom Gundam + Kira Yamato, famiglia Victory Gundam/V2 Gundam + Üso Ewin, Zoloat). Sconfitta per shield-out al t24 nella partita più equilibrata del campione finora: entrambi i giocatori chiudono a 3 shield perse su 3, 0-0 - letteralmente decisa dall'ultimo pezzo, come descritto da Kiraya."
+  - "Turno di svolta quasi risolutivo al t21: Gundam Barbatos Lupus si attiva TRE volte nello stesso turno (9 carte esiliate), eliminando sia Strike Freedom Gundam che Victory Gundam in un colpo solo - il momento in cui la partita sembrava tornata nettamente in favore di Kiraya, vanificato dalla rapidità con cui CE1117 ricostruisce (Victory Gundam multipli + token Parts + Zoloat nei turni successivi)."
+  - "Nuova variante di bounce di Strike Freedom Gundam osservata (t20): 'Hyakuren returned to deck' invece che in mano - conferma la stessa variante 'returned to deck' già vista una volta vs Olo (2026-07-18), non un caso isolato. Notato anche un costo mai visto prima: Strike Freedom scarta 2 copie di Kira Yamato dalla mano di CE1117 stesso come parte della propria abilità di attacco."
+  - "Nessun errore tattico isolato individuato dopo revisione: ogni turno di Kiraya usa le risorse disponibili in modo ragionevole (trade forzati per assenza di blocco - problema di densità Blocker sempre presente - ricostruzione rapida dopo ogni perdita, uso efficiente di Lupus). La sconfitta sembra decisa dalla velocità di ricostruzione del motore League Militaire di CE1117 (pesca ripetuta via Victory Gundam x3 stampe + A Show of Resolve + Overflowing Affection x2) più che da una sequenza specifica di Kiraya."
+  - "Doppia stampa di Kira Yamato nella stessa partita, ennesima conferma (dopo desi, Olo, MrCross00, Juuto): ST04-010 (debuff AP-2 in dichiarazione, t8/t20) e GD05-081 (pesca su Link, t18)."

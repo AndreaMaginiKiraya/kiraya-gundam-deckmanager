@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (29 partite, 19-10)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (30 partite, 19-11)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **29 sole partite** è troppo presto per isolare pattern affidabili;
+Con **30 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -55,6 +55,7 @@ sottocontano.
 | 27 | 07-19 | [Juuto](2026-07-19_kiraya-vs-juuto.yaml) | **L** | 20 | Blu/Verde, Earth Federation/Londo Bell (Gundam + Amuro Ray, Nu Gundam LR + Amuro Ray, Re-GZ, ReZEL, Jegan, Kayra Su + Kayra's Jegan) | 0 / 2 | 16 / 8 | Sconfitta per shield-out; revisione richiesta da Kiraya convinto di propri errori, ma nessuna sequenza sbagliata trovata - decisa da un'unica causa strutturale ripetuta tre volte (t14, t18, t20): l'abilità When Paired di Nu Gundam (GD05-017) salta dichiarazione/blocco e colpisce direttamente, usata due volte per eliminare Lupus non appena rischierato (con Breach 5 che distrugge anche Isaribi entrambe le volte) |
 | 28 | 07-19 | [1231](2026-07-19_kiraya-vs-1231.yaml) | **W** | 10 | Blu/Rosso, control leggero (Signs of a Revolution x2, Rewloola, Kindhearted) | 6 / 2 | 3 / 1 | Vittoria per resa dell'avversario al t10 da una posizione già completamente vinta (0 shield perse); rimozione diretta ripetuta dell'avversario (2x Signs of a Revolution, self-ping di Rewloola) non intacca il ritmo offensivo; nessun errore tattico individuato |
 | 29 | 07-19 | [miii](2026-07-19_kiraya-vs-miii.yaml) | **W** | 13 | Blu/Verde, Earth Federation/Londo Bell + splash OZ/Zeon (Jegan, Re-GZ/Kayra's Re-GZ, Nu Gundam in due stampe, Corsica Base + token Tallgeese, Rick Dom x2) | 1 / 0 | 12 / 8 | Vittoria per shield-out di misura dopo un t12 quasi disastroso (Nu Gundam LR + Tallgeese + Rick Dom spazzano via 4 unità, Isaribi distrutta due volte nello stesso turno); recupero pulito al t13, nessun errore tattico individuato |
+| 30 | 07-19 | [CE1117](2026-07-19_kiraya-vs-ce1117.yaml) | **L** | 24 | Blu/Bianco, League Militaire (Gun EZ, Strike Rouge Ootori, Aile Strike/Strike Freedom Gundam + Kira Yamato, famiglia Victory Gundam/V2 Gundam, Zoloat) | 0 / 0 | 14 / 13 | Sconfitta per shield-out nella partita più equilibrata del campione (3 shield perse su 3 per entrambi, 0-0); tripla attivazione di Lupus al t21 elimina sia Strike Freedom Gundam che Victory Gundam ma CE1117 ricostruisce troppo in fretta; nessun errore tattico individuato, decisa dalla velocità di ricostruzione del motore League Militaire avversario |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -550,6 +551,19 @@ sottocontano.
   variante estrema del collo di bottiglia della base singola già in
   checklist, qui raddoppiato entro un solo turno invece che diluito
   su più turni.
+- **La partita più equilibrata del campione finora** (vs CE1117):
+  entrambi i giocatori chiudono a 3 shield perse su 3, 0-0 - decisa
+  letteralmente dall'ultimo pezzo. Nessun errore tattico individuato
+  dopo revisione; la differenza è stata la velocità di ricostruzione
+  del motore League Militaire avversario (Victory Gundam in più stampe,
+  A Show of Resolve, doppio Overflowing Affection) dopo che una tripla
+  attivazione di Lupus al t21 aveva eliminato sia Strike Freedom Gundam
+  che Victory Gundam in un colpo solo.
+- **Seconda conferma della variante "returned to deck" del bounce di
+  Strike Freedom Gundam** (vs CE1117, dopo Olo): non un caso isolato -
+  la stessa abilità può rimandare l'unità bersaglio nel mazzo invece che
+  in mano, un effetto ancora più punitivo perché non è nemmeno
+  ripescabile a comando.
 
 ## Checklist provvisoria
 
