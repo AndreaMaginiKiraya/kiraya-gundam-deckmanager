@@ -27,8 +27,11 @@ cards:
       - "command"
       - "shield"
   "Amuro Ray":
-    id: "ST01-010"
-    note: "pinned: t8 shows 'Selecting target for Amuro Ray / Rested unit: Graze Custom' - matches ST01-010's own When-Paired 'choose 1 enemy Unit with 5 or less HP, rest it' (Graze Custom HP2). GD05-085's ability (recover 2 HP on kill) has no rest effect at all."
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "correction (2026-07-19): at least two distinct instances, can't be pinned to one id - originally mis-pinned to ST01-010 alone based only on the t8 pairing ('Selecting target for Amuro Ray / Rested unit: Graze Custom', matching ST01-010's rest ability), but a second pairing later triggers 'Healed 2 damage to: Nu Gundam' twice - matches only GD05-085's heal-on-destroy ability. Same dual-print pattern documented in several other games this campaign (desi, MrCross00, Sakurah, Juuto)."
     type: "PILOT"
     level: 4
     cost: 1

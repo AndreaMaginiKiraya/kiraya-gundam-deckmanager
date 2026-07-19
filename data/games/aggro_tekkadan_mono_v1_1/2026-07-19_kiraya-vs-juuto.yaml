@@ -30,8 +30,7 @@ cards:
     candidates:
       - "GD05-085"
       - "ST01-010"
-    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
-    owner: "Juuto"
+    note: "correction (2026-07-19): missed pinning this at the time - at least two distinct instances. The t6 pairing (on 'Gundam') and the t20 pairing (on 'Nu Gundam') both trigger 'Rested unit: X' - matches only ST01-010's When-Paired rest ability. The t14 and t18 pairings (on 'Nu Gundam') and one on 'Re-GZ' all trigger 'Healed 2 damage to: X' after destroying an enemy with battle damage - matches only GD05-085's heal-on-destroy ability. Same dual-print pattern seen across most of this campaign's games."
     seen:
       - "exiled"
       - "pilot"
