@@ -1,0 +1,625 @@
+game:
+  id: "aggro_tekkadan_mono_v1_2/2026-07-19_kiraya-vs-bigdog"
+  date_imported: "2026-07-19"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    BIGDOG:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_2"
+cards:
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "dual instance, both confirmed by evidence: turn 12 (paired with Nu Gundam) shows 'Healed 2 damage to: Nu Gundam' twice, matching GD05-085's 'destroys an enemy Unit with battle damage -> recover 2 HP' exactly (Nu Gundam destroyed Barbatos 4th Form then Barbatos Adapt that turn). Turn 14 (paired with Re-GZ) shows 'Selecting target for Amuro Ray... Rested unit: Gundam Barbatos Lupus' — Barbatos Lupus has exactly 5 HP, matching ST01-010's 'When Paired: choose 1 enemy Unit with 5 or less HP, rest it' exactly. BIGDOG is running both printings."
+    owner: "BIGDOG"
+    seen:
+      - "pilot"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "BIGDOG"
+    seen:
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 4th Form":
+    id: "ST05-001"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "BIGDOG"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "BIGDOG"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "dual instance, both confirmed by evidence: the turn-12 copy exiled 3 Londo Bell cards from trash then forced a damage-step-only battle against Gundam Barbatos 4th Form (with Breach 5) — matches GD05-017's 【When Paired】block-bypass ability exactly, the same mechanic documented across many earlier games this campaign. The turn-14 and turn-16 copies both show 'Nu Gundam deployed. Placed 1 Resource EX.' with no Pair/battle event — matches GD05-020's 【Deploy】'if there are 2+ Londo Bell cards in your trash, place 1 EX Resource' exactly (plenty of Londo Bell trash by then: Kayra's Re-GZ, Re-GZ, Re-GZ BWS, Jegan all destroyed/exiled already). BIGDOG is running both printings."
+    owner: "BIGDOG"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "BIGDOG"
+    seen:
+      - "base"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "BIGDOG"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "BIGDOG"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+setup:
+  - player: "BIGDOG"
+    action: "choose_second_player"
+  - player: "BIGDOG"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "BIGDOG"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "BIGDOG"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Become a Shield discarded"
+  - turn: 6
+    active_player: "BIGDOG"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "attack"
+        player: "BIGDOG"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Kayra's Re-GZ"
+        blockers: "none"
+        final_target: "Kayra's Re-GZ"
+        outcome:
+          - "Kayra's Re-GZ received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Gundam Exia Repair: destroyed Kayra's Re-GZ"
+          - "Gundam Exia Repair milled 2: Overflowing Affection and Ryusei-Go (Graze Custom Ⅱ) moved to trash"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 8
+    active_player: "BIGDOG"
+    actions:
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "attack"
+        player: "BIGDOG"
+        attacker: "Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 4 damage, leaving 1 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Re-GZ BWS"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ BWS"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Re-GZ"
+        blockers: "none"
+        final_target: "Re-GZ"
+        outcome:
+          - "Re-GZ received 2 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 4 damage, now destroyed"
+          - "Card added to hand: Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "BIGDOG"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 4th Form"
+        effects:
+          - "Gundam Barbatos 4th Form: Dealt 1 damage to Gundam Barbatos Adapt, leaving 3 HP remaining"
+          - "Gundam Barbatos 4th Form: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 4th Form, leaving 4 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Isaribi discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ BWS revealed and discarded"
+  - turn: 12
+    active_player: "BIGDOG"
+    actions:
+      - action: "attack"
+        player: "BIGDOG"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Kayra's Re-GZ received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "BIGDOG"
+        attacker: "Re-GZ"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Re-GZ received 4 damage, now destroyed"
+          - "Card added to hand: Nu Gundam"
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Kayra's Re-GZ, Re-GZ BWS and Jegan exiled from the game"
+      - action: "attack"
+        player: "BIGDOG"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Barbatos 4th Form"
+        outcome:
+          - "Gundam Barbatos 4th Form received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "BIGDOG"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 3 HP remaining"
+          - "Breach 5 Shield card: Hyakuren revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Graze Custom discarded"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Shiden Custom (Ryusei-Go) and Gundam Barbatos 4th Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 2 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Kayra's Re-GZ"
+        blockers: "none"
+        final_target: "Kayra's Re-GZ"
+        outcome:
+          - "Kayra's Re-GZ received 2 damage, now destroyed"
+          - "Graze Custom received 3 damage, now destroyed"
+  - turn: 14
+    active_player: "BIGDOG"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "BIGDOG"
+        attacker: "Re-GZ"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Re-GZ received 5 damage, now destroyed"
+          - "Card added to hand: Nu Gundam"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Nu Gundam"
+  - turn: 16
+    active_player: "BIGDOG"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+casualties:
+  BIGDOG:
+    - card: "Kayra's Re-GZ"
+      turn: 7
+    - card: "Ra Cailum"
+      turn: 9
+    - card: "Re-GZ"
+      turn: 9
+    - card: "Re-GZ"
+      turn: 12
+    - card: "Nu Gundam"
+      turn: 13
+    - card: "Kayra's Re-GZ"
+      turn: 13
+    - card: "Re-GZ"
+      turn: 14
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 12
+    - card: "Gundam Barbatos 4th Form"
+      turn: 12
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+shields_tally:
+  BIGDOG:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "Win on turn 16, despite an opening mulligan. The ending is abrupt — BIGDOG deploys a Nu Gundam and places an EX Resource, then 'Kiraya: Winner!' fires with no 'no more shields' line, so this looks like a concession/timeout rather than a shield-based finish."
+  - "Another Nu Gundam LR + Amuro Ray GD05-085 matchup (tracked since earlier this campaign) — another win, reinforcing that the block-bypass+heal combo is dangerous but not automatically decisive when the board can pressure back fast enough."
+  - "BIGDOG is running BOTH Amuro Ray printings (GD05-085 heal-on-kill and ST01-010 rest-on-pair) and BOTH Nu Gundam printings (GD05-017 block-bypass LR and GD05-020 EX-Resource-ramp R) at once — a 'full playset across both prints' build, first time seeing this doubled-up approach in the campaign."
+  - "Barbatos Lupus's trash-recycling activation (confirmed free, see the DekuGreen game correction) chipped the turn-12 Nu Gundam from 5 down to 1 HP for zero live-card cost, setting up the kill with Ryusei-Go next attack — good repeated confirmation of its value as a follow-up removal tool after a big trade turn."
+  - "The turn-12 Nu Gundam swing was still very threatening on its own: block-bypass forced-battle killed Barbatos 4th Form, Breach 5 destroyed Isaribi, then a second normal attack killed Barbatos Adapt and Breach 5'd a shield — 2-for-2 plus 2 shields in a single turn from one card. Worth remembering as this deck's most dangerous single-turn swing seen yet."
