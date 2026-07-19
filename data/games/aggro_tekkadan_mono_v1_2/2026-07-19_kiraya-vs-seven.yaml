@@ -1,0 +1,646 @@
+game:
+  id: "aggro_tekkadan_mono_v1_2/2026-07-19_kiraya-vs-seven"
+  date_imported: "2026-07-19"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_2"
+    seven:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+cards:
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "seven"
+    seen:
+      - "discarded"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "seven"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Heero Yuy":
+    id: "ST02-010"
+    note: "pinned: turn 12, truly Linked to Wing Gundam (ST02-001, base AP4/HP5). Attack dealt 7 damage and the Unit had 7 total HP (took 4, 'leaving 3 HP remaining') — matches base stats + Heero Yuy's own pilot-box AP2/HP1 + his 【During Link】'AP+1 and HP+1' ability stacking on top (4+2+1=7 AP, 5+1+1=7 HP), the same base-box-plus-During-Link-ability mechanism first confirmed in the liko game (rule 3-3-9-2). GD05-098 has no AP/HP box and an unrelated shield-destroy debuff ability, doesn't fit."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "seven"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+  "Kira Yamato":
+    id: "ST04-010"
+    note: "pinned: turn 14, merely Paired (not Linked) to Silver Bullet, yet 'Selecting target for Kira Yamato... Kira Yamato: Modifier applied to: Hyakuren' fires on Attack, targeting the enemy Unit — matches ST04-010's 【Attack】'choose 1 enemy Unit, it gets AP-2 during this battle' exactly. Damage math confirms: Silver Bullet (base AP4) + Kira Yamato's own pilot-box AP2 = 6, matching 'Hyakuren received 6 damage' exactly. GD05-081's ability only triggers on a true Link (not Paired) and never targets an enemy at all."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "seven"
+    seen:
+      - "pilot"
+      - "shield"
+  "Launcher Strike Gundam":
+    id: "GD01-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "seven"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "seven"
+    seen:
+      - "command"
+      - "milled"
+  Peacemillion:
+    id: "GD03-125"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "seven"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "milled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "seven"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Striker Pack":
+    id: "ST04-012"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "seven"
+    seen:
+      - "command"
+  "Sword Strike Gundam":
+    id: "GD01-073"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "seven"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "seven"
+    seen:
+      - "discarded"
+  "Wing Gundam":
+    id: "ST02-001"
+    note: "pinned: turn 12 attack was explicitly declared against a specific active enemy Unit (Gundam Barbatos Adapt, Lv.4) rather than the player — matches ST02-001's 'may choose an active enemy Unit that is Lv.4 or lower as its attack target' exactly. 'Breach 5: : Isaribi received 5 damage' also explicitly names Breach 5, which only ST02-001 has (GD01-040 has no ability at all). See the Heero Yuy note for the full AP/HP math confirming the base stats (AP4/HP5) too."
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "seven"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Wing Gundam Zero":
+    id: "GD01-024"
+    type: "UNIT"
+    level: 8
+    cost: 8
+    ap: 5
+    hp: 7
+    owner: "seven"
+    seen:
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "seven"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "seven"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Isaribi discarded"
+  - turn: 4
+    active_player: "seven"
+    actions:
+      - action: "play_command"
+        player: "seven"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Unforeseen Incident discarded"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Become a Shield discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+  - turn: 6
+    active_player: "seven"
+    actions:
+      - action: "play_command"
+        player: "seven"
+        card: "Striker Pack"
+      - action: "deploy"
+        card: "Launcher Strike Gundam"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 8
+    active_player: "seven"
+    actions:
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Graze Custom and Sword Strike Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "seven"
+            card: "Graceful Demeanor"
+            effects:
+              - "Ryusei-Go (Graze Custom Ⅱ) and Graze Custom returned to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "seven"
+    actions:
+      - action: "play_command"
+        player: "seven"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Flat (Militia) discarded"
+      - action: "deploy"
+        card: "Silver Bullet"
+      - action: "attack"
+        player: "seven"
+        attacker: "Sword Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 4 damage, leaving 1 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Graze Custom and Sword Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Sword Strike Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Launcher Strike Gundam"
+        final_target: "Launcher Strike Gundam"
+        outcome:
+          - "Launcher Strike Gundam received 4 damage, now destroyed"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam revealed and discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 12
+    active_player: "seven"
+    actions:
+      - action: "play_base"
+        card: "Peacemillion"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "seven"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Wing Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+          - "Healed 2 damage to: Wing Gundam"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Wing Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Wing Gundam"
+        blockers: "none"
+        final_target: "Wing Gundam"
+        outcome:
+          - "Wing Gundam received 4 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Silver Bullet (reduced by 3)"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Peacemillion"
+        outcome:
+          - "Peacemillion received 4 damage, leaving 2 HP remaining"
+  - turn: 14
+    active_player: "seven"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Silver Bullet"
+        linked: false
+      - action: "attack"
+        player: "seven"
+        attacker: "Silver Bullet"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Hyakuren"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Silver Bullet received 2 damage, leaving 3 HP remaining"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Shiden Custom (Ryusei-Go) and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Silver Bullet, reduced by 3, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Silver Bullet"
+        blockers: "none"
+        final_target: "Silver Bullet"
+        outcome:
+          - "Silver Bullet received 3 damage, now destroyed"
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos Adapt, leaving 3 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Peacemillion"
+        outcome:
+          - "Peacemillion received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam Zero revealed and discarded"
+  - turn: 16
+    active_player: "seven"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to: Gundam Barbatos Adapt, Gundam Gusion Rebake, Gundam Exia Repair and Ryusei-Go (Graze Custom Ⅱ)"
+          - "Gundam Exia Repair milled 2: Overflowing Affection and Ryusei-Go (Graze Custom Ⅱ) moved to trash"
+  - turn: 17
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Isaribi"
+      turn: 12
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 15
+    - card: "Gundam Exia Repair"
+      turn: 16
+      inferred: true
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 16
+      inferred: true
+  seven:
+    - card: "Launcher Strike Gundam"
+      turn: 11
+    - card: "Wing Gundam"
+      turn: 13
+    - card: "Silver Bullet"
+      turn: 15
+    - card: "Peacemillion"
+      turn: 15
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+  seven:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Win on turn 17 despite an opening mulligan. Kiraya never lost a shield (0 lost, 4 remaining, EX Base only ever replaced by a Base). Ending is abrupt again — no 'no more shields' line, just 'Kiraya: Winner!' right after seven's Wing Gundam Zero deploy — reads as a concession."
+  - "Parser note (not a card-data issue): turn 9's 'Ryusei-Go (Graze Custom Ⅱ) and Graze Custom returned to hand' bundled two card names into one unmatched entry ('Ryusei-Go (Graze Custom Ⅱ) and Graze Custom', not found in the DB). Removed manually from this record — both real cards are already tracked correctly elsewhere in the file. gamelog.py's return-to-hand pattern doesn't yet split multi-card lines; worth a parser fix if this recurs."
+  - "Wing Gundam (ST02-001) + Heero Yuy (ST02-010) repeated the base-box-plus-During-Link-ability stacking pattern first confirmed in the liko game: AP 4+2+1=7, HP 5+1+1=7, both matching the turn-12 battle exactly. Good repeated confirmation of the mechanism."
+  - "seven's Silver Bullet shrugged off two separate 'reduced by 3' pings (Gundam Gusion Rebake's deploy ping, then Gundam Barbatos Lupus's trash-exile activation) before finally dying to a direct attack — some kind of built-in damage reduction that made the small pings far less effective against it than usual. Worth checking Silver Bullet's exact text if it shows up again, since it broke the deck's usual 'chip it down with pings then finish' pattern."
+  - "seven's Wing Gundam Zero (deployed turn 16) hit all 4 of Kiraya's board Units for 3 damage each on ETB — a real board-wipe threat that never got to swing since the game ended the next turn. Worth remembering as a late-game topdeck that could have swung a longer game."
