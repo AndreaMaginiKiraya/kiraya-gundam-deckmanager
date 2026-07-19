@@ -60,14 +60,8 @@ cards:
       - "deployed"
       - "returned to hand"
   Gundam:
-    id: null
-    candidates:
-      - "GD01-001"
-      - "GD01-013"
-      - "GD04-001"
-      - "GD04-008"
-      - "ST01-001"
-    note: "still unresolved as of 2026-07-19, but the desi-game version of this mystery IS now solved (see that game's note) - it turned out to hinge on which Amuro Ray print was paired: desi's/vs-Juuto's 'Gundam' paired with the rest-ability Amuro (ST01-010, real own stats AP2/HP1) plus ST01-001's own 【During Pair】AP+1-on-your-turn text explained everything exactly. THIS game's 'Gundam' is different: 'Healed 2 damage to: Gundam' fires both times (t10, t12) right after it destroys an enemy - that's the heal-on-destroy Amuro (GD05-085), whose own stats are AP0/HP0 (confirmed real value, not a sync error this time). With a 0-AP pilot, neither ST01-001 (3+0+1 during-pair=4) nor GD04-008 (4+0=4) reaches the observed AP6 - the desi-game fix doesn't carry over here since the pilot pairing is genuinely different. Left null; this one remains a real open question."
+    id: "ST01-001"
+    note: "resolved 2026-07-19 (corrected after my own error: I'd reverted Amuro Ray GD05-085 to 'AP0/HP0 for real' in an earlier pass of this note, but that card's real bonus IS +2/+2, already fixed project-wide on 2026-07-18 - see MEMORY). With the correct bonus: ST01-001 (AP3/HP4) + GD05-085 (+2/+2) + ST01-001's own 【During Pair】'AP+1 during your turn' (active both times, since t10 and t12 are both MrCross00's own turns) = AP6/HP6 exactly. t10: dealt 6 (matches), took 4 leaving 2 (6-4=2, exact), healed 2 (heal-on-destroy) then Repair 2 caps back to full 6. t12: same pattern, dealt 6 and took 4 leaving 2 again from a fresh full 6. Every number closes now - same underlying explanation as the desi/Juuto instances of this mystery, just with the other Amuro Ray print."
     owner: "MrCross00"
     seen:
       - "attacker"

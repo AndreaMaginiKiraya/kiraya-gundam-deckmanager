@@ -385,21 +385,20 @@ sottocontano.
   0 shield perse ed EX Base mai distrutta. Stesso principio già visto
   nella rivincita vs GenocidGIC (game 8): nessuno dei due pilastri è
   indispensabile quando la curva iniziale tiene il ritmo.
-- **Identità ambigua di "Gundam" — risolta per il caso desi/Juuto,
-  resta aperta per MrCross00** (aggiornamento finale 2026-07-19): la
-  differenza era quale stampa di Amuro Ray fosse abbinata. Nelle partite
-  vs desi e vs Juuto, "Gundam" è abbinato all'Amuro Ray con l'abilità di
-  rest (ST01-010, AP2/HP1 propri) - con questi numeri più il 【During
-  Pair】di ST01-001 ("i tuoi Units ottengono AP+1 durante il tuo turno")
-  ogni cifra torna esatta, incluso il motivo per cui il danno inflitto
-  cambia tra il turno dell'avversario (AP6, buff attivo) e quello di
-  Kiraya (AP5, buff inattivo) - vs Juuto un ping di Barbatos Adapt prima
-  trascurato chiudeva anche l'ultimo conto sull'HP. Vs MrCross00 invece
-  "Gundam" è abbinato all'ALTRA stampa di Amuro Ray (GD05-085, quella
-  con la cura, AP0/HP0 propri per davvero - non un errore di sync) - con
-  un pilota da AP0 nessuna combinazione arriva a 6, quindi quel caso
-  specifico resta un vero mistero irrisolto anche dopo tutte le
-  correzioni.
+- **Identità ambigua di "Gundam" — risolta in tutti e tre i casi**
+  (aggiornamento finale 2026-07-19, dopo una correzione di un mio
+  errore segnalata da Kiraya): è sempre ST01-001, la differenza tra le
+  partite era solo quale stampa di Amuro Ray fosse abbinata e se il
+  【During Pair】di ST01-001 ("i tuoi Units ottengono AP+1 durante il tuo
+  turno") fosse attivo. Vs desi e vs Juuto, abbinato a ST01-010 (AP2/HP1
+  propri): AP3+2+1(buff, turno avversario)=6 quando attacca, AP3+2+0
+  (turno di Kiraya, buff inattivo)=5 quando difende - entrambi esatti.
+  Vs MrCross00, abbinato a GD05-085 (quella con la cura - il cui vero
+  bonus è +2/+2, NON 0/0: avevo scritto per errore che fosse
+  genuinamente 0/0 in un mio passaggio precedente, corretto da Kiraya):
+  AP3+2+1(buff, sempre turno di MrCross00 in questa partita)=6 esatto
+  entrambe le volte, HP4+2=6 totali coerenti con ogni numero osservato.
+  Nessun mistero residuo su questa carta.
   - "Gundam" potrebbe essere davvero GD04-008 (AP4+2=6 esatto) con la
   prova del Repair-2 da rivedere come coincidenza o interazione non
   ancora chiara.
