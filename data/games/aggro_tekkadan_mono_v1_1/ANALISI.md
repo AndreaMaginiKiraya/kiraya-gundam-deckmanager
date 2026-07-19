@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (27 partite, 17-10)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (28 partite, 18-10)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **27 sole partite** è troppo presto per isolare pattern affidabili;
+Con **28 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -53,6 +53,7 @@ sottocontano.
 | 25 | 07-19 | [Bugs](2026-07-19_kiraya-vs-bugs.yaml) | **W** | 14+ | Blu/Rosso, misto SEED/Unicorn/Neo Zeon (Strike Rouge Ootori/Kira's Unit + Kira Yamato, Zoloat, Gundam Kyrios Flight Mode, Kshatriya, Strike Freedom Gundam) | 5 / 2 | 6 / 6 | Vittoria totale, 0 shield perse; log probabilmente troncato prima del colpo di grazia (come loclee); turno di sfondamento al t9 (2-per-2 che elimina entrambe le minacce principali avversarie); seconda conferma dello stesso errore nei dati carte già trovato su Amuro Ray, stavolta su Kira Yamato (GD05-081) |
 | 26 | 07-19 | [Eshaku](2026-07-19_kiraya-vs-eshaku.yaml) | **W** | 24 | Mono-Rosso, "Tekkadan splash Zeon/UC/Clan" - mirror-match parziale (Barbatos 1st Form/Adapt, Hyakuren, Mikazuki Augus) + Sazabi, Kshatriya, GQuuuuuuX Omega Psycommu, doppia Close Combat/Improved Technique | 2 / 0 | 13 / 9+ | Vittoria per shield-out al t24 dopo una partita lunga e logorante, vinta "per un soffio" secondo Kiraya; terza e più estrema istanza di attivazioni multiple di Lupus nello stesso turno (t14, TRE attivazioni consecutive); avversario fortemente orientato alla rimozione diretta (2x Close Combat, 2x Improved Technique, Battle of Aces) |
 | 27 | 07-19 | [Juuto](2026-07-19_kiraya-vs-juuto.yaml) | **L** | 20 | Blu/Verde, Earth Federation/Londo Bell (Gundam + Amuro Ray, Nu Gundam LR + Amuro Ray, Re-GZ, ReZEL, Jegan, Kayra Su + Kayra's Jegan) | 0 / 2 | 16 / 8 | Sconfitta per shield-out; revisione richiesta da Kiraya convinto di propri errori, ma nessuna sequenza sbagliata trovata - decisa da un'unica causa strutturale ripetuta tre volte (t14, t18, t20): l'abilità When Paired di Nu Gundam (GD05-017) salta dichiarazione/blocco e colpisce direttamente, usata due volte per eliminare Lupus non appena rischierato (con Breach 5 che distrugge anche Isaribi entrambe le volte) |
+| 28 | 07-19 | [1231](2026-07-19_kiraya-vs-1231.yaml) | **W** | 10 | Blu/Rosso, control leggero (Signs of a Revolution x2, Rewloola, Kindhearted) | 6 / 2 | 3 / 1 | Vittoria per resa dell'avversario al t10 da una posizione già completamente vinta (0 shield perse); rimozione diretta ripetuta dell'avversario (2x Signs of a Revolution, self-ping di Rewloola) non intacca il ritmo offensivo; nessun errore tattico individuato |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -526,6 +527,14 @@ sottocontano.
   che l'altra sopravviva per il turno successivo, dato che bloccare
   avrebbe comunque significato perdere una copia allo stesso modo - la
   scelta cambia SOLO quale copia sopravvive, non se una sopravvive.
+- **Perdite individuali non fermano il ritmo se la pressione regge**
+  (vs 1231): 3 unità perse a rimozione diretta avversaria (2x Signs of a
+  Revolution, self-ping di Rewloola) non impediscono di chiudere l'EX
+  Base al t7 e la base sostitutiva al t9 - resa dell'avversario al t10
+  con Kiraya a 0 shield perse. Variante compatta dello stesso principio
+  già visto più volte (GenocidGIC, MrCross00): il mazzo aggro non ha
+  bisogno di mantenere in vita ogni unità, basta che il ritmo di danno
+  netto resti positivo.
 
 ## Checklist provvisoria
 

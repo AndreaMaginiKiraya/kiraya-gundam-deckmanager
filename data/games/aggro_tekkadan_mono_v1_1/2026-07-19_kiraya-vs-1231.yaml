@@ -1,0 +1,324 @@
+game:
+  id: "aggro_tekkadan_mono_v1_1/2026-07-19_kiraya-vs-1231"
+  date_imported: "2026-07-19"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_1"
+    "1231":
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+cards:
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 2nd Form":
+    id: "ST05-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Kindhearted:
+    id: "GD04-101"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "1231"
+    seen:
+      - "command"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Rewloola:
+    id: "ST03-015"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "1231"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Shuji's Hideout":
+    id: "GD02-126"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "1231"
+    seen:
+      - "base"
+      - "shield"
+  "Signs of a Revolution":
+    id: "GD01-104"
+    type: "COMMAND"
+    level: 3
+    cost: 2
+    owner: "1231"
+    seen:
+      - "command"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "1231"
+    seen:
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "1231"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "1231"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "1231"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Become a Shield discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "1231"
+    actions:
+      - action: "play_command"
+        player: "1231"
+        card: "Signs of a Revolution"
+        effects:
+          - "Signs of a Revolution: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Isaribi and Shiden Custom (Ryusei-Go) moved to trash"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Unicorn Gundam 02 Banshee (Destroy Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos 2nd Form"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "1231"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+  - turn: 8
+    active_player: "1231"
+    actions:
+      - action: "play_base"
+        card: "Rewloola"
+        effects:
+          - "Shield card added to hand"
+          - "Rewloola: Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), now destroyed"
+      - action: "play_command"
+        player: "1231"
+        card: "Signs of a Revolution"
+        effects:
+          - "Signs of a Revolution: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Rewloola received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "play_base"
+        card: "Shuji's Hideout"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 2nd Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shuji's Hideout revealed"
+          - "Shield card added to hand"
+  - turn: 10
+    active_player: "1231"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 8
+  "1231":
+    - card: "Rewloola"
+      turn: 9
+shields_tally:
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+  "1231":
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 1
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 2
+study_notes:
+  - "Ventottesima partita con v1_1, diciannovesima vittoria (18-10). '1231' Blu/Rosso, control leggero (Signs of a Revolution x2, Rewloola, Kindhearted, Unicorn Gundam 02 Banshee Destroy Mode mai giocata). Vittoria per resa dell'avversario al t10: 0 shield perse per Kiraya (6 rimaste) contro le 2 residue di '1231' - una posizione già completamente vinta indipendentemente dalla resa."
+  - "Rimozione diretta ripetuta dall'avversario (Signs of a Revolution x2: uccide Exia Repair al t6, Graze Custom al t8) più un self-ping mirato di Rewloola che finisce un Ryusei-Go (Graze Custom II) già a 1 HP - tre unità di Kiraya perse in totale, ma senza mai intaccare il ritmo offensivo: l'EX Base avversaria cade comunque al t7 e Rewloola stessa muore al t9 in un solo colpo di Hyakuren+Mikazuki Augus (AP4+2=6 esatto)."
+  - "Pairing di Mikazuki Augus senza alcun ping visibile al t9: l'abilità 'infliggi 1 danno a una tua unità e a una nemica' non si attiva quando l'avversario non ha nessuna unità in campo (solo una base) - stesso comportamento di fallback già visto con Gundam Flauros (Ryusei-Go) quando manca un bersaglio valido."
+  - "Nessun errore tattico individuato: partita corta e pulita, pressione mantenuta nonostante le perdite."
