@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (30 partite, 19-11)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (31 partite, 20-11)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **30 sole partite** è troppo presto per isolare pattern affidabili;
+Con **31 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -56,6 +56,7 @@ sottocontano.
 | 28 | 07-19 | [1231](2026-07-19_kiraya-vs-1231.yaml) | **W** | 10 | Blu/Rosso, control leggero (Signs of a Revolution x2, Rewloola, Kindhearted) | 6 / 2 | 3 / 1 | Vittoria per resa dell'avversario al t10 da una posizione già completamente vinta (0 shield perse); rimozione diretta ripetuta dell'avversario (2x Signs of a Revolution, self-ping di Rewloola) non intacca il ritmo offensivo; nessun errore tattico individuato |
 | 29 | 07-19 | [miii](2026-07-19_kiraya-vs-miii.yaml) | **W** | 13 | Blu/Verde, Earth Federation/Londo Bell + splash OZ/Zeon (Jegan, Re-GZ/Kayra's Re-GZ, Nu Gundam in due stampe, Corsica Base + token Tallgeese, Rick Dom x2) | 1 / 0 | 12 / 8 | Vittoria per shield-out di misura dopo un t12 quasi disastroso (Nu Gundam LR + Tallgeese + Rick Dom spazzano via 4 unità, Isaribi distrutta due volte nello stesso turno); recupero pulito al t13, nessun errore tattico individuato |
 | 30 | 07-19 | [CE1117](2026-07-19_kiraya-vs-ce1117.yaml) | **L** | 24 | Blu/Bianco, League Militaire (Gun EZ, Strike Rouge Ootori, Aile Strike/Strike Freedom Gundam + Kira Yamato, famiglia Victory Gundam/V2 Gundam, Zoloat) | 0 / 0 | 14 / 13 | Sconfitta per shield-out nella partita più equilibrata del campione (3 shield perse su 3 per entrambi, 0-0); tripla attivazione di Lupus al t21 elimina sia Strike Freedom Gundam che Victory Gundam ma CE1117 ricostruisce troppo in fretta; nessun errore tattico individuato, decisa dalla velocità di ricostruzione del motore League Militaire avversario |
+| 31 | 07-19 | [tinki](2026-07-19_kiraya-vs-tinki.yaml) | **W** | 20 | Blu/Bianco, Earth Federation/SEED ibrido (Rick Dias, Gundam NT-1 + Amuro Ray, Gundam + Kira Yamato, Altron Gundam EW, Freedom Gundam, Industrial 7) | 3 / 0 | 12 / 10 | Vittoria per shield-out in una partita lunga ed equilibrata; risolto un altro caso del rompicapo "Gundam" (stavolta abbinato a Kira Yamato ST04-010); motore di debuff ripetibile di Kira Yamato osservato 4 volte; nessun errore tattico individuato, Isaribi muore una sola volta |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -564,6 +565,17 @@ sottocontano.
   la stessa abilità può rimandare l'unità bersaglio nel mazzo invece che
   in mano, un effetto ancora più punitivo perché non è nemmeno
   ripescabile a comando.
+- **Un altro caso del rompicapo "Gundam" risolto con lo stesso metodo**
+  (vs tinki): stavolta abbinato a Kira Yamato (ST04-010) invece che
+  Amuro Ray - AP3+2(Kira)+1(During Pair, proprio turno)=6 esatto, stessa
+  meccanica già confermata su desi/MrCross00/Juuto ma con un pilota
+  diverso, a conferma che la spiegazione è generale e non specifica di
+  un singolo abbinamento. Resta un piccolo dettaglio scoperto sulla
+  seconda copia della stessa partita (abbinata via "Paired" invece di
+  "Linked" - il link di ST01-001 nomina solo Amuro Ray): l'HP non
+  sembra includere il bonus del pilota in quel caso, possibile indizio
+  che l'addizione delle statistiche richieda un Link vero, non ancora
+  confermato.
 
 ## Checklist provvisoria
 
