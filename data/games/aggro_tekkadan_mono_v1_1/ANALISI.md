@@ -45,7 +45,7 @@ sottocontano.
 | 17 | 07-17 | [jaysanti](2026-07-17_kiraya-vs-jaysanti.yaml) | **L** | 18 | Rosso/Bianco, Shuffle Alliance/G Gundam (Domon Kasshu, Master Asia, Shining Gundam x3 stampe, Rising Gundam, Dragon Gundam, Gundam Maxter) | 0 / 3 | 14 / 8 | Sconfitta per shield-out, non per High-Maneuver (zero istanze nel log, a differenza della diagnosi iniziale di Kiraya): decisa da un errore di blocco al t14 (Shiden Custom disponibile non usato contro Master Asia), dalla tech dell'avversario che resta i blocker di Kiraya prima di attaccare (Domon/Master Asia su Rising Gundam), e da Lupus mai pescato perché milled 2 volte dal proprio Exia Repair |
 | 18 | 07-18 | [desi](2026-07-18_kiraya-vs-desi.yaml) | **W** | 18 | Blu/Verde, Earth Federation/Londo Bell/AGE System (Gundam + Amuro Ray, famiglia AGE-1/AGE-2 Double Bullet, Re-GZ, Nu Gundam, Jegan, base Ra Cailum) | 4 / 1 | 8 / 9 | Vittoria per timeout dell'avversario al t18 da una posizione già nettamente vinta (4 shield contro 1); nessun errore tattico individuato; la seconda copia di Barbatos Lupus si attiva due volte nello stesso turno (t15), concatenando ping e attacchi per finire un solo bersaglio invece di disperderli |
 | 19 | 07-18 | [Olo](2026-07-18_kiraya-vs-olo.yaml) | **W** | 19 | Blu/Bianco, Earth Alliance/SEED con doppia stampa di Kira Yamato (Rick Dias, famiglia Strike/Aile Strike/Strike Freedom Gundam, Wing Gundam Zero EW, Archangel) | 1 / 0 | 12 / 10 | Vittoria per shield-out netto nonostante il bounce di Strike Freedom Gundam (qui "returned to deck", non in mano) al t16; seconda doppia attivazione di Lupus nello stesso turno in due partite di fila (t13); nessun errore tattico individuato |
-| 20 | 07-18 | [MrCross00](2026-07-18_kiraya-vs-mrcross00.yaml) | **W** | 13 | Blu/Verde, Londo Bell/Earth Federation (Gundam + Amuro Ray, Jegan, Nu Gundam, Re-GZ/Re-GZ BWS, Zeong, Ra Cailum) | 6 / 0 | 3 / 2 | Vittoria totale in 13 turni, 0 shield perse ed EX Base mai distrutta, senza mai pescare né Barbatos Lupus né il pacchetto Blocker - solo pressione da apertura; stessa identità ambigua irrisolta di "Gundam" già vista vs desi lo stesso giorno, con lo stesso identico numero di danno (6) osservato in entrambe le partite |
+| 20 | 07-18 | [MrCross00](2026-07-18_kiraya-vs-mrcross00.yaml) | **W** | 13 | Blu/Verde, Londo Bell/Earth Federation (Gundam + Amuro Ray, Jegan, Nu Gundam, Re-GZ/Re-GZ BWS, Zeong, Ra Cailum) | 6 / 0 | 3 / 2 | Vittoria totale in 13 turni, 0 shield perse ed EX Base mai distrutta, senza mai pescare né Barbatos Lupus né il pacchetto Blocker - solo pressione da apertura; stessa identità ambigua di "Gundam" già vista vs desi lo stesso giorno (poi risolta, vedi sotto), con lo stesso identico numero di danno (6) osservato in entrambe le partite |
 | 21 | 07-18 | [Nate](2026-07-18_kiraya-vs-nate.yaml) | **W** | 11 | Blu/Rosso, League Militaire (Gadeel, famiglia Victory Gundam/V2 Gundam + Üso Ewin) | 4 / 0 | 4 / 3 | Vittoria per shield-out netto in 11 turni nonostante un quasi-wipe al t10 (3 unità perse nello stesso turno) e sia Lupus che Barbatos Adapt persi al mill-on-death di Exia Repair fin dal t7 - il piano-motore era morto in partenza, la pressione pura ha chiuso comunque; nessun errore tattico individuato |
 | 22 | 07-18 | [KUMA](2026-07-18_kiraya-vs-kuma.yaml) | **L** | 14 | Viola/Bianco, Operation Meteor/G Team Gundam Wing EW (doppio Gundam Heavyarms Custom (EW), Gundam Sandrock Custom (EW), Wing Gundam Zero (EW) + Heero Yuy, GN Armor Type-E) | 1 / 2 | 9 / 1 | Sconfitta per shield-out; revisione richiesta da Kiraya convinto di propri errori, ma nessuna sequenza chiaramente sbagliata trovata - decisa da mill sfortunato (entrambe le copie di Lupus in trash al t6), una combo debuff-poi-distruggi intenzionale (Heavyarms + GN Armor Type-E) e doppio debuff ripetibile (2x Heavyarms + Sandrock) |
 | 23 | 07-18 | [Sakurah](2026-07-18_kiraya-vs-sakurah.yaml) | **W** | 13 | Mono-Verde, Earth Federation/Londo Bell (Jegan, Gundam AGE-1 Normal + Asemu Asuno, Re-GZ, Nu Gundam + Amuro Ray) | 1 / 0 | 5 / 4 | Vittoria per shield-out netto; Gundam Barbatos 1st Form pesca almeno 6 volte nel corso della partita grazie a più copie in rotazione, il motore di pesca più prolifico visto finora nel campione; trade decisivo al t11 (Barbatos 1st Form contro Nu Gundam) rimuove la minaccia principale avversaria |
@@ -456,9 +456,9 @@ sottocontano.
   locale aveva GD05-085 sincronizzato erroneamente come AP0/HP0
   dall'unica fonte disponibile per GD05 (egmanevents, apitcg non ha
   ancora questo set), corretto il 2026-07-18 dopo conferma via immagine
-  ufficiale della carta. Non risolve invece il caso analogo di "Gundam"
-  vs desi/MrCross00 (vedi sopra), dove il numero osservato (6) resta
-  scoperto anche col bonus corretto.
+  ufficiale della carta. Il caso analogo di "Gundam" vs desi/MrCross00
+  è stato risolto separatamente più avanti (vedi la voce più recente
+  su questo stesso rompicapo, sotto) - non dallo stesso fix.
 - **Terzo caso della stessa giornata di due stampe di Amuro Ray nella
   stessa partita** (dopo desi e MrCross00): stesso pattern di sempre,
   GD05-085 (cura su distruzione) e ST01-010 (rest su unita nemica).
@@ -570,12 +570,37 @@ sottocontano.
   Amuro Ray - AP3+2(Kira)+1(During Pair, proprio turno)=6 esatto, stessa
   meccanica già confermata su desi/MrCross00/Juuto ma con un pilota
   diverso, a conferma che la spiegazione è generale e non specifica di
-  un singolo abbinamento. Resta un piccolo dettaglio scoperto sulla
-  seconda copia della stessa partita (abbinata via "Paired" invece di
-  "Linked" - il link di ST01-001 nomina solo Amuro Ray): l'HP non
-  sembra includere il bonus del pilota in quel caso, possibile indizio
-  che l'addizione delle statistiche richieda un Link vero, non ancora
-  confermato.
+  un singolo abbinamento. **Correzione**: avevo ipotizzato che una
+  seconda copia nella stessa partita non ricevesse il bonus HP del
+  pilota perché abbinata via "Paired" invece di "Linked" - ipotesi
+  sbagliata, corretta da Kiraya (la somma delle statistiche non dipende
+  da questa distinzione). Il dato scoperto sull'HP resta, ma senza una
+  spiegazione meccanica proposta - più probabile un errore mio
+  nell'attribuire le righe di log alla copia fisica corretta quando
+  due unità omonime sono in campo, non un'eccezione reale alla regola.
+- **Meccanica chiarita da Kiraya, con conferma nel regolamento
+  ufficiale (regola 3-3-8-1): un pilota abbinato somma SEMPRE il
+  proprio AP/HP all'unità, senza distinzione tra Paired e Linked.**
+  Questo ha permesso di risolvere retroattivamente anche il vecchio
+  mistero di Wing Gundam vs liko (partita 5): Heero Yuy è ST02-010, il
+  cui box stampato (+2/+1) si somma a una SECONDA abilità testuale
+  ("During Link: AP+1/HP+1") che scatta solo quando l'abbinamento è un
+  vero Link (non un Pair generico) - la distinzione Paired/Linked conta
+  quindi per le abilità testuali condizionate al Link, non per la somma
+  base delle statistiche del pilota (regola 3-3-9-2). Con entrambi i
+  bonus: AP4+2+1=7, HP5+1+1=7 - tornano esatti, mistero chiuso.
+
+## Rompicapi aritmetici tuttora aperti
+
+- Nessuno al momento (2026-07-19). Tutti i casi di "danno osservato
+  non spiegabile dalle statistiche stampate" incontrati finora nel
+  campione sono stati ricondotti o a dati sbagliati nel database
+  locale (piloti GD05/GD04 sincronizzati come 0/0, poi corretti) o a
+  meccaniche di gioco chiarite (bonus del pilota sempre sommato;
+  abilità "During Link" come bonus aggiuntivo condizionato). L'unico
+  residuo (la seconda copia di "Gundam" vs tinki, partita 31) è quasi
+  certamente un errore di attribuzione mio tra due copie omonime nello
+  stesso turno, non un'eccezione alla regola.
 
 ## Checklist provvisoria
 

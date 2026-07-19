@@ -115,11 +115,13 @@ cards:
       - "exiled"
       - "shield"
   "Heero Yuy":
-    id: null
-    candidates:
-      - "GD05-098"
-      - "ST02-010"
-    note: "ambiguous: both printings are colors already in liko's deck (White/Green), so the 1-2-color rule can't narrow it; no 'Heero Yuy: ...' effect line ever fired to distinguish GD05-098's shield-destroy AP-2 from ST02-010's During-Link AP+1/HP+1."
+    id: "ST02-010"
+    note: "resolved 2026-07-19: the log says 'Linked pilot: Heero Yuy on unit Wing Gundam' (a true Link, matching Wing Gundam ST02-001's link field '[Heero Yuy]'). ST02-010 has a printed pilot bonus box (+2/+1, confirmed via apitcg) PLUS a separate 【During Link】'This Unit gets AP+1 and HP+1' ability that stacks on top of the box only while truly Linked (rule 3-3-8-1: the box always applies once paired; the ability text is a further conditional bonus, per rule 3-3-9-2). Total: AP4(base)+2(box)+1(during-link)=7, HP5+1(box)+1(during-link)=7 - both exact matches for the t10 combat numbers, finally closing the 'Wing Gundam' mystery below. GD05-098 has no such stacking bonus and never fits."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
     owner: "liko"
     seen:
       - "pilot"
@@ -254,7 +256,7 @@ cards:
       - "shield"
   "Wing Gundam":
     id: "ST02-001"
-    note: "pinned: at t10, killing Gundam Barbatos Adapt triggers 'Breach 5: EX Base received 5 damage' - matches only ST02-001's printed <Breach 5> keyword; GD01-040 has no effect text at all and couldn't produce this. The AP/HP arithmetic doesn't fully close even after fixing Heero Yuy GD05-098's real pilot bonus (+2/+1, was wrongly synced as 0/0): ST02-001 (AP4/HP5) + GD05-098's bonus gives AP6/HP6, still 1 short of the observed AP7/HP-total-7 - checked again 2026-07-19, still unresolved on the numbers, but the Breach 5 trigger is decisive on its own regardless."
+    note: "pinned: at t10, killing Gundam Barbatos Adapt triggers 'Breach 5: EX Base received 5 damage' - matches only ST02-001's printed <Breach 5> keyword; GD01-040 has no effect text at all and couldn't produce this. Fully resolved 2026-07-19: Heero Yuy here is ST02-010, whose base pilot box (+2/+1) plus its own 【During Link】'AP+1/HP+1' ability (stacks on top of the box, only while truly Linked - see Heero Yuy's note below) gives AP4+2+1=7 and HP5+1+1=7, both exact matches for the t10 combat. No discrepancy remains."
     owner: "liko"
     seen:
       - "attacker"
