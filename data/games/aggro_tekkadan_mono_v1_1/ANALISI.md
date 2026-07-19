@@ -1,4 +1,4 @@
-# aggro_tekkadan_mono_v1_1 — analisi del campione (28 partite, 18-10)
+# aggro_tekkadan_mono_v1_1 — analisi del campione (29 partite, 19-10)
 
 Sintesi trasversale delle partite giocate con `aggro_tekkadan_mono_v1_1`,
 la prima iterazione derivata da `aggro_mono_p` (vedi
@@ -12,7 +12,7 @@ aggiunti Gundam Barbatos Lupus Rex (GD05-051, x1) e Gundam Barbatos 5th
 Form Ground Type (GD03-066, x1 — la zona Earth non è un vincolo di gioco
 attuale, vedi CLAUDE.md).
 
-Con **28 sole partite** è troppo presto per isolare pattern affidabili;
+Con **29 sole partite** è troppo presto per isolare pattern affidabili;
 questa sezione andrà riscritta man mano che il campione cresce, sul
 modello di `aggro_mono_p/ANALISI.md`.
 
@@ -54,6 +54,7 @@ sottocontano.
 | 26 | 07-19 | [Eshaku](2026-07-19_kiraya-vs-eshaku.yaml) | **W** | 24 | Mono-Rosso, "Tekkadan splash Zeon/UC/Clan" - mirror-match parziale (Barbatos 1st Form/Adapt, Hyakuren, Mikazuki Augus) + Sazabi, Kshatriya, GQuuuuuuX Omega Psycommu, doppia Close Combat/Improved Technique | 2 / 0 | 13 / 9+ | Vittoria per shield-out al t24 dopo una partita lunga e logorante, vinta "per un soffio" secondo Kiraya; terza e più estrema istanza di attivazioni multiple di Lupus nello stesso turno (t14, TRE attivazioni consecutive); avversario fortemente orientato alla rimozione diretta (2x Close Combat, 2x Improved Technique, Battle of Aces) |
 | 27 | 07-19 | [Juuto](2026-07-19_kiraya-vs-juuto.yaml) | **L** | 20 | Blu/Verde, Earth Federation/Londo Bell (Gundam + Amuro Ray, Nu Gundam LR + Amuro Ray, Re-GZ, ReZEL, Jegan, Kayra Su + Kayra's Jegan) | 0 / 2 | 16 / 8 | Sconfitta per shield-out; revisione richiesta da Kiraya convinto di propri errori, ma nessuna sequenza sbagliata trovata - decisa da un'unica causa strutturale ripetuta tre volte (t14, t18, t20): l'abilità When Paired di Nu Gundam (GD05-017) salta dichiarazione/blocco e colpisce direttamente, usata due volte per eliminare Lupus non appena rischierato (con Breach 5 che distrugge anche Isaribi entrambe le volte) |
 | 28 | 07-19 | [1231](2026-07-19_kiraya-vs-1231.yaml) | **W** | 10 | Blu/Rosso, control leggero (Signs of a Revolution x2, Rewloola, Kindhearted) | 6 / 2 | 3 / 1 | Vittoria per resa dell'avversario al t10 da una posizione già completamente vinta (0 shield perse); rimozione diretta ripetuta dell'avversario (2x Signs of a Revolution, self-ping di Rewloola) non intacca il ritmo offensivo; nessun errore tattico individuato |
+| 29 | 07-19 | [miii](2026-07-19_kiraya-vs-miii.yaml) | **W** | 13 | Blu/Verde, Earth Federation/Londo Bell + splash OZ/Zeon (Jegan, Re-GZ/Kayra's Re-GZ, Nu Gundam in due stampe, Corsica Base + token Tallgeese, Rick Dom x2) | 1 / 0 | 12 / 8 | Vittoria per shield-out di misura dopo un t12 quasi disastroso (Nu Gundam LR + Tallgeese + Rick Dom spazzano via 4 unità, Isaribi distrutta due volte nello stesso turno); recupero pulito al t13, nessun errore tattico individuato |
 
 ## Prime osservazioni (da confermare su più partite)
 
@@ -535,6 +536,20 @@ sottocontano.
   già visto più volte (GenocidGIC, MrCross00): il mazzo aggro non ha
   bisogno di mantenere in vita ogni unità, basta che il ritmo di danno
   netto resti positivo.
+- **Seconda conferma ravvicinata del block-bypass-a-bersaglio-scelto di
+  Nu Gundam (GD05-017)** (vs miii, t12, dopo Juuto): usato una sola
+  volta ma con lo stesso identico effetto composto (uccide un'unità E
+  fa scattare Breach 5 sulla base) - due partite di fila nella stessa
+  settimana rendono questa carta specifica una minaccia da tenere
+  presente esplicitamente, non solo un'altra variante generica di
+  block-bypass.
+- **Isaribi distrutta due volte nello stesso turno** (vs miii, t12): un
+  singolo turno avversario innesca Breach 5 (distrugge Isaribi), poi
+  Burst rimpiazza subito una copia dalla propria area shield, che viene
+  distrutta di nuovo da un secondo Breach (2) nello stesso turno -
+  variante estrema del collo di bottiglia della base singola già in
+  checklist, qui raddoppiato entro un solo turno invece che diluito
+  su più turni.
 
 ## Checklist provvisoria
 
