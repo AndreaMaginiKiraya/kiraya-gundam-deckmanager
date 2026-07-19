@@ -1,0 +1,788 @@
+game:
+  id: "aggro_tekkadan_mono_v1_2/2026-07-19_kiraya-vs-sofanyo"
+  date_imported: "2026-07-19"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:SOfanyo"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_2"
+    SOfanyo:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "SOfanyo"
+    seen:
+      - "base"
+      - "discarded"
+      - "shield"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "discarded"
+  "Char Aznable":
+    id: "GD05-093"
+    note: "pinned: turn 16, right after being Linked to Sazabi, a 'Selecting target for Char Aznable' prompt fires, then SOfanyo immediately plays 'Axis' from the base slot again — Axis had been destroyed at turn 9 and was sitting in the trash. Matches GD05-093's 【When Linked】'choose 1 Neo Zeon Base card from your trash, deploy it' exactly. Confirmed by contrast at turn 18: Char Aznable is merely Paired (not Linked) to a new Gundam Barbatos 1st Form and no target-selection/redeploy follows, consistent with a When-Linked-only trigger. ST03-011's ability (Attack: AP+1 + High-Maneuver if Link Unit) doesn't match either event."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "SOfanyo"
+    seen:
+      - "pilot"
+  "Fatum-00":
+    id: "T-011"
+    type: "UNIT TOKEN"
+    ap: 2
+    hp: 2
+    owner: "SOfanyo"
+    seen:
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "pinned: Kiraya's copies match the saved deck 'aggro_tekkadan_mono_v1_2' directly. SOfanyo's copies show the same damaged-then-draw pattern on every single attack (turns 6, 16-survivor at turn 20, 22): a ping ability (Mikazuki Augus at deploy turn 6, Gundam Barbatos Adapt at deploy turn 20) damages it first, then it draws a card on its next attack — matches GD02-054's 【Attack】'If this Unit is damaged, draw 1' exactly. ST10-008 is a Deploy-only Development-2 draw+discard effect that wouldn't fire repeatedly like this."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner:
+      - "Kiraya"
+      - "SOfanyo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 4th Form":
+    id: "ST05-001"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "SOfanyo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "pinned: Kiraya's copy (turn 15) resolved via the saved deck 'aggro_tekkadan_mono_v1_2'. SOfanyo's copy (turn 12) deployed and immediately dealt 1 damage to one of his own Units (Launcher Strike Gundam) and one enemy Unit (Gundam Barbatos 4th Form) — matches GD02-055's 【Deploy】'choose 1 of your Units and 1 enemy Unit, deal 1 damage to them' exactly. ST05-005's ability is 【Destroyed】-triggered (rest an enemy Unit with 4 or less AP), doesn't match a Deploy-time dual ping at all."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner:
+      - "Kiraya"
+      - "SOfanyo"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "SOfanyo"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Justice Gundam":
+    id: "GD01-066"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "SOfanyo"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Launcher Strike Gundam":
+    id: "GD01-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "SOfanyo"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "SOfanyo"
+    seen:
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "SOfanyo"
+    seen:
+      - "command"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "SOfanyo"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  Sazabi:
+    id: "GD05-049"
+    note: "pinned: the raw log shows a 'Selecting target for Sazabi' prompt (for both players) at the start of every single Sazabi attack (turns 16, 18, 20, 22) and never at deploy (turn 16) — matches GD05-049's 【Attack】'you may choose 1 of your Units, destroy it; if you do, all enemy players each choose 1 of their non-battling Units, destroy them' (the enemy-facing target prompt for Kiraya specifically fits the 'all enemy players choose' clause). No unit was ever actually destroyed by it in this game, so SOfanyo appears to have declined the optional cost every time. GD05-052's ability is Deploy-triggered and never touches the opponent's board, so it wouldn't explain Kiraya being prompted at all."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "SOfanyo"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Striker Pack":
+    id: "ST04-012"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "SOfanyo"
+    seen:
+      - "command"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "SOfanyo"
+    seen:
+      - "command"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "SOfanyo"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "SOfanyo"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "SOfanyo"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 6
+    active_player: "SOfanyo"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Hyakuren and Hyakuren moved to trash"
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Lfrith received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+  - turn: 8
+    active_player: "SOfanyo"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Lupus discarded"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 4 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+  - turn: 10
+    active_player: "SOfanyo"
+    actions:
+      - action: "play_command"
+        player: "SOfanyo"
+        card: "Widespread Annihilation"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 4th Form"
+        effects:
+          - "No targets for Gundam Barbatos 4th Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 4th Form, leaving 4 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Become a Shield discarded"
+  - turn: 12
+    active_player: "SOfanyo"
+    actions:
+      - action: "play_command"
+        player: "SOfanyo"
+        card: "Striker Pack"
+      - action: "deploy"
+        card: "Launcher Strike Gundam"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Launcher Strike Gundam and Gundam Barbatos 4th Form"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos Lupus discarded"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos 1st Form and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Hyakuren and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos 4th Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 4th Form"
+        declared_target: "player"
+        blockers: "Launcher Strike Gundam"
+        final_target: "Launcher Strike Gundam"
+        outcome:
+          - "Launcher Strike Gundam received 6 damage, now destroyed"
+          - "Gundam Barbatos 4th Form received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, leaving 4 HP remaining"
+  - turn: 14
+    active_player: "SOfanyo"
+    actions:
+      - action: "deploy"
+        card: "Justice Gundam"
+      - action: "deploy"
+        card: "Fatum-00"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Fatum-00"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Gundam Barbatos Lupus and Fatum-00"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos 4th Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 4th Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+  - turn: 16
+    active_player: "SOfanyo"
+    actions:
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Justice Gundam"
+        declared_target: "Gundam Barbatos 4th Form"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Justice Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Gundam Barbatos 4th Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 4th Form"
+        outcome:
+          - "Gundam Barbatos 4th Form received 3 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Sazabi"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 7 damage, now destroyed"
+          - "Sazabi received 2 damage, leaving 5 HP remaining"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 18
+    active_player: "SOfanyo"
+    actions:
+      - action: "play_command"
+        player: "SOfanyo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Axis discarded"
+      - action: "play_command"
+        player: "SOfanyo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos Adapt discarded"
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Rick Dias"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Sazabi"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Sazabi"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Rick Dias received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 20
+    active_player: "SOfanyo"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Gundam Flauros (Ryusei-Go) moved to trash"
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield cards: Gundam Exia Repair and Gundam Barbatos Adapt revealed and discarded"
+      - action: "deploy"
+        card: "Justice Gundam"
+      - action: "deploy"
+        card: "Fatum-00"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+  - turn: 22
+    active_player: "SOfanyo"
+    actions:
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "attack"
+        player: "SOfanyo"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+      inferred: true
+    - card: "Gundam Barbatos 4th Form"
+      turn: 16
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 16
+    - card: "Isaribi"
+      turn: 18
+    - card: "Gundam Exia Repair"
+      turn: 20
+      inferred: true
+  SOfanyo:
+    - card: "Gundam Lfrith"
+      turn: 7
+    - card: "Axis"
+      turn: 9
+    - card: "Launcher Strike Gundam"
+      turn: 13
+    - card: "Axis"
+      turn: 15
+    - card: "Rick Dias"
+      turn: 19
+  unattributed:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+    - card: "Gundam Barbatos 1st Form"
+      turn: 16
+    - card: "Gundam Barbatos 1st Form"
+      turn: 19
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  SOfanyo:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 1
+study_notes:
+  - "Loss on turn 22 (SOfanyo out of shields, but Kiraya ran out first). No clear tactical mistake found — this reads as a genuine grind that SOfanyo's late-game top end (Justice Gundam, Sazabi, repeated Overflowing Affection draws) outpaced, not a misplay."
+  - "Turn 13's Barbatos Lupus triple-activation (9 trash cards exiled for 6 damage, destroying Gundam Gusion Rebake) was efficient, free-cost removal — same trash-recycling mechanic confirmed in the DekuGreen game, not a real resource sink."
+  - "Sazabi (GD05-049, the LR with the board-wipe Attack ability) hit the table on turn 16 and attacked 4 more times through turn 22 without SOfanyo ever pulling the trigger on its 'destroy 1 of your Units -> all enemies destroy 1 non-battling Unit' effect — likely never worth it for him since Kiraya rarely had a spare non-battling Unit sitting around. Good sign the effect isn't as scary as it looks when the board stays lean."
+  - "SOfanyo played Overflowing Affection twice in a row on turn 18 (drawing 4, discarding 2) — same card we just added 4x to v1_2 ourselves; good real-world confirmation it's a strong, splashable draw engine."
+  - "Barbatos 4th Form (ST05-001) got real reps this game: traded into a blocked Launcher Strike Gundam (turn 13) then closed out Axis solo (turn 15) before dying to a double-block. Solid two-for-one value before going down."
+  - "SOfanyo is running Purple+White (Tekkadan-adjacent White EX-Base/Gundam-Barbatos-1st-Form splash mixed with SEED-era Justice/Launcher Strike Gundam and Sazabi/Char Aznable Neo Zeon) — another unusual two-color brew, distinct from DekuGreen's Green+Purple mix seen in the previous game."
