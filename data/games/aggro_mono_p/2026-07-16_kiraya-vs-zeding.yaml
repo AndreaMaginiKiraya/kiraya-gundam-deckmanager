@@ -76,7 +76,7 @@ cards:
       - "exiled"
   "Gundam Aerial Rebuild":
     id: "GD04-024"
-    note: "pinned: Deploy line immediately adds Demi Barding (an (Academy) Unit) to hand, matching GD04-024's '[Deploy] Look at the top 3 cards of your deck. You may reveal 1 (Academy) Unit card/Command card among them and add it to your hand.' exactly - none of the other 3 candidates has a Deploy card-fetch effect. Unresolved: the turn 10/11 battle log shows this unit dealing 7 damage twice, one more than base AP5 + Suletta Mercury's +1 AP pairing bonus (=6) would predict; HP math (5 base + 2 from Suletta = 7) checks out exactly, so the AP discrepancy looks like a client-side quirk rather than a wrong id pin."
+    note: "pinned: Deploy line immediately adds Demi Barding (an (Academy) Unit) to hand, matching GD04-024's '[Deploy] Look at the top 3 cards of your deck. You may reveal 1 (Academy) Unit card/Command card among them and add it to your hand.' exactly - none of the other 3 candidates has a Deploy card-fetch effect. Resolved 2026-07-19: Suletta Mercury's (GD04-085) real pilot bonus is +2/+2, not the 0/0 the local database had wrongly synced (same bug found across the GD05 set, apparently also affecting GD04 - apitcg doesn't have that set's json either, so it's egmanevents-only there too). AP5+2=7 and HP5+2=7 both check out exactly now - no more discrepancy."
     type: "UNIT"
     level: 7
     cost: 5

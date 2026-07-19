@@ -71,7 +71,7 @@ cards:
       - "command"
   "Guel's Dilanza":
     id: "GD05-031"
-    note: "pinned by color legality: GD01-083 is White, but Anuy's deck reads as mono-Green once Guel Jeturk is corrected (every other resolved card - Demi Barding, Witches from Earth, Felsi's Plea, Overcoming Hardships, Suletta Mercury GD04-085 - is Green), so a White card would break the 1-2 color rule if it were the only White card seen; GD05-031 is Green. Unresolved: it dealt 6 damage twice in a row, more than its own AP4 + Suletta Mercury's (GD04-085) +0/+0 pairing bonus would predict - same unexplained AP bump pattern noted on other Linked units in this campaign (Gundam Aerial Rebuild vs Zeding, Force Impulse Gundam vs IAN), likely a client quirk."
+    note: "pinned by color legality: GD01-083 is White, but Anuy's deck reads as mono-Green once Guel Jeturk is corrected (every other resolved card - Demi Barding, Witches from Earth, Felsi's Plea, Overcoming Hardships, Suletta Mercury GD04-085 - is Green), so a White card would break the 1-2 color rule if it were the only White card seen; GD05-031 is Green. Resolved 2026-07-19: Suletta Mercury's (GD04-085) real pilot bonus is +2/+2, not the 0/0 the local database had wrongly synced (same bug found across the GD05 set, apparently also affecting GD04). AP4+2=6 matches the observed 6 damage exactly, twice - no more discrepancy. (Force Impulse Gundam's AP bump vs IAN is unrelated - that game's pilot, Shinn Asuka ST09-008, is outside this bug's scope.)"
     type: "UNIT"
     level: 5
     cost: 3

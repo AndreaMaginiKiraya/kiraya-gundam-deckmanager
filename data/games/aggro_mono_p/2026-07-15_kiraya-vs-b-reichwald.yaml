@@ -32,7 +32,7 @@ cards:
     type: "PILOT"
     level: 5
     cost: 1
-    note: "pinned: (1) vincolo colore — il mazzo è già Bianco (Rick Dias, Launcher Strike) + Viola (Axis, Rezin's Geara Doga), ST03-011 è Verde e sarebbe un terzo colore illegale; (2) il suo When Linked 'schiera 1 Base (Neo Zeon) dal trash' spiega perfettamente 'Selecting target for Char Aznable' seguito da 'Played base: Axis' al t9 — la prima Axis era stata distrutta al t8, questa è la stessa carta richiamata dal cimitero, non una seconda copia dalla mano. Nota aperta: i 7 danni di Sazabi in combattimento (t9) non tornano con l'AP0 di questo pilota sommato ai 5 di Sazabi (5+0=5, non 7) — non ho trovato la fonte dei 2 danni extra, possibile bonus non tracciato"
+    note: "pinned: (1) vincolo colore — il mazzo è già Bianco (Rick Dias, Launcher Strike) + Viola (Axis, Rezin's Geara Doga), ST03-011 è Verde e sarebbe un terzo colore illegale; (2) il suo When Linked 'schiera 1 Base (Neo Zeon) dal trash' spiega perfettamente 'Selecting target for Char Aznable' seguito da 'Played base: Axis' al t9 — la prima Axis era stata distrutta al t8, questa è la stessa carta richiamata dal cimitero, non una seconda copia dalla mano. Corretto il 2026-07-19: il bonus reale di questo pilota (GD05-093) è +2/+2, non 0/0 come sincronizzato erroneamente (stesso errore trovato su Amuro Ray e altri 19 piloti GD05, vedi MEMORY) - con +2 AP i 7 danni di Sazabi tornano esattamente (5+2=7), risolvendo la nota aperta precedente."
     owner: "B Reichwald"
     seen:
       - "pilot"

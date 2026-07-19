@@ -253,11 +253,8 @@ cards:
       - "exiled"
       - "shield"
   "Wing Gundam":
-    id: null
-    candidates:
-      - "GD01-040"
-      - "ST02-001"
-    note: "ambiguous: both printings are Green (already one of liko's colors), so color doesn't narrow it. The one damage data point (t10: dealt 7 to Gundam Barbatos Adapt) doesn't match either printing's base AP4 - some buff/modifier isn't captured in the log text - so it isn't usable as decisive evidence either."
+    id: "ST02-001"
+    note: "pinned: at t10, killing Gundam Barbatos Adapt triggers 'Breach 5: EX Base received 5 damage' - matches only ST02-001's printed <Breach 5> keyword; GD01-040 has no effect text at all and couldn't produce this. The AP/HP arithmetic doesn't fully close even after fixing Heero Yuy GD05-098's real pilot bonus (+2/+1, was wrongly synced as 0/0): ST02-001 (AP4/HP5) + GD05-098's bonus gives AP6/HP6, still 1 short of the observed AP7/HP-total-7 - checked again 2026-07-19, still unresolved on the numbers, but the Breach 5 trigger is decisive on its own regardless."
     owner: "liko"
     seen:
       - "attacker"

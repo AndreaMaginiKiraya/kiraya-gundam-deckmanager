@@ -231,7 +231,7 @@ cards:
       - "shield"
   "Murasame (Andrew Waldfeld Unit)":
     id: "GD05-003"
-    note: "resolved by hand: the client displays this Unit's Link-paired name as '<name> (<Pilot>'s/Pilot Unit)' instead of its printed name once Linked. The actual printed card is 'Waldfeld's Murasame' (GD05-003, link [Andrew Waldfeld], matching the log's 'Linked pilot: Andrew Waldfeld on unit Murasame (Andrew Waldfeld Unit)'). Its HP4 also matches exactly ('received 4 damage, now destroyed' at t14). One open question: t12's 'Graze Custom received 4 damage' from this Murasame's attack doesn't match its printed AP2 - no modifier line explains the extra 2, left unresolved rather than guessed."
+    note: "resolved by hand: the client displays this Unit's Link-paired name as '<name> (<Pilot>'s/Pilot Unit)' instead of its printed name once Linked. The actual printed card is 'Waldfeld's Murasame' (GD05-003, link [Andrew Waldfeld], matching the log's 'Linked pilot: Andrew Waldfeld on unit Murasame (Andrew Waldfeld Unit)'). Correction (2026-07-19): the t12 AP mystery is resolved now that Andrew Waldfeld's real pilot bonus (+2/+1, found to be wrongly synced as 0/0 like several other GD05 pilots - see data/cards/en/gd05.json) is known. Full HP/AP trace with total HP4+1=5: t11 two separate 1-damage pings (Gusion Rebake, Mikazuki Augus) bring it to 3; t12 attack deals exactly AP2+2=4 to Graze Custom (matches 'Graze Custom received 4 damage' exactly) and takes 2 back, leaving exactly 1 ('leaving 1 HP remaining'); end of t12 Repair 2 heals to 3; t14 takes 4 more and is destroyed. Every number now accounted for."
     type: "UNIT"
     level: 3
     cost: 2

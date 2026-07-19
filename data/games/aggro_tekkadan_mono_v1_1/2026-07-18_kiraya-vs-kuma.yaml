@@ -163,7 +163,7 @@ cards:
       - "deployed"
   "Gundam Sandrock (EW)":
     id: "GD05-071"
-    note: "same 'Custom' dropped from the display name as Gundam Heavyarms (EW) above. Pinned by exact stat/ability match: the recurring 'Selecting target for Gundam Sandrock (EW)' -> 'Modifier applied to: X' on every attack declaration matches GD05-071's 【Attack】'if another (G Team)/(Preventer) Unit in play, choose 1 enemy Unit, AP-2 this turn' exactly. Combat at t8/t10 confirms AP3/HP4 + Quatre Raberba Winner's own HP1 = HP5 total (takes 3 damage, leaves 2, both instances)."
+    note: "same 'Custom' dropped from the display name as Gundam Heavyarms (EW) above. Pinned by exact stat/ability match: the recurring 'Selecting target for Gundam Sandrock (EW)' -> 'Modifier applied to: X' on every attack declaration matches GD05-071's 【Attack】'if another (G Team)/(Preventer) Unit in play, choose 1 enemy Unit, AP-2 this turn' exactly. Combat at t8/t10 confirms HP4+1(Quatre's own HP)=HP5 total (takes 3 damage, leaves 2, both instances). Updated 2026-07-19: with Quatre Raberba Winner's real bonus confirmed as +2/+1 (was wrongly synced as 0/0), the AP also checks out exactly - t8's 'Gundam Barbatos 2nd Form received 5 damage' matches AP3+2=5 precisely, not previously noted."
     type: "UNIT"
     level: 4
     cost: 3
@@ -175,12 +175,12 @@ cards:
       - "deployed"
   "Heero Yuy":
     id: "GD05-098"
-    note: "pinned: at t12, right after Wing Gundam Zero (EW) destroys a shield-area card with battle damage (Gundam Barbatos 1st Form), 'Selecting target for Heero Yuy' -> 'Heero Yuy: Modifier applied to: Hyakuren' fires - exact match for GD05-098's 'When this Unit destroys an enemy shield area card with damage, choose 1 enemy Unit. It gets AP-2 during this turn.' ST02-010 has no such trigger (only a Burst-to-hand and a flat During-Link AP+1/HP+1 boost)."
+    note: "pinned: at t12, right after Wing Gundam Zero (EW) destroys a shield-area card with battle damage (Gundam Barbatos 1st Form), 'Selecting target for Heero Yuy' -> 'Heero Yuy: Modifier applied to: Hyakuren' fires - exact match for GD05-098's 'When this Unit destroys an enemy shield area card with damage, choose 1 enemy Unit. It gets AP-2 during this turn.' ST02-010 has no such trigger (only a Burst-to-hand and a flat During-Link AP+1/HP+1 boost). GD05-098's real pilot bonus is +2/+1 (corrected 2026-07-19; was wrongly synced as 0/0)."
     type: "PILOT"
     level: 4
     cost: 1
-    ap: 0
-    hp: 0
+    ap: 2
+    hp: 1
     owner: "KUMA"
     seen:
       - "pilot"
@@ -236,11 +236,12 @@ cards:
       - "command"
   "Quatre Raberba Winner":
     id: "GD05-100"
+    note: "real pilot bonus is +2/+1 (corrected 2026-07-19; was wrongly synced as 0/0) - the HP+1 half already matched the math used in Gundam Sandrock (EW)'s note above by coincidence, but the entry itself had the stale 0/0."
     type: "PILOT"
     level: 4
     cost: 1
-    ap: 0
-    hp: 0
+    ap: 2
+    hp: 1
     owner: "KUMA"
     seen:
       - "pilot"
