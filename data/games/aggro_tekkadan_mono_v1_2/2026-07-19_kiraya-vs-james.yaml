@@ -1,0 +1,791 @@
+game:
+  id: "aggro_tekkadan_mono_v1_2/2026-07-19_kiraya-vs-james"
+  date_imported: "2026-07-20"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_2"
+    james:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Red"
+        - "White"
+cards:
+  "Aegis Gundam":
+    id: "ST04-006"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "james"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Aile Strike Gundam":
+    id: null
+    candidates:
+      - "GD03-072"
+      - "ST04-001"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "james"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Athrun Zala":
+    id: "ST04-011"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "james"
+    seen:
+      - "pilot"
+  "Battle of Aces":
+    id: "GD01-111"
+    type: "COMMAND"
+    level: 3
+    cost: 2
+    owner: "james"
+    seen:
+      - "command"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "discarded"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "james"
+    seen:
+      - "shield"
+  "Fatum-00":
+    id: "T-011"
+    type: "UNIT TOKEN"
+    ap: 2
+    hp: 2
+    owner: "james"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "james"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Full Frontal":
+    id: "ST03-010"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "james"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "james"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+  "Justice Gundam":
+    id: "GD01-066"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "james"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "james"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "james"
+    seen:
+      - "base"
+      - "discarded"
+  "Neo Zeong":
+    id: "GD04-033"
+    type: "UNIT"
+    level: 9
+    cost: 8
+    ap: 6
+    hp: 7
+    owner: "james"
+    seen:
+      - "deployed"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "james"
+    seen:
+      - "command"
+      - "shield"
+  "Perfect Strike Gundam":
+    id: "GD01-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "james"
+    seen:
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Sinanju:
+    id: "ST03-001"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "james"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Sword Strike Gundam":
+    id: "GD01-073"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "james"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "james"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "james"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "james"
+    actions:
+      - action: "deploy"
+        card: "Flat (Militia)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "james"
+    actions:
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Graze Custom, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Isaribi discarded"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Sword Strike Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 4 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Flat (Militia)"
+        final_target: "Flat (Militia)"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Flat (Militia) received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 8
+    active_player: "james"
+    actions:
+      - action: "play_command"
+        player: "james"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Mining Asteroid Palau discarded"
+      - action: "play_command"
+        player: "james"
+        card: "Battle of Aces"
+        effects:
+          - "Battle of Aces: Dealt 3 damage to Graze Custom, now destroyed"
+      - action: "attack"
+        player: "james"
+        attacker: "Sword Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 4 damage, leaving 1 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Become a Shield"
+        effects:
+          - "Become a Shield: Dealt 1 damage to: Graze Custom and Sword Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Sword Strike Gundam"
+        blockers: "none"
+        final_target: "Sword Strike Gundam"
+        outcome:
+          - "Sword Strike Gundam received 2 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, now destroyed"
+  - turn: 10
+    active_player: "james"
+    actions:
+      - action: "deploy"
+        card: "Perfect Strike Gundam"
+        effects:
+          - "Graze Custom returned to hand"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Perfect Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Perfect Strike Gundam"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Flauros (Ryusei-Go), leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Become a Shield discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 12
+    active_player: "james"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Perfect Strike Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 2 damage, leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Neo Zeong revealed and discarded"
+  - turn: 14
+    active_player: "james"
+    actions:
+      - action: "deploy"
+        card: "Justice Gundam"
+      - action: "deploy"
+        card: "Fatum-00"
+      - action: "pair_pilot"
+        pilot: "Athrun Zala"
+        unit: "Justice Gundam"
+        linked: true
+      - action: "attack"
+        player: "james"
+        attacker: "Justice Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Justice Gundam received 4 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "james"
+        attacker: "Fatum-00"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 2 damage, now destroyed"
+          - "Fatum-00 received 5 damage, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Justice Gundam"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Justice Gundam, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Sword Strike Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Shiden Custom (Ryusei-Go), leaving 1 HP remaining"
+  - turn: 16
+    active_player: "james"
+    actions:
+      - action: "deploy"
+        card: "Sinanju"
+      - action: "pair_pilot"
+        pilot: "Full Frontal"
+        unit: "Sinanju"
+        linked: true
+      - action: "attack"
+        player: "james"
+        attacker: "Sinanju"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none (High-maneuver)"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Sinanju received 4 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Hyakuren discarded"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Gundam Barbatos Adapt and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sinanju, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 4 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Aile Strike Gundam revealed and discarded"
+  - turn: 18
+    active_player: "james"
+    actions:
+      - action: "deploy"
+        card: "Justice Gundam"
+      - action: "deploy"
+        card: "Fatum-00"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Fatum-00"
+        linked: false
+      - action: "deploy"
+        card: "Aegis Gundam"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Fatum-00"
+  - turn: 20
+    active_player: "james"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        effects:
+          - "No more Shield cards to add to hand"
+      - action: "attack"
+        player: "james"
+        attacker: "Justice Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "james"
+        attacker: "Aegis Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "deploy"
+        card: "Neo Zeong"
+        effects:
+          - "Neo Zeong: Dealt 3 damage to Gundam Barbatos Lupus, leaving 2 HP remaining"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 14
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 14
+    - card: "Gundam Barbatos Adapt"
+      turn: 16
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 17
+    - card: "Isaribi"
+      turn: 20
+  james:
+    - card: "Flat (Militia)"
+      turn: 7
+    - card: "Sword Strike Gundam"
+      turn: 9
+    - card: "Mining Asteroid Palau"
+      turn: 9
+    - card: "Perfect Strike Gundam"
+      turn: 13
+    - card: "Aile Strike Gundam"
+      turn: 13
+    - card: "Fatum-00"
+      turn: 14
+    - card: "Justice Gundam"
+      turn: 15
+    - card: "Sinanju"
+      turn: 17
+    - card: "Gundam Lfrith"
+      turn: 17
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 1
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 4
+  james:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Grindy 21-turn win despite an opening mulligan. Ends abruptly mid-action at turn 21 (no 'no more shields' line) — reads as a concession right as Kiraya was setting up another attack. Dominant final margin: only 1 shield lost (4 remaining) vs james losing all 5."
+  - "james ran an unusually wide mix of SEED Alliance icons (Sword/Perfect/Aile/Justice/Aegis Strike-family Gundams, Fatum-00) alongside Neo Zeon bombs (Sinanju+Full Frontal, Neo Zeong) in Red+White — a lot of individually strong cards but seemingly little synergy between the two halves, which may explain why big threats kept arriving one at a time instead of overwhelming at once."
+  - "Gundam Barbatos Lupus's trash-exile activation carried the midgame again: fired 3 separate times (turns 13, 15, 17), each time cleanly destroying james's biggest threat in play at zero live-card cost (Perfect Strike Gundam, then Justice Gundam, then Sinanju) — same free-recycling value confirmed in earlier games this session."
+  - "Sinanju (linked Full Frontal, High-Maneuver) landed one scary unblockable 7-damage hit turn 16, but Barbatos Lupus cleaned it up the very next turn before it could swing again — a good example of the deck's removal engine outrunning a single big threat as long as it doesn't arrive with backup."
+  - "Ambiguous prints not pinned this game (no distinguishing ability/stat evidence observed): Aile Strike Gundam (blocked twice, died to exactly its base HP4 with no pilot bonus shown) and Kira Yamato (merely Paired to Fatum-00 turn 18, no Attack or Link event followed before the game ended)."
+  - "Parser gap noted, not a card-data issue: turn 14's 'Fatum-00 attack this turn' (likely Justice Gundam's own ability granting an extra attacker) fell into unparsed_lines — gamelog.py doesn't yet have a pattern for this phrasing."
+unparsed_lines:
+  - "[turn 14] Fatum-00 attack this turn"
