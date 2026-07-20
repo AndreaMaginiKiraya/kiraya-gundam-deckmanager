@@ -1,0 +1,754 @@
+game:
+  id: "aggro_tekkadan_mono_v1_2/2026-07-19_kiraya-vs-cville"
+  date_imported: "2026-07-19"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:CVille"
+  players:
+    CVille:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_2"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: turn 8, right after Linking to Kira Yamato (Lv.5), 'Selecting target for Aile Strike Gundam... Gundam Barbatos 1st Form returned to hand' fires — Barbatos 1st Form had 2 HP — matches ST04-001's 【When Paired・Lv.4+ Pilot】'choose 1 enemy Unit with 4 or less HP, return it to its owner's hand' exactly. Damage math confirms the printing too: paired AP4+2(Kira Yamato)=6 matches 'Hyakuren received 6 damage' exactly; paired HP4+1=5, and 5-2=3 matches 'leaving 3 HP remaining' exactly. GD03-072 has no bounce ability at all."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "CVille"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+      - "returned to hand"
+  "Gundam Barbatos 4th Form":
+    id: "ST05-001"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "CVille"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Heero Yuy":
+    id: "GD05-098"
+    note: "pinned on the ability evidence: 'Selecting target for Heero Yuy... Heero Yuy: Modifier applied to: [enemy Unit]' fires repeatedly (turns 12, 16) with a distinct target-selection step, separate from Wing Gundam Zero (EW)'s own 'choose 1 enemy Unit, rest it' Attack ability (which fired separately in the same turns). Only GD05-098 has any targeted enemy-affecting ability at all ('destroys an enemy shield area card -> choose 1 enemy Unit, AP-2') — ST02-010's only abilities are Burst and a non-targeted self-buff, which cannot produce a 'choose 1 enemy Unit' prompt. NOTE — unresolved arithmetic: official card image confirms Wing Gundam Zero (EW)'s own printed stats are correctly synced (AP5/HP4, no data-bug), yet turn 12 dealt 7 damage to Isaribi (2 more than base AP5) and turn 14 showed 'leaving 4 HP remaining' after only 1 damage (implying 5 total HP, 1 more than base HP4) — both would fit ST02-010's pilot box (AP+2/HP+1) instead. Genuinely unclear why the ability-pattern and the stat math point to different printings; flagging as open rather than forcing an explanation."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "CVille"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "discarded"
+  "Kira Yamato":
+    id: "ST04-010"
+    note: "pinned: fires an Attack-triggered targeted enemy debuff every time it's paired (turns 8, 10, 12, 14 — 'Kira Yamato: Modifier applied to: [enemy Unit]' right as an attack is declared, matching this printing's pin in every other game this session), matching ST04-010's 【Attack】'choose 1 enemy Unit, it gets AP-2 during this battle' exactly. GD05-081's ability only triggers on a true Link (this was repeatedly just 'Paired', not 'Linked') and never targets an enemy. Damage math (see Aile Strike Gundam note) confirms the pilot-box AP2/HP1 too."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "CVille"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "CVille"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Ride Mass":
+    id: "GD05-117"
+    note: "pilot mode of the COMMAND card 'Become a Shield'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "CVille"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Striker Pack":
+    id: "ST04-012"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "CVille"
+    seen:
+      - "shield"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "CVille"
+    seen:
+      - "command"
+  "Wing Gundam (Bird Mode)":
+    id: "ST02-002"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "CVille"
+    seen:
+      - "shield"
+  "Wing Gundam Zero":
+    id: "GD01-024"
+    type: "UNIT"
+    level: 8
+    cost: 8
+    ap: 5
+    hp: 7
+    owner: "CVille"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam Zero (EW)":
+    id: "GD05-067"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "CVille"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "CVille"
+    action: "choose_second_player"
+  - player: "CVille"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "CVille"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Isaribi discarded"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+  - turn: 4
+    active_player: "CVille"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 6
+    active_player: "CVille"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 8
+    active_player: "CVille"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Barbatos 1st Form returned to hand"
+      - action: "attack"
+        player: "CVille"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Hyakuren"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 2 damage, leaving 3 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 6 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Gundam Barbatos 4th Form moved to trash"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Striker Pack revealed"
+          - "Shield card: Striker Pack moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Aile Strike Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 10
+    active_player: "CVille"
+    actions:
+      - action: "deploy"
+        card: "Silver Bullet"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Lfrith"
+        linked: false
+      - action: "attack"
+        player: "CVille"
+        attacker: "Gundam Lfrith"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Exia Repair"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 4 damage, now destroyed"
+          - "Gundam Lfrith received 0 damage, leaving 5 HP remaining"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Gundam Barbatos Adapt moved to trash"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Lfrith"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Ride Mass"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "Silver Bullet"
+        final_target: "Silver Bullet"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Silver Bullet received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 4 damage, now destroyed"
+  - turn: 12
+    active_player: "CVille"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam Zero (EW)"
+        linked: true
+      - action: "attack"
+        player: "CVille"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Isaribi"
+        outcome:
+          - "Already rested unit: Gundam Barbatos 1st Form"
+          - "Isaribi received 7 damage, now destroyed"
+      - action: "attack"
+        player: "CVille"
+        attacker: "Gundam Lfrith"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Gundam Lfrith received 1 damage, leaving 3 HP remaining"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 14
+    active_player: "CVille"
+    actions:
+      - action: "attack"
+        player: "CVille"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        action_step:
+          - action: "play_command"
+            player: "CVille"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Rested unit: Shiden Custom (Ryusei-Go)"
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Wing Gundam Zero (EW) received 1 damage, leaving 4 HP remaining"
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+      - action: "attack"
+        player: "CVille"
+        attacker: "Gundam Lfrith"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Gundam Lfrith received 2 damage, leaving 1 HP remaining"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Lfrith"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam (Bird Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 16
+    active_player: "CVille"
+    actions:
+      - action: "attack"
+        player: "CVille"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "shield"
+        outcome:
+          - "Rested unit: Gundam Gusion Rebake"
+          - "Shield cards: Ryusei-Go (Graze Custom Ⅱ) and Mikazuki Augus revealed"
+          - "Shield cards: Ryusei-Go (Graze Custom Ⅱ) moved to trash"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "attack"
+        player: "CVille"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Already rested unit: Gundam Gusion Rebake"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Wing Gundam Zero (EW) received 1 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to: Graze Custom and Gundam Flauros (Ryusei-Go)"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 18
+    active_player: "CVille"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to: Graze Custom and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Adapt and Graze Custom moved to trash"
+      - action: "attack"
+        player: "CVille"
+        attacker: "Wing Gundam Zero"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "CVille"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Wing Gundam Zero (EW)"
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+          - "No targets for Heero Yuy"
+      - action: "attack"
+        player: "CVille"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Wing Gundam Zero (EW)"
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Exia Repair discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Wing Gundam Zero (EW)"
+  - turn: 20
+    active_player: "CVille"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to Hyakuren, now destroyed"
+      - action: "attack"
+        player: "CVille"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No targets for Wing Gundam Zero (EW)"
+          - "No more shields available, game is over!"
+casualties:
+  CVille:
+    - card: "Aile Strike Gundam"
+      turn: 9
+    - card: "Aile Strike Gundam"
+      turn: 9
+    - card: "Silver Bullet"
+      turn: 11
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Gundam Exia Repair"
+      turn: 10
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 11
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 14
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+    - card: "Graze Custom"
+      turn: 16
+      inferred: true
+    - card: "Isaribi"
+      turn: 18
+    - card: "Graze Custom"
+      turn: 18
+      inferred: true
+    - card: "Gundam Exia Repair"
+      turn: 18
+      inferred: true
+    - card: "Hyakuren"
+      turn: 20
+shields_tally:
+  CVille:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Detailed mistake review (requested): no clear tactical misplay found. Every attack/block decision Kiraya made was a fair-to-good trade (see turn-by-turn breakdown below); the loss looks driven by CVille assembling an unusually strong removal/tempo package this list has few tools to answer, plus two unlucky Gundam Exia Repair mills."
+  - "Turn 8: CVille's fresh Aile Strike Gundam (ST04-001), paired with a Lv.5 Kira Yamato, bounced Gundam Barbatos 1st Form back to hand on deploy — a free tempo swing from the opponent's card, nothing Kiraya could play around."
+  - "Gundam Exia Repair's Destroyed-mill cost real value twice: turn 9 milled a live Gundam Barbatos 1st Form + the newly-drawn Barbatos 4th Form, turn 10 milled Gundam Barbatos Lupus + Gundam Barbatos Adapt — 4 real threats gone to trash involuntarily over 2 turns. This is a known downside risk of running Exia Repair, not a play error, but worth remembering as real variance the deck accepts."
+  - "The turn-12 board wipe (Wing Gundam Zero (EW) forced through Isaribi via the no-blocker-available Base-intercept rule, then Gundam Lfrith directly killed the already-rested Gundam Barbatos 1st Form) was the real turning point. Checked whether holding a unit back on turn 11 would have helped: neither Gundam Barbatos 1st Form nor Gundam Flauros (Ryusei-Go) has the Blocker keyword, so there was no defensive option available regardless of that turn's attack/no-attack choice — attacking for value was correct, the wipe wasn't preventable with what was in hand."
+  - "From turn 15 on, CVille's second Wing Gundam Zero copy (GD01-024, non-EW — Deploy: 3 damage to 2 of your choice) redeployed almost every turn to snipe whatever Kiraya had just played, while the surviving Wing Gundam Zero (EW) kept attacking shields. This out-paced Kiraya's ability to rebuild a board — going wider (2 units at once, turn 17) didn't help since the AOE hits exactly 2 targets."
+  - "Deckbuilding observation, not a play mistake: aggro_tekkadan_mono_v1_2 only has 6 Blocker-capable cards in the full 50 (3x Gundam Gusion Rebake, 3x Shiden Custom (Ryusei-Go)), and only one of them (Gusion Rebake, turn 15) showed up all game. Worth keeping in mind against removal-and-bomb matchups like this one, where a Blocker would have mattered more than usual."
+  - "Open arithmetic question on Heero Yuy (pinned GD05-098 from ability evidence, see the card note above): official card image confirms Wing Gundam Zero (EW)'s own stats are correctly synced (AP5/HP4), yet observed damage (7 to Isaribi turn 12; HP math implying 5 total turn 14) is 2 AP / 1 HP higher than GD05-098's 0/0 pilot box would explain. Not resolved — noting honestly rather than guessing."
