@@ -1,0 +1,791 @@
+game:
+  id: "aggro_tekkadan_mono_v1_2/2026-07-20_kiraya-vs-trial"
+  date_imported: "2026-07-21"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:TRIAL"
+  players:
+    TRIAL:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_2"
+cards:
+  "Aile Strike Gundam":
+    id: null
+    candidates:
+      - "GD03-072"
+      - "ST04-001"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "TRIAL"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "TRIAL"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  "Become a Shield":
+    id: "GD05-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "milled"
+  "Char Aznable":
+    id: "GD05-093"
+    note: "pinned: turn 18, right after truly Linking to a fresh Sazabi, TRIAL immediately 'Replaced Axis base: Axis' — the previous Axis was already in play (damaged), and the new one can only have come from the trash. Matches GD05-093's 【When Linked】'choose 1 Neo Zeon Base card from your trash, deploy it' exactly, the same recursion pattern confirmed in the DekuGreen game this session. ST03-011's ability (Attack: AP+1 + High-Maneuver if Link Unit) doesn't explain a Base redeploy at all."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "TRIAL"
+    seen:
+      - "pilot"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "TRIAL"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Giant Killing":
+    id: "ST09-009"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "TRIAL"
+    seen:
+      - "attacker"
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "TRIAL"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "discarded"
+  "Hobby Hizack":
+    id: "GD05-062"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "TRIAL"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "milled"
+  "Kira Yamato":
+    id: "ST04-010"
+    note: "pinned on the ability pattern (consistent with every other game this session): fires an Attack-triggered targeted enemy debuff each time paired ('Kira Yamato: Modifier applied to: [enemy Unit]', turns 14 and 16), matching ST04-010's 【Attack】'choose 1 enemy Unit, it gets AP-2 during this battle' exactly — GD05-081 never targets an enemy and needs a true Link, not just Paired (this was 'Paired', not 'Linked'). Turn 14's damage (Sazabi dealt 7 to Shiden Custom) also fits base AP5 + Kira Yamato's own pilot-box AP+2 = 7 exactly. NOTE — unresolved: Sazabi's own HP total across turns 14/16 (2 remaining after 2 damage, i.e. total 4) doesn't cleanly fit either Sazabi printing (4 or 5) plus ST04-010's pilot-box HP+1; flagging as open arithmetic rather than forcing a fit, especially since multiple Sazabi copies are in play/cycling through the game (see Sazabi note)."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "TRIAL"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "TRIAL"
+    seen:
+      - "command"
+  "Quess's Jagd Doga":
+    id: "GD05-053"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "TRIAL"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Sazabi:
+    id: null
+    candidates:
+      - "GD05-049"
+      - "GD05-052"
+    note: "dual instance, both confirmed by evidence: the turn-12 copy shows 'Sazabi deployed. Selecting target for Sazabi' immediately on deploy (no attack yet) — matches GD05-052's 【Deploy】'may destroy 1 of your other Units, mill 3, tutor a Neo Zeon Unit' exactly. The turns 16/18/20 copies repeatedly destroy TRIAL's own Quess's Jagd Doga on Attack, which is immediately returned to hand via Jagd Doga's own 【Destroyed】'if destroyed by one of your (Neo Zeon) card's effects, return it from trash to hand' — this loop matches GD05-049's 【Attack】'may destroy 1 of your Units; if you do, all enemy players each choose 1 non-battling Unit, destroy it' exactly (a free, self-sustaining sacrifice since Jagd Doga just bounces back). TRIAL is running both printings. NOTE — Sazabi's own HP math across these instances doesn't fully reconcile (see the Kira Yamato note); left open rather than forced."
+    owner: "TRIAL"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "TRIAL"
+    seen:
+      - "command"
+  "With Iron and Blood":
+    id: "ST05-013"
+    note: "pinned by hand: the parser split this single card's name in two ('With Iron' / 'Blood') because it wrongly treated the internal 'and' as a card-list separator (same class of bug as the 'X and Y returned to hand' issue fixed in the seven game). No ability/copy-specific evidence available (just discarded via Overflowing Affection), so the base (non-parallel) printing is used by convention."
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "TRIAL"
+    seen:
+      - "discarded"
+setup:
+  - player: "TRIAL"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "TRIAL"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "TRIAL"
+    actions:
+      - action: "play_command"
+        player: "TRIAL"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Sazabi discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "TRIAL"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "TRIAL"
+    actions:
+      - action: "play_command"
+        player: "TRIAL"
+        card: "Giant Killing"
+        effects:
+          - "Giant Killing: destroyed Hyakuren"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Become a Shield discarded"
+  - turn: 8
+    active_player: "TRIAL"
+    actions:
+      - action: "play_command"
+        player: "TRIAL"
+        card: "Giant Killing"
+        effects:
+          - "Giant Killing: destroyed Gundam Barbatos 1st Form"
+      - action: "play_command"
+        player: "TRIAL"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Lfrith discarded"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Shiden Custom (Ryusei-Go) discarded"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Ryusei-Go (Graze Custom Ⅱ) and Gundam Lfrith"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Axis received 5 damage, now destroyed"
+  - turn: 10
+    active_player: "TRIAL"
+    actions:
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Gundam Lfrith"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Gundam Lfrith received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "deploy"
+        card: "Hobby Hizack"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Hobby Hizack"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Hobby Hizack"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 2 damage, leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 4 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Become a Shield and Gundam Barbatos Adapt moved to trash"
+  - turn: 12
+    active_player: "TRIAL"
+    actions:
+      - action: "deploy"
+        card: "Sazabi"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Exia Repair discarded"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Hyakuren discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Sazabi"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Aile Strike Gundam revealed and discarded"
+  - turn: 14
+    active_player: "TRIAL"
+    actions:
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "deploy"
+        card: "Hobby Hizack"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Sazabi"
+        linked: false
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Sazabi received 2 damage, leaving 2 HP remaining"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Graze Custom, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Graze Custom discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Sazabi"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Sazabi revealed and discarded"
+  - turn: 16
+    active_player: "TRIAL"
+    actions:
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Quess's Jagd Doga returned to hand"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Sazabi received 3 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Sazabi"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Sazabi received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Flat (Militia)"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "deploy"
+        card: "Hobby Hizack"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Hobby Hizack"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 2 damage, leaving 3 HP remaining"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Sazabi"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+  - turn: 18
+    active_player: "TRIAL"
+    actions:
+      - action: "play_command"
+        player: "TRIAL"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "With Iron and Blood discarded"
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "play_base"
+        card: "Axis"
+        replaced: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Hobby Hizack"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Hobby Hizack received 2 damage, now destroyed"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, now destroyed"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        action_step:
+          - action: "play_command"
+            player: "TRIAL"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Quess's Jagd Doga returned to hand"
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Sazabi received 0 damage, leaving 7 HP remaining"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Hobby Hizack"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "activate"
+        card: "Axis"
+        effects:
+          - "Rested base: Axis"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Flat (Militia)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 20
+    active_player: "TRIAL"
+    actions:
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Exia Repair milled 2: Isaribi and Isaribi moved to trash"
+          - "Quess's Jagd Doga returned to hand"
+          - "Shield cards: Gundam Barbatos Lupus and Gundam Exia Repair revealed and discarded"
+      - action: "activate"
+        card: "Axis"
+        effects:
+          - "Rested base: Axis"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "attack"
+        player: "TRIAL"
+        attacker: "Hobby Hizack"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  TRIAL:
+    - card: "Axis"
+      turn: 9
+    - card: "Gundam Lfrith"
+      turn: 10
+    - card: "Aile Strike Gundam"
+      turn: 11
+    - card: "Sazabi"
+      turn: 16
+    - card: "Hobby Hizack"
+      turn: 18
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 11
+    - card: "Gundam Exia Repair"
+      turn: 11
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+    - card: "Gundam Barbatos Adapt"
+      turn: 16
+    - card: "Graze Custom"
+      turn: 18
+    - card: "Isaribi"
+      turn: 18
+    - card: "Gundam Gusion Rebake"
+      turn: 18
+shields_tally:
+  TRIAL:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 13)"
+    shields_lost: 4
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Loss on turn 20 to a Purple+White TRIAL deck running BOTH Sazabi printings (GD05-049 LR + GD05-052 R) plus Quess's Jagd Doga — exactly the 'White/Red-ish Sazabi' archetype asked about right before this game (turns out TRIAL was Purple+White, not Red, but the Sazabi core is the same)."
+  - "Confirmed why no Gundam Barbatos Lupus showed up: turn 20's shield reveal shows it sitting in Kiraya's own shield pile ('Shield cards: Gundam Barbatos Lupus and Gundam Exia Repair revealed and discarded') — it was never draw-accessible all game, just unlucky placement, not a deckbuilding or play issue."
+  - "TRIAL's real engine was the Sazabi + Quess's Jagd Doga loop: Sazabi's Attack ability destroys one of TRIAL's own Units (paying Jagd Doga each time) to force Kiraya to sacrifice a non-battling Unit, but Jagd Doga's own 【Destroyed】ability returns it to hand instantly since it's Neo Zeon-on-Neo Zeon — a nearly free, repeatable removal/sacrifice engine (turns 16, 18, 20)."
+  - "Giant Killing (ST09-009, flat removal) took out Hyakuren (turn 6) and Gundam Barbatos 1st Form (turn 8) for free, no combat needed — hard removal this deck has no way to play around."
+  - "Kiraya's opening was actually strong (EX Base down by turn 7, good trades through turn 11), but TRIAL's removal-heavy midgame (Giant Killing x2, the Sazabi/Jagd Doga loop, an Unforeseen Incident debuff) grinding down one unit at a time is exactly the profile this list struggles against most — same shape as the CVille loss (few answers to sustained single-target removal, only 6 Blocker-capable cards in 50)."
+  - "Char Aznable pinned to GD05-093 again (Neo Zeon Base recursion — redeployed a used Axis from trash, turn 18), same identity as in the DekuGreen game."
