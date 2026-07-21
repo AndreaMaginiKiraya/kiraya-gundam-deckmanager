@@ -1,0 +1,422 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-21_kiraya-vs-gd05noob"
+  date_imported: "2026-07-21"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    GD05NOOB:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  "Aile Strike Gundam":
+    id: null
+    candidates:
+      - "GD03-072"
+      - "ST04-001"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "GD05NOOB"
+    seen:
+      - "deployed"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "GD05NOOB"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+  Parts:
+    id: null
+    note: "not a real card: the [Parts] Unit token ((League Militaire)・AP1・HP1・can't choose the enemy player as its attack target), same token seen in the Barbanja game. Victory Gundam Hexa (GD04-007, in this opponent's deck) generates it During Pair on Attack; V-Dash Gundam's own kit also involves resting Parts tokens as an activation cost, consistent with multiple copies cycling through this game."
+    type: "UNIT TOKEN"
+    ap: 1
+    hp: 1
+    owner: "GD05NOOB"
+    seen:
+      - "deployed"
+      - "activated"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "GD05NOOB"
+    seen:
+      - "base"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "GD05NOOB"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Victory Gundam Hexa":
+    id: "GD04-007"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "GD05NOOB"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "GD05NOOB"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "GD05NOOB"
+    seen:
+      - "pilot"
+setup:
+  - player: "GD05NOOB"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "GD05NOOB"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "GD05NOOB"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "GD05NOOB"
+    actions:
+      - action: "deploy"
+        card: "Flat (Militia)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Shiden Custom (Ryusei-Go) discarded"
+  - turn: 6
+    active_player: "GD05NOOB"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 8
+    active_player: "GD05NOOB"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam Hexa"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Parts"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Lafter Frankland: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Reineforce Jr. received 5 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Flauros (Ryusei-Go) discarded"
+  - turn: 10
+    active_player: "GD05NOOB"
+    actions:
+      - action: "deploy"
+        card: "V-Dash Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "V-Dash Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "activate"
+        card: "V-Dash Gundam"
+        effects:
+          - "Rested unit: Parts"
+          - "Rested unit: Graze Custom"
+      - action: "attack"
+        player: "GD05NOOB"
+        attacker: "V-Dash Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "V-Dash Gundam received 5 damage, leaving 1 HP remaining"
+          - "Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "GD05NOOB"
+        attacker: "Flat (Militia)"
+        declared_target: "Graze Custom"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 3 HP remaining"
+          - "Flat (Militia) received 3 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "GD05NOOB"
+        attacker: "Zoloat (League Militaire)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 3 damage, now destroyed"
+          - "Zoloat (League Militaire) received 3 damage, now destroyed"
+      - action: "attack"
+        player: "GD05NOOB"
+        attacker: "Victory Gundam Hexa"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Victory Gundam Hexa received 2 damage, leaving 2 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and V-Dash Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Victory Gundam Hexa"
+        blockers: "none"
+        final_target: "Victory Gundam Hexa"
+        outcome:
+          - "Victory Gundam Hexa received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+  - turn: 12
+    active_player: "GD05NOOB"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Graze Custom and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, leaving 2 HP remaining"
+casualties:
+  GD05NOOB:
+    - card: "Reineforce Jr."
+      turn: 9
+    - card: "Zoloat (League Militaire)"
+      turn: 10
+    - card: "Victory Gundam Hexa"
+      turn: 11
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Gundam Gusion Rebake"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 11
+shields_tally:
+  GD05NOOB:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Debut win for aggro_tekkadan_mono_v1_3 (added Lafter Frankland + Hotarubi, cut Become a Shield + Barbatos 4th Form). Win via concession on turn 13, right after Barbatos Lupus wiped out Aile Strike Gundam's HP — despite an opening mulligan and Kiraya's board getting fully traded away by turn 11, both sides had actually lost 0 shields each at that point, so this reads as GD05NOOB conceding to the board/tempo swing rather than an imminent shield loss."
+  - "Lafter Frankland performed exactly as hoped on her first live rep: turn 9, Gundam Barbatos 1st Form was already damaged (from Gundam Gusion Rebake's own Deploy ping earlier that turn), so attacking triggered BOTH her own 'if damaged, gains High-Maneuver' AND Barbatos 1st Form's own 'if damaged, draw 1' at once — guaranteed unblockable damage plus a card, exactly the synergy the deckbuilding discussion predicted from all the self-damage this deck generates."
+  - "GD05NOOB ran a League Militaire (Victory/V-Dash Gundam, Üso Ewin) shell similar to the Barbanja game, including the same [Parts] token engine (Victory Gundam Hexa generates one During Pair on Attack) — recognizable as a recurring opponent archetype this account keeps running into."
+  - "Gundam Barbatos Lupus closed the game yet again on a single activation (turn 13), exiling 3 already-dead trash cards to finish off Aile Strike Gundam — the same free-recycling pattern confirmed all session, now validated across two different deck versions (v1_2 and v1_3)."
