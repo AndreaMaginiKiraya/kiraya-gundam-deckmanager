@@ -1,0 +1,898 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-21_kiraya-vs-petrullica"
+  date_imported: "2026-07-21"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Petrullica"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_3"
+    Petrullica:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: turn 10, truly Linked to Kira Yamato (Lv.4+), 'Selecting target for Aile Strike Gundam... Shiden Custom (Ryusei-Go) returned to hand' fires — Shiden Custom has 3 HP, matching ST04-001's 【When Paired・Lv.4+ Pilot】'choose 1 enemy Unit with 4 or less HP, return it to hand' exactly. GD03-072 has no such ability."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Petrullica"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Blast Impulse Gundam":
+    id: "ST09-007"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 3
+    owner: "Petrullica"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "returned to hand"
+  "Destiny Gundam":
+    id: "GD04-050"
+    note: "pinned: every attack this game shows 'Kiraya: Can't block High-maneuver' — matches GD04-050's own passive '(This Unit can't be blocked.)' exactly (GD05-055 has First Strike instead, a completely different keyword, plus a battle-damage reduction ability, neither of which explains unblockability). Also decisive: 'Selecting target for Destiny Gundam. Rested 3 Resources... Blast Impulse Gundam deployed' (cost 3) matches GD04-050's 【During Pair・Attack】'choose 1 Minerva Squad Unit card from trash, pay its cost to deploy it' exactly. NOTE — unresolved: damage dealt (e.g. 8 to Hotarubi turn 14) doesn't match base AP5 + Shinn Asuka's 0/0 pilot box; left open."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Petrullica"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Force Impulse Gundam":
+    id: "ST09-002"
+    note: "pinned: turn 18, 'Linked pilot: Shinn Asuka on unit Force Impulse Gundam' — Shinn Asuka is specifically ST09-002's designated link partner ([Shinn Asuka]); GD05-064 links [Lunamaria Hawke] instead, so it could only ever be Paired, not truly Linked, with Shinn Asuka. Same reasoning confirmed in the 'elephant' game earlier this session."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Petrullica"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Petrullica"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Impulse Gundam":
+    id: "ST09-001"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Petrullica"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "returned to deck"
+      - "returned to hand"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  "Kira Yamato":
+    id: "ST04-010"
+    note: "pinned: turn 10, merely Paired (not Linked) to Aile Strike Gundam, yet 'Selecting target for Kira Yamato... Kira Yamato: Modifier applied to: Gundam Barbatos Adapt' fires on Attack, targeting the enemy — matches ST04-010's 【Attack】'choose 1 enemy Unit, it gets AP-2 during this battle' exactly. Damage confirms it: Barbatos Adapt's own AP2, debuffed to 0, dealt 'Aile Strike Gundam received 0 damage' exactly. GD05-081 needs a true Link and never targets an enemy."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Petrullica"
+    seen:
+      - "pilot"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Petrullica"
+    seen:
+      - "base"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "shield"
+  "Perfect Strike Gundam":
+    id: "GD01-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "Petrullica"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  "Shinn Asuka":
+    id: "ST09-008"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Petrullica"
+    seen:
+      - "pilot"
+      - "shield"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "Petrullica"
+    seen:
+      - "command"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Petrullica"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Petrullica"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Petrullica"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Overflowing Affection discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "Petrullica"
+    actions:
+      - action: "deploy"
+        card: "Impulse Gundam"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Petrullica"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 1 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Lfrith"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Lfrith"
+  - turn: 8
+    active_player: "Petrullica"
+    actions:
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Impulse Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+          - "Impulse Gundam received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 4 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Blast Impulse Gundam"
+        final_target: "Blast Impulse Gundam"
+        outcome:
+          - "Blast Impulse Gundam received 2 damage, leaving 1 HP remaining"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, now destroyed"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 2 damage, now destroyed"
+  - turn: 10
+    active_player: "Petrullica"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Shiden Custom (Ryusei-Go) returned to hand"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 0 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Impulse Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Impulse Gundam received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Blast Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Hotarubi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Blast Impulse Gundam"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Gundam Exia Repair moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 6 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+  - turn: 12
+    active_player: "Petrullica"
+    actions:
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+      - action: "play_base"
+        card: "Minerva"
+        effects:
+          - "Shield card added to hand"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Force Impulse Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Gundam Barbatos Adapt and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Force Impulse Gundam, now destroyed"
+          - "Impulse Gundam returned to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 14
+    active_player: "Petrullica"
+    actions:
+      - action: "deploy"
+        card: "Destiny Gundam"
+      - action: "pair_pilot"
+        pilot: "Shinn Asuka"
+        unit: "Destiny Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "Hotarubi"
+        outcome:
+          - "Shinn Asuka: 1 resource set as active"
+          - "Rested 3 Resources (Exiled 1 Resource EX)"
+          - "Hotarubi received 8 damage, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Destiny Gundam"
+        blockers: "Blast Impulse Gundam"
+        final_target: "Blast Impulse Gundam"
+        outcome:
+          - "Blast Impulse Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 5 damage, now destroyed"
+  - turn: 16
+    active_player: "Petrullica"
+    actions:
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "shield"
+        outcome:
+          - "Rested 3 Resources"
+          - "Shinn Asuka: 1 resource set as active"
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "deploy"
+        card: "Perfect Strike Gundam"
+        effects:
+          - "No targets for Perfect Strike Gundam"
+      - action: "deploy"
+        card: "Impulse Gundam"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Lafter Frankland discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Destiny Gundam"
+        blockers: "Blast Impulse Gundam"
+        final_target: "Blast Impulse Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Blast Impulse Gundam received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Shinn Asuka revealed"
+          - "Shield card added to hand: Shinn Asuka"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Destiny Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Destiny Gundam"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Petrullica"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Graze Custom"
+        final_target: "Destiny Gundam"
+        outcome:
+          - "Destiny Gundam received 1 damage, leaving 3 HP remaining"
+          - "Graze Custom received 8 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+  - turn: 18
+    active_player: "Petrullica"
+    actions:
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "activate"
+        card: "Impulse Gundam"
+        effects:
+          - "Rested 2 Resources"
+          - "Impulse Gundam returned to deck"
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "shield"
+        outcome:
+          - "Shinn Asuka: 1 resource set as active"
+          - "Rested 3 Resources"
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Perfect Strike Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Perfect Strike Gundam received 3 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+      - action: "pair_pilot"
+        pilot: "Shinn Asuka"
+        unit: "Force Impulse Gundam"
+        linked: true
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Force Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shinn Asuka: 1 resource set as active"
+          - "Shield card: Isaribi revealed"
+          - "No more Shield cards to add to hand"
+      - action: "play_base"
+        card: "Minerva"
+        effects:
+          - "Shield card added to hand"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Perfect Strike Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Destiny Gundam"
+        blockers: "Blast Impulse Gundam"
+        final_target: "Blast Impulse Gundam"
+        outcome:
+          - "Blast Impulse Gundam received 6 damage, now destroyed"
+          - "Hyakuren received 5 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos 1st Form and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Force Impulse Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Gusion Rebake and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Force Impulse Gundam, now destroyed"
+          - "Blast Impulse Gundam returned to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Destiny Gundam"
+        blockers: "none"
+        final_target: "Destiny Gundam"
+        outcome:
+          - "Destiny Gundam received 4 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 8 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Minerva received 5 damage, now destroyed"
+  - turn: 20
+    active_player: "Petrullica"
+    actions:
+      - action: "deploy"
+        card: "Destiny Gundam"
+      - action: "pair_pilot"
+        pilot: "Shinn Asuka"
+        unit: "Destiny Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "Isaribi"
+        outcome:
+          - "Shinn Asuka: 1 resource set as active"
+          - "Rested 3 Resources"
+          - "Isaribi received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+      - action: "attack"
+        player: "Petrullica"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "player"
+        outcome:
+          - "Shinn Asuka: 1 resource set as active"
+          - "Rested 3 Resources"
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Isaribi"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Hotarubi"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 17
+    - card: "Graze Custom"
+      turn: 17
+    - card: "Gundam Barbatos 1st Form"
+      turn: 18
+    - card: "Hyakuren"
+      turn: 19
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 19
+    - card: "Isaribi"
+      turn: 20
+  Petrullica:
+    - card: "Gundam Lfrith"
+      turn: 9
+    - card: "Minerva"
+      turn: 9
+    - card: "Impulse Gundam"
+      turn: 10
+    - card: "Aile Strike Gundam"
+      turn: 11
+    - card: "Force Impulse Gundam"
+      turn: 13
+    - card: "Blast Impulse Gundam"
+      turn: 15
+    - card: "Minerva"
+      turn: 17
+    - card: "Blast Impulse Gundam"
+      turn: 17
+    - card: "Blast Impulse Gundam"
+      turn: 19
+    - card: "Force Impulse Gundam"
+      turn: 19
+    - card: "Destiny Gundam"
+      turn: 19
+    - card: "Minerva"
+      turn: 19
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+  Petrullica:
+    ex_base: "replaced with a base (turn 8)"
+    shields_lost: 0
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Result correction: the raw log's last two lines both say 'Kiraya' as speaker ('No more shields available' then 'Winner!'), which the auto-detector misread as a Kiraya win. The shields tally proves the opposite — Kiraya 0 remaining/3+1 lost vs Petrullica 2 remaining/0 lost — so Kiraya is the one who ran out; result corrected by hand to win:Petrullica. Same MSA same-speaker export quirk as the crossroads game, just in the other direction this time."
+  - "Serious mistake review (requested): the clearest concrete error is turn 15's decision to attack directly into Destiny Gundam with Gundam Barbatos Lupus. Petrullica simply chump-blocked with Blast Impulse Gundam — a cheap (cost 3) token that Destiny Gundam's own Attack ability had just freely recurred from trash the turn before — and both units traded. That let Kiraya's single best card (the repeatable trash-exile removal engine that carried nearly every win this whole session) die to a disposable, endlessly-recyclable blocker instead of the real threat it was aimed at. Lupus didn't need to attack at all to generate value; its Activate ability works from a standstill and this exact matchup (constant small trades feeding Purple/Minerva-Squad trash) was generating fodder for it every turn."
+  - "The downstream cost was real: turns 16-20 had no more repeatable removal available, while Petrullica's Destiny Gundam (unblockable, During-Pair-Attack recursion of Minerva Squad units from trash) and Minerva (redeploys itself as a Base, refilling a shield each time) kept generating threats and resources faster than Kiraya could race them down. The eventual Destiny Gundam kill (turn 19, via Ryusei-Go finishing what a turn-17 Graze Custom chip started) came one or two turns too late relative to Kiraya's own shield clock."
+  - "Contributing factor, not a play error: Gundam Exia Repair's mill and Hotarubi's mill both cost real cards this game too (Gundam Exia Repair itself milled turn 11, plus earlier Overflowing Affection/Barbatos Lupus-adjacent losses), consistent with the recurring variance risk of those two cards noted in earlier games this session."
+  - "Opponent read: Petrullica (a strong player per the user) built a genuinely resilient shell — Impulse Gundam/Force Impulse Gundam/Blast Impulse Gundam all recur each other via trash-return effects, Destiny Gundam is unblockable and self-refuels every attack, and Minerva keeps rebuilding the Base row and shield count. This is a tougher, more complete engine than the League Militaire (Barbanja/GD05NOOB/ded) or Sazabi (TRIAL) opponents seen so far — worth remembering as a name to watch for."
