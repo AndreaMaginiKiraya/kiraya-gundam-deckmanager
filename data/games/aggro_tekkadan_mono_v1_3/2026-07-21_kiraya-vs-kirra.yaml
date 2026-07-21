@@ -1,0 +1,676 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-21_kiraya-vs-kirra"
+  date_imported: "2026-07-22"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    KIRRA:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "KIRRA"
+    seen:
+      - "command"
+  "Akihiro Altland":
+    id: "ST05-011"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "KIRRA"
+    seen:
+      - "pilot"
+      - "shield"
+  "Corsica Base":
+    id: "ST02-016"
+    type: "BASE"
+    level: 3
+    cost: 3
+    hp: 5
+    owner: "KIRRA"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "KIRRA"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "pinned: KIRRA's copy (turn 13) was damaged by its own Mikazuki Augus pairing just before attacking, then 'Gundam Barbatos 1st Form: Draw a card' fired — matches GD02-054's 【Attack】'if this Unit is damaged, draw 1' exactly. Kiraya's copies already resolved via the saved deck. ST10-008 is a Deploy-only draw+discard effect, doesn't match."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner:
+      - "KIRRA"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "KIRRA"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "pinned: on deploy (turn 15), dealt 1 damage to itself and 1 to an enemy Unit simultaneously — matches GD02-055's 【Deploy】'choose 1 of your Units and 1 enemy Unit, deal 1 damage to them' exactly, the same signature confirmed repeatedly this session. ST05-005's ability is 【Destroyed】-triggered, doesn't match a Deploy-time dual ping."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner:
+      - "KIRRA"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Guntank:
+    id: "GD01-008"
+    note: "pinned: on deploy (turn 5), Siege Ploy had just rested Gundam Exia Repair, and Guntank's own Deploy immediately dealt 1 damage to it, destroying it — matches GD01-008's 【Deploy】'choose 1 rested enemy Unit, deal 1 damage to it' exactly. ST01-004's ability rests a low-HP enemy instead of dealing damage, doesn't match."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "KIRRA"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner:
+      - "KIRRA"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "KIRRA"
+      - "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+      - "shield"
+  "Orga's Order":
+    id: "GD03-117"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "KIRRA"
+    seen:
+      - "command"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner:
+      - "KIRRA"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Siege Ploy":
+    id: "ST02-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "KIRRA"
+    seen:
+      - "command"
+  Tallgeese:
+    id: null
+    candidates:
+      - "EB01-027"
+      - "GD02-005"
+      - "ST02-006"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "KIRRA"
+    seen:
+      - "deployed"
+setup:
+  - player: "KIRRA"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "KIRRA"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "KIRRA"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "KIRRA"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "KIRRA"
+    actions:
+      - action: "play_command"
+        player: "KIRRA"
+        card: "Siege Ploy"
+        effects:
+          - "Rested unit: Gundam Exia Repair"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Overflowing Affection moved to trash"
+      - action: "play_command"
+        player: "KIRRA"
+        card: "Orga's Order"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Hotarubi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "KIRRA"
+    actions:
+      - action: "play_command"
+        player: "KIRRA"
+        card: "Siege Ploy"
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Corsica Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Tallgeese"
+      - action: "attack"
+        player: "KIRRA"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Graze Custom received 3 damage, now destroyed"
+      - action: "attack"
+        player: "KIRRA"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Hotarubi received 1 damage, leaving 4 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Tallgeese"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Overflowing Affection moved to trash"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Tallgeese"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Guntank"
+        blockers: "none"
+        final_target: "Guntank"
+        outcome:
+          - "Guntank received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, leaving 1 HP remaining"
+  - turn: 9
+    active_player: "KIRRA"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Graze Custom"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos Adapt"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Gundam Barbatos 1st Form moved to trash"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "KIRRA"
+            card: "Siege Ploy"
+            effects:
+              - "Rested unit: Gundam Gusion Rebake"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 2 damage, leaving 1 HP remaining"
+  - turn: 11
+    active_player: "KIRRA"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Graze Custom discarded"
+      - action: "attack"
+        player: "KIRRA"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Hotarubi received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Barbatos Adapt, leaving 2 HP remaining"
+      - action: "play_command"
+        player: "KIRRA"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "attack"
+        player: "KIRRA"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair received 4 damage, now destroyed"
+          - "Gundam Exia Repair: destroyed Hyakuren"
+          - "Gundam Exia Repair milled 2: Mikazuki Augus and Ryusei-Go (Graze Custom Ⅱ) moved to trash"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Guntank, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Barbatos 1st Form and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Akihiro Altland revealed"
+          - "Shield card added to hand: Akihiro Altland"
+  - turn: 13
+    active_player: "KIRRA"
+    actions:
+      - action: "play_command"
+        player: "KIRRA"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "attack"
+        player: "KIRRA"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 2 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "KIRRA"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Orga's Order revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Guntank revealed and discarded"
+  - turn: 15
+    active_player: "KIRRA"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Gusion Rebake"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Gusion Rebake"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Akihiro Altland"
+        unit: "Gundam Gusion Rebake"
+        linked: true
+      - action: "attack"
+        player: "KIRRA"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Gundam Gusion Rebake received 3 damage, leaving 2 HP remaining"
+          - "Graze Custom returned to hand"
+      - action: "attack"
+        player: "KIRRA"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Gusion Rebake and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  KIRRA:
+    - card: "Guntank"
+      turn: 8
+    - card: "Guntank"
+      turn: 12
+    - card: "Corsica Base"
+      turn: 12
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Hotarubi"
+      turn: 11
+    - card: "Gundam Exia Repair"
+      turn: 12
+  unattributed:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 13
+    - card: "Gundam Gusion Rebake"
+      turn: 15
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+shields_tally:
+  KIRRA:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "A genuine mirror match — KIRRA runs almost the exact same Tekkadan core (Graze Custom, Gundam Exia Repair, Barbatos 1st Form/Adapt, Gundam Gusion Rebake, Ryusei-Go, Hyakuren, Mikazuki Augus) plus a White/Green splash (Guntank, Tallgeese, Siege Ploy, A Show of Resolve). Close race on shields both ways (3 lost each early), decided by Barbatos Lupus coming online first."
+  - "Barbatos Lupus was the difference-maker again: 2 activations turn 12 (funded entirely by trash, including one copy of itself as fuel for the other) killed Guntank and Gundam Barbatos Adapt outright, then a 3rd activation turn 16 cleared a Gundam Gusion Rebake — all free value, no live cards spent, consistent with every other game this session."
+  - "No tactical missteps stood out — trades were consistently fair or favorable (Gundam Exia Repair into Hyakuren turn 12 was a good cheap-for-expensive trade) and blocking assignments (Gundam Gusion Rebake blocking twice) were reasonable given available options each time."
