@@ -1,0 +1,751 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-21_kiraya-vs-crossroads"
+  date_imported: "2026-07-21"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_3"
+    crossroads:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Green"
+cards:
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "dual instance, both confirmed: the copy paired with 'Gundam' (turns 12/14/16/18) shows 'Healed 2 damage to: Gundam' every time it destroys an enemy Unit with battle damage — matches GD05-085's 'destroys an enemy Unit with battle damage -> recover 2 HP' exactly. The copy paired with Re-GZ BWS (turn 14) shows 'Selecting target for Amuro Ray... Rested unit: Gundam Gusion Rebake' — Gusion Rebake has 5 HP, matching ST01-010's 【When Paired】'choose 1 enemy Unit with 5 or less HP, rest it' exactly. crossroads is running both printings."
+    owner: "crossroads"
+    seen:
+      - "pilot"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Gundam:
+    id: "ST01-001"
+    note: "pinned: 'Gundam repaired 1 from [Repair 2]' fires at end of turn (turns 14, 16, 18) — only ST01-001 among the 5 candidates has the <Repair 2> keyword at all, decisive by itself. NOTE — unresolved: the AP dealt varied a lot across battles (8, then 6) despite Amuro Ray GD05-085 contributing 0 AP and ST01-001's own During-Pair 'all your Units get AP+1' only adding +1 over base AP3 — neither reaches the observed numbers cleanly. Left open rather than guessed; the Repair-2 identification itself is solid regardless."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "crossroads"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Gundam NT-1":
+    id: "GD03-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "crossroads"
+    seen:
+      - "shield"
+  Guntank:
+    id: "GD01-008"
+    note: "pinned: on deploy (turn 8), 'Guntank: Dealt 1 damage to Hyakuren, now destroyed' — Hyakuren was already rested (from attacking on Kiraya's own prior turn) — matches GD01-008's 【Deploy】'choose 1 rested enemy Unit, deal 1 damage to it' exactly. HP math confirms too: turn 11, 'Guntank received 2 damage, now destroyed' matches its HP2 exactly. ST01-004's ability targets a Unit with 2-or-less HP to rest it (no damage dealt at all), doesn't match."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "crossroads"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  Jaburo:
+    id: "GD04-122"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "crossroads"
+    seen:
+      - "base"
+      - "shield"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "crossroads"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Loto:
+    id: "GD01-011"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "crossroads"
+    seen:
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "crossroads"
+    seen:
+      - "deployed"
+      - "shield"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "crossroads"
+    seen:
+      - "attacker"
+      - "deployed"
+  ReZEL:
+    id: "GD01-018"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "crossroads"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "crossroads"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "crossroads"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "crossroads"
+    actions:
+      - action: "deploy"
+        card: "ReZEL"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "crossroads"
+    actions:
+      - action: "attack"
+        player: "crossroads"
+        attacker: "ReZEL"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "ReZEL received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Jegan"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Jegan received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "ReZEL"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Hotarubi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and ReZEL"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Gundam Barbatos Lupus moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam NT-1 revealed and discarded"
+  - turn: 8
+    active_player: "crossroads"
+    actions:
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Jegan"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+          - "Jegan received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Hyakuren, now destroyed"
+      - action: "attack"
+        player: "crossroads"
+        attacker: "ReZEL"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Hotarubi received 4 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and ReZEL"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Hyakuren moved to trash"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "ReZEL"
+        blockers: "none"
+        final_target: "ReZEL"
+        outcome:
+          - "ReZEL received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+  - turn: 10
+    active_player: "crossroads"
+    actions:
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Re-GZ BWS"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 2 damage, leaving 1 HP remaining"
+          - "Re-GZ BWS received 4 damage, now destroyed"
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Hotarubi received 1 damage, now destroyed"
+      - action: "deploy"
+        card: "Jegan"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Jegan"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Jegan"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Guntank"
+        blockers: "none"
+        final_target: "Guntank"
+        outcome:
+          - "Guntank received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 1 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Loto revealed and discarded"
+  - turn: 12
+    active_player: "crossroads"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 8 damage, now destroyed"
+          - "Gundam received 2 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Gundam"
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Jegan"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 2 HP remaining"
+          - "Jegan received 3 damage, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 4 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 8 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "play_base"
+        card: "Jaburo"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jaburo revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+  - turn: 14
+    active_player: "crossroads"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ BWS"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Re-GZ BWS"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Re-GZ BWS received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Gundam received 3 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Gundam"
+        effects:
+          - "Gundam repaired 1 from [Repair 2]"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Jaburo"
+        outcome:
+          - "Jaburo received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+  - turn: 16
+    active_player: "crossroads"
+    actions:
+      - action: "play_base"
+        card: "Jaburo"
+        effects:
+          - "No more Shield cards to add to hand"
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Re-GZ BWS"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 5 damage, now destroyed"
+          - "Re-GZ BWS received 2 damage, now destroyed"
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Gundam received 3 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Gundam"
+        effects:
+          - "Gundam repaired 1 from [Repair 2]"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Jaburo"
+        outcome:
+          - "Jaburo received 5 damage, now destroyed"
+  - turn: 18
+    active_player: "crossroads"
+    actions:
+      - action: "attack"
+        player: "crossroads"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Gundam received 5 damage, leaving 1 HP remaining"
+          - "Healed 2 damage to: Gundam"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Hotarubi"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 16
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+    - card: "Gundam Barbatos 1st Form"
+      turn: 18
+  crossroads:
+    - card: "Jegan"
+      turn: 6
+    - card: "Jegan"
+      turn: 8
+    - card: "ReZEL"
+      turn: 9
+    - card: "Re-GZ BWS"
+      turn: 10
+    - card: "Guntank"
+      turn: 11
+    - card: "Jegan"
+      turn: 12
+    - card: "Gundam"
+      turn: 13
+    - card: "Jaburo"
+      turn: 15
+    - card: "Re-GZ BWS"
+      turn: 16
+    - card: "Jaburo"
+      turn: 17
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+  crossroads:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Log-parsing note (fixed on import): the raw log's final lines both say 'crossroads' as speaker ('No more shields available' then 'Winner!'), which the auto-detector read as crossroads winning. The shields tally proves otherwise — Kiraya 4 remaining / 0 lost vs crossroads 0 remaining / 3 lost plus EX Base destroyed — so crossroads is the one who ran out and Kiraya actually won; result was corrected by hand to win:Kiraya. Likely an MSA export quirk (same-speaker consecutive lines) rather than a parser bug to fix in gamelog.py."
+  - "Long grindy 19-turn win, but a clean one on the shields track the whole way — Kiraya never lost a shield. Hotarubi cost Kiraya 2 different Gundam Barbatos Lupus copies to its own mill-1 trigger (turns 7 and, indirectly, contributing to never seeing Lupus this game) — bad luck stacking, similar to the ded loss, though this time the deck won anyway on raw tempo."
+  - "Lafter Frankland got a second live rep (turn 17, paired to a fresh Barbatos 1st Form) but didn't get to attack again before it traded away turn 18 — no new data on her High-Maneuver synergy this game beyond the GD05NOOB confirmation."
+  - "crossroads runs both Amuro Ray printings at once (GD05-085 heal-on-kill paired to a Repair-2 'Gundam' ST01-001, and ST01-010 rest-on-pair paired to Re-GZ BWS) — same dual-instance pattern seen with Sazabi/Nu Gundam earlier this session, now confirmed for Amuro Ray with a fresh opponent."
+  - "Open arithmetic note: the paired 'Gundam' (ST01-001, confirmed by its unique Repair-2 keyword) dealt inconsistent damage across battles (8, then 6) that doesn't cleanly follow from its own AP3 + Amuro Ray's 0 + its own During-Pair AP+1 all-units buff. Left unresolved rather than forced."
