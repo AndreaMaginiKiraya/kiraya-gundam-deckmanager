@@ -1,0 +1,599 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-21_kiraya-vs-azure"
+  date_imported: "2026-07-21"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Azure:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: turn 9, truly Linked to Kira Yamato (Lv.4+), 'Selecting target for Aile Strike Gundam... Gundam Barbatos 1st Form returned to hand' fires — Barbatos 1st Form has 2 HP, matching ST04-001's 【When Paired・Lv.4+ Pilot】'choose 1 enemy Unit with 4 or less HP, return it to hand' exactly. GD03-072 has no such ability."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Azure"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Andrew Waldfeld":
+    id: "GD05-082"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Azure"
+    seen:
+      - "discarded"
+  Archangel:
+    id: null
+    candidates:
+      - "GD05-123"
+      - "ST04-015"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "Azure"
+    seen:
+      - "base"
+      - "shield"
+  "Freedom Gundam":
+    id: null
+    candidates:
+      - "GD01-065"
+      - "GD03-070"
+      - "ST09-004"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "Azure"
+    seen:
+      - "discarded"
+  "Gaplant TR-5 \"Hrairoo\" Unit 1":
+    id: "EB01-054"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Azure"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to deck"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "dual instance, both confirmed: the copy paired with Gaplant TR-5 (turn 7) shows 'Kira Yamato: Modifier applied to: Hyakuren' on Attack, targeting the enemy — matches ST04-010's 【Attack】enemy AP-2 debuff exactly (also true for the Aile Strike Gundam pairing turns 9/11, same signature). The copy truly Linked to Strike Freedom Gundam (turn 15, an (Orb) Unit) shows 'Kira Yamato: Draw a card' immediately on Link with no targeting — matches GD05-081's 【When Linked】'if this is an Orb/Triple Ship Alliance Unit, draw 1' exactly. Azure is running both printings."
+    owner: "Azure"
+    seen:
+      - "pilot"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Murasame (Andrew Waldfeld Unit)":
+    id: "GD05-003"
+    note: "pinned: this is the documented MSA display quirk (see CLAUDE.md) where a Linked Unit shows as '<base name> (<Pilot> Unit)' instead of its printed name once truly Linked — 'Waldfeld's Murasame' (GD05-003, link [Andrew Waldfeld]) is the exact card this describes."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Azure"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "Azure"
+      - "Kiraya"
+    seen:
+      - "command"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Azure"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Siege Ploy":
+    id: "ST02-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "Azure"
+    seen:
+      - "command"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Azure"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+setup:
+  - player: "Azure"
+    action: "choose_first_player"
+  - player: "Azure"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Azure"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Gusion Rebake discarded"
+  - turn: 3
+    active_player: "Azure"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Azure"
+    actions:
+      - action: "play_base"
+        card: "Archangel"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 4 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gaplant TR-5 \"Hrairoo\" Unit 1"
+  - turn: 7
+    active_player: "Azure"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+        linked: false
+      - action: "attack"
+        player: "Azure"
+        attacker: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Hyakuren"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Gaplant TR-5 \"Hrairoo\" Unit 1 received 2 damage, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Azure"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Murasame (Andrew Waldfeld Unit) discarded"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gaplant TR-5 \"Hrairoo\" Unit 1"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Rick Dias received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+  - turn: 9
+    active_player: "Azure"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Barbatos 1st Form returned to hand"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 4 damage, leaving 1 HP remaining"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+  - turn: 11
+    active_player: "Azure"
+    actions:
+      - action: "play_command"
+        player: "Azure"
+        card: "Siege Ploy"
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Azure"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 1 damage, now destroyed"
+      - action: "deploy"
+        card: "Murasame (Andrew Waldfeld Unit)"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Murasame (Andrew Waldfeld Unit), leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos 1st Form and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Murasame (Andrew Waldfeld Unit), now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 13
+    active_player: "Azure"
+    actions: []
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Rick Dias revealed and discarded"
+      - action: "play_base"
+        card: "Archangel"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Archangel revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Hyakuren discarded"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos Lupus discarded"
+  - turn: 15
+    active_player: "Azure"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_command"
+        player: "Azure"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Freedom Gundam discarded"
+      - action: "attack"
+        player: "Azure"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Strike Freedom Gundam and Andrew Waldfeld discarded"
+          - "Gundam Exia Repair returned to deck"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 5 damage, leaving 3 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Aile Strike Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+casualties:
+  Azure:
+    - card: "Rick Dias"
+      turn: 8
+    - card: "Aile Strike Gundam"
+      turn: 11
+    - card: "Archangel"
+      turn: 12
+    - card: "Murasame (Andrew Waldfeld Unit)"
+      turn: 12
+    - card: "Archangel"
+      turn: 14
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Gundam Barbatos 1st Form"
+      turn: 11
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+shields_tally:
+  Azure:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+study_notes:
+  - "Dominant win on turn 16 despite an opening mulligan — Kiraya's own EX Base/shields were never even touched (0 lost, 6 remaining), while Azure lost the EX Base plus all shields."
+  - "Azure runs a similar Blue/Orb Earth Alliance shell to the Petrullica loss (Aile Strike Gundam + Kira Yamato, Strike Freedom Gundam, Archangel) — worth noting as a recognizable matchup type, but this time Kiraya's aggression closed it out well before the bombs could take over."
+  - "This game's Gundam Barbatos Lupus death (turn 15) is a useful contrast to the Petrullica loss: here it was Azure's own Strike Freedom Gundam that declared the attack directly at Lupus (not Kiraya choosing to swing it into a bad trade) — Lupus has no Blocker keyword and nothing could have stopped that specific attack. A reminder that losing Lupus in combat isn't inherently a misplay; it depends on who initiated the fight."
+  - "Gundam Barbatos Lupus still got full value first: two activations at turn 12 cleanly killed Waldfeld's Murasame using only already-dead trash cards, before eventually trading into Strike Freedom Gundam at turn 15."
+  - "Kira Yamato dual-instance confirmed again (ST04-010 Attack-debuff + GD05-081 Link-draw) — third game this session where an opponent runs both prints simultaneously."
+  - "Resolved a name-mapping case documented in CLAUDE.md: 'Murasame (Andrew Waldfeld Unit)' is MSA's display name for Waldfeld's Murasame (GD05-003), the exact card that note describes."
