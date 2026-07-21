@@ -1,0 +1,771 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-21_kiraya-vs-prommy"
+  date_imported: "2026-07-21"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Prommy"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_3"
+    Prommy:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Prommy"
+    seen:
+      - "command"
+  "Chibodee Crocket":
+    id: "GD05-121"
+    note: "pilot mode of the COMMAND card 'Cyclone Punch'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Prommy"
+    seen:
+      - "pilot"
+  "Cyclone Punch":
+    id: "GD05-121"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Prommy"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Prommy"
+    seen:
+      - "discarded"
+      - "returned to hand"
+  "Domon Kasshu":
+    id: "GD05-097"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Prommy"
+    seen:
+      - "pilot"
+  "Dragon Gundam":
+    id: "GD05-035"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "Prommy"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Fight":
+    id: "GD05-128"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Prommy"
+    seen:
+      - "activated"
+      - "base"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Maxter":
+    id: "GD05-069"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Prommy"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Haow Gundam":
+    id: "GD05-036"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Prommy"
+    seen:
+      - "discarded"
+  "Hoka Kyoten Juzetsujin":
+    id: "GD05-112"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Prommy"
+    seen:
+      - "command"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Prommy"
+    seen:
+      - "command"
+  "Rising Gundam":
+    id: "GD05-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Prommy"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Royal Gundam":
+    id: "GD05-075"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Prommy"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Sai Saici":
+    id: "GD05-112"
+    note: "pilot mode of the COMMAND card 'Hoka Kyoten Juzetsujin'"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Prommy"
+    seen:
+      - "pilot"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Shining Finger":
+    id: "GD05-120"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Prommy"
+    seen:
+      - "discarded"
+  "Shining Gundam":
+    id: "GD05-066"
+    note: "pinned decisively on multiple points: truly Linked to Domon Kasshu, its own designated link partner ([Domon Kasshu]). Turn 8's 'Royal Gundam and Shining Gundam exiled from the game... Darkness Finger returned to hand' matches its 【Deploy】'choose 2 (MF) Unit cards from trash, exile them, then choose 1 (Special Move) Command card from trash, add to hand' exactly. Every attack shows 'Shining Gundam: 1 resource set as active', matching its 【Attack】Once-per-Turn 'choose 1 rested Resource, set it as active' exactly. GD05-042 has no effect text at all ('null'), can't explain any of this."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Prommy"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Shining Gundam (Super Mode)":
+    id: "GD05-068"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 5
+    owner: "Prommy"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Prommy"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Prommy"
+    actions:
+      - action: "play_command"
+        player: "Prommy"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Darkness Finger discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Prommy"
+    actions:
+      - action: "deploy"
+        card: "Royal Gundam"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Prommy"
+    actions:
+      - action: "deploy"
+        card: "Gundam Maxter"
+      - action: "play_command"
+        player: "Prommy"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Darkness Finger discarded"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Hotarubi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Exia Repair"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Royal Gundam"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Lafter Frankland moved to trash"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Royal Gundam"
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Hyakuren"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shining Gundam revealed and discarded"
+  - turn: 8
+    active_player: "Prommy"
+    actions:
+      - action: "play_base"
+        card: "Gundam Fight"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Royal Gundam and Shining Gundam exiled from the game"
+          - "Darkness Finger returned to hand"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Shining Finger discarded"
+          - "Rested unit: Hyakuren"
+          - "Shining Finger: Modifier applied to: Shining Gundam"
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Shining Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Shining Gundam received 0 damage, leaving 5 HP remaining"
+      - action: "play_command"
+        player: "Prommy"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: Gundam Exia Repair"
+      - action: "pair_pilot"
+        pilot: "Chibodee Crocket"
+        unit: "Gundam Maxter"
+        linked: true
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Gundam Exia Repair"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 4 damage, now destroyed"
+          - "Gundam Maxter received 0 damage, leaving 3 HP remaining"
+          - "Gundam Exia Repair milled 2: Gundam Flauros (Ryusei-Go) and Mikazuki Augus moved to trash"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Maxter"
+        blockers: "none"
+        final_target: "Gundam Maxter"
+        outcome:
+          - "Gundam Maxter received 4 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+  - turn: 10
+    active_player: "Prommy"
+    actions:
+      - action: "play_command"
+        player: "Prommy"
+        card: "Airframe Seizure"
+        effects:
+          - "Darkness Finger discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "No targets for Shining Gundam"
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Hotarubi received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Royal Gundam"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Hotarubi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Shining Gundam"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Gundam Barbatos Lupus moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Shining Gundam"
+        blockers: "Royal Gundam"
+        final_target: "Royal Gundam"
+        outcome:
+          - "Royal Gundam received 4 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 12
+    active_player: "Prommy"
+    actions:
+      - action: "play_command"
+        player: "Prommy"
+        card: "Airframe Seizure"
+        effects:
+          - "Haow Gundam discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Hotarubi received 5 damage, now destroyed"
+      - action: "play_base"
+        card: "Gundam Fight"
+        replaced: "Gundam Fight"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Prommy"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Dragon Gundam discarded"
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "deploy"
+        card: "Shining Gundam (Super Mode)"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Flauros (Ryusei-Go), Gundam Barbatos Lupus and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Shining Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Graze Custom and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Shining Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Shining Gundam"
+        blockers: "none"
+        final_target: "Shining Gundam"
+        outcome:
+          - "Shining Gundam received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Gundam Fight"
+        outcome:
+          - "Gundam Fight received 2 damage, leaving 3 HP remaining"
+  - turn: 14
+    active_player: "Prommy"
+    actions:
+      - action: "deploy"
+        card: "Dragon Gundam"
+      - action: "play_command"
+        player: "Prommy"
+        card: "Hoka Kyoten Juzetsujin"
+        effects:
+          - "Hoka Kyoten Juzetsujin: Modifier applied to: Dragon Gundam"
+      - action: "pair_pilot"
+        pilot: "Sai Saici"
+        unit: "Dragon Gundam"
+        linked: true
+        effects:
+          - "Shining Gundam (Super Mode): Modifier applied to: Shining Gundam (Super Mode)"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Dragon Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Hoka Kyoten Juzetsujin: Modifier applied to: Shining Gundam (Super Mode)"
+          - "Shining Gundam (Super Mode): Modifier applied to: Shining Gundam (Super Mode)"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Dragon Gundam received 2 damage, leaving 2 HP remaining"
+          - "Breach 3 Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Gundam Fight"
+        effects:
+          - "Rested base: Gundam Fight"
+          - "Gundam Fight: Modifier applied to: Shining Gundam (Super Mode)"
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Shining Gundam (Super Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Royal Gundam"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Dragon Gundam"
+        blockers: "none"
+        final_target: "Dragon Gundam"
+        outcome:
+          - "Dragon Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 16
+    active_player: "Prommy"
+    actions:
+      - action: "deploy"
+        card: "Rising Gundam"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Rising Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Gundam Maxter discarded"
+          - "Rested unit: Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Shining Gundam (Super Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "attack"
+        player: "Prommy"
+        attacker: "Rising Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Hotarubi"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Hotarubi"
+      turn: 12
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 14
+    - card: "Isaribi"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+  Prommy:
+    - card: "Gundam Maxter"
+      turn: 9
+    - card: "Royal Gundam"
+      turn: 11
+    - card: "Shining Gundam"
+      turn: 13
+    - card: "Shining Gundam"
+      turn: 13
+    - card: "Dragon Gundam"
+      turn: 15
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 0
+  Prommy:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 1
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - "Mistake review: no clear tactical misplay found this game. Both Gundam Barbatos Lupus uses were actually correct — turn 13 used its Activate ability (not melee) to clear Shining Gundam using only trash fuel, and turn 15's direct combat trade into Dragon Gundam happened with 'No blockers available' for Prommy, i.e. a clean forced trade with no wasted redirection, unlike the Petrullica game. Kiraya applied that earlier lesson correctly this time."
+  - "The loss looks driven by Prommy's Gundam Fighter/Shuffle Alliance shell generating outsized value through chained Pilot-capable Command cards: Domon Kasshu's When-Paired draw+discard can trigger a discarded (Special Move) Command's own Main effect on the spot (seen turn 8 discarding Shining Finger, which then rested Hyakuren and buffed Shining Gundam into a damage-prevention state), and the same pattern repeated turn 14 with Sai Saici/Hoka Kyoten Juzetsujin. Turn 8 alone (Shining Gundam's trash-exile-for-card-retrieval Deploy, the Domon Kasshu chain, and a separate Cyclone Punch/Chibodee Crocket combo killing Gundam Exia Repair) was almost entirely Prommy's own card synergy — nothing in hand or on board could have played around it."
+  - "Royal Gundam was redeployed 3 times (turns 4, 10, 14) and repeatedly chump-blocked to protect Shining Gundam from combat (turn 11) — a cheap, disposable unit doing exactly the job Blast Impulse Gundam did in the Petrullica game. Worth remembering as a recurring pattern across different opponents' decks: expect a cheap recurring blocker guarding the real bomb."
+  - "Kiraya's Bases had a rough game structurally: Hotarubi died twice and Isaribi died the same turn it was deployed, all to direct unanswered attacks — not a play error (no Blocker-keyword units were ever available to protect them), just a symptom of how much unblocked pressure Prommy's board generated turns 8-16."
+  - "Nice real confirmation of the Pilot-capable-COMMAND mechanic documented in CLAUDE.md: Hoka Kyoten Juzetsujin (GD05-112) was played once as a Command (turn 14 Main effect) and its embedded 【Pilot】[Sai Saici] identity was used separately to pair with Dragon Gundam the same turn — both correctly resolved to the same card id."
