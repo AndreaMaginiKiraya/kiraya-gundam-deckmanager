@@ -1,0 +1,623 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-22_kiraya-vs-steel"
+  date_imported: "2026-07-22"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_3"
+    steel:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Red"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "steel"
+    seen:
+      - "command"
+      - "shield"
+  "Abyss Gundam (MA Mode)":
+    id: "GD05-046"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "steel"
+    seen:
+      - "shield"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "steel"
+    seen:
+      - "command"
+      - "shield"
+  "Auel Neider":
+    id: "GD05-092"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "steel"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Chaos Gundam":
+    id: "GD05-039"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 2
+    owner: "steel"
+    seen:
+      - "attacker"
+      - "deployed"
+  Exass:
+    id: "GD05-047"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 2
+    owner: "steel"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Forbidden Gundam":
+    id: "GD02-006"
+    note: "pinned from turn 11's block trade: it dealt 4 damage to Hyakuren (HP3, overkill either way, but only GD02-006 has AP4 - GD05-012 is AP3) and had the Blocker keyword actually used to redirect the attack, which GD05-012 lacks entirely (its ability is an unrelated When-Linked bounce)"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "steel"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Gaia Gundam":
+    id: "GD05-034"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "steel"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gaia Gundam (MA Mode)":
+    id: "GD05-041"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "steel"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Girty Lue":
+    id: "GD05-127"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "steel"
+    seen:
+      - "base"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Stellar Loussier":
+    id: "GD05-090"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "steel"
+    seen:
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "steel"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "steel"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "steel"
+    actions:
+      - action: "deploy"
+        card: "Chaos Gundam"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Shiden Custom (Ryusei-Go) discarded"
+  - turn: 6
+    active_player: "steel"
+    actions:
+      - action: "play_command"
+        player: "steel"
+        card: "Airframe Seizure"
+        effects:
+          - "Auel Neider discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gaia Gundam"
+      - action: "pair_pilot"
+        pilot: "Stellar Loussier"
+        unit: "Gaia Gundam"
+        linked: true
+      - action: "attack"
+        player: "steel"
+        attacker: "Chaos Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Chaos Gundam: Modifier applied to: Gaia Gundam"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gaia Gundam (MA Mode)"
+      - action: "attack"
+        player: "steel"
+        attacker: "Gaia Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gaia Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gaia Gundam"
+        blockers: "none"
+        final_target: "Gaia Gundam"
+        outcome:
+          - "Gaia Gundam received 2 damage, now destroyed"
+          - "Graze Custom received 5 damage, now destroyed"
+          - "Card added to hand: Gaia Gundam (MA Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Chaos Gundam"
+        blockers: "none"
+        final_target: "Chaos Gundam"
+        outcome:
+          - "Chaos Gundam received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Airframe Seizure revealed and discarded"
+  - turn: 8
+    active_player: "steel"
+    actions:
+      - action: "play_base"
+        card: "Girty Lue"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "steel"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "attack"
+        player: "steel"
+        attacker: "Gaia Gundam (MA Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Lafter Frankland revealed"
+          - "Shield card added to hand: Lafter Frankland"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Lafter Frankland: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Girty Lue"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Girty Lue received 5 damage, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Gaia Gundam (MA Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gaia Gundam (MA Mode)"
+        blockers: "none"
+        final_target: "Gaia Gundam (MA Mode)"
+        outcome:
+          - "Gaia Gundam (MA Mode) received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "steel"
+    actions:
+      - action: "play_command"
+        player: "steel"
+        card: "Airframe Seizure"
+        effects:
+          - "Exass discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Forbidden Gundam"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Exia Repair discarded"
+      - action: "play_base"
+        card: "Girty Lue"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Girty Lue revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Lafter Frankland: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Girty Lue"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Girty Lue received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Abyss Gundam (MA Mode) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Forbidden Gundam"
+        final_target: "Forbidden Gundam"
+        outcome:
+          - "Forbidden Gundam received 4 damage, now destroyed"
+          - "Hyakuren received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Lupus discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 12
+    active_player: "steel"
+    actions:
+      - action: "deploy"
+        card: "Gaia Gundam"
+      - action: "pair_pilot"
+        pilot: "Stellar Loussier"
+        unit: "Gaia Gundam"
+        linked: true
+      - action: "attack"
+        player: "steel"
+        attacker: "Gaia Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+          - "Gundam Exia Repair discarded"
+      - action: "deploy"
+        card: "Exass"
+      - action: "pair_pilot"
+        pilot: "Auel Neider"
+        unit: "Exass"
+        linked: true
+      - action: "play_base"
+        card: "Hotarubi"
+      - action: "attack"
+        player: "steel"
+        attacker: "Exass"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Auel Neider: Modifier applied to: Exass"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hotarubi revealed"
+          - "Shield card added to hand"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Isaribi"
+      turn: 12
+  steel:
+    - card: "Gaia Gundam"
+      turn: 7
+    - card: "Chaos Gundam"
+      turn: 7
+    - card: "Girty Lue"
+      turn: 9
+    - card: "Gaia Gundam (MA Mode)"
+      turn: 9
+    - card: "Girty Lue"
+      turn: 11
+    - card: "Forbidden Gundam"
+      turn: 11
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 1
+  steel:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Genuinely clean game: consistently good self-ping targeting all three times a 'choose 1 of your Units, deal 1 damage' effect came up - turn 7's Barbatos Adapt deploy hit Barbatos 1st Form (about to attack anyway) instead of itself, turn 9's Mikazuki Augus pairing hit Hyakuren (also about to attack, so the incidental damage was free) instead of the already-fragile Barbatos Adapt, and turn 11's Ryusei-Go deploy hit itself (a disposable filter unit) rather than the 1-HP Barbatos Adapt or the actively-attacking Barbatos 1st Form. This is the same target-discipline flagged as good in the Chinken game, holding up again here."
+  - "Good trade efficiency: both 1-cost Graze Customs converted into kills on Gaia Gundam and Chaos Gundam (2-cost bodies) at turn 7, and the second Hyakuren traded evenly into Forbidden Gundam (a 3-cost Blocker) at turn 11 - repeatedly getting the better end of cost exchanges let Kiraya out-race steel's board despite never landing Barbatos Lupus at all this game."
+  - "4th occurrence this session of discarding Gundam Barbatos Lupus to a card-filter cost (after ded, melon2222, kelryn): turn 11's Ryusei-Go (Graze Custom Ⅱ) 【Deploy】 discard was spent on Lupus again. Didn't cost this game (it was already won on board/tempo without it), but four times in one session is a real habit, not variance - worth actually checking the discard prompt before confirming it from now on, since Lupus is specifically the one card this deck can't afford to feed to its own filters."
