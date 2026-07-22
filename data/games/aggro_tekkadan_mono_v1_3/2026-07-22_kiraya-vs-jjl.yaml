@@ -1,0 +1,893 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-22_kiraya-vs-jjl"
+  date_imported: "2026-07-22"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:JJL"
+  players:
+    JJL:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "JJL"
+    seen:
+      - "discarded"
+      - "shield"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: bounces an enemy Unit with 4 or less HP to hand every time it's truly Linked to Lv.4+ Kira Yamato (turns 12, 18: Gundam Barbatos 1st Form HP2, Ryusei-Go HP2) — matches ST04-001's 【When Paired・Lv.4+ Pilot】ability exactly."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "JJL"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: both pairings (turn 8 on Gundam, turn 20 on Rick Dias) immediately rest a low-HP enemy Unit (Gundam Barbatos 1st Form HP2, Gundam Barbatos Lupus HP5) — matches ST01-010's 【When Paired】'choose 1 enemy Unit with 5 or less HP, rest it' exactly both times."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "JJL"
+    seen:
+      - "pilot"
+  Archangel:
+    id: "ST04-015"
+    note: "pinned: its own Activate ability twice set an active Blocker-keyword Unit (Aile Strike Gundam turn 18, Rick Dias turn 22 — both confirmed Blocker units) as active — matches ST04-015's 【Activate・Main】Once-per-Turn 'choose 1 friendly Unit with Blocker, set it as active, it can't attack this turn' exactly. GD05-123 has no activated ability at all (only a passive Orb-protection)."
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "JJL"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+  "Freedom Gundam":
+    id: null
+    candidates:
+      - "GD01-065"
+      - "GD03-070"
+      - "ST09-004"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "JJL"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "JJL"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "milled"
+      - "shield"
+  Gundam:
+    id: "ST01-001"
+    note: "pinned: 'Gundam repaired 2 from [Repair 2]' fires at end of turn 8 — only ST01-001 among the 5 candidates has the <Repair 2> keyword at all."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "JJL"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to deck"
+      - "returned to hand"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "discarded"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Kira Yamato":
+    id: null
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "dual instance, both confirmed: the copy paired to Aile Strike Gundam (turns 12, 18) fires an Attack-triggered enemy debuff ('Modifier applied to: [enemy]') — matches ST04-010's 【Attack】AP-2 debuff exactly. The copy truly Linked to Strike Freedom Gundam (turns 14, 16, an (Orb) Unit) shows 'Kira Yamato: Draw a card' on Link with no targeting — matches GD05-081's 【When Linked】draw exactly. JJL runs both printings, same pattern as several other opponents this session."
+    owner: "JJL"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "JJL"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "JJL"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "returned to hand"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "JJL"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "pinned: this is the documented MSA display quirk (see CLAUDE.md) where a Linked Unit shows as '<base name> (<Pilot> Unit)' instead of its printed name — 'Kira's Strike Rouge' (GD05-010, link [Kira Yamato]) is the exact card this describes."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "JJL"
+    seen:
+      - "discarded"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "JJL"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+setup:
+  - player: "JJL"
+    action: "choose_second_player"
+  - player: "JJL"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "JJL"
+    actions:
+      - action: "play_command"
+        player: "JJL"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Kira Yamato discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "JJL"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Exia Repair discarded"
+  - turn: 6
+    active_player: "JJL"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 1 HP remaining"
+          - "Graze Custom received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+  - turn: 8
+    active_player: "JJL"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Gundam"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 6 damage, now destroyed"
+          - "Gundam received 2 damage, leaving 3 HP remaining"
+          - "Gundam Exia Repair milled 2: Graze Custom and Hyakuren moved to trash"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Graze Custom discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 6 damage, now destroyed"
+          - "Hyakuren received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Hotarubi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 10
+    active_player: "JJL"
+    actions:
+      - action: "deploy"
+        card: "Freedom Gundam"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Freedom Gundam"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Mikazuki Augus moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+  - turn: 12
+    active_player: "JJL"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Barbatos 1st Form returned to hand"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Hyakuren"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 2 damage, leaving 3 HP remaining"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Graze Custom and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, now destroyed"
+  - turn: 14
+    active_player: "JJL"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Freedom Gundam and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+      - action: "attack"
+        player: "JJL"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Lupus"
+        final_target: "Hotarubi"
+        outcome:
+          - "A Show of Resolve and Strike Rouge (Kira's Unit) discarded"
+          - "Gundam Barbatos Adapt returned to deck"
+          - "Hotarubi received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Flauros (Ryusei-Go) discarded"
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Gundam Barbatos Lupus"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 7 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+  - turn: 16
+    active_player: "JJL"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Freedom Gundam and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Freedom Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 18
+    active_player: "JJL"
+    actions:
+      - action: "play_base"
+        card: "Archangel"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Freedom Gundam"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Freedom Gundam received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ) returned to hand"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 1 damage, leaving 4 HP remaining"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Archangel and Kira Yamato discarded"
+          - "Gundam Barbatos Lupus returned to deck"
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "activate"
+        card: "Archangel"
+        effects:
+          - "Rested 2 Resources"
+          - "Set Active: Aile Strike Gundam"
+          - "Archangel: Modifier applied to: Aile Strike Gundam"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Isaribi discarded"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Hotarubi discarded"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Shiden Custom (Ryusei-Go) and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Flauros (Ryusei-Go) and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, now destroyed"
+  - turn: 20
+    active_player: "JJL"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Rick Dias"
+        linked: false
+        effects:
+          - "Rested unit: Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 5 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 2 damage, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Rick Dias"
+  - turn: 22
+    active_player: "JJL"
+    actions:
+      - action: "attack"
+        player: "JJL"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "JJL"
+        attacker: "Rick Dias"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "activate"
+        card: "Archangel"
+        effects:
+          - "Rested 2 Resources"
+          - "Set Active: Rick Dias"
+          - "Archangel: Modifier applied to: Rick Dias"
+  - turn: 23
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 6 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        action_step:
+          - action: "play_command"
+            player: "JJL"
+            card: "Graceful Demeanor"
+            effects:
+              - "Ryusei-Go (Graze Custom Ⅱ) and Lafter Frankland returned to hand"
+        modifiers:
+          - "Lafter Frankland: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+  - turn: 24
+    active_player: "JJL"
+    actions:
+      - action: "attack"
+        player: "JJL"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Gundam Barbatos Lupus returned to hand"
+          - "Gundam Barbatos Lupus returned to hand"
+          - "No more shields available, game is over!"
+casualties:
+  JJL:
+    - card: "Strike Rouge (Ootori)"
+      turn: 8
+    - card: "Gundam"
+      turn: 9
+    - card: "Aile Strike Gundam"
+      turn: 13
+    - card: "Strike Freedom Gundam"
+      turn: 15
+    - card: "Freedom Gundam"
+      turn: 18
+    - card: "Aile Strike Gundam"
+      turn: 19
+    - card: "Archangel"
+      turn: 23
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 12
+    - card: "Hotarubi"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 18
+    - card: "Gundam Barbatos 1st Form"
+      turn: 18
+    - card: "Gundam Barbatos Lupus"
+      turn: 20
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 21
+shields_tally:
+  JJL:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Result correction: the raw log's last several lines are all attributed to 'Kiraya' ('No more shields available' then 'Winner!'), which the auto-detector misread as a Kiraya win. Per the established pattern (the speaker of 'no more shields' is always the player who just ran out), Kiraya is actually the one who lost here — matches the user's own account ('ho perso per un soffio'). Corrected by hand to win:JJL."
+  - "Genuinely close 24-turn grind, decided by JJL simply having more recurring top-end than Kiraya could keep pace with — at least 2-3 separate Strike Freedom Gundam copies and 2+ Aile Strike Gundam copies came down over the game, each backed by Kira Yamato (bounce/debuff) or Amuro Ray (rest-lock)."
+  - "Mistake review: no clear misplay found. Turn 15's Gundam Barbatos Lupus vs Strike Freedom Gundam trade (both destroyed) looked right in the moment: JJL had no blocker to redirect it (unlike the Petrullica game), and Strike Freedom Gundam's own 【During Pair・Attack】ability (discard 2, bounce the enemy's lowest-Lv Unit to the bottom of the deck) needed to be stopped before it kept recurring — it had already buried a Barbatos Adapt this way at turn 14."
+  - "The second and third Barbatos Lupus losses (turn 18 bounced to the bottom of the deck, turn 20 traded in combat) were forced by board state, not by a prior Kiraya choice: turn 18's bounce hit Lupus specifically because Aile Strike Gundam's attack earlier that same turn had killed Kiraya's only other unit, leaving Lupus as the sole (and therefore 'lowest-Lv') target available to the ability."
+  - "Between Lupus's own repeated activations (turns 13, 19) and combat use, Kiraya deployed and lost 3+ separate copies across the game — a good illustration of exactly the 'single point of failure' concern flagged in the deck-competitiveness discussion: even with multiple copies in the same game, JJL's card-advantage-and-bounce shell out-recurred them."
