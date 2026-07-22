@@ -1,0 +1,662 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-23_kiraya-vs-kaz"
+  date_imported: "2026-07-23"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kaz:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_4"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Kaz"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned from turn 14's 'Rested unit: Gundam Barbatos Lupus' (5 HP exactly) - matches ST01-010's 【When Paired】'Choose 1 enemy Unit with 5 or less HP, rest it' precisely; GD05-085 has an unrelated HP-recovery-on-kill effect with no rest ability at all"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kaz"
+    seen:
+      - "pilot"
+      - "returned to hand"
+      - "shield"
+  "Delta Plus (Waverider Mode)":
+    id: "GD02-017"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "Kaz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Gundam:
+    id: "GD04-001"
+    note: "two distinct things share this display name here: turns 10-13's 'Gundam' is not a printed card at all - it's the AP3/HP3 [Gundam] Unit token White Base's own Activate ability deploys (confirmed by its dealing exactly 3 damage at t12, not any real printing's AP), destroyed by Barbatos Lupus at t13. Turn 14+'s 'Gundam' is a real hand-deployed card paired/Linked with Amuro Ray, confirmed as GD04-001 by its AP6 damage (t14, t16) and by 'Amuro Ray returned to hand' during its t14 attack matching GD04-001's exact 【During Link・Attack】 return-paired-blue-Pilot text - no other candidate has that ability. The id here is pinned to the real card; treat any AP3/HP3 combat instance in this game's turns 10-13 as the token, not this card."
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 6
+    hp: 3
+    owner: "Kaz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+  Kapool:
+    id: "GD04-074"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kaz"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Kindhearted:
+    id: "GD04-101"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kaz"
+    seen:
+      - "command"
+  "Loran Cehack":
+    id: "GD04-097"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Kaz"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+  ReZEL:
+    id: "GD01-018"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kaz"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Riddhe Marcenas":
+    id: "GD04-098"
+    note: "no combat evidence (only ever a shield reveal and a hand-discard, never paired); pinned to GD04-098 since Kaz's deck already leans heavily on Phantom Aria [GD04] cards (Zoloat, Kapool, Kindhearted, Loran Cehack all GD04) over the Newtype Rising [GD01] alternate"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    hp: null
+    owner: "Kaz"
+    seen:
+      - "discarded"
+      - "shield"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "returned to hand"
+  "The Witch and the Bride":
+    id: "GD01-117"
+    type: "COMMAND"
+    level: 5
+    cost: 2
+    owner: "Kaz"
+    seen:
+      - "command"
+  "White Base":
+    id: "ST01-015"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "Kaz"
+    seen:
+      - "activated"
+      - "base"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kaz"
+    seen:
+      - "blocker"
+      - "deployed"
+setup:
+  - player: "Kaz"
+    action: "choose_second_player"
+  - player: "Kaz"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Kaz"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos Lupus discarded"
+  - turn: 4
+    active_player: "Kaz"
+    actions:
+      - action: "deploy"
+        card: "Delta Plus (Waverider Mode)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Isaribi discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Kaz"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "attack"
+        player: "Kaz"
+        attacker: "Delta Plus (Waverider Mode)"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Delta Plus (Waverider Mode) received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair: destroyed Delta Plus (Waverider Mode)"
+          - "Gundam Exia Repair milled 2: Overflowing Affection and Ryusei-Go (Graze Custom Ⅱ) moved to trash"
+      - action: "play_command"
+        player: "Kaz"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Zoloat (League Militaire)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zoloat (League Militaire)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 8
+    active_player: "Kaz"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "ReZEL"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zoloat (League Militaire)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Riddhe Marcenas revealed"
+          - "Shield card added to hand: Riddhe Marcenas"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: ReZEL revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+  - turn: 10
+    active_player: "Kaz"
+    actions:
+      - action: "attack"
+        player: "Kaz"
+        attacker: "ReZEL"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "ReZEL received 5 damage, now destroyed"
+      - action: "play_base"
+        card: "White Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "White Base"
+        effects:
+          - "Rested 2 Resources"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "White Base"
+        outcome:
+          - "White Base received 2 damage, leaving 3 HP remaining"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Zoloat (League Militaire)"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Zoloat (League Militaire) received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Mikazuki Augus and Graze Custom moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "White Base"
+        outcome:
+          - "White Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Loran Cehack revealed"
+          - "Shield card added to hand: Loran Cehack"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 12
+    active_player: "Kaz"
+    actions:
+      - action: "deploy"
+        card: "Kapool"
+      - action: "pair_pilot"
+        pilot: "Loran Cehack"
+        unit: "Kapool"
+        linked: true
+        effects:
+          - "Shiden Custom (Ryusei-Go) returned to hand"
+      - action: "attack"
+        player: "Kaz"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Kaz"
+            card: "The Witch and the Bride"
+            effects:
+              - "Gundam Exia Repair returned to hand"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Gundam received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kaz"
+        attacker: "Kapool"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Rested 1 Resource"
+          - "Kapool: Draw a card"
+          - "Riddhe Marcenas discarded"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Kapool received 4 damage, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 14
+    active_player: "Kaz"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kaz"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Amuro Ray returned to hand"
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Gundam received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Delta Plus (Waverider Mode)"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kapool revealed and discarded"
+  - turn: 16
+    active_player: "Kaz"
+    actions:
+      - action: "play_command"
+        player: "Kaz"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+      - action: "play_command"
+        player: "Kaz"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kaz"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kaz"
+        attacker: "Delta Plus (Waverider Mode)"
+        declared_target: "Gundam Exia Repair"
+casualties:
+  Kaz:
+    - card: "Delta Plus (Waverider Mode)"
+      turn: 6
+    - card: "ReZEL"
+      turn: 10
+    - card: "Zoloat (League Militaire)"
+      turn: 11
+    - card: "White Base"
+      turn: 11
+    - card: "Kapool"
+      turn: 12
+    - card: "Gundam"
+      turn: 13
+    - card: "Gundam"
+      turn: 14
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+    - card: "Gundam Barbatos 1st Form"
+      turn: 16
+shields_tally:
+  Kaz:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 11)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Total domination: Kiraya never lost a single shield the entire 16-turn game (shields_lost: 0) while Kaz was shield-out by turn 16 - a genuine stravittoria, not a close call anywhere."
+  - "6th occurrence this session of discarding Gundam Barbatos Lupus to a card-filter cost (after ded, melon2222, kelryn, steel, sally): turn 3's very first Overflowing Affection discarded it immediately. Once again it cost nothing (the game was won at a canter regardless), but at 6 occurrences across two deck iterations this is a deeply ingrained habit, not variance - the discard prompt needs an actual second look before confirming, every time."
+  - "Good, non-obvious use of Isaribi's Activate ability at t11 (Rest this Base: choose 1 damaged Unit, it gets AP+2 during this turn) buffing Barbatos Adapt right before its attack - not just passive shield-to-hand value, an active combat trick."
+  - "Kaz's deck (Blue/White Earth Federation/Newtype - White Base token generation, Amuro Ray Link shenanigans resting/bouncing units, Kapool's card-advantage engine) never found its footing: EX Base died t7, White Base itself died t11, and no single threat survived more than a turn or two against Kiraya's board. Nothing to add to the opponent-archetype tracking beyond 'another grindy Federation/Newtype shell that couldn't keep pace'."
+  - "No misplay found - total board and tempo control from turn 7 onward."
