@@ -1,0 +1,368 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-22_kiraya-vs-cookd"
+  date_imported: "2026-07-22"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    cookd:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Heavyarms":
+    id: "GD02-025"
+    note: "pinned from the turn 8 deploy trigger 'Selecting target for Gundam Heavyarms / Returned to deck bottom' - matches GD02-025's 【Deploy】 look-at-top-card-and-return-to-top-or-bottom exactly; the other two printings only have 【During Pair】 combat abilities with no deploy trigger at all"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "cookd"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Heero Yuy":
+    id: "GD05-098"
+    note: "pinned from turn 8's 'Heero Yuy: Modifier applied to: Gundam Barbatos 1st Form' right after a shield card was destroyed by battle damage - matches GD05-098's 'When this Unit destroys an enemy shield area card with damage, choose 1 enemy Unit, it gets AP-2' exactly; ST02-010's text is an unrelated self-buff (During Link: AP+1/HP+1) that can't apply a modifier to an enemy unit"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "cookd"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Iron-Fisted Discipline":
+    id: "GD01-119"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 0
+    owner: "cookd"
+    seen:
+      - "command"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Noin's Taurus":
+    id: "GD05-074"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 1
+    owner: "cookd"
+    seen:
+      - "deployed"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Saint Gabriel Institute":
+    id: "ST02-015"
+    type: "BASE"
+    level: 2
+    cost: 2
+    hp: 5
+    owner: "cookd"
+    seen:
+      - "base"
+  "Shenlong Gundam":
+    id: "GD01-029"
+    note: "no combat evidence (deployed turn 10, game ended before it acted); pinned to the R-rarity printing (Breach 4 + Attack: destroy 1 enemy Blocker Lv.3 or lower) since cookd's deck already runs other R/ability-dense picks (Iron-Fisted Discipline R, Heero Yuy GD05-098 R) over plain commons"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "cookd"
+    seen:
+      - "deployed"
+  "Wing Gundam (Bird Mode)":
+    id: "ST02-002"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "cookd"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "cookd"
+    action: "choose_second_player"
+  - player: "cookd"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "cookd"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "cookd"
+    actions:
+      - action: "play_base"
+        card: "Saint Gabriel Institute"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "cookd"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam (Bird Mode)"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam (Bird Mode)"
+        linked: true
+      - action: "attack"
+        player: "cookd"
+        attacker: "Wing Gundam (Bird Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Wing Gundam (Bird Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Saint Gabriel Institute"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Saint Gabriel Institute received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Wing Gundam (Bird Mode)"
+        blockers: "none"
+        final_target: "Wing Gundam (Bird Mode)"
+        outcome:
+          - "Wing Gundam (Bird Mode) received 4 damage, now destroyed"
+          - "Hyakuren received 5 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Exia Repair discarded"
+  - turn: 8
+    active_player: "cookd"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms"
+        effects:
+          - "Returned to deck bottom"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Gundam Heavyarms"
+        linked: true
+      - action: "attack"
+        player: "cookd"
+        attacker: "Gundam Heavyarms"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Gundam Heavyarms"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "cookd"
+            card: "Iron-Fisted Discipline"
+            effects:
+              - "Iron-Fisted Discipline: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Gundam Heavyarms"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Heavyarms received 3 damage, leaving 2 HP remaining"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Heavyarms"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Heavyarms"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "cookd"
+    actions:
+      - action: "deploy"
+        card: "Noin's Taurus"
+      - action: "deploy"
+        card: "Shenlong Gundam"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+casualties:
+  cookd:
+    - card: "Saint Gabriel Institute"
+      turn: 7
+    - card: "Wing Gundam (Bird Mode)"
+      turn: 7
+  Kiraya:
+    - card: "Isaribi"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+shields_tally:
+  cookd:
+    ex_base: "replaced with a base (turn 4)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 1
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "Likely ended by concession, not shield depletion: the final 'Winner!' at turn 11 came right after Kiraya simply deployed Gundam Gusion Rebake (no attack declared), and the shields_tally shows neither side at 0 (cookd had 5 remaining, Kiraya 4) - reading this as cookd conceding a losing board rather than an actual lethal swing."
+  - "Turn 9's Barbatos 1st Form vs Gundam Heavyarms trade (1st Form destroyed, Heavyarms survived) looked bad on the surface but wasn't a misplay: cookd stacked Heero Yuy's shield-kill AP-2 (turn 8) with a reactive Iron-Fisted Discipline AP-2 (turn 9, played mid-action-step) to blunt the attack - a trick that couldn't be seen coming. It was still the right attack to make regardless of the trade, since Barbatos 1st Form's 'draw 1' fires just from declaring the attack, independent of the outcome."
+  - "New opponent tech for the meta model: a White/Green Gundam Wing (Operation Meteor) shell running AP-debuff stacking (Heero Yuy's on-shield-kill AP-2 + Iron-Fisted Discipline's reactive AP-2) to blunt attackers instead of blocking them, plus Shenlong Gundam's Attack-triggered 'destroy 1 enemy Blocker Lv.3 or lower' as anti-Blocker tech - a fifth distinct opponent archetype alongside the Blue/White Kira/Strike-Freedom grind, the Gundam-Fighter pilot-chain deck, the fast Green/Zeon swarm, and the Blue/Green One Year War curve-into-Zeong shell."
+  - "No Barbatos Lupus involvement this game either way - never drawn, so the discard habit had no chance to come up."
