@@ -1,0 +1,885 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-22_kiraya-vs-newbie"
+  date_imported: "2026-07-22"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    "뉴비가늅늅":
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  "Ennil El":
+    id: "GD04-096"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "뉴비가늅늅"
+    seen:
+      - "attacker"
+      - "discarded"
+      - "pilot"
+  Esperansa:
+    id: "GD04-060"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 1
+    hp: 4
+    owner: "뉴비가늅늅"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Freeden Ⅱ":
+    id: "GD04-127"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "뉴비가늅늅"
+    seen:
+      - "attacker"
+      - "base"
+      - "shield"
+  "Garrod Ran & Tiffa Adill":
+    id: "GD02-094"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "뉴비가늅늅"
+    seen:
+      - "milled"
+      - "pilot"
+  "Giant Killing":
+    id: "ST09-009"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "뉴비가늅늅"
+    seen:
+      - "attacker"
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Airmaster":
+    id: "GD02-059"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "뉴비가늅늅"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "milled"
+      - "shield"
+  "Gundam Airmaster (Fighter Mode)":
+    id: "GD02-063"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "뉴비가늅늅"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam DX":
+    id: "GD04-049"
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 6
+    hp: 6
+    owner: "뉴비가늅늅"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "뉴비가늅늅"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Leopard Destroy":
+    id: "GD04-052"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "뉴비가늅늅"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam X":
+    id: "GD02-056"
+    note: "pinned from turn 10 mutual trade (received 3 dmg after 1 pre-damage = 4 total, destroyed -> HP4; dealt 3 to Barbatos 1st Form) and turn 28 kill sequence (2+2 dmg destroyed a fresh deploy -> HP4); matches GD02-056 (AP3/HP4), not the GD02-053 LR (AP6/HP5)"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "뉴비가늅늅"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam X Divider":
+    id: "GD03-051"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "뉴비가늅늅"
+    seen:
+      - "milled"
+      - "shield"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "shield"
+  "Jamil Neate":
+    id: "GD03-096"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "뉴비가늅늅"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "뉴비가늅늅"
+    seen:
+      - "command"
+      - "milled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+setup:
+  - player: "뉴비가늅늅"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "뉴비가늅늅"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "뉴비가늅늅"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "play_command"
+        player: "뉴비가늅늅"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Esperansa discarded"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "deploy"
+        card: "Esperansa"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Gundam Airmaster and Garrod Ran & Tiffa Adill moved to trash"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Esperansa"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Airmaster revealed and discarded"
+      - action: "play_base"
+        card: "Freeden Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Freeden Ⅱ revealed"
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Ennil El"
+        unit: "Esperansa"
+        linked: true
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Esperansa"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+          - "Esperansa received 4 damage, leaving 1 HP remaining"
+          - "Ennil El: destroyed Hyakuren"
+      - action: "deploy"
+        card: "Gundam X"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Esperansa"
+        blockers: "none"
+        final_target: "Esperansa"
+        outcome:
+          - "Esperansa received 2 damage, now destroyed"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Exia Repair discarded"
+  - turn: 9
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam X"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam X"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "Gundam Exia Repair milled 2: Gundam DX and Overflowing Affection moved to trash"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and Gundam X"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Gundam X"
+        blockers: "none"
+        final_target: "Gundam X"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam X received 3 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Freeden Ⅱ"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Freeden Ⅱ received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Airmaster revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam X Divider revealed and discarded"
+  - turn: 11
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam X"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 3 damage, now destroyed"
+          - "Gundam X received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Leopard Destroy"
+      - action: "pair_pilot"
+        pilot: "Garrod Ran & Tiffa Adill"
+        unit: "Gundam Leopard Destroy"
+        linked: true
+        effects:
+          - "Jamil Neate discarded"
+          - "Card added to hand: Gundam Leopard Destroy"
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam Leopard Destroy"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Leopard Destroy: Dealt 2 damage to: Ryusei-Go (Graze Custom Ⅱ) and Gundam Leopard Destroy"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Gundam Leopard Destroy received 4 damage, leaving 1 HP remaining"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Hotarubi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Leopard Destroy"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Gundam Barbatos 1st Form moved to trash"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 13
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "deploy"
+        card: "Gundam Leopard Destroy"
+      - action: "pair_pilot"
+        pilot: "Jamil Neate"
+        unit: "Gundam Leopard Destroy"
+        linked: true
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam Leopard Destroy"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Gundam X discarded"
+          - "Jamil Neate: Draw a card"
+          - "Gundam Leopard Destroy: Dealt 2 damage to: Gundam Barbatos 1st Form and Gundam Leopard Destroy"
+          - "Hotarubi received 6 damage, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos 1st Form and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Leopard Destroy, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Flauros (Ryusei-Go) and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Leopard Destroy, now destroyed"
+      - action: "play_base"
+        card: "Freeden Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Freeden Ⅱ revealed"
+          - "No more Shield cards to add to hand"
+          - "Freeden Ⅱ: destroyed Gundam Barbatos Adapt"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 15
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "deploy"
+        card: "Gundam Airmaster"
+      - action: "pair_pilot"
+        pilot: "Garrod Ran & Tiffa Adill"
+        unit: "Gundam Airmaster"
+        linked: true
+        effects:
+          - "Ennil El discarded"
+          - "Card added to hand: Gundam Airmaster (Fighter Mode)"
+      - action: "deploy"
+        card: "Gundam Airmaster (Fighter Mode)"
+      - action: "pair_pilot"
+        pilot: "Garrod Ran & Tiffa Adill"
+        unit: "Gundam Airmaster (Fighter Mode)"
+        linked: true
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam Airmaster (Fighter Mode)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Gundam Airmaster (Fighter Mode) received 2 damage, leaving 3 HP remaining"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Hyakuren discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Airmaster (Fighter Mode)"
+        blockers: "none"
+        final_target: "Gundam Airmaster (Fighter Mode)"
+        outcome:
+          - "Gundam Airmaster (Fighter Mode) received 2 damage, leaving 1 HP remaining"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Airmaster (Fighter Mode), now destroyed"
+  - turn: 17
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "deploy"
+        card: "Gundam Airmaster (Fighter Mode)"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 19
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "deploy"
+        card: "Gundam DX"
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam Airmaster (Fighter Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam DX, leaving 4 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Gundam Barbatos Lupus"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "Gundam Airmaster"
+        final_target: "Gundam Airmaster"
+        outcome:
+          - "Gundam Airmaster received 7 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 5 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Gundam Airmaster (Fighter Mode)"
+        blockers: "none"
+        final_target: "Gundam Airmaster (Fighter Mode)"
+        outcome:
+          - "Gundam Airmaster (Fighter Mode) received 3 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+  - turn: 21
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam DX"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Gundam DX received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Hyakuren discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Freeden Ⅱ"
+        outcome:
+          - "Freeden Ⅱ received 2 damage, leaving 3 HP remaining"
+  - turn: 23
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Leopard Destroy and Gundam X Divider moved to trash"
+          - "Gundam Exia Repair milled 2: Shiden Custom (Ryusei-Go) and Gundam Flauros (Ryusei-Go) moved to trash"
+      - action: "deploy"
+        card: "Gundam Airmaster (Fighter Mode)"
+  - turn: 24
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Freeden Ⅱ"
+        outcome:
+          - "Freeden Ⅱ received 2 damage, leaving 1 HP remaining"
+  - turn: 25
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "attack"
+        player: "뉴비가늅늅"
+        attacker: "Gundam Airmaster (Fighter Mode)"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+          - "Gundam Airmaster (Fighter Mode) received 2 damage, leaving 1 HP remaining"
+  - turn: 26
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Airmaster (Fighter Mode)"
+  - turn: 27
+    active_player: "뉴비가늅늅"
+    actions:
+      - action: "play_command"
+        player: "뉴비가늅늅"
+        card: "Giant Killing"
+        effects:
+          - "Giant Killing: destroyed Gundam Barbatos Adapt"
+      - action: "deploy"
+        card: "Gundam X"
+  - turn: 28
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Flauros (Ryusei-Go), Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam X, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Hyakuren and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam X, now destroyed"
+  - turn: 29
+    active_player: "뉴비가늅늅"
+    actions: []
+casualties:
+  "뉴비가늅늅":
+    - card: "Esperansa"
+      turn: 8
+    - card: "Gundam X"
+      turn: 10
+    - card: "Freeden Ⅱ"
+      turn: 10
+    - card: "Gundam X"
+      turn: 11
+    - card: "Gundam Leopard Destroy"
+      turn: 14
+    - card: "Gundam Airmaster (Fighter Mode)"
+      turn: 16
+    - card: "Gundam Airmaster"
+      turn: 20
+    - card: "Gundam Airmaster (Fighter Mode)"
+      turn: 20
+    - card: "Gundam DX"
+      turn: 21
+    - card: "Gundam X"
+      turn: 28
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 11
+      inferred: true
+    - card: "Hotarubi"
+      turn: 13
+    - card: "Gundam Barbatos 1st Form"
+      turn: 13
+      inferred: true
+    - card: "Gundam Barbatos Adapt"
+      turn: 14
+    - card: "Graze Custom"
+      turn: 15
+    - card: "Graze Custom"
+      turn: 16
+    - card: "Gundam Barbatos 1st Form"
+      turn: 20
+    - card: "Gundam Barbatos Lupus"
+      turn: 21
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 25
+    - card: "Gundam Barbatos Adapt"
+      turn: 27
+  unattributed:
+    - card: "Gundam Exia Repair"
+      turn: 23
+    - card: "Gundam Exia Repair"
+      turn: 23
+shields_tally:
+  "뉴비가늅늅":
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 2
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 1
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "Gundam Barbatos Lupus was the whole game: 6 separate 【Activate】 uses across two deployments (turn 14 x2, turn 16, turn 20, turn 28 x2), each burning 3 trash Tekkadan/Teiwaz cards for 2 guaranteed damage - accounted for 5 of the opponent's Unit kills (Leopard Destroy x1, Gundam Airmaster Fighter Mode x1, Gundam X x1 across its two deploys) without ever needing to swing into a blocker for most of them."
+  - "Turn 21 Lupus-vs-Gundam DX mutual trade (both took lethal damage) was a fine outcome, not a loss: that copy had already paid for itself many times over (4 activations before dying), and a second copy came down turn 28 for 2 more kills - Lupus doesn't need to be preserved once it's extracted its value, only while its activation still has trash fuel."
+  - "No Barbatos Lupus discard-to-filter-effect this game (unlike the ded/melon2222/Kelryn games) - the habit did not recur here."
+  - "Turn 20 paired Lafter Frankland onto Lupus and attacked into the only available blocker (Gundam Airmaster) anyway: correct read, since Lupus's 5 AP vs Airmaster's 3 HP/4 AP still won the trade (Airmaster destroyed, Lupus survived at 1 HP)."
+  - "Opponent's turn-27 Giant Killing (destroy 1 active enemy Unit with 4 AP or less) hit Gundam Barbatos Adapt, not Lupus - Lupus's 5 AP makes it naturally immune to that removal, which matters if Fatal Strike/Giant Killing get added to this list later: they'd be safe to run without exposing the deck's own Lupus copies to a mirror-image risk."
+  - "29 turns but never a close game on the shield race: Kiraya kept a comfortable shield lead the entire way (finished at 4 remaining vs 0) despite the opponent's Vulture/Gundam X package grinding board state - length here was value-trading attrition, not a near-loss."
