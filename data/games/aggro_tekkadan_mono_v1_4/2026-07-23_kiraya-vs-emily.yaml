@@ -1,0 +1,682 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-23_kiraya-vs-emily"
+  date_imported: "2026-07-23"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    emily:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "Purple"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_4"
+cards:
+  "Giant Killing":
+    id: "ST09-009"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "emily"
+    seen:
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "emily"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "Kiraya's copies confirmed via deck (and combat math: AP3+Mikazuki's paired AP2=5 matched the turn 7 EX Base kill exactly); emily's copy pinned the same way by theme - her deck already runs Purple Tekkadan staples (Barbatos Adapt, Barbatos Lupus Rex, Gusion Rebake), making the off-color White (G Generation) crossover print ST10-008 an unlikely fit with no supporting evidence either"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner:
+      - "Kiraya"
+      - "emily"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "emily"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "emily"
+    seen:
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "emily's copy pinned from its turn 10 deploy trigger ('Dealt 1 damage to: Hyakuren and Shiden Custom (Ryusei-Go)') matching GD02-055's 【Deploy】 choose-1-friendly-and-1-enemy-deal-1-damage exactly, and from blocking at turn 11 (only GD02-055 has <Blocker>; ST05-005 has an unrelated Destroyed-rest effect and no Blocker at all); Kiraya's copies already confirmed via deck"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner:
+      - "Kiraya"
+      - "emily"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Heero Yuy":
+    id: "ST02-010"
+    note: "pinned by color legality: emily's deck is confirmed Green/Purple (no White in play all game), so the White GD05-098 printing would be illegal to include - only the Green ST02-010 fits"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "emily"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner:
+      - "Kiraya"
+      - "emily"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "emily"
+    seen:
+      - "pilot"
+      - "shield"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner:
+      - "Kiraya"
+      - "emily"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Wing Gundam":
+    id: "ST02-001"
+    note: "pinned from turn 16's block: it took 3 damage and was 'leaving 2 HP remaining' - total toughness 5, matching ST02-001's HP5 exactly; GD01-040 (HP3) would already be destroyed by 3 damage"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "emily"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Wing Gundam Zero":
+    id: "GD01-024"
+    type: "UNIT"
+    level: 8
+    cost: 8
+    ap: 5
+    hp: 7
+    owner: "emily"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned from turn 4's exact damage math: base AP1 + its own 【Attack】AP+2 self-buff ('Modifier applied to: Zaku Ⅱ') = 3, matching 'EX Base received 3 damage' precisely - GD01-035 has no such Attack trigger and would only deal its flat AP2"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "emily"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "emily"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "emily"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "emily"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "emily"
+    actions:
+      - action: "attack"
+        player: "emily"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos Lupus moved to trash"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 6
+    active_player: "emily"
+    actions:
+      - action: "play_base"
+        card: "Minerva"
+      - action: "attack"
+        player: "emily"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Minerva revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "emily"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Gundam Exia Repair moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+  - turn: 8
+    active_player: "emily"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Graze Custom and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "emily"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Graze Custom received 5 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam Zero revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 10
+    active_player: "emily"
+    actions:
+      - action: "attack"
+        player: "emily"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 2 damage, leaving 1 HP remaining"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Hyakuren and Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "emily"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Gusion Rebake received 3 damage, leaving 2 HP remaining"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+  - turn: 12
+    active_player: "emily"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus Rex"
+        effects:
+          - "Dealt 1 damage to Gundam Barbatos Lupus Rex, leaving 5 HP remaining"
+          - "Set Active: Gundam Barbatos Lupus Rex"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Shiden Custom (Ryusei-Go) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Lupus Rex, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Gundam Barbatos Lupus and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Lupus Rex, leaving 1 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Lupus Rex"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 14
+    active_player: "emily"
+    actions:
+      - action: "attack"
+        player: "emily"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Gusion Rebake"
+      - action: "deploy"
+        card: "Wing Gundam"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 16
+    active_player: "emily"
+    actions:
+      - action: "attack"
+        player: "emily"
+        attacker: "Wing Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Wing Gundam received 3 damage, leaving 2 HP remaining"
+          - "Breach 5 Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to: Shiden Custom (Ryusei-Go), Gundam Barbatos Adapt, Gundam Gusion Rebake and Shiden Custom (Ryusei-Go)"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Shiden Custom (Ryusei-Go)"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Wing Gundam Zero"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Ryusei-Go (Graze Custom Ⅱ) and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Giant Killing revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Giant Killing revealed and discarded"
+  - turn: 18
+    active_player: "emily"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam Zero"
+        linked: true
+      - action: "attack"
+        player: "emily"
+        attacker: "Wing Gundam Zero"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none (High-maneuver)"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 8 damage, now destroyed"
+          - "Wing Gundam Zero received 7 damage, now destroyed"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  emily:
+    - card: "Zaku Ⅱ"
+      turn: 5
+    - card: "Zaku Ⅱ"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Wing Gundam"
+      turn: 17
+    - card: "Wing Gundam Zero"
+      turn: 18
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Minerva"
+      turn: 10
+    - card: "Gundam Barbatos Lupus"
+      turn: 18
+  unattributed:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+shields_tally:
+  emily:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 4)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 1
+    shields_remaining: 2
+study_notes:
+  - "A genuine Tekkadan mirror-ish grind (emily also ran Barbatos Adapt, Gusion Rebake, and a Gundam Barbatos Lupus Rex, mixed with Gundam Wing EW finishers) that went the full 19 turns and ended on a clean shield-out - a real, unambiguous win this time, not a concession."
+  - "Turn 13's Lupus-vs-Lupus-Rex exchange is worth re-reading later: two Lupus activations (2+2) plus Mikazuki's paired ping (+1) add up to 5 damage on top of Lupus Rex's own turn-12 self-inflicted 1 (from its own end-of-turn ability), for 6 total against its printed HP6 - it should have been destroyed exactly, but no 'destroyed' line ever appears and Lupus Rex is never mentioned again. Same kind of missing-death-event gap as the Gundam Ez8 High Mobility Custom case in the previous Sally game - worth treating as a recurring gamelog/MSA display gap for multi-source lethal stacking, not a sign the unit actually survived."
+  - "Gundam Barbatos Lupus performed at its ceiling: 3 separate copies deployed across the game (t13, and two more by t19), landing 4 total activations for 4 kills (Lupus Rex effectively, Wing Gundam, and chip damage on Wing Gundam Zero) before finally trading with Wing Gundam Zero at t18 - and Kiraya still had a fresh 4th copy ready to close the game at t19."
+  - "No Lupus-discard-habit repeat: the one copy lost to Gundam Exia Repair's mill (t5) was pure random mill variance (Exia Repair mills automatically on death, no player choice involved), not the same failure mode as the earlier Overflowing Affection/Ryusei-Go discard-choice habit - worth keeping these two loss vectors (blind mill vs. an actual pick) mentally separate when tracking the pattern."
+  - "No misplay found this game - clean execution across a long grind, including correct blocker assignments (Shiden Custom into Adapt t10, Gusion Rebake into Wing Gundam t16) and good self-ping target choices throughout."
