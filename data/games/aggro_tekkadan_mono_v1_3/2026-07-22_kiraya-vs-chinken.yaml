@@ -1,0 +1,532 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-22_kiraya-vs-chinken"
+  date_imported: "2026-07-22"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Chinken"
+  players:
+    Chinken:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned via turn 11 combat math: Dijeh (AP3) dealt 5 damage to a fresh HP5 Hotarubi base - only accounted for by adding the paired pilot's own AP (Dijeh 3 + Amuro Ray 2 = 5); the GD05-085 printing has AP0 and would leave Dijeh at 3"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Chinken"
+    seen:
+      - "pilot"
+  "Char Aznable":
+    id: "ST03-011"
+    note: "pinned from turn 13's explicit 'Char Aznable: Modifier applied to: Zeong' + 'Can't block High-maneuver' - matches ST03-011's 【Attack】AP+1 and High-Maneuver-if-Link text exactly; GD05-093 has an unrelated Base-recursion effect with no such modifier"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Chinken"
+    seen:
+      - "pilot"
+  Dijeh:
+    id: "GD05-008"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Chinken"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Gundam:
+    id: "GD01-013"
+    note: "pinned by elimination: dealt/received exactly 3 AP with no pairing ever shown, ruling out the AP4/AP6 Link printings (GD04-001/GD04-008); of the two AP3 candidates left (GD01-001, ST01-001), neither's Pair-gated ability ever fired since it was never paired - defaulted to the plain vanilla GD01-013 (no ability, matches its unremarkable play pattern) over the two LR alternates"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Chinken"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Gundam NT-1":
+    id: "GD03-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Chinken"
+    seen:
+      - "attacker"
+      - "deployed"
+  Guntank:
+    id: "GD01-008"
+    note: "pinned from three separate 'Guntank: Dealt 1 damage to X' deploy triggers - matches GD01-008's 【Deploy】1 damage to a rested enemy Unit exactly; ST01-004's deploy effect only Rests a target, it never deals damage, so it can't be this printing"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Chinken"
+    seen:
+      - "deployed"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Jegan:
+    id: "GD01-016"
+    note: "no combat evidence discriminates the two printings (both AP2, damage dealt matched either); pinned to the Newtype Rising [GD01] original-One-Year-War print over the later Freedom Ascension/Londo Bell alternate, consistent with the deck's other confirmed OYW-original-series pulls (Rick Dom GD01, Char Aznable/Zaku II ST03, Amuro Ray ST01)"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "Chinken"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Chinken"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Wire-Guided Arm":
+    id: null
+    note: "not a printed card - these are the 2 [Wire-Guided Arm]((Zeon)·AP2·HP1·can't be paired with a Pilot) Unit tokens generated by Zeong's (GD04-017) 【When Paired・(Newtype) Pilot】 ability, triggered here by the Char Aznable Link"
+    type: "UNIT"
+    ap: 2
+    hp: 1
+    owner: "Chinken"
+    seen:
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "no combat evidence (deployed turn 13, game ended before it acted); pinned to the Zeon's Rush [ST03] printing since the deck already confirmed Char Aznable from that same starter set (ST03-011), making its bundled Zaku Ⅱ the more likely co-include over the unrelated Newtype Rising [GD01] common"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Chinken"
+    seen:
+      - "deployed"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "Chinken"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "Chinken"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Chinken"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Chinken"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "Chinken"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Chinken"
+    actions:
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Ryusei-Go (Graze Custom Ⅱ) moved to trash"
+      - action: "deploy"
+        card: "Rick Dom"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Hotarubi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Rick Dom"
+          - "Rested base: Hotarubi"
+          - "Hotarubi milled 1: Overflowing Affection moved to trash"
+  - turn: 7
+    active_player: "Chinken"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+  - turn: 9
+    active_player: "Chinken"
+    actions:
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Hotarubi received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Hotarubi received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Rick Dom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Lafter Frankland revealed"
+          - "Shield card added to hand: Lafter Frankland"
+      - action: "deploy"
+        card: "Gundam NT-1"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "No targets for Guntank"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Guntank"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and Guntank"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Rick Dom"
+        blockers: "none"
+        final_target: "Rick Dom"
+        outcome:
+          - "Rick Dom received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Gundam received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Hotarubi"
+        effects:
+          - "Shield card added to hand"
+  - turn: 11
+    active_player: "Chinken"
+    actions:
+      - action: "deploy"
+        card: "Dijeh"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Dijeh"
+        linked: true
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Dijeh"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Hotarubi"
+        outcome:
+          - "Hotarubi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Gundam NT-1"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Gundam NT-1 received 3 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Barbatos Adapt, now destroyed"
+          - "Gundam NT-1 repaired 2 from [Repair 2]"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+  - turn: 13
+    active_player: "Chinken"
+    actions:
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Dijeh"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Gundam NT-1"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Zeong"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Zeong"
+        linked: true
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "attack"
+        player: "Chinken"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Zeong"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Chinken:
+    - card: "Rick Dom"
+      turn: 10
+    - card: "Gundam"
+      turn: 10
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Hotarubi"
+      turn: 9
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 10
+    - card: "Hotarubi"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Isaribi"
+      turn: 13
+shields_tally:
+  Chinken:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Both players mulliganed, but Kiraya's redraw was still slow: only 1 unit in play through turn 6, and Mikazuki Augus wasn't paired onto a Unit until turn 10 - very late for this deck, which usually gets its first pilot pairing by turn 4-6. That delay meant no AoE-ping value and a much smaller board than usual going into the midgame."
+  - "No Blocker-capable card was ever in play: every one of Chinken's turn 9 and turn 13 attacks (Gundam, Jegan, Rick Dom, Dijeh, Gundam NT-1) went either unblocked or ate a base, since this decklist runs zero Blocker units - the bases (Hotarubi x2, Isaribi) absorbed hits but bought no tempo back. This is a known structural gap, not a turn-by-turn misplay."
+  - "Turn 11's block (Gundam Gusion Rebake into Gundam NT-1) was low value but defensible: it traded a freshly-deployed 4-cost Unit for only 3 damage on an AP4/HP4 attacker that didn't even die (and fully healed back via its own Repair 2 the same turn) - but the alternative was taking 4 unblocked damage while already well behind on shields, so this wasn't a clearly better-avoided error, just a bad trade forced by being outsized on board."
+  - "The game was effectively decided turns 9-11: Chinken built Gundam+Jegan+Rick Dom+Gundam NT-1+Guntank while Kiraya still had 1-2 Units out, and turn 11 alone cost Kiraya three permanents (Hotarubi, Gundam Gusion Rebake, Gundam Barbatos Adapt) for zero of Chinken's - by turn 12 the board and card-advantage gap was already unrecoverable."
+  - "New opponent archetype for the meta model: a Blue/Green 'One Year War' curve-out shell (Guntank/Rick Dom/Gundam/Jegan/Gundam NT-1/Dijeh into a Char Aznable-linked Zeong finisher with Wire-Guided Arm tokens and High-Maneuver unblockable damage) - wide early board plus a hard-to-block top end, distinct from the Blue/White Strike-Freedom grind shell, the Gundam-Fighter pilot-chain deck, and the fast Green/Zeon swarm archetype already tracked."
+  - "No repeat of the Barbatos Lupus discard habit - Lupus never made it to the battlefield this game at all (mana-screwed out, per the slow start above), so the habit didn't have a chance to recur either way."
+unparsed_lines:
+  - "[turn 13] Discarded Jegan"
