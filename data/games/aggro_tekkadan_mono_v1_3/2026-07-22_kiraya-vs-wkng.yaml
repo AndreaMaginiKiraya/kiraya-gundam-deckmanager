@@ -1,0 +1,718 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-22_kiraya-vs-wkng"
+  date_imported: "2026-07-22"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    WKNG:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "WKNG"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "dual instance, both confirmed: the copy paired to Gundam NT-1 (turn 8) shows 'Healed 2 damage to: Gundam NT-1' after it destroys Barbatos 1st Form with battle damage — matches GD05-085's heal-on-kill exactly. The copy paired to Re-GZ BWS (turn 10) shows 'Selecting target for Amuro Ray... Already rested unit: Gundam Flauros (Ryusei-Go)' — matches ST01-010's When-Paired rest-a-low-HP-enemy exactly. WKNG runs both printings."
+    owner: "WKNG"
+    seen:
+      - "pilot"
+      - "returned to hand"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "WKNG"
+    seen:
+      - "shield"
+  "Gundam AGE-2 Normal (SP Ver.)":
+    id: "GD05-024"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "WKNG"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam NT-1":
+    id: "GD03-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "WKNG"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hotarubi:
+    id: "GD03-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "WKNG"
+    seen:
+      - "exiled"
+      - "shield"
+  "Kayra's Jegan":
+    id: "GD05-028"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "WKNG"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "WKNG"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: null
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    note: "dual instance, both confirmed: the turn-12 copy shows 'Nu Gundam deployed. Placed 1 Resource EX' with no Pair/battle event — matches GD05-020's Deploy ramp ability exactly. The turns 14/18 copies exile 3 Londo Bell trash cards then force a damage-step-only battle — matches GD05-017's block-bypass ability exactly, the recurring mechanic documented all campaign. WKNG runs both printings."
+    owner: "WKNG"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "WKNG"
+    seen:
+      - "base"
+      - "shield"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "WKNG"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "WKNG"
+    action: "choose_second_player"
+  - player: "WKNG"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "WKNG"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "WKNG"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Hyakuren discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "WKNG"
+    actions:
+      - action: "attack"
+        player: "WKNG"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Kayra's Re-GZ received 2 damage, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "WKNG"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Kayra's Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Lafter Frankland: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Nu Gundam revealed and discarded"
+  - turn: 8
+    active_player: "WKNG"
+    actions:
+      - action: "deploy"
+        card: "Gundam NT-1"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam NT-1"
+        linked: true
+        effects:
+          - "Gundam NT-1: Dealt 1 damage to Gundam Barbatos Adapt, leaving 4 HP remaining"
+      - action: "attack"
+        player: "WKNG"
+        attacker: "Gundam NT-1"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Gundam NT-1 received 5 damage, leaving 1 HP remaining"
+          - "Healed 2 damage to: Gundam NT-1"
+        effects:
+          - "Gundam NT-1 repaired 2 from [Repair 2]"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and Gundam NT-1"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam NT-1"
+        blockers: "none"
+        final_target: "Gundam NT-1"
+        outcome:
+          - "Gundam NT-1 received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+  - turn: 10
+    active_player: "WKNG"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ BWS"
+        linked: true
+        effects:
+          - "Already rested unit: Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "WKNG"
+        attacker: "Re-GZ BWS"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 4 damage, now destroyed"
+          - "Re-GZ BWS received 7 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+      - action: "play_base"
+        card: "Hotarubi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 12
+    active_player: "WKNG"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Gundam AGE-2 Normal (SP Ver.)"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "WKNG"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 2 HP remaining"
+          - "Breach 3: : Hotarubi received 3 damage, leaving 2 HP remaining"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Flauros (Ryusei-Go), Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+  - turn: 14
+    active_player: "WKNG"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Kayra's Re-GZ, Nu Gundam and Re-GZ BWS exiled from the game"
+      - action: "attack"
+        player: "WKNG"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Nu Gundam received 5 damage, leaving 2 HP remaining"
+          - "Breach 5: : Hotarubi received 5 damage, now destroyed"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "WKNG"
+        attacker: "Gundam AGE-2 Normal (SP Ver.)"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Gundam AGE-2 Normal (SP Ver.) received 4 damage, now destroyed"
+          - "Amuro Ray returned to hand"
+          - "Kayra's Jegan discarded"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "WKNG"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos Lupus and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Graze Custom and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Graze Custom discarded"
+  - turn: 16
+    active_player: "WKNG"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Kayra's Re-GZ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+      - action: "play_base"
+        card: "Ra Cailum"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ra Cailum revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 5 damage, now destroyed"
+  - turn: 18
+    active_player: "WKNG"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Nu Gundam, Jegan and Kayra's Jegan exiled from the game"
+      - action: "attack"
+        player: "WKNG"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 4 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+casualties:
+  WKNG:
+    - card: "Gundam NT-1"
+      turn: 9
+    - card: "Re-GZ BWS"
+      turn: 10
+    - card: "Nu Gundam"
+      turn: 13
+    - card: "Gundam AGE-2 Normal (SP Ver.)"
+      turn: 14
+    - card: "Nu Gundam"
+      turn: 15
+    - card: "Ra Cailum"
+      turn: 17
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 10
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+    - card: "Hotarubi"
+      turn: 14
+    - card: "Hyakuren"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 18
+    - card: "Isaribi"
+      turn: 18
+shields_tally:
+  WKNG:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 11)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 3
+study_notes:
+  - "Mistake review (requested, user believes she erred): couldn't find a clear one on close inspection. Every Kiraya unit lost this game died either to a fair-to-good combat trade (Barbatos Adapt for Gundam NT-1 turn 9, Gundam Flauros for Re-GZ BWS turn 10) or to Nu Gundam's block-bypass ability (turn 14, 18), which forces an unblockable damage-step-only battle the attacker chooses the target for — nothing a blocking decision could have prevented, since neither Barbatos Lupus nor Gundam Gusion Rebake had Blocker anyway in those instances (Gusion Rebake does have Blocker but wasn't the one targeted)."
+  - "Barbatos Lupus was used efficiently both times: turn 13's single activation cleanly finished an already-damaged Nu Gundam (no overkill), and turn 15's two activations (funded entirely by trash) killed the next Nu Gundam outright. Discard choices were also clean this game (Ryusei-Go turn 11, a fresh Graze Custom copy turn 15) — no repeat of the Lupus-discard habit flagged in the ded/melon2222 games."
+  - "WKNG runs a Blue Federation shell heavy on dual-printed Nu Gundam (both the block-bypass LR and the ramp R) and dual-printed Amuro Ray, plus Gundam NT-1/Re-GZ family/Gundam AGE-2 — a recognizable, recurring opponent archetype this account keeps meeting, similar in shape to the ded/CVille/TRIAL games."
+  - "If a specific turn felt like a misstep in the moment, it didn't show up as a clear game-losing (or even game-slowing) error from the log — worth flagging the specific turn number next time for a closer look if it's still bugging her."
