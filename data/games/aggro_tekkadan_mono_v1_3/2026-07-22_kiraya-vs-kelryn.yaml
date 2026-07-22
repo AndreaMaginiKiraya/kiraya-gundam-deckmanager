@@ -1,0 +1,526 @@
+game:
+  id: "aggro_tekkadan_mono_v1_3/2026-07-22_kiraya-vs-kelryn"
+  date_imported: "2026-07-22"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kelryn"
+  players:
+    Kelryn:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Green"
+        - "Purple"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_3"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kelryn"
+    seen:
+      - "base"
+      - "shield"
+  "Char Aznable":
+    id: "ST03-011"
+    note: "pinned: every Link (Char's Zaku II turn 6, Char's Gelgoog turn 10) is immediately followed by 'Char Aznable: Modifier applied to: [own unit]' then 'Kiraya: Can't block High-maneuver' right as the attack is declared — matches ST03-011's 【Attack】'AP+1, and if it is a Link Unit, gains High-Maneuver' exactly."
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Kelryn"
+    seen:
+      - "pilot"
+  "Char's Gelgoog":
+    id: "GD01-023"
+    type: "UNIT"
+    level: 4
+    cost: 4
+    ap: 4
+    hp: 3
+    owner: "Kelryn"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Char's Zaku Ⅱ":
+    id: null
+    candidates:
+      - "GD01-026"
+      - "ST03-006"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "Kelryn"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_3'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Hobby Hizack":
+    id: "GD05-062"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kelryn"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Lafter Frankland":
+    id: "GD02-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Rezin's Geara Doga":
+    id: "GD05-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Kelryn"
+    seen:
+      - "discarded"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: turn 4's attack shows 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' (a self-buff, not targeting an enemy) then dealt exactly 3 damage to the EX Base — matches ST03-008's base AP1 + 【Attack】'this Unit gets AP+2 during this turn' exactly (1+2=3). GD01-035 has no ability and flat AP2, doesn't fit."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kelryn"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "Kelryn"
+    action: "choose_second_player"
+  - player: "Kelryn"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Kelryn"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Kelryn"
+    actions:
+      - action: "attack"
+        player: "Kelryn"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Hobby Hizack"
+      - action: "deploy"
+        card: "Hobby Hizack"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Kelryn"
+    actions:
+      - action: "attack"
+        player: "Kelryn"
+        attacker: "Hobby Hizack"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "attack"
+        player: "Kelryn"
+        attacker: "Hobby Hizack"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Char's Zaku Ⅱ"
+        linked: true
+      - action: "attack"
+        player: "Kelryn"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Char's Zaku Ⅱ"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+      - action: "deploy"
+        card: "Hobby Hizack"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Hobby Hizack"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Char's Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Char's Zaku Ⅱ"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Char's Zaku Ⅱ received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Hobby Hizack"
+        blockers: "none"
+        final_target: "Hobby Hizack"
+        outcome:
+          - "Hobby Hizack received 2 damage, now destroyed"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Hobby Hizack"
+        blockers: "none"
+        final_target: "Hobby Hizack"
+        outcome:
+          - "Hobby Hizack received 4 damage, now destroyed"
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 8
+    active_player: "Kelryn"
+    actions:
+      - action: "attack"
+        player: "Kelryn"
+        attacker: "Hobby Hizack"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "attack"
+        player: "Kelryn"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Graze Custom, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Lupus discarded"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Ryusei-Go (Graze Custom Ⅱ) and Char's Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Hobby Hizack"
+        blockers: "none"
+        final_target: "Hobby Hizack"
+        outcome:
+          - "Hobby Hizack received 2 damage, now destroyed"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Char's Gelgoog revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Lafter Frankland"
+        unit: "Hyakuren"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Lafter Frankland: Modifier applied to: Hyakuren"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+  - turn: 10
+    active_player: "Kelryn"
+    actions:
+      - action: "attack"
+        player: "Kelryn"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Lafter Frankland revealed"
+          - "Shield card added to hand: Lafter Frankland"
+      - action: "deploy"
+        card: "Char's Gelgoog"
+      - action: "activate"
+        card: "Char's Gelgoog"
+        effects:
+          - "Rezin's Geara Doga discarded"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Char's Gelgoog"
+        linked: true
+      - action: "attack"
+        player: "Kelryn"
+        attacker: "Char's Gelgoog"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Char's Gelgoog"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kelryn:
+    - card: "Zaku Ⅱ"
+      turn: 5
+    - card: "Char's Zaku Ⅱ"
+      turn: 7
+    - card: "Hobby Hizack"
+      turn: 7
+    - card: "Hobby Hizack"
+      turn: 7
+    - card: "Hobby Hizack"
+      turn: 9
+    - card: "Axis"
+      turn: 9
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 9
+shields_tally:
+  Kelryn:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 1
+    shields_to_hand: 1
+    shields_deployed: 1
+    shields_remaining: 3
+  Kiraya:
+    ex_base: "destroyed (turn 4)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Fast loss on turn 10 after a mulligan. The real story is tempo, not a specific misplay: Kelryn curved out much faster and wider early (2x Hobby Hizack by turn 4, a 3rd by turn 6, Char's Zaku II/Gelgoog adding unblockable High-Maneuver attacks via Char Aznable) while Kiraya's own board only came online turn 7 — by then 4 shields plus the EX Base were already gone. Turn 6 alone burned 3 shields with zero blockers available, simply because Kiraya had no board yet to trade with or block."
+  - "Once Kiraya's board did come online (turn 7 onward) the trades were genuinely good — Barbatos 1st Form for Char's Zaku II, Graze Custom/Hyakuren for 2 Hobby Hizacks — but too late relative to the shield race already lost in turns 4-6."
+  - "Recurring habit, now a 3rd occurrence this session (after ded and melon2222): turn 9's Ryusei-Go discard-cost discarded Gundam Barbatos Lupus again. Didn't change the outcome here (the game was already effectively lost by then), but worth a hard rule going forward: never let Lupus be the auto-discard target for Overflowing Affection/Ryusei-Go unless every other card in hand is worse to lose — it keeps happening and it's the deck's single best answer."
+  - "Kelryn's Char Aznable (ST03-011, granting AP+1 + unblockable High-Maneuver on Attack) combined with a Zaku II that self-buffs AP+2 on Attack made for a deceptively hard-hitting early swarm — worth remembering this specific Green/Zeon shell as capable of a very fast curve-out if seen again."
