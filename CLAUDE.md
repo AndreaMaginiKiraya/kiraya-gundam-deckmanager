@@ -170,6 +170,27 @@ reconnect needed for those.)
   the live site's own markup and is the only pattern that reliably works.
   If a newly-synced set's images render as placeholders in bulk (not just
   missing art for one or two cards), suspect a regression here first.
+- **egmanevents' Pilot `ap`/`hp` fields cannot be trusted**: unlike apitcg,
+  which folds a Pilot's AP/HP modifier into the same shape as everything
+  else, egmanevents' API returns `0`/`0` for effectively every Pilot
+  regardless of the real printed value — verified against card art (e.g.
+  Zeheart Galette `GD03-094` is really `+2/+2`, Ennil El `GD04-096` is
+  `+1/+2`, Kira Yamato `GD05-081` is `+2/+2`). Only 2 of 119 egmanevents
+  Pilot records have any nonzero `ap`/`hp` at all. `sync.py` now nulls
+  both fields for egmanevents-sourced Pilot cards rather than trust a
+  confidently-wrong `0` — this only bites sets apitcg hasn't picked up yet
+  (currently GD03+, EB01); the `apitcg` merge in `sync_all()` already wins
+  over egmanevents wherever apitcg does cover a set. If you need a
+  Pilot's real paired-modifier value from an egmanevents-only set, check
+  the card image, don't trust the field.
+- **egmanevents splits Burst text into its own field**: apitcg bakes
+  `【Burst】...` straight into the main effect string; egmanevents exposes it
+  separately as `"burst"` and leaves `"effect"` as just the rest of the
+  card text. `sync.py`'s `_egman_format_effect()` prepends it back
+  (`【Burst】<burst>\n<effect>`) to match apitcg's shape — this affects
+  roughly a quarter of egmanevents' catalog (almost all Pilots, most
+  Bases, many Commands), so a card missing its Burst line from an
+  egmanevents-sourced set is a sign this mapping regressed.
 - **Pilot-capable COMMAND cards**: some COMMAND cards can be paired as a
   Pilot instead of activating their command effect (rule 3-4-6); their
   Pilot-mode name is embedded in the effect text as `【Pilot】[Name]` (not a
