@@ -144,6 +144,25 @@ def _egman_format_card_type(category: Any) -> str | None:
     return _EGMAN_CATEGORY_TO_TYPE.get(str(category).strip().lower(), str(category).upper())
 
 
+def _egman_format_effect(record: dict) -> str | None:
+    """Prepend the 【Burst】 text egmanevents keeps in its own separate field.
+
+    apitcg folds Burst into the main effect string (e.g. "【Burst】Add this
+    card to your hand.\\n【When Paired】..."); egmanevents instead exposes it
+    as a sibling "burst" field and leaves "effect" as just the rest of the
+    card text. Naively mapping only "effect" silently drops this line for
+    every card that has one (roughly a quarter of egmanevents' catalog:
+    almost all Pilots, most Bases, many Commands) - reconstruct the apitcg
+    shape here so nothing is lost.
+    """
+    burst = record.get("burst")
+    effect = record.get("effect")
+    burst_line = f"【Burst】{burst}" if burst else None
+    if burst_line and effect:
+        return f"{burst_line}\n{effect}"
+    return burst_line or effect
+
+
 def _egman_to_apitcg_shape(record: dict) -> dict | None:
     """Map one egmanevents card record to the per-set apitcg JSON shape."""
     card_code = record.get("card_code")
@@ -152,21 +171,35 @@ def _egman_to_apitcg_shape(record: dict) -> dict | None:
     set_code = record.get("set_code") or card_code.split("-", 1)[0]
     set_id = str(set_code).lower()
     set_name = record.get("set") or set_code
+    card_type = _egman_format_card_type(record.get("category"))
+
+    # egmanevents' ap/hp fields for Pilot cards represent the AP/HP modifier
+    # a Pilot grants its paired Unit (rule 2-7-3/2-8-4) - but its API returns
+    # 0/0 for effectively every Pilot regardless of the real printed value
+    # (verified against card images: e.g. Zeheart Galette GD03-094 is a real
+    # +2/+2, Ennil El GD04-096 is +1/+2, Kira Yamato GD05-081 is +2/+2, all
+    # scraped here as 0/0). Since egmanevents never reliably has this number,
+    # surface it as unknown (None) rather than a confidently-wrong 0 - this
+    # only affects sets apitcg hasn't covered yet (GD03+, EB01), so if/when
+    # apitcg adds them the merge in sync_all() already prefers apitcg's real
+    # values over this.
+    ap = None if card_type == "PILOT" else record.get("ap")
+    hp = None if card_type == "PILOT" else record.get("hp")
 
     return {
         "id": str(card_code),
         "name": record.get("name") or "",
         "rarity": record.get("rarity"),
         "color": _egman_format_color(record.get("color")),
-        "cardType": _egman_format_card_type(record.get("category")),
+        "cardType": card_type,
         "level": record.get("level"),
         "cost": record.get("cost"),
-        "ap": record.get("ap"),
-        "hp": record.get("hp"),
+        "ap": ap,
+        "hp": hp,
         "zone": _egman_format_zone(record.get("locations")),
         "trait": _egman_format_trait(record.get("type")),
         "link": record.get("link_requirement"),
-        "effect": record.get("effect"),
+        "effect": _egman_format_effect(record),
         "sourceTitle": None,  # egmanevents does not include the source anime title
         "images": _image_url(str(card_code)),
         "set": {"id": set_id, "name": set_name},
