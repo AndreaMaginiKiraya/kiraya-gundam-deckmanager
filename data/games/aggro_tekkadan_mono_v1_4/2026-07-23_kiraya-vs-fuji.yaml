@@ -1,0 +1,656 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-23_kiraya-vs-fuji"
+  date_imported: "2026-07-23"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    fuji:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_4"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "fuji"
+    seen:
+      - "command"
+  "Blast Impulse Gundam":
+    id: "ST09-007"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 3
+    owner: "fuji"
+    seen:
+      - "deployed"
+  "Char Aznable":
+    id: "GD05-093"
+    note: "pinned by color legality: fuji's deck is confirmed Blue/Purple (no Green), so the Green ST03-011 printing would be illegal - only the Purple GD05-093 fits"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: null
+    hp: null
+    owner: "fuji"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gun EZ":
+    id: "GD04-015"
+    note: "pinned from t15's deploy trigger resting both 'Gun EZ' (itself) and 'Graze Custom' (Lv2 enemy) - matches GD04-015's 'choose 1 of your active League Militaire Units and 1 enemy Unit Lv.3 or lower, rest them' exactly; GD05-013 has no such ability at all"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "fuji"
+    seen:
+      - "deployed"
+      - "shield"
+  Gundam:
+    id: "GD01-013"
+    note: "combat math (dealt/received exactly 3/4 AP, HP4 total) narrows to GD01-013 or ST01-001, both AP3/HP4; pinned to the plain vanilla GD01-013 since it was never paired and triggered no ability all game, matching its unremarkable play pattern (same reasoning as the Chinken game's identical 'Gundam' ambiguity)"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "fuji"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "pinned from t9's deploy trigger ('Dealt 1 damage to: Victory Gundam and Gundam Barbatos 1st Form') matching GD02-055's 【Deploy】 choose-1-friendly-and-1-enemy-1-damage exactly, plus t10's block (only GD02-055 has <Blocker>); ST05-005 has an unrelated Destroyed-rest effect and no Blocker at all"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "fuji"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "milled"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+  Parts:
+    id: null
+    note: "not a printed card - the [Parts]((League Militaire)·AP1·HP1·can't attack the enemy player) Unit token that Victory Gundam (GD04-011) deploys on its own Destroyed trigger if another friendly League Militaire Unit is in play; exact trigger timing unclear from the log (Victory Gundam died at t9 but Parts wasn't seen deployed until t15, likely a missed/delayed log line rather than a different source)"
+    type: "UNIT"
+    ap: 1
+    hp: 1
+    owner: "fuji"
+    seen:
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "fuji"
+    seen:
+      - "base"
+      - "shield"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Sazabi:
+    id: "GD05-049"
+    note: "pinned from t15's exact ability match: 'Sazabi: destroyed Parts' (its own chosen Unit) immediately followed by Kiraya being forced to choose and destroy her own non-battling Unit (Gundam Barbatos Adapt) - matches GD05-049's 【Attack】'may destroy 1 of your Units; if you do, all enemy players each destroy 1 non-battling Unit' precisely. GD05-052's ability is Deploy-triggered with no such enemy-side destruction clause."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "fuji"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Victory Gundam":
+    id: "GD04-011"
+    note: "pinned from t9's death: destroyed by exactly 2 damage, matching GD04-011's HP2 precisely; GD04-003 has HP4 and would have survived that hit"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "fuji"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "fuji"
+    seen:
+      - "deployed"
+setup:
+  - player: "fuji"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "fuji"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "fuji"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Shiden Custom (Ryusei-Go) discarded"
+  - turn: 3
+    active_player: "fuji"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 5
+    active_player: "fuji"
+    actions: []
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Flauros (Ryusei-Go) discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "fuji"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Victory Gundam"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Ryusei-Go (Graze Custom Ⅱ) and Zoloat (League Militaire)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zoloat (League Militaire)"
+      - action: "play_base"
+        card: "Reineforce Jr."
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Reineforce Jr. revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 9
+    active_player: "fuji"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Victory Gundam and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "fuji"
+        attacker: "Victory Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "none"
+        final_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        outcome:
+          - "Ryusei-Go (Graze Custom Ⅱ) received 3 damage, now destroyed"
+          - "Victory Gundam received 2 damage, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 3 HP remaining"
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Minerva and Gundam Barbatos 1st Form moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 11
+    active_player: "fuji"
+    actions:
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+      - action: "deploy"
+        card: "Gundam"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 1 HP remaining"
+          - "Graze Custom received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Reineforce Jr."
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Reineforce Jr. revealed"
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Lupus"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Gundam Barbatos 1st Form and Gundam Barbatos Adapt moved to trash"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos 1st Form and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Flauros (Ryusei-Go), Hyakuren and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Blast Impulse Gundam, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Gundam Barbatos 1st Form and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Blast Impulse Gundam, now destroyed"
+  - turn: 13
+    active_player: "fuji"
+    actions:
+      - action: "attack"
+        player: "fuji"
+        attacker: "Gundam"
+        declared_target: "Graze Custom"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Gundam received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "attack"
+        player: "fuji"
+        attacker: "Sazabi"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 7 damage, now destroyed"
+          - "Sazabi received 2 damage, leaving 5 HP remaining"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Minerva"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 6 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos Adapt discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Graze Custom and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, leaving 3 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Sazabi"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gun EZ revealed and discarded"
+  - turn: 15
+    active_player: "fuji"
+    actions:
+      - action: "deploy"
+        card: "Gun EZ"
+        effects:
+          - "Rested unit: Gun EZ"
+          - "Rested unit: Graze Custom"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "No more Shield cards to add to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "fuji"
+        attacker: "Sazabi"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Sazabi: destroyed Parts"
+          - "Sazabi: destroyed Gundam Barbatos Adapt"
+          - "Graze Custom received 7 damage, now destroyed"
+          - "Sazabi received 2 damage, now destroyed"
+      - action: "play_command"
+        player: "fuji"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+casualties:
+  fuji:
+    - card: "Reineforce Jr."
+      turn: 8
+    - card: "Victory Gundam"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Blast Impulse Gundam"
+      turn: 12
+    - card: "Gundam"
+      turn: 13
+    - card: "Reineforce Jr."
+      turn: 14
+    - card: "Parts"
+      turn: 15
+    - card: "Sazabi"
+      turn: 15
+  Kiraya:
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Gundam Exia Repair"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 15
+    - card: "Graze Custom"
+      turn: 15
+shields_tally:
+  fuji:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 2
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "Confirmed mistake (self-identified) at t14: Overflowing Affection's discard cost was spent on a freshly-drawn Gundam Barbatos Adapt, when the intent was to deploy it fresh and pair Mikazuki Augus with it instead. This mattered more than just losing the card: Barbatos Adapt's link field names [Mikazuki Augus] specifically, so pairing them would have created a true Link, and Link Units can attack the very turn they're deployed (rule 3-2-6-3) - bypassing the normal 'can't attack the turn deployed' restriction. Instead, Mikazuki got paired onto a freshly-deployed Hyakuren that same turn (no Link condition met, since Hyakuren doesn't name Mikazuki), which could NOT attack that turn - a real, quantifiable tempo loss of one attack, matching her own read of 'lost several turns.'"
+  - "That said, the mistake didn't decide the game: by t14 fuji was already nearly out of shields (0 remaining per the tally, reached before this point), so the extra turn(s) of delay this cost just stretched out an already-won position rather than putting the win at risk - consistent with her own framing that she won anyway and the opponent conceded."
+  - "Gundam Barbatos Lupus had an excellent game regardless: 3 separate activations across t12 and t14 (6 total damage) picking off Gundam Gusion Rebake, Blast Impulse Gundam, and chipping Sazabi, on top of a direct unblocked attack - the engine kept generating value even through the t14 sequencing hiccup."
+  - "fuji's Sazabi (GD05-049) is worth remembering as tech: its Attack ability destroys 1 of her own units to force Kiraya to destroy 1 of her own non-battling units in return (seen t15, destroying Gundam Barbatos Adapt for free) - a real answer to a wide aggro board that doesn't care about blockers or AP thresholds. Good to recognize this trigger pattern ('Sazabi: destroyed X') early in future games against Neo Zeon decks."
