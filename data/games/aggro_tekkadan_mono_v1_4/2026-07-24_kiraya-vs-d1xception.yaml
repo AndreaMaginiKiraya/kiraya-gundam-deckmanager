@@ -1,0 +1,741 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-24_kiraya-vs-d1xception"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_4"
+    D1xception:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+cards:
+  "Chang Wufei":
+    id: "GD01-091"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "D1xception"
+    seen:
+      - "pilot"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "D1xception"
+    seen:
+      - "deployed"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Heavyarms":
+    id: "GD02-025"
+    note: "pinned from the t6 deploy trigger 'Selecting target for Gundam Heavyarms / Returned to deck bottom' - matches GD02-025's 【Deploy】 look-at-top-card-and-return-to-top-or-bottom exactly, same as the cookd and fuji games this session; the other two printings only have 【During Pair】 combat abilities with no deploy trigger"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "D1xception"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "D1xception"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Heero Yuy":
+    id: "ST02-010"
+    note: "pinned from t12's damage math: plain Wing Gundam (AP4 base) + a true Link with Heero Yuy dealt 7 total - matches ST02-010's combined modifier exactly (its own +2/+1 plus its 【During Link】+1/+1 bonus = +3 AP total, 4+3=7); GD05-098's true modifier is unknown (egmanevents Pilot data gap, see CLAUDE.md). The t16 Wing Gundam (Bird Mode) instance (AP2 base, dealt 4, implying only +2) doesn't fit this same math cleanly - may be a second, different Heero Yuy copy rather than a contradiction"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "D1xception"
+    seen:
+      - "pilot"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "D1xception"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  Peacemillion:
+    id: "GD03-125"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "D1xception"
+    seen:
+      - "base"
+  "Quatre Raberba Winner":
+    id: "GD05-100"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "D1xception"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shenlong Gundam":
+    id: "GD01-029"
+    note: "pinned from t10's 'No targets for Shenlong Gundam' right after its attack was declared - matches GD01-029's 【Attack】'Choose 1 enemy Unit with Blocker that is Lv.3 or lower, destroy it' whiffing because Kiraya had no Blocker-capable Unit in play yet; GD01-041 has no Attack-triggered targeting ability at all, so it couldn't produce a 'no targets' message"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "D1xception"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "milled"
+  "Wing Gundam":
+    id: "ST02-001"
+    note: "no combat evidence distinguishes the two AP4 printings directly, but pinned to the LR ST02-001 (HP5, Breach 5) for consistency with the Sally-2/emily games' identical ambiguity this session, resolved the same way there via block survival math"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "D1xception"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam (Bird Mode)":
+    id: "ST02-002"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "D1xception"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam Zero (EW)":
+    id: "GD05-067"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "D1xception"
+    seen:
+      - "discarded"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "D1xception"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "D1xception"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "D1xception"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "D1xception"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms"
+        effects:
+          - "Returned to deck bottom"
+      - action: "pair_pilot"
+        pilot: "Quatre Raberba Winner"
+        unit: "Gundam Heavyarms"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "D1xception"
+        attacker: "Gundam Heavyarms"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+          - "Gundam Heavyarms received 3 damage, leaving 2 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Gundam Heavyarms"
+        blockers: "none"
+        final_target: "Gundam Heavyarms"
+        outcome:
+          - "Gundam Heavyarms received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 5 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Zeheart Galette and Shiden Custom (Ryusei-Go) moved to trash"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 8
+    active_player: "D1xception"
+    actions:
+      - action: "play_command"
+        player: "D1xception"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Wing Gundam Zero (EW) discarded"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Gundam Lfrith"
+        linked: false
+      - action: "attack"
+        player: "D1xception"
+        attacker: "Gundam Lfrith"
+        declared_target: "Gundam Exia Repair"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Gundam Lfrith received 4 damage, leaving 1 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Lfrith"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Heero Yuy revealed"
+          - "Shield card added to hand: Heero Yuy"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Hyakuren discarded"
+  - turn: 10
+    active_player: "D1xception"
+    actions:
+      - action: "deploy"
+        card: "Shenlong Gundam"
+      - action: "pair_pilot"
+        pilot: "Chang Wufei"
+        unit: "Shenlong Gundam"
+        linked: true
+      - action: "attack"
+        player: "D1xception"
+        attacker: "Shenlong Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "No targets for Shenlong Gundam"
+          - "Graze Custom received 6 damage, now destroyed"
+          - "Damage prevented"
+          - "Shenlong Gundam received 0 damage, leaving 5 HP remaining"
+          - "Breach 4: : Minerva received 4 damage, leaving 1 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Shenlong Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Exia Repair"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Exia Repair and Shenlong Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Shenlong Gundam"
+        blockers: "none"
+        final_target: "Shenlong Gundam"
+        outcome:
+          - "Shenlong Gundam received 4 damage, now destroyed"
+          - "Gundam Exia Repair received 6 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Mikazuki Augus moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Flat (Militia) revealed and discarded"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "Minerva"
+        effects:
+          - "Shield card added to hand"
+  - turn: 12
+    active_player: "D1xception"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "play_base"
+        card: "Peacemillion"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "D1xception"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Wing Gundam received 3 damage, leaving 4 HP remaining"
+          - "Breach 5: : Minerva received 5 damage, now destroyed"
+          - "Healed 2 damage to: Wing Gundam"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam, leaving 4 HP remaining"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Wing Gundam"
+        blockers: "none"
+        final_target: "Wing Gundam"
+        outcome:
+          - "Wing Gundam received 5 damage, now destroyed"
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+  - turn: 14
+    active_player: "D1xception"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "deploy"
+        card: "Flat (Militia)"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Shiden Custom (Ryusei-Go) discarded"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Gusion Rebake and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Flat (Militia), leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Shiden Custom (Ryusei-Go) and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Flat (Militia), now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Ryusei-Go (Graze Custom Ⅱ) and Wing Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Peacemillion"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Peacemillion received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Heavyarms revealed and discarded"
+  - turn: 16
+    active_player: "D1xception"
+    actions:
+      - action: "attack"
+        player: "D1xception"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Wing Gundam received 4 damage, now destroyed"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Wing Gundam (Bird Mode)"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam (Bird Mode)"
+        linked: true
+      - action: "attack"
+        player: "D1xception"
+        attacker: "Wing Gundam (Bird Mode)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Wing Gundam (Bird Mode) received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos Adapt discarded"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Lfrith"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Shiden Custom (Ryusei-Go) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Lfrith, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 2 damage, now destroyed"
+        effects:
+          - "Gundam Lfrith received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 18
+    active_player: "D1xception"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Gundam Exia Repair"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Minerva"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 16
+    - card: "Isaribi"
+      turn: 16
+    - card: "Gundam Barbatos 1st Form"
+      turn: 16
+    - card: "Gundam Barbatos Lupus"
+      turn: 17
+  D1xception:
+    - card: "Gundam Heavyarms"
+      turn: 7
+    - card: "Shenlong Gundam"
+      turn: 11
+    - card: "Wing Gundam"
+      turn: 13
+    - card: "Flat (Militia)"
+      turn: 15
+    - card: "Peacemillion"
+      turn: 15
+    - card: "Wing Gundam"
+      turn: 16
+    - card: "Wing Gundam (Bird Mode)"
+      turn: 16
+    - card: "Gundam Lfrith"
+      turn: 17
+    - card: "Gundam Lfrith"
+      turn: 17
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 3
+  D1xception:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Hypercritical pass requested and done - checked every forced-ping target choice against what else was in play that turn, not just the ones that looked suspicious. Verdict: one small, inconsequential inefficiency found, no other real misplay."
+  - "t9: Gundam Gusion Rebake's deploy ping hit itself instead of Gundam Exia Repair or Graze Custom, both of which attacked completely unblocked that same turn (zero return-damage risk, confirmed). Pinging either of them instead would have cost nothing and left Gusion Rebake with 1 more HP. In practice it never mattered - Gusion Rebake died to a 7-damage hit at t12 regardless, pure overkill either way - but it's the same avoidable-inefficiency pattern flagged in the ann game."
+  - "t11's near-identical situation (a second Gusion Rebake deploy ping hitting itself) was actually correct, not a repeat of the same mistake: this time Gundam Exia Repair was about to fight Shenlong Gundam directly (a real contested battle, not a safe unblocked hit), so there was no fully risk-free alternative target available - hitting the non-attacking Gusion Rebake was the right call given the options that turn."
+  - "Opponent tech worth recognizing on sight: Chang Wufei paired with a Breach-keyword Unit (here Shenlong Gundam) makes that Unit immune to battle damage from any enemy Unit with 3 or less AP during D1xception's turn (t10's 'Damage prevented' against Graze Custom, AP2) - not a Kiraya misplay, just a hard counter to small attackers that's worth remembering against Gundam Wing decks."
+  - "Data anomaly, not a misplay: Gundam Lfrith was at 'leaving 1 HP remaining' after t8, then took what should have been a lethal 1-damage ping at t9 with no 'destroyed' line ever appearing - yet it kept acting normally for many more turns. Same unexplained missing-death-event pattern already seen with Gundam Ez8 (Sally game) and Gundam Barbatos Lupus Rex (emily game) this session. Not treating this as a missed kill opportunity since the log itself doesn't support Lfrith actually being killable at that HP with any confidence."
+  - "Likely ended by concession at t18 (Kiraya's shields never dropped once, 0 lost all game; D1xception still had 1 shield left per the tally) rather than a hard shield-out."
