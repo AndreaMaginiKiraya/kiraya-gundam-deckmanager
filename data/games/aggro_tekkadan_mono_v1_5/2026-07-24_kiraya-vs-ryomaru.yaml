@@ -1,0 +1,611 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-24_kiraya-vs-ryomaru"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:RYOMARU"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+    RYOMARU:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+cards:
+  "Char Aznable":
+    id: "ST03-011"
+    note: "pinned: its Attack trigger grants High-Maneuver to a Link Unit (t6 and t8, 'Can't block High-maneuver') - matches this card exactly; also confirmed against this same opponent in the 2026-07-24 v1_4 game vs RYOMARU."
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "RYOMARU"
+    seen:
+      - "pilot"
+      - "shield"
+  "Char's Zaku Ⅱ":
+    id: null
+    note: "both printings observed again (same opponent/archetype as the v1_4 game vs RYOMARU): GD01-026 at t7 (destroyed while paired - 1 HP taking 1 more from the Barbatos Adapt ping - immediately followed by an unattributed 'Char's Zaku Ⅱ deployed', matching its own During Pair/Destroyed token-deploy text) and ST03-006 at t9 (destroyed, then 'Card added to hand: Char's Zaku Ⅱ' - its own look-top-3/reveal-a-Zeon-Unit text, which happened to surface another copy of the same card name)."
+    candidates:
+      - "GD01-026"
+      - "ST03-006"
+    owner: "RYOMARU"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  Dopp:
+    id: "GD01-039"
+    type: "UNIT"
+    level: 1
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "RYOMARU"
+    seen:
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner:
+      - "Kiraya"
+      - "RYOMARU"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wire-Guided Arm":
+    id: null
+    note: "not a real card - Zeong's (GD04-017) own 'When Paired (Newtype) Pilot' token (AP2/HP1, can't be paired), correctly absent from the card database"
+    owner: "RYOMARU"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zaku Ⅱ":
+    id: null
+    note: "both printings observed: ST03-008 twice at t7 (defending, dealt exactly 1 damage each time - its base AP1, since the Attack:AP+2 text only applies while it's the attacker) and GD01-035 at t10 (attacking Graze Custom directly for a flat 2 damage, no 'Modifier applied' line at all)."
+    candidates:
+      - "GD01-035"
+      - "ST03-008"
+    owner: "RYOMARU"
+    seen:
+      - "attacker"
+      - "deployed"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "RYOMARU"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeong (Head)":
+    id: null
+    note: "not a real card - Zeong's (GD04-017) own 'Destroyed' token (AP3/HP1), correctly absent from the card database"
+    owner: "RYOMARU"
+    seen:
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "RYOMARU"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "RYOMARU"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 4
+    active_player: "RYOMARU"
+    actions:
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Gusion Rebake discarded"
+  - turn: 6
+    active_player: "RYOMARU"
+    actions:
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Char's Zaku Ⅱ"
+        linked: true
+      - action: "attack"
+        player: "RYOMARU"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Char's Zaku Ⅱ"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 5 damage, now destroyed"
+      - action: "attack"
+        player: "RYOMARU"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "attack"
+        player: "RYOMARU"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Isaribi and Gundam Barbatos 1st Form moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 1 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Char's Zaku Ⅱ, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Char's Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 2 damage, now destroyed"
+  - turn: 8
+    active_player: "RYOMARU"
+    actions:
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Char's Zaku Ⅱ"
+        linked: true
+      - action: "attack"
+        player: "RYOMARU"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Char's Zaku Ⅱ"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Char's Zaku Ⅱ, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Char's Zaku Ⅱ"
+          - "Card added to hand: Char's Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Char Aznable revealed"
+          - "Shield card added to hand: Char Aznable"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Dopp revealed and discarded"
+  - turn: 10
+    active_player: "RYOMARU"
+    actions:
+      - action: "deploy"
+        card: "Zeong"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Zeong"
+        linked: true
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "attack"
+        player: "RYOMARU"
+        attacker: "Zaku Ⅱ"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+      - action: "attack"
+        player: "RYOMARU"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to Wire-Guided Arm, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zeong"
+      - action: "deploy"
+        card: "Zeong (Head)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Zeong"
+        blockers: "none"
+        final_target: "Zeong"
+        outcome:
+          - "Zeong received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Zeong (Head)"
+        blockers: "none"
+        final_target: "Zeong (Head)"
+        outcome:
+          - "Zeong (Head) received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+  - turn: 12
+    active_player: "RYOMARU"
+    actions:
+      - action: "play_base"
+        card: "Minerva"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Char's Zaku Ⅱ"
+        linked: true
+      - action: "attack"
+        player: "RYOMARU"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos Adapt and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Char's Zaku Ⅱ, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Ryusei-Go (Graze Custom Ⅱ) and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Char's Zaku Ⅱ, now destroyed"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Gusion Rebake and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Zaku Ⅱ, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Char's Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Char's Zaku Ⅱ"
+        outcome:
+          - "Char's Zaku Ⅱ received 6 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 3 damage, leaving 1 HP remaining"
+  - turn: 14
+    active_player: "RYOMARU"
+    actions:
+      - action: "attack"
+        player: "RYOMARU"
+        attacker: "Wire-Guided Arm"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+  RYOMARU:
+    - card: "Zaku Ⅱ"
+      turn: 7
+    - card: "Zaku Ⅱ"
+      turn: 7
+    - card: "Zaku Ⅱ"
+      turn: 10
+    - card: "Wire-Guided Arm"
+      turn: 10
+    - card: "Zeong"
+      turn: 11
+    - card: "Zeong (Head)"
+      turn: 11
+    - card: "Char's Zaku Ⅱ"
+      turn: 13
+    - card: "Zaku Ⅱ"
+      turn: 13
+    - card: "Char's Zaku Ⅱ"
+      turn: 13
+  unattributed:
+    - card: "Minerva"
+      turn: 6
+    - card: "Minerva"
+      turn: 7
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 3)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  RYOMARU:
+    ex_base: "replaced with a base (turn 4)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Found the real mistake, and it's exactly the one suspected - a pairing/attack sequencing error at t11, not a defensive one. Shiden Custom (Ryusei-Go) deployed and was immediately Linked with Mikazuki Augus (its link field is any Tekkadan pilot, so the Link is real and legal), which by rule 3-2-6-3 meant it could attack that same turn despite being freshly deployed. It never did: t11 shows only two attacks, both from a Gundam Barbatos Adapt (first killing Zeong, then a SECOND Barbatos Adapt finishing off the 1-HP Zeong (Head) token it left behind) - while Shiden Custom, already eligible to attack, sat unused all turn."
+  - "The fix would have cost nothing: sending the already-Linked, already-standing Shiden Custom to finish the 1-HP Zeong (Head) token instead of the second Gundam Barbatos Adapt would have killed the exact same token (any positive AP does it) while keeping a full Barbatos Adapt alive. Checked whether that Adapt was actually needed as t13 exile fuel for Gundam Barbatos Lupus - it wasn't: by t13 there were already 8 other trash cards available (Hyakuren, Gundam Barbatos 1st Form, Isaribi, 2x Ryusei-Go, Graze Custom, 2x Gundam Gusion Rebake), comfortably enough for all 3 of that turn's Lupus activations even with one Adapt kept alive instead of exiled."
+  - "What the surviving Adapt would and wouldn't have changed: it doesn't have Blocker, so it couldn't have stopped t14's final Wire-Guided Arm hit that ended the game (that one needed a Blocker-capable unit, and Gundam Gusion Rebake - the only one seen this game - was already spent turns earlier). What it would have given is a second attacker at t13 alongside Shiden Custom, likely pushing RYOMARU from 2 remaining shields down to 1. Real, quantifiable value left on the table, but not an outright 'this wins the game' fix - RYOMARU still had a live board and the finishing blow came from a separate unblockable attacker regardless."
+  - "The defensive call she was also second-guessing - t12's 'Assigned no blocker' on Char's Zaku Ⅱ, letting a shield (Hyakuren) get discarded instead of trading the standing, Blocker-capable Shiden Custom into it - actually worked out fine and wasn't the error. Keeping Shiden Custom alive let it land a real kill on a different Char's Zaku Ⅱ the very next turn (t13, 6 damage, destroyed) instead of trading it away a turn earlier for a less favorable exchange. That's good patience, not a misplay - the mistake was specifically the t11 attack-assignment choice, not this one."
+  - "Elsewhere, execution was sharp: t7 correctly paired Mikazuki Augus onto a freshly-deployed Barbatos Adapt (also a true Link) specifically to enable its immediate attack that same turn, combining Darkness Finger + two separate deploy pings to clear the dangerous Linked Char's Zaku Ⅱ. t13's triple Gundam Barbatos Lupus activation chained the graveyard built up over the whole game into 3 clean kills plus a fourth from Shiden Custom's own attack - excellent use of the accumulated trash fuel."
