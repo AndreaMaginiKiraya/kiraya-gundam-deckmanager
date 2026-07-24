@@ -1,0 +1,938 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-24_kiraya-vs-hichem"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Hichem"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+    Hichem:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+cards:
+  "Aegis Gundam":
+    id: "ST04-006"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Aegis Gundam (MA Mode)":
+    id: "ST04-007"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Athrun Zala":
+    id: "ST04-011"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Hichem"
+    seen:
+      - "pilot"
+  "Blast Impulse Gundam":
+    id: "ST09-007"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 3
+    owner: "Hichem"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Blitz Gundam":
+    id: "GD01-049"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 3
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+  DINN:
+    id: "GD01-064"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Destiny Gundam":
+    id: "GD05-055"
+    note: "pinned: max HP tracks exactly to 6 (GD05-055's printed HP) across two separate 'Damage prevented / 0 damage' instances (t20 full HP after preventing damage, t24 down to 5 after taking 1 from Kiraya's own t21 Barbatos Adapt ping) - GD04-050 (HP5) doesn't fit either data point."
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 5
+    hp: 6
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Duel Gundam (Assault Shroud)":
+    id: "GD01-045"
+    note: "pinned: every pairing (t10 Athrun Zala, t12 Yzak Jule Link, t24 Miguel Ayman) triggers a 'look at top 3, deploy 1 ZAFT Unit, return the rest to deck bottom' effect (Impulse Gundam/Blitz Gundam deployed + 'Returned to deck bottom' each time) - matches GD01-045's own When Paired text exactly; GD03-042 has no such ability."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Eliminate Target":
+    id: "GD03-110"
+    type: "COMMAND"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "command"
+  "Force Impulse Gundam":
+    id: "GD05-064"
+    note: "pinned: dealt exactly 3 damage in its t19 mutual battle with Gundam Flauros (Ryusei-Go), matching GD05-064's printed AP3 - ST09-002 is AP5, doesn't fit. Also died at t19 with no 'add to hand' follow-up, consistent with GD05-064 having no Destroyed trigger (ST09-002 has one)."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Impulse Gundam":
+    id: "ST09-001"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Jachin Due":
+    id: "GD03-127"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Hichem"
+    seen:
+      - "base"
+  "Miguel Ayman":
+    id: "ST04-014"
+    note: "pilot mode of the COMMAND card 'The Magic Bullet of Dusk'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 1
+    owner: "Hichem"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Providence Gundam":
+    id: "GD03-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Hichem"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "The Magic Bullet of Dusk":
+    id: "ST04-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 1
+    owner: "Hichem"
+    seen:
+      - "shield"
+  Vesalius:
+    id: "ST04-016"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Hichem"
+    seen:
+      - "base"
+  "Yzak Jule":
+    id: "GD01-094"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Hichem"
+    seen:
+      - "pilot"
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Hichem"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Hichem"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Hichem"
+    actions:
+      - action: "deploy"
+        card: "DINN"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "Hichem"
+    actions:
+      - action: "deploy"
+        card: "Aegis Gundam"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "DINN"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Destiny Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 8
+    active_player: "Hichem"
+    actions:
+      - action: "play_base"
+        card: "Vesalius"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Duel Gundam (Assault Shroud)"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Aegis Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Aegis Gundam received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "DINN"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "DINN received 4 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Aegis Gundam"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Mikazuki Augus and Gundam Barbatos Adapt moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Vesalius"
+        outcome:
+          - "Vesalius received 6 damage, now destroyed"
+  - turn: 10
+    active_player: "Hichem"
+    actions:
+      - action: "deploy"
+        card: "Duel Gundam (Assault Shroud)"
+      - action: "pair_pilot"
+        pilot: "Athrun Zala"
+        unit: "Duel Gundam (Assault Shroud)"
+        linked: false
+      - action: "deploy"
+        card: "Impulse Gundam"
+        effects:
+          - "Returned to deck bottom"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Yzak Jule revealed"
+          - "Shield card added to hand: Yzak Jule"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Duel Gundam (Assault Shroud)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: The Magic Bullet of Dusk revealed and discarded"
+  - turn: 12
+    active_player: "Hichem"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Yzak Jule"
+        unit: "Duel Gundam (Assault Shroud)"
+        linked: true
+      - action: "deploy"
+        card: "Impulse Gundam"
+        effects:
+          - "Returned to deck bottom"
+      - action: "deploy"
+        card: "Blitz Gundam"
+        effects:
+          - "Blitz Gundam: Modifier applied to: Duel Gundam (Assault Shroud)"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Duel Gundam (Assault Shroud)"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Duel Gundam (Assault Shroud) received 0 damage, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Impulse Gundam"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Hichem"
+            card: "Eliminate Target"
+            effects:
+              - "Eliminate Target: destroyed Mikazuki Augus"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 3 damage, now destroyed"
+          - "Impulse Gundam received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Duel Gundam (Assault Shroud)"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Hichem"
+            card: "Eliminate Target"
+            effects:
+              - "Eliminate Target: destroyed Zeheart Galette"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Duel Gundam (Assault Shroud) received 4 damage, leaving 2 HP remaining"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Flauros (Ryusei-Go) and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Duel Gundam (Assault Shroud), now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Duel Gundam (Assault Shroud)"
+        blockers: "none"
+        final_target: "Duel Gundam (Assault Shroud)"
+        outcome:
+          - "Duel Gundam (Assault Shroud) received 4 damage, now destroyed"
+          - "Graze Custom received 5 damage, now destroyed"
+  - turn: 14
+    active_player: "Hichem"
+    actions:
+      - action: "deploy"
+        card: "Providence Gundam"
+      - action: "deploy"
+        card: "Impulse Gundam"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Blitz Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Lupus discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Impulse Gundam"
+        blockers: "none"
+        final_target: "Impulse Gundam"
+        outcome:
+          - "Impulse Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Graze Custom and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Blitz Gundam, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Blitz Gundam, now destroyed"
+  - turn: 16
+    active_player: "Hichem"
+    actions:
+      - action: "play_base"
+        card: "Jachin Due"
+        effects:
+          - "Shield card added to hand"
+          - "Jachin Due: Modifier applied to: Providence Gundam"
+      - action: "deploy"
+        card: "Blitz Gundam"
+        effects:
+          - "Blitz Gundam: Modifier applied to: Providence Gundam"
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Providence Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Providence Gundam: Dealt 2 damage to Ryusei-Go (Graze Custom Ⅱ), now destroyed"
+          - "Gundam Barbatos Lupus received 8 damage, now destroyed"
+          - "Damage prevented"
+          - "Providence Gundam received 0 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to Blitz Gundam, leaving 1 HP remaining"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Blitz Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Providence Gundam"
+        blockers: "none"
+        final_target: "Providence Gundam"
+        outcome:
+          - "Providence Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Jachin Due"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Jachin Due received 7 damage, now destroyed"
+  - turn: 18
+    active_player: "Hichem"
+    actions:
+      - action: "deploy"
+        card: "Destiny Gundam"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Force Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Impulse Gundam received 4 damage, now destroyed"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Force Impulse Gundam"
+        blockers: "none"
+        final_target: "Force Impulse Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Force Impulse Gundam received 7 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 3 damage, leaving 1 HP remaining"
+  - turn: 20
+    active_player: "Hichem"
+    actions:
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Destiny Gundam"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Destiny Gundam received 0 damage, leaving 6 HP remaining"
+      - action: "deploy"
+        card: "Aegis Gundam (MA Mode)"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Destiny Gundam"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Gundam Gusion Rebake and Gundam Barbatos 1st Form moved to trash"
+  - turn: 22
+    active_player: "Hichem"
+    actions:
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Aegis Gundam (MA Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+  - turn: 23
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Aegis Gundam (MA Mode)"
+        blockers: "Blast Impulse Gundam"
+        final_target: "Blast Impulse Gundam"
+        outcome:
+          - "Blast Impulse Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 24
+    active_player: "Hichem"
+    actions:
+      - action: "deploy"
+        card: "Duel Gundam (Assault Shroud)"
+      - action: "pair_pilot"
+        pilot: "Miguel Ayman"
+        unit: "Duel Gundam (Assault Shroud)"
+        linked: false
+      - action: "deploy"
+        card: "Blitz Gundam"
+        effects:
+          - "Returned to deck bottom"
+          - "Blitz Gundam: Modifier applied to: Destiny Gundam"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Destiny Gundam received 0 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "Hichem"
+        attacker: "Aegis Gundam (MA Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Mikazuki Augus"
+      turn: 12
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 12
+    - card: "Zeheart Galette"
+      turn: 12
+    - card: "Hyakuren"
+      turn: 12
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Isaribi"
+      turn: 14
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 16
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+    - card: "Gundam Barbatos Lupus"
+      turn: 17
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 18
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 20
+    - card: "Gundam Barbatos Adapt"
+      turn: 23
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 24
+  Hichem:
+    - card: "DINN"
+      turn: 8
+    - card: "Vesalius"
+      turn: 9
+    - card: "Impulse Gundam"
+      turn: 12
+    - card: "Duel Gundam (Assault Shroud)"
+      turn: 13
+    - card: "Duel Gundam (Assault Shroud)"
+      turn: 13
+    - card: "Impulse Gundam"
+      turn: 15
+    - card: "Blitz Gundam"
+      turn: 15
+    - card: "Providence Gundam"
+      turn: 17
+    - card: "Jachin Due"
+      turn: 17
+    - card: "Impulse Gundam"
+      turn: 18
+    - card: "Force Impulse Gundam"
+      turn: 19
+    - card: "Blast Impulse Gundam"
+      turn: 23
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  Hichem:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "v1_5's first game and first loss, against a Red/Purple ZAFT (Gundam SEED) deck built around Duel Gundam (Assault Shroud)'s chain-deploy engine (top-3 dig + free deploy on every pairing - triggered 3 times: t10 Athrun Zala, t12 Yzak Jule Link, t24 Miguel Ayman), 2 copies of the spot-removal Command 'Eliminate Target', and a buff package (Jachin Due + Blitz Gundam) that grants First Strike to already-buffed high-AP attackers - which is what the repeated 'Damage prevented / 0 damage' log lines actually are: the attacker kills its target before it can strike back, not a separate damage-prevention ability."
+  - "Checked every forced-ping and blocker-assignment decision this game for a safer alternative; none held up as a real error. t11's Mikazuki Augus ping self-hit a fresh Graze Custom rather than the healthier Gundam Gusion Rebake, but Graze Custom died in an unrelated t13 trade regardless (took 5 damage, way past either 1 or 2 HP) so it cost nothing, and prioritizing chip damage onto the disposable unit over the blocker was the right instinct anyway. t18's blocker choice between Impulse Gundam and Force Impulse Gundam looked like it might matter (different HP: 3 vs 4) but both trade into a mutual kill against Shiden Custom's AP4 either way - a genuine wash, not a missed better option."
+  - "t12 was the turn that decided the game: with Gundam Gusion Rebake (the only Blocker-capable unit all game) already spent blocking the first attack, Hichem's two 'Eliminate Target' plays picked off Mikazuki Augus and Zeheart Galette - the paired pilots on Gundam Flauros and Hyakuren - while both units were undefended by rule, not by choice. This wiped 5 of Kiraya's board/hand pieces in one turn and wasn't preventable from her side without a blocker that didn't exist yet."
+  - "t13 and t15 were excellent recovery turns: the trash left over from t12's wipe (Hyakuren x2, Gundam Flauros) fueled Gundam Barbatos Lupus's exile-cost activation for a precise 2-damage kill on a weakened Duel Gundam, and t15 chained Ryusei-Go (Graze Custom Ⅱ)'s discard-for-value into two more Lupus activations plus a direct combat kill, clearing Impulse Gundam and Blitz Gundam outright. Strong sequencing turning a disaster turn into fuel."
+  - "Zeheart Galette's mill hit hard twice with no compensating Vagan trigger: t9 (Mikazuki Augus + Gundam Barbatos Adapt) and t21 (Gundam Gusion Rebake + Gundam Barbatos 1st Form) - 4 real cards lost to variance alone across the game, on top of the 2 pilots lost to Eliminate Target. Between removal and mill bad luck, the pilot/engine pieces took an unusually rough game."
+  - "Darkness Finger (v1_5's new Red tech) did its job on the one occasion it came up: revealed as a shield at t16, its own trigger fired for 2 damage to Blitz Gundam - validates the card working as intended even off the top of the shield pile, not just as a hand play."
+  - "Recurring log/parser gap, not a missed kill: t9's Gundam Gusion Rebake deploy ping hit Aegis Gundam (already at 1 HP from t8) for 1 more damage, which should have destroyed it, but no destroy event appears and an Aegis Gundam persists on Hichem's side until it deploys as 'Aegis Gundam (MA Mode)' at t20. Same class of anomaly as prior games (Ez8, Barbatos Lupus Rex, Lfrith, and the Char's Zaku Ⅱ token in the RYOMARU game)."
