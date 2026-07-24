@@ -1,0 +1,767 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-24_kiraya-vs-asdf"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:ASDF"
+  players:
+    ASDF:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Red"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_4"
+cards:
+  "Chibodee Crocket":
+    id: "GD05-121"
+    note: "pilot mode of the COMMAND card 'Cyclone Punch'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "ASDF"
+    seen:
+      - "pilot"
+  "Cyclone Punch":
+    id: "GD05-121"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "ASDF"
+    seen:
+      - "command"
+      - "exiled"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "ASDF"
+    seen:
+      - "added to hand"
+      - "command"
+      - "exiled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Fight":
+    id: "GD05-128"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "ASDF"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Maxter":
+    id: "GD05-069"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "ASDF"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Haow Gundam":
+    id: "GD05-036"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "ASDF"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "milled"
+  "Master Asia":
+    id: "GD05-089"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    owner: "ASDF"
+    seen:
+      - "pilot"
+  "Master Gundam":
+    id: "GD05-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "ASDF"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "ASDF"
+    seen:
+      - "base"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "ASDF"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+  "Rising Gundam":
+    id: "GD05-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "ASDF"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Royal Gundam":
+    id: "GD05-075"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "ASDF"
+    seen:
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Shining Gundam":
+    id: "GD05-066"
+    note: "no decisive combat math (the lethal t19 hit isn't broken out by damage number); pinned to the LR Domon Kasshu-linked printing (trash-2-MF-units to tutor a Special Move Command) since it fits ASDF's already-confirmed Special-Move-command-recursion engine (Cyclone Punch, Darkness Finger both recurring via Gundam Maxter/Master Gundam) far better thematically than the vanilla Red common"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "ASDF"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shining Gundam (Super Mode)":
+    id: "GD05-068"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 5
+    owner: "ASDF"
+    seen:
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+setup:
+  - player: "ASDF"
+    action: "choose_first_player"
+  - player: "ASDF"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "ASDF"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "ASDF"
+    actions:
+      - action: "deploy"
+        card: "Royal Gundam"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "ASDF"
+    actions:
+      - action: "play_command"
+        player: "ASDF"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Master Gundam discarded"
+      - action: "deploy"
+        card: "Gundam Maxter"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Royal Gundam"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Royal Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 7
+    active_player: "ASDF"
+    actions:
+      - action: "deploy"
+        card: "Gundam Maxter"
+      - action: "play_command"
+        player: "ASDF"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Chibodee Crocket"
+        unit: "Gundam Maxter"
+        linked: true
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Gundam Maxter"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Hyakuren"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Gundam Maxter received 0 damage, leaving 3 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shining Gundam (Super Mode) revealed and discarded"
+      - action: "play_base"
+        card: "Gundam Fight"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Fight revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Maxter"
+      - action: "play_command"
+        player: "ASDF"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 9
+    active_player: "ASDF"
+    actions:
+      - action: "play_command"
+        player: "ASDF"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Chibodee Crocket"
+        unit: "Gundam Maxter"
+        linked: true
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+          - "Gundam Maxter received 0 damage, leaving 3 HP remaining"
+          - "Card added to hand: Darkness Finger"
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+          - "Gundam Maxter received 0 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Rising Gundam"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam Maxter"
+        blockers: "none"
+        final_target: "Gundam Maxter"
+        outcome:
+          - "Gundam Maxter received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 11
+    active_player: "ASDF"
+    actions:
+      - action: "deploy"
+        card: "Haow Gundam"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Haow Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Rising Gundam"
+          - "Dealt 2 damage to: Shiden Custom (Ryusei-Go) and Hyakuren"
+      - action: "play_command"
+        player: "ASDF"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Shiden Custom (Ryusei-Go), now destroyed"
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Haow Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Haow Gundam: Dealt 2 damage to Hyakuren, now destroyed"
+          - "EX Base received 6 damage, now destroyed"
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Gundam Maxter"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zeheart Galette revealed"
+          - "Shield card added to hand: Zeheart Galette"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Maxter"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Isaribi and Gundam Gusion Rebake moved to trash"
+  - turn: 13
+    active_player: "ASDF"
+    actions:
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Haow Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "activate"
+        card: "Gundam Fight"
+        effects:
+          - "Rested base: Gundam Fight"
+          - "Gundam Fight: Modifier applied to: Gundam Maxter"
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Gundam Maxter"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Gundam Maxter received 3 damage, now destroyed"
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Rising Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "deploy"
+        card: "Royal Gundam"
+      - action: "deploy"
+        card: "Shining Gundam"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos 1st Form discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and Rising Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Haow Gundam"
+        blockers: "none"
+        final_target: "Haow Gundam"
+        outcome:
+          - "Haow Gundam received 7 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 6 damage, now destroyed"
+  - turn: 15
+    active_player: "ASDF"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        replaced: "Gundam Fight"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Master Gundam"
+        linked: true
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Master Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Darkness Finger and Cyclone Punch exiled from the game"
+          - "Isaribi received 5 damage, now destroyed"
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Rising Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Lupus"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Overflowing Affection and Graze Custom moved to trash"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Master Gundam, leaving 5 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos Lupus and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Master Gundam, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Gusion Rebake and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Master Gundam, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Hyakuren and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Master Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Barbatos Adapt and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Rising Gundam, now destroyed"
+  - turn: 17
+    active_player: "ASDF"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 7 damage, now destroyed"
+  - turn: 19
+    active_player: "ASDF"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "ASDF"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Gundam Barbatos Lupusendo received 5 damage, now destroyed"
+          - "No more shields available, game is over!"
+casualties:
+  ASDF:
+    - card: "Gundam Maxter"
+      turn: 10
+    - card: "Gundam Maxter"
+      turn: 13
+    - card: "Haow Gundam"
+      turn: 14
+    - card: "Master Gundam"
+      turn: 16
+    - card: "Rising Gundam"
+      turn: 16
+    - card: "Mining Asteroid Palau"
+      turn: 18
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 14
+    - card: "Isaribi"
+      turn: 15
+  unattributed:
+    - card: "Gundam Barbatos Lupusendo"
+      turn: 19
+shields_tally:
+  ASDF:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "destroyed (turn 11)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "A genuine narrow loss: 0 shields remaining for Kiraya vs 1 for ASDF at the end - decided by a single shield, not a blowout."
+  - "The engine that actually decided this game: Cyclone Punch (a Command that can pair from trash onto an (MF) Unit as 'Chibodee Crocket') gives Gundam Maxter 【During Link・Attack】'reactivate this card's Main' - so every time Maxter itself declares an attack, it re-applies Cyclone Punch's 'choose 1 enemy Unit, AP-2 this turn' for free, indefinitely, no cost. This zeroed out Gundam Barbatos Adapt (AP2) completely every single time Maxter attacked it (t7 killed Hyakuren for 0 return, t9 killed two separate Adapts for 0 return) - Adapt's AP2 minus the -2 debuff is exactly 0 damage dealt back."
+  - "Key mechanical detail worth remembering: the free reapplication only fires on Gundam Maxter's OWN declared attack, not when it blocks/defends. This is exactly why t10's trade worked in Kiraya's favor for the first time all game - she declared 'Gundam Barbatos Adapt against Gundam Maxter' (her own attack, into Maxter), the debuff never triggered, and Adapt's full AP2 (plus accumulated chip damage from its own deploy-ping hitting Maxter across t8-t9) was enough to finally kill it."
+  - "Answering the direct question - could the early pieces have been played/protected better: partially, yes, but with real caveats. Once the pattern was confirmed at t7 (Hyakuren died for zero return), continuing to sit with fresh Barbatos Adapt copies exposed to Maxter's attacks at t8-t9 fed it two more free kills - recognizing 'my AP2 units are worthless as blocking targets against this specific Unit, I should be the one attacking Maxter, not the other way around' one turn earlier could plausibly have saved one Adapt copy. That said: she had no Blocker in play at that point (so there was no way to redirect/prevent Maxter's attacks defensively), and the deck's curve is overwhelmingly AP2 1-drops, so there wasn't a materially different, higher-AP body available to deploy instead - this is as much a genuine bad matchup for a low-AP swarm plan as it is a sequencing slip."
+  - "The Lupus lateness was NOT a sequencing mistake: 2 of the 4 copies were sitting in Kiraya's own shield pile the whole game (both later revealed-and-discarded by ASDF's own attacks at t13) - pure shuffle/shield-placement variance, unreachable by any in-game decision. The other copies were simply slow to draw (first one landed t16) despite two Overflowing Affection casts along the way that didn't hit it. Nothing playable differently early would have changed this specific piece of bad luck."
+  - "Once Lupus did land at t16, it delivered exactly as it should: 5 activations in one turn for 2 kills (Master Gundam, a Lv7/Lv5 HP5 LR, and Rising Gundam) - by then the shield gap (already down to the final couple of cards) was just too large to close."
+unparsed_lines:
+  - "[turn 11] Cannot activate Cyclone Punch: No available targets"
