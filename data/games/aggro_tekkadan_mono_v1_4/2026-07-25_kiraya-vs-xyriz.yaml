@@ -1,0 +1,603 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-25_kiraya-vs-xyriz"
+  date_imported: "2026-07-25"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Xyriz"
+  players:
+    Xyriz:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_4"
+cards:
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: t7's 'Rested unit: Shiden Custom (Ryusei-Go)' matches this card's own 'When Paired: choose 1 enemy Unit with 5 or less HP, rest it' text exactly; GD05-085's ability is a self-heal-on-kill, unrelated. Same identification as the 2026-07-24 game vs Bill."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Xyriz"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Gundam:
+    id: "ST01-001"
+    note: "pinned: t7's end-of-turn heal is logged verbatim as 'Gundam repaired 2 from [Repair 2]' - the exact keyword text only this printing has (same identification as the Bill game). No later instance (t15's fresh deploy) contradicts it."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Xyriz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "genuinely unresolved: both candidates are on-color for this Green/Blue deck, and neither has a combat-relevant ability (GD01-016 is a hand-only cost reduction, GD05-027 is vanilla) that the log could confirm either way."
+    owner: "Xyriz"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Kayra's Jegan":
+    id: "GD05-028"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "Xyriz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Xyriz"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-017"
+    note: "pinned: t13's Pair trigger exiled exactly 3 trash cards (Jegan, Re-GZ, Kayra's Re-GZ) then immediately started a second, damage-only battle against Gundam Barbatos Lupus - matches this card's own 'When Paired: may exile 3 Londo Bell cards from trash, if you do choose 1 enemy Unit and begin a battle (damage step only)' text exactly; also shows the passive Breach 5 text both times it destroyed a Unit. GD05-020 has neither ability."
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    owner: "Xyriz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Xyriz"
+    seen:
+      - "exiled"
+      - "shield"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Xyriz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: t7's attack showed 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' - GD01-035 has no ability at all and could never produce that line, so this must be ST03-008's own Attack:AP+2 text firing. The exact damage dealt (4) is higher than base AP1+2=3 would suggest, likely from an untracked additional buff rather than a wrong id."
+    candidates:
+      - "GD01-035"
+      - "ST03-008"
+    owner: "Xyriz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+setup:
+  - player: "Xyriz"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Xyriz"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Xyriz"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Xyriz"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Xyriz"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Jegan"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Jegan received 2 damage, now destroyed"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 7
+    active_player: "Xyriz"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Kayra's Re-GZ received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Zaku Ⅱ"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Gundam"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 6 damage, now destroyed"
+          - "Gundam received 2 damage, leaving 3 HP remaining"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Gundam Barbatos 1st Form moved to trash"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 9
+    active_player: "Xyriz"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Jegan"
+        effects:
+          - "Kayra's Jegan: Modifier applied to: Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Kayra's Re-GZ received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 6 damage, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Exia Repair"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Exia Repair and Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 4 damage, now destroyed"
+          - "Gundam Exia Repair received 5 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Ryusei-Go (Graze Custom Ⅱ) moved to trash"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Gundam Gusion Rebake and Mikazuki Augus moved to trash"
+  - turn: 11
+    active_player: "Xyriz"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Ryusei-Go (Graze Custom Ⅱ) and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Zaku Ⅱ, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Shiden Custom (Ryusei-Go) and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Jegan, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ revealed and discarded"
+  - turn: 13
+    active_player: "Xyriz"
+    actions:
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Kayra's Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Rick Dom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Jegan, Re-GZ and Kayra's Re-GZ exiled from the game"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Nu Gundam received 5 damage, leaving 2 HP remaining"
+          - "Breach 5 Shield card: Gundam Barbatos Adapt revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Nu Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 7 damage, now destroyed"
+          - "Nu Gundam received 6 damage, now destroyed"
+          - "Breach 5 Shield card: Gundam Gusion Rebake revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Rick Dom"
+  - turn: 15
+    active_player: "Xyriz"
+    actions:
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Kayra's Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Rick Dom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zeheart Galette revealed"
+          - "Shield card added to hand: Zeheart Galette"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+      - action: "attack"
+        player: "Xyriz"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Xyriz:
+    - card: "Jegan"
+      turn: 5
+    - card: "Zaku Ⅱ"
+      turn: 7
+    - card: "Kayra's Re-GZ"
+      turn: 9
+    - card: "Gundam"
+      turn: 10
+    - card: "Zaku Ⅱ"
+      turn: 12
+    - card: "Jegan"
+      turn: 12
+    - card: "Nu Gundam"
+      turn: 13
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 5
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 7
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 9
+    - card: "Gundam Exia Repair"
+      turn: 10
+    - card: "Gundam Barbatos Lupus"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 13
+shields_tally:
+  Xyriz:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 4
+  Kiraya:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Genuinely brutal, not a misplay-driven loss - checked closely and every turn was either forced (no blockers ever available) or a real trade she initiated well. 't10's Gundam Exia Repair pairing with Mikazuki Augus was ping-only (Exia Repair's link field is Setsuna F. Seiei, not Mikazuki, so no Link was possible there anyway) and she still attacked with it the same turn regardless, killing Xyriz's repair-engine Gundam - correct read, nothing to flag."
+  - "t13 was the turn that really decided it: Nu Gundam (GD05-017) generated two separate battles off one deploy - its own Pair ability exiled 3 trash cards to start an extra damage-only battle that one-shot Gundam Barbatos Lupus, and it ALSO attacked normally that same turn, killing Hyakuren too - with Breach 5 discarding a shield each time. One card converting a full graveyard into two kills plus two shields is a genuinely powerful combo, not something blockable given how the extra battle skips the normal declare/block steps entirely."
+  - "Bad variance compounded the tough matchup: both copies of Gundam Barbatos 1st Form got milled by t7 (Gundam Exia Repair's own destroyed-trigger), and t10's Zeheart Galette pairing milled Mikazuki Augus itself with no Vagan hit to offset it - losing key pieces to the deck's own downside before they could ever be used."
+  - "t12's double Gundam Barbatos Lupus activation (killing Zaku Ⅱ and a fresh Jegan outright from graveyard fuel) was excellent value and briefly stabilized the board - it just wasn't enough against Xyriz's own engine coming back online the very next turn."
+  - "Worth remembering Amuro Ray (ST01-010)'s recurring tech from this opponent archetype (also seen vs Bill): its Pair trigger rests an enemy Unit with 5 or less HP, used again here at t7 to tap Shiden Custom before it could ever be offered as a blocker."
+unparsed_lines:
+  - "[turn 5] Returned to deck top"
