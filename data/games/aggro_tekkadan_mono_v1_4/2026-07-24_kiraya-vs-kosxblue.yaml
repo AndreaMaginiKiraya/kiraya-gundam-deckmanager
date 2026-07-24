@@ -1,0 +1,750 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-24_kiraya-vs-kosxblue"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya (concession, t18 - the pasted log cuts off mid-declaration of KosXBlue's last attack, before any damage is shown, and Kiraya still had 2 shields remaining; confirmed by her directly that KosXBlue conceded)"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_4"
+    KosXBlue:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Red"
+        - "White"
+cards:
+  "Aegis Gundam":
+    id: "ST04-006"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "KosXBlue"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: both t10 and t14 Pair triggers bounced Kiraya's Hyakuren (HP3) back to hand - matches this card's own 'When Paired, Lv.4+ Pilot: choose 1 enemy Unit with 4 or less HP, return it to hand' text exactly; GD03-072's Deploy ability is draw-then-discard, unrelated. Same identification as the Fusiki and cdawg games."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "KosXBlue"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "KosXBlue"
+    seen:
+      - "shield"
+  "Athrun Zala":
+    id: "ST04-011"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "KosXBlue"
+    seen:
+      - "pilot"
+      - "shield"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "KosXBlue"
+    seen:
+      - "command"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "KosXBlue"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "returned to hand"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Jachin Due":
+    id: "GD03-127"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "KosXBlue"
+    seen:
+      - "base"
+  "Kira Yamato":
+    id: "ST04-010"
+    note: "pinned: all 3 combat instances this game (t10, t14, t16) show 'Kira Yamato: Modifier applied to' an ENEMY unit during an attack - matches this card's own 'Attack: choose 1 enemy Unit, it gets AP-2 during this battle' text; no 'draw a card' instance (GD05-081's own When Linked text) appears anywhere in this game."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "KosXBlue"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "discarded"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+  "Providence Gundam":
+    id: "GD03-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "KosXBlue"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Rau Le Creuset":
+    id: "GD03-091"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "KosXBlue"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "KosXBlue"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Sword Strike Gundam":
+    id: "GD01-073"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "KosXBlue"
+    seen:
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "KosXBlue"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "KosXBlue"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "KosXBlue"
+    actions:
+      - action: "play_command"
+        player: "KosXBlue"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Gundam Barbatos 1st Form moved to trash"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Minerva discarded"
+  - turn: 6
+    active_player: "KosXBlue"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Athrun Zala revealed"
+          - "Shield card added to hand: Athrun Zala"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Lfrith"
+  - turn: 8
+    active_player: "KosXBlue"
+    actions:
+      - action: "deploy"
+        card: "Aegis Gundam"
+      - action: "pair_pilot"
+        pilot: "Athrun Zala"
+        unit: "Aegis Gundam"
+        linked: true
+      - action: "attack"
+        player: "KosXBlue"
+        attacker: "Aegis Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "No targets for Aegis Gundam"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+          - "Aegis Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "KosXBlue"
+        attacker: "Gundam Lfrith"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Gundam Lfrith received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair: destroyed Gundam Lfrith"
+          - "Gundam Exia Repair milled 2: Hyakuren and Hyakuren moved to trash"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Aegis Gundam"
+        blockers: "none"
+        final_target: "Aegis Gundam"
+        outcome:
+          - "Aegis Gundam received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Hyakuren, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Graze Custom and Overflowing Affection moved to trash"
+  - turn: 10
+    active_player: "KosXBlue"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Hyakuren returned to hand"
+      - action: "attack"
+        player: "KosXBlue"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 6 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 5 damage, now destroyed"
+          - "Gundam Gusion Rebake received 6 damage, leaving 1 HP remaining"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 12
+    active_player: "KosXBlue"
+    actions:
+      - action: "deploy"
+        card: "Providence Gundam"
+      - action: "pair_pilot"
+        pilot: "Rau Le Creuset"
+        unit: "Providence Gundam"
+        linked: true
+        effects:
+          - "No targets for Rau Le Creuset"
+      - action: "attack"
+        player: "KosXBlue"
+        attacker: "Providence Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Providence Gundam: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+          - "Isaribi received 9 damage, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Providence Gundam"
+        blockers: "none"
+        final_target: "Providence Gundam"
+        outcome:
+          - "Providence Gundam received 2 damage, leaving 4 HP remaining"
+          - "Gundam Exia Repair received 7 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Zeheart Galette and Overflowing Affection moved to trash"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Graze Custom and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Providence Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Hyakuren and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Providence Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Airframe Seizure revealed and discarded"
+  - turn: 14
+    active_player: "KosXBlue"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Hyakuren returned to hand"
+      - action: "deploy"
+        card: "Silver Bullet"
+      - action: "play_base"
+        card: "Minerva"
+      - action: "attack"
+        player: "KosXBlue"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Lupus"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Minerva revealed"
+          - "Shield card added to hand"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Aile Strike Gundam"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 16
+    active_player: "KosXBlue"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+      - action: "attack"
+        player: "KosXBlue"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Lupus"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 6 damage, now destroyed"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Aile Strike Gundam"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 4 damage, now destroyed"
+          - "Hyakuren received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Graze Custom discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Ryusei-Go (Graze Custom Ⅱ), now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Barbatos 1st Form and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sword Strike Gundam, leaving 1 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Sword Strike Gundam"
+  - turn: 18
+    active_player: "KosXBlue"
+    actions:
+      - action: "play_base"
+        card: "Jachin Due"
+        effects:
+          - "Shield card added to hand"
+          - "No targets for Jachin Due"
+      - action: "attack"
+        player: "KosXBlue"
+        attacker: "Silver Bullet"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 4
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Isaribi"
+      turn: 12
+    - card: "Gundam Exia Repair"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Minerva"
+      turn: 16
+    - card: "Hyakuren"
+      turn: 17
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 17
+  KosXBlue:
+    - card: "Gundam Lfrith"
+      turn: 8
+    - card: "Aegis Gundam"
+      turn: 9
+    - card: "Aile Strike Gundam"
+      turn: 11
+    - card: "Providence Gundam"
+      turn: 13
+    - card: "Gundam Lfrith"
+      turn: 17
+    - card: "Aile Strike Gundam"
+      turn: 17
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 10)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 2
+  KosXBlue:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "The idle-attacker pattern flagged in the last two games (vs Fusiki, vs cdawg) shows up again here, bigger: Gundam Barbatos Lupus deployed t13 and never once declared an attack for the rest of the game (t13, t15, t17 all pass with only its ping activated, never its own AP5 swing), despite nothing in its own ability text requiring it to rest when activated - the activation logs never show a 'Rested' line for it, unlike Isaribi's own activations which do. Three full turns of a top-end attacker sitting still is the largest version of this issue seen so far across the sample."
+  - "Same habit, sharper example: t17 paired Mikazuki Augus onto a freshly-deployed Shiden Custom (Ryusei-Go) - a true Link (its link field is any Tekkadan pilot), so it was eligible to attack that same turn per rule 3-2-6-3 - and it didn't attack either, on the very turn it came down. This is now a confirmed, repeatable pattern across 3 straight imported games, not a one-off: worth a standing habit of checking, every single turn, whether every attack-eligible unit on board actually swung before ending the turn."
+  - "That said, this game's actual execution elsewhere was clean, matching her own read of 'decently played': Gundam Exia Repair's own 'destroys an unpaired Lv.4-or-lower enemy Unit it damages' text picked off Gundam Lfrith outright at t8 even though Exia Repair itself died in the same trade - good awareness of a card doing more than its stat line suggests. Gundam Barbatos Lupus's ping-only activations (t13 x2, t17) still cleared Providence Gundam and chipped Sword Strike Gundam efficiently even without ever swinging."
+  - "KosXBlue's Close Combat has an odd recurring interaction worth flagging as a pattern rather than a play issue: revealed as one of Kiraya's own shields three separate times (t9, t13, t17), its burst-style trigger hit one of her OWN units each time (Hyakuren, Graze Custom, Ryusei-Go (Graze Custom Ⅱ)) rather than an enemy one - consistent enough across three instances that it looks like how this specific card's shield-reveal trigger actually works, not a random fluke."
+  - "Won by concession at t18 with KosXBlue already at 0 shields and no real board left - a clean, deserved close even without ever using Gundam Barbatos Lupus's actual attack."
