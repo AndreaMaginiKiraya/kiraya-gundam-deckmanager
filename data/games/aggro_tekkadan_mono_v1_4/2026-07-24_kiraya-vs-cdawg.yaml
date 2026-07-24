@@ -1,0 +1,894 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-24_kiraya-vs-cdawg"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya (concession)"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_4"
+    cdawg:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: its t10 Pair trigger returned Kiraya's Gundam Flauros (Ryusei-Go) (HP3) to hand - matches this card's own 'When Paired, Lv.4+ Pilot: choose 1 enemy Unit with 4 or less HP, return it to hand' text exactly; GD03-072's Deploy ability is draw-then-discard, unrelated. Same identification as the 2026-07-24 game vs Fusiki."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "cdawg"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "cdawg"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "cdawg"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Graze Custom and Zeheart Galette":
+    id: null
+    note: "parser artifact, not a real card: the raw log line 'Graze Custom and Zeheart Galette returned to hand' (t17, from cdawg's Graceful Demeanor) got parsed as one combined name. Both Graze Custom (ST05-004) and Zeheart Galette (GD03-094) are separately resolved elsewhere in this file."
+    owner: "Kiraya"
+    seen:
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Heavyarms":
+    id: "GD02-025"
+    note: "pinned: its t16 deploy immediately triggered 'Returned to deck top' - matches this card's own 'Deploy: look at the top card of your deck, return it to the top or bottom' text exactly. GD01-034 and ST02-003 both need to be paired with Trowa Barton for their (During Pair) abilities, and no such pairing was ever shown for this card."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "cdawg"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "cdawg"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Heero Yuy":
+    id: null
+    candidates:
+      - "GD05-098"
+      - "ST02-010"
+    note: "genuinely unresolved: neither candidate's distinguishing ability triggered cleanly in this log. Wing Gundam's HP after Linking didn't cleanly match either candidate's math (took 5 damage, left at 2 - implying 7 max HP, which neither ST02-001's 5 HP alone nor +1 from ST02-010's Link bonus explains), so likely another buff source wasn't fully tracked rather than pointing to one candidate over the other."
+    owner: "cdawg"
+    seen:
+      - "pilot"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Kira Yamato":
+    id: "ST04-010"
+    note: "pinned: all 3 combat instances this game (t10, t14, t18) show 'Kira Yamato: Modifier applied to' an ENEMY unit during an attack - matches this card's own 'Attack: choose 1 enemy Unit, it gets AP-2 during this battle' text; no 'draw a card' instance (GD05-081's own When Linked text) appears anywhere in this game, unlike the Fusiki/240pBrian games where both printings showed up."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "cdawg"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Launcher Strike Gundam":
+    id: "GD01-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "cdawg"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "cdawg"
+    seen:
+      - "command"
+      - "discarded"
+      - "milled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Striker Pack":
+    id: "ST04-012"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "cdawg"
+    seen:
+      - "command"
+  "Sword Strike Gundam":
+    id: "GD01-073"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "cdawg"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Underground Desert Base":
+    id: "GD01-126"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "cdawg"
+    seen:
+      - "base"
+      - "shield"
+  "Wing Gundam":
+    id: "ST02-001"
+    note: "pinned: t14's kill on Shiden Custom (Ryusei-Go) explicitly logged 'Breach 5: Minerva received 5 damage' - the exact printed Breach 5 keyword only this card has; GD01-040 is vanilla with no Breach at all. Also directly declared attacks against specific enemy Units (t14, t20), matching its own attack-target-choice text."
+    candidates:
+      - "GD01-040"
+      - "ST02-001"
+    owner: "cdawg"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Wing Gundam Zero":
+    id: "GD01-024"
+    type: "UNIT"
+    level: 8
+    cost: 8
+    ap: 5
+    hp: 7
+    owner: "cdawg"
+    seen:
+      - "shield"
+  "Wing Gundam Zero (EW)":
+    id: "GD05-067"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "cdawg"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "cdawg"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "cdawg"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "cdawg"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "cdawg"
+    actions:
+      - action: "play_command"
+        player: "cdawg"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Overflowing Affection discarded"
+      - action: "play_command"
+        player: "cdawg"
+        card: "Striker Pack"
+      - action: "deploy"
+        card: "Launcher Strike Gundam"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Lfrith"
+  - turn: 8
+    active_player: "cdawg"
+    actions:
+      - action: "play_command"
+        player: "cdawg"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Kira Yamato discarded"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+      - action: "deploy"
+        card: "Flat (Militia)"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Shiden Custom (Ryusei-Go) and Gundam Barbatos Adapt moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Lfrith received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+  - turn: 10
+    active_player: "cdawg"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Flauros (Ryusei-Go) returned to hand"
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Graze Custom"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 2 damage, leaving 3 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 12
+    active_player: "cdawg"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Flat (Militia)"
+        final_target: "Flat (Militia)"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Flat (Militia) received 3 damage, leaving 1 HP remaining"
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Flat (Militia)"
+  - turn: 14
+    active_player: "cdawg"
+    actions:
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Shiden Custom (Ryusei-Go)"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 3 damage, now destroyed"
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Wing Gundam received 4 damage, leaving 1 HP remaining"
+          - "Breach 5: : Minerva received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Wing Gundam"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Gusion Rebake and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero (EW), leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Graze Custom and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero (EW), now destroyed"
+  - turn: 16
+    active_player: "cdawg"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms"
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam Zero revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Overflowing Affection and Gundam Gusion Rebake moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "cdawg"
+            card: "Graceful Demeanor"
+            effects:
+              - "Graze Custom and Zeheart Galette returned to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Hyakuren and Hyakuren moved to trash"
+      - action: "play_base"
+        card: "Underground Desert Base"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Underground Desert Base revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 18
+    active_player: "cdawg"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Sword Strike Gundam"
+        linked: true
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Sword Strike Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos 1st Form returned to hand"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Sword Strike Gundam received 2 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Gundam Heavyarms"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Gundam Heavyarms received 2 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sword Strike Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Gundam Gusion Rebake and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero (EW), leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Heavyarms"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Gundam Lfrith"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Gundam Lfrith"
+        blockers: "none"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Gundam Lfrith received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Heero Yuy revealed"
+          - "Shield card added to hand: Heero Yuy"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 20
+    active_player: "cdawg"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Wing Gundam received 5 damage, leaving 2 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Rested unit: Gundam Barbatos 1st Form"
+          - "Shield cards: Hyakuren and Overflowing Affection revealed and discarded"
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Gundam Heavyarms"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+          - "Gundam Heavyarms received 5 damage, now destroyed"
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Gundam Lfrith"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Gundam Lfrith received 3 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Graze Custom discarded"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and Gundam Lfrith"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Barbatos 1st Form and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Lupus and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero (EW), now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Overflowing Affection revealed and discarded"
+  - turn: 22
+    active_player: "cdawg"
+    actions:
+      - action: "attack"
+        player: "cdawg"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Rested unit: Gundam Barbatos Lupus"
+          - "Gundam Flauros (Ryusei-Go) received 5 damage, now destroyed"
+          - "Wing Gundam Zero (EW) received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Wing Gundam"
+  - turn: 23
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam revealed and discarded"
+  - turn: 24
+    active_player: "cdawg"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Gundam Barbatos 1st Form"
+      turn: 13
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 14
+    - card: "Minerva"
+      turn: 14
+    - card: "Gundam Barbatos Adapt"
+      turn: 18
+    - card: "Gundam Barbatos Adapt"
+      turn: 18
+    - card: "Graze Custom"
+      turn: 19
+    - card: "Gundam Barbatos Lupus"
+      turn: 20
+    - card: "Isaribi"
+      turn: 20
+    - card: "Gundam Barbatos 1st Form"
+      turn: 20
+    - card: "Gundam Barbatos 1st Form"
+      turn: 20
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 22
+  cdawg:
+    - card: "Gundam Lfrith"
+      turn: 9
+    - card: "Aile Strike Gundam"
+      turn: 14
+    - card: "Wing Gundam Zero (EW)"
+      turn: 15
+    - card: "Sword Strike Gundam"
+      turn: 19
+    - card: "Underground Desert Base"
+      turn: 19
+    - card: "Gundam Lfrith"
+      turn: 19
+    - card: "Gundam Heavyarms"
+      turn: 20
+    - card: "Wing Gundam"
+      turn: 21
+    - card: "Wing Gundam Zero (EW)"
+      turn: 21
+    - card: "Wing Gundam Zero (EW)"
+      turn: 22
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 2
+  cdawg:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "The same idle-Link habit flagged in the 2026-07-24 game vs Fusiki showed up again, smaller this time: Gundam Barbatos 1st Form got Linked with Mikazuki Augus at t7 (already well past its own deploy turn, so fully eligible to attack by then regardless of Link) against a Gundam Lfrith it had just weakened with its own ping - and didn't attack. It waited until t9 to swing (one turn later than it needed to, versus the Fusiki game's three-turn version of the same thing). Worth treating as a real, repeatable pattern now rather than a one-off: check every turn whether an already-eligible attacker actually swung."
+  - "The good news: later in this same game she got the timing right. t19's fresh Gundam Barbatos 1st Form was Linked with Mikazuki Augus and attacked immediately the turn it deployed, alongside 3 other attacks and 2 Gundam Barbatos Lupus activations - so the rule itself isn't the gap, it's consistency in applying it every time a Link comes down."
+  - "cdawg's Graceful Demeanor (t17) bouncing both Graze Custom and its paired Zeheart Galette mid-combat was a real tempo hit, but it's an instant-speed trick with no visible tell beforehand - nothing to have played around."
+  - "Gundam Barbatos Lupus carried the closing stretch on pure graveyard fuel: t15 (2 activations killing Wing Gundam Zero (EW)), t19 (2 more clearing Sword Strike Gundam and chipping another), and t21 (2 activations alone killing both Wing Gundam and a second Wing Gundam Zero (EW)) - the engine that's been deciding most of these recent games did it again here."
+  - "t20 was a genuinely brutal, fully forced turn (four separate attacks, all 'No blockers available', wiping Gundam Barbatos Lupus, Isaribi, and both remaining Gundam Barbatos 1st Form copies) - not a defensive misplay, just the bill coming due after the previous turn's all-in left nothing back to block with. Winning anyway afterward, on a nearly empty board, was a genuine comeback."
+unparsed_lines:
+  - "[turn 16] Returned to deck top"
