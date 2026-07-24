@@ -1,0 +1,719 @@
+game:
+  id: "aggro_tekkadan_mono_v1_4/2026-07-25_kiraya-vs-dddragon"
+  date_imported: "2026-07-25"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:DDDRAGON"
+  players:
+    DDDRAGON:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_4"
+cards:
+  "0 Gundam":
+    id: "GD03-063"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "DDDRAGON"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "DDDRAGON"
+    seen:
+      - "command"
+  "Decisive Last Resort":
+    id: "GD02-111"
+    type: "COMMAND"
+    level: 5
+    cost: 4
+    owner: "DDDRAGON"
+    seen:
+      - "attacker"
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Exia":
+    id: "ST07-001"
+    note: "pinned: t12's 'Gundam Exia turn end: 1 resource set as active' matches this card's own unique text exactly ('At the end of your turn, if 7+ CB cards in trash, choose 1 of your Resources, set it active') - none of the other 3 candidates have this ability at all."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "DDDRAGON"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Exia (Trans-Am)":
+    id: "GD03-049"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 6
+    hp: 4
+    owner: "DDDRAGON"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "DDDRAGON"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_4'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Kyrios":
+    id: "GD04-034"
+    note: "pinned: DDDRAGON's deck is confirmed Purple/Red - this is the only non-Green candidate of the three (GD03-022 and ST07-007 are both Green, off-color)."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 1
+    hp: 4
+    owner: "DDDRAGON"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Kyrios (Flight Mode)":
+    id: "GD05-048"
+    note: "pinned: same color-legality logic - GD05-048 is Red, ST07-008 is Green (off-color for this Purple/Red deck)."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 1
+    owner: "DDDRAGON"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Virtue":
+    id: null
+    candidates:
+      - "GD03-052"
+      - "GD04-047"
+      - "ST07-003"
+      - "ST07-004"
+    note: "genuinely unresolved: both copies seen this game only ever appeared as shield reveals (t13 x2), never deployed to the battlefield, so no ability or combat evidence exists to distinguish between the 4 candidates (all 4 are Purple or Red, so color doesn't narrow it either)."
+    owner: "DDDRAGON"
+    seen:
+      - "exiled"
+      - "shield"
+  "Hallelujah Haptism":
+    id: "GD04-090"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "DDDRAGON"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Setsuna F. Seiei":
+    id: "ST07-009"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "DDDRAGON"
+    seen:
+      - "pilot"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Trinity Warship":
+    id: "GD04-125"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "DDDRAGON"
+    seen:
+      - "base"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "milled"
+      - "pilot"
+setup:
+  - player: "DDDRAGON"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "DDDRAGON"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "DDDRAGON"
+    actions:
+      - action: "deploy"
+        card: "0 Gundam"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "DDDRAGON"
+    actions:
+      - action: "deploy"
+        card: "Gundam Kyrios (Flight Mode)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "DDDRAGON"
+    actions:
+      - action: "play_base"
+        card: "Trinity Warship"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "DDDRAGON"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Exia discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Kyrios (Flight Mode)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Gundam Kyrios (Flight Mode) received 2 damage, now destroyed"
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "0 Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "0 Gundam received 2 damage, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Zeheart Galette discarded"
+  - turn: 8
+    active_player: "DDDRAGON"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia"
+      - action: "pair_pilot"
+        pilot: "Setsuna F. Seiei"
+        unit: "Gundam Exia"
+        linked: true
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Exia"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        modifiers:
+          - "Setsuna F. Seiei: Modifier applied to: Gundam Exia"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Gundam Exia received 4 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Zeheart Galette and Gundam Flauros (Ryusei-Go) moved to trash"
+          - "No targets for Zeheart Galette"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Trinity Warship"
+        outcome:
+          - "Trinity Warship received 5 damage, now destroyed"
+  - turn: 10
+    active_player: "DDDRAGON"
+    actions:
+      - action: "play_base"
+        card: "Trinity Warship"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Kyrios"
+      - action: "pair_pilot"
+        pilot: "Hallelujah Haptism"
+        unit: "Gundam Kyrios"
+        linked: true
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Kyrios"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Gundam Kyrios received 0 damage, leaving 5 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Graze Custom and Gundam Kyrios"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Minerva"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Kyrios"
+        blockers: "none"
+        final_target: "Gundam Kyrios"
+        outcome:
+          - "Gundam Kyrios received 4 damage, now destroyed"
+          - "Graze Custom received 5 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Trinity Warship"
+        outcome:
+          - "Trinity Warship received 6 damage, now destroyed"
+  - turn: 12
+    active_player: "DDDRAGON"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia"
+      - action: "deploy"
+        card: "Gundam Kyrios (Flight Mode)"
+        effects:
+          - "Gundam Exia turn end: 1 resource set as active"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Kyrios (Flight Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Gundam Virtue revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Setsuna F. Seiei revealed"
+          - "Shield card added to hand: Setsuna F. Seiei"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Virtue revealed and discarded"
+  - turn: 14
+    active_player: "DDDRAGON"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia (Trans-Am)"
+      - action: "pair_pilot"
+        pilot: "Setsuna F. Seiei"
+        unit: "Gundam Exia (Trans-Am)"
+        linked: true
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Exia (Trans-Am)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Setsuna F. Seiei: Modifier applied to: Gundam Exia"
+          - "Setsuna F. Seiei: Modifier applied to: Gundam Exia (Trans-Am)"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 9 damage, now destroyed"
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Exia"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+          - "Gundam Exia received 6 damage, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Exia (Trans-Am)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Gundam Exia (Trans-Am)"
+        blockers: "none"
+        final_target: "Gundam Exia (Trans-Am)"
+        outcome:
+          - "Gundam Exia (Trans-Am) received 5 damage, now destroyed"
+          - "Gundam Gusion Rebake received 8 damage, now destroyed"
+  - turn: 16
+    active_player: "DDDRAGON"
+    actions:
+      - action: "deploy"
+        card: "Gundam Kyrios (Flight Mode)"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 18
+    active_player: "DDDRAGON"
+    actions:
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Kyrios (Flight Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Kyrios"
+      - action: "pair_pilot"
+        pilot: "Hallelujah Haptism"
+        unit: "Gundam Kyrios"
+        linked: true
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Kyrios"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "play_command"
+        player: "DDDRAGON"
+        card: "Decisive Last Resort"
+        effects:
+          - "0 Gundam, Gundam Exia, Gundam Virtue, Gundam Virtue, Gundam Exia, Gundam Exia (Trans-Am) exiled from the game"
+          - "Decisive Last Resort: destroyed Graze Custom"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Gundam Kyrios (Flight Mode)"
+  - turn: 20
+    active_player: "DDDRAGON"
+    actions:
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "attack"
+        player: "DDDRAGON"
+        attacker: "Gundam Kyrios"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  DDDRAGON:
+    - card: "Gundam Kyrios (Flight Mode)"
+      turn: 6
+    - card: "0 Gundam"
+      turn: 6
+    - card: "Gundam Exia"
+      turn: 8
+    - card: "Trinity Warship"
+      turn: 9
+    - card: "Gundam Kyrios"
+      turn: 11
+    - card: "Trinity Warship"
+      turn: 11
+    - card: "Gundam Exia"
+      turn: 14
+    - card: "Gundam Exia (Trans-Am)"
+      turn: 15
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 8
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 11
+    - card: "Isaribi"
+      turn: 14
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 15
+    - card: "Graze Custom"
+      turn: 18
+shields_tally:
+  DDDRAGON:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Re-checked every Mikazuki Augus/Zeheart Galette pairing this game against the corrected read (pairing is often just for the ping or a stat/defense buff, not to unlock an attack) - and every instance here fits that: t15 and t19 paired Mikazuki purely for the ping (onto Gundam Gusion Rebake and Hyakuren, neither of which even links with Mikazuki - both are plain pairings for the 1-damage value only), and t15's Rebake still attacked the same turn anyway once the ping had softened its target. Nothing to flag from any of these."
+  - "The one real tempo question is different in kind: t7, Gundam Barbatos 1st Form was simply standing, unpaired, fully past its deploy-turn restriction, against a completely empty DDDRAGON board (both his t6 attackers had traded off), and didn't attack at all that turn. No pairing was involved here, so this isn't the ping-vs-attack pattern - it's a plain unused free attack. Worth a light note, not a strong one: DDDRAGON hadn't shown any removal yet at that point so there's no obvious defensive reason found for holding back."
+  - "t11 and t13 both correctly used the Link-immediate-attack rule: Shiden Custom (Ryusei-Go) at t11 and Gundam Flauros (Ryusei-Go) at t13 both got Linked with Mikazuki Augus and swung the same turn they were paired, right after the ping resolved - good execution matching what should happen every time a true Link comes down mid-combat-turn."
+  - "DDDRAGON's list is a real Setsuna F. Seiei/Gundam Exia buff-stacking Celestial Being deck, closing with a 6-card Decisive Last Resort at t18 that single-handedly removed Kiraya's last unit - a graveyard payoff that only a long, grindy game lets a control-leaning CB deck actually assemble. The loss came down to that late-game power spike rather than any specific misplay on Kiraya's side."
