@@ -1,0 +1,592 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-24_kiraya-vs-ironman655"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+    Ironman655:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "GN Armor (Type-E)":
+    id: "GD03-057"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Ironman655"
+    seen:
+      - "attacker"
+      - "deployed"
+  "GN Armor Type-E":
+    id: "GD04-063"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Ironman655"
+    seen:
+      - "deployed"
+      - "milled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Exia":
+    id: "GD04-038"
+    note: "pinned: its t6 deploy immediately dealt exactly 2 damage destroying Gundam Exia Repair - matches GD04-038's own Deploy text ('if 2+ enemy Units in play, choose 1 enemy Unit Lv.2 or lower, deal 2 damage'; Kiraya had 3 Units in play). The other 3 candidates are vanilla or have unrelated abilities."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 1
+    owner: "Ironman655"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Exia (Trans-Am)":
+    id: "GD03-049"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 6
+    hp: 4
+    owner: "Ironman655"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Ironman655"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Gundam Kyrios":
+    id: "GD04-034"
+    note: "pinned: never deployed this game (only milled/drawn) so no combat evidence, but Ironman655's deck is confirmed Purple/Red only (per every other resolved card) - this is the only non-Green candidate of the three."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 1
+    hp: 4
+    owner: "Ironman655"
+    seen:
+      - "added to hand"
+      - "milled"
+  "Gundam Kyrios (Flight Mode)":
+    id: "GD05-048"
+    note: "pinned: attacked the very turn it was deployed (t8, vs a Gundam Barbatos 1st Form that was already rested from attacking t7) - matches GD05-048's own text ('on the turn this Unit is deployed, it may choose a rested enemy Unit as its attack target and attack it'); ST07-008 is vanilla and also Green, off-color for this Purple/Red deck."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 1
+    owner: "Ironman655"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Kyrios (Trans-Am)":
+    id: "GD04-037"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Ironman655"
+    seen:
+      - "shield"
+  "Gundam Throne Eins":
+    id: "GD04-036"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 2
+    owner: "Ironman655"
+    seen:
+      - "shield"
+  "Gundam Virtue":
+    id: "ST07-004"
+    note: "pinned: it blocked Hyakuren at t7 despite none of the 4 candidates having Blocker outright - ST07-004 is the only one whose Blocker is conditional ('while you have a CB Pilot in play'), and Nena Trinity (a CB Pilot) was paired to it that same turn, satisfying the condition. AP3 dealt back to Hyakuren also matches (the other AP3 options, GD03-052/GD04-047, don't have the conditional-Blocker text at all; ST07-003 is AP5, ruled out by the 3 damage dealt). The HP math (took 4, left at 2, i.e. 6 max HP) doesn't cleanly match any candidate's printed HP (3/1/4/3) - Nena Trinity's own paired-stat bonus is nulled in the local DB (a known egmanevents Pilot-stat gap, see CLAUDE.md), so likely explains the gap rather than a wrong id pin."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Ironman655"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Hallelujah Haptism":
+    id: "GD04-090"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Ironman655"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nena Trinity":
+    id: "GD04-089"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Ironman655"
+    seen:
+      - "pilot"
+  "Setsuna F. Seiei":
+    id: "ST07-009"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Ironman655"
+    seen:
+      - "pilot"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  Trinity:
+    id: "GD04-111"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Ironman655"
+    seen:
+      - "shield"
+  "Trinity Warship":
+    id: "GD04-125"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Ironman655"
+    seen:
+      - "base"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Ironman655"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Ironman655"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Ironman655"
+    actions:
+      - action: "deploy"
+        card: "Gundam Virtue"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "Ironman655"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia"
+        effects:
+          - "Gundam Exia: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Gundam Barbatos Lupus moved to trash"
+      - action: "pair_pilot"
+        pilot: "Nena Trinity"
+        unit: "Gundam Virtue"
+        linked: false
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Exia"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Gundam Virtue"
+        final_target: "Gundam Virtue"
+        outcome:
+          - "Gundam Virtue received 4 damage, leaving 2 HP remaining"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Virtue"
+        blockers: "none"
+        final_target: "Gundam Virtue"
+        outcome:
+          - "Gundam Virtue received 2 damage, now destroyed"
+          - "Graze Custom received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 8
+    active_player: "Ironman655"
+    actions:
+      - action: "deploy"
+        card: "Gundam Kyrios (Flight Mode)"
+      - action: "attack"
+        player: "Ironman655"
+        attacker: "Gundam Kyrios (Flight Mode)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+          - "Gundam Kyrios (Flight Mode) received 5 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Kyrios (Trans-Am) revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "Ironman655"
+    actions:
+      - action: "play_base"
+        card: "Trinity Warship"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: GN Armor Type-E and Gundam Kyrios moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Trinity Warship"
+        outcome:
+          - "Trinity Warship received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Hyakuren and Graze Custom moved to trash"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 12
+    active_player: "Ironman655"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia (Trans-Am)"
+      - action: "pair_pilot"
+        pilot: "Setsuna F. Seiei"
+        unit: "Gundam Exia (Trans-Am)"
+        linked: true
+      - action: "attack"
+        player: "Ironman655"
+        attacker: "Gundam Exia (Trans-Am)"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        modifiers:
+          - "Setsuna F. Seiei: Modifier applied to: Gundam Exia (Trans-Am)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 9 damage, now destroyed"
+          - "Gundam Exia (Trans-Am) received 6 damage, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Throne Eins revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia (Trans-Am) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Trinity revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+  - turn: 14
+    active_player: "Ironman655"
+    actions:
+      - action: "deploy"
+        card: "GN Armor Type-E"
+        effects:
+          - "No targets for GN Armor Type-E"
+      - action: "deploy"
+        card: "GN Armor (Type-E)"
+      - action: "pair_pilot"
+        pilot: "Hallelujah Haptism"
+        unit: "GN Armor (Type-E)"
+        linked: true
+      - action: "attack"
+        player: "Ironman655"
+        attacker: "GN Armor (Type-E)"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "GN Armor (Type-E) received 3 damage, leaving 2 HP remaining"
+          - "Card added to hand: Gundam Kyrios"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Barbatos 1st Form discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+  Ironman655:
+    - card: "Gundam Virtue"
+      turn: 7
+    - card: "Gundam Kyrios (Flight Mode)"
+      turn: 8
+    - card: "Trinity Warship"
+      turn: 11
+    - card: "Gundam Exia (Trans-Am)"
+      turn: 12
+  unattributed:
+    - card: "Gundam Exia Repair"
+      turn: 6
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 11)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Ironman655:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Genuinely clean game on Kiraya's side - checked every ping target, every blocker assignment, and the HP/AP math on every trade, and none of it holds up as a mistake this time. The 'flat' feel is right: a fast, uneventful curve (t3 Gundam Exia Repair, t5 double deploy, t7 double kill) built a lead against a Celestial Being (Gundam 00) deck that never got room to chain its bigger Trans-Am payoffs, and the game closed at t15 without a real crisis point."
+  - "Bad variance, not a misplay: t6's Gundam Exia Repair death milled both copies of Gundam Barbatos Lupus at once, losing the deck's whole finisher line by turn 6. Won anyway on curve and combat trades alone, without ever needing Lupus - worth remembering as evidence the deck can close games on its aggro fundamentals when the top end doesn't show up."
+  - "t7 was the best-played turn: Mikazuki Augus's ping correctly targeted the enemy Gundam Exia (which should have died outright to it - see the parser-gap note below) while Hyakuren traded into a blocked attack, and Graze Custom immediately finished off the now-2-HP Gundam Virtue left behind rather than letting it stick around - recognizing and following up on a wounded blocker in the same turn is exactly the right instinct."
+  - "Airframe Seizure (v1_5's new draw engine) did solid work at t15: discarded a by-then-spare Gundam Barbatos 1st Form from hand to draw 2, finding what was needed to close the game out that same turn. A clean example of the card converting a redundant copy into gas."
+  - "Recurring log/parser gap, not a missed kill: t7's Mikazuki Augus ping hit the enemy Gundam Exia (GD04-038, printed HP1) for 1 damage, which should have destroyed it outright, but no destroy event appears in the log and it's never referenced again on the battlefield afterward either way - consistent with the same anomaly class seen in prior games (Ez8, Barbatos Lupus Rex, Lfrith, RYOMARU's Char's Zaku Ⅱ token, Hichem's Aegis Gundam)."
