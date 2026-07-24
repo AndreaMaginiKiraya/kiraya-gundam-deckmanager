@@ -1,0 +1,730 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-24_kiraya-vs-bill"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya (concession)"
+  players:
+    Bill:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Bill"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: t7's 'Rested unit: Shiden Custom (Ryusei-Go)' matches this card's own 'When Paired: choose 1 enemy Unit with 5 or less HP, rest it' text exactly (Shiden Custom is HP3); GD05-085's ability is a self-heal-on-kill, unrelated to resting anything."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Bill"
+    seen:
+      - "pilot"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "at least one instance (the t7 deploy, destroyed t8) is confirmed ST01-001 - its end-of-turn heal is logged verbatim as 'Gundam repaired 2 from [Repair 2]', the exact keyword text only this printing has. A later instance (destroyed at t18 by two 2-damage Gundam Barbatos Lupus activations, i.e. exactly 4 HP) narrows to the HP4 candidates (GD01-013 / GD04-008 / ST01-001 - the two HP3 ones are ruled out) but can't be pinned further; Bill may simply run a second ST01-001 copy or a different HP4 printing."
+    owner: "Bill"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "genuinely unresolved: both candidates are on-color for this Blue/Green deck, both are near-vanilla (GD01-016's only text is a cost-reduction condition, GD05-027 has none), and the one combat data point (t7, dealt 3 damage) doesn't match either printing's AP2 - likely a temporary buff neither candidate's own text explains."
+    owner: "Bill"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Bill"
+    seen:
+      - "attacker"
+      - "deployed"
+  Kindhearted:
+    id: "GD04-101"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Bill"
+    seen:
+      - "command"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Nu Gundam":
+    id: "GD05-020"
+    note: "pinned: both deploys (t11, t13) immediately triggered 'Placed 1 Resource EX' - matches this card's own Deploy text ('if 2+ Londo Bell cards in trash, place 1 EX Resource') exactly; GD05-017 has no such ability."
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    owner: "Bill"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Bill"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "Bill"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+setup:
+  - player: "Bill"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Bill"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Bill"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "Bill"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Bill"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 7
+    active_player: "Bill"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Jegan"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Jegan received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Re-GZ BWS"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Re-GZ BWS received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Gundam"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 6 damage, now destroyed"
+          - "Gundam received 2 damage, leaving 3 HP remaining"
+          - "Gundam Exia Repair milled 2: Airframe Seizure and Gundam Barbatos 1st Form moved to trash"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "Bill"
+    actions:
+      - action: "play_command"
+        player: "Bill"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Bill"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 11
+    active_player: "Bill"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "activate"
+        card: "Ra Cailum"
+        effects:
+          - "Rested base: Ra Cailum"
+          - "Ra Cailum: Modifier applied to: Nu Gundam"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 3: : Minerva received 3 damage, leaving 2 HP remaining"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Nu Gundam"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Nu Gundam, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Nu Gundam received 3 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+  - turn: 13
+    active_player: "Bill"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "activate"
+        card: "Ra Cailum"
+        effects:
+          - "Rested base: Ra Cailum"
+          - "Ra Cailum: Modifier applied to: Nu Gundam"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Breach 3: : Minerva received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 15
+    active_player: "Bill"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "play_command"
+        player: "Bill"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "Bill"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+      - action: "play_command"
+        player: "Bill"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "activate"
+        card: "Ra Cailum"
+        effects:
+          - "Rested base: Ra Cailum"
+          - "Ra Cailum: Modifier applied to: Nu Gundam"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zeheart Galette revealed"
+          - "Shield card added to hand: Zeheart Galette"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 6 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Hyakuren and Gundam Barbatos Adapt moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Ra Cailum received 5 damage, now destroyed"
+      - action: "play_base"
+        card: "Ra Cailum"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Ra Cailum revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Mikazuki Augus and Isaribi moved to trash"
+  - turn: 17
+    active_player: "Bill"
+    actions:
+      - action: "activate"
+        card: "Ra Cailum"
+        effects:
+          - "Rested base: Ra Cailum"
+          - "Ra Cailum: Modifier applied to: Kayra's Re-GZ"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "deploy"
+        card: "Jegan"
+      - action: "attack"
+        player: "Bill"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 3 damage, leaving 1 HP remaining"
+          - "Gundam received 3 damage, now destroyed"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Hyakuren and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam, now destroyed"
+casualties:
+  Bill:
+    - card: "Jegan"
+      turn: 7
+    - card: "Re-GZ BWS"
+      turn: 7
+    - card: "Gundam"
+      turn: 8
+    - card: "Nu Gundam"
+      turn: 12
+    - card: "Nu Gundam"
+      turn: 16
+    - card: "Ra Cailum"
+      turn: 16
+    - card: "Gundam"
+      turn: 17
+    - card: "Ra Cailum"
+      turn: 18
+    - card: "Gundam"
+      turn: 18
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 7
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Minerva"
+      turn: 13
+    - card: "Gundam Exia Repair"
+      turn: 16
+shields_tally:
+  Bill:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "replaced with a base (turn 8)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "Solidly played win by concession against a Blue/Green Earth Federation (Amuro Ray/White Base/Londo Bell) deck. t4's Gundam Exia Repair attack landed on the very next eligible turn this time (unlike the 240pBrian game) - no repeat of that tempo miss."
+  - "Double-checked t11's blocking call since it looked suspicious at first glance: assigning Shiden Custom (Ryusei-Go) to block a buffed Nu Gundam attack also let its Breach 3 trigger, chipping Minerva for 3 anyway. But Breach only fires when the attacker destroys a Unit with battle damage - had she NOT blocked, the boosted attack would have hit Minerva directly for its full (much higher) AP instead of the fixed 3, very likely destroying it outright in one hit rather than leaving it at 2 HP. Blocking was correct: it traded Shiden Custom to cap the damage Minerva actually took, not a misplay."
+  - "Worth remembering for future games against this same opponent/archetype: Amuro Ray's (ST01-010) own Pair trigger rests an enemy Unit with 5 or less HP - used twice this game specifically to tap down Kiraya's only standing Blocker-capable unit (Shiden Custom at t7, Gundam Gusion Rebake at t13) right before an attack, denying the block outright rather than fighting through it. A real tech pattern to watch for, not something reactable in the moment once it resolves."
+  - "Gundam Barbatos Lupus's exile engine closed the game again at t18, chaining two activations off cards already in the trash (both Barbatos 1st Form copies, Hyakuren, Barbatos Adapt, Graze Custom, Shiden Custom) for 4 total damage to finish off Bill's last threat - the same pattern that's been carrying wins across these last few games."
+  - "Bad variance kept compounding, same as recent games: Gundam Exia Repair's self-mill fired twice (t7: Airframe Seizure + Gundam Barbatos 1st Form; t16: Hyakuren + Gundam Barbatos Adapt) and Zeheart Galette's mill hit real cards once more (t16: Mikazuki Augus + Isaribi). Didn't cost the game this time, but it's the same recurring pattern worth tracking across the sample."
+unparsed_lines:
+  - "[turn 11] Nu Gundam received 4 damage, reduced by 1, leaving 3 HP remaining"
+  - "[turn 13] Nu Gundam received 3 damage, reduced by 1, leaving 3 HP remaining"
+  - "[turn 15] Returned to deck top"
+  - "[turn 17] Kayra's Re-GZ received 3 damage, reduced by 1, leaving 1 HP remaining"
