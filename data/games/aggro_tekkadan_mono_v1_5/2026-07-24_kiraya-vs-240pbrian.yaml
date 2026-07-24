@@ -1,0 +1,704 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-24_kiraya-vs-240pbrian"
+  date_imported: "2026-07-24"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:240pBrian (concession, t21 - the pasted log cuts off right after 'Turn 21 started!' with no lethal event and Kiraya still at 2 shields remaining; confirmed by her directly that she conceded seeing an empty board against Kshatriya + a freshly-deployed second Strike Freedom Gundam)"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_5"
+    "240pBrian":
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "240pBrian"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "240pBrian"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "discarded"
+  "Battle of Aces":
+    id: "GD01-111"
+    type: "COMMAND"
+    level: 3
+    cost: 2
+    owner: "240pBrian"
+    seen:
+      - "command"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "240pBrian"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "240pBrian"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to deck"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "240pBrian"
+    seen:
+      - "command"
+      - "discarded"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "pinned: both t14 and t20 Links triggered 'Kira Yamato: Draw a card' - matches this card's own 'When Linked: if this is an Orb/Triple Ship Alliance Unit, draw 1' text exactly (Strike Freedom Gundam qualifies); ST04-010 has no draw ability at all (its text is an Attack:AP-2 debuff)."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "240pBrian"
+    seen:
+      - "pilot"
+  Kshatriya:
+    id: "GD01-044"
+    note: "pinned: its t18 Paired trigger hit 2 separate targets in one activation ('Dealt 1 damage to: Gundam Barbatos Lupus and Gundam Exia Repair') - matches this card's own 'choose 1 to 2 enemy Units, deal 1 damage to them' text exactly; GD01-051 is a vanilla unit with no ability at all."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "240pBrian"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "240pBrian"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "240pBrian"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "returned to deck"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "240pBrian"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "240pBrian"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "240pBrian"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "240pBrian"
+    actions:
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Airframe Seizure"
+        effects:
+          - "Improved Technique discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "240pBrian"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 6
+    active_player: "240pBrian"
+    actions:
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Barbatos Lupus discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 8
+    active_player: "240pBrian"
+    actions:
+      - action: "play_command"
+        player: "240pBrian"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Ryusei-Go (Graze Custom Ⅱ) and Zeheart Galette moved to trash"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 10
+    active_player: "240pBrian"
+    actions:
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Darkness Finger discarded"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 4 damage, leaving 2 HP remaining"
+  - turn: 12
+    active_player: "240pBrian"
+    actions:
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Airframe Seizure"
+        effects:
+          - "Strike Freedom Gundam discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Gusion Rebake, leaving 3 HP remaining"
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Battle of Aces"
+        effects:
+          - "Battle of Aces: Dealt 3 damage to Gundam Gusion Rebake, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Marida Cruz revealed"
+          - "Shield card added to hand: Marida Cruz"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+  - turn: 14
+    active_player: "240pBrian"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "240pBrian"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Kiraya"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Strike Freedom Gundam, leaving 6 HP remaining"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Kshatriya and Kshatriya discarded"
+          - "Ryusei-Go (Graze Custom Ⅱ) returned to deck"
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 4 damage, leaving 2 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Freedom Gundam"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Gusion Rebake and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Freedom Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Marida Cruz revealed"
+          - "Shield card added to hand: Marida Cruz"
+  - turn: 16
+    active_player: "240pBrian"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "attack"
+        player: "240pBrian"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "Isaribi"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Barbatos 1st Form, now destroyed"
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Isaribi received 7 damage, now destroyed"
+      - action: "attack"
+        player: "240pBrian"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Barbatos Adapt, leaving 3 HP remaining"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Damage prevented"
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 0 damage, leaving 5 HP remaining"
+      - action: "play_command"
+        player: "240pBrian"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos 1st Form and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Unicorn Gundam 02 Banshee (Destroy Mode), leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        blockers: "none"
+        final_target: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        outcome:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 2 damage, leaving 1 HP remaining"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Unicorn Gundam 02 Banshee (Destroy Mode), now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 18
+    active_player: "240pBrian"
+    actions:
+      - action: "deploy"
+        card: "Kshatriya"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Kshatriya"
+        linked: true
+        effects:
+          - "Kshatriya: Dealt 1 damage to: Gundam Barbatos Lupus and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Gundam Gusion Rebake and Shiden Custom (Ryusei-Go) moved to trash"
+      - action: "attack"
+        player: "240pBrian"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Marida Cruz"
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "play_command"
+        player: "240pBrian"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 20
+    active_player: "240pBrian"
+    actions:
+      - action: "play_command"
+        player: "240pBrian"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Hyakuren, leaving 1 HP remaining"
+      - action: "attack"
+        player: "240pBrian"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Hyakuren, now destroyed"
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Kshatriya and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "240pBrian"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Airframe Seizure and Darkness Finger discarded"
+          - "Gundam Barbatos Lupus returned to deck"
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 21
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 5
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 10
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 14
+    - card: "Gundam Barbatos 1st Form"
+      turn: 16
+    - card: "Isaribi"
+      turn: 16
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+    - card: "Gundam Barbatos Adapt"
+      turn: 17
+    - card: "Gundam Exia Repair"
+      turn: 18
+      inferred: true
+    - card: "Hyakuren"
+      turn: 20
+  "240pBrian":
+    - card: "Mining Asteroid Palau"
+      turn: 13
+    - card: "Strike Freedom Gundam"
+      turn: 15
+    - card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      turn: 17
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+  "240pBrian":
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - "This wasn't 'the deck sucks' - it was one of the hardest possible matchups. 240pBrian ran 7 separate one-for-one removal casts (Close Combat x2, Improved Technique x2, Darkness Finger x2, Battle of Aces x1), 2 copies of Strike Freedom Gundam plus Unicorn Gundam 02 Banshee and Kshatriya as finishers, all backed by 5 separate draw-2 effects (Airframe Seizure x2, A Show of Resolve x3 = 10 extra cards seen). That's a control shell built almost entirely to answer exactly what this deck does - deploy efficient units one at a time - and the game still went 21 turns and stayed close (Kiraya still had 2 shields left at the concession)."
+  - "One real, checkable tempo miss, but small and isolated: Gundam Exia Repair came down t3 and was fully eligible to attack by t5 (her very next turn) against a completely empty enemy board - yet she deployed 2 more units that turn (Hyakuren, Graze Custom) without declaring any attack with it at all. Against a slow removal-control deck racing to assemble bombs, every free turn of unopposed damage matters, and this one turn of pressure was left on the table for no reason. Not a pattern, though - every other eligible turn (t7, t9, t11, t13, t15, t17) she attacked without hesitation."
+  - "Gundam Barbatos Lupus's exile engine earned its cost this game: t15 converted 3 already-dead cards into the 2 damage that, combined with a fresh ping, finished off the first Strike Freedom Gundam; t17 chained two separate activations plus a Barbatos Adapt sacrifice-attack to grind down and kill Unicorn Gundam 02 Banshee (Destroy Mode) - correctly recognizing when the graveyard had enough fuel to answer a real bomb."
+  - "Bad variance stacked on top of a hard matchup: Gundam Exia Repair's own destroyed-mill fired twice (t8: Ryusei-Go + Zeheart Galette; t18: Gundam Gusion Rebake + Shiden Custom (Ryusei-Go)), removing 4 cards from the deck without ever drawing them, on top of the units actually lost to removal."
+  - "The t21 concession was the correct read, not premature - by then the board was Kshatriya plus a second, freshly-deployed Strike Freedom Gundam against nothing on Kiraya's side, with no shown resources left to answer either."
