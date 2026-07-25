@@ -1,0 +1,930 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-25_kiraya-vs-chebycheff"
+  date_imported: "2026-07-25"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya (concession)"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+    Chebycheff:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "pinned: its t12 Pair trigger bounced Kiraya's Gundam Flauros (Ryusei-Go) to hand - matches this card's own 'When Paired, Lv.4+ Pilot: choose 1 enemy Unit with 4 or less HP, return it to hand' text exactly. Cross-confirms Riddhe Marcenas must be the Lv.4 printing (GD04-098), since the Lv.3 one (GD01-089) wouldn't have met this condition."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Chebycheff"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to deck"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Kira Yamato":
+    id: null
+    note: "both printings observed: GD05-081 at t10 ('Kira Yamato: Draw a card' right after Linking - matches its own 'When Linked: draw 1' text) and ST04-010 at t18 (x2) and t20 ('Kira Yamato: Modifier applied to' an ENEMY unit during an attack - matches its own Attack:AP-2 text, which GD05-081 has no equivalent of). Same mixed-printing pattern seen in the Fusiki and 240pBrian games."
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    owner: "Chebycheff"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Chebycheff"
+    seen:
+      - "command"
+  Parts:
+    id: null
+    note: "not a real card - Reineforce Jr.'s (GD04-121) own Deploy token (AP1/HP1, can't attack the enemy player), correctly absent from the card database"
+    owner: "Chebycheff"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Chebycheff"
+    seen:
+      - "base"
+      - "shield"
+  "Riddhe Marcenas":
+    id: "GD04-098"
+    note: "pinned: pairing it onto Aile Strike Gundam (ST04-001) at t12 triggered that card's own 'When Paired, Lv.4+ Pilot' bounce ability - only the Lv.4 printing (this one) satisfies that condition; GD01-089 is Lv.3."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Chebycheff"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Chebycheff"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "pinned: the documented Linked-unit display quirk (see CLAUDE.md) - Mobile Suit Arena renders a Linked Unit as '<base name> (<Pilot>'s Unit)' instead of its printed name. The real card is 'Kira's Strike Rouge' (link field [Kira Yamato])."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Chebycheff"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Chebycheff"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Chebycheff"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Victory Gundam":
+    id: "GD04-003"
+    note: "pinned: died to exactly 4 damage at t8, matching this printing's HP4 exactly (GD04-011 is HP2, would be a lesser overkill); also never showed a Parts-token-deploy on death across 2 separate destructions (t8, t21) despite other League Militaire units usually being in play at the time, which GD04-011's own Destroyed trigger would very likely have fired at least once."
+    candidates:
+      - "GD04-003"
+      - "GD04-011"
+    owner: "Chebycheff"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Chebycheff"
+    seen:
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Chebycheff"
+    seen:
+      - "discarded"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Chebycheff"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Chebycheff"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "Chebycheff"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "Chebycheff"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Zoloat (League Militaire), now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Parts"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 2 damage, now destroyed"
+  - turn: 8
+    active_player: "Chebycheff"
+    actions:
+      - action: "play_command"
+        player: "Chebycheff"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Riddhe Marcenas discarded"
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Victory Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Victory Gundam received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "play_command"
+        player: "Chebycheff"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Victory Gundam discarded"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 2 damage, now destroyed"
+  - turn: 10
+    active_player: "Chebycheff"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Kira's Unit)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Parts"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Parts received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Darkness Finger and Gundam Barbatos 1st Form moved to trash"
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Strike Rouge (Kira's Unit) received 2 damage, leaving 4 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Reineforce Jr."
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Reineforce Jr. revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Strike Rouge (Kira's Unit)"
+        blockers: "none"
+        final_target: "Strike Rouge (Kira's Unit)"
+        outcome:
+          - "Strike Rouge (Kira's Unit) received 2 damage, leaving 2 HP remaining"
+          - "Graze Custom received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Strike Rouge (Kira's Unit)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Kira's Unit)"
+  - turn: 12
+    active_player: "Chebycheff"
+    actions:
+      - action: "play_command"
+        player: "Chebycheff"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "V-Dash Gundam discarded"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Riddhe Marcenas"
+        unit: "Aile Strike Gundam"
+        linked: false
+        effects:
+          - "Gundam Flauros (Ryusei-Go) returned to hand"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 4 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Aile Strike Gundam"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 14
+    active_player: "Chebycheff"
+    actions:
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Aile Strike Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Gusion Rebake and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos 1st Form and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Aile Strike Gundam, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 16
+    active_player: "Chebycheff"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "V-Dash Gundam"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Graze Custom and V-Dash Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 3 damage, leaving 1 HP remaining"
+          - "Gundam Gusion Rebake received 3 damage, leaving 2 HP remaining"
+  - turn: 18
+    active_player: "Chebycheff"
+    actions:
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose V-Dash Gundam and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+      - action: "activate"
+        card: "V-Dash Gundam"
+        effects:
+          - "Rested unit: Parts"
+          - "Rested unit: Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "V-Dash Gundam"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 4 damage, now destroyed"
+          - "V-Dash Gundam received 5 damage, now destroyed"
+          - "Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Lupus"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Victory Gundam and Üso Ewin discarded"
+          - "Victory Gundam and Üso Ewin discarded"
+          - "Victory Gundam and Üso Ewin discarded"
+          - "Graze Custom returned to deck"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, leaving 4 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Ootori)"
+        linked: false
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 1 damage, leaving 1 HP remaining"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 2 damage, leaving 2 HP remaining"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Gusion Rebake and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Freedom Gundam, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 20
+    active_player: "Chebycheff"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "deploy"
+        card: "V-Dash Gundam"
+      - action: "activate"
+        card: "V-Dash Gundam"
+        effects:
+          - "Rested unit: Parts"
+          - "Rested unit: Graze Custom"
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Graze Custom"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 0 damage, leaving 1 HP remaining"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Flauros (Ryusei-Go) and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Rouge (Ootori), now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Victory Gundam, now destroyed"
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 5 damage, now destroyed"
+  - turn: 22
+    active_player: "Chebycheff"
+    actions:
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Parts"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 1 damage, leaving 4 HP remaining"
+          - "Parts received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "V-Dash Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 4 damage, now destroyed"
+          - "V-Dash Gundam received 5 damage, now destroyed"
+          - "Breach 3: : Isaribi received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Victory Gundam"
+  - turn: 23
+    active_player: "Kiraya"
+    actions: []
+  - turn: 24
+    active_player: "Chebycheff"
+    actions:
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+  - turn: 25
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Ryusei-Go (Graze Custom Ⅱ) and Shiden Custom (Ryusei-Go) moved to trash"
+  - turn: 26
+    active_player: "Chebycheff"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Victory Gundam"
+        linked: false
+      - action: "attack"
+        player: "Chebycheff"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zeheart Galette revealed"
+          - "Shield card added to hand: Zeheart Galette"
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Gundam Barbatos Adapt"
+      turn: 15
+    - card: "Hyakuren"
+      turn: 17
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 18
+    - card: "Gundam Barbatos Lupus"
+      turn: 18
+    - card: "Gundam Gusion Rebake"
+      turn: 18
+    - card: "Gundam Barbatos Adapt"
+      turn: 19
+    - card: "Graze Custom"
+      turn: 20
+    - card: "Gundam Barbatos Lupus"
+      turn: 22
+    - card: "Isaribi"
+      turn: 22
+  Chebycheff:
+    - card: "Zoloat (League Militaire)"
+      turn: 7
+    - card: "Reineforce Jr."
+      turn: 7
+    - card: "Victory Gundam"
+      turn: 8
+    - card: "Reineforce Jr."
+      turn: 9
+    - card: "Parts"
+      turn: 10
+    - card: "Aile Strike Gundam"
+      turn: 15
+    - card: "Aile Strike Gundam"
+      turn: 15
+    - card: "Strike Rouge (Ootori)"
+      turn: 17
+    - card: "Reineforce Jr."
+      turn: 17
+    - card: "V-Dash Gundam"
+      turn: 18
+    - card: "Strike Freedom Gundam"
+      turn: 19
+    - card: "Strike Rouge (Ootori)"
+      turn: 21
+    - card: "Victory Gundam"
+      turn: 21
+    - card: "Reineforce Jr."
+      turn: 21
+    - card: "Parts"
+      turn: 22
+    - card: "V-Dash Gundam"
+      turn: 22
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 13)"
+    shields_lost: 1
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 3
+  Chebycheff:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 4
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "One of the cleanest, most complete games in the sample - 26 turns against a genuinely resilient League Militaire/SEED hybrid (Reineforce Jr. replayed 4 separate times, 2 Overflowing Affections, a second Strike Freedom Gundam appearing after the first got discarded as a shield) and no real misplay found on close review. Good evidence that the deck and the play can grind out even a long, recursive-value opponent, not just fast openings against empty boards."
+  - "Gundam Barbatos Lupus carried this one twice over: the first copy's t19 activation finished off Strike Freedom Gundam #2 right after a combat chip (2+2 damage exactly closing a 4-HP gap), and a second copy deployed the same turn Lupus #1 died kept the engine running through t21, killing Strike Rouge (Ootori) and Victory Gundam in the same turn. Running it as a 4-of is clearly pulling its weight across a long game like this."
+  - "t9's decision to spend three attacks in a row finishing off Reineforce Jr. rather than going after shields directly was the right call given how much value that base kept generating on redeploy (shield-to-hand plus a Parts token each time) - denying a recurring engine piece is worth more than a shield in this specific matchup."
+  - "Recurring log/parser gap again: t11's Kira's Strike Rouge (GD05-010) took what should have been lethal chip damage across three separate hits (Graze Custom's attack, then two pings) without ever showing a destroy event, yet doesn't reappear in later turns either - consistent with the same anomaly class seen repeatedly across this session's games."
