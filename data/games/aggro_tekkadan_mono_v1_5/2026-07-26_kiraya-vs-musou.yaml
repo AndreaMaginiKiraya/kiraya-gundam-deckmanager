@@ -1,0 +1,618 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-26_kiraya-vs-musou"
+  date_imported: "2026-07-26"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Musou"
+  players:
+    Musou:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+cards:
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Ez8 High Mobility Custom":
+    id: "EB01-032"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Musou"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Geminass 01":
+    id: "EB01-056"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Musou"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Heavyarms":
+    id: "GD02-025"
+    note: "pinned: both t8 and t10 deploys immediately triggered 'Returned to deck bottom' - matches this card's own 'Deploy: look at the top card of your deck, return it to the top or bottom' text exactly; the other two candidates need pairing with Trowa Barton for their (During Pair) abilities, never shown here. Same identification as the cdawg game."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Musou"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Heero Yuy":
+    id: null
+    candidates:
+      - "GD05-098"
+      - "ST02-010"
+    note: "genuinely unresolved: t12 shows 'Heero Yuy: Modifier applied to: Gundam Gusion Rebake' right after a blocked battle, but GD05-098's own trigger condition (destroying a shield with damage) wasn't met in that fight, and ST02-010's text (self AP+1/HP+1 during Link) doesn't target an enemy Unit at all - neither candidate cleanly explains this instance. Same inconclusive result as the cdawg game."
+    owner: "Musou"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+      - "shield"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Musou"
+    seen:
+      - "command"
+      - "discarded"
+      - "shield"
+  Peacemillion:
+    id: "GD03-125"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Musou"
+    seen:
+      - "base"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Musou"
+    seen:
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Wing Gundam":
+    id: "ST02-001"
+    note: "pinned: t12's kill on Gundam Gusion Rebake explicitly logged 'Breach 5' - the exact printed keyword only this card has; GD01-040 is vanilla with no Breach at all. Same identification as the cdawg game."
+    candidates:
+      - "GD01-040"
+      - "ST02-001"
+    owner: "Musou"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: t4's attack showed 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' and t5's defending Zaku Ⅱ dealt exactly 1 damage (its base AP1, no bonus while defending) - both instances consistently match this card's own Attack:AP+2 text, no GD01-035 evidence (which would show flat AP2 with no modifier line) appears anywhere in this game."
+    candidates:
+      - "GD01-035"
+      - "ST03-008"
+    owner: "Musou"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+setup:
+  - player: "Musou"
+    action: "choose_second_player"
+  - player: "Musou"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Musou"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 4
+    active_player: "Musou"
+    actions:
+      - action: "play_command"
+        player: "Musou"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Overflowing Affection discarded"
+      - action: "attack"
+        player: "Musou"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Gusion Rebake discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Gundam Barbatos 1st Form moved to trash"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "Minerva"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "Musou"
+    actions:
+      - action: "deploy"
+        card: "Gundam Geminass 01"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+  - turn: 8
+    active_player: "Musou"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms"
+        effects:
+          - "Returned to deck bottom"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Gundam Heavyarms"
+        linked: true
+      - action: "attack"
+        player: "Musou"
+        attacker: "Gundam Heavyarms"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Musou"
+        attacker: "Gundam Geminass 01"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Kiraya"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Gundam Geminass 01, leaving 1 HP remaining"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Geminass 01"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Gundam Heavyarms"
+        blockers: "none"
+        final_target: "Gundam Heavyarms"
+        outcome:
+          - "Gundam Heavyarms received 2 damage, leaving 4 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam Heavyarms"
+        blockers: "none"
+        final_target: "Gundam Heavyarms"
+        outcome:
+          - "Gundam Heavyarms received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+  - turn: 10
+    active_player: "Musou"
+    actions:
+      - action: "play_base"
+        card: "Peacemillion"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Heavyarms"
+        effects:
+          - "Returned to deck bottom"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Zaku Ⅱ"
+  - turn: 12
+    active_player: "Musou"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "Musou"
+        attacker: "Wing Gundam"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Wing Gundam received 5 damage, leaving 1 HP remaining"
+          - "Healed 2 damage to: Wing Gundam"
+          - "Breach 5 Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "attack"
+        player: "Musou"
+        attacker: "Gundam Heavyarms"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "deploy"
+        card: "Rick Dom"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Gundam Gusion Rebake and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Rick Dom, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Rick Dom, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Wing Gundam"
+        blockers: "none"
+        final_target: "Wing Gundam"
+        outcome:
+          - "Wing Gundam received 3 damage, now destroyed"
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+  - turn: 14
+    active_player: "Musou"
+    actions:
+      - action: "attack"
+        player: "Musou"
+        attacker: "Gundam Heavyarms"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Ez8 High Mobility Custom"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Lupus"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Darkness Finger and Mikazuki Augus moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Peacemillion"
+        outcome:
+          - "Peacemillion received 7 damage, now destroyed"
+  - turn: 16
+    active_player: "Musou"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "Musou"
+        attacker: "Wing Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Wing Gundam received 4 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Musou"
+        attacker: "Gundam Ez8 High Mobility Custom"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Gundam Ez8 High Mobility Custom received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Musou"
+        attacker: "Gundam Heavyarms"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Musou:
+    - card: "Zaku Ⅱ"
+      turn: 5
+    - card: "Gundam Heavyarms"
+      turn: 9
+    - card: "Rick Dom"
+      turn: 13
+    - card: "Wing Gundam"
+      turn: 13
+    - card: "Peacemillion"
+      turn: 15
+    - card: "Gundam Ez8 High Mobility Custom"
+      turn: 16
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Minerva"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 16
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 16
+shields_tally:
+  Musou:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 1
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 4
+  Kiraya:
+    ex_base: "replaced with a base (turn 3)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "A genuine grind, not a misplay-driven loss - checked closely and the trades were consistently sound: t8's reactive Darkness Finger chipped Gundam Geminass 01 mid-combat (same proactive-removal habit as other games), t9's two-unit sequence into Gundam Heavyarms was necessary (neither Gundam Gusion Rebake nor Gundam Barbatos Adapt alone could break its 6 HP), and t16's block assignments were a wash either way (both Shiden Custom copies are identical, and the second one blocking Gundam Ez8 High Mobility Custom for a clean mutual kill was correct)."
+  - "Musou's Wing Gundam/Heero Yuy/Peacemillion package is genuinely resilient: Peacemillion's heal kept a nearly-dead Wing Gundam alive after blocking, Wing Gundam's own Breach 5 chipped shields on every kill, and Gundam Heavyarms recurred itself via its own 'return to deck bottom' Deploy text, coming back for a second deployment later in the game."
+  - "Bad luck stacked twice on the same card type again: Gundam Barbatos Lupus was lost straight to a t14 shield discard before it could contribute much, and t15's Zeheart Galette pairing then milled both Darkness Finger and Mikazuki Augus in one hit - the deck's two best answers to a resilient board gone to variance in consecutive turns."
+  - "t5's 'Replaced Minerva base: Minerva' - swapping a damaged base for a fresh copy rather than just taking the hit - is a small, efficient habit worth remembering: it refreshes the HP pool at the cost of a card, and also re-triggers the base's own Deploy shield-to-hand value."
