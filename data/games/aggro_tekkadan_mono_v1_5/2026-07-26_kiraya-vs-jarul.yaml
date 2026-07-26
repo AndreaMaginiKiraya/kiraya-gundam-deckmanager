@@ -1,0 +1,795 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-26_kiraya-vs-jarul"
+  date_imported: "2026-07-26"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Ja Rul (concession, t21 - Kiraya was already at 0 shields since t20 and the pasted log shows no further attack before 'Winner!'; confirmed by her directly that she conceded)"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+    "Ja Rul":
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+cards:
+  "A Healthy Curiosity":
+    id: "GD03-101"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Ja Rul"
+    seen:
+      - "command"
+      - "shield"
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Ja Rul"
+    seen:
+      - "command"
+      - "shield"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "Ja Rul"
+    seen:
+      - "command"
+      - "shield"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Ja Rul"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to deck"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Ja Rul"
+    seen:
+      - "command"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Kindhearted:
+    id: "GD04-101"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Ja Rul"
+    seen:
+      - "command"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "pinned: every Link trigger this game (t14, t16, t18 x2) shows 'Kira Yamato: Draw a card' - matches this card's own 'When Linked: draw 1' text; no ST04-010-style enemy-targeting Attack modifier appears anywhere. Same identification as the OuO game (same deck archetype)."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Ja Rul"
+    seen:
+      - "pilot"
+  Kshatriya:
+    id: null
+    candidates:
+      - "GD01-044"
+      - "GD01-051"
+    note: "genuinely unresolved: only ever discarded from hand as Strike Freedom Gundam's own cost (t16), never deployed or activated, so no ability evidence exists. GD01-044 was confirmed for this same deck archetype in the OuO game, but that's not proof this specific copy matches."
+    owner: "Ja Rul"
+    seen:
+      - "discarded"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Ja Rul"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Overwhelming Pressure":
+    id: "GD04-109"
+    type: "COMMAND"
+    level: 5
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Ja Rul"
+    seen:
+      - "command"
+  ReZEL:
+    id: "GD01-018"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Ja Rul"
+    seen:
+      - "discarded"
+  Rewloola:
+    id: "ST03-015"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "Ja Rul"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Ja Rul"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Ja Rul"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Ja Rul"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Ja Rul"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 2
+    active_player: "Ja Rul"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 4
+    active_player: "Ja Rul"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Ja Rul"
+            card: "Close Combat"
+            effects:
+              - "Close Combat: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+              - "Gundam Exia Repair milled 2: Gundam Barbatos Adapt and Darkness Finger moved to trash"
+  - turn: 6
+    active_player: "Ja Rul"
+    actions:
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 8
+    active_player: "Ja Rul"
+    actions:
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Ja Rul"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 6 damage, now destroyed"
+  - turn: 10
+    active_player: "Ja Rul"
+    actions:
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Overwhelming Pressure"
+        effects:
+          - "Overwhelming Pressure: Dealt 4 damage to Shiden Custom (Ryusei-Go), now destroyed"
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "A Healthy Curiosity"
+        effects:
+          - "A Healthy Curiosity: Draw a card"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Unicorn Gundam 02 Banshee (Destroy Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+  - turn: 12
+    active_player: "Ja Rul"
+    actions:
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Healthy Curiosity revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+  - turn: 14
+    active_player: "Ja Rul"
+    actions:
+      - action: "play_base"
+        card: "Rewloola"
+        effects:
+          - "Shield card added to hand"
+          - "Rewloola: Dealt 1 damage to Gundam Flauros (Ryusei-Go), leaving 2 HP remaining"
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Flauros (Ryusei-Go), now destroyed"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Ja Rul"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Kiraya"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Strike Rouge (Ootori), leaving 4 HP remaining"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 3 damage, leaving 1 HP remaining"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Rewloola received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Rewloola received 2 damage, now destroyed"
+  - turn: 16
+    active_player: "Ja Rul"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Ja Rul"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "ReZEL and Kshatriya discarded"
+          - "Graze Custom returned to deck"
+          - "Hyakuren received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 4 damage, leaving 4 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos Adapt, leaving 1 HP remaining"
+  - turn: 18
+    active_player: "Ja Rul"
+    actions:
+      - action: "play_base"
+        card: "Rewloola"
+        effects:
+          - "Shield card added to hand"
+          - "Rewloola: Dealt 1 damage to Gundam Barbatos Adapt, now destroyed"
+      - action: "attack"
+        player: "Ja Rul"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Minerva received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Ja Rul"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Mikazuki Augus discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Strike Freedom Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Flauros (Ryusei-Go) discarded"
+  - turn: 20
+    active_player: "Ja Rul"
+    actions:
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+      - action: "play_command"
+        player: "Ja Rul"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Ryusei-Go (Graze Custom Ⅱ), now destroyed"
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "attack"
+        player: "Ja Rul"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "Isaribi"
+        outcome:
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "No targets for Marida Cruz"
+          - "Isaribi received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Ja Rul"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "shield"
+        outcome:
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "No targets for Marida Cruz"
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "attack"
+        player: "Ja Rul"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Marida Cruz"
+          - "Shield card: Airframe Seizure revealed and discarded"
+      - action: "attack"
+        player: "Ja Rul"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 21
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 10
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Hyakuren"
+      turn: 16
+    - card: "Gundam Barbatos Adapt"
+      turn: 18
+    - card: "Minerva"
+      turn: 18
+    - card: "Gundam Barbatos 1st Form"
+      turn: 19
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 20
+    - card: "Isaribi"
+      turn: 20
+  "Ja Rul":
+    - card: "Rewloola"
+      turn: 15
+    - card: "Strike Freedom Gundam"
+      turn: 19
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 3)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  "Ja Rul":
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Her read on the game is accurate and confirmed by the log: Gundam Barbatos Lupus never appeared on the battlefield once - it sat in the shield pile the entire game and only ever showed up as a t20 shield discard. Genuine bad luck (an opening-hand/shield placement issue, not a play error) losing access to the deck's whole finishing engine for the full 21 turns."
+  - "This is the same removal-heavy control archetype as the OuO and 240pBrian games (Close Combat, Improved Technique - played 3 separate times here, Darkness Finger, Overwhelming Pressure, Kindhearted, A Show of Resolve, A Healthy Curiosity, Strike Freedom Gundam x2, Unicorn Gundam 02 Banshee) but this build ran an even denser removal suite than either of those - nearly every unit Kiraya deployed died to a precise answer before contributing much, on top of losing the Lupus engine specifically."
+  - "No real misplay found on review. t14's mid-combat Darkness Finger (chipping Strike Rouge (Ootori) before the trade resolved) was the same good proactive-removal habit seen in the OuO game, and t19's Gundam Barbatos 1st Form correctly used its fresh Link with Mikazuki Augus to attack immediately into Strike Freedom Gundam, trading it away for the kill."
+  - "Conceded at t21 with 0 shields and no board left, one turn after Ja Rul's Strike Freedom Gundam/Unicorn Gundam 02 Banshee combination emptied the last of her defenses - a reasonable place to stop, not a premature give-up."
