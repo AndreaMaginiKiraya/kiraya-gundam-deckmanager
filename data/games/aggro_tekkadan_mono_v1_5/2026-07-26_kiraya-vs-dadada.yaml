@@ -1,0 +1,566 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-26_kiraya-vs-dadada"
+  date_imported: "2026-07-26"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:dadada"
+  players:
+    dadada:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: both t12 and t14 Pair triggers attempted 'choose 1 enemy Unit with 5 or less HP, rest it' against Gundam Barbatos Adapt (shown as 'Already rested unit' since it was tapped already) - matches this card's own text; GD05-085's ability is a self-heal-on-kill. Same identification as the Bill and Xyriz games."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "dadada"
+    seen:
+      - "exiled"
+      - "pilot"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "genuinely unresolved: deployed on the final turn and delivered the game-ending attack directly, with no combat math (Kiraya had 0 shields, no blockers) or end-of-turn Repair-2 tag to check against - unlike the Bill/Xyriz games where that tag confirmed ST01-001, no equivalent evidence exists here."
+    owner: "dadada"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Guntank:
+    id: "GD01-008"
+    note: "pinned: its t14 deploy dealt exactly 1 damage to an already-rested Gundam Barbatos Adapt - matches this card's own 'Deploy: choose 1 rested enemy Unit, deal 1 damage to it' text exactly; ST01-004's Deploy ability rests a low-HP enemy Unit, doesn't deal damage at all."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "dadada"
+    seen:
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Jegan:
+    id: "GD05-027"
+    note: "pinned: died to exactly 2 damage at t5 - matches this printing's HP2 exactly; GD01-016 has HP3 and would have survived at 1 HP instead of being destroyed."
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    owner: "dadada"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "dadada"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Nu Gundam":
+    id: null
+    note: "both printings observed: GD05-020 at t8 (deploy immediately triggered 'Placed 1 Resource EX' - its own Deploy text) and GD05-017 at t10 (Pair trigger exiled exactly 3 trash cards then started an extra damage-only battle - its own When Paired text). dadada runs both copies, same as Xyriz's identical deck archetype."
+    candidates:
+      - "GD05-017"
+      - "GD05-020"
+    owner: "dadada"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "dadada"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+setup:
+  - player: "dadada"
+    action: "choose_second_player"
+  - player: "dadada"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "dadada"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "dadada"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "attack"
+        player: "dadada"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Jegan"
+        blockers: "none"
+        final_target: "Jegan"
+        outcome:
+          - "Jegan received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Minerva and Gundam Gusion Rebake moved to trash"
+  - turn: 6
+    active_player: "dadada"
+    actions:
+      - action: "attack"
+        player: "dadada"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Re-GZ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Kayra's Re-GZ"
+        blockers: "none"
+        final_target: "Kayra's Re-GZ"
+        outcome:
+          - "Kayra's Re-GZ received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 8
+    active_player: "dadada"
+    actions:
+      - action: "attack"
+        player: "dadada"
+        attacker: "Re-GZ"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Re-GZ received 5 damage, now destroyed"
+          - "Card added to hand: Nu Gundam"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "dadada"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Jegan, Kayra's Re-GZ and Re-GZ exiled from the game"
+      - action: "attack"
+        player: "dadada"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5 Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "dadada"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "attack"
+        player: "dadada"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Hyakuren and Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 4 damage, now destroyed"
+          - "Hyakuren received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 12
+    active_player: "dadada"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Amuro Ray, Nu Gundam and Jegan exiled from the game"
+      - action: "attack"
+        player: "dadada"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 2 HP remaining"
+          - "Breach 5 Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+          - "Already rested unit: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "dadada"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+      - action: "attack"
+        player: "dadada"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Guntank revealed and discarded"
+  - turn: 14
+    active_player: "dadada"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Barbatos Adapt, leaving 4 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Already rested unit: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "dadada"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  dadada:
+    - card: "Jegan"
+      turn: 5
+    - card: "Kayra's Re-GZ"
+      turn: 7
+    - card: "Re-GZ"
+      turn: 8
+    - card: "Nu Gundam"
+      turn: 11
+    - card: "Nu Gundam"
+      turn: 13
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+shields_tally:
+  dadada:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 4
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 6
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Went looking specifically for the sequencing/ping-dosing mistake she suspected, and didn't find one that changes the outcome. t11's choice to finish an already-weakened Nu Gundam with Hyakuren (dying to the 7-damage counter) rather than with the freshly-Linked Gundam Barbatos Adapt was checked closely - but the two units were comparably 'spent' at that point (Adapt's own ping had already fired), so trading either one into the kill was roughly a wash, not a clear error. t13's Adapt-into-Nu-Gundam trade was the only unit she had left to attack with at that point - not a choice at all."
+  - "The real story is dadada's deck running at least 3 separate Nu Gundam copies, each capable of the same devastating combo: Pair with Amuro Ray to exile 3 trash cards for a bonus damage-only battle, then still attack normally after. t10 and t12 each delivered three full attacks off a single Nu Gundam deploy this way, chewing through Shiden Custom x2, Hyakuren, and multiple shields with nothing blockable about the exile-triggered battle specifically."
+  - "Bad variance compounded it in a way that mattered a lot here: Gundam Barbatos Lupus - her best answer to a big, recurring threat like Nu Gundam - was discarded straight from the shield pile at t12, never getting to act at all. Losing that card to chance rather than to a real attack removed her single best tool against exactly the problem she was facing."
+  - "This is now a second loss to this specific Nu Gundam/Amuro Ray exile-combo package this session (also lost to it as Xyriz), separate from the Strike Freedom Gundam pattern already tracked - worth treating as its own recurring problem matchup, not folded into the SEED-Destiny one."
+unparsed_lines:
+  - "[turn 4] Returned to deck top"
