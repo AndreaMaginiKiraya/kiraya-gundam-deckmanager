@@ -1,0 +1,438 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-26_kiraya-vs-niki"
+  date_imported: "2026-07-26"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya (concession)"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+    Niki:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Niki"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Niki"
+    seen:
+      - "command"
+  Parts:
+    id: null
+    note: "not a real card - Reineforce Jr.'s (GD04-121) own Deploy token (AP1/HP1, can't attack the enemy player), correctly absent from the card database"
+    owner: "Niki"
+    seen:
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Niki"
+    seen:
+      - "base"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Niki"
+    seen:
+      - "discarded"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Niki"
+    seen:
+      - "deployed"
+  "Unicorn Gundam 02 Banshee Norn (Destroy Mode)":
+    id: "GD04-065"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Niki"
+    seen:
+      - "discarded"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Niki"
+    seen:
+      - "shield"
+  "Victory Gundam":
+    id: "GD04-003"
+    note: "pinned: both t11 attacks showed 'Victory Gundam: Draw a card' - matches this card's own 'Attack: if 3+ League Militaire Units in play, draw 1' text (Zoloat, Parts tokens, and the two Victory Gundams itself satisfy that count); GD04-011 has no attack-triggered draw at all (its only ability is Destroyed-triggered). Same identification as the Chebycheff game."
+    candidates:
+      - "GD04-003"
+      - "GD04-011"
+    owner: "Niki"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Niki"
+    seen:
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Niki"
+    seen:
+      - "pilot"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Niki"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Niki"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Niki"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Niki"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Lfrith"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Lfrith"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: V-Dash Gundam revealed and discarded"
+  - turn: 7
+    active_player: "Niki"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "play_command"
+        player: "Niki"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Unicorn Gundam 02 Banshee Norn (Destroy Mode) discarded"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Reineforce Jr."
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Reineforce Jr. revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Rouge (Ootori)"
+  - turn: 9
+    active_player: "Niki"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Exia Repair discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Strike Rouge (Ootori), now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Üso Ewin revealed"
+          - "Shield card added to hand: Üso Ewin"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Lfrith revealed and discarded"
+  - turn: 11
+    active_player: "Niki"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "Victory Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "Niki"
+        attacker: "Victory Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Victory Gundam received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Niki"
+        attacker: "Victory Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Victory Gundam received 4 damage, now destroyed"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "play_command"
+        player: "Niki"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Strike Freedom Gundam discarded"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+  Niki:
+    - card: "Strike Rouge (Ootori)"
+      turn: 10
+    - card: "Reineforce Jr."
+      turn: 10
+    - card: "Victory Gundam"
+      turn: 11
+shields_tally:
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+  Niki:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Another shield-perfect win (6 remaining, never touched) against a League Militaire/UC hybrid deck. Checked every ping and removal timing; the whole game was precisely executed, not just favorable draws."
+  - "t6's ping sequence was sharp: Gundam Barbatos Adapt's own deploy ping plus Mikazuki Augus's Link ping both landed on the same already-blocked-and-weakened Gundam Lfrith (down to 2 HP from chumping Graze Custom), finishing it for free rather than spreading the damage thin."
+  - "t8's double Gundam Barbatos Adapt deploy set up t10 well: both pings landed on Strike Rouge (Ootori), and Darkness Finger then finished it outright at exactly 2 damage rather than being spent on a healthier target - good sequencing across two turns to get full value from a single removal spell."
+  - "t10 was the standout turn: Airframe Seizure plus Darkness Finger plus four separate attacks cleared Reineforce Jr. and took two more shields in one turn, snowballing what was already a comfortable lead into a lopsided one."
