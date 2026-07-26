@@ -1,0 +1,416 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-26_kiraya-vs-wanchin"
+  date_imported: "2026-07-26"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya (concession)"
+  players:
+    WanChin:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Red"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_5"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "WanChin"
+    seen:
+      - "command"
+  "Chaos Gundam":
+    id: "GD05-039"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 2
+    owner: "WanChin"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Chaos Gundam (MA Mode)":
+    id: "GD05-045"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "WanChin"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Kiraya"
+      - "WanChin"
+    seen:
+      - "command"
+      - "shield"
+  "Destroy Gundam":
+    id: "GD05-037"
+    type: "UNIT"
+    level: 9
+    cost: 8
+    ap: 6
+    hp: 6
+    owner: "WanChin"
+    seen:
+      - "shield"
+  "Forbidden Gundam":
+    id: null
+    candidates:
+      - "GD02-006"
+      - "GD05-012"
+    note: "genuinely unresolved: deployed t10, never paired with a pilot (so GD05-012's 'When Linked' bounce never had a chance to fire either way), and its one attack declaration (t12) ended the game unresolved - no evidence to distinguish it from GD02-006."
+    owner: "WanChin"
+    seen:
+      - "attacker"
+      - "deployed"
+  GFreD:
+    id: "GD03-035"
+    note: "pinned: t12's activation exiled a Pilot (Sting Oakley) from trash, rested 1 Resource, and dealt 1 damage to every one of Kiraya's units - matches this card's own 'Activate Main, Once per Turn: pay 1, exile 1 Pilot from trash, deal 1 damage to all enemy Units' text exactly; GD03-048 has no such ability (its only text is a Burst token-deploy)."
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "WanChin"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gaia Gundam":
+    id: "GD05-034"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "WanChin"
+    seen:
+      - "shield"
+  "Gaia Gundam (MA Mode)":
+    id: "GD05-041"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "WanChin"
+    seen:
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Sting Oakley":
+    id: "GD05-091"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "WanChin"
+    seen:
+      - "exiled"
+      - "pilot"
+setup:
+  - player: "WanChin"
+    action: "choose_second_player"
+  - player: "WanChin"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "WanChin"
+    actions:
+      - action: "play_command"
+        player: "WanChin"
+        card: "Airframe Seizure"
+        effects:
+          - "Gaia Gundam (MA Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "WanChin"
+    actions:
+      - action: "deploy"
+        card: "Chaos Gundam"
+      - action: "pair_pilot"
+        pilot: "Sting Oakley"
+        unit: "Chaos Gundam"
+        linked: true
+      - action: "attack"
+        player: "WanChin"
+        attacker: "Chaos Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Chaos Gundam: Modifier applied to: Chaos Gundam"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 5 damage, now destroyed"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Minerva"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "WanChin"
+    actions:
+      - action: "attack"
+        player: "WanChin"
+        attacker: "Chaos Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Chaos Gundam: Modifier applied to: Chaos Gundam"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 5 damage, now destroyed"
+          - "Chaos Gundam received 2 damage, leaving 1 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Chaos Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Chaos Gundam (MA Mode) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gaia Gundam revealed and discarded"
+  - turn: 8
+    active_player: "WanChin"
+    actions:
+      - action: "deploy"
+        card: "Chaos Gundam (MA Mode)"
+      - action: "pair_pilot"
+        pilot: "Sting Oakley"
+        unit: "Chaos Gundam (MA Mode)"
+        linked: true
+      - action: "attack"
+        player: "WanChin"
+        attacker: "Chaos Gundam (MA Mode)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Kiraya"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Chaos Gundam (MA Mode), leaving 3 HP remaining"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Chaos Gundam (MA Mode) received 2 damage, leaving 1 HP remaining"
+          - "Breach 3: : Minerva received 3 damage, leaving 2 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Chaos Gundam (MA Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to Hyakuren, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Destroy Gundam revealed and discarded"
+  - turn: 10
+    active_player: "WanChin"
+    actions:
+      - action: "play_command"
+        player: "WanChin"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+      - action: "deploy"
+        card: "Forbidden Gundam"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Chaos Gundam (MA Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 12
+    active_player: "WanChin"
+    actions:
+      - action: "deploy"
+        card: "GFreD"
+      - action: "activate"
+        card: "GFreD"
+        effects:
+          - "Sting Oakley exiled from the game"
+          - "Rested 1 Resource"
+          - "Dealt 1 damage to: Hyakuren, Gundam Gusion Rebake, Gundam Flauros (Ryusei-Go) and Hyakuren"
+      - action: "attack"
+        player: "WanChin"
+        attacker: "Forbidden Gundam"
+        declared_target: "player"
+casualties:
+  WanChin: []
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+shields_tally:
+  WanChin:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 5
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "destroyed (turn 4)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Another clean dominant win (5 shields remaining, WanChin down to 1) against a Blue Earth Alliance/ZAFT Extended deck (Chaos Gundam, Forbidden Gundam, GFreD). Checked every ping and removal-spell timing closely; this one was sharply played throughout, not just a blowout on raw stats."
+  - "t7's Gundam Barbatos Adapt deploy ping precisely finished off Chaos Gundam at 1 HP (already weakened from its own t6 attack) rather than defaulting to a healthier target - same sharp HP-checking habit seen in the AnyingORNG game."
+  - "t8's Darkness Finger use was proactively timed: played mid-combat before the Chaos Gundam (MA Mode) attack resolved, setting it up at a lower HP for an easy finish later rather than just using the spell reactively. t9's Gundam Gusion Rebake ping then closed that gap, chipping the same target down again."
+  - "WanChin's own Darkness Finger, revealed from Kiraya's shield pile at t9, hit her own Hyakuren rather than an enemy unit - same 'shield-revealed action card damages the shield owner's own board' behavior noted in a past game (the KosXBlue game's Close Combat) - a card-specific quirk to expect, not something to second-guess as a misplay when it happens."
