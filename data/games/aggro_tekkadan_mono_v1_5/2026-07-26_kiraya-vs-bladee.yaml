@@ -1,0 +1,682 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-26_kiraya-vs-bladee"
+  date_imported: "2026-07-26"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya (natural - bladee's shields_tally shows 0 remaining, all 6 accounted for between discards and returns-to-hand, entering t17; the pasted log's final 'Winner!' line had no player name attributed and the importer misread it as bladee - corrected)"
+  players:
+    bladee:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "discarded"
+  "Altron Gundam":
+    id: "GD03-018"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "bladee"
+    seen:
+      - "discarded"
+      - "shield"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Duo Maxwell":
+    id: "GD01-090"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "bladee"
+    seen:
+      - "shield"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "bladee"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Deathscythe":
+    id: null
+    candidates:
+      - "GD01-025"
+      - "GD01-033"
+    note: "genuinely unresolved: deployed t16 but never paired with Duo Maxwell (revealed as a shield at t17, never played) and never attacked before the game ended - no evidence to distinguish the two printings, both of which only differ via a Duo Maxwell pairing."
+    owner: "bladee"
+    seen:
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Heavyarms":
+    id: "GD02-025"
+    note: "pinned: its t6 deploy immediately triggered 'Returned to deck top' - matches this card's own 'Deploy: look at the top card of your deck, return it to the top or bottom' text exactly. Same identification as the cdawg and Musou games."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "bladee"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "bladee"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Heero Yuy":
+    id: "GD05-098"
+    note: "pinned: both t8 and t12 show its own trigger firing right after destroying an enemy shield-area card with damage (t8: the EX Base itself, which occupies the shield area's base slot; t12: a real shield) - each time immediately followed by 'Heero Yuy: Modifier applied to' an enemy Unit, matching this card's own 'When this Unit destroys an enemy shield area card with damage, choose 1 enemy Unit, it gets AP-2 during this turn' text exactly. ST02-010's ability is a self-buff during Link, no enemy targeting at all."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "bladee"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "bladee"
+    seen:
+      - "command"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "bladee"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "The Path to Victory or Defeat":
+    id: "GD01-109"
+    type: "COMMAND"
+    level: 5
+    cost: 1
+    owner: "bladee"
+    seen:
+      - "command"
+  "Underground Desert Base":
+    id: "GD01-126"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "bladee"
+    seen:
+      - "base"
+  "Wing Gundam":
+    id: "ST02-001"
+    note: "pinned: t14's kill on Gundam Barbatos Lupus explicitly logged 'Breach 5' - the exact printed keyword only this printing has; GD01-040 is vanilla with no Breach. Same identification as the cdawg and Musou games."
+    candidates:
+      - "GD01-040"
+      - "ST02-001"
+    owner: "bladee"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam Zero (EW)":
+    id: "GD05-067"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "bladee"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "bladee"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "bladee"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "bladee"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "bladee"
+    actions:
+      - action: "deploy"
+        card: "Flat (Militia)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "bladee"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Heavyarms revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 8
+    active_player: "bladee"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Flat (Militia)"
+        linked: false
+      - action: "attack"
+        player: "bladee"
+        attacker: "Flat (Militia)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Hyakuren"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "bladee"
+        attacker: "Gundam Heavyarms"
+        declared_target: "Hyakuren"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Gundam Heavyarms received 4 damage, now destroyed"
+      - action: "play_command"
+        player: "bladee"
+        card: "The Path to Victory or Defeat"
+        effects:
+          - "Card added to hand: Wing Gundam Zero (EW)"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Altron Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Lfrith, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Flat (Militia)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Flat (Militia) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Flat (Militia)"
+        blockers: "none"
+        final_target: "Flat (Militia)"
+        outcome:
+          - "Flat (Militia) received 4 damage, now destroyed"
+          - "Hyakuren received 4 damage, now destroyed"
+  - turn: 10
+    active_player: "bladee"
+    actions:
+      - action: "play_base"
+        card: "Underground Desert Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Silver Bullet"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Underground Desert Base received 5 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 12
+    active_player: "bladee"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam Zero (EW)"
+        linked: true
+      - action: "attack"
+        player: "bladee"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "shield"
+        outcome:
+          - "Rested unit: Hyakuren"
+          - "Shield cards: Graze Custom and Gundam Exia Repair revealed and discarded"
+      - action: "attack"
+        player: "bladee"
+        attacker: "Silver Bullet"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Silver Bullet received 3 damage, leaving 1 HP remaining"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Silver Bullet"
+        blockers: "none"
+        final_target: "Silver Bullet"
+        outcome:
+          - "Silver Bullet received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Wing Gundam Zero (EW)"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos 1st Form and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Lfrith, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Graze Custom and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Lfrith, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Wing Gundam Zero (EW)"
+        blockers: "none"
+        final_target: "Wing Gundam Zero (EW)"
+        outcome:
+          - "Wing Gundam Zero (EW) received 4 damage, now destroyed"
+          - "Hyakuren received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 7 damage, now destroyed"
+  - turn: 14
+    active_player: "bladee"
+    actions:
+      - action: "play_command"
+        player: "bladee"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Altron Gundam discarded"
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "bladee"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Wing Gundam received 7 damage, now destroyed"
+          - "Breach 5 Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Airframe Seizure discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Adapt discarded"
+  - turn: 16
+    active_player: "bladee"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+      - action: "deploy"
+        card: "Gundam Deathscythe"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Silver Bullet revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Lfrith"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Lfrith"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Shiden Custom (Ryusei-Go) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Lfrith, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Duo Maxwell revealed"
+          - "Shield card added to hand: Duo Maxwell"
+casualties:
+  bladee:
+    - card: "Gundam Heavyarms"
+      turn: 8
+    - card: "Gundam Lfrith"
+      turn: 9
+    - card: "Flat (Militia)"
+      turn: 9
+    - card: "Silver Bullet"
+      turn: 13
+    - card: "Gundam Lfrith"
+      turn: 13
+    - card: "Wing Gundam Zero (EW)"
+      turn: 13
+    - card: "Underground Desert Base"
+      turn: 13
+    - card: "Wing Gundam"
+      turn: 14
+    - card: "Gundam Lfrith"
+      turn: 17
+  Kiraya:
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+shields_tally:
+  bladee:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Did the full turn-by-turn pass requested and genuinely found no misplays this time - every blocking decision, ping target, and trade allocation held up under scrutiny. This one really was clean, not just a favorable draw."
+  - "t8's block was the sharpest defensive read: letting Gundam Heavyarms hit Hyakuren directly (already AP-2 debuffed by Heero Yuy) would have lost Hyakuren for nothing, since a debuffed Hyakuren's own counter-attack couldn't have killed Heavyarms (4 HP). Blocking with Shiden Custom instead turned it into a clean 1-for-1 trade (both units died) - correctly recognizing that the 'obvious' choice (protect the unit being attacked) was worse than accepting a different trade."
+  - "t13 was the standout turn for sequencing: with only one attack each available from Hyakuren and Gundam Barbatos Lupus, she sent the cheaper Hyakuren into an already-pinged Wing Gundam Zero (EW) - a trade that was going to cost a unit either way given its AP - and kept Lupus swinging at the defenseless Underground Desert Base instead. Sending Lupus into Wing Gundam Zero (EW) would have traded away the more valuable finisher for the same kill; this allocation got the same result while protecting the better card."
+  - "t9's decision to trade Hyakuren into an already-1-HP-effective Flat (Militia) rather than leave it alive was reasonable risk management (Flat (Militia) still had its full attack available and could have traded into something the next turn) - not a clear error, though a case could be made either way without full visibility into what else was in hand at the time."
+  - "Corrected the imported result to a Kiraya win: the pasted log's final 'Winner!' line had no player name before it, and the importer initially misread it as bladee's win - bladee's own shields_tally (0 remaining, all 6 accounted for) confirms Kiraya actually won this one naturally."
+unparsed_lines:
+  - "[turn 6] Returned to deck top"
