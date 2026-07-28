@@ -1,0 +1,561 @@
+game:
+  id: "aggro_tekkadan_mono_v1_5/2026-07-28_kiraya-vs-aaaa"
+  date_imported: "2026-07-28"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Aaaa:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_5"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Aaaa"
+    seen:
+      - "shield"
+  "Abyss Gundam":
+    id: "GD05-040"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Aaaa"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Abyss Gundam (MA Mode)":
+    id: "GD05-046"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Aaaa"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Aaaa"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "discarded"
+  "Auel Neider":
+    id: "GD05-092"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "Aaaa"
+    seen:
+      - "pilot"
+      - "shield"
+  "Chaos Gundam":
+    id: "GD05-039"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 2
+    owner: "Aaaa"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Chaos Gundam (MA Mode)":
+    id: "GD05-045"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Aaaa"
+    seen:
+      - "deployed"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  Exass:
+    id: "GD05-047"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 2
+    owner: "Aaaa"
+    seen:
+      - "discarded"
+      - "shield"
+  "Forbidden Gundam":
+    id: null
+    candidates:
+      - "GD02-006"
+      - "GD05-012"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "Aaaa"
+    seen:
+      - "shield"
+  "Gaia Gundam":
+    id: "GD05-034"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Aaaa"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Girty Lue":
+    id: "GD05-127"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Aaaa"
+    seen:
+      - "base"
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_5'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Stellar Loussier":
+    id: "GD05-090"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "Aaaa"
+    seen:
+      - "pilot"
+  "Sting Oakley":
+    id: "GD05-091"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "Aaaa"
+    seen:
+      - "discarded"
+      - "pilot"
+setup:
+  - player: "Aaaa"
+    action: "choose_first_player"
+  - player: "Aaaa"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Aaaa"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Aaaa"
+    actions:
+      - action: "play_base"
+        card: "Girty Lue"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Aaaa"
+        card: "Airframe Seizure"
+        effects:
+          - "Girty Lue discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Girty Lue"
+        outcome:
+          - "Girty Lue received 2 damage, leaving 3 HP remaining"
+  - turn: 5
+    active_player: "Aaaa"
+    actions:
+      - action: "deploy"
+        card: "Abyss Gundam"
+      - action: "pair_pilot"
+        pilot: "Auel Neider"
+        unit: "Abyss Gundam"
+        linked: true
+        effects:
+          - "Girty Lue: Modifier applied to: Hyakuren"
+      - action: "attack"
+        player: "Aaaa"
+        attacker: "Abyss Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Abyss Gundam received 2 damage, leaving 3 HP remaining"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Girty Lue"
+        outcome:
+          - "Girty Lue received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Abyss Gundam"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Abyss Gundam, now destroyed"
+  - turn: 7
+    active_player: "Aaaa"
+    actions:
+      - action: "deploy"
+        card: "Gaia Gundam"
+      - action: "pair_pilot"
+        pilot: "Stellar Loussier"
+        unit: "Gaia Gundam"
+        linked: true
+      - action: "attack"
+        player: "Aaaa"
+        attacker: "Gaia Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 5 damage, now destroyed"
+          - "Airframe Seizure discarded"
+      - action: "play_command"
+        player: "Aaaa"
+        card: "Airframe Seizure"
+        effects:
+          - "Exass discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gaia Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gaia Gundam"
+        blockers: "none"
+        final_target: "Gaia Gundam"
+        outcome:
+          - "Gaia Gundam received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Forbidden Gundam revealed and discarded"
+  - turn: 9
+    active_player: "Aaaa"
+    actions:
+      - action: "play_command"
+        player: "Aaaa"
+        card: "Airframe Seizure"
+        effects:
+          - "Sting Oakley discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gaia Gundam"
+      - action: "pair_pilot"
+        pilot: "Stellar Loussier"
+        unit: "Gaia Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Chaos Gundam"
+      - action: "attack"
+        player: "Aaaa"
+        attacker: "Gaia Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Sting Oakley"
+        unit: "Chaos Gundam"
+        linked: true
+      - action: "attack"
+        player: "Aaaa"
+        attacker: "Chaos Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Chaos Gundam: Modifier applied to: Chaos Gundam"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Chaos Gundam received 4 damage, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+  - turn: 11
+    active_player: "Aaaa"
+    actions:
+      - action: "play_command"
+        player: "Aaaa"
+        card: "Airframe Seizure"
+        effects:
+          - "Abyss Gundam (MA Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "Aaaa"
+        attacker: "Gaia Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+          - "Gaia Gundam received 4 damage, now destroyed"
+          - "Card added to hand: Chaos Gundam"
+      - action: "deploy"
+        card: "Abyss Gundam (MA Mode)"
+      - action: "deploy"
+        card: "Chaos Gundam (MA Mode)"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Chaos Gundam (MA Mode), leaving 2 HP remaining"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Chaos Gundam (MA Mode), now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Exass revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Auel Neider revealed"
+          - "Shield card added to hand: Auel Neider"
+  - turn: 13
+    active_player: "Aaaa"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Auel Neider"
+        unit: "Abyss Gundam (MA Mode)"
+        linked: true
+      - action: "attack"
+        player: "Aaaa"
+        attacker: "Abyss Gundam (MA Mode)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+          - "Abyss Gundam (MA Mode) received 2 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Chaos Gundam"
+      - action: "deploy"
+        card: "Chaos Gundam (MA Mode)"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Chaos Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Abyss Gundam revealed and discarded"
+casualties:
+  Aaaa:
+    - card: "Girty Lue"
+      turn: 6
+    - card: "Abyss Gundam"
+      turn: 6
+    - card: "Gaia Gundam"
+      turn: 8
+    - card: "Chaos Gundam"
+      turn: 9
+    - card: "Gaia Gundam"
+      turn: 11
+    - card: "Chaos Gundam (MA Mode)"
+      turn: 12
+    - card: "Chaos Gundam"
+      turn: 14
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 5
+    - card: "Gundam Barbatos Adapt"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+shields_tally:
+  Aaaa:
+    ex_base: "replaced with a base (turn 3)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 1
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Prima partita del campione contro l'archetipo ZAFT Extended/Phantom Pain (Gaia Gundam, Chaos Gundam, Abyss Gundam + Stellar Loussier/Sting Oakley/Auel Neider) - vinta senza incontrare particolari difficolta'."
+  - "Ottima gestione del danno incidentale in due occasioni distinte: al t6, il ping da 1 del Deploy di Gundam Barbatos Adapt riduce Abyss Gundam a 2 HP, poi Darkness Finger lo chiude senza sprecare un attacco; identica sequenza al t12 con la prima attivazione di Gundam Barbatos Lupus (2 danni) + Darkness Finger su Chaos Gundam (MA Mode). Conversione efficiente di danno parziale in kill completo, due volte nella stessa partita."
+  - "Gundam Barbatos Lupus arriva finalmente in campo al t12 e fa esattamente il suo lavoro: due attivazioni nella stessa partita (t12: uccide Chaos Gundam MA Mode in combo con Darkness Finger; t14: uccide da solo un secondo Chaos Gundam) - la prova pratica di come il piano-motore del mazzo funzioni quando la carta non resta bloccata nella shield pile, a differenza di molte partite recenti (dadada, Ja Rul, Musou, Amo, ddd) dove non arrivava mai a schierarsi."
+  - "T11: blocco corretto con Shiden Custom (Blocker dedicato) contro Gaia Gundam invece di lasciar perdere gratis Gundam Barbatos Adapt (gia' bersaglio dichiarato) - scambio 1-per-1 nel ruolo giusto, nessun errore."
+  - "Nessun errore tattico individuato in tutta la partita."
