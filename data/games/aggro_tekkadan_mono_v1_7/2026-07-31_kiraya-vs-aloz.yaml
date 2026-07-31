@@ -1,0 +1,804 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-07-31_kiraya-vs-aloz"
+  date_imported: "2026-07-31"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:aloz"
+  players:
+    aloz:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "aloz"
+    seen:
+      - "pilot"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "aloz"
+    seen:
+      - "base"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Duo Maxwell":
+    id: "GD01-090"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "aloz"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Deathscythe":
+    id: "GD01-025"
+    note: "pinned: t10 'Linked pilot: Duo Maxwell / Rested resource placed / Placed 1 Resource / Gundam Deathscythe: Modifier applied to: Gundam Deathscythe' matches GD01-025's When Paired ability exactly ('place 1 rested Resource, gain First Strike this turn') - explains the immediately following 'Damage prevented' (First Strike killed the blocking Shiden Custom before it could deal counter-damage). GD01-033 has only a passive Repair 1, no pairing trigger at all."
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "aloz"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Heero Yuy":
+    id: null
+    candidates:
+      - "GD05-098"
+      - "ST02-010"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "aloz"
+    seen:
+      - "pilot"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "aloz"
+    seen:
+      - "discarded"
+      - "exiled"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "aloz"
+    seen:
+      - "deployed"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Nu Gundam":
+    id: "GD05-017"
+    note: "pinned: t20 'Jegan, Nu Gundam and Jegan exiled from the game' -> free damage-only battle vs Gundam Barbatos Lupus matches GD05-017's When Paired ability exactly ('choose 3 trash cards, exile them, begin a battle performing only the damage step'); GD05-020 has no such ability, only a Deploy resource-ramp effect."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "aloz"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "aloz"
+    seen:
+      - "command"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "aloz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Strike Gundam":
+    id: "ST04-002"
+    note: "pinned: 'Strike Gundam: Draw a card / ... discarded' fires on every deploy (t6, t14, t16), matching ST04-002's Deploy exactly ('Draw 1. Then, discard 1.'); GD01-077 has no effect at all ('-')."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "aloz"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam":
+    id: null
+    candidates:
+      - "GD01-040"
+      - "ST02-001"
+    note: "left ambiguous: t16 'Wing Gundam received 5 damage, leaving 2 HP remaining' implies 7 max HP, which neither candidate's printed HP matches even with Heero Yuy's possible +1 HP During-Link bonus (GD01-040 HP3+1=4, ST02-001 HP5+1=6) - a genuine unexplained stat anomaly, not force-resolved."
+    owner: "aloz"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Wing Gundam Zero":
+    id: "GD01-024"
+    type: "UNIT"
+    level: 8
+    cost: 8
+    ap: 5
+    hp: 7
+    owner: "aloz"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "pilot"
+setup:
+  - player: "aloz"
+    action: "choose_second_player"
+  - player: "aloz"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "aloz"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "aloz"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 6
+    active_player: "aloz"
+    actions:
+      - action: "deploy"
+        card: "Strike Gundam"
+        effects:
+          - "Strike Gundam: Draw a card"
+          - "Wing Gundam discarded"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Re-GZ BWS"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Re-GZ BWS received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Gundam Barbatos 1st Form moved to trash"
+      - action: "play_command"
+        player: "aloz"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Deathscythe discarded"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Gundam"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Zeheart Galette discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Strike Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Jegan revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kayra's Re-GZ revealed and discarded"
+  - turn: 8
+    active_player: "aloz"
+    actions:
+      - action: "play_command"
+        player: "aloz"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Deathscythe discarded"
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ BWS"
+        linked: true
+      - action: "attack"
+        player: "aloz"
+        attacker: "Re-GZ BWS"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Re-GZ BWS received 3 damage, leaving 1 HP remaining"
+          - "Healed 2 damage to: Re-GZ BWS"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Re-GZ BWS"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Re-GZ BWS"
+        blockers: "none"
+        final_target: "Re-GZ BWS"
+        outcome:
+          - "Re-GZ BWS received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam Zero revealed and discarded"
+  - turn: 10
+    active_player: "aloz"
+    actions:
+      - action: "deploy"
+        card: "Gundam Deathscythe"
+      - action: "pair_pilot"
+        pilot: "Duo Maxwell"
+        unit: "Gundam Deathscythe"
+        linked: true
+        effects:
+          - "Gundam Deathscythe: Modifier applied to: Gundam Deathscythe"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Gundam Deathscythe"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+          - "Damage prevented"
+          - "Gundam Deathscythe received 0 damage, leaving 6 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Gusion Rebake discarded"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Deathscythe, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam Deathscythe"
+        blockers: "none"
+        final_target: "Gundam Deathscythe"
+        outcome:
+          - "Gundam Deathscythe received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+  - turn: 12
+    active_player: "aloz"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero"
+        effects:
+          - "Dealt 3 damage to: Gundam Barbatos 1st Form and Ryusei-Go (Graze Custom Ⅱ)"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Wing Gundam Zero"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 14
+    active_player: "aloz"
+    actions:
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Strike Gundam"
+        effects:
+          - "Strike Gundam: Draw a card"
+          - "Jegan discarded"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Wing Gundam Zero"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Nu Gundam"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Wing Gundam Zero"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Isaribi and Shiden Custom (Ryusei-Go) moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Heero Yuy revealed"
+          - "Shield card added to hand: Heero Yuy"
+  - turn: 16
+    active_player: "aloz"
+    actions:
+      - action: "deploy"
+        card: "Strike Gundam"
+        effects:
+          - "Strike Gundam: Draw a card"
+          - "Jegan discarded"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Strike Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Strike Gundam received 6 damage, now destroyed"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Wing Gundam Zero"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "aloz"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Wing Gundam received 5 damage, leaving 2 HP remaining"
+          - "Breach 5 Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Barbatos 1st Form and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Shiden Custom (Ryusei-Go) and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Wing Gundam Zero, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Gundam Gusion Rebake and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 1 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+  - turn: 18
+    active_player: "aloz"
+    actions:
+      - action: "attack"
+        player: "aloz"
+        attacker: "Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Wing Gundam Zero"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none (High-maneuver)"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 5 damage, now destroyed"
+          - "Wing Gundam Zero received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Nu Gundam"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+  - turn: 20
+    active_player: "aloz"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Jegan, Nu Gundam and Jegan exiled from the game"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Nu Gundam received 5 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5 Shield card: Airframe Seizure revealed and discarded"
+      - action: "attack"
+        player: "aloz"
+        attacker: "Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+casualties:
+  aloz:
+    - card: "Re-GZ BWS"
+      turn: 6
+    - card: "Strike Gundam"
+      turn: 7
+    - card: "Re-GZ BWS"
+      turn: 9
+    - card: "Gundam Deathscythe"
+      turn: 11
+    - card: "Argama"
+      turn: 15
+    - card: "Strike Gundam"
+      turn: 16
+    - card: "Wing Gundam"
+      turn: 17
+    - card: "Wing Gundam Zero"
+      turn: 18
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+      inferred: true
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 12
+      inferred: true
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 16
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+    - card: "Gundam Barbatos Lupus"
+      turn: 18
+    - card: "Gundam Barbatos Lupus"
+      turn: 20
+shields_tally:
+  aloz:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 14)"
+    shields_lost: 4
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Sconfitta (20 turni) contro un avversario Verde/Bianco Gundam Wing + Earth Federation/Londo Bell che ha messo in campo, nella stessa partita, le due minacce piu' pericolose gia' documentate in questa sessione: Wing Gundam Zero (board wipe simmetrico al Deploy, t12, e attaccante non bloccabile per il resto della partita) e la combo Nu Gundam (GD05-017)+Amuro Ray (esilio+battaglia gratuita, t20, che uccide l'ultima copia di Lupus). Le due minacce insieme in un'unica partita non erano ancora capitate nel campione."
+  - "T17: turno di valore eccezionale nonostante la sconfitta finale - Gundam Barbatos Lupus si attiva 4 volte nello stesso turno (record della sessione), uccidendo Wing Gundam e riducendo sia Wing Gundam Zero che un Nu Gundam quasi a zero HP usando solo trash accumulato."
+  - "T12: il wipe di Wing Gundam Zero colpisce solo 2 unita' (Gundam Barbatos 1st Form e Ryusei-Go, entrambe gia' a 1 HP da danni precedenti) perche' la board di Kiraya era gia' molto assottigliata in quel momento - non una board sovraestesa spazzata via, solo l'ultimo colpo su unita' che sarebbero comunque morte a breve."
+  - "Nessun errore tattico chiaro individuato: la sconfitta viene dalla convergenza sfortunata dei due matchup piu' difficili del mazzo nella stessa partita, non da una giocata migliorabile. T19 (Lupus schierato ma non attivato) non sembra un'occasione persa - nessun combattimento e' avvenuto quel turno per nessuno dei due giocatori, quindi non c'era un bersaglio urgente da colpire."
+unparsed_lines:
+  - "[turn 10] Rested resource placed"
+  - "[turn 10] Placed 1 Resource"
+  - "[turn 18] Returned to deck top"
