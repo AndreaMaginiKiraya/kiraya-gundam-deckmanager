@@ -1,0 +1,460 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-07-31_kiraya-vs-markgundam"
+  date_imported: "2026-07-31"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Markgundam:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_7"
+cards:
+  "Aegis Gundam (MA Mode)":
+    id: "ST04-007"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Markgundam"
+    seen:
+      - "shield"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Kiraya"
+      - "Markgundam"
+    seen:
+      - "command"
+      - "milled"
+  "Damage Control":
+    id: "GD04-113"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Markgundam"
+    seen:
+      - "milled"
+  "Fatal Strike":
+    id: "ST05-014"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "Markgundam"
+    seen:
+      - "attacker"
+      - "command"
+  "GN Armor (Type-E)":
+    id: "GD03-057"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Markgundam"
+    seen:
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia":
+    id: "ST07-001"
+    note: "pinned: 'When Paired' triggers a mill-2 both times (t10, t12), with a bonus draw only when a (CB) card was among the milled cards (t12 milled 'Gundam Exia (Trans-Am)', a CB unit -> draw fired; t10 milled Minerva+Damage Control, neither CB -> no draw) - matches ST07-001's exact conditional text. GD04-038/GD04-064/ST07-002 have unrelated or no abilities."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Markgundam"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia (Trans-Am)":
+    id: "GD03-049"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 6
+    hp: 4
+    owner: "Markgundam"
+    seen:
+      - "milled"
+  "Gundam Gusion Rebake Full City":
+    id: "GD03-053"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Kyrios (Flight Mode)":
+    id: null
+    candidates:
+      - "GD05-048"
+      - "ST07-008"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "Markgundam"
+    seen:
+      - "discarded"
+      - "shield"
+  "Gundam Virtue":
+    id: null
+    note: "genuinely tied between 2 candidates: t6 combat math (dealt 3 damage destroying Graze Custom's HP2, took 2 damage leaving 1 HP i.e. HP3 total) matches BOTH GD03-052 (AP3/HP3) and ST07-004 (AP3/HP3) exactly - no Activate-Main or Blocker usage was shown to distinguish them, left unresolved rather than guess."
+    candidates:
+      - "GD03-052"
+      - "GD04-047"
+      - "ST07-003"
+      - "ST07-004"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "Markgundam"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Minerva:
+    id: "ST09-010"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Markgundam"
+    seen:
+      - "base"
+      - "milled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Setsuna F. Seiei":
+    id: "ST07-009"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Markgundam"
+    seen:
+      - "pilot"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+setup:
+  - player: "Markgundam"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Markgundam"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Zeheart Galette discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 2
+    active_player: "Markgundam"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Markgundam"
+    actions:
+      - action: "deploy"
+        card: "Gundam Virtue"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Markgundam"
+    actions:
+      - action: "attack"
+        player: "Markgundam"
+        attacker: "Gundam Virtue"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Gundam Virtue received 2 damage, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Markgundam"
+        card: "Fatal Strike"
+        effects:
+          - "Fatal Strike: destroyed Hyakuren"
+      - action: "play_command"
+        player: "Markgundam"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Kyrios (Flight Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Virtue"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Gusion Rebake Full City discarded"
+  - turn: 8
+    active_player: "Markgundam"
+    actions:
+      - action: "play_command"
+        player: "Markgundam"
+        card: "Airframe Seizure"
+        effects:
+          - "GN Armor (Type-E) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_base"
+        card: "Minerva"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Minerva"
+        outcome:
+          - "Minerva received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Aegis Gundam (MA Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 10
+    active_player: "Markgundam"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia"
+      - action: "pair_pilot"
+        pilot: "Setsuna F. Seiei"
+        unit: "Gundam Exia"
+        linked: true
+        effects:
+          - "Gundam Exia milled 2: Minerva and Damage Control moved to trash"
+      - action: "attack"
+        player: "Markgundam"
+        attacker: "Gundam Exia"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        modifiers:
+          - "Setsuna F. Seiei: Modifier applied to: Gundam Exia"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Gundam Exia received 4 damage, leaving 1 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Exia"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Kyrios (Flight Mode) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Aegis Gundam (MA Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 12
+    active_player: "Markgundam"
+    actions:
+      - action: "play_base"
+        card: "Minerva"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Exia"
+      - action: "pair_pilot"
+        pilot: "Setsuna F. Seiei"
+        unit: "Gundam Exia"
+        linked: true
+        effects:
+          - "Gundam Exia milled 2: Gundam Exia (Trans-Am) and Airframe Seizure moved to trash"
+          - "Gundam Exia: Draw a card"
+      - action: "attack"
+        player: "Markgundam"
+        attacker: "Gundam Exia"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        modifiers:
+          - "Setsuna F. Seiei: Modifier applied to: Gundam Exia"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 7 damage, now destroyed"
+          - "Gundam Exia received 4 damage, leaving 1 HP remaining"
+casualties:
+  Markgundam:
+    - card: "Minerva"
+      turn: 9
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 12
+shields_tally:
+  Markgundam:
+    ex_base: "replaced with a base (turn 8)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Vittoria per resa dell'avversario al t12 (Markgundam a 1 shield residuo contro i 5 di Kiraya) - mazzo Celestial Being (Gundam Virtue, Gundam Exia+Setsuna F. Seiei, Gundam Kyrios, GN Armor, Aegis Gundam MA Mode) con tech che rispecchia la nostra (Fatal Strike, Airframe Seizure, Minerva)."
+  - "Schema ricorrente vincente: Barbatos Adapt pinga al Deploy l'attaccante avversario appena schierato/indebolito, poi un blocco sacrificale con Shiden Custom (Ryusei-Go) assorbe l'attacco pesante di Gundam Exia (buffato da Setsuna F. Seiei) lasciandolo quasi morto - ripetuto identico al t10 e al t12, sempre con esito favorevole nello scambio complessivo anche perdendo lo Shiden Custom."
+  - "Il costo forzato di Ryusei-Go (Graze Custom Ⅱ) - pesca poi scarta - ha buttato via Gundam Gusion Rebake Full City al t7 (la nuova carta appena aggiunta al mazzo); non e' una scelta libera (l'abilita' della carta impone lo scarto), quindi non e' lo stesso problema gia' visto con Lupus, ma resta un costo reale della carta da tenere a mente quando si valuta Full City su un campione piu' ampio."
+  - "Nessun errore tattico individuato."
