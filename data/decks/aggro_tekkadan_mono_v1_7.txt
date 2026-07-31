@@ -12,5 +12,4 @@
 3 GD03-094 Zeheart Galette
 3 GD05-111 Airframe​ Seizure
 3 GD05-110 Darkness Finger
-2 ST09-010 Minerva
-2 ST05-015 Isaribi
+4 ST05-015 Isaribi
