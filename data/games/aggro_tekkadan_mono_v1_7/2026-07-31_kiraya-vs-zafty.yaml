@@ -1,0 +1,612 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-07-31_kiraya-vs-zafty"
+  date_imported: "2026-07-31"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+    Zafty:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+        - "Red"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Amate Yuzuriha (Machu)":
+    id: "ST06-009"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Zafty"
+    seen:
+      - "pilot"
+      - "shield"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "Zafty"
+    seen:
+      - "command"
+      - "shield"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "GQuuuuuuX (Omega Psycommu)":
+    id: "GD03-034"
+    note: "pinned: t15 'GQuuuuuuX (Omega Psycommu): Dealt 3 damage to Graze Custom, now destroyed' immediately on deploy matches GD03-034's unconditional Deploy exactly ('choose 1 enemy Unit, deal 3 damage to it'). ST06-002's similar Deploy only deals 1 damage and is conditional; GD02-038/ST06-001/EB01-024 have unrelated abilities (top-3 dig, When-Linked buff, Attack-triggered 2 damage respectively)."
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 6
+    hp: 5
+    owner: "Zafty"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake Full City":
+    id: "GD03-053"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Zafty"
+    seen:
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Red Gundam":
+    id: null
+    candidates:
+      - "GD02-024"
+      - "GD03-039"
+      - "ST06-005"
+      - "ST06-006"
+    note: "left ambiguous, likely 2 different printings in play: the t9 copy triggers 'Can't block High-maneuver' on attack with no Deploy effect shown, matching GD02-024's own During-Link High-Maneuver grant (Amate Yuzuriha's separately-confirmed ability, ST06-009, doesn't grant High-Maneuver, ruling out a pilot-side explanation); the t11 copy instead shows a clean 2-step Deploy ('Rested unit: GQuuuuuuX' then 'No targets') matching GD03-039 exactly ('choose 1 other active friendly Clan Unit, rest it; if you do, choose 1 enemy Unit with 2 or less AP, deal 2 damage'), with no High-Maneuver text. The single 'cards' entry can't represent two different ids for the same name, so left null rather than force one pin over the other."
+    owner: "Zafty"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Shuji Itō":
+    id: "ST06-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Zafty"
+    seen:
+      - "added to hand"
+      - "pilot"
+      - "shield"
+  "Sugai's Gelgoog (GQ)":
+    id: null
+    candidates:
+      - "GD02-041"
+      - "ST06-008"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "Zafty"
+    seen:
+      - "shield"
+  "Undying Persistence":
+    id: "GD02-109"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Zafty"
+    seen:
+      - "command"
+  "Zaku (Four Snake Eyes') [YETI] (GQ)":
+    id: "GD03-032"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Zafty"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "milled"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Zafty"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Zafty"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Zafty"
+    actions:
+      - action: "deploy"
+        card: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+      - action: "deploy"
+        card: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Zafty"
+    actions:
+      - action: "attack"
+        player: "Zafty"
+        attacker: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Zafty"
+        attacker: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amate Yuzuriha (Machu) revealed"
+          - "Shield card added to hand: Amate Yuzuriha (Machu)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku (Four Snake Eyes') [YETI] (GQ)"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "play_command"
+        player: "Zafty"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Zeheart Galette moved to trash"
+  - turn: 7
+    active_player: "Zafty"
+    actions:
+      - action: "attack"
+        player: "Zafty"
+        attacker: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Zaku (Four Snake Eyes') [YETI] (GQ) received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Zafty"
+        attacker: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+        blockers: "none"
+        final_target: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+        outcome:
+          - "Zaku (Four Snake Eyes') [YETI] (GQ) received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shuji Itō revealed"
+          - "Shield card added to hand: Shuji Itō"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Zeheart Galette discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "play_command"
+        player: "Zafty"
+        card: "Undying Persistence"
+        effects:
+          - "Undying Persistence: Dealt 1 damage to Gundam Barbatos Adapt, now destroyed"
+  - turn: 9
+    active_player: "Zafty"
+    actions:
+      - action: "deploy"
+        card: "Red Gundam"
+      - action: "pair_pilot"
+        pilot: "Amate Yuzuriha (Machu)"
+        unit: "Red Gundam"
+        linked: true
+        effects:
+          - "Card added to hand: GQuuuuuuX (Omega Psycommu)"
+      - action: "attack"
+        player: "Zafty"
+        attacker: "Red Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none (High-maneuver)"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Red Gundam received 4 damage, leaving 1 HP remaining"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Red Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Sugai's Gelgoog (GQ) revealed and discarded"
+  - turn: 11
+    active_player: "Zafty"
+    actions:
+      - action: "deploy"
+        card: "GQuuuuuuX (Omega Psycommu)"
+      - action: "deploy"
+        card: "Red Gundam"
+        effects:
+          - "Rested unit: GQuuuuuuX (Omega Psycommu)"
+          - "No targets for Red Gundam"
+      - action: "pair_pilot"
+        pilot: "Shuji Itō"
+        unit: "Red Gundam"
+        linked: true
+      - action: "attack"
+        player: "Zafty"
+        attacker: "Red Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Red Gundam received 4 damage, leaving 2 HP remaining"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Red Gundam, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Hyakuren and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to GQuuuuuuX (Omega Psycommu), now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Improved Technique revealed"
+          - "No targets for Improved Technique"
+          - "Shield card: Improved Technique moved to trash"
+  - turn: 13
+    active_player: "Zafty"
+    actions:
+      - action: "deploy"
+        card: "GQuuuuuuX (Omega Psycommu)"
+      - action: "pair_pilot"
+        pilot: "Amate Yuzuriha (Machu)"
+        unit: "GQuuuuuuX (Omega Psycommu)"
+        linked: true
+        effects:
+          - "Returned to deck bottom"
+      - action: "attack"
+        player: "Zafty"
+        attacker: "GQuuuuuuX (Omega Psycommu)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "GQuuuuuuX (Omega Psycommu) received 3 damage, leaving 2 HP remaining"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Graze Custom and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to GQuuuuuuX (Omega Psycommu), now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake Full City"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shuji Itō revealed"
+          - "Shield card added to hand: Shuji Itō"
+  - turn: 15
+    active_player: "Zafty"
+    actions:
+      - action: "deploy"
+        card: "GQuuuuuuX (Omega Psycommu)"
+        effects:
+          - "GQuuuuuuX (Omega Psycommu): Dealt 3 damage to Graze Custom, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Amate Yuzuriha (Machu)"
+        unit: "GQuuuuuuX (Omega Psycommu)"
+        linked: true
+        effects:
+          - "Card added to hand: Shuji Itō"
+      - action: "attack"
+        player: "Zafty"
+        attacker: "GQuuuuuuX (Omega Psycommu)"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "Gundam Gusion Rebake Full City"
+        final_target: "Gundam Gusion Rebake Full City"
+        outcome:
+          - "Gundam Gusion Rebake Full City received 8 damage, now destroyed"
+          - "GQuuuuuuX (Omega Psycommu) received 5 damage, leaving 1 HP remaining"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and GQuuuuuuX (Omega Psycommu)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos Lupus, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Gundam Barbatos Adapt"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 15
+    - card: "Gundam Gusion Rebake Full City"
+      turn: 15
+  Zafty:
+    - card: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+      turn: 7
+    - card: "Zaku (Four Snake Eyes') [YETI] (GQ)"
+      turn: 8
+    - card: "Red Gundam"
+      turn: 12
+    - card: "GQuuuuuuX (Omega Psycommu)"
+      turn: 12
+    - card: "GQuuuuuuX (Omega Psycommu)"
+      turn: 14
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 1
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 5
+  Zafty:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Vittoria pulita (16 turni, 5/6 shield residue) contro un avversario Verde/Rosso GQuuuuuuX/Clan (Zaku Four Snake Eyes, Red Gundam x2 stampe diverse, GQuuuuuuX Omega Psycommu a ripetizione con Deploy 3 danni, Amate Yuzuriha, Shuji Ito) con rimozione diretta (Close Combat, Undying Persistence, Improved Technique) - primo incontro con questo archetipo nel campione."
+  - "T6 e t8: due rimozioni action-speed avversarie (Close Combat su Exia Repair, Undying Persistence su un Barbatos Adapt gia' a 1 HP) non erano evitabili - nessuna alternativa di gioco le avrebbe prevenute."
+  - "Possibile occasione mancata al t11: con Shiden Custom sotto attacco da un Red Gundam AP2 appena schierato, Kiraya assegna 'no blocker' pur avendo Gundam Gusion Rebake (Blocker, HP5, gia' schierato e non ancora usato per attaccare quel turno) libero e disponibile - un blocco l'avrebbe probabilmente salvato senza rischio (Gusion Rebake avrebbe assorbito solo 2 danni sui suoi 5 HP). Non e' certificabile al 100% dal log che Gusion Rebake fosse davvero libero, ma sembra la spiegazione piu' plausibile e vale la pena verificarla in partita."
+  - "Ottimo uso difensivo di Gundam Gusion Rebake Full City al t15: bloccato deliberatamente contro GQuuuuuuX per proteggere Gundam Barbatos Lupus (il pezzo piu' prezioso) - muore nello scambio ma e' il sacrificio corretto, e infligge comunque 5 danni lasciando l'attaccante a 1 HP."
+  - "Gundam Barbatos Lupus arriva presto (t12) e si attiva 2 volte con valore pulito, eliminando 2 copie di GQuuuuuuX gia' indebolite - nessun problema di ridondanza questa partita."
+unparsed_lines:
+  - "[turn 11] Returned to deck top"
