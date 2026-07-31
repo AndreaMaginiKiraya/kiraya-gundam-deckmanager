@@ -1,0 +1,634 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-07-31_kiraya-vs-uhnno"
+  date_imported: "2026-07-31"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Uhnno"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+    Uhnno:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: 'Rested unit: Shiden Custom (Ryusei-Go)' matches ST01-010's When Paired ability ('choose 1 enemy Unit with 5 or less HP, rest it') exactly; GD05-085 has no such effect."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Uhnno"
+    seen:
+      - "pilot"
+  "Char's Zaku Ⅱ":
+    id: "ST03-006"
+    note: "pinned: 'Card added to hand: Zaku Ⅱ' right after this unit's death (with no pilot pairing ever logged for it) matches ST03-006's unconditional Destroyed ability ('look at top 3, add 1 Zeon/Neo Zeon Unit to hand'); GD01-026's version requires 'During Pair' at the moment of death and deploys a token, not adds a real card to hand - neither condition nor effect shape matches here."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Uhnno"
+    seen:
+      - "deployed"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "ambiguous: 2 copies deployed (t9, t13), both AP3/HP4 by combat math (3 dmg dealt to Isaribi, 4 dmg taken to die) - consistent with GD01-001/GD01-013/ST01-001. No 'repaired 2' end-of-turn line ever appears for either copy, unlike other games where ST01-001's intrinsic Repair 2 fires every turn it survives - weak evidence against ST01-001, but not conclusive since these copies didn't survive long enough to necessarily show it. Left unpinned."
+    owner: "Uhnno"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "pinned: Kiraya's own card, only printing in her saved deck 'aggro_tekkadan_mono_v1_7' (clone of v1_5)"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "pinned: Kiraya's own card, only printing in her saved deck 'aggro_tekkadan_mono_v1_7' (clone of v1_5)"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Guntank:
+    id: "GD01-008"
+    note: "pinned: 'No targets for Guntank' on deploy, with Kiraya's only unit in play (a freshly-redeployed Gundam Exia Repair) presumably active/untapped - consistent with GD01-008's Deploy condition ('choose 1 rested enemy Unit') finding nothing, whereas ST01-004's condition ('choose 1 enemy Unit with 2 or less HP') would have found a valid target in that same HP1 Exia Repair regardless of its rested state."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Uhnno"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  ReZEL:
+    id: "GD01-018"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Uhnno"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Uhnno"
+    seen:
+      - "deployed"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zaku Ⅰ":
+    id: "ST03-007"
+    type: "UNIT"
+    level: 1
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Uhnno"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: t5 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' right after its own attack declaration matches ST03-008's Attack ability exactly ('this Unit gets AP+2 during this turn'); GD01-035 is a vanilla card with no effect at all. Applied to all copies of the name in this game (multiple were deployed) absent any contradicting evidence."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Uhnno"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "Uhnno"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeong (Head)":
+    id: null
+    note: "not found in card database: this is Zeong's own token (per its Deploy/Destroyed ability leaving a 'Head' remnant unit behind), not a printed card - correctly absent from the database, see CLAUDE.md's documented token list."
+    owner: "Uhnno"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Uhnno"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Uhnno"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "Uhnno"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions: []
+  - turn: 5
+    active_player: "Uhnno"
+    actions:
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅰ"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Char's Zaku Ⅱ, now destroyed"
+          - "Card added to hand: Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Graze Custom moved to trash"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 7
+    active_player: "Uhnno"
+    actions:
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "Zaku Ⅰ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to Zaku Ⅱ, now destroyed"
+      - action: "deploy"
+        card: "ReZEL"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "No targets for Guntank"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and ReZEL"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Zaku Ⅰ"
+        blockers: "none"
+        final_target: "Zaku Ⅰ"
+        outcome:
+          - "Zaku Ⅰ received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Lupus and Hyakuren moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 7 damage, now destroyed"
+  - turn: 9
+    active_player: "Uhnno"
+    actions:
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "ReZEL"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zeheart Galette revealed"
+          - "Shield card added to hand: Zeheart Galette"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Rick Dom, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Barbatos Lupus discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Rick Dom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Rick Dom revealed and discarded"
+  - turn: 11
+    active_player: "Uhnno"
+    actions:
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "ReZEL"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 4 damage, now destroyed"
+          - "ReZEL received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Zeong"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+  - turn: 13
+    active_player: "Uhnno"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Gundam"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Hyakuren and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Flauros (Ryusei-Go) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Zeong, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 6 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 2 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Zeong (Head)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Zeong"
+        blockers: "none"
+        final_target: "Zeong"
+        outcome:
+          - "Zeong received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+  - turn: 15
+    active_player: "Uhnno"
+    actions:
+      - action: "attack"
+        player: "Uhnno"
+        attacker: "Zeong (Head)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Isaribi"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 14
+  Uhnno:
+    - card: "Char's Zaku Ⅱ"
+      turn: 6
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Zaku Ⅱ"
+      turn: 7
+    - card: "Zaku Ⅰ"
+      turn: 8
+    - card: "ReZEL"
+      turn: 11
+    - card: "Gundam"
+      turn: 12
+    - card: "Gundam"
+      turn: 14
+    - card: "Zaku Ⅱ"
+      turn: 14
+    - card: "Zeong"
+      turn: 14
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Uhnno:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 1
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Prima sconfitta con v1_7 (ancora identico a v1_5). Avversario Zeon/Federation rush (Zaku I/II a raffica, Char's Zaku Ⅱ, ReZEL, Rick Dom, Zeong, 'Gundam'+Amuro Ray) - curva d'apertura molto aggressiva che ha portato Kiraya a 0 shield gia' entro il t13, ben prima che il suo motore (Lupus) entrasse in gioco."
+  - "Problema centrale: 2 delle 4 copie di Gundam Barbatos Lupus perse PRIMA di riuscire a schierarne anche solo una - la prima al t8, milled dalla propria Gundam Exia Repair (automatico, nessuna scelta); la seconda al t10, scartata volontariamente come costo di Airframe Seizure. Quest'ultima e' l'unico punto della partita che vale la pena rivedere con occhio critico: scartare la seconda copia del proprio pezzo piu' importante subito dopo aver gia' perso la prima al mill e' una scelta che avrebbe meritato di essere valutata con piu' cautela, anche se dal log non e' possibile verificare se in mano ci fosse davvero un'alternativa migliore da scartare - non e' quindi un errore certificato, ma il candidato piu' plausibile se ce n'e' stato uno in questa partita."
+  - "Il t14 (turno in cui Lupus finalmente scende in campo) e' stato giocato in modo quasi ottimale, non peggiorabile: con 3 minacce avversarie vive contemporaneamente (secondo 'Gundam', Zaku Ⅱ, Zeong) e le shield gia' a zero, Kiraya ha usato ogni risorsa disponibile (3 attivazioni di Lupus, Shiden Custom, Graze Custom) per eliminarle tutte e tre nello stesso turno - l'unica alternativa (tenere Shiden Custom indietro come Blocker invece di attaccare) avrebbe comunque lasciato l'avversario con 2 attaccanti al t15 (Zaku Ⅱ vivo + il token Zeong (Head), inevitabile alla morte di Zeong) contro il suo unico Blocker superstite, perdendo comunque essendo gia' a 0 shield. Non un errore: la sconfitta al t15 era gia' matematicamente cementata dal board state, non da una scelta migliorabile in quel turno."
+  - "In sintesi: nessun errore tattico chiaro nella gestione di combattimenti/blocchi. La causa principale e' stata la doppia perdita anticipata di Lupus (in gran parte sfortuna) unita a una curva d'apertura avversaria molto veloce che ha azzerato le shield di Kiraya circa 4-5 turni prima che il piano-motore del mazzo potesse rispondere."
