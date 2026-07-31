@@ -1,0 +1,720 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-07-31_kiraya-vs-wuu"
+  date_imported: "2026-07-31"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+    Wuu:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+        - "Red"
+cards:
+  "Abyss Gundam":
+    id: "GD05-040"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Wuu"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Abyss Gundam (MA Mode)":
+    id: "GD05-046"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Wuu"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Kiraya"
+      - "Wuu"
+    seen:
+      - "command"
+  "Auel Neider":
+    id: "GD05-092"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "Wuu"
+    seen:
+      - "pilot"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Dopp:
+    id: "GD01-039"
+    type: "UNIT"
+    level: 1
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Wuu"
+    seen:
+      - "attacker"
+      - "deployed"
+  Exass:
+    id: "GD05-047"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 2
+    owner: "Wuu"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gaia Gundam":
+    id: "GD05-034"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Wuu"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gaia Gundam (MA Mode)":
+    id: "GD05-041"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Wuu"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Girty Lue":
+    id: "GD05-127"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Wuu"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake Full City":
+    id: "GD03-053"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "discarded"
+      - "milled"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Stellar Loussier":
+    id: "GD05-090"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "Wuu"
+    seen:
+      - "pilot"
+      - "shield"
+  "Sting Oakley":
+    id: "GD05-091"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "Wuu"
+    seen:
+      - "pilot"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "pinned: t5 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' right after its attack declaration matches ST03-008's Attack ability exactly ('this Unit gets AP+2 during this turn'); GD01-035 is vanilla with no effect."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Wuu"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "milled"
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Wuu"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Wuu"
+    actions:
+      - action: "deploy"
+        card: "Dopp"
+        effects:
+          - "Returned to deck bottom"
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "Wuu"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "play_command"
+        player: "Wuu"
+        card: "Airframe Seizure"
+        effects:
+          - "Gaia Gundam (MA Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Wuu"
+    actions:
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Dopp"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Dopp received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Isaribi and Darkness Finger moved to trash"
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Abyss Gundam"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Zaku Ⅱ received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 1 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+  - turn: 7
+    active_player: "Wuu"
+    actions:
+      - action: "deploy"
+        card: "Gaia Gundam"
+      - action: "pair_pilot"
+        pilot: "Stellar Loussier"
+        unit: "Gaia Gundam"
+        linked: true
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Gaia Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Isaribi revealed"
+          - "Shield card added to hand"
+          - "Gundam Barbatos Lupus discarded"
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Abyss Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Abyss Gundam received 5 damage, now destroyed"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Zeheart Galette discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Gaia Gundam"
+        blockers: "none"
+        final_target: "Gaia Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gaia Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+          - "Card added to hand: Abyss Gundam (MA Mode)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 9
+    active_player: "Wuu"
+    actions:
+      - action: "deploy"
+        card: "Abyss Gundam (MA Mode)"
+      - action: "pair_pilot"
+        pilot: "Sting Oakley"
+        unit: "Abyss Gundam (MA Mode)"
+        linked: false
+        effects:
+          - "Isaribi discarded"
+      - action: "deploy"
+        card: "Exass"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zaku Ⅱ revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gaia Gundam (MA Mode) revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Abyss Gundam (MA Mode)"
+  - turn: 11
+    active_player: "Wuu"
+    actions:
+      - action: "play_base"
+        card: "Girty Lue"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Wuu"
+        card: "Airframe Seizure"
+        effects:
+          - "Abyss Gundam (MA Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gaia Gundam"
+      - action: "deploy"
+        card: "Abyss Gundam (MA Mode)"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake Full City"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Gusion Rebake Full City"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Zeheart Galette and Hyakuren moved to trash"
+          - "Zeheart Galette: Modifier applied to: Gaia Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Girty Lue"
+        outcome:
+          - "Girty Lue received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Girty Lue"
+        outcome:
+          - "Girty Lue received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Exass revealed and discarded"
+  - turn: 13
+    active_player: "Wuu"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Auel Neider"
+        unit: "Abyss Gundam (MA Mode)"
+        linked: true
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Abyss Gundam (MA Mode)"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        modifiers:
+          - "Auel Neider: Modifier applied to: Abyss Gundam (MA Mode)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+          - "Abyss Gundam (MA Mode) received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Abyss Gundam (MA Mode)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake Full City"
+        final_target: "Gundam Gusion Rebake Full City"
+        outcome:
+          - "Gundam Gusion Rebake Full City received 5 damage, leaving 1 HP remaining"
+          - "Abyss Gundam (MA Mode) received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Exass"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+          - "Exass received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Gaia Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Gaia Gundam received 2 damage, leaving 1 HP remaining"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Gundam Barbatos Adapt and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gaia Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Stellar Loussier revealed"
+          - "Shield card added to hand: Stellar Loussier"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake Full City"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Stellar Loussier revealed"
+          - "Shield card added to hand: Stellar Loussier"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Graze Custom discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 15
+    active_player: "Wuu"
+    actions:
+      - action: "play_command"
+        player: "Wuu"
+        card: "Airframe Seizure"
+        effects:
+          - "Abyss Gundam (MA Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gaia Gundam (MA Mode)"
+      - action: "pair_pilot"
+        pilot: "Stellar Loussier"
+        unit: "Gaia Gundam (MA Mode)"
+        linked: true
+      - action: "attack"
+        player: "Wuu"
+        attacker: "Gaia Gundam (MA Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gaia Gundam (MA Mode), leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Isaribi"
+      turn: 15
+  Wuu:
+    - card: "Dopp"
+      turn: 5
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Abyss Gundam"
+      turn: 7
+    - card: "Gaia Gundam"
+      turn: 8
+    - card: "Girty Lue"
+      turn: 12
+    - card: "Abyss Gundam (MA Mode)"
+      turn: 13
+    - card: "Abyss Gundam (MA Mode)"
+      turn: 13
+    - card: "Exass"
+      turn: 13
+    - card: "Gaia Gundam"
+      turn: 14
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 1
+    shields_remaining: 4
+  Wuu:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Vittoria shield-quasi-perfetta (16 turni, 4/5 shield residue) contro un avversario Verde ibrido Zeon rush + Phantom Pain (Zaku Ⅱ, Dopp, Abyss Gundam/Abyss Gundam MA Mode, Gaia Gundam/Gaia Gundam MA Mode con Stellar Loussier, Sting Oakley, Auel Neider, Exass, Girty Lue)."
+  - "Prima vera prova in partita di Gundam Gusion Rebake Full City (sostituito a Flauros in questa versione): al t13 blocca un attacco pesante di Abyss Gundam Mode con Blocker, sopravvive (a differenza del vecchio Flauros HP3, che sarebbe morto) e distrugge l'attaccante nello scambio - esattamente il miglioramento di resilienza previsto dallo scambio. La sua abilita' firma (During Pair: quando un'unita' Tekkadan/Teiwaz subisce danno da effetto, rendi inattivo un nemico) pero' non si e' mai attivata in tutta la partita - nessun ping su un'unita' propria e' coinciso con la sua presenza in campo. Dato positivo parziale: il corpo/Blocker ha gia' pagato, l'abilita' resta da verificare."
+  - "T7: al trigger di Gaia Gundam (scegli di scartare 1 carta o l'avversario schiera gratis un'unita' Phantom Pain) Kiraya sceglie di scartare Gundam Barbatos Lupus - non e' chiaro dal log se fosse davvero la carta meno utile in mano in quel momento, ma e' un'altra istanza della stessa carta finita nello scarto prima di essere giocata. Non ha comunque impedito il piano: un'altra copia di Lupus arriva regolarmente al t14 e si attiva 2 volte nel resto della partita."
+  - "Buone scelte di scarto altrove: Airframe Seizure scarta Zeheart Galette (t8) e Graze Custom (t14), mai Lupus quando la scelta era libera (non forzata da una carta avversaria)."
+  - "Nessun errore tattico individuato nella gestione dei combattimenti."
