@@ -1,0 +1,613 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-07-31_kiraya-vs-berry"
+  date_imported: "2026-07-31"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Berry:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Andrew Waldfeld":
+    id: "GD05-082"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Berry"
+    seen:
+      - "pilot"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "Berry"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Berry"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "pinned: Kiraya's copies are her only printing (saved deck v1_7); Berry's copies only ever appeared as shield reveals, never played, so no independent ability evidence, but treated as the same common printing absent any contradiction."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner:
+      - "Berry"
+      - "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Gundam Gusion Rebake Full City":
+    id: "GD03-053"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner:
+      - "Berry"
+      - "Kiraya"
+    seen:
+      - "base"
+      - "milled"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved by hand: printed name is 'M1 Astray Shrike' (no parenthesis), the log's '(Shrike)' formatting made the automated lookup miss it. Deploy ability ('choose 1 rested enemy Unit, deal 1 damage') matches both observed instances exactly (t16 x2, one destroying a 1-HP Gundam Barbatos 1st Form)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Berry"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Berry"
+      - "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Murasame (Andrew Waldfeld Unit)":
+    id: "GD05-003"
+    note: "resolved by hand: Mobile Suit Arena's known display quirk (documented in CLAUDE.md) shows a Linked Unit as '<base name> (<Pilot> Unit)' once Link is active instead of its printed name - this is Waldfeld's Murasame."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Berry"
+    seen:
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "milled"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Berry"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "resolved by hand: same Mobile Suit Arena Linked-unit display quirk as Murasame above - this is Kira's Strike Rouge, already seen under this display name in the 2026-07-25 Chebycheff game."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Berry"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Berry"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+setup:
+  - player: "Berry"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Berry"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Hyakuren discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 2
+    active_player: "Berry"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "Berry"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "Berry"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Kira's Unit)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 8
+    active_player: "Berry"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Berry"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Berry"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Graze Custom"
+        linked: false
+      - action: "attack"
+        player: "Berry"
+        attacker: "Graze Custom"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 10
+    active_player: "Berry"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+      - action: "attack"
+        player: "Berry"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Strike Rouge (Kira's Unit) received 4 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake Full City"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Gusion Rebake Full City"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Mikazuki Augus and Isaribi moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+  - turn: 12
+    active_player: "Berry"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+          - "Rested unit: Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Isaribi and Shiden Custom (Ryusei-Go) moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake Full City"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Murasame (Andrew Waldfeld Unit) revealed and discarded"
+  - turn: 14
+    active_player: "Berry"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Rouge (Ootori)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Rouge (Ootori) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+      - action: "attack"
+        player: "Berry"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+          - "Already rested unit: Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake Full City"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+  - turn: 16
+    active_player: "Berry"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Rouge (Ootori)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Rouge (Ootori) and Strike Freedom Gundam"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Gundam Gusion Rebake Full City, leaving 5 HP remaining"
+      - action: "attack"
+        player: "Berry"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Gundam Gusion Rebake Full City"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake Full City"
+        outcome:
+          - "Gundam Gusion Rebake Full City received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Berry"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, leaving 3 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Murasame (Andrew Waldfeld Unit) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Kiraya"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to M1 Astray (Shrike), now destroyed"
+        final_target: "player"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "No more shields available, game is over!"
+casualties:
+  Berry:
+    - card: "Strike Rouge (Kira's Unit)"
+      turn: 10
+    - card: "Strike Rouge (Ootori)"
+      turn: 13
+    - card: "Strike Rouge (Ootori)"
+      turn: 16
+    - card: "M1 Astray (Shrike)"
+      turn: 17
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 10
+    - card: "Gundam Gusion Rebake Full City"
+      turn: 16
+    - card: "Gundam Barbatos 1st Form"
+      turn: 16
+  unattributed:
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Isaribi"
+      turn: 15
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+shields_tally:
+  Berry:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - "Vittoria schiacciante (17 turni, 3/5 shield residue) contro un mazzo SEED/Orb con DUE copie di Strike Freedom Gundam schierate (Berry) - terzo dato di questa sessione sul matchup piu' temuto del campione, vinto anche con doppia copia in campo."
+  - "Prima vera attivazione confermata dell'abilita' firma di Gundam Gusion Rebake Full City in tutta la sessione: al t13, il ping da Deploy dell'altro Gusion Rebake su Gundam Barbatos 1st Form (danno da effetto a un'unita' Tekkadan propria) fa scattare la sua 'During Pair' e rende inattivo Strike Rouge (Ootori) - esattamente il funzionamento previsto quando le condizioni si allineano (unita' in campo, appaiata, e un ping su un'unita' Tekkadan propria nello stesso turno)."
+  - "Nota di importazione corretta a mano: 'M1 Astray (Shrike)' non veniva trovato per una virgola/parentesi diversa dal nome stampato ('M1 Astray Shrike') - risolto in GD05-015, il suo Deploy (danno a un nemico gia' rendere inattivo) spiega esattamente i due trigger osservati. 'Strike Rouge (Kira's Unit)' e 'Murasame (Andrew Waldfeld Unit)' sono il consueto vizio di visualizzazione di Mobile Suit Arena per le Unit Linked gia' documentato (Kira's Strike Rouge GD05-010, Waldfeld's Murasame GD05-003)."
+  - "Nessun errore individuato; analisi non richiesta esplicitamente, controllo standard."
