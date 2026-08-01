@@ -1,0 +1,477 @@
+game:
+  id: "aggro_tekkadan_mono_v1_8/2026-08-01_kiraya-vs-t4vi"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:t4vi"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_8"
+    t4vi:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Green"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "ST01-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    note: "pinned from log: t11 'Linked pilot: Amuro Ray on unit Gundam / No targets for Amuro Ray' shows a failed target search on pairing, matching ST01-010's [When Paired] (choose 1 enemy Unit with 5 or less HP, rest it — no valid target here); GD05-085 has no targeting effect on pairing at all"
+    owner: "t4vi"
+    seen:
+      - "pilot"
+  "Char's Zaku Ⅱ":
+    id: "ST03-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    note: "pinned from log: both Destroyed triggers (t7, t10) show 'Card added to hand: Char's Zaku Ⅱ', matching ST03-006's [Destroyed] (look at top 3, may reveal a Zeon/Neo Zeon Unit and add to hand); GD01-026's Destroyed instead deploys a rested token copy"
+    owner: "t4vi"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  Dopp:
+    id: "GD01-039"
+    type: "UNIT"
+    level: 1
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "t4vi"
+    seen:
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  Gundam:
+    id: "ST01-001"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned from log: t11 'Linked pilot: Amuro Ray on unit Gundam' matches ST01-001's printed [Amuro Ray] link exactly — no other Gundam candidate links to Amuro Ray"
+    owner: "t4vi"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_8'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned: printed name is 'M1 Astray Shrike' (no parentheses) — the importer's exact-name match missed it over the punctuation difference. Log 'M1 Astray (Shrike): Dealt 1 damage to Shiden Custom (Ryusei-Go), now destroyed' matches GD05-015's [Deploy] (choose 1 rested enemy Unit, deal 1 damage) — Shiden Custom was rested from blocking the turn before"
+    owner: "t4vi"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  ReZEL:
+    id: "GD01-018"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "t4vi"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned from log: 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' self-buff on attack declaration (t7) matches ST03-008's [Attack] AP+2 during this turn"
+    owner: "t4vi"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "t4vi"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "t4vi"
+    actions:
+      - action: "deploy"
+        card: "Dopp"
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "t4vi"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 5
+    active_player: "t4vi"
+    actions:
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Dopp"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+  - turn: 7
+    active_player: "t4vi"
+    actions:
+      - action: "attack"
+        player: "t4vi"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+          - "Char's Zaku Ⅱ received 5 damage, now destroyed"
+          - "Card added to hand: Char's Zaku Ⅱ"
+      - action: "attack"
+        player: "t4vi"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "t4vi"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 2 damage, now destroyed"
+      - action: "attack"
+        player: "t4vi"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "deploy"
+        card: "ReZEL"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Graze Custom moved to trash"
+  - turn: 9
+    active_player: "t4vi"
+    actions:
+      - action: "attack"
+        player: "t4vi"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "t4vi"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 2 damage, leaving 1 HP remaining"
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+      - action: "attack"
+        player: "t4vi"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 2 damage, now destroyed"
+      - action: "attack"
+        player: "t4vi"
+        attacker: "ReZEL"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Shiden Custom (Ryusei-Go), now destroyed"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Gundam"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Char's Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Char's Zaku Ⅱ"
+          - "Card added to hand: Char's Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "ReZEL"
+        blockers: "none"
+        final_target: "ReZEL"
+        outcome:
+          - "ReZEL received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+  - turn: 11
+    active_player: "t4vi"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "No targets for Amuro Ray"
+      - action: "attack"
+        player: "t4vi"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Isaribi"
+      turn: 7
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Isaribi"
+      turn: 9
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+  t4vi:
+    - card: "Dopp"
+      turn: 6
+      inferred: true
+    - card: "Char's Zaku Ⅱ"
+      turn: 7
+    - card: "Zaku Ⅱ"
+      turn: 8
+    - card: "Zaku Ⅱ"
+      turn: 9
+    - card: "ReZEL"
+      turn: 10
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 4)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+  t4vi:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - turn: 6
+    note: "Good efficient turn: Barbatos 1st Form + Mikazuki Augus pings kill t4vi's Dopp for free before it does anything, and the double attack (Barbatos 1st Form draws a card, breaks EX Base; Exia Repair takes a shield) keeps pace despite t4vi's faster start (2 Zaku Ⅱ + Char's Zaku Ⅱ already down by t5)."
+  - turn: 7
+    note: "t4vi attacks Barbatos 1st Form directly instead of the player — a fair trade in raw stats (paired AP5/HP3 vs Char's Zaku Ⅱ's AP3/HP2, both die), but Char's Zaku Ⅱ's [Destroyed] hands t4vi a fresh card off the top 3, meaning t4vi comes out ahead on cards even in a card-for-card trade. This repeats at t10 — 2 free cards across the game from a single recurring card type, the same kind of card-advantage-engine problem flagged earlier this session against Strike Freedom/SEED decks."
+  - turn: 9
+    note: "Three attacks in one turn with only one Shiden Custom (Ryusei-Go) to block: Kiraya blocked the plain Zaku Ⅱ (traded up, Shiden Custom survives at 1 HP, Zaku Ⅱ dies) rather than Char's Zaku Ⅱ (would have traded even but fed its Destroyed card-draw) — the right call given only one block is available per turn. Whether saving the block for ReZEL's attack (which hit a shield, not Isaribi, and would have been a better unit-for-unit trade) was possible depends on whether the attack order was known in advance; not clear from the log, so not counted as a misplay."
+  - turn: 11
+    note: "By the time the log cuts off, Kiraya has no board and 1 shield left against t4vi's Gundam/Zaku Ⅱ board plus M1 Astray Shrike — conceding here was the right call, not a case of fighting on too long. Overall this reads as a genuinely tough matchup (t4vi's faster Zeon curve plus 2 free cards from Char's Zaku Ⅱ) rather than a misplay-driven loss — no clearly wrong decision found in the available log."
+  - "[turn 1] Returned to deck top"
