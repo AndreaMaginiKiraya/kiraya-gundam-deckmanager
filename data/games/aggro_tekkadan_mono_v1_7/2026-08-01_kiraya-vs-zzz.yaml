@@ -1,0 +1,729 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-08-01_kiraya-vs-zzz"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:ZZZ"
+  players:
+    ZZZ:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_7"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Kiraya"
+      - "ZZZ"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Kiraya"
+      - "ZZZ"
+    seen:
+      - "command"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+  "Gundam Gusion Rebake Full City":
+    id: "GD03-053"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake Full City and Zeheart Galette":
+    id: null
+    note: "parser artifact, not a real card: this log line names TWO cards at once ('Gundam Gusion Rebake Full City and Zeheart Galette returned to deck') - both are already tracked under their own entries (GD03-053, GD03-094) elsewhere in this record. This was Strike Freedom Gundam's (GD05-002) Attack ability: 'You may discard 2. If you do, choose 1 enemy Unit with the lowest Lv. Return it to the bottom of its owner's deck' - bouncing Kiraya's only unit (and its paired pilot along with it) at t15, a new and notably harsh capability of this recurring problem card not previously documented in this session's notes (previously only its draw-engine and AP-2 debuff sides were seen)."
+    owner: "Kiraya"
+    seen:
+      - "returned to deck"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "milled"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "pinned: 'Kira Yamato: Draw a card' immediately on pairing (t15) matches GD05-081's When Paired ability exactly; ST04-010 has an unrelated Attack-triggered AP-2 debuff, no draw."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "ZZZ"
+    seen:
+      - "pilot"
+      - "shield"
+  Kshatriya:
+    id: "GD01-044"
+    note: "pinned: t13 'Kshatriya: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Exia Repair' (2 separate targets, 1 damage each) matches GD01-044's When Paired ability exactly ('choose 1 to 2 enemy Units, deal 1 damage to them'); GD01-051 has no effect at all."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "ZZZ"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "ZZZ"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Parts:
+    id: null
+    note: "not found in card database"
+    owner: "ZZZ"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "ZZZ"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "ZZZ"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "ZZZ"
+    seen:
+      - "discarded"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "ZZZ"
+    seen:
+      - "discarded"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "ZZZ"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Victory Gundam":
+    id: "GD04-003"
+    note: "pinned: t7 'Victory Gundam: Draw a card' on attack matches GD04-003's Attack ability exactly ('if you have 3 or more League Militaire Units in play, draw 1'); GD04-011 is Destroyed-triggered (deploys a Parts token), wrong timing entirely. Same resolution as the 2026-07-26 niki game."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "ZZZ"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "ZZZ"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "ZZZ"
+    seen:
+      - "pilot"
+      - "shield"
+setup:
+  - player: "ZZZ"
+    action: "choose_first_player"
+  - player: "ZZZ"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "ZZZ"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Barbatos Adapt discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 3
+    active_player: "ZZZ"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 5
+    active_player: "ZZZ"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "play_command"
+        player: "ZZZ"
+        card: "Airframe Seizure"
+        effects:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zoloat (League Militaire)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 7
+    active_player: "ZZZ"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "Victory Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Victory Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+          - "Victory Gundam received 3 damage, leaving 2 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Victory Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Victory Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Üso Ewin revealed"
+          - "Shield card added to hand: Üso Ewin"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Parts"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+  - turn: 9
+    active_player: "ZZZ"
+    actions:
+      - action: "play_command"
+        player: "ZZZ"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "play_command"
+        player: "ZZZ"
+        card: "Airframe Seizure"
+        effects:
+          - "Marida Cruz discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Victory Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Victory Gundam received 2 damage, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Parts"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Reineforce Jr. received 4 damage, leaving 1 HP remaining"
+  - turn: 11
+    active_player: "ZZZ"
+    actions:
+      - action: "deploy"
+        card: "V-Dash Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "V-Dash Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "activate"
+        card: "V-Dash Gundam"
+        effects:
+          - "Rested unit: Parts"
+          - "Rested unit: Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "V-Dash Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "V-Dash Gundam received 2 damage, leaving 4 HP remaining"
+          - "Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Zoloat (League Militaire)"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, leaving 1 HP remaining"
+          - "Zoloat (League Militaire) received 6 damage, now destroyed"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Parts"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 1 damage, now destroyed"
+          - "Parts received 6 damage, now destroyed"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Parts"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 13
+    active_player: "ZZZ"
+    actions:
+      - action: "deploy"
+        card: "Kshatriya"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Kshatriya"
+        linked: true
+        effects:
+          - "Kshatriya: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Isaribi and Isaribi moved to trash"
+      - action: "play_command"
+        player: "ZZZ"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Gusion Rebake, leaving 1 HP remaining"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Gusion Rebake, now destroyed"
+          - "Isaribi received 7 damage, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake Full City"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Gusion Rebake Full City"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Gundam Gusion Rebake and Graze Custom moved to trash"
+  - turn: 15
+    active_player: "ZZZ"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Kshatriya"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Kshatriya and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Kshatriya and Strike Rouge (Ootori) discarded"
+          - "Gundam Gusion Rebake Full City and Zeheart Galette returned to deck"
+          - "Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to V-Dash Gundam, leaving 2 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Kiraya"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to V-Dash Gundam, now destroyed"
+        final_target: "shield"
+        outcome:
+          - "No targets for Marida Cruz"
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "ZZZ"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Hyakuren, leaving 1 HP remaining"
+  - turn: 17
+    active_player: "ZZZ"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Kshatriya"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Kshatriya and Strike Freedom Gundam"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Hyakuren, now destroyed"
+          - "Shield card: Hyakuren revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "ZZZ"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_command"
+        player: "ZZZ"
+        card: "Airframe Seizure"
+        effects:
+          - "Kshatriya discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 18
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  ZZZ:
+    - card: "Victory Gundam"
+      turn: 8
+    - card: "Victory Gundam"
+      turn: 9
+    - card: "Zoloat (League Militaire)"
+      turn: 11
+    - card: "Parts"
+      turn: 11
+    - card: "V-Dash Gundam"
+      turn: 15
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Isaribi"
+      turn: 13
+    - card: "Gundam Exia Repair"
+      turn: 13
+      inferred: true
+    - card: "Hyakuren"
+      turn: 17
+shields_tally:
+  ZZZ:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "replaced with a base (turn 10)"
+    shields_lost: 4
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Sconfitta per resa (18 turni) contro un mazzo League Militaire/UC estremamente denso di rimozione e pesca: ZZZ gioca Darkness Finger 3 volte nella partita (t9, t15 da shield-burst, t16 - lo stesso strumento del nostro mazzo, qui usato contro di noi), Kshatriya+Marida Cruz (ping ripetibile 1-2 danni ad ogni pairing), 2x Airframe Seizure, e Strike Freedom Gundam+Kira Yamato nel finale."
+  - "Scoperta nuova su Strike Freedom Gundam (GD05-002), mai documentata prima in questa sessione: la sua abilita' Attack e' 'Puoi scartare 2. Se lo fai, scegli 1 unita' nemica al Lv. piu' basso. Rimandala in fondo al mazzo del proprietario' - al t15 questo ha rimosso l'unica unita' di Kiraya in campo (Gundam Gusion Rebake Full City, con Zeheart Galette appaiata) SENZA combattimento e senza possibilita' di risposta, semplicemente scartando 2 carte da una mano gia' rimpinguata dal proprio motore di pesca. Finora di questa carta erano documentati solo il motore di pesca (Deploy/Attack draw) e il debuff AP-2 via Kira Yamato - questa e' una terza faccia del problema, probabilmente la piu' difficile da giocare intorno visto che non richiede nemmeno un combattimento."
+  - "Revisione turno per turno rifatta una terza volta, con lo stesso livello di rigore delle due precedenti (ENDEV, 2444) dopo la richiesta esplicita di Kiraya di verificare i propri errori: ancora nessun errore tattico chiaro individuato. Ogni unita' persa e' caduta o a un 'No blockers available' genuinamente forzato (Kiraya non ha mai avuto un'unita' con Blocker in campo in questa partita) o a rimozione diretta senza finestra di risposta (Darkness Finger, ping di Kshatriya/Marida Cruz, il bounce di Strike Freedom). Il t13 di ZZZ in particolare (ping di Kshatriya + Darkness Finger + ping di Marida Cruz per eliminare sia Gundam Exia Repair che Gundam Gusion Rebake nello stesso turno) e' la stessa tattica di 'impilare piccoli danni per finire un bersaglio' che il nostro stesso mazzo usa sistematicamente (Adapt+Darkness Finger, Lupus+Darkness Finger) - qui applicata contro di noi con pari efficacia."
+  - "Non e' un mazzo che 'non vince mai': record v1_7 7-3 prima di questa partita (70%). Questa e altre sconfitte recenti condividono un profilo comune - avversari control/removal molto densi (Nu Gundam+Amuro Ray, ora Kshatriya+Strike Freedom) - un matchup difficile per costruzione, non un problema di esecuzione in queste partite specifiche."
