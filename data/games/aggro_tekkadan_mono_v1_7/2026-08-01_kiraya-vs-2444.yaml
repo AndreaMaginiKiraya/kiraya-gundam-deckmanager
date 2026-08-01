@@ -1,0 +1,877 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-08-01_kiraya-vs-2444"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:2444"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+    "2444":
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "2444"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "pinned: t7 'Rested unit: Gundam Barbatos 1st Form' matches ST01-010's When Paired ability exactly ('choose 1 enemy Unit with 5 or less HP, rest it'); GD05-085 has no such effect."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "2444"
+    seen:
+      - "exiled"
+      - "pilot"
+  "Asemu Asuno":
+    id: "GD03-088"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "2444"
+    seen:
+      - "pilot"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "shield"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "left ambiguous: t7 combat ('received 3 damage, leaving 2 HP remaining') implies 5 max HP, matching no candidate printing (all HP3 or HP4) even accounting for Amuro Ray's confirmed zero stat bonus - the same recurring unexplained 'Gundam' HP anomaly already flagged in the namibman (2026-07-27) and Uhnno (2026-07-31) games."
+    owner: "2444"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam AGE-1 Normal":
+    id: "GD02-021"
+    note: "pinned: t9 both copies' Deploy discards a green Earth Federation Unit (Kayra's Jegan, Gundam AGE-2 Double Bullet) then places 1 EX Resource, matching GD02-021 exactly; GD02-029 has no effect at all."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "2444"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam AGE-2 Double Bullet":
+    id: "GD05-021"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 5
+    owner: "2444"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Gusion Rebake Full City":
+    id: "GD03-053"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "2444"
+    seen:
+      - "exiled"
+      - "shield"
+  "Kayra's Jegan":
+    id: "GD05-028"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "2444"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "2444"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-017"
+    note: "pinned: exile-3-from-trash -> free damage-only battle fires identically at t21 and t23, matching GD05-017's When Paired ability exactly; GD05-020 has no such ability."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "2444"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "2444"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Underground Desert Base":
+    id: "GD01-126"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "2444"
+    seen:
+      - "base"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "2444"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "2444"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "2444"
+    actions:
+      - action: "play_base"
+        card: "Underground Desert Base"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 5
+    active_player: "2444"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck bottom"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 4 damage, leaving 2 HP remaining"
+  - turn: 7
+    active_player: "2444"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "2444"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "2444"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Kayra's Re-GZ received 4 damage, now destroyed"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 4 damage, now destroyed"
+  - turn: 9
+    active_player: "2444"
+    actions:
+      - action: "play_base"
+        card: "Underground Desert Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam AGE-1 Normal"
+        effects:
+          - "Kayra's Jegan discarded"
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Gundam AGE-1 Normal"
+        effects:
+          - "Gundam AGE-2 Double Bullet discarded"
+          - "Placed 1 Resource EX"
+          - "Gundam AGE-1 Normal: Draw a card"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 4 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Zeheart Galette discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam AGE-1 Normal"
+  - turn: 11
+    active_player: "2444"
+    actions:
+      - action: "deploy"
+        card: "Gundam AGE-2 Double Bullet"
+      - action: "pair_pilot"
+        pilot: "Asemu Asuno"
+        unit: "Gundam AGE-2 Double Bullet"
+        linked: true
+      - action: "attack"
+        player: "2444"
+        attacker: "Gundam AGE-1 Normal"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "2444"
+        attacker: "Gundam AGE-2 Double Bullet"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Breach 1: : EX Base received 1 damage, now destroyed"
+      - action: "attack"
+        player: "2444"
+        attacker: "Gundam AGE-1 Normal"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam AGE-1 Normal"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Gundam AGE-1 Normal"
+        blockers: "none"
+        final_target: "Gundam AGE-1 Normal"
+        outcome:
+          - "Gundam AGE-1 Normal received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Hyakuren and Darkness Finger moved to trash"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam AGE-2 Double Bullet (reduced by 2)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam AGE-2 Double Bullet"
+        blockers: "none"
+        final_target: "Gundam AGE-2 Double Bullet"
+        outcome:
+          - "Gundam AGE-2 Double Bullet received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 2 damage, now destroyed"
+  - turn: 13
+    active_player: "2444"
+    actions:
+      - action: "play_command"
+        player: "2444"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "2444"
+        attacker: "Nu Gundam"
+        declared_target: "Ryusei-Go (Graze Custom Ⅱ)"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 3 Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to Nu Gundam, leaving 3 HP remaining"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 4 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+  - turn: 15
+    active_player: "2444"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "play_command"
+        player: "2444"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Gusion Rebake and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Re-GZ, now destroyed"
+          - "Card added to hand: Kayra's Re-GZ"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Gundam Barbatos 1st Form and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Graze Custom discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+  - turn: 17
+    active_player: "2444"
+    actions:
+      - action: "play_base"
+        card: "Underground Desert Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam AGE-2 Double Bullet"
+      - action: "pair_pilot"
+        pilot: "Asemu Asuno"
+        unit: "Gundam AGE-2 Double Bullet"
+        linked: true
+      - action: "attack"
+        player: "2444"
+        attacker: "Gundam AGE-2 Double Bullet"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Breach 1: : Isaribi received 1 damage, leaving 4 HP remaining"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Gundam AGE-2 Double Bullet"
+        blockers: "none"
+        final_target: "Gundam AGE-2 Double Bullet"
+        outcome:
+          - "Gundam Exia Repair received 7 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Mikazuki Augus and Gundam Gusion Rebake moved to trash"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Lupus and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam AGE-2 Double Bullet, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam AGE-2 Double Bullet"
+        blockers: "none"
+        final_target: "Gundam AGE-2 Double Bullet"
+        outcome:
+          - "Gundam AGE-2 Double Bullet received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+  - turn: 19
+    active_player: "2444"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck bottom"
+      - action: "attack"
+        player: "2444"
+        attacker: "Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 4 damage, now destroyed"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake Full City"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Re-GZ"
+        blockers: "none"
+        final_target: "Re-GZ"
+        outcome:
+          - "Re-GZ received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 4 damage, leaving 1 HP remaining"
+          - "Card added to hand: Nu Gundam"
+  - turn: 21
+    active_player: "2444"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Amuro Ray, Nu Gundam and Jegan exiled from the game"
+      - action: "attack"
+        player: "2444"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Gusion Rebake Full City"
+        outcome:
+          - "Gundam Gusion Rebake Full City received 7 damage, now destroyed"
+          - "Nu Gundam received 5 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "2444"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 3 damage, now destroyed"
+          - "Kayra's Re-GZ received 5 damage, now destroyed"
+      - action: "attack"
+        player: "2444"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 23
+    active_player: "2444"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Kayra's Re-GZ, Kayra's Jegan and Re-GZ exiled from the game"
+      - action: "attack"
+        player: "2444"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 7 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 5 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5 Shield card: Zeheart Galette revealed"
+          - "Shield card added to hand: Zeheart Galette"
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Gundam Exia Repair"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 17
+    - card: "Gundam Exia Repair"
+      turn: 18
+    - card: "Gundam Barbatos Adapt"
+      turn: 18
+    - card: "Isaribi"
+      turn: 19
+    - card: "Gundam Gusion Rebake Full City"
+      turn: 21
+    - card: "Isaribi"
+      turn: 21
+    - card: "Gundam Barbatos Lupus"
+      turn: 21
+    - card: "Graze Custom"
+      turn: 23
+  "2444":
+    - card: "Kayra's Re-GZ"
+      turn: 7
+    - card: "Underground Desert Base"
+      turn: 8
+    - card: "Gundam AGE-1 Normal"
+      turn: 12
+    - card: "Gundam AGE-2 Double Bullet"
+      turn: 12
+    - card: "Underground Desert Base"
+      turn: 12
+    - card: "Nu Gundam"
+      turn: 14
+    - card: "Re-GZ"
+      turn: 16
+    - card: "Nu Gundam"
+      turn: 16
+    - card: "Gundam AGE-2 Double Bullet"
+      turn: 18
+    - card: "Re-GZ"
+      turn: 20
+    - card: "Kayra's Re-GZ"
+      turn: 21
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 11)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  "2444":
+    ex_base: "replaced with a base (turn 3)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Sconfitta per resa di Kiraya al t23, contro un mazzo Earth Federation/Londo Bell con accesso a 4 dispiegamenti separati di Nu Gundam (GD05-017)+Amuro Ray in tutta la partita (t13, t15/16, t21, t23) - lo stesso combo esilio+battaglia-gratuita gia' segnalato come la minaccia specifica piu' pericolosa del campione, qui con una ridondanza particolarmente alta (Kayra's Re-GZ/Re-GZ aggiungono ripetutamente nuove copie di Nu Gundam alla mano tramite le proprie abilita' Destroyed)."
+  - "Revisione turno per turno rifatta da capo su richiesta esplicita di Kiraya dopo la sconfitta precedente (ENDEV) - nessun nuovo errore individuato. Anzi, il t13 mostra una giocata di valore non ovvia: bloccare Nu Gundam con Gundam Gusion Rebake (invece di lasciar morire il piu' debole Ryusei-Go non bloccato) sacrifica il corpo piu' grande ma salva Ryusei-Go, che al t14 chiude proprio quel Nu Gundam gia' indebolito - una sequenza di 2 turni che ha funzionato esattamente come pianificato."
+  - "T16 e' un altro turno di eccellente valore: tripla attivazione di Gundam Barbatos Lupus nello stesso turno ripulisce interamente la board avversaria (Re-GZ + 2 colpi su Nu Gundam)."
+  - "Il vero problema strutturale, confermato una terza volta in questa sessione (dopo ddd e ENDEV): contro un avversario che ha accesso a piu' copie ravvicinate di Nu Gundam+Amuro Ray, ogni investimento pesante di Kiraya (Gusion Rebake, Gusion Rebake Full City, Gundam Barbatos Lupus) rischia di essere annullato gratuitamente e senza possibilita' di blocco. Non e' un errore di gioco recuperabile con piu' attenzione - e' un matchup strutturalmente sfavorevole che meriterebbe di essere affrontato a livello di lista, non di esecuzione."
+unparsed_lines:
+  - "[turn 11] Gundam AGE-2 Double Bullet received 4 damage, reduced by 2, leaving 4 HP remaining"
+  - "[turn 17] Gundam AGE-2 Double Bullet received 5 damage, reduced by 2, leaving 3 HP remaining"
+  - "[turn 18] Gundam AGE-2 Double Bullet received 2 damage, reduced by 2, leaving 3 HP remaining"
