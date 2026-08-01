@@ -1,0 +1,681 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-08-01_kiraya-vs-ken24"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    ken24:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "ken24"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Amuro Ray":
+    id: "ST01-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    note: "pinned from log: [When Paired] targeting/resting a rested enemy Unit (t14, 'Already rested unit: Hyakuren') matches ST01-010's paired ability; GD05-085 has no targeting/rest text at all"
+    owner: "ken24"
+    seen:
+      - "pilot"
+      - "shield"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Gundam:
+    id: "ST01-001"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned from log: 'Gundam repaired 2 from [Repair 2]' (t14) matches ST01-001's printed <Repair 2> keyword exactly"
+    owner: "ken24"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    note: "pinned: Kiraya's own copy, only printing in the aggro_tekkadan_mono_v1_7 decklist"
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    note: "pinned: Kiraya's own copy, only printing in the aggro_tekkadan_mono_v1_7 decklist"
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    note: "pinned: Kiraya's own copy, only printing in the aggro_tekkadan_mono_v1_7 decklist"
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  Guntank:
+    id: "GD01-008"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned from log: 'Guntank: Dealt 1 damage to Gundam Barbatos Adapt, leaving X HP' (t16, x2) is pure damage with no rest text, and both targets had just attacked (rested) the previous turn — matches GD01-008's 'choose 1 rested enemy Unit, deal 1 damage'; ST01-004 instead rests a <=2 HP target rather than dealing damage"
+    owner: "ken24"
+    seen:
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "milled"
+  "Kayra Su":
+    id: "GD05-086"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "ken24"
+    seen:
+      - "exiled"
+      - "pilot"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "ken24"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-017"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    note: "pinned from log: (t12) 'Re-GZ, Kayra Su and Kayra's Re-GZ exiled from the game' (exactly 3 Londo Bell cards from trash) followed by a damage-only battle vs Gundam Gusion Rebake matches GD05-017's [When Paired] exactly; GD05-020 has no such ability"
+    owner: "ken24"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "ken24"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned from log: repeated 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' self-buff on attack declaration matches ST03-008's [Attack] AP+2 during this turn"
+    owner: "ken24"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+setup:
+  - player: "ken24"
+    action: "choose_second_player"
+  - player: "ken24"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "ken24"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "ken24"
+    actions:
+      - action: "attack"
+        player: "ken24"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "ken24"
+    actions:
+      - action: "attack"
+        player: "ken24"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "ken24"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Re-GZ, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+          - "Hyakuren received 1 damage, leaving 2 HP remaining"
+  - turn: 8
+    active_player: "ken24"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Kayra Su"
+        unit: "Kayra's Re-GZ"
+        linked: true
+      - action: "attack"
+        player: "ken24"
+        attacker: "Zaku Ⅱ"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "attack"
+        player: "ken24"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 4 damage, leaving 1 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Ryusei-Go (Graze Custom Ⅱ)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Kayra's Re-GZ"
+        blockers: "none"
+        final_target: "Kayra's Re-GZ"
+        outcome:
+          - "Kayra's Re-GZ received 4 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Zaku Ⅱ"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "ken24"
+    actions:
+      - action: "attack"
+        player: "ken24"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Guntank revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 12
+    active_player: "ken24"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Re-GZ, Kayra Su and Kayra's Re-GZ exiled from the game"
+      - action: "attack"
+        player: "ken24"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 4 HP remaining"
+          - "Breach 5 Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to Nu Gundam, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "ken24"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 2 HP remaining"
+          - "Breach 5 Shield card: Airframe Seizure revealed and discarded"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Gundam Gusion Rebake and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Guntank, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 2 damage, now destroyed"
+          - "Graze Custom received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Re-GZ revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Lupus"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Isaribi and Shiden Custom (Ryusei-Go) moved to trash"
+  - turn: 14
+    active_player: "ken24"
+    actions:
+      - action: "play_command"
+        player: "ken24"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Already rested unit: Hyakuren"
+      - action: "attack"
+        player: "ken24"
+        attacker: "Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Gundam received 4 damage, leaving 1 HP remaining"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Shiden Custom (Ryusei-Go) and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zaku Ⅱ revealed and discarded"
+  - turn: 16
+    active_player: "ken24"
+    actions:
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Barbatos Adapt, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Barbatos Adapt, leaving 2 HP remaining"
+casualties:
+  ken24:
+    - card: "Re-GZ"
+      turn: 7
+    - card: "Zaku Ⅱ"
+      turn: 7
+    - card: "Zaku Ⅱ"
+      turn: 8
+    - card: "Kayra's Re-GZ"
+      turn: 9
+    - card: "Guntank"
+      turn: 13
+    - card: "Nu Gundam"
+      turn: 13
+    - card: "Gundam"
+      turn: 15
+  Kiraya:
+    - card: "Isaribi"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 9
+    - card: "Isaribi"
+      turn: 10
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 14
+shields_tally:
+  ken24:
+    ex_base: "destroyed (turn 11)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "destroyed (turn 4)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - turn: 7
+    note: "Ryusei-Go's self-damage-into-draw-then-discard cycle fed straight into Darkness Finger killing the first Re-GZ, then Hyakuren traded up into the attacking Zaku Ⅱ — a clean two-for-one that undid ken24's early EX Base rush (t4) and first-Zaku aggression."
+  - turn: 9
+    note: "Isaribi's activation buff on Ryusei-Go let it trade evenly with Kayra's Re-GZ despite the AP gap, and the double Barbatos 1st Form + Adapt deploy pinged both Barbatos 1st Form and the attacking Zaku Ⅱ for free — good tempo, opponent still had no board answer."
+  - turn: 12
+    note: "Nu Gundam (GD05-017) paired with Amuro Ray is exactly the archetype the earlier meta review flagged (Nu Gundam+Amuro Ray, 25% WR sample): exiling 3 Londo Bell trash cards bought a free damage-only battle that killed Gundam Gusion Rebake, then a full attack killed Gundam Barbatos Adapt too — a two-for-one in a single turn that reset most of Kiraya's board. Correctly answered with Darkness Finger off the Breach 5 shield reveal, chipping Nu Gundam down instead of trying to race it."
+  - turn: 13
+    note: "Textbook Lupus recovery turn: two activations exiled 6 already-dead Tekkadan/Teiwaz units (including the very Gusion Rebake and Barbatos Adapt lost turn 12) to kill Guntank and soften Nu Gundam to 2 HP, then Graze Custom finished Nu Gundam in combat — the t12 losses were never fully wasted, they became the fuel for the t13 comeback, consistent with the 'Lupus trash-fuel' pattern seen in the Okay and shsia games."
+  - turn: 15
+    note: "Same pattern repeats: freshly-dead Hyakuren and a just-deployed-then-fed Shiden Custom (Ryusei-Go) exiled to power a third Lupus activation that killed ken24's second Amuro-paired Gundam outright, while Barbatos Adapt (now paired with Mikazuki Augus for an extra ping) and Lupus itself both hit shields. By t16 ken24 had only chip damage left (two Guntanks pinging Barbatos Adapt) and conceded with Kiraya still holding 2 shields to 1."
+unparsed_lines:
+  - "[turn 8] Returned to deck top"
