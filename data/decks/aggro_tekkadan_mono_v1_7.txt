@@ -1,4 +1,4 @@
-2 GD05-050 Gundam Exia Repair
+4 GD05-050 Gundam Exia Repair
 4 ST05-004 Graze Custom
 4 GD02-054 Gundam Barbatos 1st Form
 2 GD02-058 Ryusei-Go (Graze Custom Ⅱ)
@@ -6,7 +6,6 @@
 4 GD03-056 Gundam Barbatos Adapt
 4 GD05-058 Shiden Custom (Ryusei-Go)
 3 GD02-055 Gundam Gusion Rebake
-2 GD03-053 Gundam Gusion Rebake Full City
 4 GD03-050 Gundam Barbatos Lupus
 4 ST05-010 Mikazuki Augus
 3 GD03-094 Zeheart Galette
