@@ -1,0 +1,736 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-08-01_kiraya-vs-heiwajima"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Heiwajima"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+    Heiwajima:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Heiwajima"
+    seen:
+      - "base"
+      - "milled"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    note: "pinned: Kiraya's own copies match the decklist; Heiwajima's copy paired with Mikazuki Augus at t9 ('Linked pilot: Mikazuki Augus on unit Gundam Barbatos 1st Form') and then drew a card off its Attack trigger — only GD02-054 links to [Mikazuki Augus] and has an Attack-triggered draw; ST10-008 links to (G Generation) Trait and has an unrelated Deploy ability"
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    note: "pinned: Kiraya's own copies match the decklist; every Heiwajima activation shows the exile-3-Tekkadan/Teiwaz-trash-cards-then-deal-2-damage pattern (e.g. t13, t14, t19), which is GD03-050's exact [Activate·Main] text — GD05-059 has an unrelated [Attack] rest-a-Gjallarhorn-unit-to-draw ability with no trash-exile or direct-damage component"
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Heiwajima"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    note: "pinned: Kiraya's own copies match the decklist; Heiwajima's copy blocked at t18 (only GD02-055 has <Blocker>) and its t11 deploy pinged 1 own unit + 1 enemy unit for 1 damage, matching GD02-055's Deploy exactly — ST05-005 has neither Blocker nor a Deploy ability (only a Destroyed-rest effect)"
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "pilot"
+      - "returned to hand"
+      - "shield"
+  "Momentary Respite":
+    id: "GD02-112"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Heiwajima"
+    seen:
+      - "command"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Heiwajima"
+    seen:
+      - "command"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner:
+      - "Heiwajima"
+      - "Kiraya"
+    seen:
+      - "discarded"
+      - "milled"
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Heiwajima"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Heiwajima"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Zeheart Galette discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 3
+    active_player: "Heiwajima"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 5
+    active_player: "Heiwajima"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Lupus discarded"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 7
+    active_player: "Heiwajima"
+    actions:
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Ryusei-Go (Graze Custom Ⅱ) received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Gundam Gusion Rebake and Gundam Gusion Rebake moved to trash"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Graze Custom"
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 9
+    active_player: "Heiwajima"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 11
+    active_player: "Heiwajima"
+    actions:
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Hyakuren"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Graze Custom"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Gundam Gusion Rebake and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Graze Custom and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+  - turn: 13
+    active_player: "Heiwajima"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos Lupus"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Argama and Zeheart Galette moved to trash"
+          - "Zeheart Galette: Modifier applied to: Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Gusion Rebake and Ryusei-Go (Graze Custom Ⅱ) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Adapt, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Barbatos 1st Form and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Adapt discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Lupus, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+  - turn: 15
+    active_player: "Heiwajima"
+    actions:
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Heiwajima"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Graze Custom discarded"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Shiden Custom (Ryusei-Go) and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Ryusei-Go (Graze Custom Ⅱ), now destroyed"
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos 1st Form"
+  - turn: 16
+    active_player: "Kiraya"
+    actions: []
+  - turn: 17
+    active_player: "Heiwajima"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Shiden Custom (Ryusei-Go)"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Shiden Custom (Ryusei-Go), now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+  - turn: 19
+    active_player: "Heiwajima"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Shiden Custom (Ryusei-Go) and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Adapt, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus Rex"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 21
+    active_player: "Heiwajima"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 22
+    active_player: "Kiraya"
+    actions: []
+  - turn: 23
+    active_player: "Heiwajima"
+    actions:
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Gundam Barbatos Lupus Rex"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "Heiwajima"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "play_command"
+        player: "Heiwajima"
+        card: "Momentary Respite"
+        effects:
+          - "Mikazuki Augus returned to hand"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus Rex and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Hyakuren and Shiden Custom (Ryusei-Go) moved to trash"
+          - "Dealt 1 damage to Gundam Barbatos Lupus, leaving 5 HP remaining"
+          - "Set Active: Gundam Barbatos Lupus"
+  - turn: 24
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 7
+      inferred: true
+    - card: "Isaribi"
+      turn: 19
+    - card: "Gundam Exia Repair"
+      turn: 23
+      inferred: true
+  Heiwajima: []
+  unattributed:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 7
+    - card: "Gundam Barbatos Adapt"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 15
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 18
+    - card: "Gundam Gusion Rebake"
+      turn: 18
+    - card: "Gundam Barbatos Adapt"
+      turn: 18
+    - card: "Gundam Barbatos Adapt"
+      turn: 19
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+  Heiwajima:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - turn: 12
+    note: "Kiraya's Lupus does its job early: double-activation recycles Shiden Custom/Gusion Rebake/Graze Custom trash fuel into 2 pings that finish off Heiwajima's Gundam Gusion Rebake — the same low-cost trash-fuel pattern seen in the Okay/shsia/ken24 games."
+  - turn: 13
+    note: "Mirror match: Heiwajima drops their own Lupus a turn later, paired with Zeheart Galette (same pilot Kiraya's deck also runs), and immediately answers with a double-activation of their own, killing Gundam Barbatos Adapt. From here it's Lupus-for-Lupus attrition on both sides."
+  - turn: 15
+    note: "Lupus-vs-Lupus trade (mutual destruction) removes both copies' engines. From this point neither side has a Lupus to recycle trash with, and the game becomes a race for whoever draws the next real threat."
+  - turn: 19
+    note: "Heiwajima deploys Gundam Barbatos Lupus Rex (GD05-051) — exactly the card floated earlier this session as a potential 'decisive unit after Lupus' addition for Kiraya's own deck. It's a real second finisher: it kept growing AP from damage taken and, combined with the surviving base Lupus, ground down Kiraya's last shields turns 23-24 while Kiraya had nothing left to answer with."
+  - turn: 20
+    note: "This is the turn the game was effectively lost on resources, not decisions: Kiraya's only play was a lone Gundam Exia Repair (a 1-HP speed bump), and from t20 to t24 no further units hit the field at all. The user's own read — stuck holding 2 pilots and a Darkness Finger with no bodies to pair/target — matches exactly: pilots and removal are dead cards without units, and this deck has no card-draw engine strong enough to dig out of a unit drought once the early curve (Graze Custom / Exia Repair / Barbatos 1st Form) is spent. This is the same structural card-advantage gap flagged earlier against Strike Freedom/SEED decks, showing up here even in a mirror matchup once both Lupus copies traded off."
+  - turn: 24
+    note: "Loss by shield exhaustion, not a single misplay in the log — the mulligan-into-Airframe-Seizure opening was fine value, the Lupus lines on both sides were played correctly. The proposed fix isn't a play-pattern fix, it's a list fix: either more card draw/selection to avoid the t20-24 unit drought, or a second finisher like Lupus Rex so a dead-Lupus turn doesn't leave the deck with nothing left to close."
