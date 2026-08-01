@@ -1,0 +1,693 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-08-01_kiraya-vs-endev"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:ENDEV"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+    ENDEV:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+cards:
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "ENDEV"
+    seen:
+      - "pilot"
+      - "shield"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Fatum-00":
+    id: "T-011"
+    type: "UNIT TOKEN"
+    ap: 2
+    hp: 2
+    owner: "ENDEV"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+  "Gundam AGE-1 Normal":
+    id: "GD02-021"
+    note: "pinned: t7 'Nu Gundam discarded / Placed 1 Resource EX' matches GD02-021's Deploy exactly ('may discard 1 green Earth Federation Unit card, if you do place 1 EX Resource'); Nu Gundam is green Earth Federation. GD02-029 has no effect at all."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "ENDEV"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake Full City":
+    id: "GD03-053"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Heero Yuy":
+    id: "GD05-098"
+    note: "pinned: t9 'Selecting target for Heero Yuy / Heero Yuy: Modifier applied to: Gundam Barbatos Adapt' is an actively-targeted ability choosing an enemy Unit, which only GD05-098 has (When it destroys an enemy shield area card with damage, AP-2 an enemy Unit - triggered here right after Isaribi, standing in for the shield area post EX-Base-replacement, was destroyed by Breach 5). ST02-010's only ability is a passive During-Link AP+1/HP+1 self-buff with no targeting at all."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "ENDEV"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "ENDEV"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Justice Gundam":
+    id: "GD01-066"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "ENDEV"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "ENDEV"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-017"
+    note: "pinned: t13/t15 'exiled from the game' -> free damage-only battle skipping declare/block matches GD05-017's When Paired ability exactly; GD05-020 has no such ability, only a Deploy resource-ramp effect."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "ENDEV"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "ENDEV"
+    seen:
+      - "command"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "ENDEV"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "ENDEV"
+    seen:
+      - "deployed"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "ENDEV"
+    seen:
+      - "command"
+  "Wing Gundam":
+    id: null
+    candidates:
+      - "GD01-040"
+      - "ST02-001"
+    note: "left ambiguous: t9 'received 4 damage, leaving 2 HP remaining' implies 6 max HP, matching neither candidate (GD01-040 HP3, ST02-001 HP5) even with a hypothetical Heero Yuy During-Link +1 HP - which would require Heero Yuy to be ST02-010, contradicting the separate strong evidence pinning Heero Yuy to GD05-098 in this same game. Same unresolved HP-math anomaly pattern as the 2026-07-31 aloz game - left unpinned rather than force it."
+    owner: "ENDEV"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Wing Gundam Zero":
+    id: "GD01-024"
+    type: "UNIT"
+    level: 8
+    cost: 8
+    ap: 5
+    hp: 7
+    owner: "ENDEV"
+    seen:
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "ENDEV"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "ENDEV"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "ENDEV"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "ENDEV"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 7
+    active_player: "ENDEV"
+    actions:
+      - action: "deploy"
+        card: "Gundam AGE-1 Normal"
+        effects:
+          - "Nu Gundam discarded"
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam AGE-1 Normal"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam AGE-1 Normal"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam Zero revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam AGE-1 Normal revealed and discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "ENDEV"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Wing Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+          - "Wing Gundam received 4 damage, leaving 2 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Jegan"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 2 damage, leaving 1 HP remaining"
+          - "Jegan received 2 damage, now destroyed"
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Re-GZ BWS"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 2 damage, now destroyed"
+          - "Re-GZ BWS received 2 damage, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Wing Gundam"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Wing Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+  - turn: 11
+    active_player: "ENDEV"
+    actions:
+      - action: "deploy"
+        card: "Justice Gundam"
+      - action: "deploy"
+        card: "Fatum-00"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake Full City"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Gusion Rebake Full City"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Ryusei-Go (Graze Custom Ⅱ) and Darkness Finger moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Fatum-00"
+        final_target: "Fatum-00"
+        outcome:
+          - "Fatum-00 received 4 damage, now destroyed"
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Darkness Finger and Graze Custom moved to trash"
+  - turn: 13
+    active_player: "ENDEV"
+    actions:
+      - action: "play_command"
+        player: "ENDEV"
+        card: "Unforeseen Incident"
+        effects:
+          - "Unforeseen Incident: Modifier applied to: Gundam Gusion Rebake Full City"
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Jegan, Re-GZ BWS and Nu Gundam exiled from the game"
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Gusion Rebake Full City"
+        outcome:
+          - "Gundam Gusion Rebake Full City received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5 Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to Jegan, now destroyed"
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Justice Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Justice Gundam received 6 damage, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+  - turn: 15
+    active_player: "ENDEV"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Nu Gundam, Jegan and Nu Gundam exiled from the game"
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 7 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 5 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5 Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake Full City"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Gusion Rebake Full City"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Gundam Barbatos 1st Form and Hyakuren moved to trash"
+  - turn: 17
+    active_player: "ENDEV"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck bottom"
+      - action: "play_command"
+        player: "ENDEV"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Kayra's Re-GZ discarded"
+      - action: "attack"
+        player: "ENDEV"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "deploy"
+        card: "Silver Bullet"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake Full City"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 7 damage, now destroyed"
+          - "Gundam Gusion Rebake Full City received 7 damage, now destroyed"
+casualties:
+  Kiraya:
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 9
+    - card: "Isaribi"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Gusion Rebake Full City"
+      turn: 13
+    - card: "Isaribi"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 14
+    - card: "Graze Custom"
+      turn: 15
+    - card: "Gundam Gusion Rebake Full City"
+      turn: 18
+  ENDEV:
+    - card: "Jegan"
+      turn: 9
+    - card: "Re-GZ BWS"
+      turn: 9
+    - card: "Fatum-00"
+      turn: 12
+    - card: "Jegan"
+      turn: 13
+    - card: "Justice Gundam"
+      turn: 13
+    - card: "Nu Gundam"
+      turn: 14
+    - card: "Nu Gundam"
+      turn: 18
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 8)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  ENDEV:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 4
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Sconfitta per resa di Kiraya al t18, ma margine sottilissimo: shields_tally finale 0 (Kiraya) contro 1 sola shield residua per ENDEV - una shield in meno e la partita si sarebbe probabilmente chiusa a suo favore. Avversario Earth Federation/Londo Bell ibrido (Re-GZ BWS, Gundam AGE-1 Normal, Wing Gundam+Heero Yuy, Jegan, Justice Gundam, Fatum-00, Kayra's Re-GZ, Silver Bullet) con Nu Gundam+Amuro Ray come piano principale."
+  - "Gundam Barbatos Lupus non ha mai toccato il campo in tutta la partita: 2 copie viste, entrambe perse a scarto diretto dalla shield pile (t15, t17) prima di poter essere pescate in mano - identico al problema gia' documentato nella partita persa contro ddd. Senza il suo motore di rimozione ripetibile, il divario di 1 sola shield e' quasi certamente riconducibile a questa sfortuna specifica, non a un errore di gioco."
+  - "T13 e' stato il turno decisivo per ENDEV: un solo Nu Gundam (GD05-017) fa doppio danno nello stesso turno - prima la battaglia gratuita da When Paired (esilio 3 dal trash) contro Gundam Gusion Rebake Full City, poi un secondo attacco normale contro Gundam Barbatos Adapt - eliminando 2 unita' di Kiraya da un solo dispiegamento. Stesso combo Nu Gundam+Amuro Ray gia' segnalato piu' volte come la minaccia specifica piu' pericolosa del campione contro Lupus; qui colpisce l'intero board invece che il solo Lupus, e viene ripetuto una seconda volta con un secondo Nu Gundam al t15."
+  - "Nessun errore tattico individuato: tutti i 'No blockers available' erano forzati (nessuna alternativa disponibile), e la sequenza di ping/attacchi di Kiraya (doppio Adapt, Mikazuki, Zeheart Galette sui piloti giusti) e' stata efficiente per tutta la partita."
