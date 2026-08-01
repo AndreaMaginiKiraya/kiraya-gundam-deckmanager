@@ -1,0 +1,741 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-08-01_kiraya-vs-bonestar"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Bonestar"
+  players:
+    Bonestar:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  "Amuro Ray":
+    id: "GD05-085"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    note: "pinned: Bonestar's deck is Green (ST01-010 is Blue, off-color); also matches the log's repeated 'Healed 2 damage to: X' after a paired Unit destroys an enemy in combat (t11, t17 x2), which is GD05-085's exact on-kill heal — ST01-010 has an unrelated paired-rest ability instead"
+    owner: "Bonestar"
+    seen:
+      - "exiled"
+      - "pilot"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Gundam:
+    id: "ST01-001"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned from log: 'Gundam repaired 2 from [Repair 2]' (end of t11) matches ST01-001's printed <Repair 2> keyword exactly"
+    owner: "Bonestar"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Guntank:
+    id: "GD01-008"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned from log: t7 deploy 'Guntank: Dealt 1 damage to Graze Custom, now destroyed' — Graze Custom was rested from its t6 attack (1 HP remaining, no untap in between), matching GD01-008's 'choose 1 rested enemy Unit, deal 1 damage'; ST01-004 would instead rest a <=2 HP target rather than dealing damage"
+    owner: "Bonestar"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "milled"
+  Jegan:
+    id: "GD05-027"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    note: "pinned (best fit, not hard-confirmed by a triggered ability): GD05-027 is (Earth Federation)(Londo Bell), matching every other unit in Bonestar's shell (Re-GZ, Kayra's Re-GZ, Nu Gundam are all Green/Londo Bell) and the deck's Londo Bell-trash-exile plan around Nu Gundam; GD01-016 is Blue/Earth-Federation-only with no Londo Bell tag, a thematic outlier for this list"
+    owner: "Bonestar"
+    seen:
+      - "deployed"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Bonestar"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Nu Gundam":
+    id: "GD05-017"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    note: "pinned from log: t17 'Nu Gundam, Re-GZ and Amuro Ray exiled from the game' (3 Londo Bell trash cards) followed by a damage-only battle vs Gundam Exia Repair matches GD05-017's [When Paired] exactly; GD05-020 has no such ability"
+    owner: "Bonestar"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Bonestar"
+    seen:
+      - "base"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Bonestar"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Underground Desert Base":
+    id: "GD01-126"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "Bonestar"
+    seen:
+      - "base"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned from log: repeated 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' self-buff on attack declaration (t5) matches ST03-008's [Attack] AP+2 during this turn; also Green, matching the rest of Bonestar's shell"
+    owner: "Bonestar"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "Bonestar"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Bonestar"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Bonestar"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Bonestar"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Bonestar"
+    actions:
+      - action: "play_base"
+        card: "Underground Desert Base"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Airframe Seizure revealed and discarded"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 4 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 2 damage, now destroyed"
+  - turn: 7
+    active_player: "Bonestar"
+    actions:
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Graze Custom, now destroyed"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Guntank revealed and discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 9
+    active_player: "Bonestar"
+    actions:
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Re-GZ"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Re-GZ received 4 damage, now destroyed"
+          - "Card added to hand: Kayra's Re-GZ"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 11
+    active_player: "Bonestar"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 3: : Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "play_base"
+        card: "Underground Desert Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Gundam received 4 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Gundam"
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Guntank"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Guntank received 2 damage, now destroyed"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 2 damage, now destroyed"
+          - "Graze Custom received 6 damage, now destroyed"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 6 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+  - turn: 13
+    active_player: "Bonestar"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck bottom"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck bottom"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Graze Custom and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Jegan, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 15
+    active_player: "Bonestar"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Kayra's Re-GZ"
+        linked: false
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Hyakuren discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Re-GZ, now destroyed"
+          - "Card added to hand: Nu Gundam"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Kayra's Re-GZ"
+        blockers: "none"
+        final_target: "Kayra's Re-GZ"
+        outcome:
+          - "Kayra's Re-GZ received 3 damage, leaving 2 HP remaining"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Hyakuren and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Kayra's Re-GZ, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 5 damage, leaving 1 HP remaining"
+  - turn: 17
+    active_player: "Bonestar"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Nu Gundam, Re-GZ and Amuro Ray exiled from the game"
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 7 damage, now destroyed"
+          - "Nu Gundam received 2 damage, leaving 5 HP remaining"
+          - "Breach 5 Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+          - "Gundam Exia Repair milled 2: Isaribi and Gundam Barbatos 1st Form moved to trash"
+          - "Healed 2 damage to: Nu Gundam"
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Nu Gundam received 5 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5 Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "attack"
+        player: "Bonestar"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+  - turn: 18
+    active_player: "Kiraya"
+    actions: []
+  - turn: 19
+    active_player: "Bonestar"
+    actions: []
+casualties:
+  Bonestar:
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Underground Desert Base"
+      turn: 6
+    - card: "Re-GZ"
+      turn: 9
+    - card: "Ra Cailum"
+      turn: 10
+    - card: "Guntank"
+      turn: 11
+    - card: "Nu Gundam"
+      turn: 12
+    - card: "Gundam"
+      turn: 12
+    - card: "Jegan"
+      turn: 14
+    - card: "Re-GZ"
+      turn: 16
+    - card: "Kayra's Re-GZ"
+      turn: 16
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 9
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Graze Custom"
+      turn: 11
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Isaribi"
+      turn: 15
+    - card: "Gundam Barbatos 1st Form"
+      turn: 16
+    - card: "Gundam Exia Repair"
+      turn: 17
+    - card: "Gundam Barbatos Lupus"
+      turn: 17
+shields_tally:
+  Bonestar:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - turn: 11
+    note: "Bonestar's Nu Gundam+Amuro Ray package (GD05-017/GD05-085) starts snowballing here: Amuro's on-kill heal keeps Nu Gundam and the linked Gundam topped off after every trade, so Kiraya's blockers (Shiden Custom, Gundam Barbatos Adapt) die for value but never actually threaten to finish either enemy unit. This is the same archetype flagged earlier this session as a structural bad matchup (25% WR sample)."
+  - turn: 16
+    note: "Kiraya's best turn of the game: Airframe Seizure cantrips into Darkness Finger killing Re-GZ, a Lupus activation kills Kayra's Re-GZ, and Barbatos 1st Form/Lupus both swing — but it costs almost the entire hand to do it (command, action, and two units committed), leaving nothing in reserve."
+  - turn: 17
+    note: "The turn that lost the game: Bonestar's Nu Gundam alone two-for-ones Kiraya's remaining board — the [When Paired] exile-3-Londo-Bell-trash free battle kills Gundam Exia Repair, then a full attack kills Gundam Barbatos Lupus too, healing back to near-full HP both times off Amuro Ray. That single unit erased both of Kiraya's remaining threats in one turn."
+  - turn: 18
+    note: "Kiraya passes with zero actions — exactly the hand state described: pilots with no units left to pair onto. Same underlying issue as the Heiwajima loss (t20-24): once the deck's units are traded away, there's no card-draw/selection engine to refill the board, and pilots/removal sit dead in hand. Loss by attrition, not misplay — every trade this game was correctly valued when made."
+unparsed_lines:
+  - "[turn 17] Returned to deck top"
