@@ -1,0 +1,529 @@
+game:
+  id: "aggro_tekkadan_mono_v1_8/2026-08-01_kiraya-vs-virric"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Virric"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_8"
+    Virric:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Green"
+        - "Purple"
+cards:
+  "Char Aznable":
+    id: "GD05-093"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    note: "pinned from log: t11 'Linked pilot: Char Aznable on unit Zeong / Selecting target for Char Aznable' shows a targeting prompt on link, matching GD05-093's [When Linked] (choose 1 (Neo Zeon) Base card from trash, deploy it — no valid target here so it fizzled silently); ST03-011 has no When Linked ability at all, only Burst/Attack text, and wouldn't prompt a target on pairing"
+    owner: "Virric"
+    seen:
+      - "pilot"
+  "Char's Zaku Ⅱ":
+    id: "ST03-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    note: "pinned from log: t6 Destroyed trigger 'Card added to hand: Char's Zaku Ⅱ' matches ST03-006's [Destroyed] (look at top 3, may reveal a Zeon/Neo Zeon Unit and add it to hand); GD01-026's Destroyed instead deploys a rested token copy, which would show as a deploy, not a hand-add"
+    owner: "Virric"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    note: "pinned: Kiraya's own copies match the decklist; Virric's copy was only ever seen as a shield (never deployed/triggered), but Virric also runs Gundam Barbatos Adapt + Mikazuki Augus (same generic Tekkadan removal splash seen in the xWeee game) — GD02-054 (links [Mikazuki Augus]) fits that package, ST10-008 (G Generation) doesn't"
+    owner:
+      - "Kiraya"
+      - "Virric"
+    seen:
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "Virric"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_8'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Hobby Hizack":
+    id: "GD05-062"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Virric"
+    seen:
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "Virric"
+    seen:
+      - "pilot"
+      - "shield"
+  "Wire-Guided Arm":
+    id: null
+    note: "not a printed card: [Wire-Guided Arm] is a Unit token ((Zeon)/AP2/HP1/can't be paired with a Pilot), deployed 2x by Zeong's (GD04-017) [When Paired・(Newtype) Pilot] ability when linked with Char Aznable — not in the card database by design, same category as Parts and Zeong (Head)"
+    owner: "Virric"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned from log: 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' self-buff on attack declaration (t5) matches ST03-008's [Attack] AP+2 during this turn"
+    owner: "Virric"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "Virric"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Virric"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Virric"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "Virric"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Virric"
+    actions:
+      - action: "attack"
+        player: "Virric"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Char's Zaku Ⅱ, now destroyed"
+          - "Card added to hand: Char's Zaku Ⅱ"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Zaku Ⅱ, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 7
+    active_player: "Virric"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Adapt and Gundam Barbatos Lupus Rex moved to trash"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Hyakuren and Graze Custom moved to trash"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zeong revealed and discarded"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hobby Hizack revealed and discarded"
+  - turn: 9
+    active_player: "Virric"
+    actions:
+      - action: "attack"
+        player: "Virric"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 2 damage, leaving 1 HP remaining"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Hyakuren"
+      - action: "attack"
+        player: "Virric"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Virric"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 4 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+  - turn: 11
+    active_player: "Virric"
+    actions:
+      - action: "deploy"
+        card: "Zeong"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Zeong"
+        linked: true
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "attack"
+        player: "Virric"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Virric"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zeheart Galette revealed"
+          - "Shield card added to hand: Zeheart Galette"
+      - action: "attack"
+        player: "Virric"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Char's Zaku Ⅱ, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 2 damage, leaving 2 HP remaining"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos Lupus Rex and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+  - turn: 13
+    active_player: "Virric"
+    actions:
+      - action: "attack"
+        player: "Virric"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Virric"
+        attacker: "Wire-Guided Arm"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "Virric"
+        attacker: "Wire-Guided Arm"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 7
+      inferred: true
+    - card: "Gundam Exia Repair"
+      turn: 7
+      inferred: true
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Isaribi"
+      turn: 11
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Isaribi"
+      turn: 13
+  Virric:
+    - card: "Char's Zaku Ⅱ"
+      turn: 6
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Char's Zaku Ⅱ"
+      turn: 12
+  unattributed:
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 1
+    shields_to_hand: 5
+    shields_deployed: 0
+    shields_remaining: 0
+  Virric:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - turn: 6
+    note: "Both Darkness Fingers spent early to clear Virric's Zaku Ⅱ pressure (Char's Zaku Ⅱ and the plain one) — correct tempo play against an aggressive Zeon opening, but it means no removal is left in hand for whatever comes later."
+  - turn: 7
+    note: "Bad variance, not a misplay: Gundam Exia Repair's Destroyed mill hits Kiraya's own Gundam Barbatos Lupus Rex — the one copy that was in the deck never gets to hit the board this game. v1_8's whole premise (a second finisher after base Lupus) doesn't get tested here at all."
+  - turn: 11
+    note: "Zeong linked with Char Aznable deploys 2 Wire-Guided Arm tokens (AP2/HP1 each) — a sudden 3-attacker board (Zeong + 2 tokens + Char's Zaku Ⅱ) that Kiraya has no way to answer, since no unit in play has <Blocker>. Same structural gap as the xWeee loss: v1_8's only Blocker-capable card (Gundam Gusion Rebake, cut to 2 copies) wasn't drawn this game either."
+  - turn: 12
+    note: "Lupus does what it can — double activation kills Char's Zaku Ⅱ and the last Barbatos Adapt, good value — but it can't touch Zeong or the Wire-Guided Arm tokens, and doesn't fix the underlying blocker problem."
+  - turn: 13
+    note: "Zeong plus the 2 Wire-Guided Arm tokens close it out unopposed. Two losses in a row now (xWeee, Virric) decided by the same pattern: no <Blocker> unit ever hits the board late-game once Gusion Rebake drops to 2 copies. Worth weighing whether v1_8's Lupus Rex swap is worth this recurring defensive gap, or whether Gusion Rebake needs to go back up."
