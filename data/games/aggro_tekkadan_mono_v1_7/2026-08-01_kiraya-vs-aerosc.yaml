@@ -1,0 +1,546 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-08-01_kiraya-vs-aerosc"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:AeroSC"
+  players:
+    AeroSC:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_7"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "AeroSC"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+      - "shield"
+  "Char Aznable":
+    id: null
+    candidates:
+      - "GD05-093"
+      - "ST03-011"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "AeroSC"
+    seen:
+      - "discarded"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "AeroSC"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "pinned: Kiraya's own card, only printing in her saved deck v1_7"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "AeroSC"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "pinned: Kiraya's copies are her only printing (v1_7); AeroSC mirrors an almost-identical Tekkadan build with matching combat math, no contradicting evidence."
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner:
+      - "AeroSC"
+      - "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "AeroSC"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "AeroSC"
+      - "Kiraya"
+    seen:
+      - "pilot"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "AeroSC"
+    seen:
+      - "base"
+  Sazabi:
+    id: null
+    candidates:
+      - "GD05-049"
+      - "GD05-052"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "AeroSC"
+    seen:
+      - "deployed"
+      - "milled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner:
+      - "AeroSC"
+      - "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "AeroSC"
+    seen:
+      - "shield"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+setup:
+  - player: "AeroSC"
+    action: "choose_first_player"
+  - player: "AeroSC"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "AeroSC"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "AeroSC"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 5
+    active_player: "AeroSC"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Gundam Exia Repair received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Graze Custom and Gundam Barbatos Adapt moved to trash"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 2 damage, leaving 3 HP remaining"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Graze Custom"
+  - turn: 7
+    active_player: "AeroSC"
+    actions:
+      - action: "play_command"
+        player: "AeroSC"
+        card: "Airframe Seizure"
+        effects:
+          - "Char Aznable discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Hyakuren"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 9
+    active_player: "AeroSC"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Hyakuren"
+      - action: "play_command"
+        player: "AeroSC"
+        card: "Airframe Seizure"
+        effects:
+          - "Char Aznable discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 2 damage, leaving 1 HP remaining"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Darkness Finger and Airframe Seizure moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Widespread Annihilation revealed and discarded"
+  - turn: 11
+    active_player: "AeroSC"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 2 damage, now destroyed"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 13
+    active_player: "AeroSC"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Shiden Custom (Ryusei-Go) and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos 1st Form and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Sazabi and Airframe Seizure moved to trash"
+  - turn: 15
+    active_player: "AeroSC"
+    actions:
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Airframe Seizure revealed and discarded"
+      - action: "attack"
+        player: "AeroSC"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+casualties:
+  AeroSC:
+    - card: "Mining Asteroid Palau"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+  Kiraya:
+    - card: "Isaribi"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 13
+  unattributed:
+    - card: "Graze Custom"
+      turn: 5
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 11
+    - card: "Gundam Exia Repair"
+      turn: 14
+shields_tally:
+  AeroSC:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 3
+  Kiraya:
+    ex_base: "replaced with a base (turn 4)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Sconfitta (15 turni) in un altro mirror-match quasi esatto (Graze Custom, Gundam Exia Repair, Gundam Barbatos Adapt/1st Form, Hyakuren, Isaribi, Shiden Custom, Zeheart Galette, Gundam Barbatos Lupus, Airframe Seizure, Darkness Finger). Corrisponde alla partita dello screenshot mid-game (t15, 1 shield contro 3, board vuota, 3 copie di Lupus in mano non giocabili a 4 risorse)."
+  - "T10: un singolo mill di Zeheart Galette ha colpito ENTRAMBI gli strumenti di interazione rimasti in mano (Darkness Finger e Airframe Seizure) nello stesso momento - sfortuna pura (il mill e' automatico dalla cima del mazzo, non una scelta), ma un colpo pesante che ha lasciato Kiraya senza risposte dirette per il resto della partita."
+  - "AeroSC schiera Lupus al t13, Kiraya al t14 - un turno di distacco che stavolta ha pesato di piu' del solito: quando finalmente arriva, il Lupus di Kiraya trova solo carburante sufficiente per UNA attivazione (poche unita' Tekkadan proprie ancora nel trash - Darkness Finger/Airframe Seizure sono Command, non contano), mentre nelle partite migliori di questa sessione Lupus ha spesso fatto 3-5 attivazioni nello stesso turno. Il divario non e' nella giocata ma nella quantita' di carburante disponibile in quel momento specifico."
+  - "Nessun errore tattico individuato: i blocchi (Shiden Custom su Adapt al t9) erano corretti, e non c'erano alternative nei molti 'No blockers available' (nessuna unita' con Blocker in campo per Kiraya in questa partita). Sconfitta guidata da varianza (mill sfortunato, timing di un turno su Lupus, carburante limitato), non da decisioni migliorabili."
