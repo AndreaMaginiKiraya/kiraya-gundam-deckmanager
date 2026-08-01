@@ -1,0 +1,801 @@
+game:
+  id: "aggro_tekkadan_mono_v1_7/2026-08-01_kiraya-vs-gordon"
+  date_imported: "2026-08-01"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Gordon"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_7"
+    Gordon:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "Red"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Gordon"
+      - "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+      - "shield"
+  "Alpha Azieru":
+    id: "GD05-054"
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 6
+    hp: 5
+    owner: "Gordon"
+    seen:
+      - "blocker"
+      - "deployed"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Gordon"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  "Char Aznable":
+    id: null
+    candidates:
+      - "GD05-093"
+      - "ST03-011"
+    note: "ambiguous: multiple printings share this name; pin the id from the effects/stats observed in the log"
+    owner: "Gordon"
+    seen:
+      - "pilot"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Gordon"
+    seen:
+      - "command"
+  "Full Frontal":
+    id: "ST03-010"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Gordon"
+    seen:
+      - "pilot"
+  "Geara Doga (Sleeves)":
+    id: "GD01-056"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "Gordon"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+      - "returned to hand"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_7'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake Full City":
+    id: "GD03-053"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  Gwadan:
+    id: "GD02-125"
+    type: "BASE"
+    level: 4
+    cost: 2
+    hp: 5
+    owner: "Gordon"
+    seen:
+      - "base"
+      - "shield"
+  "Gyunei Guss":
+    id: "GD05-095"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Gordon"
+    seen:
+      - "pilot"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Gordon"
+    seen:
+      - "command"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Quess's Jagd Doga":
+    id: "GD05-053"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Gordon"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Rezin's Geara Doga":
+    id: "GD05-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Gordon"
+    seen:
+      - "attacker"
+      - "deployed"
+  Sazabi:
+    id: null
+    candidates:
+      - "GD05-049"
+      - "GD05-052"
+    note: "left ambiguous, likely 2 different printings in play across the game: the t11-deployed copy's 'Sazabi milled 3: ... / Geara Doga (Sleeves) returned to hand' matches GD05-052's Deploy exactly (mill top 3, add 1 milled Neo Zeon Unit to hand); the copy that attacks at t15/t19/t21 ('Sazabi: destroyed X' then a second unit destroyed) matches GD05-049's Attack ability exactly (destroy 1 own Unit, then all enemies destroy 1 non-battling Unit) - GD05-052 has no Attack ability at all. The single 'cards' entry can't represent two ids for one name, so left null rather than force one pin over the other."
+    owner: "Gordon"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "milled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Gordon"
+    seen:
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Gordon"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Gordon"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Gordon"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Gordon"
+    actions:
+      - action: "play_command"
+        player: "Gordon"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "Gordon"
+    actions:
+      - action: "deploy"
+        card: "Geara Doga (Sleeves)"
+      - action: "deploy"
+        card: "Geara Doga (Sleeves)"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Geara Doga (Sleeves)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Airframe Seizure revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Gyunei Guss revealed"
+          - "Shield card added to hand: Gyunei Guss"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Geara Doga (Sleeves)"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Gusion Rebake Full City discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 9
+    active_player: "Gordon"
+    actions:
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Geara Doga (Sleeves)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Geara Doga (Sleeves) received 5 damage, now destroyed"
+          - "Geara Doga (Sleeves): Dealt 1 damage to Gundam Barbatos Adapt, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Geara Doga (Sleeves)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Geara Doga (Sleeves) received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Geara Doga (Sleeves)"
+          - "Geara Doga (Sleeves): Dealt 1 damage to Gundam Barbatos Adapt, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Widespread Annihilation revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 11
+    active_player: "Gordon"
+    actions:
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Sazabi"
+        effects:
+          - "Sazabi milled 3: Sazabi and Geara Doga (Sleeves) and Airframe Seizure moved to trash"
+          - "Geara Doga (Sleeves) returned to hand"
+          - "Quess's Jagd Doga returned to hand"
+      - action: "pair_pilot"
+        pilot: "Gyunei Guss"
+        unit: "Sazabi"
+        linked: false
+      - action: "play_command"
+        player: "Gordon"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Quess's Jagd Doga"
+        blockers: "Sazabi"
+        final_target: "Sazabi"
+        outcome:
+          - "Sazabi received 2 damage, leaving 3 HP remaining"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake Full City, Gundam Barbatos Adapt and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos 1st Form and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, now destroyed"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+  - turn: 13
+    active_player: "Gordon"
+    actions:
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "deploy"
+        card: "Geara Doga (Sleeves)"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Quess's Jagd Doga"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Quess's Jagd Doga"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+  - turn: 15
+    active_player: "Gordon"
+    actions:
+      - action: "deploy"
+        card: "Alpha Azieru"
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Sazabi"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Sazabi: destroyed Geara Doga (Sleeves)"
+          - "Sazabi: destroyed Gundam Gusion Rebake"
+          - "Geara Doga (Sleeves): Dealt 1 damage to Hyakuren, leaving 1 HP remaining"
+          - "Alpha Azieru: Draw a card"
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+          - "Sazabi received 4 damage, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Axis"
+        effects:
+          - "Rested base: Axis"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Shiden Custom (Ryusei-Go) and Sazabi"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "Alpha Azieru"
+        final_target: "Alpha Azieru"
+        outcome:
+          - "Alpha Azieru received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+  - turn: 17
+    active_player: "Gordon"
+    actions:
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Quess's Jagd Doga received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Alpha Azieru"
+      - action: "deploy"
+        card: "Rezin's Geara Doga"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "play_base"
+        card: "Gwadan"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gwadan revealed"
+          - "No more Shield cards to add to hand"
+  - turn: 19
+    active_player: "Gordon"
+    actions:
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Rezin's Geara Doga"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Rezin's Geara Doga received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "play_base"
+        card: "Axis"
+        replaced: "Gwadan"
+        effects:
+          - "No more Shield cards to add to hand"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Sazabi: destroyed Quess's Jagd Doga"
+          - "Sazabi: destroyed Graze Custom"
+          - "Alpha Azieru: Draw a card"
+          - "Quess's Jagd Doga returned to hand"
+          - "Isaribi received 7 damage, now destroyed"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Shiden Custom (Ryusei-Go) and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Alpha Azieru, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Shiden Custom (Ryusei-Go) and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, leaving 5 HP remaining"
+  - turn: 21
+    active_player: "Gordon"
+    actions:
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "play_base"
+        card: "Isaribi"
+      - action: "attack"
+        player: "Gordon"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Sazabi: destroyed Quess's Jagd Doga"
+          - "Sazabi: destroyed Gundam Barbatos Lupus"
+          - "Alpha Azieru: Draw a card"
+          - "Quess's Jagd Doga returned to hand"
+          - "Shield cards: Isaribi and Gundam Barbatos 1st Form revealed"
+          - "Shield cards: Gundam Barbatos 1st Form moved to trash"
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Axis"
+        effects:
+          - "Rested base: Axis"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "pair_pilot"
+        pilot: "Full Frontal"
+        unit: "Quess's Jagd Doga"
+        linked: false
+      - action: "deploy"
+        card: "Rezin's Geara Doga"
+      - action: "pair_pilot"
+        pilot: "Gyunei Guss"
+        unit: "Rezin's Geara Doga"
+        linked: true
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "play_command"
+        player: "Gordon"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Shiden Custom (Ryusei-Go), now destroyed"
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 5
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Isaribi"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 15
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 15
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+    - card: "Hyakuren"
+      turn: 17
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 19
+    - card: "Graze Custom"
+      turn: 19
+    - card: "Isaribi"
+      turn: 19
+    - card: "Gundam Barbatos Lupus"
+      turn: 21
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 22
+  Gordon:
+    - card: "Geara Doga (Sleeves)"
+      turn: 9
+    - card: "Sazabi"
+      turn: 12
+    - card: "Geara Doga (Sleeves)"
+      turn: 15
+    - card: "Axis"
+      turn: 16
+    - card: "Alpha Azieru"
+      turn: 16
+    - card: "Quess's Jagd Doga"
+      turn: 17
+    - card: "Rezin's Geara Doga"
+      turn: 19
+    - card: "Quess's Jagd Doga"
+      turn: 19
+    - card: "Quess's Jagd Doga"
+      turn: 21
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 2
+  Gordon:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 2
+    shields_remaining: 0
+study_notes:
+  - "Sconfitta per resa di Kiraya al t22 (log troncato a meta' turno) contro un mazzo Neo Zeon/Sleeves molto resiliente: 2+ copie di Sazabi (una variante Deploy-mill-recupera-unita', una variante Attack-sacrificio-reciproco), Darkness Finger, Improved Technique, con Quess's Jagd Doga riciclato piu' volte in mano tramite il costo di sacrificio di Sazabi. Nota curiosa: al momento della resa Gordon era a 0 shield residue e Kiraya a 2 - la resa non era per mancanza di shield ma per board ormai esausta contro un avversario che continuava a rigenerare minacce."
+  - "Unico punto realmente da rivedere: al t8 Airframe Seizure scarta Gundam Gusion Rebake Full City, la carta piu' nuova e preziosa del mazzo (solo 2 copie), gia' al turno 8 - stessa categoria di rischio gia' segnalata con gli scarti di Lupus in partite precedenti. Non verificabile con certezza senza vedere la mano completa, ma e' la scelta piu' discutibile trovata in tutta la partita."
+  - "Nessun altro errore individuato dopo revisione turno per turno: i blocchi (Shiden Custom su Sazabi al t15 per proteggere Lupus, Sazabi su Adapt al t12 da parte di Gordon) sono stati tutti coerenti con la protezione del pezzo piu' prezioso in campo; le perdite forzate (l'abilita' di sacrificio di Sazabi, Darkness Finger, Improved Technique) non avevano contromisura disponibile nel momento in cui sono avvenute."
+  - "Pattern strutturale confermato per la quarta volta consecutiva in questa sessione (dopo ENDEV, 2444, ZZZ): l'avversario aveva accesso a strumenti di rimozione ripetibili e mirati (qui il sacrificio forzato di Sazabi, che funziona in modo concettualmente identico al nostro stesso Adapt+Lupus+Darkness Finger) capaci di eliminare selettivamente gli investimenti piu' pesanti di Kiraya (Gusion Rebake, Lupus) uno alla volta nel corso della partita. Non e' una serie di errori di gioco - e' lo stesso tipo di matchup sfavorevole (mazzi control/removal densi) che ha deciso anche le tre sconfitte precedenti."
