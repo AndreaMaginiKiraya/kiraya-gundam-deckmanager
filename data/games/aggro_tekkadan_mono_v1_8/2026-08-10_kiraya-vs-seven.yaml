@@ -42,7 +42,9 @@ cards:
     type: "PILOT"
     level: 5
     cost: 1
-    note: "pinned from log: 'Healed 2 damage to: Nu Gundam' after Nu Gundam destroys an enemy with battle damage (t13, t19) matches GD05-085's exact ability; ST01-010 has an unrelated paired-rest ability and no self-heal"
+    ap: 2
+    hp: 1
+    note: "pinned from log: 'Healed 2 damage to: Nu Gundam' after Nu Gundam destroys an enemy with battle damage (t13, t19) matches GD05-085's exact ability; ST01-010 has an unrelated paired-rest ability and no self-heal. Pairing bonus is AP+2/HP+1 (user-confirmed; the local card database has this card's ap/hp fields as null — a data gap) and is what accounts for the t16 Gundam combat math"
     owner: "Seven"
     seen:
       - "pilot"
@@ -85,7 +87,7 @@ cards:
     cost: 3
     ap: 3
     hp: 4
-    note: "pinned per direct user confirmation. The t16 combat math doesn't fully reconcile on its own reading of the rules: this copy dealt 5 damage defending against Gundam Barbatos Lupus Rex, 2 more than ST01-001's base AP3 (Amuro Ray GD05-085 grants no AP bonus, and ST01-001's [During Pair] AP+1-all-units is worded as active only on the pair's controller's own turn, not Kiraya's) — left as an open combat-math discrepancy rather than re-litigated, since the user directly identified the card"
+    note: "pinned per direct user confirmation, and the t16 combat math now checks out: base AP3 + Amuro Ray's printed pairing bonus (AP+2/HP+1, confirmed by the user) = AP5, matching the 5 damage dealt defending against Gundam Barbatos Lupus Rex exactly. Local card database has GD05-085's ap/hp fields as null (a data gap, not a rules mystery) — the pairing bonus is real, just missing from the synced data"
     owner: "Seven"
     seen:
       - "attacker"
