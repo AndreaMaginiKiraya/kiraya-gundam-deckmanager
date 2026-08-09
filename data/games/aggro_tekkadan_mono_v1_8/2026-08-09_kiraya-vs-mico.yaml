@@ -1,0 +1,778 @@
+game:
+  id: "aggro_tekkadan_mono_v1_8/2026-08-09_kiraya-vs-mico"
+  date_imported: "2026-08-09"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_8"
+    Mico:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+cards:
+  "A New Sign":
+    id: "GD02-117"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Mico"
+    seen:
+      - "discarded"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Kiraya"
+      - "Mico"
+    seen:
+      - "command"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Mico"
+    seen:
+      - "base"
+      - "shield"
+  "Cyclone Punch":
+    id: "GD05-121"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Mico"
+    seen:
+      - "command"
+      - "discarded"
+      - "exiled"
+      - "returned to hand"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner:
+      - "Kiraya"
+      - "Mico"
+    seen:
+      - "added to hand"
+      - "command"
+      - "exiled"
+  "Domon Kasshu":
+    id: "GD05-097"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Mico"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Aerial Rebuild":
+    id: null
+    candidates:
+      - "GD01-067"
+      - "GD02-074"
+    note: "narrowed from 4 to 2: Mico's deck is Red/White, ruling out the Green printings (GD04-024, GD05-026); only ever seen as a shield reveal+discard, no ability trigger to distinguish GD01-067 (When Paired, Command recursion) from GD02-074 (High-Maneuver + conditional Blocker)"
+    owner: "Mico"
+    seen:
+      - "discarded"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_8'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_8'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_8'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Gundam Maxter":
+    id: "GD05-069"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Mico"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Master Asia":
+    id: "GD05-089"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    owner: "Mico"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Master Gundam":
+    id: "GD05-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Mico"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Michaelis:
+    id: "GD01-076"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    note: "pinned: Mico's deck is Red/White; GD01-076 is White, GD05-030 is Green (off-color) — only ever discarded via Overflowing Affection, so no ability evidence, but color alone resolves it since Mico runs no Green cards this game"
+    owner: "Mico"
+    seen:
+      - "discarded"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Mico"
+    seen:
+      - "command"
+  "Rising Gundam":
+    id: "GD05-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Mico"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Shining Finger":
+    id: "GD05-120"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Mico"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Shining Gundam":
+    id: "GD05-066"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned from log: t9 'No targets for Shining Gundam' on deploy, and 'Shining Gundam: 1 resource set as active' on attack (t9, t15), match GD05-066's [Deploy] (exile 2 MF cards from trash, no valid trash yet) and [Attack][Once per Turn] (set a rested Resource active) exactly; the t15 deploy ('Rising Gundam and Gundam Maxter exiled from the game' then 'Cyclone Punch returned to hand') is the same Deploy ability firing successfully once trash existed. GD05-042 has no effect text at all"
+    owner: "Mico"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Suletta Mercury":
+    id: "ST01-011"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned from log: t11 'Suletta Mercury: 1 resource set as active' on attack matches ST01-011's [Attack][Once per Turn] (choose 1 Resource, set it active) exactly; GD04-085 has a completely unrelated ability about playing Academy Command cards off EX Resources, no resource-untap-on-attack trigger"
+    owner: "Mico"
+    seen:
+      - "pilot"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Mico"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Mico"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Mico"
+    actions:
+      - action: "play_command"
+        player: "Mico"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Cyclone Punch discarded"
+      - action: "play_command"
+        player: "Mico"
+        card: "Airframe Seizure"
+        effects:
+          - "Master Asia discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "play_base"
+        card: "Isaribi"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Mico"
+    actions:
+      - action: "play_command"
+        player: "Mico"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Michaelis discarded"
+      - action: "play_base"
+        card: "Argama"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Graze Custom, leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Zeheart Galette discarded"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 2 damage, now destroyed"
+  - turn: 7
+    active_player: "Mico"
+    actions:
+      - action: "play_command"
+        player: "Mico"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Ryusei-Go (Graze Custom Ⅱ), now destroyed"
+      - action: "play_command"
+        player: "Mico"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Master Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 9
+    active_player: "Mico"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "No targets for Shining Gundam"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Shining Finger discarded"
+          - "Rested unit: Hyakuren"
+          - "Shining Finger: Modifier applied to: Shining Gundam"
+      - action: "attack"
+        player: "Mico"
+        attacker: "Shining Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Shining Gundam received 0 damage, leaving 5 HP remaining"
+      - action: "deploy"
+        card: "Gundam Maxter"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Shining Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Shining Gundam"
+        blockers: "none"
+        final_target: "Shining Gundam"
+        outcome:
+          - "Shining Gundam received 4 damage, now destroyed"
+          - "Hyakuren received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Maxter revealed and discarded"
+  - turn: 11
+    active_player: "Mico"
+    actions:
+      - action: "deploy"
+        card: "Rising Gundam"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Rising Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+          - "Domon Kasshu: Draw a card"
+          - "A New Sign discarded"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Gundam Maxter"
+        linked: false
+      - action: "attack"
+        player: "Mico"
+        attacker: "Rising Gundam"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 6 damage, now destroyed"
+          - "Rising Gundam received 2 damage, leaving 2 HP remaining"
+          - "Gundam Exia Repair milled 2: Graze Custom and Hyakuren moved to trash"
+      - action: "attack"
+        player: "Mico"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Suletta Mercury: 1 resource set as active"
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+          - "Gundam Maxter received 3 damage, leaving 1 HP remaining"
+          - "Card added to hand: Darkness Finger"
+      - action: "play_command"
+        player: "Mico"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Rising Gundam discarded"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Rising Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Maxter, now destroyed"
+      - action: "play_base"
+        card: "Argama"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Argama revealed"
+          - "Shield card added to hand"
+  - turn: 13
+    active_player: "Mico"
+    actions:
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Master Gundam"
+        linked: true
+      - action: "attack"
+        player: "Mico"
+        attacker: "Master Gundam"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Mico"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Adapt, leaving 2 HP remaining"
+              - "Darkness Finger: Draw a card"
+        final_target: "shield"
+        outcome:
+          - "Darkness Finger and Shining Finger exiled from the game"
+          - "Isaribi received 5 damage, now destroyed"
+          - "Shield card: Ryusei-Go (Graze Custom Ⅱ) revealed and discarded"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Aerial Rebuild revealed and discarded"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Airframe Seizure"
+        effects:
+          - "Zeheart Galette discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Master Gundam"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 15
+    active_player: "Mico"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Rising Gundam and Gundam Maxter exiled from the game"
+          - "Cyclone Punch returned to hand"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Gundam Aerial Rebuild discarded"
+      - action: "deploy"
+        card: "Rising Gundam"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Rising Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Mico"
+        attacker: "Shining Gundam"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+          - "Shining Gundam received 4 damage, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Mico"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Mico"
+        attacker: "Rising Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Rising Gundam: Dealt 2 damage to Gundam Gusion Rebake, leaving 2 HP remaining"
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Rising Gundam received 1 damage, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Mico"
+        attacker: "Master Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Darkness Finger and Cyclone Punch exiled from the game"
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+          - "Master Gundam: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Master Gundam received 5 damage, leaving 1 HP remaining"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ), Shiden Custom (Ryusei-Go) and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Shining Gundam, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos Adapt and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Master Gundam, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Rising Gundam, leaving 2 HP remaining"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Rising Gundam, now destroyed"
+  - turn: 17
+    active_player: "Mico"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 10
+    - card: "Gundam Exia Repair"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 11
+    - card: "Isaribi"
+      turn: 13
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 15
+    - card: "Gundam Gusion Rebake"
+      turn: 15
+    - card: "Gundam Barbatos Adapt"
+      turn: 15
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+  Mico:
+    - card: "Argama"
+      turn: 6
+    - card: "Shining Gundam"
+      turn: 10
+    - card: "Rising Gundam"
+      turn: 12
+    - card: "Gundam Maxter"
+      turn: 12
+    - card: "Argama"
+      turn: 14
+    - card: "Shining Gundam"
+      turn: 16
+    - card: "Master Gundam"
+      turn: 16
+    - card: "Rising Gundam"
+      turn: 16
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 4)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 3
+  Mico:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - turn: 11
+    note: "Mico's biggest value turn: Rising Gundam+Domon Kasshu kills Exia Repair and draws a card, then Gundam Maxter+Suletta Mercury kills Barbatos 1st Form and recurs Darkness Finger to hand off its Destroyed trigger — two kills and a card, a real swing in Mico's favor."
+  - turn: 12
+    note: "Lupus answers immediately: double activation (using already-dead trash, not live board units) kills both Rising Gundam and Gundam Maxter in one turn — resets almost everything t11 accomplished for the cost of cards already lost."
+  - turn: 15
+    note: "The grindiest turn of the game: a second Shining Gundam recurs 2 more MF units from trash into a Command card back to hand, Rising Gundam kills Shiden Custom, and Master Gundam trades into Gundam Barbatos Lupus (mutual destruction) after exiling 2 more hand cards to enable its attack. Costly for both sides — Mico ends the turn with only a 1-HP Master Gundam and a damaged Rising Gundam left."
+  - turn: 16
+    note: "Second Lupus closes it out: double activation kills Shining Gundam and the 1-HP Master Gundam, then both Darkness Fingers (one drawn off Airframe Seizure, matching the deck's usual removal-into-Lupus-cleanup pattern) finish Rising Gundam. A genuinely close, grindy 17-turn win against a card-recursion-heavy G Gundam/Academy hybrid deck — decided by Lupus's trash-fuel engine out-valuing Mico's own recursion in the final exchanges."
