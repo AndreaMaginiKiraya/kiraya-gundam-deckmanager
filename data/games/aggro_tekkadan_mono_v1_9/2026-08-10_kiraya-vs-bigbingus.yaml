@@ -1,0 +1,834 @@
+game:
+  id: "aggro_tekkadan_mono_v1_9/2026-08-10_kiraya-vs-bigbingus"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    bigbingus:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Green"
+        - "Purple"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+      deck: "aggro_tekkadan_mono_v1_9"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "bigbingus"
+    seen:
+      - "base"
+      - "shield"
+  "Chad Chadan":
+    id: "GD05-096"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Char Aznable":
+    id: "ST03-011"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    note: "pinned from log: 'Can't block High-maneuver' on attack (t15, paired with Sazabi) matches ST03-011's [Attack] text exactly (AP+1 and, if a Link Unit, gains <High-Maneuver>); GD05-093 has an unrelated [When Linked] Neo Zeon Base recursion ability, no High-Maneuver grant"
+    owner: "bigbingus"
+    seen:
+      - "pilot"
+  "Char's Zaku Ⅱ":
+    id: "ST03-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    note: "pinned from log: t7 Destroyed trigger 'Card added to hand: Quess's Jagd Doga' (a different card found via a look-at-top-3 dig) matches ST03-006's [Destroyed] exactly; GD01-026's Destroyed instead deploys a rested token copy of itself, which wouldn't add an unrelated card to hand"
+    owner: "bigbingus"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_9'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "bigbingus"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_9'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    note: "pinned: Kiraya's own copies match the v1_9 decklist; bigbingus's copy blocked at t18 ('Assigned Gundam Gusion Rebake to block'), and only GD02-055 has <Blocker> — ST05-005 has no Blocker keyword"
+    owner:
+      - "Kiraya"
+      - "bigbingus"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "bigbingus"
+    seen:
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "milled"
+  "Quess's Jagd Doga":
+    id: "GD05-053"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "bigbingus"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "bigbingus"
+    seen:
+      - "attacker"
+      - "deployed"
+  Sazabi:
+    id: "GD05-049"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    note: "pinned from log: the destroy effects ('Sazabi: destroyed Gundam Barbatos Adapt' / 'Sazabi: destroyed Gundam Flauros (Ryusei-Go)') fire right after 'Battle declared', matching GD05-049's [Attack] trigger timing exactly; GD05-052's destroy effect is Deploy-triggered instead, which would have fired immediately after 'Sazabi deployed', before any battle was declared"
+    owner: "bigbingus"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Wire-Guided Arm":
+    id: null
+    note: "not a printed card: [Wire-Guided Arm] is a Unit token ((Zeon)/AP2/HP1/can't be paired with a Pilot), deployed 2x by Zeong's (GD04-017) [When Paired・(Newtype) Pilot] ability when linked with Char Aznable — not in the card database by design, same category as Parts and Zeong (Head)"
+    owner: "bigbingus"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned from log: 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' self-buff on attack declaration (t5) matches ST03-008's [Attack] AP+2 during this turn"
+    owner: "bigbingus"
+    seen:
+      - "attacker"
+      - "deployed"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "bigbingus"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeong (Head)":
+    id: null
+    note: "not a printed card: [Zeong (Head)] is a rested Unit token ((Zeon)/AP3/HP1), deployed by Zeong's (GD04-017) [Destroyed] ability — not in the card database by design, same category as Wire-Guided Arm and Parts"
+    owner: "bigbingus"
+    seen:
+      - "deployed"
+setup:
+  - player: "bigbingus"
+    action: "choose_first_player"
+  - player: "bigbingus"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "bigbingus"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "bigbingus"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "bigbingus"
+    actions:
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+          - "Hyakuren received 1 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 7
+    active_player: "bigbingus"
+    actions:
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Char's Zaku Ⅱ received 4 damage, now destroyed"
+          - "Card added to hand: Quess's Jagd Doga"
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Zaku Ⅱ"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, now destroyed"
+          - "Zaku Ⅱ received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+      - action: "deploy"
+        card: "Quess's Jagd Doga"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos Lupus Rex discarded"
+  - turn: 9
+    active_player: "bigbingus"
+    actions:
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Isaribi received 3 damage, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Quess's Jagd Doga"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Quess's Jagd Doga"
+        blockers: "none"
+        final_target: "Quess's Jagd Doga"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Quess's Jagd Doga received 3 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+  - turn: 11
+    active_player: "bigbingus"
+    actions:
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Quess's Jagd Doga"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+          - "Quess's Jagd Doga received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Zeong"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Zeong"
+        linked: true
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Zeong"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Wire-Guided Arm"
+      - action: "deploy"
+        card: "Zeong (Head)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Zeong"
+        blockers: "none"
+        final_target: "Zeong"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Zeong received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Zeong (Head)"
+        blockers: "none"
+        final_target: "Zeong (Head)"
+        outcome:
+          - "Zeong (Head) received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 13
+    active_player: "bigbingus"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos Adapt"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Wire-Guided Arm"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 2 damage, now destroyed"
+          - "Wire-Guided Arm received 4 damage, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 15
+    active_player: "bigbingus"
+    actions:
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Sazabi"
+        final_target: "shield"
+        outcome:
+          - "Sazabi: destroyed Gundam Barbatos Adapt"
+          - "Sazabi: destroyed Gundam Flauros (Ryusei-Go)"
+          - "Shield cards: Gundam Flauros (Ryusei-Go) and Gundam Barbatos Adapt revealed and discarded"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Hyakuren discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Flauros (Ryusei-Go), Gundam Barbatos Adapt and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, leaving 4 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Shiden Custom (Ryusei-Go) and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus Rex, Gundam Barbatos Lupus and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Sazabi, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Shiden Custom (Ryusei-Go)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Shiden Custom (Ryusei-Go) received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 17
+    active_player: "bigbingus"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos Lupus"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 19
+    active_player: "bigbingus"
+    actions: []
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 21
+    active_player: "bigbingus"
+    actions:
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Rick Dom"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Rick Dom and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Chad Chadan and Overflowing Affection moved to trash"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Rick Dom"
+        linked: false
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Shiden Custom (Ryusei-Go), Shiden Custom (Ryusei-Go) and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Rick Dom, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Rick Dom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "No more Shield cards to add to hand"
+  - turn: 23
+    active_player: "bigbingus"
+    actions:
+      - action: "attack"
+        player: "bigbingus"
+        attacker: "Rick Dom"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Rick Dom"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+          - "Rick Dom received 4 damage, now destroyed"
+casualties:
+  bigbingus:
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Char's Zaku Ⅱ"
+      turn: 7
+    - card: "Zaku Ⅱ"
+      turn: 7
+    - card: "Quess's Jagd Doga"
+      turn: 10
+    - card: "Quess's Jagd Doga"
+      turn: 11
+    - card: "Zeong"
+      turn: 12
+    - card: "Zeong (Head)"
+      turn: 12
+    - card: "Wire-Guided Arm"
+      turn: 13
+    - card: "Sazabi"
+      turn: 16
+    - card: "Axis"
+      turn: 22
+    - card: "Rick Dom"
+      turn: 23
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Isaribi"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 13
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 15
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 16
+    - card: "Hyakuren"
+      turn: 18
+    - card: "Gundam Exia Repair"
+      turn: 21
+      inferred: true
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 23
+  unattributed:
+    - card: "Gundam Barbatos Adapt"
+      turn: 7
+    - card: "Gundam Barbatos Adapt"
+      turn: 15
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+    - card: "Gundam Gusion Rebake"
+      turn: 18
+shields_tally:
+  bigbingus:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 2
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - turn: 8
+    note: "Overflowing Affection's discard hits Gundam Barbatos Lupus Rex — a rough early loss that looked wasted at the time, but it's exactly the kind of card that becomes free Lupus-activation fuel later (see t16)."
+  - turn: 16
+    note: "The turn that turned the game around: a triple Lupus activation exiles 9 trash cards — including the very Lupus Rex discarded back at t8 — to kill Sazabi (bigbingus's biggest threat, which had just two-for-one'd Barbatos Adapt and Flauros the turn before) across 3 pings. Nothing wasted this game, even the bad early discard."
+  - turn: 23
+    note: "Down to the wire: both players were at 0 remaining shields — this final combat was a straight race. Blocking Rick Dom (buffed by Char Aznable's High-Maneuver/AP+1) with Shiden Custom traded both units, but with bigbingus out of attackers that was the game. A genuinely close, well-played finish — the block was the only unit available and it was exactly enough."
