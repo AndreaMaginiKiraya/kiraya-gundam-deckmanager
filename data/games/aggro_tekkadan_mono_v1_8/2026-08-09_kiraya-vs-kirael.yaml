@@ -1,0 +1,623 @@
+game:
+  id: "aggro_tekkadan_mono_v1_8/2026-08-09_kiraya-vs-kirael"
+  date_imported: "2026-08-09"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    kirael:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+      deck: "aggro_tekkadan_mono_v1_8"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    note: "pinned from log: t12 'Paired pilot: Heero Yuy on unit Aile Strike Gundam / Selecting target for Aile Strike Gundam' then 'Gundam Barbatos 1st Form returned to hand' matches ST04-001's [When Paired・Lv.4+ Pilot] (choose 1 enemy Unit with 4 or less HP, return to hand — Heero Yuy is Lv4, Barbatos 1st Form has 2 HP); GD03-072 has no such ability, only a Deploy draw/discard"
+    owner: "kirael"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "kirael"
+    seen:
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom and Hyakuren":
+    id: null
+    note: "parser artifact, not a card: the log line 'Graze Custom and Hyakuren returned to hand' (t7) is kirael's Graceful Demeanor (GD04-117) Burst Action bouncing 2 enemy Units Lv.3-or-lower in one line — this is Kiraya's own already-resolved Graze Custom (ST05-004) and Hyakuren (ST05-006), both bounced by the same trigger, not a third unrecognized card"
+    owner: "Kiraya"
+    seen:
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_8'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_8'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_8'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "milled"
+  "Heero Yuy":
+    id: "GD05-098"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    note: "pinned from log: t14 'Selecting target for Heero Yuy / Heero Yuy: Modifier applied to: Gundam Barbatos 1st Form' fires right after Wing Gundam Zero's attack destroys 2 shield cards with damage, matching GD05-098's ability exactly (destroy an enemy shield area card with damage -> choose 1 enemy Unit, AP-2 this turn); ST02-010 has no such trigger, only a static During-Link AP+1/HP+1"
+    owner: "kirael"
+    seen:
+      - "pilot"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "kirael"
+    seen:
+      - "command"
+  Peacemillion:
+    id: "GD03-125"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "kirael"
+    seen:
+      - "discarded"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "kirael"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Sword Strike Gundam":
+    id: "GD01-073"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "kirael"
+    seen:
+      - "shield"
+  "Wing Gundam":
+    id: "ST02-001"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    note: "pinned from log: 'Breach 5:' triggers at t8 and t10 (EX Base, then Isaribi both took exactly 5 breach damage) match ST02-001's printed <Breach 5> keyword exactly; GD01-040 has no ability text at all"
+    owner: "kirael"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Wing Gundam (Bird Mode)":
+    id: "ST02-002"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "kirael"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Wing Gundam Zero (EW)":
+    id: "GD05-067"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "kirael"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeheart Galette":
+    id: "GD03-094"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Zowort:
+    id: "ST01-009"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "kirael"
+    seen:
+      - "shield"
+setup:
+  - player: "kirael"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "kirael"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "kirael"
+    actions:
+      - action: "play_command"
+        player: "kirael"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Peacemillion discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "kirael"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+  - turn: 6
+    active_player: "kirael"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam (Bird Mode)"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zowort revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Sword Strike Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graceful Demeanor revealed"
+          - "Shield card: Graceful Demeanor moved to trash"
+          - "Graze Custom and Hyakuren returned to hand"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 8
+    active_player: "kirael"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "kirael"
+        attacker: "Wing Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 7 damage, now destroyed"
+          - "Wing Gundam received 4 damage, leaving 3 HP remaining"
+          - "Breach 5: : EX Base received 5 damage, now destroyed"
+      - action: "attack"
+        player: "kirael"
+        attacker: "Wing Gundam (Bird Mode)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Wing Gundam (Bird Mode) received 2 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Graze Custom and Wing Gundam"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Wing Gundam"
+        blockers: "none"
+        final_target: "Wing Gundam"
+        outcome:
+          - "Wing Gundam received 4 damage, now destroyed"
+          - "Graze Custom received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 10
+    active_player: "kirael"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "kirael"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Wing Gundam received 2 damage, leaving 5 HP remaining"
+          - "Breach 5: : Isaribi received 5 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Hyakuren and Wing Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Wing Gundam"
+        blockers: "none"
+        final_target: "Wing Gundam"
+        outcome:
+          - "Wing Gundam received 4 damage, now destroyed"
+          - "Hyakuren received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 12
+    active_player: "kirael"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "deploy"
+        card: "Rick Dias"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Aile Strike Gundam"
+        linked: false
+        effects:
+          - "Gundam Barbatos 1st Form returned to hand"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Aile Strike Gundam"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 14
+    active_player: "kirael"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam Zero (EW)"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam Zero (EW)"
+        linked: true
+      - action: "attack"
+        player: "kirael"
+        attacker: "Wing Gundam Zero (EW)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Heero Yuy: Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "shield"
+        outcome:
+          - "Rested unit: Gundam Barbatos 1st Form"
+          - "Shield cards: Gundam Barbatos Lupus and Gundam Exia Repair revealed and discarded"
+      - action: "attack"
+        player: "kirael"
+        attacker: "Rick Dias"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 3 damage, leaving 2 HP remaining"
+          - "Rick Dias received 3 damage, now destroyed"
+      - action: "attack"
+        player: "kirael"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 4 damage, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Gundam Barbatos Lupus and Airframe Seizure moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Wing Gundam Zero (EW)"
+        blockers: "none"
+        final_target: "Wing Gundam Zero (EW)"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Wing Gundam Zero (EW) received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam (Bird Mode) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Wing Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Zeheart Galette"
+        unit: "Shiden Custom (Ryusei-Go)"
+        linked: false
+        effects:
+          - "Zeheart Galette milled 2: Mikazuki Augus and Gundam Gusion Rebake moved to trash"
+  - turn: 16
+    active_player: "kirael"
+    actions: []
+casualties:
+  kirael:
+    - card: "Wing Gundam (Bird Mode)"
+      turn: 8
+    - card: "Wing Gundam"
+      turn: 9
+    - card: "Wing Gundam"
+      turn: 11
+    - card: "Rick Dias"
+      turn: 14
+    - card: "Aile Strike Gundam"
+      turn: 14
+    - card: "Wing Gundam Zero (EW)"
+      turn: 15
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Isaribi"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 14
+    - card: "Gundam Barbatos 1st Form"
+      turn: 15
+shields_tally:
+  kirael:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 5
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - turn: 8
+    note: "kirael's Wing Gundam (ST02-001, <Breach 5>) starts trading efficiently into Kiraya's board, breaching both EX Base and later Isaribi for 5 each — a real tempo problem, but Kiraya keeps refilling the board with cheap units (Graze Custom, Hyakuren, Barbatos Adapt) rather than trying to race it."
+  - turn: 12
+    note: "Aile Strike Gundam (ST04-001) paired with Heero Yuy (Lv4) bounces Gundam Barbatos 1st Form via its [When Paired・Lv.4+ Pilot] ability — a tempo loss but not a card loss, and Kiraya redeploys it next turn."
+  - turn: 14
+    note: "kirael's biggest turn: Wing Gundam Zero (EW) breaches 2 shields at once, Heero Yuy's shield-destroy trigger debuffs Barbatos 1st Form, then Rick Dias and Aile Strike Gundam both attack into blockers (Gusion Rebake, Shiden Custom) and die in even trades. Costly for Kiraya (Shiden Custom lost) but it costs kirael two units for zero net board or shield progress beyond the earlier breach."
+  - turn: 15
+    note: "Kiraya closes it out: Barbatos 1st Form (paired Zeheart Galette) kills Wing Gundam Zero (EW) in combat, then Barbatos Adapt and Gusion Rebake both hit shields unanswered — kirael has nothing left to block or race with."
+  - turn: 16
+    note: "Win by concession. Worth flagging per the user's own read: kirael never deployed Wing Gundam Zero (GD01-024, cost 8, 'Deploy: deal 3 damage to all Units that are Lv.5 or lower') despite reportedly reaching 8 resources at some point — every unit Kiraya played this game (Graze Custom, Hyakuren, Barbatos Adapt/1st Form, Shiden Custom, Gusion Rebake) is Lv.5 or lower, so that Deploy would have wiped Kiraya's board outright. Whether it was never drawn or just never played, this was a real out kirael didn't take — read this win with that caveat rather than as proof the matchup is favorable."
