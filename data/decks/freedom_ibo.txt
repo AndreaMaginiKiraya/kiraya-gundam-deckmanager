@@ -1,0 +1,18 @@
+4 GD05-129 Axis
+1 ST09-007 Blast Impulse Gundam
+4 ST05-014 Fatal Strike
+2 ST09-002 Force Impulse Gundam
+4 ST05-004 Graze Custom
+4 GD02-054 Gundam Barbatos 1st Form
+4 GD03-056 Gundam Barbatos Adapt
+2 GD03-050 Gundam Barbatos Lupus
+2 GD05-060 Gundam Flauros (Ryusei-Go)
+1 GD02-055 Gundam Gusion Rebake
+1 ST05-006 Hyakuren
+4 ST09-001 Impulse Gundam
+4 GD05-081 Kira Yamato
+4 ST05-010 Mikazuki Augus
+4 GD05-002 Strike Freedom Gundam
+1 GD05-005 Strike Rouge (Ootori)
+2 GD05-114 Widespread Annihilation
+2 GD04-016 Zoloat (League Militaire)
