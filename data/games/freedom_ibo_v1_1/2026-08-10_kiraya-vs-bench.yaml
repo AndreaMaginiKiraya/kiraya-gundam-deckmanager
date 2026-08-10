@@ -1,0 +1,490 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-10_kiraya-vs-bench"
+  date_imported: "2026-08-11"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    Bench:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "no direct trigger evidence this game (deployed unpaired, then bounced to deck by Strike Freedom Gundam's ability before it ever acted) — pinned by consistency with every other resolved instance of this card across this session's games (vs-Direshift, vs-Komadori, etc.), all confirmed via its 【When Paired・Lv.4+ Pilot】return-to-hand ability. Lower confidence than those direct confirmations."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Bench"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "confirmed via ability text: turn 7's 'Paired pilot: Amuro Ray on unit Strike Rouge (Ootori) / Selecting target for Amuro Ray / Rested unit: Gundam Barbatos 1st Form' matches ST01-010's 【When Paired】'Choose 1 enemy Unit with 5 or less HP, rest it' exactly (Barbatos 1st Form is HP2). Different printing than the one confirmed in the vs-Chong/vs-pylon games (GD05-085, via its heal-on-kill ability) — this opponent runs the other Amuro Ray."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Bench"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  Archangel:
+    id: null
+    candidates:
+      - "GD05-123"
+      - "ST04-015"
+    note: "genuinely inconclusive — both candidates are HP5 with an identical Deploy ability ('add 1 Shield to hand', matching the observed turn-5 trigger), and neither's distinguishing text was ever tested: GD05-123's Orb-only chip-damage-prevention passive never had a valid Orb target take ≤2 effect damage while it was in play (Zowort, the only unit pinged for 1 nearby, is (Academy)-trait, not Orb), and ST04-015's Activate-Main Blocker-untap ability was never used."
+    owner: "Bench"
+    seen:
+      - "base"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Bench"
+    seen:
+      - "base"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "returned to deck"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Bench"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "confirmed for both owners via the same 【When Linked】draw trigger: Bench's copy draws on Link to Strike Rouge (Kira's Unit) turn 9, Kiraya's own draws on Link to Strike Freedom Gundam turns 14/15 — matches GD05-081 both times. ST04-010's Attack-AP-2 ability was never observed for either player."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner:
+      - "Bench"
+      - "Kiraya"
+    seen:
+      - "pilot"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "printed name is 'M1 Astray Shrike' (no parens); log formatting quirk, not a naming ambiguity — same card as in the other freedom_ibo_v1_1 games (Bench's copy this time)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Bench"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Bench"
+    seen:
+      - "command"
+      - "discarded"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Bench"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "display-name quirk documented in CLAUDE.md: Mobile Suit Arena shows a Linked Unit as '<base name> (<Pilot> Unit)' once its Pilot's Link condition is met, instead of the printed name. 'Strike Rouge (Kira's Unit)' is really Kira's Strike Rouge (GD05-010, link [Kira Yamato]) — distinct from the plain Strike Rouge (Ootori) (GD05-005) Bench also plays, which has no Kira Yamato link."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "Bench"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Bench"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "discarded"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  Zowort:
+    id: "ST01-009"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Bench"
+    seen:
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Bench"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Bench"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "Bench"
+    actions:
+      - action: "play_command"
+        player: "Bench"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Strike Rouge (Ootori) discarded"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 5
+    active_player: "Bench"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+      - action: "play_base"
+        card: "Archangel"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 7
+    active_player: "Bench"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Strike Rouge (Ootori)"
+        linked: false
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Bench"
+        attacker: "Gundam Lfrith"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Gundam Lfrith received 3 damage, leaving 1 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Lfrith"
+  - turn: 9
+    active_player: "Bench"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Kira's Unit)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Bench"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Zowort"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zowort"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zowort"
+  - turn: 11
+    active_player: "Bench"
+    actions:
+      - action: "attack"
+        player: "Bench"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 3 HP remaining"
+          - "Graze Custom received 5 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Strike Rouge (Ootori), Strike Rouge (Kira's Unit), M1 Astray (Shrike) and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 3 damage, now destroyed"
+  - turn: 13
+    active_player: "Bench"
+    actions:
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Gusion Rebake"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Gusion Rebake and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Gundam Gusion Rebake and Mikazuki Augus discarded"
+          - "Aile Strike Gundam returned to deck"
+          - "Argama received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "Bench"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Bench"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Amuro Ray and Overflowing Affection discarded"
+          - "Gundam Gusion Rebake returned to deck"
+          - "Strike Freedom Gundam received 7 damage, leaving 1 HP remaining"
+          - "Strike Freedom Gundam received 7 damage, leaving 1 HP remaining"
+  - turn: 16
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 12
+  Bench:
+    - card: "Archangel"
+      turn: 12
+    - card: "Argama"
+      turn: 14
+  unattributed:
+    - card: "Strike Rouge (Ootori), Strike Rouge (Kira's Unit), M1 Astray (Shrike) and Gundam Barbatos Adapt"
+      turn: 12
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 1
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 4
+  Bench:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - turn: 12
+    note: "Turn 12 is the real momentum swing: Widespread Annihilation caught four of Bench's units at once (Strike Rouge (Ootori), Kira's Strike Rouge, M1 Astray Shrike, Gundam Barbatos Adapt — wait, the last one is Kiraya's own, so really a 3-for-0 against Bench plus one of her own low units caught in the symmetric wipe), right after Archangel had already been chipped down; Gundam Gusion Rebake finished the base off the same turn. From there Bench never really got back into it — Strike Freedom Gundam mirror trades (turns 14-15) both went in Kiraya's favor or even, and the concession came turn 16 with both players' Strike Freedom Gundams sitting at 1 HP. Clean win, nothing to critique."
