@@ -1,0 +1,799 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-10_kiraya-vs-lamka"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Lamka:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+cards:
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Lamka"
+    seen:
+      - "base"
+  "Argo Gulskii":
+    id: "GD05-122"
+    note: "pilot mode of the COMMAND card 'Graviton Hammer'"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Lamka"
+    seen:
+      - "pilot"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "discarded"
+      - "milled"
+  "Chibodee Crocket":
+    id: "GD05-121"
+    note: "pilot mode of the COMMAND card 'Cyclone Punch'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Lamka"
+    seen:
+      - "pilot"
+  "Cyclone Punch":
+    id: "GD05-121"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Lamka"
+    seen:
+      - "command"
+      - "exiled"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Lamka"
+    seen:
+      - "command"
+      - "discarded"
+      - "exiled"
+      - "returned to hand"
+  "Domon Kasshu":
+    id: "GD05-097"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Lamka"
+    seen:
+      - "pilot"
+  "Graviton Hammer":
+    id: "GD05-122"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Lamka"
+    seen:
+      - "command"
+      - "exiled"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Fight":
+    id: "GD05-128"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Lamka"
+    seen:
+      - "activated"
+      - "base"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Maxter":
+    id: "GD05-069"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Lamka"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Haow Gundam":
+    id: "GD05-036"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Lamka"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Hoka Kyoten Juzetsujin":
+    id: "GD05-112"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Lamka"
+    seen:
+      - "command"
+      - "discarded"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned: printed name is 'M1 Astray Shrike' (no parentheses) — the importer's exact-name match missed it over the punctuation difference. Deploy pinged a rested enemy Unit (Gundam Maxter) for 1 damage, matching GD05-015's [Deploy] exactly"
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Master Asia":
+    id: "GD05-089"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    owner: "Lamka"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "pilot"
+      - "shield"
+  "Master Gundam":
+    id: "GD05-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Lamka"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Lamka"
+    seen:
+      - "command"
+  "Sai Saici":
+    id: "GD05-112"
+    note: "pilot mode of the COMMAND card 'Hoka Kyoten Juzetsujin'"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Lamka"
+    seen:
+      - "pilot"
+  "Shining Finger":
+    id: "GD05-120"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Lamka"
+    seen:
+      - "command"
+      - "shield"
+  "Shining Gundam":
+    id: "GD05-066"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned from log: t18 Deploy exiles 2 MF cards (Haow Gundam, Master Gundam) from trash to recur Darkness Finger to hand, and 'Shining Gundam: 1 resource set as active' on attack — both match GD05-066's [Deploy] and [Attack][Once per Turn] exactly; GD05-042 has no effect text at all"
+    owner: "Lamka"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to deck"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+setup:
+  - player: "Lamka"
+    action: "choose_second_player"
+  - player: "Lamka"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Lamka"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Lamka"
+    actions:
+      - action: "deploy"
+        card: "Gundam Maxter"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+  - turn: 6
+    active_player: "Lamka"
+    actions:
+      - action: "play_command"
+        player: "Lamka"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "play_command"
+        player: "Lamka"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Mikazuki Augus and Axis moved to trash"
+      - action: "play_base"
+        card: "Gundam Fight"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Lamka"
+        attacker: "Gundam Maxter"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Gundam Maxter, leaving 1 HP remaining"
+  - turn: 8
+    active_player: "Lamka"
+    actions:
+      - action: "play_command"
+        player: "Lamka"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: M1 Astray (Shrike)"
+      - action: "pair_pilot"
+        pilot: "Chibodee Crocket"
+        unit: "Gundam Maxter"
+        linked: true
+      - action: "activate"
+        card: "Gundam Fight"
+        effects:
+          - "Rested base: Gundam Fight"
+          - "Gundam Fight: Modifier applied to: Gundam Maxter"
+      - action: "attack"
+        player: "Lamka"
+        attacker: "Gundam Maxter"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: M1 Astray (Shrike)"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: M1 Astray (Shrike) and Gundam Maxter"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "Gundam Maxter"
+        blockers: "none"
+        final_target: "Gundam Maxter"
+        outcome:
+          - "Gundam Maxter received 1 damage, now destroyed"
+          - "M1 Astray (Shrike) received 4 damage, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+  - turn: 10
+    active_player: "Lamka"
+    actions:
+      - action: "deploy"
+        card: "Haow Gundam"
+      - action: "play_command"
+        player: "Lamka"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Hoka Kyoten Juzetsujin discarded"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Haow Gundam"
+  - turn: 12
+    active_player: "Lamka"
+    actions:
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "play_command"
+        player: "Lamka"
+        card: "Graviton Hammer"
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Argo Gulskii"
+        unit: "Haow Gundam"
+        linked: false
+        effects:
+          - "Rested unit: Master Gundam"
+          - "Dealt 2 damage to: Gundam Gusion Rebake, Gundam Barbatos 1st Form and Gundam Gusion Rebake"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 14
+    active_player: "Lamka"
+    actions:
+      - action: "play_command"
+        player: "Lamka"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+          - "Darkness Finger: Draw a card"
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "No targets for Shining Gundam"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Flauros (Ryusei-Go) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Gundam Fight"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Gundam Fight received 5 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Axis and Hyakuren discarded"
+          - "Shining Gundam returned to deck"
+          - "Shield card: Shining Finger revealed"
+          - "Shield card added to hand: Shining Finger"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Master Asia revealed"
+          - "Shield card added to hand: Master Asia"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Master Gundam revealed and discarded"
+  - turn: 16
+    active_player: "Lamka"
+    actions:
+      - action: "attack"
+        player: "Lamka"
+        attacker: "Master Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Cyclone Punch and Hoka Kyoten Juzetsujin exiled from the game"
+          - "Axis received 5 damage, leaving 1 HP remaining"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Master Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Master Gundam"
+        linked: true
+      - action: "attack"
+        player: "Lamka"
+        attacker: "Haow Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 4 damage, leaving 4 HP remaining"
+          - "Haow Gundam received 7 damage, now destroyed"
+      - action: "play_command"
+        player: "Lamka"
+        card: "Hoka Kyoten Juzetsujin"
+        effects:
+          - "Hoka Kyoten Juzetsujin: Modifier applied to: Master Gundam"
+      - action: "pair_pilot"
+        pilot: "Sai Saici"
+        unit: "Master Gundam"
+        linked: false
+      - action: "attack"
+        player: "Lamka"
+        attacker: "Master Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Darkness Finger and Graviton Hammer exiled from the game"
+          - "Axis received 5 damage, now destroyed"
+          - "Master Gundam: Dealt 2 damage to Gundam Gusion Rebake, leaving 1 HP remaining"
+          - "Strike Freedom Gundam received 7 damage, now destroyed"
+          - "Master Gundam received 7 damage, now destroyed"
+          - "Breach 3 Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Lamka"
+            card: "Shining Finger"
+            effects:
+              - "Rested unit: Gundam Gusion Rebake"
+        final_target: "Argama"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Argama received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Master Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Master Gundam"
+      - action: "deploy"
+        card: "Master Asia"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Master Asia revealed"
+          - "Shield card: Master Asia moved to trash"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 18
+    active_player: "Lamka"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Haow Gundam and Master Gundam exiled from the game"
+          - "Darkness Finger returned to hand"
+      - action: "play_command"
+        player: "Lamka"
+        card: "Shining Finger"
+        effects:
+          - "Rested unit: Strike Rouge (Ootori)"
+          - "Shining Finger: Modifier applied to: Shining Gundam"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Darkness Finger discarded"
+          - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "attack"
+        player: "Lamka"
+        attacker: "Shining Gundam"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Gundam Flauros (Ryusei-Go) received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Shining Gundam received 0 damage, leaving 5 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Master Asia"
+        linked: false
+      - action: "attack"
+        player: "Lamka"
+        attacker: "Master Asia"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+          - "Master Asia received 3 damage, leaving 2 HP remaining"
+casualties:
+  Lamka:
+    - card: "Gundam Maxter"
+      turn: 9
+    - card: "Gundam Fight"
+      turn: 15
+    - card: "Haow Gundam"
+      turn: 16
+    - card: "Master Gundam"
+      turn: 16
+    - card: "Argama"
+      turn: 17
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 6
+    - card: "Axis"
+      turn: 8
+    - card: "M1 Astray (Shrike)"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+      inferred: true
+    - card: "Gundam Barbatos 1st Form"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 16
+    - card: "Axis"
+      turn: 16
+    - card: "Strike Freedom Gundam"
+      turn: 16
+    - card: "Graze Custom"
+      turn: 18
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 18
+    - card: "Strike Rouge (Ootori)"
+      turn: 18
+shields_tally:
+  Lamka:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - turn: 6
+    note: "Rough start: double Darkness Finger 2-for-1's Graze Custom and Gundam Exia Repair before either did much — Lamka is running the full MF (Master Gundam/Shining Gundam/Domon Kasshu/Master Asia) shell discussed earlier this session, the same archetype that sat at 37.5% win rate with the old aggro_tekkadan_mono decks."
+  - turn: 12
+    note: "Master Gundam + Graviton Hammer (played as pilot Argo Gulskii) pings for 2 twice in one sequence, killing both Gundam Gusion Rebake and Gundam Barbatos 1st Form — efficient removal that echoes the Sheldon loss's recurring-Darkness-Finger problem, just via a different tool this time."
+  - turn: 15
+    note: "Strike Freedom Gundam's debut turn is excellent: the Deploy trigger, Kira Yamato's Link draw, and a third draw off the Flauros shield-hit combine for 3 cards off one deploy+attack sequence, while also clearing Lamka's Gundam Fight base and 2 shields. This is the payoff turn the deck is built around."
+  - turn: 16
+    note: "Master Gundam (paired Master Asia, itself pilotable via the Sai Saici/Hoka Kyoten Juzetsujin Command-as-Pilot trick) trades into and kills Strike Freedom Gundam — a fair mutual destruction, but Kiraya still nets Mikazuki Augus back via the Breach 3 shield hit, so the loss isn't a pure blank."
+  - turn: 18
+    note: "Closing turn: Shining Gundam's Shining-Finger-buffed first strike kills Flauros for free, then Master Asia (deployed as a unit itself per its own Burst text, since 3+ MF cards were in trash) finishes Strike Rouge for the win. A genuinely good result against the exact meta archetype (MF) that was the original motivation for trying this new deck — first head-to-head win against a full MF list with freedom_ibo_v1_1."
