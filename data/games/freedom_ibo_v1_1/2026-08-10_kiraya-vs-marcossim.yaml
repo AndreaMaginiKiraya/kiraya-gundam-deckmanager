@@ -1,0 +1,876 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-10_kiraya-vs-marcossim"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Marcos sim"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    "Marcos sim":
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+        - "White"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    note: "pinned from log: t9 'Linked pilot: Kira Yamato on unit Aile Strike Gundam / Selecting target for Aile Strike Gundam' then 'M1 Astray (Shrike) returned to hand' matches ST04-001's [When Paired・Lv.4+ Pilot] (choose 1 enemy Unit with 4 or less HP, return to hand — M1 Astray Shrike is 2 HP) exactly; GD03-072 has no such ability"
+    owner: "Marcos sim"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Aile Strike Gundam and Kira Yamato":
+    id: null
+    note: "parser artifact, not a card: t14's 'Aile Strike Gundam and Kira Yamato returned to deck' is Kiraya's Strike Freedom Gundam [During Pair][Attack] ability returning the lowest-Lv enemy Unit to the bottom of its owner's deck — Marcos sim's paired Kira Yamato returns to deck alongside its Unit, so this is Marcos sim's already-resolved Aile Strike Gundam (ST04-001) and Kira Yamato (ST04-010), not a third unrecognized card"
+    owner: "Marcos sim"
+    seen:
+      - "returned to deck"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Marcos sim"
+    seen:
+      - "base"
+      - "discarded"
+      - "shield"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Blast Impulse Gundam":
+    id: "ST09-007"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 3
+    owner: "Marcos sim"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "returned to hand"
+      - "shield"
+  "Destiny Gundam":
+    id: "GD04-050"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    note: "pinned from log: 'Can't block High-maneuver' fires on every single attack (t15, t21, t23, t25, t27), matching GD04-050's inherent unblockable text; and t23/t25/t27 all show 'Rested N Resources' followed by another Minerva Squad Unit deploying from trash, matching GD04-050's [During Pair][Attack] (pay a trashed Minerva Squad Unit's cost to deploy it) exactly. GD05-055 has neither unblockable nor this trash-deploy ability"
+    owner: "Marcos sim"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Force Impulse Gundam":
+    id: "ST09-002"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    note: "pinned from log: t17 Destroyed trigger fetches a DIFFERENT Minerva Squad card ('Blast Impulse Gundam returned to hand'), matching ST09-002's [Destroyed] (choose 1 Minerva Squad Unit card WITHOUT 'Force Impulse Gundam' in its name from trash, add to hand) exactly; also, deployed from trash at t23 via Destiny Gundam's ability with no Shinn-Asuka-fetch trigger shown, ruling out GD05-064 whose Deploy-from-trash ability would have fetched a Shinn Asuka pilot"
+    owner: "Marcos sim"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "Marcos sim"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Graze Custom and M1 Astray (Shrike)":
+    id: null
+    note: "parser artifact, not a card: t20's 'Graze Custom and M1 Astray (Shrike) returned to hand' is Marcos sim's Graceful Demeanor (GD04-117) Burst Action bouncing 2 enemy Units Lv.3-or-lower in one line — both are Kiraya's own already-resolved Graze Custom (ST05-004) and M1 Astray Shrike (GD05-015), not a third unrecognized card"
+    owner: "Kiraya"
+    seen:
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "Marcos sim"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Impulse Gundam":
+    id: "ST09-001"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Marcos sim"
+    seen:
+      - "deployed"
+      - "shield"
+  "Kira Yamato":
+    id: null
+    note: "split by owner, schema can't represent two ids under one name: Kiraya's own copy matches the freedom_ibo_v1_1 decklist, GD05-081. Marcos sim's copy is a DIFFERENT printing, ST04-010 — repeated 'Kira Yamato: Modifier applied to: X' on Attack declaration (t9, t11, t13) matches ST04-010's [Attack] (choose 1 enemy Unit, AP-2 this battle) exactly; GD05-081 has no Attack-triggered debuff, only a Link-triggered draw. Same split seen in the ZimZam game — don't assume opponents run the same printing as Kiraya's own decklist"
+    owner:
+      - "Kiraya"
+      - "Marcos sim"
+    seen:
+      - "discarded"
+      - "pilot"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned: printed name is 'M1 Astray Shrike' (no parentheses) — the importer's exact-name match missed it over the punctuation difference. Deploy pings a rested enemy Unit for 1 damage (t10, t26), matching GD05-015's [Deploy] exactly"
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "M1 Astray (Shrike) and Mikazuki Augus":
+    id: null
+    note: "parser artifact, not a card: t14's 'M1 Astray (Shrike) and Mikazuki Augus returned to hand' is Marcos sim's Graceful Demeanor bouncing Kiraya's paired M1 Astray Shrike (Lv2, a legal target) — the paired Pilot (Mikazuki Augus) returns to hand alongside its Unit, so this is Kiraya's already-resolved M1 Astray Shrike (GD05-015) and Mikazuki Augus (ST05-010), not a third unrecognized card"
+    owner: "Kiraya"
+    seen:
+      - "returned to hand"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "Marcos sim"
+    seen:
+      - "pilot"
+  "Noin's Taurus":
+    id: "GD05-074"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 1
+    owner: "Marcos sim"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Marcos sim"
+    seen:
+      - "command"
+  "Shinn Asuka":
+    id: "ST09-008"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Marcos sim"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Sword Impulse Gundam":
+    id: "ST09-006"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 4
+    hp: 2
+    note: "pinned from log: t27 deployed from trash (paid for via Destiny Gundam's ability, 'Rested 2 Resources' matching its cost 2) and immediately destroyed M1 Astray Shrike, matching ST09-006's [Deploy] (if deployed from trash, choose 1 enemy Unit Lv.3 or lower, destroy it) exactly; GD04-056's Deploy is unconditional self-damage-then-rest, not a destroy tied to trash-deployment"
+    owner: "Marcos sim"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner:
+      - "Kiraya"
+      - "Marcos sim"
+    seen:
+      - "attacker"
+      - "command"
+      - "discarded"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Marcos sim"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Marcos sim"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Noin's Taurus"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Marcos sim"
+    actions:
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Noin's Taurus"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Noin's Taurus received 2 damage, now destroyed"
+          - "Noin's Taurus: Draw a card"
+          - "Shinn Asuka discarded"
+      - action: "play_command"
+        player: "Marcos sim"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Blast Impulse Gundam discarded"
+      - action: "deploy"
+        card: "Noin's Taurus"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Noin's Taurus"
+          - "Noin's Taurus: Draw a card"
+          - "Argama discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 7
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Graze Custom"
+      - action: "play_command"
+        player: "Marcos sim"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Noin's Taurus discarded"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Graze Custom"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Impulse Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Blast Impulse Gundam revealed and discarded"
+  - turn: 9
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "M1 Astray (Shrike) returned to hand"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 0 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 4 damage, leaving 2 HP remaining"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Gundam Barbatos Adapt, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+      - action: "play_base"
+        card: "Argama"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Argama revealed"
+          - "Shield card added to hand"
+  - turn: 11
+    active_player: "Marcos sim"
+    actions:
+      - action: "play_command"
+        player: "Marcos sim"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Argama discarded"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "M1 Astray (Shrike) returned to hand"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "No targets for Kira Yamato"
+          - "Axis received 6 damage, now destroyed"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Aile Strike Gundam, leaving 2 HP remaining"
+  - turn: 13
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Destiny Gundam"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: M1 Astray (Shrike)"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: M1 Astray (Shrike)"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: M1 Astray (Shrike)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose M1 Astray (Shrike) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "M1 Astray (Shrike)"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: M1 Astray (Shrike) and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Marcos sim"
+            card: "Graceful Demeanor"
+            effects:
+              - "M1 Astray (Shrike) and Mikazuki Augus returned to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Widespread Annihilation and Kira Yamato discarded"
+          - "Aile Strike Gundam and Kira Yamato returned to deck"
+          - "Aile Strike Gundam received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 6 damage, leaving 2 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Destiny Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none (High-maneuver)"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 5 damage, now destroyed"
+          - "Destiny Gundam received 7 damage, now destroyed"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Force Impulse Gundam"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 17
+    active_player: "Marcos sim"
+    actions:
+      - action: "play_command"
+        player: "Marcos sim"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Strike Rouge (Ootori) and Graze Custom"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Force Impulse Gundam"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Force Impulse Gundam received 3 damage, now destroyed"
+          - "Blast Impulse Gundam returned to hand"
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Blast Impulse Gundam, leaving 1 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Blast Impulse Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 19
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Destiny Gundam"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Marcos sim"
+            card: "Graceful Demeanor"
+            effects:
+              - "Graze Custom and M1 Astray (Shrike) returned to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Sword Impulse Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 21
+    active_player: "Marcos sim"
+    actions:
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Destiny Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none (High-maneuver)"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 5 damage, now destroyed"
+          - "Destiny Gundam received 7 damage, now destroyed"
+      - action: "play_command"
+        player: "Marcos sim"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Hyakuren, Graze Custom and M1 Astray (Shrike)"
+  - turn: 22
+    active_player: "Kiraya"
+    actions: []
+  - turn: 23
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Destiny Gundam"
+      - action: "pair_pilot"
+        pilot: "Shinn Asuka"
+        unit: "Destiny Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "shield"
+        outcome:
+          - "Rested 4 Resources"
+          - "Shinn Asuka: 1 resource set as active"
+          - "Shield card: Hyakuren revealed and discarded"
+  - turn: 24
+    active_player: "Kiraya"
+    actions: []
+  - turn: 25
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Destiny Gundam"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "shield"
+        outcome:
+          - "Rested 5 Resources"
+          - "Shinn Asuka: 1 resource set as active"
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "deploy"
+        card: "Impulse Gundam"
+  - turn: 26
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Destiny Gundam, leaving 4 HP remaining"
+  - turn: 27
+    active_player: "Marcos sim"
+    actions:
+      - action: "deploy"
+        card: "Sword Impulse Gundam"
+      - action: "attack"
+        player: "Marcos sim"
+        attacker: "Destiny Gundam"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "player"
+        outcome:
+          - "Rested 2 Resources"
+          - "Sword Impulse Gundam: destroyed M1 Astray (Shrike)"
+          - "Shinn Asuka: 1 resource set as active"
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 5
+    - card: "Axis"
+      turn: 11
+    - card: "Axis"
+      turn: 13
+    - card: "Strike Freedom Gundam"
+      turn: 15
+    - card: "Gundam Gusion Rebake"
+      turn: 17
+    - card: "Gundam Barbatos Lupus"
+      turn: 21
+    - card: "M1 Astray (Shrike)"
+      turn: 27
+  "Marcos sim":
+    - card: "Noin's Taurus"
+      turn: 5
+    - card: "Noin's Taurus"
+      turn: 6
+      inferred: true
+    - card: "Aile Strike Gundam"
+      turn: 14
+    - card: "Destiny Gundam"
+      turn: 15
+    - card: "Force Impulse Gundam"
+      turn: 17
+    - card: "Argama"
+      turn: 18
+    - card: "Destiny Gundam"
+      turn: 21
+  unattributed:
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Strike Rouge (Ootori) and Graze Custom"
+      turn: 17
+    - card: "Hyakuren, Graze Custom and M1 Astray (Shrike)"
+      turn: 21
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 1
+  "Marcos sim":
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 1
+    shields_remaining: 1
+study_notes:
+  - turn: 14
+    note: "Strike Freedom Gundam's [During Pair][Attack] bounce cost Widespread Annihilation and a Kira Yamato as discard fuel — meaning the deck's own board-wipe answer was spent as an activation cost rather than ever being cast for its actual effect. Worth weighing whether that discard choice (vs. discarding something else) mattered, though the alternative options in hand aren't visible from the log."
+  - turn: 15
+    note: "Destiny Gundam (GD04-050) is unblockable outright (<High-Maneuver> baked into its text, not conditional) and its own [During Pair][Attack] pays a trashed Minerva Squad Unit's cost to redeploy it — meaning Marcos sim can keep recurring threats from trash indefinitely as long as resources allow. This is the structural problem more than any single misplay: t23, t25, and t27 all show Destiny Gundam attacking unblockably and re-fetching another unit from trash on the same swing."
+  - turn: 21
+    note: "Widespread Annihilation from Marcos sim's side wipes Hyakuren, Graze Custom, and M1 Astray Shrike in one turn, right after Destiny Gundam traded down Gundam Barbatos Lupus — Kiraya's board goes from 3 units to 0 in a single turn."
+  - turn: 22
+    note: "Turns 22 and 24 both show zero actions from Kiraya (straight to Turn end phase) — this is the concrete evidence for the user's own read: no playable unit in hand those turns. But it's worth noting Destiny Gundam is unblockable regardless, so even a normal hand of ground units couldn't have stopped its direct shield hits (t23, t25, t27) — the real gap is the deck's near-total lack of ranged/removal answers to an unblockable, self-recurring threat once Widespread Annihilation was already spent as ability fuel at t14."
+  - turn: 27
+    note: "Closing sequence: Destiny Gundam pays 2 resources to redeploy Sword Impulse Gundam from trash, which immediately destroys Kiraya's last unit (M1 Astray Shrike) on a Deploy-from-trash trigger, then Destiny Gundam itself swings unblocked for the last shield. A genuinely unlucky stretch of draws (0 actions on 2 of the last 6 turns) combined with a real, hard-to-answer engine (unblockable + trash recursion) rather than a clear sequence of misplays — the user's 'bad luck' read holds up, with the caveat that this matchup shape (Destiny Gundam) is a tough one for this decklist's removal suite specifically."
