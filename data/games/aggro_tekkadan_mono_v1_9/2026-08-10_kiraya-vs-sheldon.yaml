@@ -1,0 +1,715 @@
+game:
+  id: "aggro_tekkadan_mono_v1_9/2026-08-10_kiraya-vs-sheldon"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Sheldon"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "aggro_tekkadan_mono_v1_9"
+    Sheldon:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sheldon"
+    seen:
+      - "command"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Sheldon"
+    seen:
+      - "base"
+      - "shield"
+  "Chad Chadan":
+    id: "GD05-096"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Chibodee Crocket":
+    id: "GD05-121"
+    note: "pilot mode of the COMMAND card 'Cyclone Punch'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sheldon"
+    seen:
+      - "pilot"
+  "Cyclone Punch":
+    id: "GD05-121"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sheldon"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sheldon"
+    seen:
+      - "added to hand"
+      - "command"
+      - "exiled"
+      - "returned to hand"
+  "Domon Kasshu":
+    id: "GD05-097"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Sheldon"
+    seen:
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_9'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'aggro_tekkadan_mono_v1_9'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Maxter":
+    id: "GD05-069"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Sheldon"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Isaribi:
+    id: "ST05-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "base"
+  "Master Asia":
+    id: "GD05-089"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    owner: "Sheldon"
+    seen:
+      - "pilot"
+  "Master Gundam":
+    id: "GD05-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Sheldon"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "Sheldon"
+    seen:
+      - "command"
+  "Rising Gundam":
+    id: "GD05-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Sheldon"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shining Finger":
+    id: "GD05-120"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sheldon"
+    seen:
+      - "command"
+      - "discarded"
+      - "exiled"
+      - "returned to hand"
+  "Shining Gundam":
+    id: "GD05-066"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned from log: repeated Deploy exile-2-MF-cards-for-a-Special-Move-recursion (t7, t15) and Attack-untap-a-rested-Resource ('1 resource set as active', t9/t15) both match GD05-066 exactly; GD05-042 has no effect text at all"
+    owner: "Sheldon"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "Sheldon"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unicorn Gundam (Awakened)":
+    id: "GD04-066"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 4
+    hp: 6
+    owner: "Sheldon"
+    seen:
+      - "discarded"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Sheldon"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Sheldon"
+    actions:
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Airframe Seizure"
+        effects:
+          - "Shining Finger discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Sheldon"
+    actions:
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Master Gundam discarded"
+      - action: "deploy"
+        card: "Shining Gundam"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Sheldon"
+    actions:
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Unicorn Gundam (Awakened) discarded"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Shining Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Shining Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "play_base"
+        card: "Argama"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Argama revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 4 damage, leaving 1 HP remaining"
+  - turn: 7
+    active_player: "Sheldon"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Master Gundam and Shining Gundam exiled from the game"
+          - "Shining Finger returned to hand"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Shining Finger discarded"
+          - "Already rested unit: Hyakuren"
+          - "Shining Finger: Modifier applied to: Shining Gundam"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Shining Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Sheldon"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Shining Gundam received 0 damage, leaving 5 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Barbatos 1st Form discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 4 damage, now destroyed"
+  - turn: 9
+    active_player: "Sheldon"
+    actions:
+      - action: "deploy"
+        card: "Gundam Maxter"
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Chibodee Crocket"
+        unit: "Gundam Maxter"
+        linked: true
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Gundam Maxter"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Hyakuren"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Gundam Maxter received 0 damage, leaving 3 HP remaining"
+          - "Card added to hand: Darkness Finger"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "EX Base received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Silver Bullet"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Hyakuren and Shining Gundam"
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Isaribi"
+        effects:
+          - "Rested base: Isaribi"
+          - "Isaribi: Modifier applied to: Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Shining Gundam"
+        blockers: "none"
+        final_target: "Shining Gundam"
+        outcome:
+          - "Shining Gundam received 6 damage, now destroyed"
+          - "Hyakuren received 5 damage, now destroyed"
+  - turn: 11
+    active_player: "Sheldon"
+    actions:
+      - action: "deploy"
+        card: "Rising Gundam"
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Gusion Rebake, leaving 3 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Rising Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Rising Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Isaribi"
+        outcome:
+          - "Rising Gundam: Dealt 2 damage to Gundam Gusion Rebake, leaving 1 HP remaining"
+          - "Isaribi received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Gundam Maxter received 1 damage, leaving 2 HP remaining"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 13
+    active_player: "Sheldon"
+    actions:
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+          - "Darkness Finger: Draw a card"
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Shining Finger"
+        effects:
+          - "Rested unit: Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Graze Custom"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 4 damage, now destroyed"
+          - "Gundam Maxter received 5 damage, now destroyed"
+          - "Card added to hand: Darkness Finger"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Rising Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Rising Gundam: Dealt 2 damage to Graze Custom, now destroyed"
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Isaribi"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus Rex"
+  - turn: 15
+    active_player: "Sheldon"
+    actions:
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus Rex, leaving 4 HP remaining"
+          - "Darkness Finger: Draw a card"
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Shining Gundam and Gundam Maxter exiled from the game"
+          - "Darkness Finger returned to hand"
+      - action: "play_command"
+        player: "Sheldon"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus Rex, leaving 2 HP remaining"
+          - "Darkness Finger: Draw a card"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Master Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shining Finger and Darkness Finger exiled from the game"
+          - "Isaribi received 5 damage, now destroyed"
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Rising Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Rising Gundam: Dealt 2 damage to Gundam Barbatos Lupus Rex, now destroyed"
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Silver Bullet"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Chad Chadan revealed"
+          - "Shield card added to hand: Chad Chadan"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Shining Gundam discarded"
+      - action: "attack"
+        player: "Sheldon"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Gundam Barbatos Adapt"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 10
+    - card: "Isaribi"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Gundam Barbatos 1st Form"
+      turn: 13
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Isaribi"
+      turn: 15
+    - card: "Gundam Barbatos Lupus Rex"
+      turn: 15
+  Sheldon:
+    - card: "Argama"
+      turn: 8
+    - card: "Shining Gundam"
+      turn: 10
+    - card: "Gundam Maxter"
+      turn: 13
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Sheldon:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 1
+    shields_remaining: 4
+study_notes:
+  - turn: 7
+    note: "Sheldon's first big value turn: a second Shining Gundam exiles 2 already-trashed MF cards to recur Shining Finger, Domon Kasshu's pair draw/discard re-triggers Shining Finger's Main for free (resting an already-rested Hyakuren — the target choice mattered less than the buff), and the resulting first-strike attack kills Gundam Barbatos Adapt with zero counter-damage while a reactive Darkness Finger snipes Graze Custom on the side. Two Kiraya units gone for nothing back — this is the Special Move recursion engine discussed earlier this session working exactly as designed, and there wasn't a way for Kiraya to see it coming or play around it with the information available."
+  - turn: 9
+    note: "Gundam Maxter (paired as 'Chibodee Crocket' via Cyclone Punch's own Pilot-mode) kills Hyakuren and its Destroyed-adjacent trigger nets a Darkness Finger straight to hand — the second of what becomes at least 3 separate Darkness Finger recursions this game (also via Maxter's death at t13 and Shining Gundam's Deploy at t15). This one card effectively became reusable removal across the whole game, which is the core reason this matchup reads as unfavorable even beyond variance."
+  - turn: 11
+    note: "Rising Gundam (linked Master Asia) plus Darkness Finger plus Gundam Maxter chip Gundam Gusion Rebake down through three separate damage sources in one turn and take Isaribi too — no single play was a misplay by Kiraya, this is just the deck's stacking-damage-sources plan working as intended against a board with no way to remove multiple threats per turn."
+  - turn: 12
+    note: "The one genuinely questionable turn: Kiraya deploys 3 fresh units (Flauros, Barbatos 1st Form, Graze Custom) but declares zero attacks, even though Sheldon had no known <Blocker> unit on board at the time. If that's correct, this was free damage/shield pressure left on the table — worth checking next time whether a defensive hold was intentional (expecting a big swing-back, which did arrive at t13) or just missed. Not certain enough to call a hard mistake without knowing what information was visible in-client at the time."
+  - turn: 13
+    note: "The turn that broke the game open: Darkness Finger kills the fresh Barbatos 1st Form and draws a card, Shining Finger rests Flauros, Gundam Maxter (Cyclone Punch-debuffed target) trades into Flauros and dies too — but even Maxter's death refunds yet another Darkness Finger — and Rising Gundam's Master Asia splash kills Graze Custom outright before hitting a shield. Four Kiraya cards gone (Barbatos 1st Form, Flauros, Graze Custom, plus a discarded shield) against one Sheldon unit lost, and that unit's death paid for itself in card advantage. This is where the game was effectively decided."
+  - turn: 15
+    note: "Closing turn: two more recurred Darkness Fingers whittle Lupus Rex to 2 HP (drawn via t13's Maxter death and t15's fresh Shining Gundam recursion), Master Gundam's shield-burn and Rising Gundam's splash finish it and take shields, and a second Shining Gundam closes the game. Gundam Barbatos Lupus itself was never drawn all game — the deck's main removal/recycle engine never came online, which on top of the opponent's genuinely stronger recursion plan is the honest read on why this one felt disastrous."
