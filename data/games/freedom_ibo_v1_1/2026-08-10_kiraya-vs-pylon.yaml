@@ -1,0 +1,697 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-10_kiraya-vs-pylon"
+  date_imported: "2026-08-11"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "loss:Kiraya"
+  players:
+    pylon:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "GD05-085"
+    note: "confirmed via ability text: turn 9, after Gundam NT-1 destroys Gundam Gusion Rebake with battle damage on pylon's own turn, 'Gundam NT-1 received 3 damage, leaving 3 HP remaining' is immediately followed by 'Healed 2 damage to: Gundam NT-1' — GD05-085's 'During your turn, when this Unit destroys an enemy Unit with battle damage, this Unit recovers 2 HP.' Same pilot, same tell, as the vs-Chong game."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "pylon"
+    seen:
+      - "pilot"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Gundam:
+    id: "ST01-001"
+    note: "not directly confirmable from this game's log alone (the turn 17 attack that would've shown damage numbers ended the game on shield exhaustion before combat resolved, and the two turn-8 shield reveals show no ability text). Pinned via strong deck-similarity to the vs-Chong game — pylon runs nearly the identical card pool (Jegan, Kayra's Re-GZ, Re-GZ, Guntank, Gundam NT-1, Amuro Ray, Nu Gundam, Zaku Ⅱ), where this exact 'Gundam' was confirmed as ST01-001 via its unique <Repair 2> ability. Flagging the lower confidence honestly rather than treating it as independently verified."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "pylon"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Gundam NT-1":
+    id: "GD03-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "pylon"
+    seen:
+      - "attacker"
+      - "deployed"
+  Guntank:
+    id: "GD01-008"
+    note: "confirmed via ability text: 【Deploy】'Choose 1 rested enemy Unit, deal 1 damage to it' matches 'Guntank: Dealt 1 damage to Graze Custom, leaving 1 HP remaining' (Graze Custom was rested from its own turn-4 attack). ST01-004's Deploy ability rests a low-HP enemy instead of dealing damage, ruled out."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "pylon"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Jegan:
+    id: "GD05-027"
+    note: "not cleanly disambiguated by this game's own combat math (both candidates are AP2, and the turn 9 death to a 3-damage counter-attack is lethal against either HP2 or HP3). Pinned via the same deck-similarity reasoning as 'Gundam' above — GD05-027 was directly confirmed in the vs-Chong game (matching opponent archetype) via an exact-lethal 2-damage ping that HP3's GD01-016 would have survived."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "pylon"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "pylon"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "printed name is 'M1 Astray Shrike' (no parens); log formatting quirk, not a naming ambiguity — same card as in the other freedom_ibo_v1_1 games."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-020"
+    note: "confirmed via unique Deploy ability: turn 15's 'Nu Gundam deployed / Placed 1 Resource EX' matches GD05-020's 【Deploy】'If 2+ (Londo Bell) cards in your trash, place 1 EX Resource' exactly — GD05-017 has no Deploy ability at all (only a When-Paired one). AP math confirms it: dealt 6 damage to Gundam Barbatos Lupus (base AP4 + Amuro Ray's +2 = 6); GD05-017 (AP5) would have dealt 7. Different printing than the vs-Chong game's Nu Gundam (GD05-017), which is fine — different games, no reason to expect the same copy."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "pylon"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "pylon"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Underground Desert Base":
+    id: "GD01-126"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "pylon"
+    seen:
+      - "base"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "confirmed via ability text: turn 17's attack shows 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' — a self-buff, and GD01-035 has no ability at all ('-'), so it can't be the source of any modifier; only ST03-008's 【Attack】'This Unit gets AP+2 during this turn' fits. The exact damage dealt (4, vs. a computed base AP1+2=3) doesn't fully reconcile — Axis may have had another modifier in play this turn that isn't traceable from the log — but the ability-existence match is solid on its own."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "pylon"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "pylon"
+    action: "choose_first_player"
+  - player: "pylon"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "pylon"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "pylon"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "pylon"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Graze Custom, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "pylon"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Kayra's Re-GZ"
+  - turn: 9
+    active_player: "pylon"
+    actions:
+      - action: "attack"
+        player: "pylon"
+        attacker: "Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 3 damage, leaving 1 HP remaining"
+          - "Kayra's Re-GZ received 3 damage, now destroyed"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 2 HP remaining"
+          - "Jegan received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam NT-1"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam NT-1"
+        linked: true
+        effects:
+          - "Gundam NT-1: Dealt 1 damage to Strike Rouge (Ootori), now destroyed"
+          - "Gundam NT-1: Draw a card"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Gundam NT-1"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Gundam NT-1 received 3 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Gundam NT-1"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Guntank"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 1 damage, now destroyed"
+          - "Guntank received 2 damage, now destroyed"
+        effects:
+          - "Gundam NT-1 repaired 1 from [Repair 2]"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Re-GZ"
+        blockers: "none"
+        final_target: "Re-GZ"
+        outcome:
+          - "Re-GZ received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Card added to hand: Re-GZ"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 11
+    active_player: "pylon"
+    actions:
+      - action: "play_base"
+        card: "Underground Desert Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Gundam NT-1"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck bottom"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Graze Custom and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam NT-1, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Gundam NT-1"
+        blockers: "none"
+        final_target: "Gundam NT-1"
+        outcome:
+          - "Gundam NT-1 received 4 damage, now destroyed"
+          - "Hyakuren received 6 damage, now destroyed"
+  - turn: 13
+    active_player: "pylon"
+    actions:
+      - action: "attack"
+        player: "pylon"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Kayra's Re-GZ, Re-GZ, Zaku Ⅱ, Re-GZ and Re-GZ"
+          - "Card added to hand: Jegan"
+          - "Card added to hand: Kayra's Re-GZ"
+          - "Card added to hand: Nu Gundam"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Underground Desert Base"
+        outcome:
+          - "Underground Desert Base received 7 damage, now destroyed"
+  - turn: 15
+    active_player: "pylon"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "pylon"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Nu Gundam received 7 damage, now destroyed"
+          - "Breach 3: : Axis received 3 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 17
+    active_player: "pylon"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+      - action: "attack"
+        player: "pylon"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 4 damage, now destroyed"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Rouge (Ootori) revealed and discarded"
+      - action: "attack"
+        player: "pylon"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  pylon:
+    - card: "Kayra's Re-GZ"
+      turn: 9
+    - card: "Jegan"
+      turn: 9
+    - card: "Guntank"
+      turn: 9
+    - card: "Re-GZ"
+      turn: 10
+    - card: "Gundam NT-1"
+      turn: 12
+    - card: "Underground Desert Base"
+      turn: 14
+    - card: "Nu Gundam"
+      turn: 15
+  Kiraya:
+    - card: "Strike Rouge (Ootori)"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Hyakuren"
+      turn: 12
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+    - card: "Axis"
+      turn: 17
+  unattributed:
+    - card: "Kayra's Re-GZ, Re-GZ, Zaku Ⅱ, Re-GZ and Re-GZ"
+      turn: 14
+shields_tally:
+  pylon:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - turn: 9
+    note: "This is the real turning point, and it's pylon's turn, not a Kiraya misplay: Re-GZ, Kayra's Re-GZ, and Jegan all attack in sequence, then Gundam NT-1 (paired with Amuro Ray) deploys and immediately pings the already-chipped Strike Rouge (Ootori) dead before swinging into Gundam Gusion Rebake, and Guntank finishes off the low Graze Custom — pylon's whole board acted in a well-sequenced chain that cost Kiraya her EX Base, Strike Rouge (Ootori), Gundam Gusion Rebake, and a Graze Custom, for the loss of only Kayra's Re-GZ, Jegan, and Guntank on their side. Nothing here was avoidable from Kiraya's side (no blockers to assign, per the note below) — it's just a genuinely strong turn from the opponent."
+  - turn: 14
+    note: "Widespread Annihilation landed at maximum value — 5 units in one cast (Kayra's Re-GZ, 3x Re-GZ, Zaku Ⅱ) — the best possible use of the card. Its full value was blunted by Re-GZ's own Destroyed trigger, which tutors a specific card to hand each time it dies (a Jegan, a Kayra's Re-GZ, and a Nu Gundam were all recovered this way) — pylon's Re-GZ package has real built-in resilience against board wipes that's worth remembering for future games against this archetype."
+  - turn: 16
+    note: "Structural point, not really a piloting error: freedom_ibo_v1_1 has zero Blocker-capable units in the whole 50 (true across every game reviewed so far, not just this one) — 'No blockers available' appears on literally every enemy attack all game regardless of what's on board. That means once Kiraya fell behind on the shield race after turn 9, there was no way to slow pylon down defensively; the only lever was racing back faster. Turn 16's five-card hand dump (Hyakuren + 2x Gundam Exia Repair + Graze Custom + M1 Astray Shrike, no attacks) wasn't avoidable given the board was empty after turn 15's forced trade — but it did commit the whole hand to summoning-sick bodies that could neither attack nor block that turn, banking everything on getting to turn 18 for the payoff. pylon's turn 17 alpha strike (Zaku Ⅱ, Jegan, Kayra's Re-GZ, and a freshly-paired Gundam, none of it blockable by design) closed it out first."
+  - turn: 17
+    note: "Overall read: this doesn't look like 'mismanaged pressure' from Kiraya so much as a genuinely tough matchup — a deck with no Blockers at all falling behind early against a value/recursion-heavy toolbox opponent (Re-GZ's death-tutor engine, Gundam NT-1/Nu Gundam both paired with a real Amuro Ray combat/heal engine) is going to lose the race unless it can out-tempo them from the start, and turn 9 already put Kiraya on the back foot. Bad shield luck compounded it — Gundam Barbatos 1st Form, Gundam Flauros (Ryusei-Go), Gundam Gusion Rebake, and Strike Rouge (Ootori) were all lost to shield reveals rather than played. Worth taking the self-critique seriously as a prompt to look at this matchup rather than as evidence of a specific turn misplayed — no single turn stands out as a clear error under review."
+unparsed_lines:
+  - "[turn 5] Returned to deck top"
+  - "[turn 15] Returned to deck top"
