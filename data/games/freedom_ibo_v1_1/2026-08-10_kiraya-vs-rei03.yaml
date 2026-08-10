@@ -1,0 +1,876 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-10_kiraya-vs-rei03"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    Rei03:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "discarded"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    note: "pinned from log: t11 'Linked pilot: Kira Yamato on unit Aile Strike Gundam / Selecting target for Aile Strike Gundam' then 'Gundam Gusion Rebake returned to hand' matches ST04-001's [When Paired・Lv.4+ Pilot] (choose 1 enemy Unit with 4 or less HP, return to hand — Kira Yamato is Lv5) exactly; GD03-072 has no such ability, only a Deploy draw/discard"
+    owner: "Rei03"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Akatsuki (Oowashi)":
+    id: "GD05-004"
+    type: "UNIT"
+    level: 6
+    cost: 6
+    ap: 4
+    hp: 4
+    owner: "Rei03"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Andrew Waldfeld":
+    id: "GD05-082"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Rei03"
+    seen:
+      - "pilot"
+  Archangel:
+    id: "GD05-123"
+    type: "BASE"
+    level: 2
+    cost: 1
+    ap: 0
+    hp: 5
+    note: "pinned from log: t6 'Dealt 1 damage to: Gundam Barbatos 1st Form and Murasame (prevented by Archangel)' and t14 'Dealt 1 damage to Akatsuki (Oowashi), which was prevented by Archangel' both match GD05-123's damage-prevention text exactly ('During your opponent's turn, friendly (Orb) Units can't receive 2 or less enemy effect damage' — a 1-damage ping from Kiraya's own turn); ST04-015 has no such prevention, only a Blocker-reactivate Main ability"
+    owner: "Rei03"
+    seen:
+      - "base"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Rei03"
+    seen:
+      - "base"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Buster Gundam":
+    id: "GD02-076"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    note: "pinned: Rei03's deck is Blue/White; GD01-046 is Red (off-color), GD02-076 is White. Also fits the observed [When Linked] Kira Yamato draw trigger, which needs Buster Gundam to carry a trait Kira Yamato's ability recognizes (Triple Ship Alliance) — GD02-076 has that trait, GD01-046 (ZAFT) doesn't"
+    owner: "Rei03"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to hand"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  Javelin:
+    id: "GD05-014"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Rei03"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to deck"
+  "Kira Yamato":
+    id: "GD05-081"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    note: "pinned: Kiraya's own copies match the freedom_ibo_v1_1 decklist; Rei03's copy draws on Link (t17, 'Kira Yamato: Draw a card' when linked to the (Triple Ship Alliance)-trait Buster Gundam) matching GD05-081's [When Linked] exactly — ST04-010 has an unrelated [Attack] AP-2 debuff and no draw ability at all"
+    owner:
+      - "Kiraya"
+      - "Rei03"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned: printed name is 'M1 Astray Shrike' (no parentheses) — the importer's exact-name match missed it over the punctuation difference. Deploy pings a rested enemy Unit for 1 damage (e.g. t7 killing Gundam Exia Repair, t12 hitting Waldfeld's Murasame), matching GD05-015's [Deploy] exactly"
+    owner:
+      - "Kiraya"
+      - "Rei03"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Murasame:
+    id: "GD05-016"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Rei03"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Murasame (Andrew Waldfeld Unit)":
+    id: "GD05-003"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    note: "pinned: this is the documented display-name quirk (see CLAUDE.md) where Mobile Suit Arena shows a Linked Unit as '<base name> (<Pilot> Unit)' instead of its real printed name once the Pilot's Link condition is met — the real card is 'Waldfeld's Murasame' (GD05-003, link [Andrew Waldfeld]), not the plain 'Murasame' (GD05-016, no link) already resolved separately. Confirmed by t16's Destroyed trigger 'Murasame (Andrew Waldfeld Unit): Draw a card', matching GD05-003's exact text ('If you have an (Orb) Pilot in play, draw 1'); the repeated 'repaired 2 from [Repair 2]' comes from Andrew Waldfeld's own [During Link] Repair grant, not from the Unit card itself"
+    owner: "Rei03"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Rei03"
+    seen:
+      - "command"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Rei03"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "returned to deck"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "Rei03"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    note: "pinned: the documented display-name quirk again — the real card is 'Kira's Strike Rouge' (GD05-010, link [Kira Yamato]), a distinct card from 'Strike Rouge (Ootori)' (GD05-005) already in Kiraya's own decklist. Only ever seen deployed then shield-discarded, no ability text to further confirm, but the link condition match is definitive"
+    owner: "Rei03"
+    seen:
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "milled"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Rei03"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Rei03"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Rei03"
+    actions:
+      - action: "deploy"
+        card: "Javelin"
+      - action: "play_base"
+        card: "Archangel"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 2 damage, leaving 3 HP remaining"
+  - turn: 5
+    active_player: "Rei03"
+    actions:
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Javelin"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Javelin received 2 damage, now destroyed"
+      - action: "play_command"
+        player: "Rei03"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Buster Gundam discarded"
+      - action: "deploy"
+        card: "Murasame"
+        effects:
+          - "Murasame: Modifier applied to: Murasame"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Murasame (prevented by Archangel)"
+  - turn: 7
+    active_player: "Rei03"
+    actions:
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Strike Rouge (Ootori) and Strike Freedom Gundam moved to trash"
+          - "Murasame: Modifier applied to: Murasame"
+      - action: "deploy"
+        card: "Murasame (Andrew Waldfeld Unit)"
+        effects:
+          - "Murasame: Modifier applied to: Murasame"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Archangel received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Murasame (Andrew Waldfeld Unit) revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Murasame"
+  - turn: 9
+    active_player: "Rei03"
+    actions:
+      - action: "attack"
+        player: "Rei03"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 1 damage, now destroyed"
+          - "M1 Astray (Shrike) received 3 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Murasame (Andrew Waldfeld Unit)"
+        linked: true
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+          - "Murasame (Andrew Waldfeld Unit) received 2 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+        effects:
+          - "Murasame (Andrew Waldfeld Unit) repaired 2 from [Repair 2]"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Aile Strike Gundam"
+  - turn: 11
+    active_player: "Rei03"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Gusion Rebake returned to hand"
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Aile Strike Gundam"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Murasame (Andrew Waldfeld Unit), leaving 4 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Murasame (Andrew Waldfeld Unit)"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+  - turn: 13
+    active_player: "Rei03"
+    actions:
+      - action: "play_base"
+        card: "Archangel"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Rei03"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Kira Yamato discarded"
+      - action: "deploy"
+        card: "Akatsuki (Oowashi)"
+        effects:
+          - "Murasame: Modifier applied to: Murasame"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Akatsuki (Oowashi)"
+        linked: true
+        effects:
+          - "M1 Astray (Shrike) returned to hand"
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Akatsuki (Oowashi)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Murasame"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+        effects:
+          - "Murasame (Andrew Waldfeld Unit) repaired 1 from [Repair 2]"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Akatsuki (Oowashi), which was prevented by Archangel"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Murasame"
+        blockers: "none"
+        final_target: "Murasame"
+        outcome:
+          - "Murasame received 3 damage, now destroyed"
+          - "Gundam Gusion Rebake received 2 damage, leaving 2 HP remaining"
+  - turn: 15
+    active_player: "Rei03"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Murasame (Andrew Waldfeld Unit)"
+          - "Strike Freedom Gundam: Modifier applied to: Akatsuki (Oowashi)"
+          - "Strike Freedom Gundam: chose Murasame (Andrew Waldfeld Unit) and Akatsuki (Oowashi)"
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Murasame (Andrew Waldfeld Unit) received 3 damage, leaving 2 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Akatsuki (Oowashi)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "deploy"
+        card: "Rick Dias"
+        effects:
+          - "Murasame (Andrew Waldfeld Unit) repaired 2 from [Repair 2]"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Akatsuki (Oowashi)"
+        blockers: "none"
+        final_target: "Akatsuki (Oowashi)"
+        outcome:
+          - "Gundam Gusion Rebake and A Show of Resolve discarded"
+          - "Rick Dias returned to deck"
+          - "Akatsuki (Oowashi) received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 6 damage, leaving 2 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 5 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos Adapt and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Murasame (Andrew Waldfeld Unit), leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos Adapt and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Murasame (Andrew Waldfeld Unit), now destroyed"
+          - "Murasame (Andrew Waldfeld Unit): Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Rouge (Kira's Unit) revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Strike Freedom Gundam"
+  - turn: 17
+    active_player: "Rei03"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+      - action: "play_command"
+        player: "Rei03"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Rick Dias discarded"
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Buster Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Buster Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Buster Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 6 damage, now destroyed"
+          - "Buster Gundam received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Rei03"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Lupus"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 5 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to M1 Astray (Shrike), leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Javelin"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 1 damage, now destroyed"
+          - "M1 Astray (Shrike) received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Strike Rouge (Ootori) and Hyakuren discarded"
+          - "Javelin returned to deck"
+          - "Argama received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 19
+    active_player: "Rei03"
+    actions:
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Rei03"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed M1 Astray (Shrike), Strike Rouge (Kira's Unit), Rick Dias and Graze Custom"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 5
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 15
+    - card: "Gundam Barbatos Lupus"
+      turn: 17
+  Rei03:
+    - card: "Javelin"
+      turn: 5
+    - card: "Archangel"
+      turn: 8
+    - card: "Aile Strike Gundam"
+      turn: 12
+    - card: "Murasame"
+      turn: 14
+    - card: "Akatsuki (Oowashi)"
+      turn: 16
+    - card: "Archangel"
+      turn: 16
+    - card: "Murasame (Andrew Waldfeld Unit)"
+      turn: 16
+    - card: "Buster Gundam"
+      turn: 17
+    - card: "Argama"
+      turn: 18
+  unattributed:
+    - card: "M1 Astray (Shrike)"
+      turn: 9
+    - card: "Strike Freedom Gundam"
+      turn: 17
+    - card: "Strike Freedom Gundam"
+      turn: 18
+    - card: "M1 Astray (Shrike)"
+      turn: 18
+    - card: "M1 Astray (Shrike), Strike Rouge (Kira's Unit), Rick Dias and Graze Custom"
+      turn: 20
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 11)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 1
+  Rei03:
+    ex_base: "replaced with a base (turn 3)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - turn: 7
+    note: "Bad variance: Gundam Exia Repair's Destroyed mill hits both Strike Rouge (Ootori) and, worse, an entire Strike Freedom Gundam copy — a real loss with no recycle engine (this deck has no Lupus-style trash recursion for non-Tekkadan cards) to get it back."
+  - turn: 9
+    note: "Waldfeld's Murasame becomes the recurring problem unit: Andrew Waldfeld's [During Link] grants it Repair every end of turn, so partial damage from Gusion Rebake/M1 Astray Shrike pings just gets healed back — it takes a dedicated Lupus double-activation (t16) to finally remove it for good."
+  - turn: 15
+    note: "First real look at the Strike Freedom mirror on both sides of this matchup too — Rei03's copy (paired-choosing Waldfeld's Murasame and Akatsuki) trades a card-advantage turn for killing Akatsuki, the same 'choose 1-2 units, draw on kill' pattern Kiraya's own copies use."
+  - turn: 16
+    note: "Big turn: Lupus finally kills Waldfeld's Murasame (2 activations, already-dead trash), then Barbatos Adapt+Mikazuki chip in — but Rei03's Murasame still nets a card off its own Destroyed trigger even in death, so the removal isn't fully free."
+  - turn: 20
+    note: "Widespread Annihilation closes it out again — fourth time this session it's delivered a lopsided trade (M1 Astray Shrike, Kira's Strike Rouge, Rick Dias for Kiraya's own single Graze Custom), backed by A Show of Resolve refilling the hand the same turn. A long, genuinely even 20-turn grind decided by having the better reset button at the right moment."
