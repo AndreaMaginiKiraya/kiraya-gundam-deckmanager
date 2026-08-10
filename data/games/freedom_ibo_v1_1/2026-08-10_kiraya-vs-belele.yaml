@@ -1,0 +1,466 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-10_kiraya-vs-belele"
+  date_imported: "2026-08-11"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    Belele:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner:
+      - "Belele"
+      - "Kiraya"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "Belele"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "Kiraya's copies confirmed: turn 8's attack shows 'Gundam Barbatos 1st Form: Draw a card' right after Mikazuki Augus's Link-ping damaged it that same turn — matches GD02-054's 【Attack】'If this Unit is damaged, draw 1' exactly (also matches the saved deck). Belele's turn-11 copy is lower confidence: it shows no Deploy trigger either way (GD02-054 has none; ST10-008's Deploy ability is optional/'may', so its absence isn't conclusive), but pinned to GD02-054 as the far more common/thematically-fitting printing for a Tekkadan-shell deck — ST10-008 is a (G Generation)-trait card whose ability needs G-Generation trash fuel, an odd fit here."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner:
+      - "Belele"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Belele"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "confirmed via ability text: 'Activated: Gundam Barbatos Lupus / [3 units] exiled from the game / Gundam Barbatos Lupus: Dealt 2 damage to [target]' matches GD03-050's 【Activate・Main】'Choose 3 (Tekkadan)/(Teiwaz) Unit cards from your trash, exile them, deal 2 damage to 1 enemy Unit' exactly — observed twice, turn 13. GD05-059 has a completely different Attack-triggered ability (rest an active Gjallarhorn Unit + become unblockable) that was never observed; Belele's Lupus never attacks in this game, only activates."
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Belele"
+    seen:
+      - "activated"
+      - "deployed"
+  "Gundam Barbatos Lupus Rex":
+    id: "GD05-051"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 4
+    hp: 6
+    owner: "Belele"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "confirmed for both owners via the same Deploy ping: Kiraya's turn-10 copy deals 1 damage to 'Gundam Gusion Rebake and Gundam Barbatos Adapt' (her own unit + 1 enemy unit) and Belele's turn-11 copy deals 1 damage to 'Gundam Barbatos 1st Form and Graze Custom' likewise — both match GD02-055's 【Deploy】'Choose 1 of your Units and 1 enemy Unit, deal 1 damage to them' exactly. ST05-005 has an unrelated Destroyed-triggered rest ability, never observed. Also matches the saved deck for Kiraya's own copies, and Belele's blocked instance dying to exactly 5 damage (turn 12) confirms HP5, matching GD02-055 (ST05-005 is HP4)."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner:
+      - "Belele"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "Kiraya's own copy confirmed: turn 14's 'Linked pilot: Kira Yamato on unit Strike Freedom Gundam / Kira Yamato: Draw a card' matches GD05-081's 【When Linked】draw ability (also matches the saved deck). Belele's turn-9 copy is genuinely undetermined — the log explicitly says 'Paired pilot' (not 'Linked'), meaning Gundam Barbatos Adapt's own link condition wasn't satisfied by this Pilot, so GD05-081's When-Linked ability wouldn't fire either way; the unit only defended that turn (never attacked), so ST04-010's Attack-AP-2 ability was never tested either. No evidence to distinguish Belele's copy; pinned to GD05-081 as the default only because it's the better-evidenced printing overall, not because this specific instance is confirmed."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner:
+      - "Belele"
+      - "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "printed name is 'M1 Astray Shrike' (no parens); log formatting quirk, not a naming ambiguity — same card as in the other freedom_ibo_v1_1 games (this time it's Belele's copy)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Belele"
+    seen:
+      - "deployed"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Belele"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Belele"
+    seen:
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Belele"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Belele"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Belele"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "Belele"
+    actions: []
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus Rex revealed and discarded"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "Belele"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Graze Custom"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Axis received 5 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, now destroyed"
+  - turn: 9
+    active_player: "Belele"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+      - action: "attack"
+        player: "Belele"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos Adapt"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shiden Custom (Ryusei-Go) received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+  - turn: 11
+    active_player: "Belele"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Graze Custom"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Widespread Annihilation revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 13
+    active_player: "Belele"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos 1st Form and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus Rex, Gundam Barbatos Adapt and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Gundam Gusion Rebake, leaving 3 HP remaining"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Gusion Rebake"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Gusion Rebake and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: M1 Astray (Shrike) revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+casualties:
+  Kiraya:
+    - card: "Strike Rouge (Ootori)"
+      turn: 9
+  Belele:
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 10
+  unattributed:
+    - card: "Axis"
+      turn: 8
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 12)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Belele:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - turn: 14
+    note: "Clean, one-sided win — Belele never got out of single digits on shields (4 lost, 0 remaining at the end) while Kiraya never lost one at all. Interesting mirror-ish matchup: Belele's deck runs a large chunk of the same Tekkadan card pool (Barbatos 1st Form, Barbatos Adapt, Gundam Gusion Rebake, Widespread Annihilation), so this played more like an aggro race than a real answer-check — Kiraya's early Graze Custom/Barbatos 1st Form pressure (EX Base dead turn 6, Axis dead turn 8) never let up, and Belele's own Widespread Annihilation got discarded off a shield reveal turn 12 before it could ever answer anything. Strike Freedom Gundam closed it turn 14 with a shield hit followed by an unblocked lethal swing. Nothing to critique here."
