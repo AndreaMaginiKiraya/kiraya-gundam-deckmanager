@@ -1,0 +1,442 @@
+game:
+  id: "freedom_ibo/2026-08-10_kiraya-vs-one"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    one:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "one"
+    seen:
+      - "shield"
+  "Altron Gundam (EW)":
+    id: "GD05-073"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "one"
+    seen:
+      - "discarded"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "one"
+    seen:
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom and Graze Custom":
+    id: null
+    note: "parser artifact, not a card: the log line 'Graze Custom and Graze Custom returned to hand' (t7) is one's Graceful Demeanor (GD04-117) Burst Action bouncing 2 enemy Units Lv.3-or-lower in one line — both are Kiraya's own already-resolved Graze Custom (ST05-004) copies, not a third unrecognized card"
+    owner: "Kiraya"
+    seen:
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Epyon":
+    id: "GD02-002"
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 6
+    hp: 6
+    note: "pinned: one's deck is Blue/White; GD02-002 is Blue, EB01-040 is Green (off-color) — only ever seen as a shield reveal+discard, no ability evidence, but color alone resolves it"
+    owner: "one"
+    seen:
+      - "shield"
+  "Gundam Heavyarms (EW)":
+    id: "GD05-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    note: "pinned: printed name is 'Gundam Heavyarms Custom (EW)' — the importer's exact-name match missed it since the log drops 'Custom'. t6 'Activated: Gundam Heavyarms (EW) / Modifier applied to: Zoloat' matches GD05-079's [Activate·Main][Once per Turn] (choose 1 enemy Unit Lv.4 or lower, AP-1 this turn) exactly — Zoloat is Lv.2"
+    owner: "one"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Sandrock (EW)":
+    id: "GD05-071"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned: printed name is 'Gundam Sandrock Custom (EW)' — the importer's exact-name match missed it since the log drops 'Custom'. t10 'Modifier applied to: Gundam Barbatos 1st Form' on Attack declaration matches GD05-071's [Attack] (if another G Team/Preventer unit in play, choose 1 enemy Unit, AP-2 this turn) exactly"
+    owner: "one"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Heero Yuy":
+    id: "GD05-098"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    note: "pinned: one's deck is Blue/White; GD05-098 is White, ST02-010 is Green (off-color) — only ever discarded, no ability evidence, but color alone resolves it"
+    owner: "one"
+    seen:
+      - "discarded"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Noin's Taurus":
+    id: "GD05-074"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 1
+    owner: "one"
+    seen:
+      - "deployed"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "one"
+    seen:
+      - "command"
+      - "discarded"
+  "Quatre Raberba Winner":
+    id: "GD05-100"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "one"
+    seen:
+      - "pilot"
+      - "shield"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "one"
+    seen:
+      - "command"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+setup:
+  - player: "one"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "one"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "one"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "one"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms (EW)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 6
+    active_player: "one"
+    actions:
+      - action: "play_command"
+        player: "one"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Altron Gundam (EW) discarded"
+      - action: "deploy"
+        card: "Noin's Taurus"
+      - action: "activate"
+        card: "Gundam Heavyarms (EW)"
+        effects:
+          - "Gundam Heavyarms (EW): Modifier applied to: Zoloat (League Militaire)"
+      - action: "attack"
+        player: "one"
+        attacker: "Gundam Heavyarms (EW)"
+        declared_target: "Graze Custom"
+        blockers: "Zoloat (League Militaire)"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Zoloat (League Militaire) received 3 damage, now destroyed"
+          - "Gundam Heavyarms (EW) received 2 damage, leaving 1 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Heavyarms (EW)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Noin's Taurus"
+          - "Noin's Taurus: Draw a card"
+          - "Heero Yuy discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graceful Demeanor revealed"
+          - "Shield card: Graceful Demeanor moved to trash"
+          - "Graze Custom and Graze Custom returned to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Heavyarms (EW) revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 8
+    active_player: "one"
+    actions:
+      - action: "deploy"
+        card: "Gundam Sandrock (EW)"
+      - action: "play_command"
+        player: "one"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Overflowing Affection discarded"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Quatre Raberba Winner revealed"
+          - "Shield card added to hand: Quatre Raberba Winner"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 10
+    active_player: "one"
+    actions:
+      - action: "deploy"
+        card: "Gundam Heavyarms (EW)"
+      - action: "pair_pilot"
+        pilot: "Quatre Raberba Winner"
+        unit: "Gundam Sandrock (EW)"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "activate"
+        card: "Gundam Heavyarms (EW)"
+        effects:
+          - "Gundam Heavyarms (EW): Modifier applied to: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "one"
+        attacker: "Gundam Sandrock (EW)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        modifiers:
+          - "Gundam Sandrock (EW): Modifier applied to: Gundam Barbatos 1st Form"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+          - "Gundam Sandrock (EW) received 0 damage, leaving 5 HP remaining"
+      - action: "deploy"
+        card: "Gundam Heavyarms (EW)"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Epyon revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "one"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Graze Custom"
+        final_target: "shield"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Noin's Taurus revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  one:
+    - card: "Noin's Taurus"
+      turn: 7
+      inferred: true
+  Kiraya:
+    - card: "Zoloat (League Militaire)"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+shields_tally:
+  one:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+study_notes:
+  - turn: 7
+    note: "One's Graceful Demeanor bounces both Graze Custom copies back to hand — a real tempo hit, but freedom_ibo's low curve absorbed it easily (both got redeployed within a turn or two) rather than losing real board presence, unlike the tighter-curve v1_x decks where a double-bounce would have hurt more."
+  - turn: 11
+    note: "First outing for freedom_ibo debut: a clean 11-turn win with Kiraya never losing a single shield (6 remaining at the end). One's Wing-EW shell (Heavyarms/Sandrock Custom debuffs, Noin's Taurus, Overflowing Affection cantrips) never assembled a real board — no Blocker units, no removal beyond the one Graceful Demeanor bounce and a late Unforeseen Incident. Not a strong test of the deck's plan against the Strike Freedom/MF-heavy meta this was built for; the early Graze Custom/Barbatos Adapt curve alone was enough to close it before Strike Freedom or Widespread Annihilation ever needed to come down."
+unparsed_lines:
+  - "[turn 11] Shield received 0 damage"
