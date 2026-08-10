@@ -1,0 +1,1102 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-10_kiraya-vs-clairfryer"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    clairfryer:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner:
+      - "Kiraya"
+      - "clairfryer"
+    seen:
+      - "command"
+      - "discarded"
+      - "shield"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "clairfryer"
+    seen:
+      - "command"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "clairfryer"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "clairfryer"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "returned to deck"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "milled"
+      - "shield"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "clairfryer"
+    seen:
+      - "command"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "confirmed via ability text — every observable Link in this game (turn 19 clairfryer/Strike Freedom, turn 20 Kiraya/Strike Rouge Ootori, turn 36 Kiraya/Strike Freedom, turn 37 clairfryer/Strike Freedom) fires 'Kira Yamato: Draw a card', matching GD05-081's 【When Linked】ability. ST04-010 has no such ability (only Burst + an Attack AP-2 debuff, never observed here) and is ruled out for both owners this game — unlike the vs-Direshift game, both players are running the same printing here."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "clairfryer"
+    seen:
+      - "discarded"
+      - "pilot"
+  Kshatriya:
+    id: null
+    candidates:
+      - "GD01-044"
+      - "GD01-051"
+    note: "genuinely inconclusive — both copies only ever appear as a shield reveal-and-discard (turns 38, 42), never deployed or paired, so neither ability text nor stats are observable to disambiguate. Both candidates are Red (clairfryer plays Blue/Red), so color doesn't narrow it either."
+    owner: "clairfryer"
+    seen:
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "printed name is 'M1 Astray Shrike' (no parens); log formatting quirk, not a naming ambiguity — same card as in the vs-Direshift game."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "clairfryer"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "clairfryer"
+    seen:
+      - "base"
+      - "discarded"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "clairfryer"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Strike Freedom Gundam and Kira Yamato":
+    id: null
+    note: "parser artifact, not a real card — turn 38, Kiraya's Strike Freedom Gundam (GD05-002) Attack ability (discard-2 cost paid with Kira Yamato + M1 Astray Shrike from hand) targets clairfryer's own Strike Freedom Gundam, which was paired with Kira Yamato since turn 37 — returning the paired Unit+Pilot to deck together, so the log line combines both names. Same pattern documented in CLAUDE.md for this card's ability."
+    owner: "clairfryer"
+    seen:
+      - "returned to deck"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "clairfryer"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Strike Rouge (Ootori) and Marida Cruz":
+    id: null
+    note: "parser artifact, not a real card — turn 42, same Strike Freedom Gundam ability as above, this time targeting clairfryer's Strike Rouge (Ootori), paired with Marida Cruz since turn 41 — both returned to deck together, log line combines both names."
+    owner: "clairfryer"
+    seen:
+      - "returned to deck"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "clairfryer"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "clairfryer"
+    seen:
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "clairfryer"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "clairfryer"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "clairfryer"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "clairfryer"
+    actions:
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Hyakuren and Gundam Barbatos Adapt moved to trash"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Zoloat (League Militaire)"
+  - turn: 7
+    active_player: "clairfryer"
+    actions:
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos Adapt, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Zoloat (League Militaire)"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Gusion Rebake, leaving 2 HP remaining"
+  - turn: 9
+    active_player: "clairfryer"
+    actions:
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 10
+    active_player: "Kiraya"
+    actions: []
+  - turn: 11
+    active_player: "clairfryer"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 3 damage, leaving 3 HP remaining"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        replaced: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Strike Rouge (Ootori), leaving 3 HP remaining"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to M1 Astray (Shrike), now destroyed"
+  - turn: 13
+    active_player: "clairfryer"
+    actions:
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 3 damage, leaving 3 HP remaining"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 15
+    active_player: "clairfryer"
+    actions:
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Rouge (Ootori)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Rouge (Ootori) and Strike Freedom Gundam"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 17
+    active_player: "clairfryer"
+    actions: []
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 19
+    active_player: "clairfryer"
+    actions:
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Airframe Seizure"
+        effects:
+          - "Marida Cruz discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Mining Asteroid Palau and A Show of Resolve discarded"
+          - "Graze Custom returned to deck"
+          - "Strike Rouge (Ootori) received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, leaving 5 HP remaining"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Gusion Rebake and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Rouge (Ootori), leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 3 damage, leaving 2 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+  - turn: 21
+    active_player: "clairfryer"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Airframe Seizure"
+        effects:
+          - "Mining Asteroid Palau discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "No targets for Marida Cruz"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Damage prevented"
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 0 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "No targets for Marida Cruz"
+          - "Axis received 7 damage, now destroyed"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        blockers: "none"
+        final_target: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        outcome:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+  - turn: 23
+    active_player: "clairfryer"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+  - turn: 24
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 25
+    active_player: "clairfryer"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam and Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Airframe Seizure"
+        effects:
+          - "Marida Cruz discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "shield"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Graze Custom, leaving 1 HP remaining"
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Shield card: Hyakuren revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Graze Custom, now destroyed"
+          - "Shield card: Hyakuren revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        replaced: "Mining Asteroid Palau"
+        effects:
+          - "Shield card added to hand"
+  - turn: 26
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Freedom Gundam, leaving 4 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Lupus and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Freedom Gundam, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Strike Freedom Gundam received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 5 damage, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos Adapt and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Freedom Gundam, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        blockers: "none"
+        final_target: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        outcome:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 27
+    active_player: "clairfryer"
+    actions:
+      - action: "play_command"
+        player: "clairfryer"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Adapt and Strike Freedom Gundam moved to trash"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, now destroyed"
+  - turn: 28
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Zoloat (League Militaire) and Zoloat (League Militaire)"
+  - turn: 29
+    active_player: "clairfryer"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 30
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Strike Rouge (Ootori) and Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 31
+    active_player: "clairfryer"
+    actions: []
+  - turn: 32
+    active_player: "Kiraya"
+    actions: []
+  - turn: 33
+    active_player: "clairfryer"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 34
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "clairfryer"
+            card: "Improved Technique"
+            effects:
+              - "Improved Technique: Dealt 3 damage to Gundam Barbatos 1st Form, now destroyed"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+  - turn: 35
+    active_player: "clairfryer"
+    actions: []
+  - turn: 36
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Gusion Rebake"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Gusion Rebake and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 37
+    active_player: "clairfryer"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "attack"
+        player: "clairfryer"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, leaving 5 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_command"
+        player: "clairfryer"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Strike Freedom Gundam, leaving 6 HP remaining"
+  - turn: 38
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Kira Yamato and M1 Astray (Shrike) discarded"
+          - "Strike Freedom Gundam and Kira Yamato returned to deck"
+          - "Shield card: Kshatriya revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+  - turn: 39
+    active_player: "clairfryer"
+    actions: []
+  - turn: 40
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zoloat (League Militaire) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 41
+    active_player: "clairfryer"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Strike Rouge (Ootori)"
+        linked: false
+  - turn: 42
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Kira Yamato and Gundam Barbatos 1st Form discarded"
+          - "Strike Rouge (Ootori) and Marida Cruz returned to deck"
+          - "Shield card: Kshatriya revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 5
+    - card: "Gundam Barbatos Adapt"
+      turn: 7
+    - card: "Gundam Gusion Rebake"
+      turn: 9
+    - card: "M1 Astray (Shrike)"
+      turn: 12
+    - card: "Axis"
+      turn: 15
+    - card: "Gundam Barbatos 1st Form"
+      turn: 19
+    - card: "Hyakuren"
+      turn: 21
+    - card: "Gundam Barbatos Lupus"
+      turn: 21
+    - card: "Axis"
+      turn: 21
+    - card: "Gundam Barbatos Lupus"
+      turn: 22
+    - card: "Graze Custom"
+      turn: 25
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 26
+    - card: "Gundam Barbatos Lupus"
+      turn: 26
+    - card: "Gundam Exia Repair"
+      turn: 27
+    - card: "Gundam Gusion Rebake"
+      turn: 27
+    - card: "Graze Custom"
+      turn: 30
+    - card: "Gundam Barbatos 1st Form"
+      turn: 34
+    - card: "Gundam Barbatos 1st Form"
+      turn: 34
+    - card: "Graze Custom"
+      turn: 37
+    - card: "Gundam Gusion Rebake"
+      turn: 37
+  clairfryer:
+    - card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      turn: 22
+    - card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      turn: 26
+    - card: "Mining Asteroid Palau"
+      turn: 36
+  unattributed:
+    - card: "Strike Rouge (Ootori)"
+      turn: 19
+    - card: "Strike Rouge (Ootori)"
+      turn: 20
+    - card: "Strike Freedom Gundam"
+      turn: 20
+    - card: "Strike Rouge (Ootori)"
+      turn: 20
+    - card: "Strike Freedom Gundam"
+      turn: 26
+    - card: "Strike Freedom Gundam"
+      turn: 27
+    - card: "Zoloat (League Militaire) and Zoloat (League Militaire)"
+      turn: 28
+    - card: "Strike Rouge (Ootori) and Zoloat (League Militaire)"
+      turn: 30
+    - card: "Strike Rouge (Ootori)"
+      turn: 34
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+  clairfryer:
+    ex_base: "replaced with a base (turn 11)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - turn: 19
+    note: "This is a genuinely tight, back-and-forth game (unlike the vs-Direshift one) — clairfryer's burn/removal suite (Improved Technique, Close Combat, Darkness Finger) picked off Kiraya's cheap units one-for-one through turns 5-12 before she could stabilize, and an unanswered Strike Rouge (Ootori) chipped Axis down and then out by turn 15. Turn 19 is clairfryer's first big value swing: two A Show of Resolves plus Airframe Seizure chain into a Kira Yamato Link and a Strike Freedom Gundam attack that bounces Graze Custom and kills Strike Rouge (Ootori) in the trade — a real low point for Kiraya."
+  - turn: 20
+    note: "Immediate answer: Gundam Barbatos Lupus's exile-engine (feeding it dead units from earlier turns for repeatable 2-damage pings) plus a Kira Yamato Link on Strike Rouge (Ootori) clear both of clairfryer's Strike Freedom Gundam and their blocking Strike Rouge for the loss of nothing but HP on Lupus. This exile-for-value/big-attacker pattern from Barbatos Lupus is the recurring engine that keeps pulling Kiraya back into games she's behind in — same thing happens again turns 22 and 26."
+  - turn: 21
+    note: "clairfryer answers right back just as hard: Unicorn Gundam 02 Banshee (Destroy Mode) plus Marida Cruz Link, backed by Airframe Seizure and Improved Technique, kills Hyakuren, kills a Barbatos Lupus with zero damage taken (Unicorn's own damage-prevention trigger), and finishes Axis base — a clean 3-for-0 turn. Turn 25 is another big clairfryer swing (double Strike Freedom Gundam pairing, double Unicorn attack with Marida Cruz pings, multiple 'Strike Freedom Gundam: Draw a card' triggers) that kills Graze Custom and burns two shields. This opponent's deck clearly has a real card-advantage/removal engine and punished every window Kiraya gave it."
+  - turn: 28
+    note: "Both Widespread Annihilation casts this game (turns 28 and 30) landed as clean 2-for-0s against real threats (paired Zoloats, then Strike Rouge + Zoloat) — a much better use of the card than the questionable turn-22 cast in the vs-Direshift game, since here there were always at least 2 meaningful bodies to hit rather than harmless leftover tokens."
+  - turn: 42
+    note: "The win itself is a shield-deck exhaustion ('No more shields available, game is over!'), not a direct kill through remaining shields — a legitimate but different win condition worth noting. clairfryer's shield-refill engine (repeatedly replacing Mining Asteroid Palau to draw shields to hand) got permanently shut off once Kiraya destroyed that base on turn 36, after which every attack was pure attrition on a shield pool that could no longer refill. 'Vittoria all'ultimo' is an accurate read of this one: real swings both directions through turn 25, and the outcome wasn't secure until clairfryer's shield pile physically ran dry 17 turns later."
