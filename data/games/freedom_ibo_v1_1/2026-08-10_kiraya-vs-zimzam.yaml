@@ -1,0 +1,592 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-10_kiraya-vs-zimzam"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:ZimZam"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    ZimZam:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Kiraya"
+    seen:
+      - "command"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    note: "pinned from log: t9 'Linked pilot: Kira Yamato on unit Aile Strike Gundam / Selecting target for Aile Strike Gundam' — a targeting prompt fires on pairing, matching ST04-001's [When Paired・Lv.4+ Pilot] (choose 1 enemy Unit with 4 or less HP, return to hand); GD03-072 has no such ability, only a Deploy draw/discard"
+    owner: "ZimZam"
+    seen:
+      - "attacker"
+      - "deployed"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "ZimZam"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Gun EZ":
+    id: "GD04-015"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    note: "pinned from log: t13 deploy targets 2 units and rests both ('Rested unit: Gun EZ', 'Rested unit: Hyakuren'), matching GD04-015's Deploy exactly ('choose 1 of your active League Militaire Units and 1 enemy Unit Lv.3 or lower, rest them'); GD05-013 only has <Blocker>, no Deploy ability"
+    owner: "ZimZam"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "ZimZam"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Hyakuren and Gundam Barbatos 1st Form":
+    id: null
+    note: "parser artifact, not a card: t7's 'Hyakuren and Gundam Barbatos 1st Form returned to hand' is ZimZam's Graceful Demeanor (GD04-117) Burst Action bouncing 2 enemy Units Lv.3-or-lower in one line — both are Kiraya's own already-resolved Hyakuren (ST05-006) and Gundam Barbatos 1st Form (GD02-054), not a third unrecognized card"
+    owner: "Kiraya"
+    seen:
+      - "returned to hand"
+  "Kira Yamato":
+    id: null
+    note: "split by owner, schema can't represent two ids under one name: Kiraya's own copy (only seen as a shield reveal at t9, never deployed/paired) matches the freedom_ibo_v1_1 decklist, GD05-081. ZimZam's copy is a DIFFERENT printing, ST04-010 — repeated 'Kira Yamato: Modifier applied to: X' on Attack declaration (t9, t11, t13, t15) matches ST04-010's [Attack] (choose 1 enemy Unit, AP-2 this battle) exactly; GD05-081 has no Attack-triggered debuff, only a Link-triggered draw. Do not assume both players ran the same printing just because Kiraya's decklist has one"
+    owner:
+      - "Kiraya"
+      - "ZimZam"
+    seen:
+      - "pilot"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    note: "pinned: printed name is 'M1 Astray Shrike' (no parentheses) — the importer's exact-name match missed it over the punctuation difference. Deploy ping ('Dealt 1 damage to Aile Strike Gundam, leaving 3 HP remaining') targeted a rested enemy Unit, matching GD05-015's [Deploy] exactly"
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  Parts:
+    id: null
+    note: "not a printed card: [Parts] is a Unit token ((League Militaire)/AP1/HP1/can't attack the enemy player), deployed by Reineforce Jr.'s (GD04-121) [Deploy] ability whenever a friendly League Militaire Unit is in play — not in the card database by design"
+    owner: "ZimZam"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "ZimZam"
+    seen:
+      - "base"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "ZimZam"
+    seen:
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Victory Gundam":
+    id: "GD04-003"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    note: "pinned from log: t11 'Battle declared: Victory Gundam against Enemy Player / Victory Gundam: Draw a card' matches GD04-003's [Attack] (if you have 3+ League Militaire Units in play, draw 1) exactly; GD04-011 has no Attack ability, only a Destroyed-triggered Parts token deploy"
+    owner: "ZimZam"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "ZimZam"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "ZimZam"
+    seen:
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "ZimZam"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "ZimZam"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "ZimZam"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "ZimZam"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 7
+    active_player: "ZimZam"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "play_command"
+        player: "ZimZam"
+        card: "Graceful Demeanor"
+        effects:
+          - "Hyakuren and Gundam Barbatos 1st Form returned to hand"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Zoloat (League Militaire)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Zoloat (League Militaire)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Zoloat (League Militaire)"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Zoloat (League Militaire) received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+  - turn: 9
+    active_player: "ZimZam"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Graze Custom returned to hand"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Gundam Lfrith"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 11
+    active_player: "ZimZam"
+    actions:
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Strike Rouge (Ootori)"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "Victory Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+          - "Victory Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Gundam Lfrith"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Victory Gundam"
+        blockers: "none"
+        final_target: "Victory Gundam"
+        outcome:
+          - "Victory Gundam received 2 damage, now destroyed"
+          - "Graze Custom received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam Lfrith"
+        blockers: "none"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+          - "Gundam Barbatos Adapt received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 13
+    active_player: "ZimZam"
+    actions:
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Parts"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 1 damage, now destroyed"
+          - "Parts received 2 damage, now destroyed"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 1 damage, leaving 4 HP remaining"
+      - action: "deploy"
+        card: "Gun EZ"
+        effects:
+          - "Rested unit: Gun EZ"
+          - "Rested unit: Hyakuren"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Gundam Lfrith"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+          - "Gundam Lfrith received 4 damage, now destroyed"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Parts"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 1 damage, now destroyed"
+          - "Parts received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Silver Bullet"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Aile Strike Gundam, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 15
+    active_player: "ZimZam"
+    actions:
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: M1 Astray (Shrike)"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Gun EZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "attack"
+        player: "ZimZam"
+        attacker: "Gundam Lfrith"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Axis"
+      turn: 9
+    - card: "Axis"
+      turn: 11
+    - card: "Strike Rouge (Ootori)"
+      turn: 11
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Strike Rouge (Ootori)"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Axis"
+      turn: 15
+  ZimZam:
+    - card: "Zoloat (League Militaire)"
+      turn: 8
+    - card: "Victory Gundam"
+      turn: 12
+    - card: "Parts"
+      turn: 13
+    - card: "Gundam Lfrith"
+      turn: 13
+    - card: "Parts"
+      turn: 13
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 4
+    shields_deployed: 1
+    shields_remaining: 0
+  ZimZam:
+    ex_base: "replaced with a base (turn 11)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - turn: 11
+    note: "First Strike Rouge block, good value: even though Kira Yamato (ST04-010) pre-emptively debuffed it before the Aile Strike Gundam attack that turn, Kiraya correctly held the block for the later Victory Gundam attack instead — Strike Rouge dies but leaves Victory Gundam at 2 HP, finished next turn by Graze Custom for a real 2-for-1 (Strike Rouge for Victory Gundam + tempo)."
+  - turn: 12
+    note: "The turn the user's own self-critique lands hardest: Gundam Barbatos Adapt attacks into Gundam Lfrith for pure chip damage (2 dealt, 2 taken, nothing dies) instead of pushing a shield — this trade accomplishes nothing and leaves Adapt at 1 HP, which is exactly what lets a 1-AP Parts token kill it for free next turn (t13). This is the 'lost time chasing opponent's units' the user flagged: a full attack spent on a non-lethal unit trade instead of shield pressure, in a game where Kiraya's shield count (below) shows she never got a single one through all game."
+  - turn: 13
+    note: "Second Strike Rouge block, bad value this time: Kira Yamato debuffs it again (AP-2) right before the block, so Strike Rouge dies dealing only 1 damage back to a 4-HP Aile Strike Gundam — a full card spent to barely dent an attacker that keeps coming back turn after turn. Once Kira Yamato's debuff-before-block pattern showed up once (t11), it was predictable that blocking Strike Rouge into a second Aile Strike Gundam attack would eat the same debuff again; the deck had no way to force through the trade cleaner (no removal in hand at that point), so this may not have been avoidable rather than a pure misplay."
+  - turn: 15
+    note: "Final tally: Kiraya lost every one of her own shields (0 remaining) while ZimZam never lost a single one (5 remaining at game end) — the game was never close on the shield race once t9-11 let Aile Strike Gundam hit face unanswered turn after turn. On the EX Resource point the user raised: no explicit EX Resource action appears anywhere in this pasted log, so that specific misplay isn't visible here to review — worth pointing to the exact turn/screenshot if it should go in the record."
