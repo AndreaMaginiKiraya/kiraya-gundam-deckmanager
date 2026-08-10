@@ -1,0 +1,586 @@
+game:
+  id: "freedom_ibo/2026-08-10_kiraya-vs-sai"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    sai:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo"
+cards:
+  "Amuro Ray":
+    id: "GD05-085"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 2
+    hp: 1
+    note: "pinned from log: 'Healed 2 damage to: Nu Gundam' after Nu Gundam destroys an enemy with battle damage (t9, x2) matches GD05-085's exact ability; ST01-010 has an unrelated paired-rest ability and no self-heal. Also Green, matching sai's deck colors (ST01-010 is Blue, off-color)"
+    owner: "sai"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Blast Impulse Gundam":
+    id: "ST09-007"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Heero Yuy":
+    id: null
+    candidates:
+      - "GD05-098"
+      - "ST02-010"
+    note: "genuinely ambiguous: sai's deck runs both Green and White, so color doesn't narrow it (GD05-098 White, ST02-010 Green). No ability-specific log line fired for either candidate. Open anomaly, not resolved: t7 Wing Gundam (Bird Mode) (ST02-002, base AP2) dealt 5 damage while linked to Heero Yuy — neither candidate's known bonus (GD05-098 has no stat bonus at all; ST02-010's <During Link> is AP+1/HP+1) accounts for +3 AP. Possibly another under-recorded pilot stat bonus in the local database, similar to the GD05-085 Amuro Ray gap found earlier this session — needs checking against the card image, not guessed"
+    owner: "sai"
+    seen:
+      - "pilot"
+      - "shield"
+  "Impulse Gundam":
+    id: "ST09-001"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Nu Gundam":
+    id: "GD05-017"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    note: "pinned from log: t9 'Re-GZ BWS, Re-GZ BWS and Nu Gundam exiled from the game' (exactly 3 Londo Bell trash cards — the two Re-GZ BWS discards plus the other Nu Gundam copy discarded via shield-break at t6) followed by a damage-only battle vs Impulse Gundam matches GD05-017's [When Paired] exactly; GD05-020 has no such ability"
+    owner: "sai"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "sai"
+    seen:
+      - "command"
+      - "shield"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "sai"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Strike Gundam":
+    id: "ST04-002"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 3
+    note: "pinned from log: 'Strike Gundam: Draw a card / Selecting target for Strike Gundam / Amuro Ray discarded' matches ST04-002's [Deploy] (draw 1, then discard 1) exactly; GD01-077 has no effect text"
+    owner: "sai"
+    seen:
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "sai"
+    seen:
+      - "command"
+  "Wing Gundam":
+    id: "ST02-001"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    note: "pinned from log: repeated 'Breach 5' triggers (t11 vs a shield, t13 vs Axis and a shield) match ST02-001's printed <Breach 5> keyword exactly; GD01-040 has no ability text at all"
+    owner: "sai"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Wing Gundam (Bird Mode)":
+    id: "ST02-002"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "sai"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "sai"
+    action: "choose_first_player"
+  - player: "sai"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "sai"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "sai"
+    actions:
+      - action: "play_command"
+        player: "sai"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Re-GZ BWS discarded"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Impulse Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "sai"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Re-GZ BWS"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Impulse Gundam and Re-GZ BWS"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+  - turn: 7
+    active_player: "sai"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam (Bird Mode)"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam (Bird Mode)"
+        linked: true
+      - action: "attack"
+        player: "sai"
+        attacker: "Wing Gundam (Bird Mode)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 5 damage, now destroyed"
+          - "Wing Gundam (Bird Mode) received 2 damage, leaving 2 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Wing Gundam (Bird Mode)"
+        blockers: "none"
+        final_target: "Wing Gundam (Bird Mode)"
+        outcome:
+          - "Wing Gundam (Bird Mode) received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 5 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+  - turn: 9
+    active_player: "sai"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Re-GZ BWS, Re-GZ BWS and Nu Gundam exiled from the game"
+      - action: "attack"
+        player: "sai"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Impulse Gundam"
+        outcome:
+          - "Impulse Gundam received 7 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 4 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5: : EX Base received 5 damage, now destroyed"
+      - action: "attack"
+        player: "sai"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Nu Gundam received 4 damage, leaving 2 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5 Shield card: Impulse Gundam revealed and discarded"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "sai"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Strike Rouge (Ootori)"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 2 damage, leaving 2 HP remaining"
+          - "Strike Rouge (Ootori) received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 11
+    active_player: "sai"
+    actions:
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "sai"
+        attacker: "Wing Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+          - "Wing Gundam received 3 damage, leaving 4 HP remaining"
+          - "Breach 5 Shield card: Blast Impulse Gundam revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "sai"
+        attacker: "Nu Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Nu Gundam, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Heero Yuy revealed"
+          - "Shield card added to hand: Heero Yuy"
+  - turn: 13
+    active_player: "sai"
+    actions:
+      - action: "deploy"
+        card: "Strike Gundam"
+        effects:
+          - "Strike Gundam: Draw a card"
+          - "Amuro Ray discarded"
+      - action: "attack"
+        player: "sai"
+        attacker: "Wing Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Wing Gundam"
+      - action: "pair_pilot"
+        pilot: "Heero Yuy"
+        unit: "Wing Gundam"
+        linked: true
+      - action: "attack"
+        player: "sai"
+        attacker: "Wing Gundam"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 7 damage, now destroyed"
+          - "Wing Gundam received 2 damage, leaving 5 HP remaining"
+          - "Breach 5 Shield card: Gundam Barbatos Adapt revealed and discarded"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+casualties:
+  sai:
+    - card: "Wing Gundam (Bird Mode)"
+      turn: 8
+    - card: "Nu Gundam"
+      turn: 12
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Impulse Gundam"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Strike Rouge (Ootori)"
+      turn: 10
+    - card: "Gundam Barbatos 1st Form"
+      turn: 11
+    - card: "Axis"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+shields_tally:
+  sai:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 1
+    shields_remaining: 1
+study_notes:
+  - turn: 8
+    note: "Strike Rouge (Ootori) is Orb-trait, so linking Kira Yamato onto it triggers the [When Linked] draw-1 immediately (not just a flat stat bonus) — good early value from a card that would otherwise just sit as a body, and confirms the deck doesn't need to wait for Strike Freedom specifically to get card advantage out of Kira Yamato."
+  - turn: 9
+    note: "sai's Nu Gundam+Amuro Ray (the exact Londo Bell archetype flagged as a bad matchup earlier this session) does its usual two-for-one: exiles 3 Londo Bell trash cards for a free damage-only kill on Impulse Gundam, then a full attack kills Gundam Barbatos Adapt too, healing back both times. Same problem pattern as the aggro_tekkadan_mono losses to this archetype — freedom_ibo doesn't inherently solve it, it just has more resources in reserve to answer it (see t12)."
+  - turn: 12
+    note: "Barbatos Lupus (still present at 2 copies in this list) cleans up Nu Gundam in one activation using already-dead trash — the same recycle engine from the old decks, still doing real work here even in a deck built around a different primary plan."
+  - turn: 14
+    note: "Closing turn confirms Strike Freedom Gundam's Deploy trigger ('choose 1-2 Units, they draw when they destroy an enemy card with battle damage this turn') counts shield hits, not just Unit kills — the final draw fired off Lupus breaking sai's last shield, not off a unit kill. Combined with Kira Yamato's own Link draw, that's 2 cards from a single Deploy+attack sequence — a strong first real look at the deck's actual payoff turn, closing a game that had gone the full distance against exactly the archetype it was built to answer."
