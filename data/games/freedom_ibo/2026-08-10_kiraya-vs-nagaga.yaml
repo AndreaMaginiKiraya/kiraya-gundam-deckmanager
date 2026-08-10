@@ -1,0 +1,963 @@
+game:
+  id: "freedom_ibo/2026-08-10_kiraya-vs-nagaga"
+  date_imported: "2026-08-10"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    "ながが":
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "ながが"
+    seen:
+      - "command"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    note: "pinned from log: t15 'Paired pilot: Amuro Ray on unit Aile Strike Gundam / Selecting target for Aile Strike Gundam' — a targeting prompt fires on the unit itself on pairing, matching ST04-001's [When Paired・Lv.4+ Pilot] (choose 1 enemy Unit with 4 or less HP, return to hand) — Amuro Ray (ST01-010) is Lv4; GD03-072 has no such ability, only a Deploy draw/discard"
+    owner: "ながが"
+    seen:
+      - "deployed"
+  "Aile Strike Gundam and Amuro Ray":
+    id: null
+    note: "parser artifact, not a card: t18's 'Aile Strike Gundam and Amuro Ray returned to deck' is Kiraya's Strike Freedom Gundam (GD05-002) [During Pair][Attack] ability returning the lowest-Lv enemy Unit to the bottom of its owner's deck — a paired Pilot returns to deck alongside its Unit, so this is ながが's already-resolved Aile Strike Gundam (ST04-001) and Amuro Ray (ST01-010) both leaving together, not a third unrecognized card"
+    owner: "ながが"
+    seen:
+      - "returned to deck"
+  "Amuro Ray":
+    id: "ST01-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    note: "pinned from log: t23 'Paired pilot: Amuro Ray on unit Freedom Gundam / Selecting target for Amuro Ray / Rested unit: Graze Custom' matches ST01-010's [When Paired] (choose 1 enemy Unit with 5 or less HP, rest it) exactly; GD05-085 has no targeting ability on pairing at all. ST01-010 is Blue, also matching ながが's deck colors (GD05-085 is Green, off-color)"
+    owner: "ながが"
+    seen:
+      - "discarded"
+      - "pilot"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "ながが"
+    seen:
+      - "base"
+      - "shield"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Blast Impulse Gundam":
+    id: "ST09-007"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "returned to hand"
+  "Fatal Strike":
+    id: "ST05-014"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  "Force Impulse Gundam":
+    id: "ST09-002"
+    note: "resolved via saved deck 'freedom_ibo'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Freedom Gundam":
+    id: "GD01-065"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 4
+    hp: 6
+    note: "pinned from log: repeated 'Selecting target for Freedom Gundam / Freedom Gundam: Modifier applied to: X' fires whenever ながが pairs a Pilot with Freedom Gundam itself (t13) or with another white Unit (t15 pairing Amuro Ray with Aile Strike Gundam, t27 pairing Kira Yamato with Aile Strike Gundam) — matches GD01-065's [During Pair][Once per Turn] ('when you pair a Pilot with this Unit or one of your white Units, choose 1 enemy Unit, AP-2 this turn') exactly; neither GD03-070 nor ST09-004 has a pairing-triggered debuff"
+    owner: "ながが"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "genuinely ambiguous: all 5 candidates are Blue, matching ながが's Blue/White deck, so color doesn't narrow it. Deployed once at t29 with no attack, no pairing, and the game ended (opponent timeout) before its own turn-end could show a Repair-2 check either way — no evidence to pin"
+    owner: "ながが"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "ながが"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Impulse Gundam":
+    id: "ST09-001"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kira Yamato":
+    id: "GD05-081"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    note: "pinned: Kiraya's own copies match the freedom_ibo decklist; ながが's copy draws on Link (t13, 'Kira Yamato: Draw a card' when linked to the (Triple Ship Alliance)-trait Freedom Gundam) matching GD05-081's [When Linked] ('if this is an (Orb)/(Triple Ship Alliance) Unit, draw 1') exactly — ST04-010 has an unrelated [Attack] AP-2 debuff and no draw ability at all"
+    owner:
+      - "Kiraya"
+      - "ながが"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "ながが"
+    seen:
+      - "command"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "ながが"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "ながが"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "ながが"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Freedom Gundam and Kira Yamato":
+    id: null
+    note: "parser artifact, not a card: t19's 'Strike Freedom Gundam and Kira Yamato returned to deck' is ながが's own Strike Freedom Gundam [During Pair][Attack] ability returning the lowest-Lv enemy Unit to the bottom of its owner's deck — Kiraya's paired Kira Yamato returns to deck alongside its Unit, so this is Kiraya's already-resolved Strike Freedom Gundam (GD05-002) and Kira Yamato (GD05-081) both leaving together, not a third unrecognized card. Note both players ran Strike Freedom Gundam this game — a real mirror on that specific card"
+    owner: "Kiraya"
+    seen:
+      - "returned to deck"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Striker Pack":
+    id: "ST04-012"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "ながが"
+    seen:
+      - "command"
+  "Sword Strike Gundam":
+    id: "GD01-073"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "ながが"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "ながが"
+    action: "choose_first_player"
+  - player: "ながが"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "ながが"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "ながが"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Impulse Gundam"
+  - turn: 5
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Fatal Strike"
+        effects:
+          - "Fatal Strike: destroyed Rick Dias"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 7
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Impulse Gundam"
+  - turn: 9
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Silver Bullet"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+  - turn: 11
+    active_player: "ながが"
+    actions:
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "ながが"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Sword Strike Gundam discarded"
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Impulse Gundam"
+        declared_target: "player"
+        blockers: "Silver Bullet"
+        final_target: "Silver Bullet"
+        outcome:
+          - "Silver Bullet received 3 damage, leaving 1 HP remaining"
+          - "Impulse Gundam received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Zoloat (League Militaire)"
+        declared_target: "Silver Bullet"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 3 damage, leaving 1 HP remaining"
+          - "Zoloat (League Militaire) received 2 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Impulse Gundam, Gundam Lfrith, Rick Dias, Gundam Lfrith and Sword Strike Gundam"
+  - turn: 13
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+          - "Freedom Gundam: Modifier applied to: Blast Impulse Gundam"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 15
+    active_player: "ながが"
+    actions:
+      - action: "play_command"
+        player: "ながが"
+        card: "Striker Pack"
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Aile Strike Gundam"
+        linked: false
+        effects:
+          - "Gundam Flauros (Ryusei-Go) returned to hand"
+          - "Rested unit: Blast Impulse Gundam"
+          - "Freedom Gundam: Modifier applied to: Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Freedom Gundam"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 6 damage, now destroyed"
+          - "Freedom Gundam received 3 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Silver Bullet"
+        declared_target: "Blast Impulse Gundam"
+        blockers: "none"
+        final_target: "Blast Impulse Gundam"
+        outcome:
+          - "Blast Impulse Gundam received 4 damage, now destroyed"
+          - "Silver Bullet received 5 damage, now destroyed"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+  - turn: 17
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Silver Bullet"
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Flauros (Ryusei-Go) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Fatal Strike"
+        effects:
+          - "Fatal Strike: destroyed Rick Dias"
+      - action: "play_base"
+        card: "Argama"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Argama revealed"
+          - "Shield card added to hand"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Gundam Barbatos Lupus and Force Impulse Gundam discarded"
+          - "Aile Strike Gundam and Amuro Ray returned to deck"
+          - "Argama received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 19
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Freedom Gundam"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Freedom Gundam and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Silver Bullet"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 4 damage, now destroyed"
+          - "Silver Bullet received 5 damage, now destroyed"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Amuro Ray and Sword Strike Gundam discarded"
+          - "Strike Freedom Gundam and Kira Yamato returned to deck"
+          - "EX Base received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Freedom Gundam"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Flauros (Ryusei-Go) and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Freedom Gundam, leaving 2 HP remaining"
+  - turn: 21
+    active_player: "ながが"
+    actions:
+      - action: "attack"
+        player: "ながが"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Kira Yamato and Rick Dias discarded"
+          - "Gundam Gusion Rebake returned to deck"
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos 1st Form and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Freedom Gundam, now destroyed"
+      - action: "deploy"
+        card: "Force Impulse Gundam"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Argama received 5 damage, now destroyed"
+  - turn: 23
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Freedom Gundam"
+        linked: false
+        effects:
+          - "Rested unit: Graze Custom"
+          - "Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Gundam Lfrith"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+  - turn: 24
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Force Impulse Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "Freedom Gundam"
+        final_target: "Freedom Gundam"
+        outcome:
+          - "Freedom Gundam received 5 damage, leaving 2 HP remaining"
+          - "Force Impulse Gundam received 6 damage, now destroyed"
+          - "Blast Impulse Gundam returned to hand"
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Strike Freedom Gundam received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 7 damage, now destroyed"
+  - turn: 25
+    active_player: "ながが"
+    actions:
+      - action: "play_command"
+        player: "ながが"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+  - turn: 26
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Lfrith received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Freedom Gundam"
+  - turn: 27
+    active_player: "ながが"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Blast Impulse Gundam returned to hand"
+          - "Freedom Gundam: Modifier applied to: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "ながが"
+        attacker: "Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "play_command"
+        player: "ながが"
+        card: "Striker Pack"
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+  - turn: 28
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Freedom Gundam"
+      - action: "deploy"
+        card: "Blast Impulse Gundam"
+  - turn: 29
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+  - turn: 30
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 31
+    active_player: "ながが"
+    actions:
+      - action: "deploy"
+        card: "Silver Bullet"
+  - turn: 32
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+  - turn: 33
+    active_player: "ながが"
+    actions: []
+casualties:
+  "ながが":
+    - card: "Rick Dias"
+      turn: 6
+    - card: "Argama"
+      turn: 14
+    - card: "Silver Bullet"
+      turn: 15
+    - card: "Rick Dias"
+      turn: 18
+    - card: "Argama"
+      turn: 18
+    - card: "Silver Bullet"
+      turn: 19
+    - card: "Freedom Gundam"
+      turn: 22
+    - card: "Argama"
+      turn: 22
+    - card: "Gundam Lfrith"
+      turn: 26
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Impulse Gundam"
+      turn: 12
+    - card: "Zoloat (League Militaire)"
+      turn: 12
+    - card: "Strike Rouge (Ootori)"
+      turn: 15
+    - card: "Blast Impulse Gundam"
+      turn: 15
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 19
+    - card: "Gundam Barbatos Lupus"
+      turn: 23
+    - card: "Graze Custom"
+      turn: 23
+    - card: "Force Impulse Gundam"
+      turn: 24
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 24
+    - card: "Gundam Barbatos 1st Form"
+      turn: 26
+    - card: "Axis"
+      turn: 27
+  unattributed:
+    - card: "Impulse Gundam, Gundam Lfrith, Rick Dias, Gundam Lfrith and Sword Strike Gundam"
+      turn: 12
+    - card: "Strike Freedom Gundam"
+      turn: 24
+shields_tally:
+  "ながが":
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "destroyed (turn 19)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - turn: 12
+    note: "Widespread Annihilation's first real showcase: destroys 5 units at once (2x Gundam Lfrith, Rick Dias, Sword Strike Gundam, plus Kiraya's own already-spent Impulse Gundam) after a turn of trades had already softened the board. Exactly the 'reset button' role discussed when the deck was built — a 4-for-1 in ながが's favor to break, since the only Kiraya casualty was a unit that had already done its job."
+  - turn: 18
+    note: "First real look at the mirror dynamic on Strike Freedom Gundam — both players run it. Kiraya's copy (paired Kira Yamato) bounces ながが's Aile Strike Gundam+Amuro Ray to the bottom of the deck via its [During Pair][Attack] ability, a genuine tempo denial tool, not just a stat stick."
+  - turn: 19
+    note: "Symmetric answer: ながが's own Strike Freedom Gundam bounces Kiraya's Strike Freedom+Kira Yamato right back — losing the payoff piece just deployed is a real tempo cost. This mirror match on the same card cuts both ways; whoever lands the ability first doesn't keep a lasting edge if the opponent has the same tool."
+  - turn: 20
+    note: "Gundam Barbatos Lupus (2 copies in this list) starts grinding down ながが's Freedom Gundam over two activations (t20, t22) using already-dead trash — the same recycle engine from the old aggro_tekkadan_mono decks, still pulling real weight in freedom_ibo alongside the newer Strike Freedom/Kira Yamato plan."
+  - turn: 24
+    note: "Gundam Flauros trades even into Strike Freedom Gundam (mutual destruction) — a fair but not great trade given Flauros costs half as much. From here the game grinds into a long attrition war (t25-32) with both sides slowly rebuilding, eventually decided by ながが timing out at t33 rather than a clean board state — a 33-turn game, easily the longest and closest test of freedom_ibo so far."
+unparsed_lines:
+  - "[turn 33] Gundam Barbatos Lupus/Turn ended!"
