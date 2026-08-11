@@ -1,4 +1,4 @@
-# freedom_ibo_v1_1 — analisi del mazzo (19 partite, 12-7, 63,2%)
+# freedom_ibo_v1_1 — analisi del mazzo (20 partite, 13-7, 65,0%)
 
 `freedom_ibo_v1_1` (Blu/Viola, Tekkadan + Strike Freedom Gundam/Kira Yamato)
 è la seconda iterazione dell'archetipo Freedom/IBO: rispetto a `freedom_ibo`
@@ -10,7 +10,7 @@ Gundam Gusion Rebake, 1 Gundam Flauros (Ryusei-Go), 3 Gundam Barbatos
 Lupus, 3 Strike Freedom Gundam, 4 Mikazuki Augus, 4 Kira Yamato, 2 A Show
 of Resolve, 2 Widespread Annihilation, 4 Axis.
 
-Con **19 partite** il campione resta piccolo, specialmente per singolo
+Con **20 partite** il campione resta piccolo, specialmente per singolo
 archetipo avversario (1-4 partite ciascuno) — le percentuali sotto vanno
 lette come indicazioni preliminari, non conclusioni statistiche solide.
 
@@ -18,22 +18,22 @@ lette come indicazioni preliminari, non conclusioni statistiche solide.
 
 | Split | Partite | Record | Winrate |
 |---|---|---|---|
-| **Totale** | 19 | 12-7 | 63,2% |
-| Primo turno | 5 | 3-2 | 60,0% |
+| **Totale** | 20 | 13-7 | 65,0% |
+| Primo turno | 6 | 4-2 | 66,7% |
 | Secondo turno | 14 | 9-5 | 64,3% |
 | Con mulligan | 9 | 5-4 | 55,6% |
-| Senza mulligan | 10 | 7-3 | 70,0% |
+| Senza mulligan | 11 | 8-3 | 72,7% |
 | Primo turno + mulligan | 3 | 2-1 | 66,7% |
-| Primo turno + no mulligan | 2 | 1-1 | 50,0% |
+| Primo turno + no mulligan | 3 | 2-1 | 66,7% |
 | Secondo turno + mulligan | 6 | 3-3 | 50,0% |
 | Secondo turno + no mulligan | 8 | 6-2 | 75,0% |
 
-Il calo di winrate con mulligan (55,6% contro 70,0% senza) resta il segnale
+Il calo di winrate con mulligan (55,6% contro 72,7% senza) resta il segnale
 più consistente nella tabella, e va nella direzione attesa — una mano
 rifatta parte quasi sempre un turno indietro sulla curva. Il campione su
-"primo turno" (5 partite) è ancora troppo piccolo per dire se partire primi
-sia un vantaggio per questo mazzo o solo rumore statistico — il winrate si
-è avvicinato a quello da secondi con l'ultima aggiunta.
+"primo turno" (6 partite) è ormai in linea con quello da secondi (66,7%
+contro 64,3%) — ancora troppo piccolo per essere conclusivo, ma non mostra
+più uno scarto degno di nota.
 
 ## Performance per archetipo avversario
 
@@ -41,7 +41,7 @@ sia un vantaggio per questo mazzo o solo rumore statistico — il winrate si
 |---|---|---|---|
 | Toolbox SEED/Orb (Aile Strike Gundam, Akatsuki Oowashi, Murasame legata a un pilota, Strike Rouge legata a Kira Yamato) | 4 | 2-2 | 50% |
 | Toolbox Gundam + Amuro Ray / Nu Gundam (Londo Bell) | 3 | 1-2 | 33% |
-| League Militaire (V-Dash Gundam, Victory Gundam, Freedom Gundam, Aile Strike + Kira Yamato) | 3 | 2-1 | 67% |
+| League Militaire (V-Dash Gundam, Victory Gundam, Freedom Gundam, Aile Strike + Kira Yamato) | 4 | 3-1 | 75% |
 | Rimozione diretta pesante + Unicorn Gundam 02 Banshee (Destroy Mode) | 2 | 2-0 | 100% |
 | MF / G Gundam (Master Gundam, Shining Gundam, Domon/Master Asia) | 1 | 1-0 | 100% |
 | Minerva Squad / Destiny Gundam | 1 | 0-1 | 0% |
@@ -84,6 +84,7 @@ varianza.
 | 17 | Toolbox Celestial Being/00 Gundam | **W** | 2° | No | 24 | 0 / 0 | 10 / 8 + 1 | Widespread Annihilation pulisce l'intero campo nemico; rimonta di logoramento vera — sia Strike Freedom Gundam che Gundam Barbatos Lupus a un soffio dalla morte, vinta perché l'avversario resta completamente a secco di risorse |
 | 18 | Toolbox Gundam+Amuro Ray/Nu Gundam | **L** | 1° | Sì | 16 | 0 / 3 | 9 / 7 | Entrambe le copie di Strike Rouge (Ootori) perse a scudo per varianza pura; un pilota avversario riposa un Blocker di Kiraya con la propria abilità prima ancora della dichiarazione d'attacco, disinnescandolo senza combattimento; tre attaccanti sbloccati chiudono la partita una volta morti entrambi i Blocker |
 | 19 | Mirror parziale Tekkadan | **L** | 1° | No | 26 | 0 / 1 | 9 / 7 | Il mill-on-death di Gundam Exia Repair innesca sul proprio ping da 1 danno e costa una copia di Widespread Annihilation dal mazzo al t6; un pilota avversario appaiato concede High-Maneuver e distrugge una base senza possibilità di blocco al t12; nel corso della partita l'avversario dispiega Gundam Barbatos Lupus e Strike Freedom Gundam tre volte ciascuno contro una sola linea di ciascuno lato Kiraya — nel mirror, la profondità di pesca sui pezzi motore condivisi sembra pesare più di ogni sequenza di gioco |
+| 20 | League Militaire | **W** | 1° | No | 25 | 4 / 1 | 8 / 6 | Vittoria netta, 0 shield perse per tutta la partita; Widespread Annihilation 3-per-1 al t13 (2 unità nemiche più un Hyakuren proprio già speso); Gundam Barbatos Lupus rimuove Aile Strike Gundam con doppia attivazione al t17; gli scambi a specchio su Strike Freedom Gundam restano alla pari, ma la profondità di banco (corpi economici ridispiegati a fine partita) tiene la pressione sugli scudi che l'avversario non riesce mai a pareggiare |
 
 ## Pattern di gioco osservati
 
