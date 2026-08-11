@@ -1,4 +1,4 @@
-# freedom_ibo_v1_1 — analisi del mazzo (24 partite, 16-8, 66,7%)
+# freedom_ibo_v1_1 — analisi del mazzo (25 partite, 16-9, 64,0%)
 
 `freedom_ibo_v1_1` (Blu/Viola, Tekkadan + Strike Freedom Gundam/Kira Yamato)
 è la seconda iterazione dell'archetipo Freedom/IBO: rispetto a `freedom_ibo`
@@ -10,7 +10,7 @@ Gundam Gusion Rebake, 1 Gundam Flauros (Ryusei-Go), 3 Gundam Barbatos
 Lupus, 3 Strike Freedom Gundam, 4 Mikazuki Augus, 4 Kira Yamato, 2 A Show
 of Resolve, 2 Widespread Annihilation, 4 Axis.
 
-Con **24 partite** il campione resta piccolo, specialmente per singolo
+Con **25 partite** il campione resta piccolo, specialmente per singolo
 archetipo avversario (1-4 partite ciascuno) — le percentuali sotto vanno
 lette come indicazioni preliminari, non conclusioni statistiche solide.
 
@@ -18,20 +18,20 @@ lette come indicazioni preliminari, non conclusioni statistiche solide.
 
 | Split | Partite | Record | Winrate |
 |---|---|---|---|
-| **Totale** | 24 | 16-8 | 66,7% |
+| **Totale** | 25 | 16-9 | 64,0% |
 | Primo turno | 8 | 5-3 | 62,5% |
-| Secondo turno | 16 | 11-5 | 68,8% |
+| Secondo turno | 17 | 11-6 | 64,7% |
 | Con mulligan | 11 | 7-4 | 63,6% |
-| Senza mulligan | 13 | 9-4 | 69,2% |
+| Senza mulligan | 14 | 9-5 | 64,3% |
 | Primo turno + mulligan | 4 | 3-1 | 75,0% |
 | Primo turno + no mulligan | 4 | 2-2 | 50,0% |
 | Secondo turno + mulligan | 7 | 4-3 | 57,1% |
-| Secondo turno + no mulligan | 9 | 7-2 | 77,8% |
+| Secondo turno + no mulligan | 10 | 7-3 | 70,0% |
 
-Il calo di winrate con mulligan (63,6% contro 69,2% senza) si è ristretto
-ulteriormente — resta la direzione attesa ma lo scarto è ormai piccolo. Il
-campione su "primo turno" (8 partite) è tornato quasi in linea con quello
-da secondi (62,5% contro 68,8%).
+Con 25 partite lo split mulligan/no-mulligan si è praticamente azzerato
+(63,6% contro 64,3%) e primo/secondo turno restano vicinissimi (62,5%
+contro 64,7%) — nessuno dei due fattori mostra più un segnale distinguibile
+dal rumore statistico a questo punto del campione.
 
 ## Performance per archetipo avversario
 
@@ -45,9 +45,21 @@ da secondi (62,5% contro 68,8%).
 | Minerva Squad / Destiny Gundam | 1 | 0-1 | 0% |
 | SEED misto (Gundam + Amuro Ray, Aegis Gundam) | 1 | 1-0 | 100% |
 | Neo Zeon (Sazabi, Zeong, Char Aznable) | 1 | 1-0 | 100% |
-| Mirror parziale Tekkadan | 2 | 1-1 | 50% |
+| Mirror parziale Tekkadan | 3 | 1-2 | 33% |
 | Toolbox Celestial Being / 00 Gundam | 1 | 1-0 | 100% |
 | Witch from Mercury / G-Witch control (Gundam Calibarn, Michaelis, Gundam Aerial Rebuild, Quiet Zero + rimozione generica pesante) | 1 | 1-0 | 100% |
+
+**Mirror parziale Tekkadan scende a 1-2 (33%)** dopo una seconda sconfitta
+contro un avversario che gioca sostanzialmente lo stesso mazzo. In
+entrambe le sconfitte di questo bucket la revisione turno per turno non ha
+trovato un errore tattico chiaro: si è trattato di varianza reale (carte
+perse a scudo, mill sfavorevole di Gundam Exia Repair) e di un avversario
+che ha semplicemente generato più valore nella stessa finestra di turni
+dagli stessi pezzi motore condivisi (Gundam Barbatos Lupus, Strike Freedom
+Gundam). Il mirror resta il matchup più imprevedibile del mazzo — non per
+una debolezza strutturale individuabile, ma perché entrambi i lati pescano
+dallo stesso identico pool di carte e l'esito tende a seguire chi pesca
+prima i pezzi giusti.
 
 **MF/G Gundam sale a 2-1 (67%)**: il confronto diretto fra la vittoria più
 recente e la sconfitta precedente contro lo stesso identico motore
@@ -104,6 +116,7 @@ ma su una sola partita con una causa strutturale chiara (vedi sotto).
 | 22 | Toolbox Gundam+Amuro Ray (variante SEED ibrida) | **W** | 2° | No | 25 | 2 / 1 | 8 / 11 | Vittoria netta, 0 shield perse per tutta la partita; entrambe le Widespread Annihilation lanciate bene (3-per-0 al t10, 2-per-0 al t18); combattimento con dati puliti (nessuna stampa compromessa dal quirk di sincronizzazione) conferma che il bonus AP+2/HP+2 spesso osservato quando Strike Freedom Gundam "sceglie sé stesso" viene in realtà dal Link con Kira Yamato, non dalla propria abilità di Deploy (che pesca solo su uccisione, non dà bonus statistiche) |
 | 23 | Witch from Mercury / G-Witch control | **W** | 2° | Sì | 15 | 6 / 3 | 6 / 2 | Vittoria per resa, 0 shield perse nonostante 6 unità perse a una rimozione generica pesante e ricorrente (Improved Technique, Darkness Finger, Close Combat, Overwhelming Pressure — quattro rimozioni diverse in 15 turni); Gundam Barbatos Adapt sopravvive a 1 HP per più turni continuando comunque a colpire; la densità di corpi economici (2x Hyakuren, 3x Graze Custom, 2x Strike Rouge Ootori) esaurisce le risposte avversarie prima che gli scudi vengano mai intaccati |
 | 24 | MF / G Gundam | **W** | 1° | Sì | 17 | 1 / 0 | 8 / 6 | Vittoria per resa contro lo stesso motore Shining Gundam/Darkness Finger visto nella sconfitta precedente contro questo archetipo — stavolta entrambe le Widespread Annihilation (t11, t13) lo colpiscono in pieno con un 2-per-0 pulito ciascuna invece di andare perse; Gundam Barbatos Lupus si attiva 3 volte distinte nel corso della partita generando valore gratuito ogni volta; il mill di Gundam Exia Repair costa comunque Lupus+Adapt dal mazzo al t16, assorbito senza cambiare l'esito |
+| 25 | Mirror parziale Tekkadan | **L** | 2° | No | 13 | 0 / 6 | 9 / 5 | Nessun errore tattico individuato dopo revisione: il mill di Gundam Exia Repair (HP1, muore al primo ping) costa 2 carte dal mazzo al t7; cinque carte perse a scudo nel corso della partita, incluso l'unica copia di Strike Freedom Gundam mai vista in mano; il turno migliore della partita (t12, un 3-per-0 pulito via Gundam Barbatos Lupus) arriva troppo tardi rispetto al deficit già accumulato — varianza reale più un avversario che genera valore più in fretta dagli stessi pezzi motore condivisi |
 
 ## Pattern di gioco osservati
 
