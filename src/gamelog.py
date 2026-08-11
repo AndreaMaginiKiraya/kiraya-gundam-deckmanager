@@ -68,8 +68,14 @@ _SHIELD_TO_TRASH_RE = re.compile(r"^Shield cards?: (.+?) moved to trash$")
 # "Breach 3: : Isaribi received ..." (base hit, doubled colon as observed) or
 # "Breach 3 Shield card: X revealed and discarded" (shield hit, no colon).
 _BREACH_RE = re.compile(r"^Breach \d+\s*:?\s*:?\s*(.+)$")
+# The optional ", reduced by N" clause appears when a damage-reduction
+# effect (e.g. a Constant Effect capping incoming damage) partially
+# blunts the hit - the final outcome (destroyed/remaining HP) already
+# reflects the reduced amount, so it's tracked in the raw line but not
+# separately parsed out.
 _RECEIVED_RE = re.compile(
-    r"^(.+?) received \d+ damage, (?:now destroyed|leaving \d+ HP remaining)$"
+    r"^(.+?) received \d+ damage(?:, reduced by \d+)?,"
+    r" (?:now destroyed|leaving \d+ HP remaining)$"
 )
 _DEALT_RE = re.compile(
     r"^(.+?): Dealt \d+ damage to:? .+?(?:, (?:now destroyed|leaving \d+ HP remaining))?$"
@@ -115,16 +121,44 @@ _RESOURCE_EX_RE = re.compile(r"^(?:.+?: )?Placed \d+ (?:rested )?(?:Resource EX|
 # Optional suffix when the cost also exiles an EX Resource (e.g. Destiny
 # Gundam's own attack-boost cost).
 _RESTED_RESOURCES_RE = re.compile(r"^Rested \d+ Resources?(?: \(Exiled \d+ Resource EX\))?$")
+# A plain (non-EX) Resource, distinct from _RESOURCE_EX_RE above (e.g. Duo
+# Maxwell's own cost paid as "Rested resource placed" / "Placed N
+# Resource").
+_RESTED_RESOURCE_PLACED_RE = re.compile(r"^Rested resource placed$")
+_PLACED_RESOURCE_RE = re.compile(r"^Placed \d+ Resource$")
+# A During-Link/Activate effect that would set a Resource active but has
+# none available (e.g. Suletta Mercury), or an Activate ability that
+# whiffs entirely for lack of a legal target (e.g. Cyclone Punch).
+_NO_RESOURCES_ACTIVE_RE = re.compile(r"^.+?: no resources to set as active$")
+_CANNOT_ACTIVATE_RE = re.compile(r"^Cannot activate .+?: No available targets$")
+# "Activated <card>: <effect summary>" all on one line (e.g. Zaku I Sniper
+# Type Support), distinct from the two-part "Activated: <card>" form
+# handled by _ACTIVATED_RE (no name before the colon there).
+_ACTIVATED_EFFECT_RE = re.compile(r"^Activated (.+?): .+$")
 # A unit/pilot ability redirecting an in-progress attack to itself or
 # another unit (e.g. Guel Jeturk's action card).
 _ATTACK_TARGET_CHANGED_RE = re.compile(r"^.+?: attack target changed$")
 _NO_TARGETS_RE = re.compile(r"^No targets for .+$")
 _DAMAGE_PREVENTED_RE = re.compile(r"^Damage prevented$")
+# "Returned to deck bottom/top": the target of this specific effect is
+# never named by the client (unlike most other targeted effects), seen
+# after abilities as varied as Kayra's Re-GZ's own Deploy, Gundam
+# Heavyarms's Deploy, and pilot When-Linked effects (e.g. Amate Yuzuriha
+# (Machu)) - there is no more identity to extract here, just the fact
+# that an unnamed card was bounced.
 _RETURNED_BOTTOM_RE = re.compile(r"^Returned to deck bottom$")
+_RETURNED_TOP_RE = re.compile(r"^Returned to deck top$")
 _NO_MORE_SHIELDS_RE = re.compile(r"^No more Shield cards to add to hand$")
 _GAME_OVER_RE = re.compile(r"^No more shields available, game is over!$")
 _SELECTING_RE = re.compile(r"^Selecting target for .+$")
 _DISCARDED_RE = re.compile(r"^(.+?) discarded$")
+# Reversed word order seen for some discard-cost/effect phrasings (e.g.
+# "Selecting target for discard" / "Discarded Jegan"), distinct from the
+# far more common "<card> discarded" trailing form above.
+_DISCARDED_REVERSED_RE = re.compile(r"^Discarded (.+)$")
+# A shield hit reduced to zero damage (e.g. by a prevention/reduction
+# effect) - the shield itself isn't lost, just a damage-step outcome.
+_SHIELD_ZERO_DAMAGE_RE = re.compile(r"^Shield received 0 damage$")
 
 _NAME_LIST_SPLIT_RE = re.compile(r",\s+|\s+and\s+")
 
@@ -557,6 +591,11 @@ def parse_game_log(text: str) -> dict:
             else:
                 add_effect(ln)
             continue
+        m = _ACTIVATED_EFFECT_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="activated")
+            add_effect(ln)
+            continue
         if (
             _DEALT_RE.match(ln)
             or _DEALT_NOSRC_RE.match(ln)
@@ -570,13 +609,25 @@ def parse_game_log(text: str) -> dict:
             or _RESOURCE_ACTIVE_RE.match(ln)
             or _RESOURCE_EX_RE.match(ln)
             or _RESTED_RESOURCES_RE.match(ln)
+            or _RESTED_RESOURCE_PLACED_RE.match(ln)
+            or _PLACED_RESOURCE_RE.match(ln)
+            or _NO_RESOURCES_ACTIVE_RE.match(ln)
+            or _CANNOT_ACTIVATE_RE.match(ln)
             or _ATTACK_TARGET_CHANGED_RE.match(ln)
             or _NO_TARGETS_RE.match(ln)
             or _DAMAGE_PREVENTED_RE.match(ln)
             or _RETURNED_BOTTOM_RE.match(ln)
+            or _RETURNED_TOP_RE.match(ln)
+            or _SHIELD_ZERO_DAMAGE_RE.match(ln)
             or _NO_MORE_SHIELDS_RE.match(ln)
             or _GAME_OVER_RE.match(ln)
         ):
+            add_effect(ln)
+            continue
+        m = _DISCARDED_REVERSED_RE.match(ln)
+        if m:
+            for name in _split_names(m.group(1)):
+                note_card(name, owner=actor, context="discarded")
             add_effect(ln)
             continue
         m = _DISCARDED_RE.match(ln)

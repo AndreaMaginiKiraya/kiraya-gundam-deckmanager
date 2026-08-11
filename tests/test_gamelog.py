@@ -953,3 +953,72 @@ Game ended!"""
 def test_game_path_rejects_escape():
     with pytest.raises(ValueError):
         data._game_path("../evil")
+
+
+def test_returned_to_deck_top_and_reduced_damage_and_reversed_discard_recognized():
+    # Regression test for four previously-unparsed line shapes, all seen
+    # repeatedly across real imports: "Returned to deck top" (the "bottom"
+    # variant was already handled, "top" wasn't), a "reduced by N" clause
+    # inserted into an otherwise-recognized received-damage line, the
+    # reversed "Discarded <card>" phrasing, and a shield hit fully
+    # absorbed by a reduction effect ("Shield received 0 damage").
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Kayra's Re-GZ deployed
+Selecting target for Kayra's Re-GZ
+Returned to deck top
+Selecting target for discard
+Discarded Jegan
+Battle initiated
+Battle declared: Kayra's Re-GZ against Enemy Player
+B
+No blockers available
+Battle started: Kayra's Re-GZ against Enemy Shield
+Shield received 0 damage
+Battle ended
+B
+Nu Gundam received 5 damage, reduced by 1, leaving 2 HP remaining
+Turn end phase started"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    assert parsed["cards_seen"]["Jegan"]["owners"] == ["A"]
+
+
+def test_resource_and_activate_failure_and_one_line_activated_effect_recognized():
+    # Regression test for five more previously-unparsed line shapes: a
+    # plain (non-EX) Resource cost ("Rested resource placed" / "Placed N
+    # Resource", distinct from the EX-Resource forms already handled), a
+    # During-Link effect with no Resource left to set active (Suletta
+    # Mercury), an Activate ability that whiffs for lack of a legal target
+    # (Cyclone Punch), and the one-line "Activated <card>: <effect>" form
+    # (distinct from the two-part "Activated: <card>" already handled).
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Gundam Deathscythe deployed
+Linked pilot: Duo Maxwell on unit Gundam Deathscythe
+Rested resource placed
+Placed 1 Resource
+Char's Zaku Ⅱ deployed
+Activated Zaku I Sniper Type Support: Zaku Ⅱ gets +1 AP
+Turn end phase started
+B
+Suletta Mercury: no resources to set as active
+Battle initiated
+Battle declared: Gundam Maxter against Enemy Player
+Cannot activate Cyclone Punch: No available targets
+A
+No blockers available
+Battle ended"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    assert parsed["cards_seen"]["Zaku I Sniper Type Support"]["owners"] == ["A"]
