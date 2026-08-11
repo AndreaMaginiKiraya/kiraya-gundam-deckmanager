@@ -1,4 +1,4 @@
-# freedom_ibo_v1_1 — analisi del mazzo (23 partite, 15-8, 65,2%)
+# freedom_ibo_v1_1 — analisi del mazzo (24 partite, 16-8, 66,7%)
 
 `freedom_ibo_v1_1` (Blu/Viola, Tekkadan + Strike Freedom Gundam/Kira Yamato)
 è la seconda iterazione dell'archetipo Freedom/IBO: rispetto a `freedom_ibo`
@@ -10,7 +10,7 @@ Gundam Gusion Rebake, 1 Gundam Flauros (Ryusei-Go), 3 Gundam Barbatos
 Lupus, 3 Strike Freedom Gundam, 4 Mikazuki Augus, 4 Kira Yamato, 2 A Show
 of Resolve, 2 Widespread Annihilation, 4 Axis.
 
-Con **23 partite** il campione resta piccolo, specialmente per singolo
+Con **24 partite** il campione resta piccolo, specialmente per singolo
 archetipo avversario (1-4 partite ciascuno) — le percentuali sotto vanno
 lette come indicazioni preliminari, non conclusioni statistiche solide.
 
@@ -18,21 +18,20 @@ lette come indicazioni preliminari, non conclusioni statistiche solide.
 
 | Split | Partite | Record | Winrate |
 |---|---|---|---|
-| **Totale** | 23 | 15-8 | 65,2% |
-| Primo turno | 7 | 4-3 | 57,1% |
+| **Totale** | 24 | 16-8 | 66,7% |
+| Primo turno | 8 | 5-3 | 62,5% |
 | Secondo turno | 16 | 11-5 | 68,8% |
-| Con mulligan | 10 | 6-4 | 60,0% |
+| Con mulligan | 11 | 7-4 | 63,6% |
 | Senza mulligan | 13 | 9-4 | 69,2% |
-| Primo turno + mulligan | 3 | 2-1 | 66,7% |
+| Primo turno + mulligan | 4 | 3-1 | 75,0% |
 | Primo turno + no mulligan | 4 | 2-2 | 50,0% |
 | Secondo turno + mulligan | 7 | 4-3 | 57,1% |
 | Secondo turno + no mulligan | 9 | 7-2 | 77,8% |
 
-Il calo di winrate con mulligan (60,0% contro 69,2% senza) resta il segnale
-più consistente nella tabella, anche se lo scarto si è ristretto con
-l'ultima partita (vinta nonostante il mulligan). Il campione su "primo
-turno" (7 partite) resta leggermente sotto quello da secondi (57,1% contro
-68,8%) — ancora troppo piccolo per essere conclusivo.
+Il calo di winrate con mulligan (63,6% contro 69,2% senza) si è ristretto
+ulteriormente — resta la direzione attesa ma lo scarto è ormai piccolo. Il
+campione su "primo turno" (8 partite) è tornato quasi in linea con quello
+da secondi (62,5% contro 68,8%).
 
 ## Performance per archetipo avversario
 
@@ -42,13 +41,23 @@ turno" (7 partite) resta leggermente sotto quello da secondi (57,1% contro
 | Toolbox Gundam + Amuro Ray (varianti Nu Gundam/Londo Bell o SEED ibrido) | 4 | 2-2 | 50% |
 | League Militaire (V-Dash Gundam, Victory Gundam, Freedom Gundam, Aile Strike + Kira Yamato) | 4 | 3-1 | 75% |
 | Rimozione diretta pesante + Unicorn Gundam 02 Banshee (Destroy Mode) | 2 | 2-0 | 100% |
-| MF / G Gundam (Master Gundam, Shining Gundam, Domon/Master Asia) | 2 | 1-1 | 50% |
+| MF / G Gundam (Master Gundam, Shining Gundam, Domon/Master Asia) | 3 | 2-1 | 67% |
 | Minerva Squad / Destiny Gundam | 1 | 0-1 | 0% |
 | SEED misto (Gundam + Amuro Ray, Aegis Gundam) | 1 | 1-0 | 100% |
 | Neo Zeon (Sazabi, Zeong, Char Aznable) | 1 | 1-0 | 100% |
 | Mirror parziale Tekkadan | 2 | 1-1 | 50% |
 | Toolbox Celestial Being / 00 Gundam | 1 | 1-0 | 100% |
 | Witch from Mercury / G-Witch control (Gundam Calibarn, Michaelis, Gundam Aerial Rebuild, Quiet Zero + rimozione generica pesante) | 1 | 1-0 | 100% |
+
+**MF/G Gundam sale a 2-1 (67%)**: il confronto diretto fra la vittoria più
+recente e la sconfitta precedente contro lo stesso identico motore
+avversario (Shining Gundam che rimanda Darkness Finger dal trash alla mano
+ripetutamente) è istruttivo — nella vittoria entrambe le Widespread
+Annihilation sono state lanciate pulite (2-per-0 ciascuna) direttamente
+sul motore di recupero avversario, invece di finire perse a scudo o
+spese come costo di abilità. Rispondere presto e bene a Shining Gundam
+prima che accumuli troppi ricicli di Darkness Finger sembra la vera leva
+di questo matchup.
 
 Nessun archetipo visto 3+ volte è più sotto il 50%: il **toolbox Gundam +
 Amuro Ray** è risalito a 2-2 (50%) su 4 partite dopo l'ultima vittoria — il
@@ -94,6 +103,7 @@ ma su una sola partita con una causa strutturale chiara (vedi sotto).
 | 21 | MF / G Gundam | **L** | 1° | No | 20 | 0 / 3 | 12 / 8 | Un pilota appaiato incatena tre ping in un solo turno (t10) prima ancora dell'attacco effettivo, abbattendo due unità e una base; il vero motore avversario è un'unità che rimanda ripetutamente Darkness Finger dal trash alla mano (tre volte, t12/14/18) per un costo di rimozione riciclabile; Gundam Barbatos Lupus attacca un'unità senza Blocker invece del giocatore al t15 e sopravvive a 1 HP invece che a HP piena — quell'unico HP di margine è ciò che rende gratuito il Darkness Finger che lo uccide al t16; Widespread Annihilation persa a uno scudo, mai lanciata |
 | 22 | Toolbox Gundam+Amuro Ray (variante SEED ibrida) | **W** | 2° | No | 25 | 2 / 1 | 8 / 11 | Vittoria netta, 0 shield perse per tutta la partita; entrambe le Widespread Annihilation lanciate bene (3-per-0 al t10, 2-per-0 al t18); combattimento con dati puliti (nessuna stampa compromessa dal quirk di sincronizzazione) conferma che il bonus AP+2/HP+2 spesso osservato quando Strike Freedom Gundam "sceglie sé stesso" viene in realtà dal Link con Kira Yamato, non dalla propria abilità di Deploy (che pesca solo su uccisione, non dà bonus statistiche) |
 | 23 | Witch from Mercury / G-Witch control | **W** | 2° | Sì | 15 | 6 / 3 | 6 / 2 | Vittoria per resa, 0 shield perse nonostante 6 unità perse a una rimozione generica pesante e ricorrente (Improved Technique, Darkness Finger, Close Combat, Overwhelming Pressure — quattro rimozioni diverse in 15 turni); Gundam Barbatos Adapt sopravvive a 1 HP per più turni continuando comunque a colpire; la densità di corpi economici (2x Hyakuren, 3x Graze Custom, 2x Strike Rouge Ootori) esaurisce le risposte avversarie prima che gli scudi vengano mai intaccati |
+| 24 | MF / G Gundam | **W** | 1° | Sì | 17 | 1 / 0 | 8 / 6 | Vittoria per resa contro lo stesso motore Shining Gundam/Darkness Finger visto nella sconfitta precedente contro questo archetipo — stavolta entrambe le Widespread Annihilation (t11, t13) lo colpiscono in pieno con un 2-per-0 pulito ciascuna invece di andare perse; Gundam Barbatos Lupus si attiva 3 volte distinte nel corso della partita generando valore gratuito ogni volta; il mill di Gundam Exia Repair costa comunque Lupus+Adapt dal mazzo al t16, assorbito senza cambiare l'esito |
 
 ## Pattern di gioco osservati
 
