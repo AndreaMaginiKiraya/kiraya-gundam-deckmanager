@@ -107,6 +107,10 @@ _EXILED_RE = re.compile(r"^(.+?) exiled from the game$")
 # Destination captured: bounce-to-deck (Strike Freedom) and return-to-hand
 # (Sazabi's recursion) are opposite mechanics for cross-game analysis.
 _RETURNED_RE = re.compile(r"^(.+?) returned to (hand|deck)$")
+# A "return to deck" effect (e.g. Strike Freedom Gundam's Attack ability)
+# targeting a Unit token instead of a real card: tokens have nowhere to
+# return to, so the client reports this outcome instead.
+_REMOVED_FROM_PLAY_RE = re.compile(r"^(.+?) removed from play$")
 _HEALED_RE = re.compile(r"^Healed \d+ damage to: .+$")
 _REPAIRED_RE = re.compile(r"^.+? repaired \d+ from .+$")
 _RESTED_RE = re.compile(r"^(?:Already rested|Rested) unit: .+$")
@@ -578,6 +582,11 @@ def parse_game_log(text: str) -> dict:
         m = _RETURNED_RE.match(ln)
         if m:
             note_card(m.group(1), owner=actor, context=f"returned to {m.group(2)}")
+            add_effect(ln)
+            continue
+        m = _REMOVED_FROM_PLAY_RE.match(ln)
+        if m:
+            note_card(m.group(1), owner=actor, context="removed from play")
             add_effect(ln)
             continue
         m = _CARD_TO_HAND_RE.match(ln)

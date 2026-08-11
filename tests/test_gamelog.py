@@ -1022,3 +1022,27 @@ Battle ended"""
     parsed = gamelog.parse_game_log(snippet)
     assert parsed["unparsed"] == []
     assert parsed["cards_seen"]["Zaku I Sniper Type Support"]["owners"] == ["A"]
+
+
+def test_removed_from_play_recognized():
+    # Regression test: a "return to deck" effect (Strike Freedom Gundam's
+    # Attack ability) targeting a Unit token instead of a real card has
+    # nowhere to return to, so the client reports "<token> removed from
+    # play" instead - previously unparsed.
+    snippet = """Game started!
+A
+Choose to play first
+B
+Choose to keep starting hand
+Turn 1 started!
+A
+Battle initiated
+Battle declared: Strike Freedom Gundam against Enemy Player
+Selecting target for Strike Freedom Gundam
+B
+Parts removed from play
+No blockers available
+Battle ended"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["unparsed"] == []
+    assert parsed["cards_seen"]["Parts"]["owners"] == ["B"]
