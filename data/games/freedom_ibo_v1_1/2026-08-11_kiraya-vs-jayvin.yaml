@@ -1,0 +1,439 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-11_kiraya-vs-jayvin"
+  date_imported: "2026-08-11"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    JayVin:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+        - "Red"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "JayVin"
+    seen:
+      - "command"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "JayVin"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "JayVin"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Aerial Rebuild":
+    id: "GD04-024"
+    note: "confirmed via ability text: turn 13's 'Selecting target for Gundam Aerial Rebuild / Card added to hand: Gundam Aerial Rebuild' matches GD04-024's 【Deploy】'Look at the top 3 cards of your deck, reveal 1 (Academy) Unit/Command card and add it to hand, return the rest randomly to the bottom' — it found another copy of itself among the top 3. GD01-067's fetch ability is When-Paired (not Deploy) and Command-only; GD02-074 has no fetch ability at all; GD05-026 is an unrelated symmetric deploy-rested effect. None fit."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "JayVin"
+    seen:
+      - "added to hand"
+      - "deployed"
+      - "discarded"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Calibarn":
+    id: "GD05-018"
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 7
+    hp: 5
+    owner: "JayVin"
+    seen:
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "JayVin"
+    seen:
+      - "command"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "printed name is 'M1 Astray Shrike' (no parens); log formatting quirk, not a naming ambiguity — same card as in the other freedom_ibo_v1_1 games."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Michaelis:
+    id: "GD05-030"
+    note: "confirmed via ability text and clean combat math: it deploys and attacks the same turn (turn 7, no Link shown) — matches GD05-030's 'On the turn this Unit is deployed, it may choose a rested enemy Unit as its attack target and attack it' (Graze Custom was rested from its own turn-6 attack). Damage confirms it too: dealt exactly 3 (GD05-030's AP3) and took 2 back, leaving 1 HP (HP3-2=1). GD01-076's trash-count AP/HP buff ability was never observed."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 3
+    owner: "JayVin"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overwhelming Pressure":
+    id: "GD04-109"
+    type: "COMMAND"
+    level: 5
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "JayVin"
+    seen:
+      - "command"
+  "Quiet Zero":
+    id: "GD05-126"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "JayVin"
+    seen:
+      - "base"
+  Rewloola:
+    id: "ST03-015"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "JayVin"
+    seen:
+      - "base"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "JayVin"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "JayVin"
+    actions:
+      - action: "play_command"
+        player: "JayVin"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Calibarn discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "JayVin"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "JayVin"
+    actions:
+      - action: "play_command"
+        player: "JayVin"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 7
+    active_player: "JayVin"
+    actions:
+      - action: "deploy"
+        card: "Michaelis"
+      - action: "attack"
+        player: "JayVin"
+        attacker: "Michaelis"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "JayVin"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to M1 Astray (Shrike), now destroyed"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Michaelis received 2 damage, leaving 1 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Michaelis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 9
+    active_player: "JayVin"
+    actions:
+      - action: "play_base"
+        card: "Rewloola"
+        effects:
+          - "Shield card added to hand"
+          - "Rewloola: Dealt 1 damage to Hyakuren, leaving 2 HP remaining"
+      - action: "play_command"
+        player: "JayVin"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Hyakuren, now destroyed"
+      - action: "play_command"
+        player: "JayVin"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Rewloola received 2 damage, leaving 3 HP remaining"
+  - turn: 11
+    active_player: "JayVin"
+    actions:
+      - action: "play_command"
+        player: "JayVin"
+        card: "Overwhelming Pressure"
+        effects:
+          - "Overwhelming Pressure: Dealt 4 damage to Strike Rouge (Ootori), now destroyed"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Rewloola received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Improved Technique revealed"
+          - "Shield card: Improved Technique moved to trash"
+          - "Improved Technique: Dealt 3 damage to Gundam Barbatos Adapt, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 13
+    active_player: "JayVin"
+    actions:
+      - action: "deploy"
+        card: "Gundam Aerial Rebuild"
+        effects:
+          - "Card added to hand: Gundam Aerial Rebuild"
+      - action: "play_base"
+        card: "Quiet Zero"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "JayVin"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Aerial Rebuild discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Quiet Zero"
+        outcome:
+          - "Quiet Zero received 4 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Aerial Rebuild"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Quiet Zero"
+        outcome:
+          - "Quiet Zero received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 15
+    active_player: "JayVin"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 5
+    - card: "M1 Astray (Shrike)"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Strike Rouge (Ootori)"
+      turn: 11
+  JayVin:
+    - card: "Rewloola"
+      turn: 12
+    - card: "Quiet Zero"
+      turn: 14
+shields_tally:
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+  JayVin:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 1
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - turn: 15
+    note: "Archetype ID: this is a Witch from Mercury (G-Witch) control shell — Gundam Calibarn, Michaelis, Gundam Aerial Rebuild, and the Quiet Zero base are all from that source title, backed by a heavy generic single-target removal suite (Improved Technique, Darkness Finger, Close Combat, Overwhelming Pressure — four different removal spells used across 15 turns) rather than a big-unit beatdown plan. Close cousin of the 'Rimozione diretta pesante' bucket already tracked (Vash, clairfryer) but with a distinct unit core, worth its own tag going forward. Kiraya never lost a single shield the whole game (6 remaining) despite losing 7 units to a genuinely relentless removal package — Gundam Barbatos Adapt survived at 1 HP for several turns and kept chipping away regardless, and the sheer density of cheap Kiraya bodies (2x Hyakuren, 3x Graze Custom, 2x Strike Rouge (Ootori)) simply outlasted JayVin's answers. JayVin conceded turn 15 with an empty board after Quiet Zero (the last base) died."
