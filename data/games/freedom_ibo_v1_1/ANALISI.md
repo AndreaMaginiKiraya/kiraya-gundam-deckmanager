@@ -1,4 +1,4 @@
-# freedom_ibo_v1_1 — analisi del mazzo (18 partite, 12-6, 66,7%)
+# freedom_ibo_v1_1 — analisi del mazzo (19 partite, 12-7, 63,2%)
 
 `freedom_ibo_v1_1` (Blu/Viola, Tekkadan + Strike Freedom Gundam/Kira Yamato)
 è la seconda iterazione dell'archetipo Freedom/IBO: rispetto a `freedom_ibo`
@@ -10,7 +10,7 @@ Gundam Gusion Rebake, 1 Gundam Flauros (Ryusei-Go), 3 Gundam Barbatos
 Lupus, 3 Strike Freedom Gundam, 4 Mikazuki Augus, 4 Kira Yamato, 2 A Show
 of Resolve, 2 Widespread Annihilation, 4 Axis.
 
-Con **18 partite** il campione resta piccolo, specialmente per singolo
+Con **19 partite** il campione resta piccolo, specialmente per singolo
 archetipo avversario (1-4 partite ciascuno) — le percentuali sotto vanno
 lette come indicazioni preliminari, non conclusioni statistiche solide.
 
@@ -18,21 +18,22 @@ lette come indicazioni preliminari, non conclusioni statistiche solide.
 
 | Split | Partite | Record | Winrate |
 |---|---|---|---|
-| **Totale** | 18 | 12-6 | 66,7% |
-| Primo turno | 4 | 3-1 | 75,0% |
+| **Totale** | 19 | 12-7 | 63,2% |
+| Primo turno | 5 | 3-2 | 60,0% |
 | Secondo turno | 14 | 9-5 | 64,3% |
 | Con mulligan | 9 | 5-4 | 55,6% |
-| Senza mulligan | 9 | 7-2 | 77,8% |
+| Senza mulligan | 10 | 7-3 | 70,0% |
 | Primo turno + mulligan | 3 | 2-1 | 66,7% |
-| Primo turno + no mulligan | 1 | 1-0 | 100% |
+| Primo turno + no mulligan | 2 | 1-1 | 50,0% |
 | Secondo turno + mulligan | 6 | 3-3 | 50,0% |
 | Secondo turno + no mulligan | 8 | 6-2 | 75,0% |
 
-Il calo di winrate con mulligan (55,6% contro 77,8% senza) è il segnale più
-consistente nella tabella, e va nella direzione attesa — una mano rifatta
-parte quasi sempre un turno indietro sulla curva. Il campione su "primo
-turno" (solo 4 partite) è troppo piccolo per dire se partire primi sia
-davvero un vantaggio per questo mazzo o solo rumore statistico.
+Il calo di winrate con mulligan (55,6% contro 70,0% senza) resta il segnale
+più consistente nella tabella, e va nella direzione attesa — una mano
+rifatta parte quasi sempre un turno indietro sulla curva. Il campione su
+"primo turno" (5 partite) è ancora troppo piccolo per dire se partire primi
+sia un vantaggio per questo mazzo o solo rumore statistico — il winrate si
+è avvicinato a quello da secondi con l'ultima aggiunta.
 
 ## Performance per archetipo avversario
 
@@ -46,15 +47,19 @@ davvero un vantaggio per questo mazzo o solo rumore statistico.
 | Minerva Squad / Destiny Gundam | 1 | 0-1 | 0% |
 | SEED misto (Gundam + Amuro Ray, Aegis Gundam) | 1 | 1-0 | 100% |
 | Neo Zeon (Sazabi, Zeong, Char Aznable) | 1 | 1-0 | 100% |
-| Mirror parziale Tekkadan | 1 | 1-0 | 100% |
+| Mirror parziale Tekkadan | 2 | 1-1 | 50% |
 | Toolbox Celestial Being / 00 Gundam | 1 | 1-0 | 100% |
 
-Due archetipi meritano attenzione perché sotto il 50%: il **toolbox Gundam
-+ Amuro Ray/Nu Gundam** (1-2, l'unico archetipo visto 3+ volte a essere
-sotto il 50%) e **Minerva Squad/Destiny** (0-1, campione di una sola
-partita ma con una causa strutturale chiara, vedi sotto). Il toolbox
-SEED/Orb è esattamente al 50% su 4 partite — troppo poco per dire se sia
-un matchup sfavorevole o solo varianza.
+Tre archetipi sono al 50% o sotto: il **toolbox Gundam + Amuro Ray/Nu
+Gundam** (1-2, l'unico visto 3+ volte a stare sotto il 50%), **Minerva
+Squad/Destiny** (0-1, campione di una sola partita ma con una causa
+strutturale chiara, vedi sotto) e il **mirror parziale Tekkadan** (1-1 su
+2 partite — quando l'avversario gioca lo stesso nucleo di carte, l'esito
+sembra dipendere più da quante copie dei pezzi motore condivisi (Gundam
+Barbatos Lupus, Strike Freedom Gundam) ciascun giocatore pesca che da un
+vantaggio strutturale del mazzo). Il toolbox SEED/Orb è esattamente al 50%
+su 4 partite — troppo poco per dire se sia un matchup sfavorevole o solo
+varianza.
 
 ## Tabella partite
 
@@ -78,6 +83,7 @@ un matchup sfavorevole o solo varianza.
 | 16 | League Militaire | **W** | 1° | Sì | 29 | 0 / 0 | 11 / 14 + 4 | Vera guerra a specchio su Strike Freedom Gundam, risolta simmetricamente dopo diversi turni di bounce reciproci sull'unità appaiata al pilota |
 | 17 | Toolbox Celestial Being/00 Gundam | **W** | 2° | No | 24 | 0 / 0 | 10 / 8 + 1 | Widespread Annihilation pulisce l'intero campo nemico; rimonta di logoramento vera — sia Strike Freedom Gundam che Gundam Barbatos Lupus a un soffio dalla morte, vinta perché l'avversario resta completamente a secco di risorse |
 | 18 | Toolbox Gundam+Amuro Ray/Nu Gundam | **L** | 1° | Sì | 16 | 0 / 3 | 9 / 7 | Entrambe le copie di Strike Rouge (Ootori) perse a scudo per varianza pura; un pilota avversario riposa un Blocker di Kiraya con la propria abilità prima ancora della dichiarazione d'attacco, disinnescandolo senza combattimento; tre attaccanti sbloccati chiudono la partita una volta morti entrambi i Blocker |
+| 19 | Mirror parziale Tekkadan | **L** | 1° | No | 26 | 0 / 1 | 9 / 7 | Il mill-on-death di Gundam Exia Repair innesca sul proprio ping da 1 danno e costa una copia di Widespread Annihilation dal mazzo al t6; un pilota avversario appaiato concede High-Maneuver e distrugge una base senza possibilità di blocco al t12; nel corso della partita l'avversario dispiega Gundam Barbatos Lupus e Strike Freedom Gundam tre volte ciascuno contro una sola linea di ciascuno lato Kiraya — nel mirror, la profondità di pesca sui pezzi motore condivisi sembra pesare più di ogni sequenza di gioco |
 
 ## Pattern di gioco osservati
 
@@ -100,7 +106,7 @@ valore ripetuto in un turno senza consumare risorse aggiuntive dalla mano.
 
 **Il pacchetto Blocker (Gundam Gusion Rebake x4, Strike Rouge Ootori x3 —
 7 carte su 50, 14% del mazzo) mostra una correlazione con l'esito della
-partita.** Nelle sconfitte #5, #8, #12, #15 e #18, entrambe le carte
+partita.** Nelle sconfitte #5, #8, #12, #15, #18 e #19, entrambe le carte
 Blocker risultano morte (per varianza da scudo, rimozione avversaria o
 combattimento forzato) diversi turni prima della fine, lasciando il resto
 della partita senza possibilità difensive — coerente col fatto che quasi
@@ -112,12 +118,14 @@ inevitabile (rimozione o combattimento forzato) — ma il pattern si ripete
 abbastanza da meritare attenzione.
 
 **Il mill-on-death di Gundam Exia Repair è un rischio reale, non solo un
-bonus.** In almeno due partite (#3 e una partita di rimozione pesante) il
-mill ha colpito una copia di Strike Freedom Gundam o Gundam Barbatos
-Lupus, sottraendola alla mano prima ancora di poterla giocare. È un
-effetto simmetrico intrinseco alla carta: nessuna sequenza di gioco lo
-previene, va semplicemente contato come parte del costo atteso di
-includerla.
+bonus.** In almeno tre partite (#3, una partita di rimozione pesante, e
+#19) il mill ha colpito una copia di Strike Freedom Gundam, Gundam
+Barbatos Lupus o Widespread Annihilation, sottraendola al mazzo/alla mano
+prima ancora di poterla giocare — in #19 il trigger è arrivato dal ping da
+1 danno dell'unità stessa (HP1, muore al primo colpo qualunque), non da
+un combattimento. È un effetto intrinseco alla carta: nessuna sequenza di
+gioco lo previene, va semplicemente contato come parte del costo atteso
+di includerla.
 
 **Le partite contro avversari che giocano a loro volta Strike Freedom
 Gundam tendono a diventare guerre a specchio simmetriche** (partite #9,
@@ -126,7 +134,12 @@ pilota, scambi di danno che lasciano entrambe le copie a pochi HP. In
 questi casi il mazzo non mostra un vantaggio strutturale chiaro nello
 scambio diretto: le partite si decidono più sulla profondità delle
 risorse residue (chi resta senza scudi o senza carte prima) che sulla
-qualità del singolo scambio.
+qualità del singolo scambio. **Nel mirror pieno contro lo stesso nucleo
+Tekkadan (partita #19)**, lo stesso principio si applica anche a Gundam
+Barbatos Lupus: l'esito è sembrato deciso più da quante copie di
+Lupus/Strike Freedom Gundam ciascun lato riusciva a dispiegare nel corso
+della partita (3 a testa per l'avversario contro una singola linea per
+Kiraya) che da una singola decisione di gioco.
 
 ## Matchup difficili
 
@@ -147,6 +160,14 @@ qualità del singolo scambio.
   attivazione dedicata di Gundam Barbatos Lupus per essere rimossa in un
   solo turno — un costo di risorse sproporzionato per una singola unità
   di fascia media.
+- **Coppie pilota-unità che concedono High-Maneuver** (partita #19, un
+  pilota appaiato a Hyakuren rende l'attacco non bloccabile e distrugge
+  una base senza contromossa possibile): lo stesso buco strutturale già
+  documentato per `aggro_tekkadan_mono_v1_1` — nessuna carta nel mazzo
+  attuale risponde a un attacco che salta la fase di blocco per regola,
+  a differenza delle minacce imbloccabili "sempre" come Destiny Gundam.
+  Ancora una sola conferma diretta in questo campione, ma il meccanismo è
+  identico a quello già visto ripetutamente con l'altro mazzo.
 
 ## Punti di miglioramento
 
@@ -171,11 +192,13 @@ qualità del singolo scambio.
   senza alcun Blocker per la seconda metà della partita. Aumentare le
   copie di Strike Rouge (Ootori)/Gundam Gusion Rebake o aggiungere una
   terza fonte di Blocker sono le due leve dirette.
-- Il matchup contro minacce strutturalmente imbloccabili (High-Maneuver o
-  equivalenti, viste nel matchup Minerva Squad/Destiny) resta scoperto:
-  nessuna carta nel mazzo attuale risponde a un'unità che non può mai
-  essere bloccata. Vale la pena valutare un inserimento dedicato se
-  questo archetipo si conferma ricorrente nel meta locale.
+- Il matchup contro minacce strutturalmente imbloccabili resta scoperto,
+  sia nella forma "sempre imbloccabile" (Minerva Squad/Destiny) sia in
+  quella condizionale via High-Maneuver concesso da un pilota appaiato
+  (partita #19): nessuna carta nel mazzo attuale risponde a un attacco
+  che salta la fase di blocco. Vale la pena valutare un inserimento
+  dedicato se questo tipo di minaccia si conferma ricorrente nel meta
+  locale.
 - Il rischio del mill-on-death di Gundam Exia Repair (colpire le proprie
   copie di Strike Freedom Gundam/Gundam Barbatos Lupus) è strutturale alla
   carta, non evitabile in gioco — da tenere presente come parte del costo
