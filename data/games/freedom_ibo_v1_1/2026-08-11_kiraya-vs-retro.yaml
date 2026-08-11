@@ -1,0 +1,466 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-11_kiraya-vs-retro"
+  date_imported: "2026-08-11"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "loss:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    retro:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "retro"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "confirmed via ability text: turn 7's attack shows 'Gundam Barbatos 1st Form: Draw a card' right after it took 1 damage that same turn from Gundam Barbatos Adapt's own Deploy ping — matches GD02-054's 【Attack】'If this Unit is damaged, draw 1' exactly (also matches the saved deck for Kiraya's own copies). ST10-008 has an unrelated Deploy-Development ability, never observed."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "retro"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "retro"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "confirmed for both owners via ability text: every 'Activated: Gundam Barbatos Lupus' instance exiles 3 trash Unit cards then deals 2 damage to a Unit — matches GD03-050's 【Activate・Main】exactly. GD05-059 has an unrelated Attack-triggered ability, never observed."
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner:
+      - "Kiraya"
+      - "retro"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "retro"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "confirmed for both owners via the same Deploy ping ('1 of your units and 1 enemy unit, 1 damage each'): Kiraya's turn-10 copy hits 'Gundam Gusion Rebake and Gundam Barbatos 1st Form', retro's turn-11 copy hits 'Gundam Gusion Rebake and Strike Rouge (Ootori)' — both match GD02-055's 【Deploy】ability exactly. ST05-005 has an unrelated Destroyed-triggered rest ability, never observed."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner:
+      - "Kiraya"
+      - "retro"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "printed name is 'M1 Astray Shrike' (no parens); log formatting quirk, not a naming ambiguity — same card as in the other freedom_ibo_v1_1 games."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "retro"
+    seen:
+      - "pilot"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "retro"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "milled"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "retro"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "retro"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "retro"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 5
+    active_player: "retro"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "retro"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Strike Rouge (Ootori) and Hyakuren moved to trash"
+      - action: "attack"
+        player: "retro"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 9
+    active_player: "retro"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "retro"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 7 damage, now destroyed"
+      - action: "attack"
+        player: "retro"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "attack"
+        player: "retro"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 1 HP remaining"
+          - "Gundam Barbatos Adapt received 3 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "retro"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos 1st Form"
+  - turn: 11
+    active_player: "retro"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "retro"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 3 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "retro"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "retro"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Ryusei-Go (Graze Custom Ⅱ) discarded"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Gundam Flauros (Ryusei-Go)"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Hyakuren and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 2 damage, leaving 3 HP remaining"
+  - turn: 13
+    active_player: "retro"
+    actions:
+      - action: "attack"
+        player: "retro"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Ryusei-Go (Graze Custom Ⅱ) and Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Flauros (Ryusei-Go) and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Lupus, now destroyed"
+      - action: "attack"
+        player: "retro"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 7
+      inferred: true
+    - card: "Axis"
+      turn: 9
+  retro:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 12
+  unattributed:
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Barbatos Lupus"
+      turn: 13
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+  retro:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+study_notes:
+  - turn: 7
+    note: "Bad variance, not a misplay: Gundam Exia Repair's HP1 means retro's own Barbatos Adapt Deploy ping (1 damage, an opponent action) kills it outright, milling Strike Rouge (Ootori) and Hyakuren straight out of Kiraya's deck before either was ever drawable — the same structural risk flagged elsewhere this session for this card."
+  - turn: 9
+    note: "Genuinely strong, well-sequenced opponent turn: Gundam Flauros (Ryusei-Go) debuts paired with Mikazuki Augus (AP boosted to 7) and destroys Axis unopposed, then two more attacks land — but the real damage here is variance, not the attacks themselves: Gundam Barbatos Adapt and Strike Freedom Gundam (Kiraya's premier bomb, never even played this game) are both lost straight to shield reveals in the same turn. Blocking Gundam Barbatos Adapt (survivable, AP2) with Strike Rouge (Ootori) rather than the unsurvivable Flauros (AP7) was the correct call given only one Blocker was available for three attacks."
+  - turn: 11
+    note: "More of the same pattern: retro's second Gundam Gusion Rebake pings Strike Rouge (Ootori) (already chipped) dead for free, and two more unblocked attacks put two separate Hyakuren copies onto the shield-discard pile. Five real cards lost to shield reveals across the game by this point (Gundam Barbatos Adapt, Strike Freedom Gundam, 2x Hyakuren, and later a Gundam Barbatos Lupus copy at turn 13) — a genuinely unlucky spread, and the single biggest factor in this loss."
+  - turn: 12
+    note: "Kiraya's best turn of the game: Gundam Barbatos Lupus's Link-ping kills the already-wounded Gundam Flauros (Ryusei-Go) outright, its Activate-Main ability kills Graze Custom for free, and the follow-up attack kills Gundam Barbatos Adapt — a clean 3-for-0 with Lupus surviving at 3 HP. Excellent recovery, but it came after the EX Base, Axis, and five cards already lost to shields/mill — too large a deficit to fully close in one turn."
+  - turn: 13
+    note: "Closing turn: with both of Kiraya's Blocker-capable units (Strike Rouge (Ootori), Gundam Gusion Rebake) already dead, a freshly-deployed and Linked retro Gundam Barbatos Lupus attacks completely unopposed for the final blow. Overall read: no clear tactical misplay found under review — the turn-9 blocking decision was correct, turn 10's quiet turn had no real attackers worth committing (M1 Astray Shrike's AP1 wasn't going to change anything), and turn 12 was genuinely excellent. This loss traces to a real run of bad luck (Exia Repair's ping-death mill plus five separate cards lost to shield reveals, including the one Strike Freedom Gundam copy that never got played) compounding a mirror matchup where retro's early curve (turns 7-11) simply generated more value than Kiraya's did in the same window."
