@@ -205,16 +205,45 @@ reconnect needed for those.)
   `<base name> (<Pilot>'s Unit)` or `<base name> (<Pilot> Unit)` once a
   Pilot's Link condition is met, instead of the actual printed name
   (e.g. `Murasame (Andrew Waldfeld Unit)` is really "Waldfeld's Murasame",
-  and `Strike Rouge (Kira's Unit)` is really "Kira's Strike Rouge") — seen
-  in `data/games/aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-robotech.yaml`.
-  `import_game_log` reports these as `cards_not_found` since the display
-  name doesn't match any printed name; resolve them by hand from the
-  paired Pilot's name in the preceding `Linked pilot:` line (search
-  `search_cards` for the base name and check which printing's `link`
-  field names that Pilot). Not (yet) worth a general parser heuristic —
-  only two examples observed so far, and blindly stripping the
-  parenthetical would misfire on real printed names like
-  `Strike Rouge (Ootori)`.
+  and `Strike Rouge (Kira's Unit)` is really "Kira's Strike Rouge") — first
+  seen in `data/games/aggro_tekkadan_mono_v1_1/2026-07-17_kiraya-vs-robotech.yaml`,
+  since confirmed repeatedly across many `freedom_ibo_v1_1` records (both
+  units recur under multiple opponents). `import_game_log` reports these as
+  `cards_not_found` since the display name doesn't match any printed name;
+  resolve them by hand from the paired Pilot's name in the preceding
+  `Linked pilot:` line (search `search_cards` for the base name and check
+  which printing's `link` field names that Pilot). Still not worth a
+  general parser heuristic — blindly stripping the parenthetical would
+  misfire on real printed names like `Strike Rouge (Ootori)` — but the
+  two known cases (Murasame/Waldfeld, Strike Rouge/Kira Yamato) are common
+  enough to check for by name first before treating a `cards_not_found`
+  entry as a genuinely new card.
+- **The same card name can resolve to different ids depending on how it's
+  used in that instance, not just on who owns it**: a single player can
+  run multiple printings of one name in the same deck, distinguishable
+  only by which ability fires in a given instance — e.g. Kira Yamato resolves to `GD05-081` when a
+  Link triggers a draw ("Kira Yamato: Draw a card") but `ST04-010` when an
+  Attack applies an AP-2 modifier instead; Amuro Ray resolves to
+  `GD05-085` when a kill triggers a 2-HP heal but `ST01-010` when a
+  pairing rests an enemy Unit; Nu Gundam's Deploy-ability instance
+  (`GD05-020`, "place 1 EX Resource") is distinct from its AP/HP-math
+  instance (`GD05-017`). When `import_game_log` reports one ambiguous
+  name with multiple instances in the same record, check each instance's
+  triggered ability separately before assuming they're all the same
+  printing — the YAML schema only holds one `id` per card name, so pin
+  the better-evidenced instance and document the split by turn number in
+  the `note` field.
+- **Blocker capability isn't always marked with the literal `<Blocker>`
+  tag in `effect` text**: some printings carry only the plain reminder
+  text (`"(Rest this Unit to change the attack target to it.)"`) with no
+  `<Blocker>` keyword prefix at all, but function identically in games —
+  e.g. `GD05-005` Strike Rouge (Ootori) and `GD04-016` Zoloat (League
+  Militaire) both block regularly despite no `<Blocker>` substring in
+  their `effect` field (contrast `GD02-055` Gundam Gusion Rebake, which
+  does carry the explicit tag). When assessing whether a deck has
+  Blocker-capable units — for deck analysis or study notes — grep for the
+  reminder-text pattern too, not just the `<Blocker>` tag, or a real
+  Blocker card will be missed.
 
 ### Deck legality rules (`validate_deck_impl`)
 
