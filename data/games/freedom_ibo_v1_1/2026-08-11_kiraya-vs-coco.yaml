@@ -1,0 +1,769 @@
+game:
+  id: "freedom_ibo_v1_1/2026-08-11_kiraya-vs-coco"
+  date_imported: "2026-08-11"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_1"
+    Coco:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Green"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Kiraya"
+    seen:
+      - "command"
+      - "shield"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Char Aznable":
+    id: "ST03-011"
+    note: "confirmed via combat math: turn 17 Zeong (base AP4) attacked and dealt 6 damage to Gundam Barbatos Lupus. ST03-011 grants +1/+1 as a flat pairing modifier plus 【Attack】'this Unit gets AP+1' conditionally — 4 (base) + 1 (pair) + 1 (attack trigger) = 6, an exact match. GD05-093 has no Attack-trigger AP text at all (only a When-Linked Base-recursion ability) and would need an unverifiable +2 flat pairing modifier to reach the same total, so ST03-011 is the cleaner, fully-explained fit."
+    type: "PILOT"
+    ap: 1
+    hp: 1
+    owner: "Coco"
+    seen:
+      - "pilot"
+      - "shield"
+  "Char's Zaku Ⅱ":
+    id: "ST03-006"
+    note: "confirmed via ability text: turn 10's 'Selecting target for Char's Zaku Ⅱ / Card added to hand: Char's Zaku Ⅱ' matches ST03-006's 【Destroyed】'look at top 3, may reveal 1 Zeon/Neo Zeon Unit card and add it to hand' exactly. GD01-026's Destroyed ability deploys a rested token instead, ruled out."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Coco"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  Falmel:
+    id: "ST03-016"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "Coco"
+    seen:
+      - "base"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "confirmed via ability text: 【Attack】'If this Unit is damaged, draw 1' matches the 'Gundam Barbatos 1st Form: Draw a card' lines at Kiraya's turn 6 and Coco's turn 9/11, both immediately after the unit was already damaged by Mikazuki Augus's own pairing ping. ST10-008 has no such trigger, ruled out."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner:
+      - "Coco"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Coco"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_1'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "display-name quirk, not a real ambiguity: the printed card name is 'M1 Astray Shrike' with no parentheses — this is the only printing."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Coco"
+      - "Kiraya"
+    seen:
+      - "pilot"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Coco"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Wire-Guided Arm":
+    id: null
+    note: "documented token, not a real gap: spawned by Zeong (GD04-017)'s own paired/Destroyed abilities, not present as a standalone printed card."
+    owner: "Coco"
+    seen:
+      - "deployed"
+  "Zaku Ⅰ":
+    id: "ST03-007"
+    type: "UNIT"
+    level: 1
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Coco"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "confirmed via ability text: turn 17's 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' matches ST03-008's 【Attack】'This Unit gets AP+2 during this turn' self-buff. GD01-035 has no ability at all, ruled out."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Coco"
+    seen:
+      - "attacker"
+      - "deployed"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "Coco"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zeong (Head)":
+    id: null
+    note: "documented token, not a real gap: spawned by Zeong (GD04-017)'s own paired/Destroyed abilities, not present as a standalone printed card."
+    owner: "Coco"
+    seen:
+      - "deployed"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Coco"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Coco"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅰ"
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "Coco"
+    actions:
+      - action: "attack"
+        player: "Coco"
+        attacker: "Zaku Ⅰ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 1 damage, leaving 2 HP remaining"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 5
+    active_player: "Coco"
+    actions:
+      - action: "deploy"
+        card: "Rick Dom"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Rick Dom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+  - turn: 7
+    active_player: "Coco"
+    actions:
+      - action: "attack"
+        player: "Coco"
+        attacker: "Rick Dom"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+          - "Rick Dom received 5 damage, now destroyed"
+          - "Breach 2: : EX Base received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Zaku Ⅰ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+      - action: "play_base"
+        card: "Falmel"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Rick Dom"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Graze Custom and Char's Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Zaku Ⅰ"
+        blockers: "none"
+        final_target: "Zaku Ⅰ"
+        outcome:
+          - "Zaku Ⅰ received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, now destroyed"
+  - turn: 9
+    active_player: "Coco"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Rick Dom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 3 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Char's Zaku Ⅱ"
+          - "Card added to hand: Char's Zaku Ⅱ"
+  - turn: 11
+    active_player: "Coco"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Axis received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 13
+    active_player: "Coco"
+    actions:
+      - action: "deploy"
+        card: "Zeong"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Gusion Rebake and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 15
+    active_player: "Coco"
+    actions:
+      - action: "deploy"
+        card: "Zeong (Head)"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Zeong received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Zeong (Head), now destroyed"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Falmel"
+        outcome:
+          - "Falmel received 5 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Char Aznable revealed"
+          - "Shield card added to hand: Char Aznable"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 17
+    active_player: "Coco"
+    actions:
+      - action: "attack"
+        player: "Coco"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 2 HP remaining"
+          - "Zaku Ⅱ received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 2 HP remaining"
+          - "Zaku Ⅱ received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Rick Dom"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 3 damage, now destroyed"
+          - "Rick Dom received 3 damage, now destroyed"
+          - "Breach 2 Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Zaku Ⅱ"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 3 damage, now destroyed"
+          - "Zaku Ⅱ received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: A Show of Resolve revealed and discarded"
+      - action: "play_base"
+        card: "Falmel"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zeong"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Zeong"
+        linked: true
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Zeong (Head)"
+      - action: "attack"
+        player: "Coco"
+        attacker: "Zeong"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Zeong received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Char's Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Char's Zaku Ⅱ"
+        outcome:
+          - "Hyakuren and Gundam Barbatos 1st Form discarded"
+          - "Char's Zaku Ⅱ received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, leaving 5 HP remaining"
+          - "Char's Zaku Ⅱ removed from play (second copy on board — Strike Freedom Gundam's [During Pair][Attack] 'discard 2, return 1 enemy Unit with the lowest Lv to the bottom of its owner's deck': the discarded Hyakuren+Gundam Barbatos 1st Form pay the cost, this line is the bounced unit; Mobile Suit Arena logs the bounce as 'removed from play' rather than 'returned to bottom of deck')"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "Zeong (Head)"
+        blockers: "none"
+        final_target: "Zeong (Head)"
+        outcome:
+          - "Zeong (Head) received 1 damage, now destroyed"
+          - "M1 Astray (Shrike) received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+  - turn: 19
+    active_player: "Coco"
+    actions:
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Falmel"
+        outcome:
+          - "Falmel received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Wire-Guided Arm"
+      - action: "play_base"
+        card: "Falmel"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Falmel revealed"
+          - "Shield card added to hand"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Gundam Gusion Rebake"
+      turn: 9
+    - card: "Axis"
+      turn: 11
+    - card: "Strike Rouge (Ootori)"
+      turn: 15
+    - card: "Gundam Gusion Rebake"
+      turn: 17
+    - card: "Strike Rouge (Ootori)"
+      turn: 17
+    - card: "Gundam Barbatos Lupus"
+      turn: 17
+    - card: "M1 Astray (Shrike)"
+      turn: 18
+  Coco:
+    - card: "Rick Dom"
+      turn: 7
+    - card: "Zaku Ⅰ"
+      turn: 8
+    - card: "Zeong"
+      turn: 15
+    - card: "Zeong (Head)"
+      turn: 16
+    - card: "Falmel"
+      turn: 16
+    - card: "Zaku Ⅱ"
+      turn: 17
+    - card: "Zaku Ⅱ"
+      turn: 17
+    - card: "Rick Dom"
+      turn: 17
+    - card: "Zaku Ⅱ"
+      turn: 17
+    - card: "Zeong"
+      turn: 17
+    - card: "Char's Zaku Ⅱ"
+      turn: 18
+    - card: "Zeong (Head)"
+      turn: 18
+    - card: "Falmel"
+      turn: 20
+  unattributed:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Barbatos 1st Form"
+      turn: 14
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 1
+  Coco:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 1
+    shields_to_hand: 4
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Deserved win, but with a genuine mid-game scare: Coco's turn-17 alpha strike (Zaku Ⅱ x3, Char's Zaku Ⅱ, Rick Dom) cost Kiraya three units in one turn (Gundam Gusion Rebake, Strike Rouge (Ootori), Gundam Barbatos Lupus) plus a shield. Gundam Barbatos Lupus fell to a fully-loaded Zeong (base AP4 + Char Aznable's flat +1 pairing modifier + its 【Attack】+1 trigger = 6 damage vs. 5 HP) — an exact 1-for-1 trade, not a misplay."
+  - "Turn 14's Gundam Barbatos Lupus activation (exiling Graze Custom, Gundam Gusion Rebake and Gundam Barbatos Adapt from the trash for 2 damage) is what actually won the game: it picked off Coco's Gundam Barbatos 1st Form for free, denying Coco the same 'if damaged, draw a card' engine Kiraya was also running, and set up the tempo lead that carried into turn 16."
+  - "Turn 16 was the peak of the game: Strike Freedom Gundam deployed choosing itself and Gundam Barbatos Lupus for its Deploy setup, paired immediately with Kira Yamato for a Link draw, then both units attacked — Lupus's kill on Falmel triggered the Deploy draw, and Strike Freedom's own unblocked attack drew a second card off the revealed shield. Three card-advantage events in one turn funded the turn-18 counterpunch."
+  - "Turn 18 was the correct answer to turn 17's swing: Strike Freedom Gundam's paired 【Attack】 ability (discard 2, return 1 enemy Unit with the lowest Lv to the bottom of its owner's deck) stacked with its normal combat damage to remove two separate Char's Zaku Ⅱ copies in a single action — a genuine 2-for-1 that reset Coco's board right after the scariest turn of the game."
+  - "The 20-turn length and the close final shield count (Kiraya 1 remaining vs. Coco 0) reflect how real turn 17's swing was — without the turn-14 Barbatos Lupus pick and the turn-16/18 Strike Freedom Gundam sequence, Coco's Zeon toolbox (Char's Zaku Ⅱ dig-on-Destroyed, Zaku Ⅱ's AP+2 self-buff) had the tools to keep grinding shields down. Nothing here reads as a misplay by Kiraya; the win came from sequencing removal (Lupus) ahead of the payoff turn (Strike Freedom Gundam), not from opponent mistakes."
+unparsed_lines: []
