@@ -1,0 +1,827 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-12_kiraya-vs-yodayo"
+  date_imported: "2026-08-12"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Yodayo"
+  players:
+    Yodayo:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Yodayo"
+    seen:
+      - "command"
+      - "shield"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Yodayo"
+    seen:
+      - "base"
+      - "discarded"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Chibodee Crocket":
+    id: "GD05-121"
+    note: "pilot mode of the COMMAND card 'Cyclone Punch'"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Yodayo"
+    seen:
+      - "pilot"
+  "Cyclone Punch":
+    id: "GD05-121"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Yodayo"
+    seen:
+      - "command"
+      - "discarded"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Yodayo"
+    seen:
+      - "added to hand"
+      - "command"
+      - "exiled"
+      - "returned to hand"
+  "Domon Kasshu":
+    id: "GD05-097"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Yodayo"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  "Gundam Maxter":
+    id: "GD05-069"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Yodayo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Master Asia":
+    id: "GD05-089"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    owner: "Yodayo"
+    seen:
+      - "pilot"
+  "Master Gundam":
+    id: "GD05-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Yodayo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Yodayo"
+    seen:
+      - "command"
+  "Rising Gundam":
+    id: "GD05-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Yodayo"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Shining Finger":
+    id: "GD05-120"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Yodayo"
+    seen:
+      - "command"
+      - "discarded"
+  "Shining Gundam":
+    id: "GD05-066"
+    note: "confirmed via ability text: t19's second deploy shows 'Master Gundam and Gundam Maxter exiled from the game / Darkness Finger returned to hand' matching GD05-066's 【Deploy】'choose 2 (MF) Unit cards from your trash, exile them, add 1 (Special Move) Command from trash to hand' exactly, and the same turn's 'Shining Gundam: 1 resource set as active' matches its 【Attack】'choose 1 rested Resource, set it as active' — the same recurring engine already documented for this archetype (see yui523/ame games). GD05-042 has no abilities at all, ruled out."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Yodayo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+setup:
+  - player: "Yodayo"
+    action: "choose_first_player"
+  - player: "Yodayo"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Yodayo"
+    actions:
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Airframe Seizure"
+        effects:
+          - "Argama discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "Yodayo"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions: []
+  - turn: 5
+    active_player: "Yodayo"
+    actions: []
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 7
+    active_player: "Yodayo"
+    actions:
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Shining Finger"
+        effects:
+          - "Rested unit: Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Maxter"
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: Strike Rouge (Ootori)"
+      - action: "pair_pilot"
+        pilot: "Chibodee Crocket"
+        unit: "Gundam Maxter"
+        linked: true
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Gundam Maxter"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Gundam Maxter received 0 damage, leaving 3 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 9
+    active_player: "Yodayo"
+    actions:
+      - action: "deploy"
+        card: "Rising Gundam"
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Cyclone Punch"
+        effects:
+          - "Cyclone Punch: Modifier applied to: Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Chibodee Crocket"
+        unit: "Rising Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        modifiers:
+          - "Cyclone Punch: Modifier applied to: Gundam Flauros (Ryusei-Go)"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 4 damage, now destroyed"
+          - "Gundam Maxter received 1 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Rising Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Shining Gundam"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Gundam Maxter, Rising Gundam and Shining Gundam"
+  - turn: 11
+    active_player: "Yodayo"
+    actions: []
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 13
+    active_player: "Yodayo"
+    actions:
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+          - "Darkness Finger: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Master Gundam"
+        linked: true
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Master Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Master Gundam: Dealt 2 damage to Graze Custom, now destroyed"
+          - "Axis received 7 damage, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Master Gundam"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Master Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Master Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Master Gundam"
+        blockers: "none"
+        final_target: "Master Gundam"
+        outcome:
+          - "Master Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+  - turn: 15
+    active_player: "Yodayo"
+    actions:
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Airframe Seizure"
+        effects:
+          - "Gundam Maxter discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 17
+    active_player: "Yodayo"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Shining Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Airframe Seizure revealed and discarded"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Barbatos 1st Form"
+        linked: false
+  - turn: 19
+    active_player: "Yodayo"
+    actions:
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Domon Kasshu discarded"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: false
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Shining Finger discarded"
+          - "Rested unit: Gundam Barbatos 1st Form"
+          - "Shining Finger: Modifier applied to: Shining Gundam"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Shining Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Gundam Gusion Rebake"
+        action_step:
+          - action: "play_command"
+            player: "Yodayo"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Gundam Gusion Rebake, leaving 3 HP remaining"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Damage prevented"
+          - "Shining Gundam received 0 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Master Gundam and Gundam Maxter exiled from the game"
+          - "Darkness Finger returned to hand"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Shining Finger discarded"
+          - "Already rested unit: Gundam Barbatos 1st Form"
+          - "Shining Finger: Modifier applied to: Shining Gundam"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Shining Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Gundam Barbatos 1st Form received 5 damage, now destroyed"
+          - "Damage prevented"
+          - "Shining Gundam received 0 damage, leaving 5 HP remaining"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Shining Gundam"
+        blockers: "none"
+        final_target: "Shining Gundam"
+        outcome:
+          - "Shining Gundam received 3 damage, now destroyed"
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+  - turn: 21
+    active_player: "Yodayo"
+    actions:
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Maxter"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos 1st Form and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Shining Gundam, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Flauros (Ryusei-Go), Graze Custom and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Shining Gundam, leaving 1 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Shining Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shining Gundam revealed and discarded"
+  - turn: 23
+    active_player: "Yodayo"
+    actions:
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus, leaving 3 HP remaining"
+          - "Darkness Finger: Draw a card"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Gundam Maxter"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 3 damage, now destroyed"
+          - "Gundam Maxter received 7 damage, now destroyed"
+          - "Card added to hand: Darkness Finger"
+      - action: "deploy"
+        card: "Shining Gundam"
+  - turn: 24
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Darkness Finger: Draw a card"
+          - "Gundam Exia Repair milled 2: Strike Freedom Gundam and Gundam Barbatos Adapt moved to trash"
+  - turn: 25
+    active_player: "Yodayo"
+    actions:
+      - action: "play_command"
+        player: "Yodayo"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Cyclone Punch discarded"
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, leaving 4 HP remaining"
+      - action: "deploy"
+        card: "Gundam Maxter"
+  - turn: 26
+    active_player: "Kiraya"
+    actions: []
+  - turn: 27
+    active_player: "Yodayo"
+    actions:
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Master Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Darkness Finger and Darkness Finger exiled from the game"
+          - "Axis received 5 damage, now destroyed"
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Gundam Maxter"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "deploy"
+        card: "Rising Gundam"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Rising Gundam"
+        linked: true
+        effects:
+          - "No targets for Rising Gundam"
+      - action: "attack"
+        player: "Yodayo"
+        attacker: "Rising Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Yodayo:
+    - card: "Master Gundam"
+      turn: 14
+    - card: "Shining Gundam"
+      turn: 20
+    - card: "Gundam Maxter"
+      turn: 23
+  Kiraya:
+    - card: "Strike Rouge (Ootori)"
+      turn: 7
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Axis"
+      turn: 13
+    - card: "Gundam Barbatos Adapt"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 19
+    - card: "Gundam Barbatos 1st Form"
+      turn: 19
+    - card: "Gundam Gusion Rebake"
+      turn: 20
+    - card: "Gundam Barbatos Lupus"
+      turn: 23
+    - card: "Gundam Exia Repair"
+      turn: 24
+    - card: "Axis"
+      turn: 27
+  unattributed:
+    - card: "Gundam Maxter, Rising Gundam and Shining Gundam"
+      turn: 10
+shields_tally:
+  Yodayo:
+    ex_base: "destroyed (turn 16)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 3
+  Kiraya:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "The 'bad draw' read checks out: turns 1-5 show zero Kiraya actions (nothing playable), and the first two units deployed (Strike Rouge (Ootori) t6, Gundam Flauros (Ryusei-Go) t8) were each neutralized alone, one per turn, before a second body ever hit the board — consistent with a hand clogged with unlinkable Pilots (Kira Yamato/Mikazuki Augus with no matching Unit in hand yet) rather than a sequencing choice. t18's Kira Yamato pairing onto Gundam Barbatos 1st Form (its actual Link partner is Strike Freedom Gundam) is a visible example — a 'better than nothing' pairing that gets none of its real ability, exactly the kind of dead-pilot problem you flagged."
+  - "New matchup detail worth remembering: Cyclone Punch/Chibodee Crocket (GD05-121) can stack a DOUBLE AP-2 — once from its Main-phase Command use, again from its own Attack trigger once paired as a Pilot from the trash — which is how Gundam Maxter dealt exactly 0 damage back at t7 (Strike Rouge's AP3 - 4 = 0). Combined with Shining Finger/Rising Gundam pre-emptively resting your only blocker before the attack even starts, this MF toolbox has two independent ways to guarantee a free kill on a lone defender — not something sequencing could have played around with only one unit in play at a time."
+  - "t10's Widespread Annihilation (3-for-0, wiping Gundam Maxter/Rising Gundam/Shining Gundam in one card) and t14's Gusion Rebake+Barbatos Adapt double-ping into a direct Master Gundam kill were both excellent, correctly-timed answers — the game was genuinely close to even after t14, not a one-sided beatdown."
+  - "t19's block (Gundam Gusion Rebake into the first Shining Gundam attack, to save Gundam Barbatos 1st Form) turned out to be a wash — Barbatos 1st Form died anyway to a second, freshly-deployed Shining Gundam later the same turn — but that second copy wasn't visible information at the time the block was assigned, so this reads as bad luck on hidden information, not a foreseeable misplay."
+  - "Gundam Exia Repair's mill claimed Strike Freedom Gundam (plus Gundam Barbatos Adapt) right as the board was already lost at t24 — the same structural risk already flagged in ANALISI.md for this card, landing at the worst possible moment rather than a new finding."
+  - "Net verdict: no clear misplay drove this loss — a slow opening from a Pilot-heavy hand, into a matchup with two independent ways to blank a lone blocker (Cyclone Punch/Chibodee's double debuff, Shining Finger's pre-attack rest) plus the already-known Shining Gundam recursion/Darkness Finger removal engine, is a genuinely tough draw against a genuinely strong archetype. This is the third loss to MF/G Gundam-style decks this campaign; each has featured a different specific engine piece (Yui523: Shining Gundam recursion; this game: Cyclone Punch/Chibodee's stacking debuff) — worth treating as a real, recurring bad matchup rather than three unrelated unlucky games."
