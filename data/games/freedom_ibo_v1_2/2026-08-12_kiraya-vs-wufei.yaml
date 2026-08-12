@@ -1,0 +1,958 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-12_kiraya-vs-wufei"
+  date_imported: "2026-08-12"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Wufei"
+  players:
+    Wufei:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Wufei"
+    seen:
+      - "command"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "confirmed via ability text: t15's pairing with Kira Yamato (Lv.4+) immediately bounces Strike Rouge (Ootori) — HP4 — to hand, matching ST04-001's 【When Paired・Lv.4 or Higher Pilot】'choose 1 enemy Unit with 4 or less HP, return it to its owner's hand' exactly. GD03-072's ability is an unrelated Deploy draw/discard, ruled out. t19 combat math (AP6 dealt, HP5 total surviving 3 damage at '2 remaining') also matches ST04-001's base AP4/HP4 plus ST04-010 Kira Yamato's own +2/+1 pairing modifier."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Wufei"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "Wufei"
+    seen:
+      - "base"
+      - "discarded"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Freedom Gundam":
+    id: "GD01-065"
+    note: "confirmed via ability text: t21's 'Freedom Gundam: Modifier applied to: Strike Freedom Gundam', fired the instant Kira Yamato was paired, matches GD01-065's unique 【During Pair】【Once per Turn】'When you pair a Pilot with this Unit or one of your white Units, choose 1 enemy Unit, it gets AP-2 during this turn' exactly — neither GD03-070 (a passive shield-protection effect) nor ST09-004 (a passive Breach-doubling effect) has any pair-triggered debuff. Combat math corroborates: dealt 6 damage (base AP4 + Kira Yamato's true +2 modifier, the same value already confirmed for Kira Yamato elsewhere this session) and had a total HP of 8 before taking 5 ('leaving 3 remaining'), matching base HP6 + the same +2 modifier."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 4
+    hp: 6
+    owner: "Wufei"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "Wufei"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Exia Repair and Kira Yamato":
+    id: null
+    note: "parser artifact, not a real card: t24's Graceful Demeanor (GD04-117) targets 'Choose 1 to 2 enemy Units that are Lv.3 or lower' — it bounced Gundam Exia Repair (Lv.2) alone, and its paired pilot Kira Yamato came back to hand as a standard rules consequence of the Unit leaving play, not as a separate Graceful Demeanor target."
+    owner: "Kiraya"
+    seen:
+      - "returned to hand"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Wufei"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Kira Yamato":
+    id: "GD05-081"
+    candidates:
+      - "GD05-081"
+      - "ST04-010"
+    note: "genuinely two different printings in play, can't be captured by a single id (see CLAUDE.md's 'same card name resolves to different ids' quirk). Kiraya's own copies (t18 pairing w/ Strike Freedom Gundam: 'Kira Yamato: Draw a card'; t24 pairing w/ Gundam Exia Repair, no trigger since not an Orb/Triple Ship Alliance Unit) are GD05-081, matching the saved deck. Wufei ALSO runs Kira Yamato, but a different printing turns up depending on the instance: t7 (paired w/ Gundam Lfrith) and t19 (paired w/ Aile Strike Gundam) both show 'Kira Yamato: Modifier applied to: <enemy Unit>' immediately confirmed by exact combat math (t7: Hyakuren AP4-2=2 damage dealt back; t19: Gundam Barbatos Lupus AP5-2=3 damage dealt back) — this is ST04-010's 【Attack】'choose 1 enemy Unit, it gets AP-2' exactly, and its own numeric ap:2/hp:1 pairing modifier separately explains Aile Strike Gundam's inflated AP6/HP5 that same turn. Wufei's t21 pairing (w/ Freedom Gundam) instead shows 'Kira Yamato: Draw a card' — GD05-081's own Link trigger, consistent since Freedom Gundam is an (Orb) Unit. Pinned to GD05-081 here since that's Kiraya's own (deck-confirmed) printing; the ST04-010 instances are real but the schema can't hold two ids under one name."
+    type: "PILOT"
+    owner:
+      - "Kiraya"
+      - "Wufei"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Wufei"
+    seen:
+      - "command"
+  Parts:
+    id: null
+    note: "documented token, not a real gap: spawned by Üso Ewin (GD04-081)'s own 'When Paired, deploy 1 Parts token' ability, not by the paired Unit's own ability — not present as a standalone printed card."
+    owner: "Wufei"
+    seen:
+      - "deployed"
+  "Reineforce Jr.":
+    id: "GD04-121"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Wufei"
+    seen:
+      - "base"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Wufei"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "Wufei"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "Wufei"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "returned to hand"
+      - "shield"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "Wufei"
+    seen:
+      - "command"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Wufei"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Victory Gundam":
+    id: "GD04-003"
+    note: "confirmed via ability text: every attack (t9, t13, t15, t17) shows 'Victory Gundam: Draw a card' on declaration, matching GD04-003's 【Attack】'If you have 3 or more (League Militaire) Units in play, draw 1' exactly (Wufei's board was consistently League Militaire-heavy — itself, Parts tokens, Silver Bullet). GD04-011 has no Attack trigger at all (only a Destroyed-token ability), ruled out."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Wufei"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "shield"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Wufei"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Wufei"
+    seen:
+      - "pilot"
+setup:
+  - player: "Wufei"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Wufei"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Wufei"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Wufei"
+    actions:
+      - action: "play_command"
+        player: "Wufei"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Argama discarded"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Wufei"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Wufei"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Hyakuren"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 1 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 7
+    active_player: "Wufei"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Lfrith"
+        linked: false
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Gundam Lfrith"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Hyakuren"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 4 damage, now destroyed"
+          - "Gundam Lfrith received 2 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Graze Custom and Gundam Lfrith"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Lfrith"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Gundam Lfrith"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, leaving 2 HP remaining"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Gundam Lfrith"
+        blockers: "none"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, now destroyed"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Victory Gundam revealed and discarded"
+  - turn: 9
+    active_player: "Wufei"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "Victory Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Victory Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Victory Gundam received 4 damage, leaving 1 HP remaining"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Victory Gundam"
+  - turn: 11
+    active_player: "Wufei"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "deploy"
+        card: "Silver Bullet"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Parts"
+  - turn: 13
+    active_player: "Wufei"
+    actions:
+      - action: "deploy"
+        card: "V-Dash Gundam"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "EX Base received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Reineforce Jr."
+        replaced: "Reineforce Jr."
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Parts"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 15
+    active_player: "Wufei"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Strike Rouge (Ootori) returned to hand"
+      - action: "activate"
+        card: "V-Dash Gundam"
+        effects:
+          - "Rested unit: Parts"
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "V-Dash Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "V-Dash Gundam received 3 damage, leaving 2 HP remaining"
+          - "Breach 3 Shield card: Strike Rouge (Ootori) revealed and discarded"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Gusion Rebake and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Parts, now destroyed"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Graze Custom and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Parts, now destroyed"
+  - turn: 17
+    active_player: "Wufei"
+    actions:
+      - action: "deploy"
+        card: "V-Dash Gundam"
+      - action: "play_command"
+        player: "Wufei"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "activate"
+        card: "V-Dash Gundam"
+        effects:
+          - "Rested unit: V-Dash Gundam"
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "V-Dash Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "V-Dash Gundam received 3 damage, now destroyed"
+          - "Breach 3: : Axis received 3 damage, leaving 3 HP remaining"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "Axis received 3 damage, now destroyed"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Victory Gundam"
+        blockers: "none"
+        final_target: "Victory Gundam"
+        outcome:
+          - "Victory Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 3 damage, leaving 2 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "V-Dash Gundam"
+        blockers: "none"
+        final_target: "V-Dash Gundam"
+        outcome:
+          - "Strike Rouge (Ootori) and Gundam Flauros (Ryusei-Go) discarded"
+          - "Zoloat (League Militaire) returned to deck"
+          - "V-Dash Gundam received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 4 damage, leaving 4 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 19
+    active_player: "Wufei"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Barbatos Adapt returned to hand"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Lupus"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Victory Gundam"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 2 damage, now destroyed"
+          - "Graze Custom received 6 damage, now destroyed"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Zoloat (League Militaire) and Victory Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Reineforce Jr."
+        outcome:
+          - "Gundam Barbatos Adapt and Hyakuren discarded"
+          - "Silver Bullet returned to deck"
+          - "Reineforce Jr. received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Aile Strike Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+  - turn: 21
+    active_player: "Wufei"
+    actions:
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Freedom Gundam"
+        linked: true
+        effects:
+          - "Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Freedom Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 6 damage, now destroyed"
+          - "Freedom Gundam received 5 damage, leaving 3 HP remaining"
+      - action: "play_command"
+        player: "Wufei"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Rick Dias discarded"
+  - turn: 22
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 23
+    active_player: "Wufei"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Freedom Gundam"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Freedom Gundam and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_command"
+        player: "Wufei"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Victory Gundam discarded"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Exia Repair"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 24
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Exia Repair"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Freedom Gundam"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Wufei"
+            card: "Graceful Demeanor"
+            effects:
+              - "Gundam Exia Repair and Kira Yamato returned to hand"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 25
+    active_player: "Wufei"
+    actions:
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Graze Custom revealed and discarded"
+      - action: "deploy"
+        card: "Silver Bullet"
+      - action: "deploy"
+        card: "Rick Dias"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "Silver Bullet"
+        linked: false
+        effects:
+          - "Freedom Gundam: Modifier applied to: Gundam Exia Repair"
+      - action: "attack"
+        player: "Wufei"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Exia Repair"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Wufei:
+    - card: "Gundam Lfrith"
+      turn: 8
+    - card: "Parts"
+      turn: 16
+    - card: "Parts"
+      turn: 16
+    - card: "V-Dash Gundam"
+      turn: 17
+    - card: "Victory Gundam"
+      turn: 18
+    - card: "V-Dash Gundam"
+      turn: 18
+    - card: "Aile Strike Gundam"
+      turn: 20
+    - card: "Reineforce Jr."
+      turn: 20
+    - card: "Aile Strike Gundam"
+      turn: 20
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 15
+    - card: "Gundam Gusion Rebake"
+      turn: 17
+    - card: "Axis"
+      turn: 17
+    - card: "Gundam Barbatos Lupus"
+      turn: 19
+    - card: "Graze Custom"
+      turn: 20
+    - card: "Gundam Barbatos 1st Form"
+      turn: 20
+    - card: "Axis"
+      turn: 23
+  unattributed:
+    - card: "Zoloat (League Militaire) and Victory Gundam"
+      turn: 20
+    - card: "Strike Freedom Gundam"
+      turn: 21
+shields_tally:
+  Wufei:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "destroyed (turn 13)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "A real, evidence-backed misplay found, and it's specifically about Blockers — but not the one you'd guess from 'no blockers available' recurring so much: Gundam Gusion Rebake's own Deploy ability ('choose 1 of your Units and 1 enemy Unit, deal 1 damage to them') was self-targeted on BOTH copies (t10: 'Dealt 1 damage to: Gundam Gusion Rebake and Victory Gundam'; t12: '...and Parts'), even though other, less critical friendly units were on board both times (a Graze Custom, a surviving Gundam Barbatos Adapt). That's optional — the friendly target doesn't have to be itself. Both self-pings dropped Gusion Rebake to exactly 4 HP, which is precisely the threshold Wufei's V-Dash Gundam needs ('choose 1 enemy Unit with 4 or less HP, rest it') to rest it and then kill it outright for free — and that combo landed twice (t15, t17), removing both copies of your only reliable Blocker without you ever getting to choose whether it blocked. Pinging the ping onto Graze Custom/Barbatos Adapt instead both times would have kept Gusion Rebake at full HP5, out of range of that ability entirely."
+  - "Strike Rouge (Ootori)'s HP4 is not something a play decision can fix — it sits exactly on the same 4-or-less threshold, so t15's Aile Strike Gundam pairing (a Lv.4+ Pilot bounces 1 enemy Unit with 4 or less HP to hand) removed it as a blocker option before V-Dash Gundam even acted that turn, with no discretionary choice available to you. Between that and the Gusion Rebake finding above, this matchup specifically punishes a Blocker package that clusters around HP4 — worth flagging as a real deck-vs-matchup weakness, not just this game's variance."
+  - "So 'no blockers available' recurring through the whole back half wasn't really you failing to play around Wufei's Blockers (Wufei barely used any — only Aile Strike Gundam blocked once, at t20) — it was Wufei's kit systematically removing yours before you got a choice. The one avoidable piece of that was the Gusion Rebake self-ping."
+  - "t18's Strike Freedom Gundam attack into V-Dash Gundam is a defensible tradeoff, not a misplay: it killed a real recurring threat (the same rest-then-kill engine that had already cost you Gusion Rebake once, and would again at t17... wait, t17 already happened by t18, so this was killing the copy that had just done it) at the cost of leaving Strike Freedom Gundam at 4 of its 8 effective HP. That exposure is exactly what let Freedom Gundam kill it 3 turns later at t21 — a real cost, but proactively removing a repeatable removal engine is generally the right call; this is the turning point of the game, not a clear error."
+  - "Overall: this was a genuinely tough matchup (SEED/Orb toolbox with a League Militaire removal package layering two separate 'target an enemy Unit with 4 or less HP' effects on top of a Kira Yamato AP-2/pairing-modifier package), not a game lost to sequencing mistakes in the moment — except for the repeated Gusion Rebake self-ping, which is the one concrete, fixable habit here."
