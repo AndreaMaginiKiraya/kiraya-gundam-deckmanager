@@ -1,0 +1,641 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-13_kiraya-vs-repede"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Repede"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+    Repede:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Repede"
+    seen:
+      - "command"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "resolved by hand: 【When Paired・Lv.4 or Higher Pilot】'choose 1 enemy Unit with 4 or less HP, return it to its owner's hand' matches 'Selecting target for Aile Strike Gundam' -> 'Strike Rouge (Ootori) returned to hand' immediately after pairing Kira Yamato (Lv5) at t9 (Strike Rouge Ootori has 4 HP). This makes it Level 5 — important: it was never a legal target for Widespread Annihilation's 'destroy all Units Lv.4 or lower' at t10, regardless of any targeting choice."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Repede"
+    seen:
+      - "attacker"
+      - "deployed"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Freedom Gundam":
+    id: "GD01-065"
+    note: "resolved by hand: 【During Pair】【Once per Turn】'when you pair a Pilot with this Unit or one of your white Units, choose 1 enemy Unit, it gets AP-2 during this turn' matches 'Freedom Gundam: Modifier applied to: Strike Rouge (Ootori)' firing the instant Kira Yamato was paired onto it at t15, before it even attacked."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 4
+    hp: 6
+    owner: "Repede"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Repede"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Kira Yamato":
+    id: "ST04-010"
+    note: "resolved by hand, split by owner: Repede's copy (pinned here, ST04-010 — 【Attack】'choose 1 enemy Unit, it gets AP-2 during this battle') fires repeatedly and is the dominant instance — 'Kira Yamato: Modifier applied to: Strike Rouge (Ootori)' at t13, and twice more at t15 (once per Repede attack), each time preemptively weakening Kiraya's only Blocker-capable unit. Kiraya's own copy, paired onto Strike Rouge (Ootori) at t14 for 'Kira Yamato: Draw a card', is the OTHER printing (GD05-081, 【When Linked】draw if Orb/Triple Ship Alliance) — not reflected in this single id field."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "Repede"
+    seen:
+      - "pilot"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved by hand, same as every prior game this campaign: 'M1 Astray Shrike' (GD05-015)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Repede"
+    seen:
+      - "command"
+  Parts:
+    id: null
+    note: "not a printed card — it's the Unit token from Üso Ewin (GD04-081)'s 【When Paired】ability ('if this is a (League Militaire) Unit, deploy 1 [Parts]((League Militaire)・AP1・HP1・can't choose the enemy player as its attack target) Unit token'), matching the token deployed right after Üso Ewin paired with Victory Gundam at t7 (and again with V-Dash Gundam at t13) and its 'can't target the player' restriction matching 'Battle declared: Parts against Gundam Exia Repair' at t9 (never declared against the player)."
+    type: "UNIT"
+    ap: 1
+    hp: 1
+    owner: "Repede"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "Repede"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "shield"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "Repede"
+    seen:
+      - "discarded"
+  "V-Dash Gundam":
+    id: "GD04-006"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "Repede"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Victory Gundam":
+    id: "GD04-003"
+    note: "resolved by hand: 【Attack】'if you have 3 or more (League Militaire) Units in play, draw 1' matches 'Victory Gundam: Draw a card' at t7 — at that point Repede controlled exactly 3 (League Militaire) Units (Victory Gundam, Parts, and the still-alive second Zoloat, which didn't die until t8). The other printing (GD04-011) has no Attack trigger at all."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Repede"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  "Zoloat (League Militaire)":
+    id: "GD04-016"
+    type: "UNIT"
+    level: 2
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Repede"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Üso Ewin":
+    id: "GD04-081"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Repede"
+    seen:
+      - "pilot"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Repede"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Repede"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Repede"
+    actions:
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 5
+    active_player: "Repede"
+    actions:
+      - action: "play_command"
+        player: "Repede"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Unforeseen Incident discarded"
+      - action: "deploy"
+        card: "Zoloat (League Militaire)"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Zoloat (League Militaire)"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Zoloat (League Militaire) received 2 damage, now destroyed"
+          - "Graze Custom received 3 damage, now destroyed"
+  - turn: 7
+    active_player: "Repede"
+    actions:
+      - action: "deploy"
+        card: "Victory Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "Victory Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "attack"
+        player: "Repede"
+        attacker: "Victory Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Victory Gundam: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Zoloat (League Militaire)"
+        final_target: "Zoloat (League Militaire)"
+        outcome:
+          - "Zoloat (League Militaire) received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 9
+    active_player: "Repede"
+    actions:
+      - action: "attack"
+        player: "Repede"
+        attacker: "Parts"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 1 damage, now destroyed"
+          - "Parts received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Hyakuren and Strike Freedom Gundam moved to trash"
+      - action: "attack"
+        player: "Repede"
+        attacker: "Victory Gundam"
+        declared_target: "M1 Astray (Shrike)"
+        blockers: "none"
+        final_target: "M1 Astray (Shrike)"
+        outcome:
+          - "M1 Astray (Shrike) received 5 damage, now destroyed"
+          - "Victory Gundam received 1 damage, leaving 4 HP remaining"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Strike Rouge (Ootori) returned to hand"
+      - action: "attack"
+        player: "Repede"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Kira Yamato"
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Victory Gundam"
+  - turn: 11
+    active_player: "Repede"
+    actions:
+      - action: "attack"
+        player: "Repede"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Kira Yamato"
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "play_command"
+        player: "Repede"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Silver Bullet"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Strike Rouge (Ootori) and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Aile Strike Gundam"
+        blockers: "Silver Bullet"
+        final_target: "Silver Bullet"
+        outcome:
+          - "Silver Bullet received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 4 damage, now destroyed"
+  - turn: 13
+    active_player: "Repede"
+    actions:
+      - action: "deploy"
+        card: "V-Dash Gundam"
+      - action: "pair_pilot"
+        pilot: "Üso Ewin"
+        unit: "V-Dash Gundam"
+        linked: true
+      - action: "deploy"
+        card: "Parts"
+      - action: "deploy"
+        card: "Gundam Lfrith"
+      - action: "activate"
+        card: "V-Dash Gundam"
+        effects:
+          - "Rested unit: Parts"
+          - "Rested unit: Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Repede"
+        attacker: "V-Dash Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+      - action: "attack"
+        player: "Repede"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Strike Rouge (Ootori)"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Ootori)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Aile Strike Gundam"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 2 damage, leaving 3 HP remaining"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 15
+    active_player: "Repede"
+    actions:
+      - action: "attack"
+        player: "Repede"
+        attacker: "V-Dash Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Repede"
+        attacker: "Aile Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Strike Rouge (Ootori)"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "deploy"
+        card: "Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Freedom Gundam"
+        linked: true
+        effects:
+          - "Freedom Gundam: Modifier applied to: Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Repede"
+        attacker: "Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Strike Rouge (Ootori)"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 9
+    - card: "M1 Astray (Shrike)"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 12
+    - card: "Axis"
+      turn: 15
+  Repede:
+    - card: "Zoloat (League Militaire)"
+      turn: 6
+    - card: "Zoloat (League Militaire)"
+      turn: 8
+    - card: "Parts"
+      turn: 9
+    - card: "Victory Gundam"
+      turn: 10
+    - card: "Silver Bullet"
+      turn: 12
+    - card: "Gundam Lfrith"
+      turn: 14
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Repede:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "REAL MISPLAY FOUND, requested critical review: at t14, Kiraya attacked with Strike Rouge (Ootori) — the deck's only <Blocker>-capable unit all game — into Gundam Lfrith (a chump-blocker), instead of holding it back untapped. This tapped it out for the rest of the turn cycle, so it was unavailable when Repede's t15 alpha strike (V-Dash Gundam, Aile Strike Gundam, freshly-deployed Freedom Gundam — 3 attackers) came in with 'No blockers available' each time. The Aile Strike Gundam hit at t15 consumed Kiraya's second-to-last shield; the following Freedom Gundam hit was the fatal one. Had Strike Rouge (Ootori) been kept back, it could have blocked that Aile Strike Gundam attack instead (a good trade regardless of outcome — Strike Rouge dying to block is fine when it's the last blocker before lethal range), preserving that shield and very plausibly surviving Freedom Gundam's hit into t16. The t14 attack itself only achieved killing a chump blocker (Gundam Lfrith) — low value compared to what keeping the blocker available was worth given Kiraya was already deep into the shield pile and Repede had 2 live attackers plus visible gas (A Show of Resolve had just refilled their hand at t11)."
+  - "Widespread Annihilation (GD05-114) is NOT a targeted-removal choice — its Main ability is 'Destroy all Units that are Lv.4 or lower', an automatic board wipe, not something Kiraya picked a target for. At t10 the only Lv.4-or-lower Unit Repede controlled was the already-weakened Victory Gundam (Lv.4) — Aile Strike Gundam (confirmed Lv.5 by its own trigger text) was never a legal target regardless of choice. So there's no 'should have hit the bigger threat instead' error here: the card did everything it could have done that turn."
+  - "Matchup mechanic worth remembering for next time: Repede's Kira Yamato (ST04-010, confirmed by its repeatable 【Attack】AP-2 trigger) fired on every single one of Repede's attacks from t13 onward, each time targeting Strike Rouge (Ootori) specifically — a deliberate, recurring pattern of preemptively weakening Kiraya's only blocker before combat, on top of V-Dash Gundam's own Activate ability resting that same Strike Rouge Ootori at t13 to deny it as a blocker outright that turn. This deck has two independent, repeatable ways to neutralize a single Blocker-package deck's one blocker-capable unit — worth factoring into future blocking-timing decisions against this list."
+  - "Net verdict: unlike prior losses this campaign, this one does have a concrete, actionable lesson — hold your only Blocker-capable unit back once you're low on shields and the opponent has multiple live attackers, even if it means passing up a favorable-looking trade. The t9 losses (Gundam Exia Repair's unlucky mill of Hyakuren+Strike Freedom Gundam, M1 Astray Shrike sniped directly by Victory Gundam, Strike Rouge Ootori bounced by Aile Strike Gundam's pairing trigger) were bad luck/opponent-tech, not misplays — but t14's attack decision was avoidable and reads as the turn that actually cost the game."

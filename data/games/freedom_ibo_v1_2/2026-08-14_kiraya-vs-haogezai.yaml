@@ -1,0 +1,614 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-haogezai"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:豪哥仔"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+    "豪哥仔":
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "base"
+      - "discarded"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved for deck-consistency reasons: 豪哥仔 plays a full mainline (Tekkadan) set this game (Gusion Rebake GD02-055, Barbatos Lupus GD03-050, Barbatos Adapt GD03-056, all confirmed by ability text), so the (G Generation) crossover printing ST10-008 would be a lone oddball. Only ever deployed t19, no own-ability text triggered to confirm directly (same reasoning as freedom_ibo_v1_2/2026-08-14_kiraya-vs-champ)"
+    owner: "豪哥仔"
+    seen:
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to deck"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved for both owners: every Activate in the log (豪哥仔 t13/t19 x2, Kiraya t18 x2) follows 'exile 3 [Tekkadan/Teiwaz cards] from trash → deal 2 damage to 1 enemy Unit', matching GD03-050's own text verbatim; GD05-059's ability is a completely different Attack-triggered unblockable/rest effect, never observed. (Two separate copies are in play simultaneously by t19 — 豪哥仔's original t13 deploy and Kiraya's t18 deploy — which is why some t19 activation targets read as 'Gundam Barbatos Lupus' hitting the same-named enemy copy.)"
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved for both owners: every Deploy pings exactly '1 of your Units and 1 enemy Unit' for 1 damage each (matching GD02-055's Deploy text verbatim), including the t19 line 'Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos Lupus' — Barbatos 1st Form is 豪哥仔's own unit (just deployed same turn) and 'Gundam Barbatos Lupus' there refers to Kiraya's copy (the legal enemy target, since two same-named copies were in play by that point). ST05-005 has no Deploy ability at all, never observed"
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to deck"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved for both owners: Kiraya's copy (paired to Strike Freedom Gundam t14) and 豪哥仔's copy (paired to their own Strike Freedom Gundam t15) both trigger 'Kira Yamato: Draw a card', matching GD05-081's own When-Linked text verbatim ('If this is an (Orb)/(Triple Ship Alliance) Unit, draw 1' — Strike Freedom Gundam is (Orb)); ST04-010's Attack-triggered AP-2 debuff never observed for either copy"
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "pilot"
+      - "returned to deck"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'M1 Astray Shrike' (GD05-015, Orb) — Kiraya's freedom_ibo_v1_2 decklist carries this printing"
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "returned to deck"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "豪哥仔"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "豪哥仔"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "returned to deck"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "豪哥仔"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "discarded"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "豪哥仔"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "豪哥仔"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "豪哥仔"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "豪哥仔"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+  - turn: 7
+    active_player: "豪哥仔"
+    actions:
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Hyakuren"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 4 damage, now destroyed"
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Strike Freedom Gundam discarded"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Ryusei-Go (Graze Custom Ⅱ)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Hyakuren"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Graze Custom"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, now destroyed"
+          - "Graze Custom received 4 damage, now destroyed"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Ryusei-Go (Graze Custom Ⅱ)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Hyakuren, now destroyed"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Ryusei-Go (Graze Custom Ⅱ)"
+  - turn: 9
+    active_player: "豪哥仔"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Shiden Custom (Ryusei-Go)"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Shiden Custom (Ryusei-Go) revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "Shiden Custom (Ryusei-Go)"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 1 damage, leaving 2 HP remaining"
+          - "M1 Astray (Shrike) received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: M1 Astray (Shrike) and Shiden Custom (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "Shiden Custom (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Shiden Custom (Ryusei-Go)"
+        outcome:
+          - "Shiden Custom (Ryusei-Go) received 1 damage, now destroyed"
+          - "M1 Astray (Shrike) received 4 damage, now destroyed"
+  - turn: 11
+    active_player: "豪哥仔"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Hyakuren and Graze Custom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Graze Custom"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+  - turn: 13
+    active_player: "豪哥仔"
+    actions:
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, leaving 1 HP remaining"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Ryusei-Go (Graze Custom Ⅱ) and Shiden Custom (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, leaving 1 HP remaining"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Widespread Annihilation and Mikazuki Augus discarded (Kiraya's own hand, cost)"
+          - "Gundam Gusion Rebake (linked to Mikazuki Augus) returned to bottom of deck — the paired pilot goes with its Unit"
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "豪哥仔"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Gundam Gusion Rebake and Gundam Barbatos Adapt discarded (豪哥仔's own hand, cost)"
+          - "Strike Freedom Gundam (linked to Kira Yamato) returned to bottom of deck — the paired pilot goes with its Unit"
+          - "Axis received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Lupus"
+  - turn: 17
+    active_player: "豪哥仔"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 3 damage, leaving 1 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Strike Rouge (Ootori) and Axis discarded"
+          - "Gundam Barbatos Adapt returned to deck"
+          - "Shield card: Graze Custom revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos Adapt and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Rouge (Ootori), leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Strike Rouge (Ootori), now destroyed"
+  - turn: 19
+    active_player: "豪哥仔"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Gusion Rebake and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Lupus, leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Shiden Custom (Ryusei-Go) and Hyakuren exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Barbatos Lupus, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Widespread Annihilation revealed and discarded"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "attack"
+        player: "豪哥仔"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "M1 Astray (Shrike)"
+      turn: 10
+    - card: "M1 Astray (Shrike)"
+      turn: 10
+  "豪哥仔":
+    - card: "Shiden Custom (Ryusei-Go)"
+      turn: 10
+  unattributed:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Axis"
+      turn: 15
+    - card: "Strike Rouge (Ootori)"
+      turn: 17
+    - card: "Strike Rouge (Ootori)"
+      turn: 18
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  "豪哥仔":
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 1
+    shields_remaining: 2
+study_notes:
+  - "Mirror match vero (豪哥仔 gioca praticamente la stessa lista di Kiraya: Graze Custom, Hyakuren, Barbatos Adapt/Lupus, Gusion Rebake, Strike Freedom Gundam/Kira Yamato) perso sul filo — Kiraya finisce a 0 scudi rimasti (4 persi) contro i 2 di 豪哥仔, un distacco di 2 scudi che si è aperto presto e non si è mai richiuso."
+  - "Lo snodo è il t7: Ryusei-Go (Graze Custom Ⅱ) di 豪哥仔 (Deploy: 1 danno a sé stesso + pesca 1, poi scarta 1 dalla mano — stavolta ha scartato proprio una copia di Strike Freedom Gundam di Kiraya già in mano tramite l'effetto di scarto) apre un turno che uccide sia Graze Custom sia Hyakuren di Kiraya in due scambi separati nello stesso turno, oltre a bruciare l'EX Base — un solo turno molto denso che ha messo Kiraya sotto pressione di carte e di scudi fin dall'apertura."
+  - "Strike Freedom Gundam ribaltato: Kiraya lo schiera per prima al t14 (con Kira Yamato agganciato, pesca extra), ma 豪哥仔 risponde subito al t15 con la propria copia, il cui During-Pair/Attack (scarta 2, rimanda l'unità nemica di Lv più basso) rimanda proprio lo Strike Freedom Gundam di Kiraya (con Kira Yamato agganciato) in fondo al mazzo nello stesso attacco — esattamente il meccanismo che ha deciso partite precedenti a favore di Kiraya (vedi mirror contro CHAMP), stavolta contro di lui. Da quel momento 豪哥仔 tiene la propria copia in campo per 5 turni consecutivi (t15-t19), colpendo ogni turno mentre Kiraya non ne rivede una seconda copia."
+  - "Gundam Barbatos Lupus si è scontrato con sé stesso: entrambi i giocatori hanno schierato una copia e usato la doppia attivazione più volte (豪哥仔 t13 e t19, Kiraya t18) — un vero logoramento speculare sulla stessa risorsa chiave del mazzo, con 豪哥仔 che riesce a portare la propria copia a incassare colpi (1 HP a fine t17, poi salvata) mentre quella di Kiraya viene bersagliata due volte allo stesso modo al t19. In un mirror match, il vantaggio si costruisce sul sequenziamento di questi pezzi condivisi, non sulla loro sola presenza."

@@ -1,0 +1,407 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-shulepohalao"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    "输了打老婆":
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "Amuro Ray":
+    id: null
+    candidates:
+      - "GD05-085"
+      - "ST01-010"
+    note: "checked but unresolvable: the game was conceded the same turn Amuro Ray was paired onto Nu Gundam (t9), right after 'Battle initiated' — before either candidate's ability (heal-on-kill for GD05-085, rest-on-pair for ST01-010) had any chance to resolve or show text."
+    owner: "输了打老婆"
+    seen:
+      - "pilot"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Graham Aker":
+    id: "GD03-098"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "输了打老婆"
+    seen:
+      - "pilot"
+  "Graham's Union Flag Custom":
+    id: "GD03-069"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "输了打老婆"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "Kiraya"
+      - "输了打老婆"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "checked but unresolvable: only ever revealed as a shield and discarded (t6, t8), never deployed or played — neither candidate's ability had a chance to appear."
+    owner: "输了打老婆"
+    seen:
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved by hand, same as every prior game this campaign: 'M1 Astray Shrike' (GD05-015)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Nu Gundam":
+    id: "GD05-020"
+    note: "resolved by hand: 【Deploy】'if 2+ (Londo Bell) cards in your trash, place 1 EX Resource' matches 'Placed 1 Resource EX' immediately after deploy at t9. The other printing (GD05-017) has a completely different When-Paired ability (exile 3 trash cards for a damage-only mini-battle), never observed."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "输了打老婆"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "输了打老婆"
+    seen:
+      - "base"
+      - "shield"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "输了打老婆"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "resolved by hand: 【Attack】'this Unit gets AP+2 during this turn' matches 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' on both t5 attacks — one dealt 3 damage to the EX Base (base AP1+2)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "输了打老婆"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "输了打老婆"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "输了打老婆"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "输了打老婆"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "输了打老婆"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 5
+    active_player: "输了打老婆"
+    actions:
+      - action: "attack"
+        player: "输了打老婆"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "输了打老婆"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "play_base"
+        card: "Ra Cailum"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Zaku Ⅱ"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Zaku Ⅱ, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Ra Cailum received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "play_base"
+        card: "Ra Cailum"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Ra Cailum revealed"
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "输了打老婆"
+    actions:
+      - action: "attack"
+        player: "输了打老婆"
+        attacker: "Rick Dom"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 3 damage, now destroyed"
+          - "Rick Dom received 5 damage, now destroyed"
+          - "Breach 2 Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "deploy"
+        card: "Graham's Union Flag Custom"
+      - action: "pair_pilot"
+        pilot: "Graham Aker"
+        unit: "Graham's Union Flag Custom"
+        linked: true
+      - action: "attack"
+        player: "输了打老婆"
+        attacker: "Graham's Union Flag Custom"
+        declared_target: "Graze Custom"
+        blockers: "none (High-maneuver)"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 6 damage, now destroyed"
+          - "Graham's Union Flag Custom received 2 damage, leaving 1 HP remaining"
+        effects:
+          - "Set Active: Graham's Union Flag Custom"
+          - "Graze Custom returned to hand"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Graham's Union Flag Custom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Ra Cailum received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Rick Dom revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "输了打老婆"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "输了打老婆"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+casualties:
+  "输了打老婆":
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Ra Cailum"
+      turn: 6
+    - card: "Rick Dom"
+      turn: 7
+    - card: "Ra Cailum"
+      turn: 8
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 7
+  unattributed:
+    - card: "Graze Custom"
+      turn: 7
+shields_tally:
+  "输了打老婆":
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - "Dominant, fast win (9 turns, opponent conceded) confirmed by the client screenshot ('Opponent conceded!'). Kiraya's shields were never touched all game (0 lost, 3 remaining) while 输了打老婆 lost all 6. Even the early Zeon-swarm opener (2x Zaku Ⅱ at t3, both later buffed AP+2 on attack) only ever chipped the EX Base and one shield before Kiraya's counter-curve took over."
+  - "t6 was the turning point: M1 Astray Shrike's Deploy ping killed a Zaku Ⅱ outright, Graze Custom traded into the other, and Gundam Barbatos 1st Form destroyed the opponent's brand-new Ra Cailum base unopposed — all in one turn. The opponent rebuilt Ra Cailum from a shield reveal the same turn, only for Kiraya to destroy it again at t8."
+  - "Opponent's toolbox (Rick Dom/Zeon opener, Graham's Union Flag Custom/Graham Aker splash, Nu Gundam/Amuro Ray/Londo Bell payoff) mirrors the same broad archetype as the very first game this campaign (2026-08-12 vs AZZ, 'Toolbox Gundam + Amuro Ray') — Nu Gundam (GD05-020, confirmed by its 'place 1 EX Resource if 2+ Londo Bell in trash' Deploy trigger) only landed at t9, far too late to matter."
+  - "No misplay to review — a clean, well-sequenced win where every Kiraya deploy immediately generated value (kills, base destruction, or unopposed shield damage) and the opponent never found a stable turn."

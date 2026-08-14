@@ -1,0 +1,709 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-alvarn"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Alvarn"
+  players:
+    Alvarn:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Alvarn"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "ST01-010"
+    note: "resolved: both pairings (t9 'Rested unit: Gundam Barbatos Adapt', t19 'Rested unit: Gundam Gusion Rebake') match ST01-010's own When-Paired text verbatim ('Choose 1 enemy Unit with 5 or less HP. Rest it.'); GD05-085's kill-triggered 2-HP-heal text never observed for this copy (contrast freedom_ibo_v1_2/2026-08-14_kiraya-vs-crimson110, where the heal WAS observed and pinned GD05-085 instead — same name, different printing depending on the instance, per the documented pattern)"
+    owner: "Alvarn"
+    seen:
+      - "pilot"
+      - "shield"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Gundam:
+    id: "ST01-001"
+    note: "resolved: 'Gundam repaired 2 from [Repair 2]' at end of t9 and t11 confirms the printed Repair 2 passive, and it's paired to Amuro Ray (ST01-010, confirmed via the same-turn rest effect) — same combo already confirmed in freedom_ibo_v1_2/2026-08-13_kiraya-vs-c23 ('Gundam' ST01-001, Repair 2, linked to Amuro Ray ST01-010)"
+    owner: "Alvarn"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "shield"
+  "Gundam NT-1":
+    id: "GD03-001"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Alvarn"
+    seen:
+      - "attacker"
+      - "deployed"
+  Guntank:
+    id: "GD01-008"
+    note: "resolved: t9 Deploy 'Guntank: Dealt 1 damage to Gundam Exia Repair, now destroyed' matches GD01-008's Deploy text verbatim ('Choose 1 rested enemy Unit. Deal 1 damage to it.'); ST01-004's Deploy is a rest effect on a low-HP target, not damage, never observed"
+    owner: "Alvarn"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  Jegan:
+    id: "GD05-027"
+    note: "resolved: t17 exiled as fuel for Nu Gundam's When-Paired ability, which requires '(Londo Bell) cards from your trash' — only GD05-027 carries the (Londo Bell) trait, GD01-016 is (Earth Federation) only and couldn't legally be chosen (same reasoning already applied in freedom_ibo_v1_2/2026-08-14_kiraya-vs-crimson110)"
+    owner: "Alvarn"
+    seen:
+      - "added to hand"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Alvarn"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'M1 Astray Shrike' (GD05-015, Orb) — Kiraya's freedom_ibo_v1_2 decklist carries this printing"
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+      - "shield"
+  "Nu Gundam":
+    id: "GD05-017"
+    note: "resolved: t17 pairing with Amuro Ray exiles 3 Londo Bell cards from trash then fights a battle-damage-step-only against M1 Astray (Shrike), matching GD05-017's own When-Paired text verbatim; only one copy this game, no second Deploy-EX-resource instance observed"
+    owner: "Alvarn"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Alvarn"
+    seen:
+      - "base"
+      - "exiled"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Alvarn"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  ReZEL:
+    id: "GD01-018"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Alvarn"
+    seen:
+      - "deployed"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Alvarn"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "resolved: t5 attack shows 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' (self-target on attack declare) matching ST03-008's own 【Attack】AP+2 text verbatim; GD01-035 has no effect text at all. Second copy deployed t11 with no distinguishing ability observed — defaulted to the same printing (same reasoning as freedom_ibo_v1_2/2026-08-14_kiraya-vs-crimson110)"
+    owner: "Alvarn"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Alvarn"
+    action: "choose_first_player"
+  - player: "Alvarn"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Alvarn"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Alvarn"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Alvarn"
+    actions:
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 7
+    active_player: "Alvarn"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Rick Dom"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "Rick Dom received 2 damage, leaving 1 HP remaining"
+          - "Breach 2 Shield card: Axis revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Re-GZ"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Rick Dom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kayra's Re-GZ revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zaku Ⅱ revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+  - turn: 9
+    active_player: "Alvarn"
+    actions:
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Mikazuki Augus and Gundam Barbatos 1st Form moved to trash"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Re-GZ"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Re-GZ received 4 damage, now destroyed"
+          - "Card added to hand: Kayra's Re-GZ"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Gundam received 2 damage, leaving 3 HP remaining"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 11
+    active_player: "Alvarn"
+    actions:
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Gundam"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Gundam received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, leaving 4 HP remaining"
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "deploy"
+        card: "ReZEL"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+        effects:
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Guntank, Gundam, Re-GZ, ReZEL, Zaku Ⅱ and Graze Custom"
+          - "Card added to hand: Jegan"
+  - turn: 13
+    active_player: "Alvarn"
+    actions:
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "deploy"
+        card: "Gundam NT-1"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Rick Dom and Jegan"
+  - turn: 15
+    active_player: "Alvarn"
+    actions:
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Gundam NT-1"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 4 damage, now destroyed"
+      - action: "play_command"
+        player: "Alvarn"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Rick Dom"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck top"
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam NT-1, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Hyakuren and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam NT-1, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Rick Dom"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "M1 Astray (Shrike)"
+        linked: false
+  - turn: 17
+    active_player: "Alvarn"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Re-GZ, Jegan and Ra Cailum exiled from the game"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "M1 Astray (Shrike)"
+        outcome:
+          - "M1 Astray (Shrike) received 7 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 4 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5 Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Rick Dom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+          - "Nu Gundam received 7 damage, now destroyed"
+          - "Breach 5 Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Graze Custom and Rick Dom"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Rick Dom"
+  - turn: 19
+    active_player: "Alvarn"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Alvarn"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Alvarn:
+    - card: "Zaku Ⅱ"
+      turn: 6
+    - card: "Re-GZ"
+      turn: 9
+    - card: "Gundam NT-1"
+      turn: 16
+    - card: "Ra Cailum"
+      turn: 16
+    - card: "Nu Gundam"
+      turn: 17
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Gundam Exia Repair"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 11
+    - card: "Axis"
+      turn: 15
+    - card: "M1 Astray (Shrike)"
+      turn: 17
+    - card: "Gundam Barbatos Lupus"
+      turn: 17
+  unattributed:
+    - card: "Guntank, Gundam, Re-GZ, ReZEL, Zaku Ⅱ and Graze Custom"
+      turn: 12
+    - card: "Rick Dom and Jegan"
+      turn: 14
+shields_tally:
+  Alvarn:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Partita persa sul filo, non per un errore: entrambi finiscono a 0 scudi rimasti (3 persi ciascuno) e il conteggio unità perse è quasi pari (8 Kiraya / 5 Alvarn) — una vera corsa punto a punto decisa dall'ultimo attacco, non da un singolo colpo decisivo. Kiraya non ha mai pescato nessuna delle 4 copie di Strike Freedom Gundam in 19 turni: senza il suo During-Pair/Attack (discard 2, rimanda l'unità nemica di Lv più basso) o senza il corpo AP5/HP6 da schierare come bloccante d'emergenza, è mancato lo strumento che ha chiuso quasi tutte le altre vittorie di questa campagna contro lo stesso archetipo (vedi partite #1, #22, #24)."
+  - "Il colpo letale al t19 è stato reso possibile dal When-Paired di Amuro Ray (ST01-010): appaiato al 'Gundam' (ST01-001) avversario, ha riposato Gundam Gusion Rebake di Kiraya — l'unico corpo <Blocker> ancora in campo — nello stesso turno in cui è arrivato l'attacco letale, lasciando Kiraya senza bloccanti disponibili e già a 0 scudi. Stesso identico meccanismo già visto/temuto in altri matchup Nu Gundam/Amuro Ray: il riposo preventivo del bloccante, non un attacco a sorpresa, è la vera minaccia di questo pacchetto."
+  - "Doppia Widespread Annihilation ben giocata: al t12 un 6-per-1 quasi perfetto (Guntank, Gundam, Re-GZ, ReZEL, Zaku Ⅱ avversari contro solo il proprio Graze Custom) spazza via l'intero board di Alvarn tranne il 'Gundam' col Repair; al t14 un pulito 2-per-0 (Rick Dom + Jegan) senza perdite proprie. Le due copie hanno fatto esattamente il lavoro per cui sono incluse nel mazzo."
+  - "Il t16-17 è stato uno scambio quasi perfettamente alla pari tra le due bombe di fascia alta: Gundam Barbatos Lupus (doppia attivazione, 4 danni totali) uccide Gundam NT-1, poi Nu Gundam (agganciato ad Amuro Ray) uccide sia M1 Astray (Shrike) sia — nello stesso turno avversario — lo stesso Gundam Barbatos Lupus in un secondo attacco, autodistruggendosi nel processo (7 danni a testa). Nessuno dei due giocatori ne esce avvantaggiato: il vero differenziale è stato la mano, non la sequenza di gioco."

@@ -1,0 +1,446 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-hope"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Hope:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "discarded"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "Hope"
+    seen:
+      - "shield"
+  "Fatum-00":
+    id: "T-011"
+    type: "UNIT TOKEN"
+    ap: 2
+    hp: 2
+    owner: "Hope"
+    seen:
+      - "deployed"
+  GFreD:
+    id: "GD03-035"
+    note: "resolved: t10 'Activated: GFreD / Kira Yamato exiled from the game / Rested 1 Resource / Dealt 1 damage to: [4 units]' matches GD03-035's Activate·Main text verbatim ('exile 1 Pilot card from your trash: Deal 1 damage to all enemy Units', paid by exiling the Kira Yamato discarded to trash at t2); GD03-048 has no Activate ability at all, only a Burst token-deploy"
+    owner: "Hope"
+    seen:
+      - "activated"
+      - "deployed"
+  "GQuuuuuuX (Omega Psycommu)":
+    id: "GD03-034"
+    note: "resolved: t14 'GQuuuuuuX (Omega Psycommu) deployed / Selecting target / Dealt 3 damage to Gundam Flauros (Ryusei-Go)' matches GD03-034's Deploy text verbatim ('Choose 1 enemy Unit. Deal 3 damage to it.'); none of the other 4 candidates have a Deploy-3-damage effect"
+    owner: "Hope"
+    seen:
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Hope"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Justice Gundam":
+    id: "GD01-066"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Hope"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "split by owner, two distinct cards sharing this name merged into one entry by the importer: Hope's copy (discarded t2 by their own Overflowing Affection, then exiled t10 as GFreD's Activate cost) never triggers its own text, so its printing (GD05-081 vs ST04-010) is genuinely unresolvable from the log. Kiraya's own copy (paired to Strike Freedom Gundam t15, 'Kira Yamato: Draw a card') matches GD05-081's own When-Linked text verbatim ('If this is an (Orb)/(Triple Ship Alliance) Unit, draw 1' — Strike Freedom Gundam is (Orb)) and is also confirmed via Kiraya's saved decklist. Pinned id here is Kiraya's GD05-081 instance; Hope's copy stays unresolved."
+    owner:
+      - "Hope"
+      - "Kiraya"
+    seen:
+      - "discarded"
+      - "exiled"
+      - "pilot"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'M1 Astray Shrike' (GD05-015, Orb) — Kiraya's freedom_ibo_v1_2 decklist carries this printing; discarded from Kiraya's own hand as the cost of Strike Freedom Gundam's During Pair/Attack ability ('discard 2. If you do, choose 1 enemy Unit with the lowest Lv. Return it to the bottom of its owner's deck' — the target being Hope's Silver Bullet, returned the same line)"
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "Hope"
+    seen:
+      - "base"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Hope"
+    seen:
+      - "command"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "Hope"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "Hope"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "Hope"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Hope"
+    actions:
+      - action: "play_command"
+        player: "Hope"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Kira Yamato discarded"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Hope"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, leaving 4 HP remaining"
+  - turn: 6
+    active_player: "Hope"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 8
+    active_player: "Hope"
+    actions:
+      - action: "deploy"
+        card: "Silver Bullet"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Lfrith"
+  - turn: 10
+    active_player: "Hope"
+    actions:
+      - action: "deploy"
+        card: "GFreD"
+      - action: "activate"
+        card: "GFreD"
+        effects:
+          - "Kira Yamato exiled from the game"
+          - "Rested 1 Resource"
+          - "Dealt 1 damage to: Graze Custom, Strike Rouge (Ootori), Strike Rouge (Ootori) and Gundam Barbatos Adapt"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Strike Rouge (Ootori) and Gundam Lfrith"
+  - turn: 12
+    active_player: "Hope"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Justice Gundam"
+      - action: "deploy"
+        card: "Fatum-00"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Lfrith received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 2 damage, now destroyed"
+  - turn: 14
+    active_player: "Hope"
+    actions:
+      - action: "deploy"
+        card: "GQuuuuuuX (Omega Psycommu)"
+        effects:
+          - "GQuuuuuuX (Omega Psycommu): Dealt 3 damage to Gundam Flauros (Ryusei-Go), now destroyed"
+      - action: "attack"
+        player: "Hope"
+        attacker: "Justice Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, leaving 1 HP remaining"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Rouge (Ootori)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Rouge (Ootori) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Axis and M1 Astray (Shrike) discarded"
+          - "Silver Bullet returned to deck"
+          - "Mining Asteroid Palau received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Strike Rouge (Ootori)"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Strike Rouge (Ootori) and GFreD"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Justice Gundam"
+        blockers: "none"
+        final_target: "Justice Gundam"
+        outcome:
+          - "Justice Gundam received 5 damage, now destroyed"
+          - "Strike Rouge (Ootori) received 5 damage, now destroyed"
+casualties:
+  Hope:
+    - card: "Mining Asteroid Palau"
+      turn: 11
+    - card: "Gundam Lfrith"
+      turn: 13
+    - card: "Mining Asteroid Palau"
+      turn: 15
+    - card: "Justice Gundam"
+      turn: 15
+  Kiraya:
+    - card: "Gundam Barbatos Adapt"
+      turn: 13
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 14
+    - card: "Graze Custom"
+      turn: 15
+    - card: "Strike Rouge (Ootori)"
+      turn: 15
+shields_tally:
+  Hope:
+    ex_base: "replaced with a base (turn 4)"
+    shields_lost: 1
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 3
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Mining Asteroid Palau (Hope's EX-Base replacement, 6 HP) absorbed the entire early game: Graze Custom alone chipped it 3 separate times (t5, t11, t13) for 2 each before Gundam Barbatos Adapt finished the first copy at t11 — Hope replayed a second copy at t12 that lasted only until Strike Freedom Gundam's 7-damage attack at t15. A single repeatable 2-damage attacker is enough to out-race a base that doesn't heal."
+  - "GFreD's Activate ability (exile 1 Pilot from trash: 1 damage to all enemy Units) hit 4 of Kiraya's units at once at t10 (Graze Custom, both Strike Rouge Ootori, Gundam Barbatos Adapt) but didn't kill anything — a reminder this card is board-wide chip damage, not removal, and cheap for Hope to fuel (paid with their own already-discarded Kira Yamato)."
+  - "GQuuuuuuX (Omega Psycommu, GD03-034) confirmed again as a real bomba (see also game #16 vs Repede): its Deploy dealt 3 free damage, one-shotting Gundam Flauros (Ryusei-Go) at 3 HP the instant it hit the board. No response available since it wasn't a combat trade — worth remembering as a Deploy-timing threat to any 3-HP-or-less unit, not just an attacker to block."
+  - "The winning turn (t15) stacked three separate Strike Freedom Gundam/Strike Rouge (Ootori) triggers in sequence: Strike Freedom's own Deploy (draw on kill, applied to both units), Kira Yamato's When-Linked draw, and the During-Pair/Attack discard-2-bounce-lowest-Lv that removed Silver Bullet from the board entirely (returned to bottom of deck) while still landing lethal-range damage on Mining Asteroid Palau. Chaining Strike Freedom Gundam's own abilities with a second paired unit in the same turn is what let one attack step both draw cards and answer a live threat simultaneously."
+  - "Fourth win vs a Toolbox SEED/Orb-adjacent multi-color pile (Hope ran Red/White: GFreD/Zeon splash, Justice Gundam, Silver Bullet, GQuuuuuuX/Clan) — no Blocker-capable unit ever appeared on Hope's side, so every Kiraya attack after t5 went through unopposed once Gundam Lfrith traded off at t13. Opponent conceded at 0 shields with a second Strike Freedom Gundam already in hand to finish it."

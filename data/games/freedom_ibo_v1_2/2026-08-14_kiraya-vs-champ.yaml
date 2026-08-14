@@ -1,0 +1,640 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-champ"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    CHAMP:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "CHAMP"
+    seen:
+      - "command"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "base"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved for Kiraya's copy via saved deck 'freedom_ibo_v1_2'. CHAMP's two copies (both only ever shield-discarded, t11/t20, or exiled as Barbatos Lupus fuel t14 — no own ability text ever observed) are pinned to the same id on deck-consistency grounds: every other CHAMP Tekkadan card confirmed this game (Barbatos Adapt GD03-056, Gusion Rebake GD02-055, Barbatos Lupus GD03-050) is the mainline (Tekkadan) printing, none the (G Generation) crossover line — ST10-008 (White, G Generation trait) would be a lone oddball in an otherwise coherent Blue/Purple Tekkadan+Orb list."
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved: t14 Activate ability ('Gundam Barbatos 1st Form, Graze Custom and Gundam Flauros (Ryusei-Go) exiled from the game' then 'Dealt 2 damage to Gundam Gusion Rebake') matches GD03-050's own text verbatim ('Choose 3 (Tekkadan)/(Teiwaz) Unit cards from your trash. Exile them from the game. If you do, choose 1 enemy Unit. Deal 2 damage to it.'); GD05-059's ability is an Attack-triggered rest-a-Gjallarhorn-unit effect, never observed"
+    owner: "CHAMP"
+    seen:
+      - "activated"
+      - "deployed"
+      - "returned to deck"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "CHAMP"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved for both owners: every Deploy in the log (Kiraya t9/t11, CHAMP t18 x2) pings exactly '1 of your Units and 1 enemy Unit' for 1 damage each, matching GD02-055's Deploy text verbatim ('Choose 1 of your Units and 1 enemy Unit. Deal 1 damage to them.'); ST05-005 has no Deploy ability at all (only a Destroyed-trigger rest effect, never observed)"
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "split by owner, two distinct cards sharing this name merged by the importer: Kiraya's own copy (paired to Strike Freedom Gundam t15 and t22, 'Kira Yamato: Draw a card' each time) matches GD05-081's own When-Linked text verbatim ('If this is an (Orb)/(Triple Ship Alliance) Unit, draw 1' — Strike Freedom Gundam is (Orb)) and is confirmed via Kiraya's saved decklist. CHAMP's copies (t22, shield-revealed to hand twice, never played/paired) show no triggered text and stay genuinely unresolved between GD05-081/ST04-010. Pinned id here is Kiraya's instance."
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "pilot"
+  "Murasame (Andrew Waldfeld Unit)":
+    id: "GD05-003"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'Waldfeld's Murasame' (GD05-003, link [Andrew Waldfeld]) once the Link condition with pilot Andrew Waldfeld is met — same naming pattern documented for Kira's Strike Rouge in this same game"
+    owner: "CHAMP"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'Kira's Strike Rouge' (GD05-010, link [Kira Yamato]) once the Link condition with pilot Kira Yamato is met — same pattern documented previously (e.g. freedom_ibo_v1_1/2026-08-10_kiraya-vs-belele)"
+    owner: "CHAMP"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner:
+      - "CHAMP"
+      - "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "CHAMP"
+    seen:
+      - "attacker"
+      - "command"
+setup:
+  - player: "CHAMP"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "CHAMP"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "CHAMP"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "CHAMP"
+    actions:
+      - action: "deploy"
+        card: "Murasame (Andrew Waldfeld Unit)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions: []
+  - turn: 6
+    active_player: "CHAMP"
+    actions:
+      - action: "play_command"
+        player: "CHAMP"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Graze Custom and Murasame (Andrew Waldfeld Unit)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Murasame (Andrew Waldfeld Unit)"
+  - turn: 8
+    active_player: "CHAMP"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Murasame (Andrew Waldfeld Unit)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Murasame (Andrew Waldfeld Unit)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Freedom Gundam revealed and discarded"
+  - turn: 10
+    active_player: "CHAMP"
+    actions:
+      - action: "play_command"
+        player: "CHAMP"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "EX Base received 5 damage, now destroyed"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 12
+    active_player: "CHAMP"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 14
+    active_player: "CHAMP"
+    actions:
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 2 damage, leaving 2 HP remaining"
+          - "Graze Custom received 3 damage, now destroyed"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 3 damage, now destroyed"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 3 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Hyakuren"
+          - "Strike Freedom Gundam: Modifier applied to: Hyakuren"
+          - "Strike Freedom Gundam: chose Hyakuren and Hyakuren"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Hyakuren"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Hyakuren and Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Strike Rouge (Kira's Unit)"
+        blockers: "none"
+        final_target: "Strike Rouge (Kira's Unit)"
+        outcome:
+          - "Strike Rouge (Kira's Unit) received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Strike Rouge (Kira's Unit)"
+        blockers: "none"
+        final_target: "Strike Rouge (Kira's Unit)"
+        outcome:
+          - "Strike Rouge (Kira's Unit) received 6 damage, now destroyed"
+          - "Hyakuren received 3 damage, leaving 1 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Gundam Exia Repair and Graze Custom discarded"
+          - "Gundam Barbatos Lupus returned to deck"
+          - "Axis received 7 damage, now destroyed"
+  - turn: 16
+    active_player: "CHAMP"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Hyakuren"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and Strike Freedom Gundam"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Strike Freedom Gundam received 7 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 7 damage, now destroyed"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 18
+    active_player: "CHAMP"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos 1st Form"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Rouge (Ootori)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Rouge (Ootori) and Strike Freedom Gundam"
+  - turn: 20
+    active_player: "CHAMP"
+    actions:
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "deploy"
+        card: "Murasame (Andrew Waldfeld Unit)"
+      - action: "deploy"
+        card: "Murasame (Andrew Waldfeld Unit)"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+  - turn: 22
+    active_player: "CHAMP"
+    actions:
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Murasame (Andrew Waldfeld Unit)"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 2 damage, leaving 2 HP remaining"
+          - "Murasame (Andrew Waldfeld Unit) received 3 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 3 damage, now destroyed"
+          - "Gundam Gusion Rebake received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Gusion Rebake"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Gusion Rebake and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "CHAMP"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 23
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  CHAMP:
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 14
+    - card: "Strike Rouge (Kira's Unit)"
+      turn: 15
+    - card: "Strike Rouge (Kira's Unit)"
+      turn: 15
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 16
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 15
+  unattributed:
+    - card: "Gundam Barbatos Adapt and Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Axis"
+      turn: 14
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Axis"
+      turn: 15
+    - card: "Strike Freedom Gundam"
+      turn: 16
+    - card: "Strike Rouge (Ootori)"
+      turn: 22
+shields_tally:
+  CHAMP:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "destroyed (turn 10)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Vittoria per abbandono al t23, ma la partita era già decisa nel board state: Kiraya aveva 3 piloti in mano (confermato da Kiraya) pronti a superare i due <Blocker> potenziali di CHAMP, mentre CHAMP era già a 2 scudi su 8 iniziali. Un mirror parziale genuino: entrambi i giocatori condividono lo stesso nucleo Tekkadan (Barbatos Adapt, Gusion Rebake, Barbatos Lupus, Flauros Ryusei-Go) più uno splash Orb/SEED, quindi ogni scambio 1-per-1 tende a essere alla pari — il vantaggio si è costruito sulla sequenza, non su una singola bomba."
+  - "Il t10 è stato l'unico vero spavento: Widespread Annihilation di CHAMP ha cancellato entrambe le copie di Gundam Barbatos Adapt di Kiraya in un colpo solo (le uniche unità Lv.4-o-meno in campo in quel momento). Ma Kiraya aveva già staccato l'EX Base al t7 e la stessa Widespread Annihilation non ha impedito la doppia distruzione dell'EX Base avversaria al t9 — il tempo perso nel board wipe è stato recuperato subito col cambio di piano su Gundam Gusion Rebake."
+  - "Gundam Barbatos Lupus di CHAMP (GD03-050, Activate: esilia 3 (Tekkadan)/(Teiwaz) dal cimitero per 2 danni) si è alimentato benissimo al t14 (Barbatos 1st Form + Graze Custom + Flauros, tutti appena finiti in cimitero nello stesso turno) uccidendo Gundam Gusion Rebake gratis — ma Strike Freedom Gundam di Kiraya lo ha rimandato in fondo al mazzo al t15 nello stesso attacco che ha chiuso Axis, azzerando l'investimento CHAMP aveva appena fatto per schierarlo."
+  - "Waldfeld's Murasame (GD05-003) e Kira's Strike Rouge (GD05-010) — le due unità 'linkate' del pacchetto Orb di CHAMP — sono comunque cadute normalmente in combattimento diretto (Kira's Strike Rouge x2 contro Hyakuren al t15, Waldfeld's Murasame bloccata e ridotta a 1 HP da Strike Rouge Ootori al t22): a differenza di altri matchup Toolbox SEED/Orb visti in questa campagna, qui nessuna delle due si è dimostrata difficile da rimuovere, probabilmente perché CHAMP non aveva un motore di sostegno (heal/buff ripetuto) dietro di loro."

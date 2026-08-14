@@ -1,0 +1,650 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-holoburst"
+  date_imported: "2026-08-14"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    HoloBurst:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+        - "White"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "discarded"
+  Darilbalde:
+    id: "GD01-075"
+    note: "resolved: 'No targets for Darilbalde' at both t11 and t13 means the Deploy triggered a targeting search that found no legal target — only GD01-075 has a targeted Deploy ability ('Choose 1 enemy Unit with 1 HP. Return it to its owner's hand.', which fails to find a target whenever no enemy is at exactly 1 HP). EB01-036 is a passive static AP buff with no targeting at all, so it could never produce a 'No targets' message"
+    owner: "HoloBurst"
+    seen:
+      - "deployed"
+      - "discarded"
+  "First Contact":
+    id: "GD01-107"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    owner: "HoloBurst"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Aerial (Bit on Form)":
+    id: "ST01-007"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "HoloBurst"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Aerial (Mirasoul Flight Unit)":
+    id: "GD01-082"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "HoloBurst"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to deck"
+  "Gundam Aerial Rebuild":
+    id: "GD01-067"
+    note: "split by turn, two distinct printings both owned by HoloBurst: t9 instance (paired with Suletta Mercury, 'Overflowing Affection returned to hand') matches GD01-067's own When-Paired text verbatim ('Choose 1 Command card that is Lv.5 or lower from your trash. Add it to your hand.'). t17 instance ('Gundam Aerial Rebuild deployed' / 'Card added to hand: Gundam Aerial Rebuild', no pairing) matches GD04-024's own Deploy text verbatim ('Look at the top 3 cards of your deck. You may reveal 1 (Academy) Unit/Command card among them and add it to your hand.' — the revealed card being another copy of itself). Pinned id here is the t9/GD01-067 instance; t17's copy is GD04-024."
+    owner: "HoloBurst"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "returned to deck"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "discarded"
+  Gundnode:
+    id: null
+    note: "genuinely not in the local card database — real card, referenced by name in Gundam Aerial Rebuild's (GD05-026) own effect text ('Count up the number of your Units with \"Gundam Lfrith\"/\"Gundnode\" in their card name...'), so it exists in the game, just not synced locally yet (possibly a recent/unsynced set)"
+    owner: "HoloBurst"
+    seen:
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Interwoven Blessings":
+    id: "GD05-107"
+    type: "COMMAND"
+    level: 10
+    cost: 10
+    ap: 0
+    hp: 0
+    owner: "HoloBurst"
+    seen:
+      - "discarded"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "pilot"
+  Michaelis:
+    id: "GD05-030"
+    note: "resolved: t7 attack ('Battle declared: Michaelis against Graze Custom', a direct declared-target-on-a-unit rather than 'against Enemy Player') matches GD05-030's own text verbatim ('On the turn this Unit is deployed, it may choose a rested enemy Unit as its attack target and attack it' — Graze Custom had already attacked and rested earlier that same game). GD01-076's static AP+1/HP+1-if-4+-commands-in-trash buff was never confirmed active. (The HP arithmetic of this exchange — 'Michaelis received 2 damage, leaving 4 HP remaining' — doesn't cleanly match either candidate's printed HP3; left unexplained rather than forced, the ability-text match is the stronger signal here.)"
+    owner: "HoloBurst"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "HoloBurst"
+    seen:
+      - "command"
+      - "returned to hand"
+  "Quiet Zero":
+    id: "GD05-126"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "HoloBurst"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Suletta Mercury":
+    id: "ST01-011"
+    note: "resolved: 'Suletta Mercury: 1 resource set as active' fires at both t7 and t9, matching ST01-011's own Attack text verbatim ('【Attack】【Once per Turn】Choose 1 of your Resources. Set it as active.'); GD04-085's During-Link EX-Resource-placement ability was never observed"
+    owner: "HoloBurst"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "returned to deck"
+      - "shield"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "HoloBurst"
+    seen:
+      - "command"
+setup:
+  - player: "HoloBurst"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "HoloBurst"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "HoloBurst"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "HoloBurst"
+    actions:
+      - action: "play_command"
+        player: "HoloBurst"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Suletta Mercury discarded"
+      - action: "play_command"
+        player: "HoloBurst"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Interwoven Blessings discarded"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "HoloBurst"
+    actions:
+      - action: "play_command"
+        player: "HoloBurst"
+        card: "First Contact"
+        effects:
+          - "Placed 1 rested Resource"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Suletta Mercury revealed"
+          - "Shield card added to hand: Suletta Mercury"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 7
+    active_player: "HoloBurst"
+    actions:
+      - action: "deploy"
+        card: "Michaelis"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Michaelis"
+        linked: true
+      - action: "attack"
+        player: "HoloBurst"
+        attacker: "Michaelis"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Suletta Mercury: 1 resource set as active"
+          - "Graze Custom received 5 damage, now destroyed"
+          - "Michaelis received 2 damage, leaving 4 HP remaining"
+      - action: "deploy"
+        card: "Gundam Aerial (Bit on Form)"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Gundam Aerial (Bit on Form)"
+        linked: true
+      - action: "attack"
+        player: "HoloBurst"
+        attacker: "Gundam Aerial (Bit on Form)"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 5 damage, now destroyed"
+          - "Gundam Aerial (Bit on Form) received 4 damage, leaving 2 HP remaining"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Aerial (Bit on Form)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Aerial (Bit on Form)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Michaelis"
+        blockers: "none"
+        final_target: "Michaelis"
+        outcome:
+          - "Michaelis received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+  - turn: 9
+    active_player: "HoloBurst"
+    actions:
+      - action: "deploy"
+        card: "Gundam Aerial Rebuild"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Gundam Aerial Rebuild"
+        linked: true
+        effects:
+          - "Overflowing Affection returned to hand"
+      - action: "attack"
+        player: "HoloBurst"
+        attacker: "Gundam Aerial Rebuild"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Suletta Mercury: 1 resource set as active"
+          - "Axis received 6 damage, now destroyed"
+      - action: "play_command"
+        player: "HoloBurst"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Darilbalde discarded"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Gundam Aerial Rebuild"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Gundam Aerial Rebuild"
+        blockers: "none"
+        final_target: "Gundam Aerial Rebuild"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Aerial Rebuild received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+  - turn: 11
+    active_player: "HoloBurst"
+    actions:
+      - action: "deploy"
+        card: "Gundam Aerial (Mirasoul Flight Unit)"
+      - action: "deploy"
+        card: "Gundam Aerial (Bit on Form)"
+      - action: "deploy"
+        card: "Darilbalde"
+        effects:
+          - "No targets for Darilbalde"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Darilbalde"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Darilbalde"
+  - turn: 13
+    active_player: "HoloBurst"
+    actions:
+      - action: "play_base"
+        card: "Quiet Zero"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Gundam Aerial (Mirasoul Flight Unit)"
+        linked: true
+      - action: "attack"
+        player: "HoloBurst"
+        attacker: "Gundam Aerial (Mirasoul Flight Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+      - action: "deploy"
+        card: "Darilbalde"
+        effects:
+          - "No targets for Darilbalde"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Darilbalde"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Darilbalde"
+  - turn: 15
+    active_player: "HoloBurst"
+    actions:
+      - action: "attack"
+        player: "HoloBurst"
+        attacker: "Gundam Aerial (Mirasoul Flight Unit)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Adapt"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Adapt and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Quiet Zero"
+        outcome:
+          - "Kira Yamato and Gundam Gusion Rebake discarded (Kiraya's own hand, cost)"
+          - "Gundam Aerial (Mirasoul Flight Unit) (linked to Suletta Mercury) returned to bottom of deck — the paired pilot goes with its Unit"
+          - "Quiet Zero received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_base"
+        card: "Quiet Zero"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Quiet Zero revealed"
+          - "Shield card added to hand"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 17
+    active_player: "HoloBurst"
+    actions:
+      - action: "deploy"
+        card: "Gundam Aerial Rebuild"
+        effects:
+          - "Card added to hand: Gundam Aerial Rebuild"
+      - action: "play_command"
+        player: "HoloBurst"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Gundam Aerial Rebuild discarded"
+      - action: "activate"
+        card: "Quiet Zero"
+        effects:
+          - "Rested 2 Resources"
+      - action: "deploy"
+        card: "Gundnode"
+      - action: "attack"
+        player: "HoloBurst"
+        attacker: "Gundam Aerial (Bit on Form)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 3 damage, leaving 1 HP remaining"
+          - "Gundam Aerial (Bit on Form) received 3 damage, leaving 1 HP remaining"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Aerial (Bit on Form)"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Barbatos 1st Form and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundnode, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "HoloBurst"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Strike Freedom Gundam"
+        final_target: "Quiet Zero"
+        outcome:
+          - "Gundam Gusion Rebake and Axis discarded"
+          - "Gundam Aerial Rebuild returned to deck"
+          - "Quiet Zero received 4 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Quiet Zero"
+        outcome:
+          - "Quiet Zero received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+casualties:
+  HoloBurst:
+    - card: "Michaelis"
+      turn: 8
+    - card: "Gundam Aerial Rebuild"
+      turn: 10
+    - card: "Quiet Zero"
+      turn: 16
+    - card: "Gundnode"
+      turn: 18
+    - card: "Quiet Zero"
+      turn: 18
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Gundam Barbatos Adapt"
+      turn: 8
+    - card: "Axis"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+shields_tally:
+  HoloBurst:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 2
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Vittoria meritata su scambi efficienti più che su un colpo singolo: Gundam Barbatos Adapt (t8) e Gundam Barbatos 1st Form (t10) si sacrificano entrambi in scambi 1-per-1 puliti (Michaelis, poi Gundam Aerial Rebuild) proprio mentre le abilità Deploy/Link di Suletta Mercury li avevano già indeboliti — nessuna unità di Kiraya persa senza portarsi via qualcosa in cambio nei primi 10 turni."
+  - "Darilbalde di HoloBurst (GD01-075, Deploy: rimanda in mano 1 unità nemica con 1 HP) ha fallito il proprio trigger entrambe le volte che è stato schierato ('No targets for Darilbalde', t11 e t13) — nessuna unità di Kiraya si è mai trovata esattamente a 1 HP nel momento sbagliato, il che ha reso una carta potenzialmente pericolosa un corpo vuoto per tutta la partita."
+  - "Il finale (t16-18) ha sommato tre vantaggi nello stesso arco di turni: Strike Freedom Gundam ha rimandato in fondo al mazzo Gundam Aerial (Mirasoul Flight Unit) di HoloBurst (con Suletta Mercury agganciata) proprio mentre distruggeva Quiet Zero, poi Gundam Barbatos Lupus ha eliminato gratis Gundnode con la doppia attivazione, lasciando HoloBurst senza risposte per il colpo finale — nessuna singola giocata risolutiva, ma un accumulo di piccoli vantaggi ben sequenziati."
+  - "Prima vittoria della campagna contro un deck Witch from Mercury/Academy (Suletta Mercury, famiglia Gundam Aerial, Quiet Zero, Darilbalde, Michaelis) — l'unico precedente contro questo archetipo largo era una sconfitta netta in freedom_ibo_v1_2 (partita #8, contro una lista molto più orientata al controllo con Gundam Calibarn). Lista di HoloBurst più aggressiva/aerea che di controllo puro, profilo diverso ma stesso trait (Academy) di base."

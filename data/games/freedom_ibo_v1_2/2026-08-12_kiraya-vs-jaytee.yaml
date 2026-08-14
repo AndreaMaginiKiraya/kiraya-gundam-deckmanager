@@ -1,0 +1,864 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-12_kiraya-vs-jaytee"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:JayTee"
+  players:
+    JayTee:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "JayTee"
+    seen:
+      - "command"
+  "A Wind Against Fires":
+    id: "GD05-119"
+    type: "COMMAND"
+    level: 5
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "JayTee"
+    seen:
+      - "command"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Banagher Links":
+    id: "GD01-088"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "JayTee"
+    seen:
+      - "pilot"
+  "Corsica Base":
+    id: "ST02-016"
+    type: "BASE"
+    level: 3
+    cost: 3
+    hp: 5
+    owner: "JayTee"
+    seen:
+      - "base"
+  Davao:
+    id: "ST08-015"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "JayTee"
+    seen:
+      - "activated"
+      - "base"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "JayTee"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Full Armor Unicorn Gundam (Unicorn Mode)":
+    id: "GD03-016"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "JayTee"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+      - "shield"
+  "Gundam Epyon":
+    id: "GD02-002"
+    note: "resolved by hand: 【During Link】【Once per Turn】'when one of your Units destroys an enemy Unit with battle damage, set this Unit as active' matches 'Set Active: Gundam Epyon' immediately after it destroyed Gundam Flauros (Ryusei-Go) at t16 — letting it attack again the same turn and also kill Strike Freedom Gundam. Its Link [Zechs Merquise] also matches the pairing in the log; the other candidate (EB01-040) has no such ability and isn't linked to Zechs Merquise."
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 6
+    hp: 6
+    owner: "JayTee"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "milled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "milled"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "milled"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "JayTee"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Striker Pack":
+    id: "ST04-012"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "JayTee"
+    seen:
+      - "command"
+  "Sword Strike Gundam":
+    id: "GD01-073"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "JayTee"
+    seen:
+      - "attacker"
+      - "deployed"
+  Tallgeese:
+    id: null
+    candidates:
+      - "EB01-027"
+      - "GD02-005"
+      - "ST02-006"
+    note: "unresolvable, and flagging a real stat anomaly: t8's battle log ('Gundam Exia Repair received 4 damage, now destroyed' / 'Tallgeese received 2 damage, now destroyed') implies AP4/HP≤2 for Tallgeese (Exia Repair's own AP2 countering was lethal), but none of the 3 known printings have HP that low (EB01-027 hp3, GD02-005 hp4 [also ap3, not ap4], ST02-006 hp4) — worth checking apitcg/egmanevents for a missed printing or a stat-entry error next time card data syncs, rather than assuming this is just an ambiguous pin."
+    owner: "JayTee"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Tallgeese III":
+    id: "GD05-070"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "JayTee"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unforeseen Incident":
+    id: "ST01-014"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    owner: "JayTee"
+    seen:
+      - "command"
+      - "shield"
+  "Unicorn Gundam (Awakened)":
+    id: "GD04-066"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 4
+    hp: 6
+    owner: "JayTee"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Zechs Merquise":
+    id: "ST02-011"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "JayTee"
+    seen:
+      - "pilot"
+      - "shield"
+  "Zechs' Leo":
+    id: "GD01-012"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "JayTee"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "JayTee"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "JayTee"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "JayTee"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "JayTee"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "JayTee"
+    actions:
+      - action: "play_base"
+        card: "Corsica Base"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Tallgeese"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 2 damage, leaving 3 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 8
+    active_player: "JayTee"
+    actions:
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Tallgeese"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 4 damage, now destroyed"
+          - "Tallgeese received 2 damage, now destroyed"
+          - "Gundam Exia Repair milled 2: Kira Yamato and Gundam Gusion Rebake moved to trash"
+      - action: "deploy"
+        card: "Full Armor Unicorn Gundam (Unicorn Mode)"
+      - action: "pair_pilot"
+        pilot: "Banagher Links"
+        unit: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        linked: true
+        effects:
+          - "Banagher Links: Draw a card"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        declared_target: "Gundam Exia Repair"
+        blockers: "none"
+        final_target: "Gundam Exia Repair"
+        outcome:
+          - "Gundam Exia Repair received 7 damage, now destroyed"
+          - "Full Armor Unicorn Gundam (Unicorn Mode) received 2 damage, leaving 4 HP remaining"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Adapt and Hyakuren moved to trash"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Corsica Base"
+        outcome:
+          - "Corsica Base received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "JayTee"
+            card: "A Wind Against Fires"
+            effects:
+              - "A Wind Against Fires: Modifier applied to: Hyakuren"
+        final_target: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        outcome:
+          - "Full Armor Unicorn Gundam (Unicorn Mode) received 1 damage, leaving 3 HP remaining"
+          - "Hyakuren received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Graze Custom and Full Armor Unicorn Gundam (Unicorn Mode)"
+  - turn: 10
+    active_player: "JayTee"
+    actions:
+      - action: "play_base"
+        card: "Davao"
+        effects:
+          - "Shield card added to hand"
+      - action: "activate"
+        card: "Davao"
+        effects:
+          - "Rested 2 Resources"
+          - "Healed 2 damage to: Full Armor Unicorn Gundam (Unicorn Mode)"
+      - action: "deploy"
+        card: "Flat (Militia)"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Flauros (Ryusei-Go)"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Full Armor Unicorn Gundam (Unicorn Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Davao"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Davao received 7 damage, now destroyed"
+  - turn: 12
+    active_player: "JayTee"
+    actions:
+      - action: "deploy"
+        card: "Full Armor Unicorn Gundam (Unicorn Mode)"
+      - action: "pair_pilot"
+        pilot: "Banagher Links"
+        unit: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        linked: true
+        effects:
+          - "Banagher Links: Draw a card"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "Gundam Gusion Rebake"
+        action_step:
+          - action: "play_command"
+            player: "JayTee"
+            card: "A Wind Against Fires"
+            effects:
+              - "A Wind Against Fires: Modifier applied to: Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Full Armor Unicorn Gundam (Unicorn Mode) received 0 damage, leaving 6 HP remaining"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 7 damage, now destroyed"
+          - "Full Armor Unicorn Gundam (Unicorn Mode) received 7 damage, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 14
+    active_player: "JayTee"
+    actions:
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Tallgeese III"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Flauros (Ryusei-Go) and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Zechs Merquise revealed"
+          - "Shield card added to hand: Zechs Merquise"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Strike Rouge (Ootori) and Hyakuren discarded"
+          - "Flat (Militia) returned to deck"
+          - "Shield card: Rick Dias revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zechs Merquise revealed"
+          - "Shield card added to hand: Zechs Merquise"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Strike Rouge (Ootori)"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Strike Rouge (Ootori) and Full Armor Unicorn Gundam (Unicorn Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "JayTee"
+            card: "Unforeseen Incident"
+            effects:
+              - "Unforeseen Incident: Modifier applied to: Strike Rouge (Ootori)"
+        final_target: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        outcome:
+          - "Full Armor Unicorn Gundam (Unicorn Mode) received 2 damage, leaving 3 HP remaining"
+          - "Strike Rouge (Ootori) received 7 damage, now destroyed"
+  - turn: 16
+    active_player: "JayTee"
+    actions:
+      - action: "deploy"
+        card: "Gundam Epyon"
+      - action: "pair_pilot"
+        pilot: "Zechs Merquise"
+        unit: "Gundam Epyon"
+        linked: true
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Gundam Epyon"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 8 damage, now destroyed"
+          - "Gundam Epyon received 5 damage, leaving 2 HP remaining"
+          - "Set Active: Gundam Epyon"
+          - "Zechs Merquise: Draw a card"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Gundam Epyon"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 8 damage, now destroyed"
+          - "Gundam Epyon received 7 damage, now destroyed"
+          - "Zechs Merquise: Draw a card"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 7 damage, now destroyed"
+          - "Full Armor Unicorn Gundam (Unicorn Mode) received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Tallgeese III"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Full Armor Unicorn Gundam (Unicorn Mode)"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Adapt"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Adapt and Strike Freedom Gundam"
+  - turn: 18
+    active_player: "JayTee"
+    actions:
+      - action: "deploy"
+        card: "Zechs' Leo"
+      - action: "pair_pilot"
+        pilot: "Zechs Merquise"
+        unit: "Zechs' Leo"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Zechs' Leo"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 5 damage, now destroyed"
+          - "Zechs' Leo received 2 damage, leaving 1 HP remaining"
+          - "Zechs Merquise: Draw a card"
+      - action: "play_command"
+        player: "JayTee"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "JayTee"
+        card: "Striker Pack"
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Zechs Merquise"
+        unit: "Tallgeese III"
+        linked: true
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unforeseen Incident: Modifier applied to: Strike Freedom Gundam"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Unforeseen Incident revealed"
+          - "Shield card: Unforeseen Incident moved to trash"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 20
+    active_player: "JayTee"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam (Awakened)"
+      - action: "pair_pilot"
+        pilot: "Banagher Links"
+        unit: "Unicorn Gundam (Awakened)"
+        linked: true
+        effects:
+          - "Banagher Links: Draw a card"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Unicorn Gundam (Awakened)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield cards: Graze Custom and Gundam Barbatos Adapt revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Sword Strike Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Tallgeese III"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "JayTee"
+        attacker: "Zechs' Leo"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  JayTee:
+    - card: "Tallgeese"
+      turn: 8
+    - card: "Corsica Base"
+      turn: 9
+    - card: "Rick Dias"
+      turn: 9
+    - card: "Davao"
+      turn: 11
+    - card: "Full Armor Unicorn Gundam (Unicorn Mode)"
+      turn: 12
+    - card: "Gundam Epyon"
+      turn: 16
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 12
+    - card: "Axis"
+      turn: 14
+    - card: "Strike Rouge (Ootori)"
+      turn: 15
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 16
+    - card: "Strike Freedom Gundam"
+      turn: 16
+    - card: "Graze Custom"
+      turn: 16
+    - card: "Gundam Barbatos Adapt"
+      turn: 18
+    - card: "Axis"
+      turn: 20
+shields_tally:
+  JayTee:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "No clear misplay found on review. The game was genuinely close throughout (both players spent all 6 starting shields — JayTee 2 lost + 4 to hand, Kiraya 3 lost + 2 to hand + 1 deployed — this was a real race, not a blowout), and every individual trade Kiraya made looks reasonable given the information available at the time."
+  - "JayTee's deck carries a clean answer command, A Wind Against Fires, used twice at the exact moments it mattered most: t9 it blanked Hyakuren's attack down to 1 damage right before Hyakuren died anyway, and t12 it zeroed Gundam Gusion Rebake's counter-damage entirely while Full Armor Unicorn Gundam killed it for free. Both are the opponent's deck doing its job, not something Kiraya could have played around without already knowing the card was coming."
+  - "t16 is the real turning point: Gundam Epyon (GD02-002, linked to Zechs Merquise) has a Link ability that sets itself active again whenever one of your Units destroys an enemy Unit with battle damage — so its own first kill (Gundam Flauros (Ryusei-Go)) immediately refunded it a second attack the same turn, which then also killed Strike Freedom Gundam. One bomb doing the work of two removal spells, deployed and immediately impactful the turn it landed — there was no window for Kiraya to respond to this before it happened."
+  - "By t20 JayTee simply had more attackers than Kiraya had blockers: Unicorn Gundam (Awakened), Sword Strike Gundam, Tallgeese III and Zechs' Leo all swung unopposed in the same turn because Kiraya's 2 live Strike Freedom Gundam copies on board don't carry <Blocker> — the only Blocker-capable unit played all game (Strike Rouge (Ootori)) had already died at t15. This is a natural consequence of the t16 double-kill more than a sequencing error afterward."
+  - "Flagging a genuine card-data gap for later: the 'Tallgeese' (non-III) destroyed at t8 implies HP≤2 from the battle math (Gundam Exia Repair's own AP2 counter-attack was lethal), but none of the 3 known 'Tallgeese' printings in the database have HP that low (3, 4, 4) — worth checking against apitcg/egmanevents next sync rather than assuming it's just an unresolvable pin."
+  - "Net verdict: this reads as a genuinely tough, close matchup against a well-built toolbox list (Banagher Links/Unicorn line + Zechs Merquise/Wing line, spanning UC and Wing eras with an EW splash via Striker Pack/Sword Strike Gundam) that had two above-curve answers (A Wind Against Fires) plus one bomb with built-in double-attack potential (Gundam Epyon) — not a skill issue. First encounter with this specific toolbox build this campaign."

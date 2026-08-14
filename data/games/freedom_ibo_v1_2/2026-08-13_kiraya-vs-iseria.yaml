@@ -1,0 +1,683 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-13_kiraya-vs-iseria"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Iseria:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Purple"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Char Aznable":
+    id: null
+    candidates:
+      - "GD05-093"
+      - "ST03-011"
+    note: "checked but unresolvable: paired onto Sazabi 3 times (t13, t15, t19) but neither candidate's ability (ST03-011's combat AP+1/High-Maneuver; GD05-093's When-Linked Neo Zeon Base recursion) ever showed distinguishing text — Sazabi's own kills are its own ability (see Sazabi's note), and the 'Played base: Rewloola' lines each turn look like manual base replays rather than a triggered recursion (Rewloola isn't confirmed as (Neo Zeon)-trait)."
+    owner: "Iseria"
+    seen:
+      - "pilot"
+      - "returned to deck"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: null
+    candidates:
+      - "GD02-054"
+      - "ST10-008"
+    note: "checked but unresolvable: Kiraya's copies never left the shield zone (discarded from shield at t12 and t19), and Iseria's only battlefield copy (t19) was deployed and immediately sacrificed to Sazabi's own ability the same turn — no Deploy trigger or combat ever had a chance to fire for either."
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved by hand: Kiraya's own copies clearly match GD03-050 (already confirmed via saved-deck lookup elsewhere) via the repeatable 【Activate】exile-for-2-damage pattern at t12. Iseria's copy (t17) never fired that ability but also showed no evidence of the other candidate's (GD05-059) Attack-triggered Gjallarhorn-rest ability either — pinned to the shared/confirmed printing given both decks draw from the same core Tekkadan package this game."
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved by hand: both Kiraya's and Iseria's copies show the same Deploy AoE-ping signature ('Dealt 1 damage to: X and Y') — Iseria's at t9 ('Gundam Barbatos Adapt and Hyakuren') matches Kiraya's own confirmed GD02-055 exactly. No sign of the other candidate's (ST05-005) Destroyed-trigger rest effect on any of the several copies destroyed this game."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "milled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Iseria"
+      - "Kiraya"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  Rewloola:
+    id: "ST03-015"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "Iseria"
+    seen:
+      - "base"
+  "Ryusei-Go (Graze Custom Ⅱ)":
+    id: "GD02-058"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 2
+    owner: "Iseria"
+    seen:
+      - "deployed"
+  Sazabi:
+    id: "GD05-049"
+    note: "resolved by hand: 【Attack】'you may choose 1 of your Units, destroy it. If you do, all enemy players each choose 1 of their non-battling Units, destroy them' matches every instance exactly — Iseria sacrifices their own unit first (Graze Custom t13, Ryusei-Go (Graze Custom Ⅱ) t15, Gundam Barbatos 1st Form t19, all freshly-deployed fodder), then Kiraya is forced to choose and destroy one of their own (Gundam Barbatos Lupus t13, Strike Freedom Gundam t15, Gundam Gusion Rebake t19). This resolves what otherwise looks like Sazabi hitting its own controller's units — it's the ability's own cost, not a targeting error."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Iseria"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+      - "returned to deck"
+  "Shiden Custom (Ryusei-Go)":
+    id: "GD05-058"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Iseria"
+    seen:
+      - "milled"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+setup:
+  - player: "Iseria"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Iseria"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Iseria"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Iseria"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Iseria"
+    actions:
+      - action: "play_base"
+        card: "Rewloola"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+          - "Rewloola: Dealt 1 damage to Graze Custom, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 7
+    active_player: "Iseria"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Strike Freedom Gundam and Gundam Barbatos Adapt moved to trash"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "Gundam Exia Repair milled 2: Sazabi and Shiden Custom (Ryusei-Go) moved to trash"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Rewloola received 4 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Rewloola received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 9
+    active_player: "Iseria"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Hyakuren"
+      - action: "attack"
+        player: "Iseria"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Graze Custom"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Hyakuren revealed and discarded"
+  - turn: 11
+    active_player: "Iseria"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "Gundam Exia Repair milled 2: Gundam Barbatos Adapt and Gundam Gusion Rebake moved to trash"
+      - action: "attack"
+        player: "Iseria"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Gundam Flauros (Ryusei-Go)"
+        blockers: "none"
+        final_target: "Gundam Flauros (Ryusei-Go)"
+        outcome:
+          - "Gundam Flauros (Ryusei-Go) received 5 damage, now destroyed"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Gundam Gusion Rebake and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Flauros (Ryusei-Go), leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Adapt, Hyakuren and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Flauros (Ryusei-Go), now destroyed"
+  - turn: 13
+    active_player: "Iseria"
+    actions:
+      - action: "attack"
+        player: "Iseria"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair received 4 damage, now destroyed"
+          - "Gundam Exia Repair: destroyed Hyakuren"
+          - "Gundam Exia Repair milled 2: Gundam Barbatos 1st Form and Graze Custom moved to trash"
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "play_base"
+        card: "Rewloola"
+        effects:
+          - "Shield card added to hand"
+          - "Rewloola: Dealt 1 damage to Gundam Barbatos Lupus, leaving 4 HP remaining"
+      - action: "attack"
+        player: "Iseria"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Sazabi: destroyed Graze Custom"
+          - "Sazabi: destroyed Gundam Barbatos Lupus"
+          - "Axis received 7 damage, now destroyed"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Widespread Annihilation and Hyakuren discarded"
+          - "Sazabi and Char Aznable returned to deck"
+          - "Rewloola received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "Iseria"
+    actions:
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "play_base"
+        card: "Rewloola"
+        effects:
+          - "Shield card added to hand"
+          - "No targets for Rewloola"
+      - action: "deploy"
+        card: "Ryusei-Go (Graze Custom Ⅱ)"
+        effects:
+          - "Ryusei-Go (Graze Custom Ⅱ): Dealt 1 damage to Ryusei-Go (Graze Custom Ⅱ), leaving 1 HP remaining"
+          - "Ryusei-Go (Graze Custom Ⅱ): Draw a card"
+          - "Gundam Barbatos Adapt discarded"
+      - action: "attack"
+        player: "Iseria"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Sazabi: destroyed Ryusei-Go (Graze Custom Ⅱ)"
+          - "Sazabi: destroyed Strike Freedom Gundam"
+          - "Shield cards: Kira Yamato and Mikazuki Augus revealed"
+          - "Shield card added to hand: Kira Yamato"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Mikazuki Augus and Kira Yamato discarded"
+          - "Sazabi and Char Aznable returned to deck"
+          - "Rewloola received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 17
+    active_player: "Iseria"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Iseria"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 7 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+      - action: "play_base"
+        card: "Rewloola"
+        effects:
+          - "No more Shield cards to add to hand"
+          - "No targets for Rewloola"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+  - turn: 19
+    active_player: "Iseria"
+    actions:
+      - action: "deploy"
+        card: "Sazabi"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Sazabi"
+        linked: true
+      - action: "attack"
+        player: "Iseria"
+        attacker: "Sazabi"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Sazabi: destroyed Gundam Barbatos 1st Form"
+          - "Sazabi: destroyed Gundam Gusion Rebake"
+          - "Shield cards: Hyakuren and Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Rewloola"
+        outcome:
+          - "Rewloola received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Gundam Barbatos Adapt and Gundam Flauros (Ryusei-Go) discarded"
+          - "Sazabi and Char Aznable returned to deck"
+          - "No more shields available, game is over!"
+casualties:
+  Iseria:
+    - card: "Rewloola"
+      turn: 8
+    - card: "Rewloola"
+      turn: 14
+    - card: "Ryusei-Go (Graze Custom Ⅱ)"
+      turn: 15
+    - card: "Rewloola"
+      turn: 16
+    - card: "Rewloola"
+      turn: 20
+  Kiraya:
+    - card: "Axis"
+      turn: 13
+    - card: "Strike Freedom Gundam"
+      turn: 15
+    - card: "Strike Freedom Gundam"
+      turn: 17
+  unattributed:
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 9
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 12
+    - card: "Gundam Exia Repair"
+      turn: 13
+    - card: "Hyakuren"
+      turn: 13
+    - card: "Graze Custom"
+      turn: 13
+    - card: "Gundam Barbatos Lupus"
+      turn: 13
+    - card: "Gundam Barbatos Lupus"
+      turn: 17
+    - card: "Gundam Barbatos 1st Form"
+      turn: 19
+    - card: "Gundam Gusion Rebake"
+      turn: 19
+shields_tally:
+  Iseria:
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 10)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 1
+study_notes:
+  - "Sazabi (GD05-049, Neo Zeon) is a genuinely nasty recurring threat, worth remembering for future matchups: its Attack ability lets the controller destroy one of their OWN Units as a cost, and if they do, the opponent is forced to destroy one of their own non-battling Units too. Iseria fired this 3 times (t13, t15, t19), always sacrificing cheap same-turn fodder (Graze Custom, Ryusei-Go (Graze Custom Ⅱ), Gundam Barbatos 1st Form) to force Kiraya into destroying a real threat each time: Gundam Barbatos Lupus (t13), Strike Freedom Gundam (t15), Gundam Gusion Rebake (t19). This isn't a targeting mistake by Iseria — sacrificing a 1-cost unit to kill Kiraya's best available threat is a great rate for them."
+  - "The real reason the Sazabi engine didn't run away with the game: Strike Freedom Gundam's own attack ability bounced Sazabi AND its paired Char Aznable back to Iseria's deck 3 separate times (t14, t16, t20) — each time forcing Iseria to redraw and redeploy the whole package from scratch, paying its full cost again. This tempo answer, not any single combat trick, is what let Kiraya out-race a card that was individually destroying a real Kiraya unit every time it attacked."
+  - "Not a full shutout like the two prior wins — Kiraya lost 2 shields this game (1 remaining at the end vs. Iseria's 0) and lost 8 units/bases total (including 3 real threats to Sazabi) against Iseria's 12. A genuinely 'a bit long' game as Kiraya described it, kept under control by consistently having an answer (Strike Freedom Gundam's bounce, Barbatos Lupus's exile-for-damage) rather than by racing unopposed."
+  - "Iseria's list shares almost the entire Tekkadan core package with Kiraya's own (Barbatos Adapt/1st Form/Lupus, Gusion Rebake, Flauros, Graze Custom, Hyakuren, Gundam Exia Repair) with a Neo Zeon splash (Sazabi/Char Aznable) instead of Strike Freedom Gundam/Kira Yamato — closer to a partial mirror than a fully distinct archetype. Classified here as Neo Zeon given Sazabi's confirmed trait, alongside the earlier Zeong/Char's Zaku Ⅱ encounter (WiNG)."

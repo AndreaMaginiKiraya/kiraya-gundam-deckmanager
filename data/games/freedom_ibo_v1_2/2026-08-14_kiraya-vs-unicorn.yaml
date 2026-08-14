@@ -1,0 +1,553 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-unicorn"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:ユニコォォォォォン"
+  players:
+    "ユニコォォォォォン":
+      first_player: true
+      mulligan: false
+      colors:
+        - "Green"
+        - "Purple"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Char Aznable":
+    id: "ST03-011"
+    note: "resolved by hand, same signature as WiNG/2DTRON games: 【Attack】AP+1 + <High-Maneuver> if Link Unit matches 'Char Aznable: Modifier applied to: Zeong' -> 'Can't block High-maneuver' at t11, repeated on Char's Gelgoog at t13."
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "ユニコォォォォォン"
+    seen:
+      - "pilot"
+  "Char's Gelgoog":
+    id: "GD01-023"
+    type: "UNIT"
+    level: 4
+    cost: 4
+    ap: 4
+    hp: 3
+    owner: "ユニコォォォォォン"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Char's Zaku Ⅱ":
+    id: "ST03-006"
+    note: "resolved by hand, same signature as the C23 game: 【Destroyed】'look at top 3, may reveal 1 (Zeon)/(Neo Zeon) Unit and add it to hand' matches 'Card added to hand: Zeong' right after the t10 death."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "ユニコォォォォォン"
+    seen:
+      - "attacker"
+      - "deployed"
+  Falmel:
+    id: "ST03-016"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "ユニコォォォォォン"
+    seen:
+      - "base"
+  "Fatal Strike":
+    id: "ST05-014"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "ユニコォォォォォン"
+    seen:
+      - "milled"
+  "Gundam Barbatos 1st Form":
+    id: null
+    candidates:
+      - "GD02-054"
+      - "ST10-008"
+    note: "checked but unresolvable: only chipped by pings (t9) and destroyed by a 1-damage M1 Astray Shrike deploy trigger (t10, meaning it was already near-dead) — never deployed with a visible trigger or attacked while healthy, so neither candidate's stats/ability had a chance to distinguish itself."
+    owner: "ユニコォォォォォン"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner:
+      - "Kiraya"
+      - "ユニコォォォォォン"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "ユニコォォォォォン"
+    seen:
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved by hand, same as every prior game this campaign: 'M1 Astray Shrike' (GD05-015)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "Kiraya"
+      - "ユニコォォォォォン"
+    seen:
+      - "pilot"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+  "Wire-Guided Arm":
+    id: null
+    note: "not a printed card — the Unit token from Zeong (GD04-017)'s 【When Paired・(Newtype) Pilot】ability ('Deploy 2 [Wire-Guided Arm]((Zeon)・AP2・HP1・can't be paired with a Pilot) Unit tokens'), matching the 2 copies deployed at t11 right after Char Aznable was paired onto Zeong — same as the WiNG game."
+    type: "UNIT"
+    ap: 2
+    hp: 1
+    owner: "ユニコォォォォォン"
+    seen:
+      - "deployed"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "resolved by hand: 【Attack】'this Unit gets AP+2 during this turn' matches 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' at t11 -> 3 damage dealt to Gundam Gusion Rebake (base AP1+2=3)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "ユニコォォォォォン"
+    seen:
+      - "attacker"
+      - "deployed"
+  Zeong:
+    id: "GD04-017"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 3
+    owner: "ユニコォォォォォン"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Zeong (Head)":
+    id: null
+    note: "not a printed card — the Unit token from Zeong (GD04-017)'s 【Destroyed】ability ('Deploy 1 rested [Zeong (Head)]((Zeon)・AP3・HP1) Unit token'), matching its deploy right after Zeong died at t12 — same as the WiNG game."
+    type: "UNIT"
+    ap: 3
+    hp: 1
+    owner: "ユニコォォォォォン"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "ユニコォォォォォン"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "ユニコォォォォォン"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions: []
+  - turn: 3
+    active_player: "ユニコォォォォォン"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions: []
+  - turn: 5
+    active_player: "ユニコォォォォォン"
+    actions:
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Falmel"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Char's Zaku Ⅱ, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Exia Repair"
+          - "Gundam Exia Repair milled 2: Fatal Strike and Gundam Barbatos Adapt moved to trash"
+  - turn: 7
+    active_player: "ユニコォォォォォン"
+    actions:
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "deploy"
+        card: "Char's Zaku Ⅱ"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Zaku Ⅱ, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 2 damage, leaving 1 HP remaining"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: M1 Astray (Shrike) and Zaku Ⅱ"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Falmel"
+        outcome:
+          - "Falmel received 1 damage, leaving 4 HP remaining"
+  - turn: 9
+    active_player: "ユニコォォォォォン"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and M1 Astray (Shrike)"
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Axis received 5 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Char's Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: M1 Astray (Shrike) and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 1 damage, now destroyed"
+          - "M1 Astray (Shrike) received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Char's Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Char's Zaku Ⅱ"
+        outcome:
+          - "Char's Zaku Ⅱ received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 3 damage, now destroyed"
+          - "Card added to hand: Zeong"
+  - turn: 11
+    active_player: "ユニコォォォォォン"
+    actions:
+      - action: "deploy"
+        card: "Zeong"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Zeong"
+        linked: true
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "deploy"
+        card: "Wire-Guided Arm"
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Zeong"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Zeong"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 3 damage, leaving 2 HP remaining"
+          - "Zaku Ⅱ received 3 damage, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Zaku Ⅱ, Wire-Guided Arm and Wire-Guided Arm"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+      - action: "deploy"
+        card: "Zeong (Head)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Zeong"
+        blockers: "none"
+        final_target: "Zeong"
+        outcome:
+          - "Zeong received 5 damage, now destroyed"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+  - turn: 13
+    active_player: "ユニコォォォォォン"
+    actions:
+      - action: "deploy"
+        card: "Char's Gelgoog"
+      - action: "pair_pilot"
+        pilot: "Char Aznable"
+        unit: "Char's Gelgoog"
+        linked: true
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Char's Gelgoog"
+        declared_target: "player"
+        blockers: "none (High-maneuver)"
+        modifiers:
+          - "Char Aznable: Modifier applied to: Char's Gelgoog"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 6 damage, now destroyed"
+      - action: "attack"
+        player: "ユニコォォォォォン"
+        attacker: "Zeong (Head)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  "ユニコォォォォォン":
+    - card: "Char's Zaku Ⅱ"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 6
+      inferred: true
+    - card: "Zaku Ⅱ"
+      turn: 8
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Char's Zaku Ⅱ"
+      turn: 10
+    - card: "Zaku Ⅱ"
+      turn: 11
+    - card: "Zeong"
+      turn: 12
+  Kiraya:
+    - card: "Axis"
+      turn: 9
+    - card: "M1 Astray (Shrike)"
+      turn: 10
+    - card: "Axis"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Axis"
+      turn: 13
+  unattributed:
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Zaku Ⅱ, Wire-Guided Arm and Wire-Guided Arm"
+      turn: 12
+shields_tally:
+  "ユニコォォォォォン":
+    ex_base: "replaced with a base (turn 5)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Kiraya:
+    ex_base: "destroyed (turn 5)"
+    shields_lost: 1
+    shields_to_hand: 4
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Genuinely fast, wide Zeon/Neo Zeon aggro, matching Kiraya's 'strong player, mega aggro' read: opponent curved 2x Zaku Ⅱ on t3 while Kiraya had literally nothing playable on t2 or t4 (mulligan didn't fix a slow hand), and never let up — by t11 they attacked 3 separate times in one turn (Zeong unblockable via Char Aznable's High-Maneuver, plus 2 more Zaku Ⅱ swings), something Kiraya's deck (no Blocker unit ever hit the board this game) had no way to slow down."
+  - "Widespread Annihilation at t12 was excellent value — a 3-for-1, destroying a Zaku Ⅱ and both Wire-Guided Arm tokens from Zeong's own Deploy ability in one card — but even with that plus trading Gundam Gusion Rebake into Zeong itself the same turn, the opponent still had Char's Gelgoog (High-Maneuver again) and the resulting Zeong (Head) token ready to close it out unopposed the very next turn."
+  - "No misplay found — the game was effectively decided by t6 (opponent already 2-for-0 on Kiraya's EX Base with zero board response) and Kiraya's answers from t8 onward, while individually good (M1 Astray Shrike/Barbatos Adapt trades, the Widespread Annihilation 3-for-1), were always playing catch-up against a wider board. Consistent with the broader 'Zeon aggro/OYW' and 'Neo Zeon' pattern already tracked this campaign — fast, redundant threats plus Char Aznable's repeatable unblockable damage are hard to out-tempo once behind."

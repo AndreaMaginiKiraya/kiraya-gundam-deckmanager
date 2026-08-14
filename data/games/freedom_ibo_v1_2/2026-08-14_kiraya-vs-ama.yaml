@@ -1,0 +1,645 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-ama"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    ama:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "ama"
+    seen:
+      - "command"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "ama"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "ama"
+    seen:
+      - "command"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "checked but unresolvable: deployed at t19 as a Strike Freedom Gundam pairing target only, never attacked, damaged, or paired with a pilot itself for the rest of the game — none of the 5 candidates' abilities had a chance to appear."
+    owner: "ama"
+    seen:
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "ama"
+    seen:
+      - "command"
+      - "discarded"
+  Kindhearted:
+    id: "GD04-101"
+    type: "COMMAND"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "ama"
+    seen:
+      - "command"
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved by hand for BOTH players (unusual — no split needed this time): every single instance, Kiraya's (t14, t19... via Strike Freedom Gundam) and ama's (t15, t19) alike, shows 【When Linked】draw 1 ('Kira Yamato: Draw a card'). No ST04-010 Attack-modifier instance appeared anywhere this game."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "ama"
+    seen:
+      - "pilot"
+  Kshatriya:
+    id: "GD01-044"
+    note: "resolved by hand: 【When Paired・(Cyber-Newtype)/(Newtype) Pilot】'choose 1 to 2 enemy Units, deal 1 damage to them' matches 'Kshatriya: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos 1st Form' right after pairing Marida Cruz at t17."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "ama"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "ama"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overwhelming Pressure":
+    id: "GD04-109"
+    type: "COMMAND"
+    level: 5
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "ama"
+    seen:
+      - "command"
+      - "shield"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "ama"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "ama"
+    seen:
+      - "shield"
+  "White Base":
+    id: "ST01-015"
+    type: "BASE"
+    level: 3
+    cost: 2
+    hp: 5
+    owner: "ama"
+    seen:
+      - "activated"
+      - "base"
+      - "shield"
+setup:
+  - player: "ama"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "ama"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "ama"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "ama"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_command"
+        player: "ama"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 5
+    active_player: "ama"
+    actions: []
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "ama"
+            card: "Improved Technique"
+            effects:
+              - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+  - turn: 7
+    active_player: "ama"
+    actions:
+      - action: "play_command"
+        player: "ama"
+        card: "Airframe Seizure"
+        effects:
+          - "Marida Cruz discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+  - turn: 9
+    active_player: "ama"
+    actions: []
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "play_command"
+        player: "ama"
+        card: "Overwhelming Pressure"
+        effects:
+          - "Overwhelming Pressure: Dealt 4 damage to Gundam Gusion Rebake, leaving 1 HP remaining"
+  - turn: 11
+    active_player: "ama"
+    actions: []
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Darkness Finger revealed"
+          - "Shield card: Darkness Finger moved to trash"
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus, leaving 3 HP remaining"
+      - action: "play_command"
+        player: "ama"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos Lupus, leaving 1 HP remaining"
+  - turn: 13
+    active_player: "ama"
+    actions: []
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "ama"
+            card: "Close Combat"
+            effects:
+              - "Close Combat: Dealt 2 damage to Gundam Barbatos Lupus, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overwhelming Pressure revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Unicorn Gundam 02 Banshee (Destroy Mode) revealed and discarded"
+      - action: "play_command"
+        player: "ama"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Strike Freedom Gundam, leaving 6 HP remaining"
+  - turn: 15
+    active_player: "ama"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_command"
+        player: "ama"
+        card: "Airframe Seizure"
+        effects:
+          - "Improved Technique discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "ama"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 7 damage, leaving 1 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Kshatriya revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kindhearted revealed"
+          - "Kindhearted: Draw a card"
+          - "Shield card: Kindhearted moved to trash"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 17
+    active_player: "ama"
+    actions:
+      - action: "deploy"
+        card: "Kshatriya"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Kshatriya"
+        linked: true
+        effects:
+          - "Kshatriya: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "ama"
+        attacker: "Kshatriya"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Barbatos 1st Form, now destroyed"
+          - "Axis received 7 damage, now destroyed"
+      - action: "play_command"
+        player: "ama"
+        card: "Kindhearted"
+        effects:
+          - "Kindhearted: Draw a card"
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_base"
+        card: "White Base"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: White Base revealed"
+          - "No more Shield cards to add to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Kshatriya"
+        blockers: "none"
+        final_target: "Kshatriya"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Kshatriya received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 19
+    active_player: "ama"
+    actions:
+      - action: "activate"
+        card: "White Base"
+        effects:
+          - "Rested 2 Resources"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "ama"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 2 damage, leaving 6 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Flauros (Ryusei-Go)"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Flauros (Ryusei-Go) and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "White Base"
+        outcome:
+          - "White Base received 5 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 21
+    active_player: "ama"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+casualties:
+  ama:
+    - card: "Kshatriya"
+      turn: 18
+    - card: "White Base"
+      turn: 20
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 4
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Gundam Barbatos Lupus"
+      turn: 14
+    - card: "Gundam Barbatos 1st Form"
+      turn: 17
+    - card: "Axis"
+      turn: 17
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 18
+    - card: "Gundam Barbatos Adapt"
+      turn: 19
+  unattributed:
+    - card: "Strike Freedom Gundam"
+      turn: 15
+shields_tally:
+  ama:
+    ex_base: "destroyed (turn 10)"
+    shields_lost: 5
+    shields_to_hand: 0
+    shields_deployed: 1
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 4
+study_notes:
+  - "ama played a genuinely disciplined pure-control plan — zero Units deployed until t15 (turn 15 of 21!), spending 11 turns purely on precise single-target removal (Close Combat x2+, Improved Technique, Overwhelming Pressure, Darkness Finger x2) to answer every Kiraya threat one at a time (Graze Custom t4, Hyakuren t6, chipping Gundam Gusion Rebake and Gundam Barbatos Lupus down repeatedly) while converting excess removal into card draw via Airframe Seizure."
+  - "Two lucky shield reveals denied ama's actual bombs for free: Unicorn Gundam 02 Banshee (Destroy Mode) was discarded straight from the shield zone at t14, and the first Kshatriya copy the same way at t16 — both top-end threats that never got to matter. ama's second Kshatriya copy did land at t17 (Marida Cruz's pair-ping killed Gundam Barbatos 1st Form, then it hit face) but was traded away cleanly by Gundam Flauros (Ryusei-Go) the very next turn."
+  - "Kiraya's own shields were never touched all game (shields_lost: 0, 4 remaining at the end) — remarkable against a removal-heavy opponent, mostly explained by ama having no attacker at all until t15's mirrored Strike Freedom Gundam swing, which Kiraya's own (already chipped by Darkness Finger) traded into evenly."
+  - "Kiraya cycled 3 separate Strike Freedom Gundam copies over the back half of the game (t14, t15 was ama's though, t19... actually t14, t20, plus the earlier one destroyed t15) each bringing a Kira Yamato link-draw or its own attack-trigger draw — this repeated redeploy-and-draw pattern is what let Kiraya keep pace with ama's card-advantage engine (Airframe Seizure, Kindhearted) despite ama being significantly ahead on removal efficiency for the first 14 turns."
+  - "Net verdict: a deserved, well-earned win against a genuinely strong, patient control list (per Kiraya, a top-20-ranked opponent) — no single lucky swing, just steady redeployment plus two fortunate shield discards that denied the opponent's actual finishers. The same broad archetype as the saikyo loss (heavy direct removal, though this build leaned more toward Kshatriya/Neo Zeon splash and never got to use its Unicorn Banshee copy) — first win this campaign against this archetype in v1_2."

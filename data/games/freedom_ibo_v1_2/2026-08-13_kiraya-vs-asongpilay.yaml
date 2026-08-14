@@ -1,0 +1,786 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-13_kiraya-vs-asongpilay"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    AsoNgPilay:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "A New Sign":
+    id: "GD02-117"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "AsoNgPilay"
+    seen:
+      - "discarded"
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "resolved by hand, same signature as the Repede game: 【When Paired・Lv.4 or Higher Pilot】'choose 1 enemy Unit with 4 or less HP, return it to hand' matches 'Selecting target for Aile Strike Gundam' -> 'Gundam Flauros (Ryusei-Go) returned to hand' right after pairing Kira Yamato (Lv5) at t10 (Flauros has 3 HP)."
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "AsoNgPilay"
+    seen:
+      - "attacker"
+      - "deployed"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "AsoNgPilay"
+    seen:
+      - "base"
+      - "shield"
+  "Athrun Zala":
+    id: "ST04-011"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "AsoNgPilay"
+    seen:
+      - "pilot"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Fatum-00":
+    id: "T-011"
+    type: "UNIT TOKEN"
+    ap: 2
+    hp: 2
+    owner: "AsoNgPilay"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Flat (Militia)":
+    id: "GD04-077"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "AsoNgPilay"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  GFreD:
+    id: "GD03-035"
+    note: "resolved by hand: 【Activate・Main・Once per Turn】'①, exile 1 Pilot card from your trash: deal 1 damage to all enemy Units' matches exactly — 'Rau Le Creuset exiled from the game' + 'Rested 1 Resource' (the ① cost) -> 'Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and Hyakuren' (both of Kiraya's Units hit, consistent with 'all enemy Units' not a single target) at t14."
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 5
+    owner: "AsoNgPilay"
+    seen:
+      - "activated"
+      - "deployed"
+      - "returned to deck"
+  "GQuuuuuuX (Omega Psycommu)":
+    id: "GD03-034"
+    note: "resolved by hand: 【Deploy】'choose 1 enemy Unit, deal 3 damage to it' matches 'Dealt 3 damage to Gundam Barbatos 1st Form, now destroyed' at t18. Stats confirmed by the HP math at t19-20: base HP5, -1 from Mikazuki Augus's ping (t19), -2 from the Gundam Barbatos Adapt trade (t20) = 'leaving 2 HP remaining' exactly; its AP6 also matches the 6 damage dealt to Gundam Barbatos Adapt (hp4) in that same trade."
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 6
+    hp: 5
+    owner: "AsoNgPilay"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graceful Demeanor":
+    id: "GD04-117"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    ap: 0
+    hp: 0
+    owner: "AsoNgPilay"
+    seen:
+      - "command"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to hand"
+  "Jachin Due":
+    id: "GD03-127"
+    type: "BASE"
+    level: 6
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "AsoNgPilay"
+    seen:
+      - "base"
+      - "returned to hand"
+  "Justice Gundam":
+    id: "GD01-066"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "AsoNgPilay"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kira Yamato":
+    id: "ST04-010"
+    note: "resolved by hand, split by owner: AsoNgPilay's copy (pinned here, ST04-010 — 【Attack】AP-2 modifier) fires repeatedly ('Kira Yamato: Modifier applied to: Gundam Barbatos Adapt' at t10 and t20). Kiraya's own copy, linked to Strike Freedom Gundam at t15/t19 for 'Kira Yamato: Draw a card', is the OTHER printing (GD05-081, 【When Linked】draw) — not reflected in this single id field."
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner:
+      - "AsoNgPilay"
+      - "Kiraya"
+    seen:
+      - "pilot"
+  "Launcher Strike Gundam":
+    id: "GD01-072"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "AsoNgPilay"
+    seen:
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "returned to hand"
+  Nyaan:
+    id: "GD03-092"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "AsoNgPilay"
+    seen:
+      - "discarded"
+      - "shield"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "AsoNgPilay"
+    seen:
+      - "command"
+  "Providence Gundam":
+    id: "GD03-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "AsoNgPilay"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Rau Le Creuset":
+    id: "GD03-091"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "AsoNgPilay"
+    seen:
+      - "discarded"
+      - "exiled"
+      - "pilot"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Striker Pack":
+    id: "ST04-012"
+    type: "COMMAND"
+    level: 4
+    cost: 2
+    owner: "AsoNgPilay"
+    seen:
+      - "command"
+  "Sword Strike Gundam":
+    id: "GD01-073"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "AsoNgPilay"
+    seen:
+      - "attacker"
+      - "deployed"
+setup:
+  - player: "AsoNgPilay"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "AsoNgPilay"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "AsoNgPilay"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions: []
+  - turn: 4
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "deploy"
+        card: "Flat (Militia)"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "play_command"
+        player: "AsoNgPilay"
+        card: "Striker Pack"
+      - action: "deploy"
+        card: "Launcher Strike Gundam"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Flat (Militia)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Flat (Militia)"
+  - turn: 8
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "play_command"
+        player: "AsoNgPilay"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Rau Le Creuset discarded"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "AsoNgPilay"
+            card: "Graceful Demeanor"
+            effects:
+              - "Hyakuren and Graze Custom returned to hand"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Gundam Flauros (Ryusei-Go) returned to hand"
+      - action: "attack"
+        player: "AsoNgPilay"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 2 damage, leaving 3 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Graze Custom and Flat (Militia)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Graze Custom"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Graze Custom and Flat (Militia)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 4 damage, now destroyed"
+          - "Graze Custom received 6 damage, now destroyed"
+  - turn: 12
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "play_base"
+        card: "Jachin Due"
+        effects:
+          - "Shield card added to hand"
+          - "No targets for Jachin Due"
+      - action: "deploy"
+        card: "Justice Gundam"
+      - action: "deploy"
+        card: "Fatum-00"
+      - action: "pair_pilot"
+        pilot: "Athrun Zala"
+        unit: "Justice Gundam"
+        linked: true
+      - action: "attack"
+        player: "AsoNgPilay"
+        attacker: "Justice Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Justice Gundam received 3 damage, leaving 4 HP remaining"
+      - action: "attack"
+        player: "AsoNgPilay"
+        attacker: "Fatum-00"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, leaving 4 HP remaining"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 14
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "attack"
+        player: "AsoNgPilay"
+        attacker: "Justice Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "No targets for Justice Gundam"
+          - "Axis received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "GFreD"
+      - action: "activate"
+        card: "GFreD"
+        effects:
+          - "Rau Le Creuset exiled from the game"
+          - "Rested 1 Resource"
+          - "Dealt 1 damage to: Gundam Flauros (Ryusei-Go) and Hyakuren"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Hyakuren"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Hyakuren and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Justice Gundam"
+        blockers: "none"
+        final_target: "Justice Gundam"
+        outcome:
+          - "Justice Gundam received 4 damage, now destroyed"
+          - "Hyakuren received 6 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Jachin Due"
+        outcome:
+          - "Gundam Exia Repair and Graze Custom discarded"
+          - "GFreD returned to deck"
+          - "Jachin Due received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Shield card: Nyaan revealed"
+          - "Shield card added to hand: Nyaan"
+  - turn: 16
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "deploy"
+        card: "Providence Gundam"
+      - action: "pair_pilot"
+        pilot: "Rau Le Creuset"
+        unit: "Providence Gundam"
+        linked: true
+        effects:
+          - "Jachin Due returned to hand"
+      - action: "play_base"
+        card: "Jachin Due"
+        effects:
+          - "Shield card added to hand"
+          - "Jachin Due: Modifier applied to: Providence Gundam"
+      - action: "attack"
+        player: "AsoNgPilay"
+        attacker: "Providence Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Providence Gundam: Dealt 3 damage to Gundam Flauros (Ryusei-Go), now destroyed"
+          - "Strike Freedom Gundam received 12 damage, now destroyed"
+          - "Providence Gundam received 7 damage, now destroyed"
+      - action: "play_command"
+        player: "AsoNgPilay"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "A New Sign discarded"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+  - turn: 18
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "deploy"
+        card: "GQuuuuuuX (Omega Psycommu)"
+        effects:
+          - "GQuuuuuuX (Omega Psycommu): Dealt 3 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "deploy"
+        card: "Flat (Militia)"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Adapt"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Adapt and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Jachin Due"
+        outcome:
+          - "Graze Custom and Gundam Barbatos Adapt discarded"
+          - "Flat (Militia) returned to deck"
+          - "Jachin Due received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "play_base"
+        card: "Argama"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Argama revealed"
+          - "Shield card added to hand"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and GQuuuuuuX (Omega Psycommu)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Argama received 5 damage, now destroyed"
+  - turn: 20
+    active_player: "AsoNgPilay"
+    actions:
+      - action: "play_command"
+        player: "AsoNgPilay"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Nyaan discarded"
+      - action: "deploy"
+        card: "GFreD"
+      - action: "deploy"
+        card: "Sword Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Sword Strike Gundam"
+        linked: true
+      - action: "attack"
+        player: "AsoNgPilay"
+        attacker: "Sword Strike Gundam"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake"
+        modifiers:
+          - "Kira Yamato: Modifier applied to: Gundam Barbatos Adapt"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Barbatos 1st Form and Mikazuki Augus returned to hand"
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Sword Strike Gundam received 3 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "AsoNgPilay"
+        attacker: "GQuuuuuuX (Omega Psycommu)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+          - "GQuuuuuuX (Omega Psycommu) received 2 damage, leaving 2 HP remaining"
+casualties:
+  AsoNgPilay:
+    - card: "Aile Strike Gundam"
+      turn: 11
+    - card: "Justice Gundam"
+      turn: 15
+    - card: "Jachin Due"
+      turn: 15
+    - card: "Providence Gundam"
+      turn: 16
+    - card: "Jachin Due"
+      turn: 19
+    - card: "Argama"
+      turn: 19
+  Kiraya:
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 11
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+    - card: "Axis"
+      turn: 14
+    - card: "Hyakuren"
+      turn: 15
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 16
+    - card: "Strike Freedom Gundam"
+      turn: 16
+    - card: "Gundam Barbatos 1st Form"
+      turn: 18
+    - card: "Gundam Gusion Rebake"
+      turn: 20
+    - card: "Gundam Barbatos Adapt"
+      turn: 20
+shields_tally:
+  AsoNgPilay:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 0
+    shields_to_hand: 4
+    shields_deployed: 1
+    shields_remaining: 1
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - "Ended by resignation, not a shield-out: AsoNgPilay conceded at t20 with 1 shield still in reserve (vs. Kiraya's 3) — a genuine grind against a large, well-built pure-SEED toolbox (Justice/Providence Gundam, Aile Strike/Sword Strike Gundam, Athrun Zala/Rau Le Creuset/Kira Yamato) with a GQuuuuuuX/Clan splash, not a clean shutout like the two prior wins."
+  - "Repeated Graceful Demeanor/Aile Strike Gundam bounces (t9, t10) cost Kiraya tempo early — Hyakuren+Graze Custom bounced back to hand at t9, then the redeployed Gundam Flauros (Ryusei-Go) bounced again at t10 — but never translated into a real setback since Kiraya kept redeploying and the EX Base race was already won by t9."
+  - "The base-attrition war was the real story: AsoNgPilay's Jachin Due base got built and destroyed 3 separate times (t12 played, destroyed t15 by Strike Freedom Gundam; rebuilt t16 via Rau Le Creuset's return-and-redeploy, destroyed again t19 by a second Strike Freedom Gundam) plus Argama destroyed the same turn (t19) — each rebuild cost AsoNgPilay a card and a turn's tempo for zero net board presence, while Kiraya's repeated Strike Freedom Gundam deploys (t15, t19) each came with Kira Yamato/self-link draws attached."
+  - "t16 was the closest the opponent came to a real turning point: Providence Gundam (linked Rau Le Creuset, buffed by Jachin Due's own modifier) killed Gundam Flauros (Ryusei-Go) outright with a targeted 3-damage ability, then traded with Strike Freedom Gundam in the main battle (both destroyed, Strike Freedom Gundam took a boosted 12 damage). A genuine 2-for-1 in AsoNgPilay's favor, but Kiraya had a second Strike Freedom Gundam and kept rebuilding while AsoNgPilay's board never fully recovered."
+  - "GQuuuuuuX (Omega Psycommu) (GD03-034, confirmed by its Deploy 'choose 1 enemy Unit, deal 3 damage' one-shotting Gundam Barbatos 1st Form at t18) is a genuine bomb worth remembering — AP6/HP5 with a free removal Deploy trigger, the same shape of threat as Gundam Calibarn/Gundam Epyon seen in other tough matchups this campaign."
+  - "Net verdict: no misplay found, a hard-fought and correctly-played grind against a strong list. The double Strike Freedom Gundam value turns (t15, t19), each destroying a rebuilt enemy base, were the actual engine behind the win — not any single decisive combat trick."
+unparsed_lines:
+  - "[turn 12] Fatum-00 attack this turn"

@@ -1,0 +1,743 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-12_kiraya-vs-sol"
+  date_imported: "2026-08-12"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Sol"
+  players:
+    Sol:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Red"
+        - "White"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sol"
+    seen:
+      - "command"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "discarded"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sol"
+    seen:
+      - "command"
+      - "discarded"
+      - "exiled"
+      - "returned to hand"
+  "Domon Kasshu":
+    id: "GD05-097"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "Sol"
+    seen:
+      - "pilot"
+      - "returned to deck"
+  "Gaplant TR-5 \"Hrairoo\" Unit 1":
+    id: "EB01-054"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Sol"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Maxter":
+    id: "GD05-069"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Sol"
+    seen:
+      - "deployed"
+  "Haow Gundam":
+    id: "GD05-036"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 4
+    hp: 4
+    owner: "Sol"
+    seen:
+      - "discarded"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved by hand: 'M1 Astray Shrike' (GD05-015) — Deploy ability (choose 1 rested enemy Unit, deal 1 damage) matches the log's 'No targets for M1 Astray (Shrike)' on turn 3 (empty board)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Master Asia":
+    id: "GD05-089"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    owner: "Sol"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Master Gundam":
+    id: "GD05-033"
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Sol"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "Sol"
+    seen:
+      - "command"
+  "Shining Finger":
+    id: "GD05-120"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Sol"
+    seen:
+      - "command"
+      - "shield"
+  "Shining Gundam":
+    id: "GD05-066"
+    note: "resolved by hand: LR White printing (GD05-066), not the Red C printing (GD05-042, no effect text). GD05-066's Deploy ability (exile 2 (MF) Units from trash, return a Special Move Command to hand) matches every 'Shining Gundam deployed' -> '...exiled from the game' -> 'Darkness Finger returned to hand' sequence (turns 10 and 16), its Link [Domon Kasshu] matches the turn 10 pairing, and its Attack ability (set a rested Resource active) matches the repeated 'Shining Gundam: 1 resource set as active' lines."
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Sol"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to deck"
+  "Shining Gundam (Super Mode)":
+    id: "GD05-068"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 4
+    hp: 5
+    owner: "Sol"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+  "Silver Bullet":
+    id: "GD04-068"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 4
+    hp: 4
+    owner: "Sol"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "shield"
+setup:
+  - player: "Sol"
+    action: "choose_second_player"
+  - player: "Sol"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Sol"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 4
+    active_player: "Sol"
+    actions:
+      - action: "deploy"
+        card: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "Sol"
+    actions: []
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+        final_target: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+        outcome:
+          - "Gaplant TR-5 \"Hrairoo\" Unit 1 received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 1 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Sol"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Sol"
+            card: "Darkness Finger"
+            effects:
+              - "Darkness Finger: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 8
+    active_player: "Sol"
+    actions:
+      - action: "play_command"
+        player: "Sol"
+        card: "Airframe Seizure"
+        effects:
+          - "Haow Gundam discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "deploy"
+        card: "Silver Bullet"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Silver Bullet (reduced by 3)"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Silver Bullet (reduced by 3)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "EX Base received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "Silver Bullet"
+        final_target: "Silver Bullet"
+        outcome:
+          - "Silver Bullet received 1 damage, leaving 3 HP remaining"
+          - "M1 Astray (Shrike) received 4 damage, now destroyed"
+  - turn: 10
+    active_player: "Sol"
+    actions:
+      - action: "play_command"
+        player: "Sol"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Shining Gundam discarded"
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Haow Gundam and Shining Gundam exiled from the game"
+          - "Darkness Finger returned to hand"
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Shining Gundam"
+        linked: true
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Darkness Finger discarded"
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "attack"
+        player: "Sol"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Axis received 5 damage, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Sol"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Shining Gundam (Super Mode) discarded"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Shining Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "Silver Bullet"
+        final_target: "Silver Bullet"
+        outcome:
+          - "Silver Bullet received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 4 damage, now destroyed"
+  - turn: 12
+    active_player: "Sol"
+    actions:
+      - action: "deploy"
+        card: "Shining Gundam (Super Mode)"
+      - action: "attack"
+        player: "Sol"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Axis received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Silver Bullet"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+  - turn: 14
+    active_player: "Sol"
+    actions:
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "attack"
+        player: "Sol"
+        attacker: "Shining Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shining Gundam: 1 resource set as active"
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "attack"
+        player: "Sol"
+        attacker: "Shining Gundam (Super Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Gusion Rebake revealed and discarded"
+      - action: "deploy"
+        card: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+      - action: "attack"
+        player: "Sol"
+        attacker: "Silver Bullet"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Exia Repair revealed and discarded"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Gundam Barbatos Adapt and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gaplant TR-5 \"Hrairoo\" Unit 1, leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Graze Custom and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gaplant TR-5 \"Hrairoo\" Unit 1, now destroyed"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Silver Bullet"
+        blockers: "none"
+        final_target: "Silver Bullet"
+        outcome:
+          - "Silver Bullet received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 4 damage, leaving 1 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Shining Gundam (Super Mode)"
+        blockers: "none"
+        final_target: "Shining Gundam (Super Mode)"
+        outcome:
+          - "Kira Yamato and Hyakuren discarded"
+          - "Shining Gundam and Domon Kasshu returned to deck"
+          - "Shining Gundam (Super Mode) received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 4 damage, leaving 4 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 16
+    active_player: "Sol"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Domon Kasshu"
+        unit: "Master Gundam"
+        linked: false
+        effects:
+          - "Domon Kasshu: Draw a card"
+          - "Master Asia discarded"
+      - action: "deploy"
+        card: "Shining Gundam"
+        effects:
+          - "Shining Gundam (Super Mode) and Shining Gundam (Super Mode) exiled from the game"
+          - "Darkness Finger returned to hand"
+      - action: "play_command"
+        player: "Sol"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Lupus, now destroyed"
+          - "Darkness Finger: Draw a card"
+      - action: "play_command"
+        player: "Sol"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Strike Freedom Gundam, leaving 2 HP remaining"
+          - "Darkness Finger: Draw a card"
+      - action: "deploy"
+        card: "Gundam Maxter"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Maxter"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Maxter"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos Adapt and Axis discarded"
+          - "Shining Gundam returned to deck"
+          - "Shield card: Shining Finger revealed"
+          - "Shield card added to hand: Shining Finger"
+  - turn: 18
+    active_player: "Sol"
+    actions:
+      - action: "play_command"
+        player: "Sol"
+        card: "Shining Finger"
+        effects:
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Sol"
+        attacker: "Master Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Master Gundam"
+      - action: "pair_pilot"
+        pilot: "Master Asia"
+        unit: "Master Gundam"
+        linked: true
+      - action: "attack"
+        player: "Sol"
+        attacker: "Master Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "Master Gundam: Dealt 2 damage to Strike Freedom Gundam, now destroyed"
+          - "Darkness Finger and Darkness Finger exiled from the game"
+          - "Shield card: Widespread Annihilation revealed and discarded"
+          - "No more shields available, game is over!"
+casualties:
+  Sol:
+    - card: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+      turn: 7
+    - card: "Silver Bullet"
+      turn: 11
+    - card: "Gaplant TR-5 \"Hrairoo\" Unit 1"
+      turn: 15
+    - card: "Silver Bullet"
+      turn: 15
+    - card: "Shining Gundam (Super Mode)"
+      turn: 15
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "M1 Astray (Shrike)"
+      turn: 9
+    - card: "Gundam Barbatos 1st Form"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Axis"
+      turn: 12
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+    - card: "Axis"
+      turn: 18
+    - card: "Strike Freedom Gundam"
+      turn: 18
+shields_tally:
+  Sol:
+    ex_base: "destroyed (turn 9)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Early exchanges were roughly even: Kiraya's EX Base pressure (Hyakuren traded 1-for-1 with Gaplant TR-5 \"Hrairoo\" Unit 1 at t7, M1 Astray Shrike then Gundam Barbatos 1st Form finished it off by t9) was offset by losing both copies of Graze Custom to Darkness Finger (GD05-110) on unblocked attacks at t7 — the same recurring single-target removal command already flagged in every prior MF/G Gundam loss this campaign."
+  - "Sol's Shining Gundam (GD05-066, pinned by its Deploy/Attack/Link text — see the cards block) recursion engine came online at t10 exactly as in prior games: its Deploy ability exiled 2 (MF) trash Units to return Darkness Finger to hand, and Domon Kasshu's When-Paired discard trigger (draw 1, discard 1, activate the Main if the discard is a (Special Move) Command) replayed it immediately to kill Gundam Barbatos 1st Form the same turn."
+  - "t15 was Kiraya's best turn of the game: double Gundam Barbatos Lupus activation killed a Gaplant TR-5 Unit 1, Strike Freedom Gundam deployed linked to Kira Yamato, and the follow-up attacks destroyed Silver Bullet and Shining Gundam (Super Mode) — but left Barbatos Lupus at 1 HP and Strike Freedom Gundam at 4 HP, both one hit from dying."
+  - "t16 undid nearly all of that in a single turn, and shows the engine can compound worse than previously seen: Sol replayed Shining Gundam (recycling its exile-for-Darkness-Finger Deploy ability again) while also already holding a second copy of Darkness Finger drawn earlier via its own 'draw 1 if you control a Master-Gundam-named Unit' clause (true since Master Gundam deployed t14) — landing two separate Darkness Finger casts in one turn: the first killed the already-1-HP Gundam Barbatos Lupus outright, the second chipped Strike Freedom Gundam to 2 HP. Prior MF losses only ever showed this recursion firing once per turn."
+  - "t18's kill sequence is worth remembering for future MF matchups: Master Asia (GD05-089), Linked to Master Gundam (matching its printed link), has a During-Link/Attack trigger that deals 2 damage to an enemy Unit if a (Special Move) Command's Main/Action was activated that turn (satisfied here by Shining Finger played earlier that turn) — so declaring an attack against the player let Master Gundam snipe Strike Freedom Gundam, the only potential blocker, before blocks were even assigned ('Selecting target for Master Asia' -> Strike Freedom Gundam destroyed -> 'No blockers available'). Master Gundam's own Attack ability then exiled 2 more Special Move Commands from trash to blast the revealed shield for 5, clearing the way for lethal with 0 shields left."
+  - "Net verdict: no clear misplay — t15 was genuinely excellent play that would win most games, but ran into an MF engine that can apparently double up a key removal piece in one turn when its inputs line up (Domon Kasshu discard-trigger + Shining Gundam trash-exile-recursion + Darkness Finger's own bonus-draw once Master Gundam is out), then close with a Master Asia snipe that removes the only blocker before it can even be declared. At least the fourth loss to an MF/G Gundam-style deck this campaign (yui523 and ame in freedom_ibo_v1_1; Yodayo and now this game in freedom_ibo_v1_2) — this reinforces treating the matchup as needing a dedicated answer rather than three-going-on-four unrelated bad draws."

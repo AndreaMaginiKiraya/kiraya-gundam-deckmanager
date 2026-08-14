@@ -1,0 +1,226 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-13_kiraya-vs-x105"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+    X105:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Lfrith":
+    id: "GD01-086"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "X105"
+    seen:
+      - "blocker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overflowing Affection":
+    id: "GD01-118"
+    type: "COMMAND"
+    level: 2
+    cost: 1
+    owner: "X105"
+    seen:
+      - "command"
+      - "shield"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "X105"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "discarded"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "mulligan"
+  - player: "X105"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "X105"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 3
+    active_player: "X105"
+    actions:
+      - action: "play_command"
+        player: "X105"
+        card: "Overflowing Affection"
+        effects:
+          - "Overflowing Affection: Draw 2 cards"
+          - "Strike Rouge (Ootori) discarded"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "X105"
+    actions:
+      - action: "deploy"
+        card: "Gundam Lfrith"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 7
+    active_player: "X105"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "Gundam Lfrith"
+        final_target: "Gundam Lfrith"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Gundam Lfrith received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Overflowing Affection revealed and discarded"
+  - turn: 9
+    active_player: "X105"
+    actions: []
+  - turn: 10
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 8
+  X105:
+    - card: "Gundam Lfrith"
+      turn: 8
+    - card: "Strike Rouge (Ootori)"
+      turn: 8
+shields_tally:
+  Kiraya:
+    ex_base: "not destroyed in log"
+    shields_lost: 0
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 6
+  X105:
+    ex_base: "destroyed (turn 8)"
+    shields_lost: 1
+    shields_to_hand: 0
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Short game, decided by forfeit rather than by the board state: X105 timed out at t9 and conceded. At that point Kiraya was ahead but not overwhelmingly — X105's EX Base was destroyed and both sides had traded 2 units evenly (Gundam Barbatos 1st Form + Hyakuren for Gundam Lfrith + Strike Rouge (Ootori)), but Kiraya's shields were still untouched (6/6, EX Base not even engaged) while X105 was down to 5/6. A clear lead, but not yet a lock — too little data to draw archetype conclusions from just 3 X105 cards seen (Strike Rouge (Ootori), Gundam Lfrith, Overflowing Affection)."

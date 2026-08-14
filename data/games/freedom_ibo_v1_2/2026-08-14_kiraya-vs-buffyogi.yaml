@@ -1,0 +1,569 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-buffyogi"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+    BuffYogi:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "White"
+cards:
+  "Aile Strike Gundam":
+    id: "ST04-001"
+    note: "resolved: t11 pairing to Kira Yamato (Lv5) triggers 'Graze Custom returned to hand' (Graze Custom is HP2), matching ST04-001's own text verbatim ('When Paired · Lv.4 or Higher Pilot: Choose 1 enemy Unit with 4 or less HP. Return it to its owner's hand.'); its link is also [Kira Yamato], matching exactly. GD03-072 links [Mu La Flaga] and has an unrelated Deploy draw-discard ability, never observed"
+    owner: "BuffYogi"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+  "Akatsuki (Oowashi)":
+    id: "GD05-004"
+    type: "UNIT"
+    level: 6
+    cost: 6
+    ap: 4
+    hp: 4
+    owner: "BuffYogi"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Andrew Waldfeld":
+    id: "GD05-082"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    owner: "BuffYogi"
+    seen:
+      - "pilot"
+  Archangel:
+    id: null
+    candidates:
+      - "GD05-123"
+      - "ST04-015"
+    note: "ambiguous: both copies (t3, t15) only ever show the shared Deploy text ('Add 1 Shield to hand'); GD05-123's passive (opponent's-turn effect-damage reduction for (Orb) Units) and ST04-015's Activate-Main (un-rest a Blocker) never had a chance to trigger/be observed"
+    owner: "BuffYogi"
+    seen:
+      - "base"
+  Argama:
+    id: "GD02-129"
+    type: "BASE"
+    level: 3
+    cost: 1
+    hp: 5
+    owner: "BuffYogi"
+    seen:
+      - "base"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Buster Gundam":
+    id: null
+    candidates:
+      - "GD01-046"
+      - "GD02-076"
+    note: "ambiguous, evidence conflicts: HP progression at t10 (1 dmg from Gusion Rebake's Deploy ping, then 2 dmg blocking Graze Custom, 'leaving 1 HP remaining') only balances against GD01-046's printed HP4 (4-1-2=1); GD02-076's printed HP3 doesn't fit (3-1-2=0, would be destroyed). But the same block dealt 6 damage back to Graze Custom, which matches neither candidate's printed AP (GD01-046 AP1, GD02-076 AP4) and no AP-boosting effect is visible in the log — the AP side of the evidence doesn't resolve cleanly, so left unpinned rather than force it from HP math alone"
+    owner: "BuffYogi"
+    seen:
+      - "blocker"
+      - "deployed"
+  GM:
+    id: "ST01-005"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "BuffYogi"
+    seen:
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "returned to hand"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "returned to deck"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved for both owners: BuffYogi's copy paired to their own Strike Freedom Gundam at t15 ('Kira Yamato: Draw a card') and Kiraya's copy paired to Strike Freedom Gundam at t16 (same text) both match GD05-081's own When-Linked text verbatim ('If this is an (Orb)/(Triple Ship Alliance) Unit, draw 1' — Strike Freedom Gundam is (Orb)); ST04-010's Attack-triggered AP-2 debuff never observed for either copy"
+    owner:
+      - "BuffYogi"
+      - "Kiraya"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "returned to deck"
+  "Murasame (Andrew Waldfeld Unit)":
+    id: "GD05-003"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'Waldfeld's Murasame' (GD05-003, link [Andrew Waldfeld]) — same pattern documented in freedom_ibo_v1_2/2026-08-14_kiraya-vs-champ. Discarded from BuffYogi's own hand (2 copies) as the cost of BuffYogi's Strike Freedom Gundam's During Pair/Attack ability at t15"
+    owner: "BuffYogi"
+    seen:
+      - "discarded"
+  "Rick Dias":
+    id: "GD02-079"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "BuffYogi"
+    seen:
+      - "blocker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "BuffYogi"
+      - "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'Kira's Strike Rouge' (GD05-010, link [Kira Yamato]) — same pattern documented in freedom_ibo_v1_2/2026-08-14_kiraya-vs-champ"
+    owner: "BuffYogi"
+    seen:
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "BuffYogi"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "BuffYogi"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "BuffYogi"
+    actions:
+      - action: "deploy"
+        card: "GM"
+      - action: "play_base"
+        card: "Archangel"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "BuffYogi"
+    actions:
+      - action: "deploy"
+        card: "Rick Dias"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 7
+    active_player: "BuffYogi"
+    actions:
+      - action: "deploy"
+        card: "Buster Gundam"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Buster Gundam"
+        linked: true
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "Rick Dias"
+        final_target: "Rick Dias"
+        outcome:
+          - "Rick Dias received 4 damage, now destroyed"
+          - "Hyakuren received 3 damage, now destroyed"
+  - turn: 9
+    active_player: "BuffYogi"
+    actions:
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "Aile Strike Gundam"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Aile Strike Gundam received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 4 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Buster Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Archangel received 3 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "Buster Gundam"
+        final_target: "Buster Gundam"
+        outcome:
+          - "Buster Gundam received 2 damage, leaving 1 HP remaining"
+          - "Graze Custom received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Buster Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 2 damage, now destroyed"
+  - turn: 11
+    active_player: "BuffYogi"
+    actions:
+      - action: "play_base"
+        card: "Argama"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Aile Strike Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Aile Strike Gundam"
+        linked: true
+        effects:
+          - "Graze Custom returned to hand"
+      - action: "attack"
+        player: "BuffYogi"
+        attacker: "Aile Strike Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Aile Strike Gundam received 3 damage, leaving 3 HP remaining"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Aile Strike Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Aile Strike Gundam"
+        blockers: "none"
+        final_target: "Aile Strike Gundam"
+        outcome:
+          - "Aile Strike Gundam received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Argama"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Argama received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 13
+    active_player: "BuffYogi"
+    actions:
+      - action: "deploy"
+        card: "Akatsuki (Oowashi)"
+      - action: "pair_pilot"
+        pilot: "Andrew Waldfeld"
+        unit: "Akatsuki (Oowashi)"
+        linked: true
+        effects:
+          - "Graze Custom returned to hand"
+      - action: "attack"
+        player: "BuffYogi"
+        attacker: "Akatsuki (Oowashi)"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Akatsuki (Oowashi) received 3 damage, leaving 2 HP remaining"
+        effects:
+          - "Akatsuki (Oowashi) repaired 2 from [Repair 2]"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Strike Rouge (Kira's Unit) revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Barbatos Adapt and Gundam Gusion Rebake exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Akatsuki (Oowashi), leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Flauros (Ryusei-Go) and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Akatsuki (Oowashi), now destroyed"
+  - turn: 15
+    active_player: "BuffYogi"
+    actions:
+      - action: "play_base"
+        card: "Archangel"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "BuffYogi"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Murasame (Andrew Waldfeld Unit) and Murasame (Andrew Waldfeld Unit) discarded (BuffYogi's own hand, cost)"
+          - "Gundam Barbatos 1st Form (linked to Mikazuki Augus) returned to bottom of deck — the paired pilot goes with its Unit"
+          - "Axis received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Archangel"
+        outcome:
+          - "Archangel received 5 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 8
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 13
+    - card: "Axis"
+      turn: 15
+  BuffYogi:
+    - card: "Rick Dias"
+      turn: 8
+    - card: "Aile Strike Gundam"
+      turn: 10
+    - card: "Archangel"
+      turn: 10
+    - card: "Aile Strike Gundam"
+      turn: 12
+    - card: "Argama"
+      turn: 12
+    - card: "Akatsuki (Oowashi)"
+      turn: 14
+    - card: "Archangel"
+      turn: 16
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 14)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  BuffYogi:
+    ex_base: "replaced with a base (turn 3)"
+    shields_lost: 1
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Stravittoria netta per resa al t16: 0 scudi persi da Kiraya (5 rimaste) contro i 4 persi/3 in mano di BuffYogi, e Kiraya aveva ancora Strike Freedom Gundam a metà del proprio attacco finale quando l'avversario si è arreso — coerente con la dichiarazione di Kiraya di avere 3 piloti in mano pronti a superare le difese residue."
+  - "Gundam Barbatos Lupus (GD03-050) ha fatto il lavoro pesante al t14: due attivazioni consecutive nello stesso turno (esiliando 3+3 carte dal cimitero) hanno inflitto 2+2 danni ad Akatsuki (Oowashi), uccidendola nonostante il suo Repair 2 di fine turno l'avesse già portata a 2 HP il turno precedente — il combo di doppia attivazione nello stesso turno resta la firma distintiva di questa carta quando il cimitero è già pieno di materiale Tekkadan/Teiwaz."
+  - "L'unico vero scambio sfavorevole per Kiraya è stato il ciclo t11-t13: sia Aile Strike Gundam (Kira Yamato) sia Akatsuki (Oowashi) (Andrew Waldfeld) hanno distrutto Gundam Gusion Rebake in blocco diretto (6 danni ciascuna volta, ben sopra i 5 HP stampati), consumando 2 copie della carta in due turni consecutivi — ma il vantaggio di scudi accumulato nei turni 9-10 (doppia distruzione dell'Archangel avversario) ha reso questo cambio ininfluente sul risultato finale."
+  - "Kira Yamato di BuffYogi ha innescato lo stesso trigger 'When-Linked: pesca 1' della copia di Kiraya quando appaiato al proprio Strike Freedom Gundam (t15) — conferma diretta che GD05-081 è la stampa corretta per entrambe le copie in questa partita, un caso raro in cui l'ambiguità multi-istanza si risolve identicamente per entrambi i giocatori."

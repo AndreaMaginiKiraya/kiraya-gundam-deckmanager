@@ -1,0 +1,781 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-essen"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Essen:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Green"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Essen"
+    seen:
+      - "command"
+  "Amuro Ray":
+    id: "GD05-085"
+    note: "split by instance, two distinct copies both owned by Essen merged into one entry: t8 pairing (to 'Gundam'/ST01-001) triggers 'Rested unit: Gundam Barbatos 1st Form', matching ST01-010's own When-Paired text verbatim. t16 pairing (to Re-GZ) triggers 'Healed 2 damage to: Re-GZ' right after Re-GZ destroys Strike Rouge (Ootori) with battle damage during Essen's own turn, matching GD05-085's own text verbatim ('During your turn, when this Unit destroys an enemy Unit with battle damage, this Unit recovers 2 HP'). Pinned id here is the t16/GD05-085 instance; the t8 pairing is ST01-010."
+    owner: "Essen"
+    seen:
+      - "pilot"
+      - "returned to hand"
+      - "shield"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Delta Plus":
+    id: "GD01-006"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 3
+    owner: "Essen"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Gundam:
+    id: "ST01-001"
+    note: "resolved: 'Gundam repaired 2 from [Repair 2]' at end of t8 confirms the printed Repair 2 passive, and it's paired to Amuro Ray (ST01-010, confirmed via the same-turn rest effect) — same combo already confirmed in freedom_ibo_v1_2/2026-08-13_kiraya-vs-c23 and freedom_ibo_v1_2/2026-08-14_kiraya-vs-alvarn"
+    owner: "Essen"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "milled"
+  Jegan:
+    id: "GD05-027"
+    note: "resolved: t6 Kayra's Jegan's Deploy ability ('Kayra's Jegan: Modifier applied to: Jegan') requires choosing '1 of your (Londo Bell) Units' — only GD05-027 carries the (Londo Bell) trait, GD01-016 is (Earth Federation) only and couldn't legally be chosen"
+    owner: "Essen"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Kayra's Jegan":
+    id: "GD05-028"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 3
+    owner: "Essen"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Essen"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mutual Attraction":
+    id: "GD05-106"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Essen"
+    seen:
+      - "command"
+  "Nu Gundam":
+    id: "GD05-017"
+    note: "split by turn, two distinct printings both owned by Essen: t14 instance (paired with Amuro Ray, exiles 3 Londo Bell cards from trash including a previously shield-discarded Nu Gundam copy, then battle-damage-step-only vs Gundam Gusion Rebake and Gundam Barbatos 1st Form) is GD05-017's When-Paired text verbatim. t18 instance ('Nu Gundam deployed' / 'Placed 1 Resource EX') is GD05-020's Deploy text verbatim ('If there are 2+ (Londo Bell) cards in your trash, place 1 EX Resource'). Pinned id here is the t14/GD05-017 instance; t18's copy is GD05-020 — same split pattern as freedom_ibo_v1_2/2026-08-14_kiraya-vs-crimson110."
+    owner: "Essen"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Ra Cailum":
+    id: "GD05-125"
+    type: "BASE"
+    level: 3
+    cost: 1
+    ap: 0
+    hp: 5
+    owner: "Essen"
+    seen:
+      - "activated"
+      - "base"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Essen"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Re-GZ BWS":
+    id: "GD05-023"
+    type: "UNIT"
+    level: 3
+    cost: 3
+    ap: 2
+    hp: 2
+    owner: "Essen"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "milled"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+      - "shield"
+setup:
+  - player: "Essen"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Essen"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Essen"
+    actions:
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Essen"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck top"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 6
+    active_player: "Essen"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Jegan"
+        effects:
+          - "Kayra's Jegan: Modifier applied to: Jegan"
+      - action: "attack"
+        player: "Essen"
+        attacker: "Jegan"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 2 damage, now destroyed"
+          - "Jegan received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Essen"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos 1st Form and Kayra's Jegan"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "Kayra's Re-GZ"
+        blockers: "none"
+        final_target: "Kayra's Re-GZ"
+        outcome:
+          - "Kayra's Re-GZ received 2 damage, leaving 1 HP remaining"
+          - "Gundam Exia Repair received 3 damage, now destroyed"
+          - "Gundam Exia Repair: destroyed Kayra's Re-GZ"
+          - "Gundam Exia Repair milled 2: Strike Rouge (Ootori) and Hyakuren moved to trash"
+  - turn: 8
+    active_player: "Essen"
+    actions:
+      - action: "attack"
+        player: "Essen"
+        attacker: "Kayra's Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Essen"
+        attacker: "Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 6 damage, now destroyed"
+          - "Gundam received 3 damage, leaving 2 HP remaining"
+      - action: "play_base"
+        card: "Ra Cailum"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+          - "Gundam repaired 2 from [Repair 2]"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Kayra's Jegan"
+        blockers: "none"
+        final_target: "Kayra's Jegan"
+        outcome:
+          - "Kayra's Jegan received 2 damage, now destroyed"
+          - "Graze Custom received 2 damage, now destroyed"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Gundam Barbatos Adapt"
+        linked: false
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 5 damage, leaving 1 HP remaining"
+  - turn: 10
+    active_player: "Essen"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ BWS"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck top"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 4 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos 1st Form and Kayra's Re-GZ"
+  - turn: 12
+    active_player: "Essen"
+    actions:
+      - action: "play_command"
+        player: "Essen"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "activate"
+        card: "Ra Cailum"
+        effects:
+          - "Rested base: Ra Cailum"
+          - "Ra Cailum: Modifier applied to: Kayra's Re-GZ"
+      - action: "deploy"
+        card: "Kayra's Jegan"
+        effects:
+          - "Kayra's Jegan: Modifier applied to: Kayra's Re-GZ"
+      - action: "attack"
+        player: "Essen"
+        attacker: "Kayra's Re-GZ"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 3 damage, leaving 1 HP remaining"
+          - "Kayra's Re-GZ received 3 damage, reduced by 1, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Amuro Ray revealed"
+          - "Shield card added to hand: Amuro Ray"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Barbatos 1st Form and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Kayra's Jegan, leaving 1 HP remaining"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Kayra's Jegan"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Hyakuren and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Re-GZ BWS, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+  - turn: 14
+    active_player: "Essen"
+    actions:
+      - action: "play_base"
+        card: "Ra Cailum"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Nu Gundam"
+      - action: "activate"
+        card: "Ra Cailum"
+        effects:
+          - "Rested base: Ra Cailum"
+          - "Ra Cailum: Modifier applied to: Nu Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+        effects:
+          - "Kayra's Jegan, Re-GZ BWS and Nu Gundam exiled from the game"
+      - action: "attack"
+        player: "Essen"
+        attacker: "Nu Gundam"
+        trigger: "ability"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Nu Gundam received 3 damage, reduced by 1, leaving 5 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5: : Axis received 5 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Essen"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Barbatos 1st Form"
+        blockers: "none"
+        final_target: "Gundam Barbatos 1st Form"
+        outcome:
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+          - "Nu Gundam received 5 damage, reduced by 1, leaving 3 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 5: : Axis received 5 damage, now destroyed"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Lupus and Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "Nu Gundam"
+        blockers: "none"
+        final_target: "Nu Gundam"
+        outcome:
+          - "Nu Gundam received 5 damage, now destroyed"
+          - "Gundam Barbatos Lupus received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Rouge (Ootori)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "Ra Cailum received 3 damage, leaving 2 HP remaining"
+  - turn: 16
+    active_player: "Essen"
+    actions:
+      - action: "deploy"
+        card: "Delta Plus"
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ"
+        linked: true
+      - action: "activate"
+        card: "Ra Cailum"
+        effects:
+          - "Rested base: Ra Cailum"
+          - "Ra Cailum: Modifier applied to: Re-GZ"
+      - action: "attack"
+        player: "Essen"
+        attacker: "Re-GZ"
+        declared_target: "Strike Rouge (Ootori)"
+        blockers: "none"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 6 damage, now destroyed"
+          - "Re-GZ received 3 damage, reduced by 1, leaving 2 HP remaining"
+          - "Healed 2 damage to: Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Delta Plus"
+        linked: true
+      - action: "attack"
+        player: "Essen"
+        attacker: "Delta Plus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Delta Plus and Re-GZ"
+          - "Card added to hand: Nu Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Ra Cailum"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Ra Cailum received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+  - turn: 18
+    active_player: "Essen"
+    actions:
+      - action: "deploy"
+        card: "Nu Gundam"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "play_command"
+        player: "Essen"
+        card: "Mutual Attraction"
+        effects:
+          - "Amuro Ray returned to hand"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Nu Gundam"
+        linked: true
+      - action: "attack"
+        player: "Essen"
+        attacker: "Nu Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Nu Gundam received 3 damage, leaving 3 HP remaining"
+          - "Healed 2 damage to: Nu Gundam"
+          - "Breach 3 Shield card: Widespread Annihilation revealed and discarded"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Nu Gundam revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Essen:
+    - card: "Jegan"
+      turn: 6
+    - card: "Kayra's Re-GZ"
+      turn: 7
+    - card: "Kayra's Jegan"
+      turn: 9
+    - card: "Gundam"
+      turn: 9
+    - card: "Kayra's Re-GZ"
+      turn: 12
+    - card: "Ra Cailum"
+      turn: 13
+    - card: "Re-GZ BWS"
+      turn: 13
+    - card: "Nu Gundam"
+      turn: 15
+    - card: "Ra Cailum"
+      turn: 17
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 7
+    - card: "Gundam Barbatos 1st Form"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Gundam Barbatos 1st Form"
+      turn: 14
+    - card: "Axis"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 15
+    - card: "Strike Rouge (Ootori)"
+      turn: 16
+    - card: "Gundam Gusion Rebake"
+      turn: 18
+  unattributed:
+    - card: "Delta Plus and Re-GZ"
+      turn: 17
+shields_tally:
+  Essen:
+    ex_base: "replaced with a base (turn 8)"
+    shields_lost: 3
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 3
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 2
+study_notes:
+  - "Seconda vittoria di fila senza mai vedere Strike Freedom Gundam (0 copie pescate in 19 turni, come nella sconfitta precedente contro Alvarn) — stavolta il piano B ha retto: Strike Rouge (Ootori), unico corpo <Blocker> del mazzo, è stata usata una sola volta come bloccante (t12, salvando Gundam Barbatos 1st Form dall'attacco di Kayra's Re-GZ) invece di ogni turno, lasciando che gli scudi assorbissero altri colpi quando il cambio non conveniva — esattamente il 'dosare i blocker' descritto da Kiraya, e la differenza dei 2 scudi rimasti a fine partita (contro 0 di Essen) lo conferma."
+  - "Gundam Barbatos Lupus ha di nuovo deciso un turno con la doppia attivazione (t13): 6 carte Tekkadan/Teiwaz esiliate in due tranche uccidono sia Kayra's Jegan sia Re-GZ BWS, ripulendo il board avversario proprio prima che il pacchetto Nu Gundam/Amuro Ray di Essen potesse stabilizzarsi — stesso schema già visto vincente nelle partite #22 e #24 contro questo archetipo."
+  - "Essen porta ENTRAMBE le stampe sia di Amuro Ray (ST01-010 al t8, riposo su 'Gundam'; GD05-085 al t16, cura-da-uccisione su Re-GZ) sia di Nu Gundam (GD05-017 al t14, esilio-per-battaglia; GD05-020 al t18, Deploy piazza-Risorsa-EX) nello stesso game — conferma che il mazzo Toolbox Gundam+Amuro Ray non gioca una sola copia per carta ma mescola le due stampe di proposito, quindi ogni nuova istanza va comunque verificata dal testo osservato piuttosto che assumere la stampa già vista in partite precedenti contro lo stesso archetipo."
+  - "Widespread Annihilation al t17 (Delta Plus + Re-GZ, entrambi Lv4) ha ripetuto lo stesso 2-per-0 pulito già visto contro Alvarn — la soglia Lv.4-o-meno continua a intercettare bene lo swarm di supporto di questo archetipo (Jegan, Re-GZ, Delta Plus) anche se non tocca mai Nu Gundam stesso (Lv7)."

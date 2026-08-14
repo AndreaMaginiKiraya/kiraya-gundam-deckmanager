@@ -1,0 +1,972 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-saikyo"
+  date_imported: "2026-08-13"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:saikyo"
+  players:
+    saikyo:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+    Kiraya:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "saikyo"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "saikyo"
+    seen:
+      - "command"
+      - "discarded"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Banagher Links":
+    id: "GD01-088"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "saikyo"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "shield"
+  "Battle of Aces":
+    id: "GD01-111"
+    type: "COMMAND"
+    level: 3
+    cost: 2
+    owner: "saikyo"
+    seen:
+      - "command"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "saikyo"
+    seen:
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "saikyo"
+    seen:
+      - "command"
+  "Full Armor Unicorn Gundam (Unicorn Mode)":
+    id: "GD03-016"
+    type: "UNIT"
+    level: 5
+    cost: 3
+    ap: 5
+    hp: 4
+    owner: "saikyo"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "exiled"
+      - "returned to deck"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "milled"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "saikyo"
+    seen:
+      - "command"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved by hand: every battlefield instance this game belongs to saikyo (Kiraya's own copy was only ever a shield reveal, never deployed) and consistently shows 【When Linked】draw 1 — 'Kira Yamato: Draw a card' at t8 (Kira's Strike Rouge), t14/t19/t22 (Strike Freedom Gundam) — never the ST04-010 Attack-modifier pattern."
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner:
+      - "Kiraya"
+      - "saikyo"
+    seen:
+      - "pilot"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved by hand, same as every prior game this campaign: 'M1 Astray Shrike' (GD05-015)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "saikyo"
+    seen:
+      - "discarded"
+      - "pilot"
+      - "returned to deck"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "saikyo"
+    seen:
+      - "base"
+      - "discarded"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "saikyo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Strike Rouge (Kira's Unit)":
+    id: "GD05-010"
+    note: "resolved per the documented CLAUDE.md pattern: Mobile Suit Arena displays some Linked Units under '<base name> (<Pilot>'s Unit)' once the Link condition is met, instead of the printed name. Confirmed here since 'Kira's Strike Rouge' (GD05-010) is the only Strike Rouge printing with Link [Kira Yamato] — matching 'Linked pilot: Kira Yamato on unit Strike Rouge (Kira's Unit)' at t8 exactly."
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 4
+    owner: "saikyo"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "milled"
+      - "returned to deck"
+  "Unicorn Gundam (Destroy Mode)":
+    id: "GD01-002"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 4
+    owner: "saikyo"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Unicorn Gundam (Unicorn Mode)":
+    id: "GD01-005"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 4
+    hp: 3
+    owner: "saikyo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "saikyo"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+      - "returned to deck"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+setup:
+  - player: "saikyo"
+    action: "choose_second_player"
+  - player: "saikyo"
+    action: "keep_hand"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "saikyo"
+    actions:
+      - action: "play_command"
+        player: "saikyo"
+        card: "Airframe Seizure"
+        effects:
+          - "Strike Freedom Gundam discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "saikyo"
+    actions: []
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 6
+    active_player: "saikyo"
+    actions:
+      - action: "deploy"
+        card: "Strike Rouge (Kira's Unit)"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 8
+    active_player: "saikyo"
+    actions:
+      - action: "play_command"
+        player: "saikyo"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Strike Rouge (Ootori) and Hyakuren moved to trash"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Rouge (Kira's Unit)"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Strike Rouge (Kira's Unit)"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 5 damage, now destroyed"
+          - "Strike Rouge (Kira's Unit) received 2 damage, leaving 4 HP remaining"
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        effects:
+          - "Shield card added to hand"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "Strike Rouge (Kira's Unit)"
+        blockers: "none"
+        final_target: "Strike Rouge (Kira's Unit)"
+        outcome:
+          - "Strike Rouge (Kira's Unit) received 4 damage, now destroyed"
+          - "Hyakuren received 5 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+  - turn: 10
+    active_player: "saikyo"
+    actions:
+      - action: "deploy"
+        card: "Full Armor Unicorn Gundam (Unicorn Mode)"
+      - action: "pair_pilot"
+        pilot: "Banagher Links"
+        unit: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        linked: true
+        effects:
+          - "Banagher Links: Draw a card"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Full Armor Unicorn Gundam (Unicorn Mode) received 3 damage, leaving 3 HP remaining"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Full Armor Unicorn Gundam (Unicorn Mode)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Full Armor Unicorn Gundam (Unicorn Mode)"
+  - turn: 12
+    active_player: "saikyo"
+    actions:
+      - action: "play_command"
+        player: "saikyo"
+        card: "Battle of Aces"
+        effects:
+          - "Battle of Aces: Dealt 3 damage to Gundam Barbatos Adapt, now destroyed"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Full Armor Unicorn Gundam (Unicorn Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 7 damage, now destroyed"
+      - action: "activate"
+        card: "Unicorn Gundam (Destroy Mode)"
+        effects:
+          - "Full Armor Unicorn Gundam (Unicorn Mode): destroyed"
+      - action: "deploy"
+        card: "Unicorn Gundam (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Banagher Links"
+        unit: "Unicorn Gundam (Destroy Mode)"
+        linked: true
+        effects:
+          - "Banagher Links: Draw a card"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Unicorn Gundam (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Rested unit: Gundam Gusion Rebake"
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "saikyo"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Unicorn Gundam (Destroy Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "Unicorn Gundam (Destroy Mode)"
+        blockers: "none"
+        final_target: "Unicorn Gundam (Destroy Mode)"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Unicorn Gundam (Destroy Mode) received 5 damage, now destroyed"
+          - "Gundam Barbatos 1st Form received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 14
+    active_player: "saikyo"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Marida Cruz and Mining Asteroid Palau discarded"
+          - "Gundam Barbatos 1st Form returned to deck"
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, leaving 5 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 4 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 16
+    active_player: "saikyo"
+    actions:
+      - action: "play_command"
+        player: "saikyo"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Strike Rouge (Ootori), leaving 1 HP remaining"
+      - action: "play_command"
+        player: "saikyo"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Strike Rouge (Ootori), now destroyed"
+      - action: "play_command"
+        player: "saikyo"
+        card: "Airframe Seizure"
+        effects:
+          - "Unicorn Gundam (Unicorn Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "play_command"
+        player: "saikyo"
+        card: "Airframe Seizure"
+        effects:
+          - "Unicorn Gundam (Unicorn Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "play_command"
+        player: "saikyo"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Flauros (Ryusei-Go), leaving 1 HP remaining"
+  - turn: 18
+    active_player: "saikyo"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "play_command"
+        player: "saikyo"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "saikyo"
+        card: "Airframe Seizure"
+        effects:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "Axis"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Flauros (Ryusei-Go), now destroyed"
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Axis received 7 damage, now destroyed"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "shield"
+        outcome:
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "No targets for Marida Cruz"
+          - "Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Widespread Annihilation and Gundam Barbatos 1st Form discarded"
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) and Marida Cruz returned to deck"
+          - "Mining Asteroid Palau received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+  - turn: 20
+    active_player: "saikyo"
+    actions:
+      - action: "play_command"
+        player: "saikyo"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "saikyo"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Gundam Barbatos Adapt, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "saikyo"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos Adapt, now destroyed"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+  - turn: 22
+    active_player: "saikyo"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_command"
+        player: "saikyo"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "play_command"
+        player: "saikyo"
+        card: "Airframe Seizure"
+        effects:
+          - "Airframe Seizure discarded"
+          - "Airframe Seizure: Draw 2 cards"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Strike Freedom Gundam and Banagher Links discarded"
+          - "Strike Rouge (Ootori) returned to deck"
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+  - turn: 23
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Banagher Links revealed"
+          - "Shield card added to hand: Banagher Links"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 7 damage, leaving 1 HP remaining"
+          - "Strike Freedom Gundam received 7 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Strike Freedom Gundam, now destroyed"
+  - turn: 24
+    active_player: "saikyo"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+      - action: "play_command"
+        player: "saikyo"
+        card: "Battle of Aces"
+        effects:
+          - "Battle of Aces: Dealt 3 damage to Strike Freedom Gundam, now destroyed"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "none"
+        modifiers:
+          - "Unicorn Gundam 02 Banshee (Destroy Mode): Modifier applied to: Unicorn Gundam 02 Banshee (Destroy Mode)"
+        final_target: "Gundam Barbatos Adapt"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to M1 Astray (Shrike), leaving 1 HP remaining"
+          - "Returned to deck bottom"
+          - "Set Active: Unicorn Gundam 02 Banshee (Destroy Mode)"
+          - "Gundam Barbatos Adapt received 7 damage, now destroyed"
+          - "Damage prevented"
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) received 0 damage, leaving 5 HP remaining"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to M1 Astray (Shrike), now destroyed"
+          - "Shield card: Gundam Barbatos Lupus revealed and discarded"
+  - turn: 25
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Barbatos Adapt and Gundam Barbatos Lupus exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Unicorn Gundam 02 Banshee (Destroy Mode), leaving 3 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Flauros (Ryusei-Go), Gundam Barbatos 1st Form and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Unicorn Gundam 02 Banshee (Destroy Mode), leaving 1 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Gundam Gusion Rebake and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Unicorn Gundam 02 Banshee (Destroy Mode), now destroyed"
+  - turn: 26
+    active_player: "saikyo"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam (Unicorn Mode)"
+      - action: "pair_pilot"
+        pilot: "Banagher Links"
+        unit: "Unicorn Gundam (Unicorn Mode)"
+        linked: true
+        effects:
+          - "Banagher Links: Draw a card"
+      - action: "deploy"
+        card: "Unicorn Gundam (Unicorn Mode)"
+      - action: "pair_pilot"
+        pilot: "Banagher Links"
+        unit: "Unicorn Gundam (Unicorn Mode)"
+        linked: true
+        effects:
+          - "Banagher Links: Draw a card"
+      - action: "attack"
+        player: "saikyo"
+        attacker: "Unicorn Gundam (Unicorn Mode)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  saikyo:
+    - card: "Strike Rouge (Kira's Unit)"
+      turn: 9
+    - card: "Unicorn Gundam (Destroy Mode)"
+      turn: 13
+    - card: "Mining Asteroid Palau"
+      turn: 19
+    - card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      turn: 25
+  Kiraya:
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Hyakuren"
+      turn: 9
+    - card: "Gundam Gusion Rebake"
+      turn: 10
+    - card: "Gundam Barbatos Adapt"
+      turn: 12
+    - card: "Axis"
+      turn: 12
+    - card: "Gundam Barbatos 1st Form"
+      turn: 13
+    - card: "Gundam Gusion Rebake"
+      turn: 14
+    - card: "Gundam Barbatos Adapt"
+      turn: 15
+    - card: "Strike Rouge (Ootori)"
+      turn: 16
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 18
+    - card: "Axis"
+      turn: 18
+    - card: "Gundam Barbatos Adapt"
+      turn: 20
+    - card: "Gundam Barbatos Adapt"
+      turn: 24
+    - card: "M1 Astray (Shrike)"
+      turn: 24
+  unattributed:
+    - card: "Full Armor Unicorn Gundam (Unicorn Mode):"
+      turn: 12
+    - card: "Strike Freedom Gundam"
+      turn: 15
+    - card: "Strike Freedom Gundam"
+      turn: 23
+    - card: "Strike Freedom Gundam"
+      turn: 24
+shields_tally:
+  saikyo:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 0
+    shields_to_hand: 3
+    shields_deployed: 0
+    shields_remaining: 3
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 3
+    shields_deployed: 1
+    shields_remaining: 0
+study_notes:
+  - "Kiraya's read is verified: Gundam Barbatos Lupus (3 copies in the decklist) was effectively unavailable all game. 2 of the 3 copies sat in the shield zone and got discarded unplayed (t22, t24 — 'Shield card: Gundam Barbatos Lupus revealed and discarded'), and the 3rd/last copy wasn't drawn and deployed until t25, the second-to-last turn of a 26-turn game. This is real bad luck on a key engine piece, not a sequencing or play error — the deck's best removal tool for this exact matchup (repeatable Activate: exile 3 trash cards, 2 damage) simply wasn't accessible until it was almost too late."
+  - "When Barbatos Lupus finally landed at t25, it performed exactly as designed: 3 separate Activations in one turn killed an Unicorn Gundam 02 Banshee (Destroy Mode) that still had 7 HP, entirely for free (using already-dead trash cards as fuel). A clean demonstration that the card is excellent when available — the problem was availability, not the plan."
+  - "saikyo's list is the same 'heavy direct removal + Unicorn Gundam 02 Banshee (Destroy Mode)' archetype already flagged as a tough matchup in freedom_ibo_v1_1 (2-0 there, but on a small sample) — Close Combat, Improved Technique, Darkness Finger, Battle of Aces for removal, Airframe Seizure/A Show of Resolve for a big card-draw engine, and a near-complete Unicorn Gundam toolbox (Full Armor Unicorn → Destroy Mode transformation, standalone Destroy Mode, 02 Banshee Destroy Mode, 2x plain Unicorn Mode at the very end) providing a stream of hard-to-answer bodies. Banshee (Destroy Mode)'s own 'return to deck bottom, set active' loop effectively grants it 2 attacks most turns, which is what let it clear Kiraya's board repeatedly (t18, t24) even while damaged."
+  - "No misplay found on review — the mirror Strike Freedom Gundam trade at t23 (both to 1 HP) followed by M1 Astray Shrike's ping finishing saikyo's copy was a clean, correctly-sequenced play; saikyo's own Battle of Aces answered Kiraya's copy back at t24. A long, well-fought grind decided by removal density plus the Barbatos Lupus availability problem, not by a specific error."

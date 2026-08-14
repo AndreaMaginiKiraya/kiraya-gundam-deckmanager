@@ -1,0 +1,740 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-12_kiraya-vs-altis"
+  date_imported: "2026-08-12"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Altis"
+  players:
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+    Altis:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Green"
+        - "Red"
+      colors_note: "raw log/card aggregation showed a 3rd color (White) from a single card, Guel Jeturk (GD01-097) — likely a card-database color error or parser misattribution, not a real 3-color deck (against the rules). Corrected to Red/Green, the color of 9 of the 10 color-known cards Altis played."
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "Altis"
+    seen:
+      - "added to hand"
+      - "command"
+  "Darkness Finger":
+    id: "GD05-110"
+    type: "COMMAND"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Altis"
+    seen:
+      - "command"
+  "Demi Barding":
+    id: "GD05-025"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Altis"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Guel Jeturk":
+    id: "GD01-097"
+    type: "PILOT"
+    level: 3
+    cost: 1
+    ap: 1
+    hp: 1
+    owner: "Altis"
+    seen:
+      - "added to hand"
+  "Gundam Aerial Rebuild":
+    id: "GD04-024"
+    note: "resolved by hand: 【Deploy】'look at top 3, may reveal 1 (Academy) Unit/Command card, add to hand' matches both instances exactly — 'Card added to hand: Guel Jeturk' (t12) and 'Card added to hand: Gundam Calibarn' (t14). The other candidates trigger on Pair, not Deploy, so don't fit."
+    type: "UNIT"
+    level: 7
+    cost: 5
+    ap: 5
+    hp: 5
+    owner: "Altis"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Calibarn":
+    id: "GD05-018"
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 7
+    hp: 5
+    owner: "Altis"
+    seen:
+      - "added to hand"
+      - "attacker"
+      - "deployed"
+  "Gundam Exia":
+    id: "GD04-038"
+    note: "resolved by hand: 【Deploy】'if 2+ enemy Units are in play, choose 1 enemy Unit that is Lv.2 or lower, deal 2 damage' matches every instance — killed a Lv.2 Graze Custom at t4 and t6 (2+ Kiraya units in play both times), then whiffed with 'No targets for Gundam Exia' at t16 when Kiraya had only 1 Unit (Strike Freedom Gundam) in play, exactly matching the 2-or-more-enemy-Units precondition failing."
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 2
+    hp: 1
+    owner: "Altis"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Schwarzette":
+    id: "GD05-022"
+    type: "UNIT"
+    level: 6
+    cost: 5
+    ap: 5
+    hp: 4
+    owner: "Altis"
+    seen:
+      - "attacker"
+      - "deployed"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Altis"
+    seen:
+      - "command"
+      - "shield"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "PILOT"
+    level: 5
+    cost: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved by hand, same as every prior game this campaign: 'M1 Astray Shrike' (GD05-015)."
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 1
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "discarded"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Overwhelming Pressure":
+    id: "GD04-109"
+    type: "COMMAND"
+    level: 5
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Altis"
+    seen:
+      - "command"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "shield"
+  "Suletta Mercury":
+    id: null
+    candidates:
+      - "GD04-085"
+      - "ST01-011"
+    note: "checked but unresolvable: revealed as a shield (Burst text is identical on both prints) then Linked to Gundam Calibarn at t16, but every effect seen right after ('Gundam Calibarn: Modifier applied to: Gundam Calibarn' x2, 'Placed 3 Resource EX') is Calibarn's own ability, not Suletta's — neither GD04-085's EX-Resource refill nor ST01-011's Attack-phase Resource-activation ever showed up distinctly in the log."
+    owner: "Altis"
+    seen:
+      - "pilot"
+      - "shield"
+  "Widespread Annihilation":
+    id: "GD05-114"
+    type: "COMMAND"
+    level: 6
+    cost: 6
+    ap: 0
+    hp: 0
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "command"
+setup:
+  - player: "Kiraya"
+    action: "choose_first_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Altis"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Altis"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 4
+    active_player: "Altis"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia"
+        effects:
+          - "Gundam Exia: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 6
+    active_player: "Altis"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia"
+        effects:
+          - "Gundam Exia: Dealt 2 damage to Graze Custom, now destroyed"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Exia"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 8
+    active_player: "Altis"
+    actions:
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Exia"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 2 damage, now destroyed"
+          - "Gundam Exia received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Exia"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 2 damage, leaving 4 HP remaining"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Exia"
+      - action: "play_command"
+        player: "Altis"
+        card: "Overwhelming Pressure"
+        effects:
+          - "Overwhelming Pressure: Dealt 4 damage to Gundam Gusion Rebake, now destroyed"
+  - turn: 10
+    active_player: "Altis"
+    actions:
+      - action: "deploy"
+        card: "Gundam Schwarzette"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "Gundam Barbatos Adapt: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Schwarzette"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Adapt and Gundam Schwarzette"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Improved Technique revealed"
+          - "Shield card: Improved Technique moved to trash"
+          - "Improved Technique: Dealt 3 damage to Gundam Barbatos Adapt, now destroyed"
+  - turn: 12
+    active_player: "Altis"
+    actions:
+      - action: "deploy"
+        card: "Gundam Aerial Rebuild"
+        effects:
+          - "Card added to hand: Guel Jeturk"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Schwarzette"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, now destroyed"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Axis"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Graze Custom, Graze Custom and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Schwarzette, now destroyed"
+  - turn: 14
+    active_player: "Altis"
+    actions:
+      - action: "deploy"
+        card: "Gundam Aerial Rebuild"
+        effects:
+          - "Card added to hand: Gundam Calibarn"
+      - action: "deploy"
+        card: "Demi Barding"
+        effects:
+          - "Card added to hand: Guel Jeturk"
+  - turn: 15
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Suletta Mercury revealed"
+          - "Shield card added to hand: Suletta Mercury"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Exia Repair and M1 Astray (Shrike) discarded"
+          - "Demi Barding returned to deck"
+          - "Shield card: Improved Technique revealed"
+          - "No targets for Improved Technique"
+          - "Shield card: Improved Technique moved to trash"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Lupus"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos Lupus and Gundam Aerial Rebuild"
+  - turn: 16
+    active_player: "Altis"
+    actions:
+      - action: "deploy"
+        card: "Gundam Calibarn"
+        effects:
+          - "Placed 3 Resource EX"
+      - action: "pair_pilot"
+        pilot: "Suletta Mercury"
+        unit: "Gundam Calibarn"
+        linked: true
+        effects:
+          - "Gundam Calibarn: Modifier applied to: Gundam Calibarn"
+      - action: "deploy"
+        card: "Gundam Exia"
+        effects:
+          - "No targets for Gundam Exia"
+          - "Gundam Calibarn: Modifier applied to: Gundam Calibarn"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Calibarn"
+        declared_target: "Strike Freedom Gundam"
+        blockers: "none"
+        final_target: "Strike Freedom Gundam"
+        outcome:
+          - "Strike Freedom Gundam received 9 damage, now destroyed"
+          - "Gundam Calibarn received 7 damage, reduced by 6, leaving 6 HP remaining"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Aerial Rebuild"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "none"
+        final_target: "Gundam Barbatos Lupus"
+        outcome:
+          - "Gundam Barbatos Lupus received 5 damage, now destroyed"
+          - "Gundam Aerial Rebuild received 7 damage, now destroyed"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Aerial Rebuild"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, leaving 1 HP remaining"
+  - turn: 17
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam Exia"
+  - turn: 18
+    active_player: "Altis"
+    actions:
+      - action: "deploy"
+        card: "Gundam Schwarzette"
+      - action: "play_command"
+        player: "Altis"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Gundam Gusion Rebake, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Altis"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Gusion Rebake, now destroyed"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Aerial Rebuild"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Axis"
+        outcome:
+          - "Axis received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Calibarn"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+  - turn: 19
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos Lupus, Gundam Gusion Rebake and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Gundam Schwarzette, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+  - turn: 20
+    active_player: "Altis"
+    actions:
+      - action: "deploy"
+        card: "Demi Barding"
+        effects:
+          - "Card added to hand: Close Combat"
+      - action: "play_command"
+        player: "Altis"
+        card: "Darkness Finger"
+        effects:
+          - "Darkness Finger: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Schwarzette"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Rouge (Ootori) revealed and discarded"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Calibarn"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Hyakuren revealed and discarded"
+      - action: "play_command"
+        player: "Altis"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos Lupus, leaving 3 HP remaining"
+      - action: "play_command"
+        player: "Altis"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos Lupus, leaving 1 HP remaining"
+      - action: "play_command"
+        player: "Altis"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos Lupus, now destroyed"
+  - turn: 21
+    active_player: "Kiraya"
+    actions:
+      - action: "play_command"
+        player: "Kiraya"
+        card: "Widespread Annihilation"
+        effects:
+          - "Widespread Annihilation: destroyed Demi Barding"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 22
+    active_player: "Altis"
+    actions:
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Schwarzette"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Flauros (Ryusei-Go) revealed and discarded"
+      - action: "attack"
+        player: "Altis"
+        attacker: "Gundam Calibarn"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No more shields available, game is over!"
+casualties:
+  Kiraya:
+    - card: "Graze Custom"
+      turn: 4
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Graze Custom"
+      turn: 8
+    - card: "Gundam Gusion Rebake"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 11
+    - card: "Axis"
+      turn: 12
+    - card: "Strike Freedom Gundam"
+      turn: 16
+    - card: "Gundam Barbatos Lupus"
+      turn: 16
+    - card: "Gundam Gusion Rebake"
+      turn: 18
+    - card: "Axis"
+      turn: 18
+    - card: "Gundam Barbatos 1st Form"
+      turn: 20
+    - card: "Gundam Barbatos Lupus"
+      turn: 20
+  Altis:
+    - card: "Gundam Exia"
+      turn: 8
+    - card: "Gundam Schwarzette"
+      turn: 13
+    - card: "Gundam Aerial Rebuild"
+      turn: 16
+    - card: "Demi Barding"
+      turn: 21
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 4
+    shields_to_hand: 2
+    shields_deployed: 0
+    shields_remaining: 0
+  Altis:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 2
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 3
+study_notes:
+  - "Gundam Exia (GD04-038)'s Deploy ability ('if 2+ enemy Units in play, choose an enemy Unit Lv.2 or lower, deal 2 damage') specifically punishes this deck's early curve: it picked off 3 separate copies of Graze Custom for free across t4, t6 and t8, denying the exact early-aggro pattern that worked so well in prior wins this campaign (vs KYPC, vs WiNG)."
+  - "t11's Improved Technique killed Gundam Barbatos Adapt straight out of the shield zone (Burst-activated on reveal, not played from hand) — the same generic-removal shield-burst pattern (Improved Technique, Darkness Finger, Close Combat, Overwhelming Pressure) already logged once for this exact archetype in freedom_ibo_v1_1/ANALISI.md (game #23, a win). This time the removal suite showed up far more densely: 4 distinct removal spells fired across the whole game, methodically answering every Kiraya threat deployed after t11 (Gusion Rebake x2, Barbatos Adapt, Barbatos 1st Form x2, Barbatos Lupus x2)."
+  - "t16 was the decisive turn: Gundam Calibarn (GD05-018, AP7/HP5 with a damage-reduction clause) one-shot Strike Freedom Gundam (9 dmg vs. 6 HP) while its own damage was reduced from 7 to 1 net, and in the same turn Gundam Aerial Rebuild traded up into Gundam Barbatos Lupus and chipped Axis to 1 HP — Kiraya's two biggest threats died in a single opposing turn to a top-end bomb (Calibarn) this matchup hadn't shown before."
+  - "Gundam Aerial Rebuild (GD04-024)'s Deploy ability (dig 3 for an Academy Unit/Command, add to hand) fueled Altis's hand twice (Guel Jeturk t12, Gundam Calibarn itself t14) — the removal density in the back half of the game is partly explained by this card finding more answers, not just a lucky draw."
+  - "Net verdict: a clear loss, not a close one (12 Kiraya units/bases lost vs. 4 for Altis, 0 shields remaining vs. 3). Two structural problems stacked: Gundam Exia neutralizes the deck's cheap early units before they can apply pressure, and once that early plan is denied, the matchup's dense generic-removal suite (now confirmed recurring: same 4 spells as the freedom_ibo_v1_1 win) has time to answer every subsequent threat one at a time, including a new top-end bomb (Gundam Calibarn) not seen in the earlier encounter with this archetype. First loss this campaign to 'Witch from Mercury / G-Witch control' (see freedom_ibo_v1_1/ANALISI.md game #23 for the earlier win against the same archetype)."
