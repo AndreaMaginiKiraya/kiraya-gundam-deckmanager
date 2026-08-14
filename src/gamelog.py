@@ -232,12 +232,18 @@ def parse_game_log(text: str) -> dict:
             source_header = " / ".join(lines[:start])
         lines = lines[start:]
 
-    # Player names are the lines immediately preceding a setup-choice line.
+    # Player names are the lines immediately preceding a setup-choice line,
+    # skipping past any noise lines (flow markers, timeout warnings like
+    # "Timeout 1") that the client can interleave between a speaker's name
+    # and their actual choice.
     players: list[str] = []
     for i, ln in enumerate(lines):
         if ln in _SETUP_CHOICES and i > 0:
-            prev = lines[i - 1]
-            if prev not in _SETUP_CHOICES and prev not in _MARKERS and prev not in players:
+            j = i - 1
+            while j >= 0 and (lines[j] in _MARKERS or _TIMEOUT_RE.match(lines[j])):
+                j -= 1
+            prev = lines[j] if j >= 0 else None
+            if prev is not None and prev not in _SETUP_CHOICES and prev not in players:
                 players.append(prev)
 
     def other(player: str | None) -> str | None:

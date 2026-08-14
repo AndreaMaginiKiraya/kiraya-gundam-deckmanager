@@ -669,6 +669,32 @@ Turn end phase started"""
     assert parsed["unparsed"] == []
 
 
+def test_timeout_warning_between_player_name_and_setup_choice():
+    # Regression test: a "Timeout N" auto-pass warning interleaved between a
+    # player's name and their setup choice ("Crimson110" / "Timeout 1" /
+    # "Choose to keep starting hand") used to get picked up as the player's
+    # name instead of "Crimson110" (only one line was looked back), which
+    # then made every later "Crimson110" speaker-header line unrecognized
+    # and dumped into unparsed.
+    snippet = """Game started!
+Kiraya
+Choose to play second
+Choose to keep starting hand
+Crimson110
+Timeout 1
+Choose to keep starting hand
+Turn 1 started!
+Turn end phase started
+Kiraya
+Passed
+Crimson110
+Passed
+Turn ended!"""
+    parsed = gamelog.parse_game_log(snippet)
+    assert parsed["players"] == ["Kiraya", "Crimson110"]
+    assert parsed["unparsed"] == []
+
+
 def test_ex_base_destroyed_via_breach_updates_tally():
     # Regression test: "Breach N: : EX Base received N damage, now
     # destroyed" was only ever recorded via record_death (which explicitly
