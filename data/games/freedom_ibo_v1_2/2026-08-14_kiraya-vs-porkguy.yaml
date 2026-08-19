@@ -1,0 +1,753 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-porkguy"
+  date_imported: "2026-08-17"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+    Porkguy:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Red"
+cards:
+  "A Show of Resolve":
+    id: "GD01-100"
+    type: "COMMAND"
+    level: 4
+    cost: 3
+    owner: "Porkguy"
+    seen:
+      - "command"
+  "Airframe Seizure":
+    id: "GD05-111"
+    type: "COMMAND"
+    level: 1
+    cost: 1
+    ap: 0
+    hp: 0
+    owner: "Porkguy"
+    seen:
+      - "command"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "discarded"
+  "Battle of Aces":
+    id: "GD01-111"
+    type: "COMMAND"
+    level: 3
+    cost: 2
+    owner: "Porkguy"
+    seen:
+      - "command"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "Porkguy"
+    seen:
+      - "command"
+      - "shield"
+  "EX Base":
+    id: null
+    candidates:
+      - "EXB-001"
+      - "EXBP-001"
+      - "EXBP-002"
+    note: "ambiguous but inconsequential: these are just parallel-art printings of the same generic starting Base with no functional difference; not worth pinning"
+    owner: "Porkguy"
+    seen:
+      - "base"
+  Financier:
+    id: "GD04-110"
+    type: "COMMAND"
+    level: 6
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Porkguy"
+    seen:
+      - "command"
+  "Full Frontal":
+    id: "ST03-010"
+    type: "PILOT"
+    level: 6
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Porkguy"
+    seen:
+      - "discarded"
+      - "pilot"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Porkguy"
+    seen:
+      - "command"
+  "Kira Yamato":
+    id: "GD05-081"
+    note: "split by owner, two distinct cards sharing this name merged into one entry: Kiraya's own copy (paired to Strike Freedom Gundam twice, t18 and t20, 'Kira Yamato: Draw a card' each time) matches GD05-081's own When-Linked text verbatim and is also confirmed via Kiraya's saved decklist. Porkguy's copy (revealed via shield to hand at t20, never played/paired) shows no triggered text and stays genuinely unresolved between GD05-081/ST04-010. Pinned id here is Kiraya's instance."
+    owner:
+      - "Kiraya"
+      - "Porkguy"
+    seen:
+      - "pilot"
+      - "shield"
+  Kshatriya:
+    id: null
+    candidates:
+      - "GD01-044"
+      - "GD01-051"
+    note: "ambiguous: deployed unpaired (no pilot ever linked) and destroyed by Gundam Barbatos Lupus's flat damage before ever attacking — GD01-044's When-Paired ping never had a chance to trigger, and both printings share the same printed HP4, so no distinguishing evidence"
+    owner: "Porkguy"
+    seen:
+      - "deployed"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'M1 Astray Shrike' (GD05-015, Orb) — Kiraya's freedom_ibo_v1_2 decklist carries this printing"
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Marida Cruz":
+    id: "GD01-093"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Porkguy"
+    seen:
+      - "pilot"
+      - "returned to deck"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "Porkguy"
+    seen:
+      - "base"
+  "Neo Zeong":
+    id: "GD04-033"
+    type: "UNIT"
+    level: 9
+    cost: 8
+    ap: 6
+    hp: 7
+    owner: "Porkguy"
+    seen:
+      - "discarded"
+  "Schuzrum-Galluss":
+    id: "GD04-040"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Porkguy"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Freedom Gundam":
+    id: "GD05-002"
+    type: "UNIT"
+    level: 8
+    cost: 6
+    ap: 5
+    hp: 6
+    owner:
+      - "Kiraya"
+      - "Porkguy"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "discarded"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "deployed"
+      - "returned to deck"
+  "Unicorn Gundam 02 Banshee (Destroy Mode)":
+    id: "GD01-003"
+    type: "UNIT"
+    level: 6
+    cost: 4
+    ap: 5
+    hp: 4
+    owner: "Porkguy"
+    seen:
+      - "deployed"
+      - "returned to deck"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Porkguy"
+    action: "keep_hand"
+turns:
+  - turn: 1
+    active_player: "Porkguy"
+    actions:
+      - action: "play_command"
+        player: "Porkguy"
+        card: "Airframe Seizure"
+        effects:
+          - "Full Frontal discarded"
+          - "Airframe Seizure: Draw 2 cards"
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Porkguy"
+    actions: []
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "play_command"
+        player: "Porkguy"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 5
+    active_player: "Porkguy"
+    actions: []
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Porkguy"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Graze Custom, now destroyed"
+  - turn: 7
+    active_player: "Porkguy"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Porkguy"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, leaving 4 HP remaining"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+  - turn: 9
+    active_player: "Porkguy"
+    actions:
+      - action: "deploy"
+        card: "Schuzrum-Galluss"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Schuzrum-Galluss"
+        linked: true
+      - action: "attack"
+        player: "Porkguy"
+        attacker: "Schuzrum-Galluss"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Porkguy"
+            card: "Battle of Aces"
+            effects:
+              - "Battle of Aces: Dealt 3 damage to Gundam Barbatos 1st Form, now destroyed"
+        final_target: "Graze Custom"
+        outcome:
+          - "Marida Cruz: Dealt 1 damage to Gundam Barbatos 1st Form, leaving 1 HP remaining"
+          - "Graze Custom received 6 damage, now destroyed"
+          - "Schuzrum-Galluss received 2 damage, leaving 2 HP remaining"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "Schuzrum-Galluss"
+        blockers: "none"
+        final_target: "Schuzrum-Galluss"
+        outcome:
+          - "Schuzrum-Galluss received 2 damage, now destroyed"
+          - "Gundam Barbatos Adapt received 6 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "No targets for M1 Astray (Shrike)"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 1 damage, leaving 3 HP remaining"
+  - turn: 11
+    active_player: "Porkguy"
+    actions:
+      - action: "play_command"
+        player: "Porkguy"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Schuzrum-Galluss"
+      - action: "pair_pilot"
+        pilot: "Full Frontal"
+        unit: "Schuzrum-Galluss"
+        linked: true
+      - action: "attack"
+        player: "Porkguy"
+        attacker: "Schuzrum-Galluss"
+        declared_target: "M1 Astray (Shrike)"
+        blockers: "none"
+        final_target: "M1 Astray (Shrike)"
+        outcome:
+          - "M1 Astray (Shrike) received 6 damage, now destroyed"
+          - "Schuzrum-Galluss received 1 damage, leaving 4 HP remaining"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "Schuzrum-Galluss"
+        blockers: "none"
+        final_target: "Schuzrum-Galluss"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "Schuzrum-Galluss received 5 damage, now destroyed"
+          - "Gundam Flauros (Ryusei-Go) received 6 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 1 damage, leaving 2 HP remaining"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "No targets for Gundam Gusion Rebake"
+  - turn: 13
+    active_player: "Porkguy"
+    actions: []
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Porkguy"
+            card: "Improved Technique"
+            effects:
+              - "Improved Technique: Dealt 3 damage to M1 Astray (Shrike), now destroyed"
+          - action: "play_command"
+            player: "Porkguy"
+            card: "Improved Technique"
+            effects:
+              - "Improved Technique: Dealt 3 damage to Gundam Barbatos 1st Form, now destroyed"
+  - turn: 15
+    active_player: "Porkguy"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        effects:
+          - "Shield card added to hand"
+      - action: "play_command"
+        player: "Porkguy"
+        card: "A Show of Resolve"
+        effects:
+          - "A Show of Resolve: Draw 2 cards"
+      - action: "deploy"
+        card: "Kshatriya"
+  - turn: 16
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Graze Custom and Gundam Barbatos 1st Form exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Kshatriya, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Barbatos 1st Form, Gundam Barbatos Adapt and Gundam Flauros (Ryusei-Go) exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Kshatriya, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 3 damage, leaving 3 HP remaining"
+  - turn: 17
+    active_player: "Porkguy"
+    actions:
+      - action: "deploy"
+        card: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+      - action: "pair_pilot"
+        pilot: "Marida Cruz"
+        unit: "Unicorn Gundam 02 Banshee (Destroy Mode)"
+        linked: true
+  - turn: 18
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Barbatos Lupus"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Barbatos Lupus and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 5 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Axis and Gundam Gusion Rebake discarded"
+          - "Unicorn Gundam 02 Banshee (Destroy Mode) (linked to Marida Cruz) returned to bottom of deck — the paired pilot goes with its Unit"
+          - "Shield card: Unicorn Gundam 02 Banshee (Destroy Mode) revealed and discarded"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Gundam Barbatos Lupus, leaving 3 HP remaining"
+  - turn: 19
+    active_player: "Porkguy"
+    actions:
+      - action: "play_command"
+        player: "Porkguy"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Gundam Barbatos Lupus, now destroyed"
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        effects:
+          - "Shield card added to hand"
+  - turn: 20
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Gundam Gusion Rebake"
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Gundam Gusion Rebake and Strike Freedom Gundam"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 7 damage, now destroyed"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kira Yamato revealed"
+          - "Shield card added to hand: Kira Yamato"
+          - "Strike Freedom Gundam: Draw a card"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "play_base"
+        card: "EX Base"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "player"
+        blockers: "none"
+        action_step:
+          - action: "play_command"
+            player: "Porkguy"
+            card: "Financier"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 7 damage, now destroyed"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 21
+    active_player: "Porkguy"
+    actions:
+      - action: "deploy"
+        card: "Strike Freedom Gundam"
+        effects:
+          - "Strike Freedom Gundam: Modifier applied to: Strike Freedom Gundam"
+          - "Strike Freedom Gundam: chose Strike Freedom Gundam"
+      - action: "pair_pilot"
+        pilot: "Kira Yamato"
+        unit: "Strike Freedom Gundam"
+        linked: true
+        effects:
+          - "Kira Yamato: Draw a card"
+      - action: "attack"
+        player: "Porkguy"
+        attacker: "Strike Freedom Gundam"
+        declared_target: "Gundam Gusion Rebake"
+        blockers: "none"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Neo Zeong and Strike Freedom Gundam discarded"
+          - "Strike Rouge (Ootori) returned to deck"
+          - "Gundam Gusion Rebake received 7 damage, now destroyed"
+          - "Strike Freedom Gundam received 3 damage, leaving 5 HP remaining"
+          - "Strike Freedom Gundam: Draw a card"
+casualties:
+  Kiraya:
+    - card: "Gundam Barbatos 1st Form"
+      turn: 4
+    - card: "Graze Custom"
+      turn: 6
+    - card: "Gundam Barbatos 1st Form"
+      turn: 9
+    - card: "Graze Custom"
+      turn: 9
+    - card: "Gundam Barbatos Adapt"
+      turn: 10
+    - card: "M1 Astray (Shrike)"
+      turn: 11
+    - card: "Gundam Flauros (Ryusei-Go)"
+      turn: 12
+    - card: "M1 Astray (Shrike)"
+      turn: 14
+    - card: "Gundam Barbatos 1st Form"
+      turn: 14
+    - card: "Gundam Barbatos Lupus"
+      turn: 19
+    - card: "Gundam Gusion Rebake"
+      turn: 21
+  Porkguy:
+    - card: "Schuzrum-Galluss"
+      turn: 10
+    - card: "Schuzrum-Galluss"
+      turn: 12
+    - card: "Mining Asteroid Palau"
+      turn: 14
+    - card: "Kshatriya"
+      turn: 16
+    - card: "Mining Asteroid Palau"
+      turn: 18
+    - card: "Mining Asteroid Palau"
+      turn: 20
+shields_tally:
+  Kiraya:
+    ex_base: "replaced with a base (turn 6)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+  Porkguy:
+    ex_base: "destroyed (turn 20)"
+    shields_lost: 2
+    shields_to_hand: 4
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Vittoria davvero schiacciante: 0 scudi persi da Kiraya in tutta la partita (5 rimaste) contro i 6 di Porkguy — nonostante una lunga scia di scambi di unità sfavorevoli sulla carta nei primi 14 turni (Gundam Barbatos 1st Form perso 3 volte, M1 Astray Shrike 2 volte, Graze Custom 2 volte a rimozione diretta di Close Combat/Battle of Aces/Improved Technique), nessuno di quegli scambi ha mai messo in pericolo gli scudi: la pressione di Kiraya è sempre stata diretta contro basi ed EX Base avversarie, mai contro il proprio fronte difensivo."
+  - "La suite di rimozione di Porkguy (Close Combat, Improved Technique, Battle of Aces) ha eliminato 5 unità di Kiraya nel corso della partita ma non si è mai tradotta in danno reale — un caso da manuale di 'rimozione senza pressione': togliere corpi all'avversario non vince la partita se non si converte in danno o in un vantaggio di tempo concreto."
+  - "Gundam Barbatos Lupus ha ripetuto la firma della doppia attivazione nello stesso turno (t16, uccide Kshatriya prima che potesse mai attivarsi) — confermando ancora una volta il proprio ruolo di pezzo motore in questa lista."
+  - "Porkguy porta anch'esso uno splash Strike Freedom Gundam/Kira Yamato (schierato al t21) sopra un nucleo Neo Zeon (Schuzrum-Galluss/Marida Cruz/Full Frontal, Kshatriya, Unicorn Gundam 02 Banshee, Neo Zeong mai sceso — scartato solo come costo dell'abilità del proprio Strike Freedom Gundam) — coerente con l'archetipo 'Rimozione diretta pesante + Unicorn Banshee' già tracciato in ANALISI.md, non un nuovo profilo."
