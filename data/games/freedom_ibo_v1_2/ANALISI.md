@@ -1,4 +1,4 @@
-# freedom_ibo_v1_2 — analisi del mazzo (37 partite, 22-15, 59,5%)
+# freedom_ibo_v1_2 — analisi del mazzo (41 partite, 26-15, 63,4%)
 
 `freedom_ibo_v1_2` (Blu/Viola, Tekkadan + Strike Freedom Gundam/Kira Yamato)
 è una variante di `freedom_ibo_v1_1`: Gundam Flauros (Ryusei-Go) sale da 1 a
@@ -10,7 +10,7 @@ Gundam Flauros (Ryusei-Go), 3 Gundam Barbatos Lupus, 4 Strike Freedom
 Gundam, 4 Mikazuki Augus, 4 Kira Yamato, 2 Widespread Annihilation, 4
 Axis.
 
-Con **37 partite** il campione resta troppo piccolo per qualunque
+Con **41 partite** il campione resta troppo piccolo per qualunque
 conclusione — questo file esiste per iniziare a tracciare i dati man mano
 che le partite si accumulano, sullo stesso modello di
 `freedom_ibo_v1_1/ANALISI.md`.
@@ -19,18 +19,18 @@ che le partite si accumulano, sullo stesso modello di
 
 | Split | Partite | Record | Winrate |
 |---|---|---|---|
-| **Totale** | 37 | 22-15 | 59,5% |
+| **Totale** | 41 | 26-15 | 63,4% |
 | Primo turno | 11 | 6-5 | 54,5% |
-| Secondo turno | 26 | 16-10 | 61,5% |
-| Con mulligan | 16 | 7-9 | 43,8% |
-| Senza mulligan | 21 | 15-6 | 71,4% |
+| Secondo turno | 30 | 20-10 | 66,7% |
+| Con mulligan | 18 | 9-9 | 50% |
+| Senza mulligan | 23 | 17-6 | 73,9% |
 
 ## Performance per archetipo avversario
 
 | Archetipo avversario | Partite | Record | Winrate |
 |---|---|---|---|
-| Toolbox Gundam + Amuro Ray (Nu Gundam/Londo Bell) | 7 | 5-2 | 71,4% |
-| Toolbox SEED/Orb + League Militaire (ibrido) | 5 | 2-3 | 40% |
+| Toolbox Gundam + Amuro Ray (Nu Gundam/Londo Bell) | 10 | 8-2 | 80% |
+| Toolbox SEED/Orb + League Militaire (ibrido) | 6 | 3-3 | 50% |
 | MF / G Gundam (Master Gundam, Shining Gundam, Gundam Maxter/Rising Gundam) | 6 | 1-5 | 16,7% |
 | Neo Zeon (Zeong/Sazabi, Char Aznable/Char's Zaku Ⅱ, Rick Dom) | 3 | 2-1 | 66,7% |
 | Witch from Mercury / G-Witch (Gundam Calibarn, Gundam Aerial Rebuild, Gundam Exia, Suletta Mercury, rimozione generica pesante o aggro aereo) | 3 | 2-1 | 66,7% |
@@ -48,8 +48,8 @@ che le partite si accumulano, sullo stesso modello di
 | Coppia colori avversario | Partite | Record | Winrate |
 |---|---|---|---|
 | Rosso/Bianco | 8 | 3-5 | 37,5% |
-| Blu/Bianco | 6 | 3-3 | 50% |
-| Blu/Verde | 6 | 4-2 | 66,7% |
+| Blu/Bianco | 7 | 4-3 | 57,1% |
+| Blu/Verde | 9 | 7-2 | 77,8% |
 | Blu/Viola | 3 | 2-1 | 66,7% |
 | Verde/Viola | 2 | 1-1 | 50% |
 | Verde/Bianco | 3 | 3-0 | 100% |
@@ -112,6 +112,10 @@ trarre conclusioni.
 | 35 | MF / G Gundam | **L** | 2° | No | 25 | 0 / 0 | 12 / 11 | Sesta sconfitta contro MF/G Gundam (1-5, 16,7%), ma con una vera rimonta nel mezzo: dopo un'apertura dominata dal motore Shining Gundam/Domon Kasshu/Cyclone Punch, Gundam Barbatos Lupus ha rimesso in equilibrio la partita con due doppie attivazioni (t14 uccide Shining Gundam, t18 uccide Gundam Maxter) e Widespread Annihilation al t16 ha ripulito un 2-per-0 pulito (entrambe le copie di Shining Gundam in campo) — per i turni 14-20 il board è tornato sostanzialmente alla pari. La rimonta si è esaurita per logoramento di risorse, non per un errore isolato: SPIFFYMIK ha giocato Overflowing Affection 5 volte in tutta la partita, un vantaggio di pescata enorme che ha permesso di rischierare minacce mentre Kiraya restava a corto dal t20 in poi. Il finale ricalca la firma già nota del matchup: Shining Finger ha riposato preventivamente l'ultimo attaccante di Kiraya due turni di fila (t24, t25) proprio quando serviva attaccare, con entrambi già a 0 scudi. Nessun errore concreto individuato — matchup strutturalmente durissimo confermato ancora una volta |
 | 36 | Rimozione diretta pesante + Unicorn Banshee | **W** | 2° | No | 21 | 0 / 6 | 10 / 8 | Vittoria davvero schiacciante: 0 scudi persi da Kiraya in tutta la partita (5 rimaste) contro i 6 di Porkguy. Nonostante una lunga scia di scambi sfavorevoli sulla carta nei primi 14 turni (Barbatos 1st Form perso 3 volte, M1 Astray Shrike 2 volte, Graze Custom 2 volte a rimozione diretta di Close Combat/Battle of Aces/Improved Technique), nessuno di quegli scambi ha mai messo in pericolo gli scudi: la pressione è sempre stata diretta contro basi ed EX Base avversarie, mai contro il proprio fronte. Un caso da manuale di 'rimozione senza pressione' da parte dell'avversario — togliere corpi non vince la partita se non si converte in danno reale. Gundam Barbatos Lupus ripete la doppia attivazione nello stesso turno (t16, uccide Kshatriya prima che potesse mai attivarsi). Porkguy porta anch'esso uno splash Strike Freedom Gundam/Kira Yamato sopra un nucleo Neo Zeon (Schuzrum-Galluss/Marida Cruz/Full Frontal, Unicorn Gundam 02 Banshee, Neo Zeong mai sceso) — stesso archetipo già tracciato, ora 2-1 (66,7%). Nessun errore individuato |
 | 37 | Toolbox Gundam + Amuro Ray | **L** | 2° | Sì | 13 | 0 / 4 | 6 / 6 | Sconfitta rapida (13 turni), Kiraya l'ha descritta come non giocata al meglio ma rileggendo il log non emerge un errore tattico isolato: il doppio chump-block del t11 (entrambe le Strike Rouge Ootori fresche sacrificate) era la scelta giusta con soli 2 scudi rimasti su 6, non un errore. La vera differenza rispetto alle 6 vittorie precedenti contro questo stesso archetipo: qui Kiraya non ha mai pescato né Widespread Annihilation né Gundam Barbatos Lupus né Strike Freedom Gundam in 13 turni — esattamente gli strumenti che hanno deciso quasi ogni vittoria precedente contro questo matchup. Amuro Ray di Maverick ha mostrato entrambe le stampe (ST01-010 al t7, GD05-085 tre volte tra t11 e t13) — stessa scoperta già fatta contro Essen. Il colpo decisivo (t13) è un singolo turno di Nu Gundam molto efficiente: esilia 3 dal cimitero per uccidere Gundam Gusion Rebake in sola fase-danno, si cura, poi attacca di nuovo per il colpo letale diretto. Nessun errore concreto individuato — sconfitta per assenza dei pezzi motore più che per una sequenza sbagliata. Seconda sconfitta della campagna contro questo archetipo, dopo due vittorie consecutive (Essen, Regindary) — ora 5-2, 71,4% |
+| 38 | Toolbox Gundam + Amuro Ray | **W** | 2° | Sì | 22 | 0 / 4 | 12 / 12 | Vittoria strameritata, per ammissione di Kiraya. Widespread Annihilation al t10 è stato il turno di svolta: un 3-per-0 pulito (Gundam, Re-GZ e Rick Dom) che ha spazzato l'intero board di jupiter proprio mentre il pacchetto Nu Gundam/Amuro Ray si stava assemblando. Doppia copia di Strike Freedom Gundam (t18, t22) ha tenuto acceso il motore di pescate per tutta la seconda metà, sommandosi alla doppia attivazione di Gundam Barbatos Lupus al t14 — nessuna singola bomba ha deciso la partita, ma l'accumulo di piccoli vantaggi sì. Ottava vittoria della campagna contro questo archetipo (ora 6-2, 75%): Kiraya chiude con 3 scudi rimasti contro 0 di jupiter. Chiarito (grazie a Kiraya): jupiter porta 2 stampe distinte di Nu Gundam — la 'finalizer' AP5/HP5 (GD05-017, agganciata ad Amuro Ray dal t13) e quella 'economica' (GD05-020, Deploy piazza 1 Risorsa EX). I 7 danni inflitti a Gundam Barbatos Lupus al t17 sono la prima copia ancora agganciata ad Amuro: AP5 stampato + il modificatore AP+2 di Amuro Ray (GD05-085) che il database locale non espone (campi ap/hp nulli, gap noto dei dati egmanevents per i Piloti). Nessun errore individuato |
+| 39 | Toolbox Gundam + Amuro Ray | **W** | 2° | No | 23 | 0 / 1 | 10 / 12 | Vittoria sul filo, quasi un 'miracolo' per ammissione di Kiraya: entrambi i giocatori consumano quasi tutti gli scudi (Kiraya finisce a 0 rimaste su 6, l'avversario a 1 su 6). Doppio Widespread Annihilation ben piazzato (t14: 2-per-0 su entrambe le copie di Guntank; t18: 3-per-0 su Jegan/Rick Dom/Graze Custom) ha ripulito il board avversario proprio prima che Strike Freedom Gundam potesse svilupparsi senza opposizione. Da notare: qui l'Amuro Ray avversario non ha mai mostrato la cura-da-uccisione (GD05-085) nonostante due kill da battaglia — coerente solo con ST01-010, senza bisogno di split per istanza come in altre partite. Il finale (t20-23) è deciso dall'accumulo di pescate extra (Strike Freedom Gundam + Kira Yamato, 3 pescate nello stesso turno) più che da un colpo singolo — probabile resa avversaria di fronte a un board ormai incolmabile. Nona vittoria della campagna contro questo archetipo (ora 7-2, 77,8%). Nessun errore individuato |
+| 40 | Toolbox Gundam + Amuro Ray | **W** | 2° | No | 16 | 0 / 4 | 8 / 8 | Vittoria pulita in 16 turni contro lo stesso shell Blu/Verde ormai più frequente della campagna — decima vittoria contro questo archetipo (ora 8-2, 80%). Widespread Annihilation al t12 ha centrato un 3-per-1 reale (Gundam, Jegan, Re-GZ avversari contro il solo Graze Custom proprio) proprio al picco del board di Bela. Bela porta entrambe le stampe di Nu Gundam (GD05-017 'finalizer' agganciato ad Amuro Ray al t13, GD05-020 'economico' al t15) — pattern ormai ricorrente, mai una sola stampa fissa. Chiusura pulita al t16: Strike Freedom Gundam scarta le proprie 2 copie di Kira Yamato in eccesso per rimandare l'ultimo Re-GZ avversario in fondo al mazzo, poi attacca senza opposizione con Bela già a 0 scudi. Nessun errore individuato |
+| 41 | Toolbox SEED/Orb + League Militaire (ibrido) | **W** | 2° | Sì | 35 | 0 / 3 | 15 / 16 | Stravittoria autentica nonostante i 35 turni: 0 scudi persi da Kiraya in tutta la partita (4 rimaste) contro i 3 di Neoniclax — una lunga partita di stallo da blocker (Strike Rouge Ootori/Gundam Gusion Rebake contro Silver Bullet/Aile Strike Gundam/Freedom Gundam) che non ha mai messo in pericolo il fronte difensivo. Gundam Barbatos Lupus è stato il vero motore, schierato e rischierato 4 volte (t16, t20, t30, t33) grazie alla ridondanza in lista. Widespread Annihilation al t22 ha centrato un 2-per-0 pulito (entrambe le copie di Gundam Lfrith). Scoperta di rilievo: Freedom Gundam (GD01-065, During-Pair: AP-2 a un'unità nemica ogni volta che appai un pilota) infligge debuff ripetuti — pattern di logoramento da tenere presente contro liste League Militaire/SEED con questa carta. Nessun errore individuato |
 
 ## Note sulla variante v1_2
 
