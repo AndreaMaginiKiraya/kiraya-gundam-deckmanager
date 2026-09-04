@@ -1,0 +1,436 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-tylernol"
+  date_imported: "2026-08-21"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Tylernol:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Green"
+        - "Red"
+    Kiraya:
+      first_player: true
+      mulligan: false
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+cards:
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+  "Char's Zaku Ⅱ":
+    id: null
+    candidates:
+      - "GD01-026"
+      - "ST03-006"
+    note: "ambiguous: only ever seen as a shield card revealed and discarded (t7) — never played, so neither printing's own Destroyed-trigger text ever had a chance to fire"
+    owner: "Tylernol"
+    seen:
+      - "shield"
+  "Close Combat":
+    id: "ST03-013"
+    type: "COMMAND"
+    level: 2
+    cost: 2
+    owner: "Tylernol"
+    seen:
+      - "command"
+      - "shield"
+  "G-Self":
+    id: "EB01-038"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 2
+    owner: "Tylernol"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Calibarn":
+    id: "GD05-018"
+    type: "UNIT"
+    level: 8
+    cost: 7
+    ap: 7
+    hp: 5
+    owner: "Tylernol"
+    seen:
+      - "deployed"
+  "Gundam Exia Repair":
+    id: "GD05-050"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Flauros (Ryusei-Go)":
+    id: "GD05-060"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 5
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "milled"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Improved Technique":
+    id: "GD03-109"
+    type: "COMMAND"
+    level: 3
+    cost: 3
+    ap: 0
+    hp: 0
+    owner: "Tylernol"
+    seen:
+      - "command"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+  "Mining Asteroid Palau":
+    id: "GD01-128"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "Tylernol"
+    seen:
+      - "base"
+      - "shield"
+  "Schuzrum-Galluss":
+    id: "GD04-040"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Tylernol"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "milled"
+setup:
+  - player: "Tylernol"
+    action: "choose_second_player"
+  - player: "Kiraya"
+    action: "keep_hand"
+  - player: "Tylernol"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Kiraya"
+    actions: []
+  - turn: 2
+    active_player: "Tylernol"
+    actions: []
+  - turn: 3
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Exia Repair"
+  - turn: 4
+    active_player: "Tylernol"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 5
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, leaving 4 HP remaining"
+  - turn: 6
+    active_player: "Tylernol"
+    actions:
+      - action: "play_command"
+        player: "Tylernol"
+        card: "Improved Technique"
+        effects:
+          - "Improved Technique: Dealt 3 damage to Hyakuren, now destroyed"
+  - turn: 7
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Adapt"
+        effects:
+          - "No targets for Gundam Barbatos Adapt"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos Adapt"
+        linked: true
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Exia Repair"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Char's Zaku Ⅱ revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+        replaced: "EX Base"
+        effects:
+          - "Shield card added to hand"
+  - turn: 8
+    active_player: "Tylernol"
+    actions:
+      - action: "play_command"
+        player: "Tylernol"
+        card: "Close Combat"
+        effects:
+          - "Close Combat: Dealt 2 damage to Gundam Exia Repair, now destroyed"
+          - "Gundam Exia Repair milled 2: Strike Rouge (Ootori) and Gundam Gusion Rebake moved to trash"
+      - action: "deploy"
+        card: "Schuzrum-Galluss"
+  - turn: 9
+    active_player: "Kiraya"
+    actions:
+      - action: "play_base"
+        card: "Mining Asteroid Palau"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Mining Asteroid Palau revealed"
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Barbatos Adapt and Schuzrum-Galluss"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 10
+    active_player: "Tylernol"
+    actions:
+      - action: "deploy"
+        card: "G-Self"
+        effects:
+          - "Placed 1 Resource EX"
+      - action: "attack"
+        player: "Tylernol"
+        attacker: "Schuzrum-Galluss"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, leaving 1 HP remaining"
+          - "Schuzrum-Galluss received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Schuzrum-Galluss"
+  - turn: 11
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 4 damage, leaving 2 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "Mining Asteroid Palau"
+        outcome:
+          - "Mining Asteroid Palau received 2 damage, now destroyed"
+      - action: "deploy"
+        card: "Hyakuren"
+      - action: "deploy"
+        card: "Gundam Flauros (Ryusei-Go)"
+        effects:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+  - turn: 12
+    active_player: "Tylernol"
+    actions:
+      - action: "attack"
+        player: "Tylernol"
+        attacker: "G-Self"
+        declared_target: "Graze Custom"
+        blockers: "none"
+        final_target: "Graze Custom"
+        outcome:
+          - "Graze Custom received 3 damage, now destroyed"
+          - "G-Self received 2 damage, now destroyed"
+      - action: "attack"
+        player: "Tylernol"
+        attacker: "Schuzrum-Galluss"
+        declared_target: "Gundam Barbatos Adapt"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 4 damage, now destroyed"
+          - "Schuzrum-Galluss received 3 damage, now destroyed"
+      - action: "deploy"
+        card: "Gundam Calibarn"
+        effects:
+          - "Placed 3 Resource EX"
+  - turn: 13
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Close Combat revealed"
+          - "Shield card: Close Combat moved to trash"
+          - "Close Combat: Dealt 2 damage to Gundam Flauros (Ryusei-Go), leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Adapt"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: G-Self revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Flauros (Ryusei-Go)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "player"
+        outcome:
+          - "No targets for Gundam Flauros (Ryusei-Go)"
+          - "No more shields available, game is over!"
+casualties:
+  Tylernol:
+    - card: "Mining Asteroid Palau"
+      turn: 7
+    - card: "Schuzrum-Galluss"
+      turn: 10
+    - card: "Mining Asteroid Palau"
+      turn: 11
+    - card: "G-Self"
+      turn: 12
+    - card: "Schuzrum-Galluss"
+      turn: 12
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 6
+    - card: "Gundam Exia Repair"
+      turn: 8
+    - card: "Graze Custom"
+      turn: 12
+    - card: "Gundam Gusion Rebake"
+      turn: 12
+shields_tally:
+  Tylernol:
+    ex_base: "replaced with a base (turn 4)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+  Kiraya:
+    ex_base: "replaced with a base (turn 7)"
+    shields_lost: 0
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 5
+study_notes:
+  - "Stravittoria netta in 13 turni: 0 scudi persi da Kiraya (5 rimaste) contro i 6 di Tylernol — la curva economica (Gundam Exia Repair, Gundam Barbatos Adapt, Graze Custom) ha corso senza mai trovare un vero bloccante, abbattendo l'EX Base sostituita (Mining Asteroid Palau, ricostruita due volte) in appena 3 attacchi ripetuti."
+  - "Gundam Calibarn è stato deployato solo al t12, un turno prima della fine — mai arrivato in tempo per esprimere la propria minaccia (a differenza delle partite contro Altis e ringo, dove Calibarn/Schwarzette hanno deciso il match). Conferma quanto la velocità di sviluppo conti in questo matchup: la stessa bomba può essere quasi ininfluente se arriva troppo tardi."
+  - "Lista avversaria eterogenea (Char's Zaku Ⅱ/Schuzrum-Galluss Neo Zeon, G-Self, Gundam Calibarn, rimozione generica Improved Technique/Close Combat) — primo incontro della campagna con questa combinazione esatta, troppo poco campione per classificarla oltre 'toolbox multi-fazione'."

@@ -1,0 +1,585 @@
+game:
+  id: "freedom_ibo_v1_2/2026-08-14_kiraya-vs-andy"
+  date_imported: "2026-08-21"
+  source: "Mobile Suit Arena - Battle logs"
+  result: "win:Kiraya"
+  players:
+    Kiraya:
+      first_player: false
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Purple"
+      deck: "freedom_ibo_v1_2"
+    Andy:
+      first_player: true
+      mulligan: true
+      colors:
+        - "Blue"
+        - "Green"
+      colors_note: "raw auto-detected colors showed only Green; 'Gundam' is unresolved between 5 candidates but every one of them (checked: GD01-001, GD04-001, ST01-001) is Blue, so the deck is confidently Blu/Verde regardless of which exact printing"
+cards:
+  "Amuro Ray":
+    id: "GD05-085"
+    note: "split by instance, two distinct copies both owned by Andy merged into one entry: t9 pairing (to 'Gundam') triggers 'Rested unit: Gundam Gusion Rebake', matching ST01-010's own When-Paired text verbatim. t11 and t15 pairings (both to Re-GZ) precede 'Healed 2 damage to: Re-GZ' right after it destroys a Kiraya unit (Gundam Gusion Rebake, then Strike Rouge Ootori) with battle damage, matching GD05-085's own text verbatim both times. Pinned id here is the GD05-085 instance (better evidenced, 2 of 3 occurrences); the t9/'Gundam' pairing is ST01-010."
+    owner: "Andy"
+    seen:
+      - "pilot"
+  Axis:
+    id: "GD05-129"
+    type: "BASE"
+    level: 4
+    cost: 1
+    ap: 0
+    hp: 6
+    owner: "Kiraya"
+    seen:
+      - "base"
+      - "shield"
+  "Graze Custom":
+    id: "ST05-004"
+    type: "UNIT"
+    level: 2
+    cost: 1
+    ap: 2
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Gundam:
+    id: null
+    candidates:
+      - "GD01-001"
+      - "GD01-013"
+      - "GD04-001"
+      - "GD04-008"
+      - "ST01-001"
+    note: "ambiguous: no Repair-2 end-of-turn trigger or other distinguishing ability text observed before it was destroyed at t10 — unlike other games this campaign where Repair 2 confirmed ST01-001"
+    owner: "Andy"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Gundam Barbatos 1st Form":
+    id: "GD02-054"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 2
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Adapt":
+    id: "GD03-056"
+    type: "UNIT"
+    level: 4
+    cost: 2
+    ap: 2
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "exiled"
+      - "shield"
+  "Gundam Barbatos Lupus":
+    id: "GD03-050"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 7
+    cost: 6
+    ap: 5
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "activated"
+      - "attacker"
+      - "deployed"
+  "Gundam Gusion Rebake":
+    id: "GD02-055"
+    note: "resolved via saved deck 'freedom_ibo_v1_2'"
+    type: "UNIT"
+    level: 5
+    cost: 4
+    ap: 3
+    hp: 5
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "blocker"
+      - "deployed"
+      - "exiled"
+  Guntank:
+    id: "GD01-008"
+    note: "resolved: both t7 Deploy triggers ('Guntank: Dealt 1 damage to Graze Custom') match GD01-008's Deploy text verbatim ('Choose 1 rested enemy Unit. Deal 1 damage to it.') — Graze Custom had just attacked on Kiraya's own t6 turn and was still rested going into Andy's t7 turn, a legal target; ST01-004's Deploy is a rest effect on a low-HP target, not damage, never observed"
+    owner: "Andy"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  Hyakuren:
+    id: "ST05-006"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 4
+    hp: 3
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "exiled"
+  Jegan:
+    id: null
+    candidates:
+      - "GD01-016"
+      - "GD05-027"
+    note: "ambiguous: Nu Gundam never appeared this game, so the usual Londo-Bell-fuel-exile signature never had a chance to fire — no other distinguishing evidence observed (only attacked and was later shield-discarded)"
+    owner: "Andy"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Kayra's Re-GZ":
+    id: "GD05-029"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Andy"
+    seen:
+      - "deployed"
+      - "shield"
+  "M1 Astray (Shrike)":
+    id: "GD05-015"
+    note: "resolved: display name is Mobile Suit Arena's rendering of the printed name 'M1 Astray Shrike' (GD05-015, Orb) — Kiraya's freedom_ibo_v1_2 decklist carries this printing"
+    owner: "Kiraya"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Mikazuki Augus":
+    id: "ST05-010"
+    type: "PILOT"
+    level: 4
+    cost: 1
+    ap: 2
+    hp: 1
+    owner: "Kiraya"
+    seen:
+      - "pilot"
+      - "shield"
+  "Re-GZ":
+    id: "GD05-019"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 4
+    hp: 2
+    owner: "Andy"
+    seen:
+      - "attacker"
+      - "deployed"
+  "Rick Dom":
+    id: "GD01-030"
+    type: "UNIT"
+    level: 3
+    cost: 2
+    ap: 3
+    hp: 3
+    owner: "Andy"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+  "Strike Rouge (Ootori)":
+    id: "GD05-005"
+    type: "UNIT"
+    level: 4
+    cost: 3
+    ap: 3
+    hp: 4
+    owner: "Kiraya"
+    seen:
+      - "blocker"
+      - "deployed"
+      - "shield"
+  "Underground Desert Base":
+    id: "GD01-126"
+    type: "BASE"
+    level: 2
+    cost: 1
+    hp: 6
+    owner: "Andy"
+    seen:
+      - "base"
+  "Zaku Ⅱ":
+    id: "ST03-008"
+    note: "resolved: t7 attack shows 'Zaku Ⅱ: Modifier applied to: Zaku Ⅱ' (self-target on attack declare) matching ST03-008's own 【Attack】AP+2 text verbatim; GD01-035 has no effect text at all"
+    owner: "Andy"
+    seen:
+      - "attacker"
+      - "deployed"
+      - "shield"
+setup:
+  - player: "Kiraya"
+    action: "choose_second_player"
+  - player: "Andy"
+    action: "mulligan"
+  - player: "Kiraya"
+    action: "mulligan"
+turns:
+  - turn: 1
+    active_player: "Andy"
+    actions: []
+  - turn: 2
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 3
+    active_player: "Andy"
+    actions:
+      - action: "deploy"
+        card: "Zaku Ⅱ"
+  - turn: 4
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Hyakuren"
+  - turn: 5
+    active_player: "Andy"
+    actions:
+      - action: "deploy"
+        card: "Rick Dom"
+  - turn: 6
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Hyakuren"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 4 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Rick Dom revealed and discarded"
+      - action: "deploy"
+        card: "Graze Custom"
+      - action: "deploy"
+        card: "Graze Custom"
+  - turn: 7
+    active_player: "Andy"
+    actions:
+      - action: "attack"
+        player: "Andy"
+        attacker: "Zaku Ⅱ"
+        declared_target: "player"
+        blockers: "none"
+        modifiers:
+          - "Zaku Ⅱ: Modifier applied to: Zaku Ⅱ"
+        final_target: "EX Base"
+        outcome:
+          - "EX Base received 3 damage, now destroyed"
+      - action: "attack"
+        player: "Andy"
+        attacker: "Rick Dom"
+        declared_target: "Hyakuren"
+        blockers: "none"
+        final_target: "Hyakuren"
+        outcome:
+          - "Hyakuren received 3 damage, now destroyed"
+          - "Rick Dom received 4 damage, now destroyed"
+          - "Breach 2 Shield card: Mikazuki Augus revealed"
+          - "Shield card added to hand: Mikazuki Augus"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Graze Custom, leaving 1 HP remaining"
+      - action: "deploy"
+        card: "Guntank"
+        effects:
+          - "Guntank: Dealt 1 damage to Graze Custom, now destroyed"
+      - action: "deploy"
+        card: "Jegan"
+  - turn: 8
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Zaku Ⅱ"
+        blockers: "none"
+        final_target: "Zaku Ⅱ"
+        outcome:
+          - "Zaku Ⅱ received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, leaving 1 HP remaining"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Kayra's Re-GZ revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Graze Custom and Jegan"
+  - turn: 9
+    active_player: "Andy"
+    actions:
+      - action: "deploy"
+        card: "Gundam"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Gundam"
+        linked: true
+        effects:
+          - "Rested unit: Gundam Gusion Rebake"
+      - action: "attack"
+        player: "Andy"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Strike Rouge (Ootori) revealed and discarded"
+      - action: "attack"
+        player: "Andy"
+        attacker: "Guntank"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos 1st Form revealed and discarded"
+      - action: "attack"
+        player: "Andy"
+        attacker: "Jegan"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Gundam Barbatos Adapt revealed and discarded"
+      - action: "play_base"
+        card: "Axis"
+      - action: "attack"
+        player: "Andy"
+        attacker: "Gundam"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Axis revealed"
+          - "Shield card added to hand"
+  - turn: 10
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Gusion Rebake"
+        effects:
+          - "Gundam Gusion Rebake: Dealt 1 damage to: Gundam Gusion Rebake and Gundam"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Gusion Rebake"
+        linked: false
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Gusion Rebake and Jegan"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Gusion Rebake"
+        declared_target: "Gundam"
+        blockers: "none"
+        final_target: "Gundam"
+        outcome:
+          - "Gundam received 5 damage, now destroyed"
+          - "Gundam Gusion Rebake received 5 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Guntank"
+        blockers: "none"
+        final_target: "Guntank"
+        outcome:
+          - "Guntank received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Graze Custom"
+        declared_target: "Guntank"
+        blockers: "none"
+        final_target: "Guntank"
+        outcome:
+          - "Guntank received 2 damage, now destroyed"
+          - "Graze Custom received 1 damage, now destroyed"
+  - turn: 11
+    active_player: "Andy"
+    actions:
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ"
+        linked: true
+      - action: "attack"
+        player: "Andy"
+        attacker: "Re-GZ"
+        declared_target: "player"
+        blockers: "Gundam Gusion Rebake"
+        final_target: "Gundam Gusion Rebake"
+        outcome:
+          - "Gundam Gusion Rebake received 6 damage, now destroyed"
+          - "Re-GZ received 3 damage, leaving 1 HP remaining"
+          - "Healed 2 damage to: Re-GZ"
+  - turn: 12
+    active_player: "Kiraya"
+    actions:
+      - action: "deploy"
+        card: "Gundam Barbatos Lupus"
+      - action: "deploy"
+        card: "M1 Astray (Shrike)"
+        effects:
+          - "M1 Astray (Shrike): Dealt 1 damage to Re-GZ, leaving 2 HP remaining"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Gundam Gusion Rebake, Graze Custom and Graze Custom exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Re-GZ, now destroyed"
+  - turn: 13
+    active_player: "Andy"
+    actions:
+      - action: "deploy"
+        card: "Kayra's Re-GZ"
+        effects:
+          - "Returned to deck top"
+  - turn: 14
+    active_player: "Kiraya"
+    actions:
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "M1 Astray (Shrike)"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Jegan revealed and discarded"
+      - action: "deploy"
+        card: "Gundam Barbatos 1st Form"
+      - action: "pair_pilot"
+        pilot: "Mikazuki Augus"
+        unit: "Gundam Barbatos 1st Form"
+        linked: true
+        effects:
+          - "Mikazuki Augus: Dealt 1 damage to: Gundam Barbatos 1st Form and Kayra's Re-GZ"
+      - action: "activate"
+        card: "Gundam Barbatos Lupus"
+        effects:
+          - "Hyakuren, Gundam Barbatos 1st Form and Gundam Barbatos Adapt exiled from the game"
+          - "Gundam Barbatos Lupus: Dealt 2 damage to Kayra's Re-GZ, now destroyed"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos 1st Form"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Gundam Barbatos 1st Form: Draw a card"
+          - "Shield card: Guntank revealed and discarded"
+      - action: "attack"
+        player: "Kiraya"
+        attacker: "Gundam Barbatos Lupus"
+        declared_target: "player"
+        blockers: "none"
+        final_target: "shield"
+        outcome:
+          - "Shield card: Zaku Ⅱ revealed and discarded"
+      - action: "deploy"
+        card: "Strike Rouge (Ootori)"
+  - turn: 15
+    active_player: "Andy"
+    actions:
+      - action: "play_base"
+        card: "Underground Desert Base"
+        effects:
+          - "Shield card added to hand"
+      - action: "deploy"
+        card: "Re-GZ"
+      - action: "pair_pilot"
+        pilot: "Amuro Ray"
+        unit: "Re-GZ"
+        linked: true
+      - action: "attack"
+        player: "Andy"
+        attacker: "Re-GZ"
+        declared_target: "Gundam Barbatos Lupus"
+        blockers: "Strike Rouge (Ootori)"
+        final_target: "Strike Rouge (Ootori)"
+        outcome:
+          - "Strike Rouge (Ootori) received 6 damage, now destroyed"
+          - "Re-GZ received 3 damage, leaving 1 HP remaining"
+          - "Healed 2 damage to: Re-GZ"
+      - action: "deploy"
+        card: "Gundam"
+  - turn: 16
+    active_player: "Kiraya"
+    actions: []
+casualties:
+  Kiraya:
+    - card: "Hyakuren"
+      turn: 7
+    - card: "Graze Custom"
+      turn: 7
+    - card: "Gundam Gusion Rebake"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Graze Custom"
+      turn: 10
+    - card: "Gundam Gusion Rebake"
+      turn: 11
+    - card: "Strike Rouge (Ootori)"
+      turn: 15
+  Andy:
+    - card: "Rick Dom"
+      turn: 7
+    - card: "Zaku Ⅱ"
+      turn: 8
+    - card: "Gundam"
+      turn: 10
+    - card: "Guntank"
+      turn: 10
+    - card: "Guntank"
+      turn: 10
+    - card: "Re-GZ"
+      turn: 12
+    - card: "Kayra's Re-GZ"
+      turn: 14
+shields_tally:
+  Kiraya:
+    ex_base: "destroyed (turn 7)"
+    shields_lost: 3
+    shields_to_hand: 2
+    shields_deployed: 1
+    shields_remaining: 0
+  Andy:
+    ex_base: "destroyed (turn 6)"
+    shields_lost: 5
+    shields_to_hand: 1
+    shields_deployed: 0
+    shields_remaining: 0
+study_notes:
+  - "Vittoria vinta per abbandono al t16, ma il punteggio scudi era già praticamente pari: entrambi i giocatori finiscono a 0 scudi rimasti (Kiraya 3 persi + 2 in mano + 1 schierata, Andy 5 persi + 1 in mano) — una vera corsa punto a punto, coerente con la lettura di Kiraya ('vinta per poco')."
+  - "Gundam Barbatos Lupus ha fatto il lavoro decisivo con due attivazioni singole in turni separati (t12 uccide Re-GZ, t14 uccide Kayra's Re-GZ) invece della solita doppia attivazione nello stesso turno — comunque efficace, ha eliminato 2 minacce chiave del pacchetto Nu Gundam/Amuro Ray prima che potessero stabilizzarsi (Nu Gundam stesso non è mai arrivato in campo)."
+  - "Amuro Ray di Andy ha mostrato entrambe le stampe (ST01-010 al t9 su 'Gundam', GD05-085 al t11/t15 su Re-GZ, con cura-da-uccisione confermata due volte) — stessa scoperta ricorrente in questo archetipo, non una stampa fissa."
+  - "Curioso: senza Nu Gundam mai sceso, il pacchetto avversario è rimasto sulla sola combo Gundam/Re-GZ + Amuro Ray — un profilo più debole del solito per questo archetipo, e probabilmente il motivo per cui Andy si è arreso appena il divario di scudi si è azzerato senza una vera minaccia di chiusura in mano."
